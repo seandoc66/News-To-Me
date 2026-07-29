@@ -16,6 +16,21 @@ struct FeedView: View {
     /// would break navigation identity mid-read.
     @State private var path: [String] = []
 
+    /// Set the first time a page is turned, and remembered, so the swipe hint
+    /// appears for a newcomer and never nags again.
+    @AppStorage("hasScrolledFeed") private var hasScrolledFeed = false
+
+    #if DEBUG
+    /// Dev hook: launching with `-startAt N` opens straight onto the Nth card
+    /// (1-based), so layouts can be screenshotted without touch input.
+    ///
+    ///     xcrun simctl launch <device> com.shanedoc.NewsApp -startAt 3
+    private var debugStartIndex: Int? {
+        let n = UserDefaults.standard.integer(forKey: "startAt")
+        return n > 0 ? n - 1 : nil
+    }
+    #endif
+
     var body: some View {
         NavigationStack(path: $path) {
             Group {
@@ -46,15 +61,21 @@ struct FeedView: View {
             ScrollView(.vertical) {
                 LazyVStack(spacing: 0) {
                     ForEach(store.articles) { article in
-                        ArticleCardView(
-                            article: article,
-                            toast: $toast,
-                            safeTop: safeTop,
-                            safeBottom: safeBottom
-                        )
+                        // A NavigationLink rather than .onTapGesture: a
+                        // full-screen tap recogniser inside a ScrollView can
+                        // swallow the vertical drag, whereas a link cooperates
+                        // with scrolling — a drag cancels it and pages instead.
+                        NavigationLink(value: article.id) {
+                            ArticleCardView(
+                                article: article,
+                                toast: $toast,
+                                safeTop: safeTop,
+                                safeBottom: safeBottom
+                            )
+                        }
+                        .buttonStyle(.plain)
                         .containerRelativeFrame([.horizontal, .vertical])
                         .fold()
-                        .onTapGesture { path.append(article.id) }
                     }
                 }
                 .scrollTargetLayout()
@@ -63,9 +84,31 @@ struct FeedView: View {
             .scrollIndicators(.hidden)
             .scrollPosition(id: $currentID)
             .ignoresSafeArea()
-            .onChange(of: currentID) { _, id in
+            .overlay(alignment: .bottom) {
+                // Each card fills the screen exactly, so without this there is
+                // no visual cue that anything exists below it.
+                if !hasScrolledFeed, store.articles.count > 1 {
+                    SwipeUpHint()
+                        .padding(.bottom, safeBottom + 18)
+                        .transition(.opacity)
+                }
+            }
+            .onChange(of: currentID) { old, id in
+                // Only a genuine page change counts — `currentID` also goes from
+                // nil to the first article's id on appear.
+                if let old, let id, old != id {
+                    withAnimation(.easeOut(duration: 0.4)) { hasScrolledFeed = true }
+                }
                 Task { await prefetchNeighbours(of: id) }
             }
+            #if DEBUG
+            .task(id: store.articles.count) {
+                guard let index = debugStartIndex,
+                      store.articles.indices.contains(index) else { return }
+                try? await Task.sleep(for: .milliseconds(400))
+                currentID = store.articles[index].id
+            }
+            #endif
         }
     }
 
@@ -125,6 +168,27 @@ private extension View {
                 .brightness(-magnitude * 0.45)
                 .scaleEffect(1 - magnitude * 0.06)
         }
+    }
+}
+
+// MARK: - Swipe affordance
+
+/// A gently rising chevron telling you there's another story above this one.
+private struct SwipeUpHint: View {
+    @State private var lift = false
+
+    var body: some View {
+        VStack(spacing: 2) {
+            Image(systemName: "chevron.compact.up")
+                .font(.system(size: 26, weight: .medium))
+            Text("Swipe for next story")
+                .font(.caption2.weight(.medium))
+        }
+        .foregroundStyle(.white.opacity(0.55))
+        .offset(y: lift ? -6 : 0)
+        .animation(.easeInOut(duration: 1.1).repeatForever(autoreverses: true), value: lift)
+        .allowsHitTesting(false)
+        .onAppear { lift = true }
     }
 }
 
