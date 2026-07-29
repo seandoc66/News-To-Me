@@ -1,0 +1,100 @@
+import SwiftUI
+
+/// The full story. Reached by tapping a card, which slides in from the right —
+/// the photo reappears much smaller at the top, and neither headline overlay nor
+/// subtitle are repeated here.
+struct ArticleDetailView: View {
+    let article: Article
+    @Binding var toast: ToastMessage?
+
+    @Environment(\.openURL) private var openURL
+
+    var body: some View {
+        ScrollView {
+            VStack(alignment: .leading, spacing: 0) {
+                CachedImage(
+                    url: article.imageURL(base: FeedEndpoint.base),
+                    category: article.category,
+                    maxPointSize: 700
+                )
+                .frame(height: 200)
+                .overlay(alignment: .bottomLeading) {
+                    CategoryTag(category: article.category)
+                        .padding(16)
+                }
+
+                VStack(alignment: .leading, spacing: 18) {
+                    Text(article.headline)
+                        .font(.system(.title2, design: .serif, weight: .bold))
+                        .fixedSize(horizontal: false, vertical: true)
+
+                    Text(article.body)
+                        .font(.system(.body, design: .serif))
+                        .lineSpacing(6)
+                        .foregroundStyle(.white.opacity(0.88))
+                        .fixedSize(horizontal: false, vertical: true)
+
+                    if !article.sources.isEmpty {
+                        sourcesSection
+                    }
+                }
+                .padding(.horizontal, 22)
+                .padding(.top, 22)
+                .padding(.bottom, 40)
+            }
+        }
+        .background(.black)
+        .scrollIndicators(.hidden)
+        .toolbar {
+            ToolbarItem(placement: .topBarTrailing) {
+                HeartButton(article: article, toast: $toast)
+            }
+        }
+        .toolbarBackground(.hidden, for: .navigationBar)
+        .navigationBarTitleDisplayMode(.inline)
+    }
+
+    private var sourcesSection: some View {
+        VStack(alignment: .leading, spacing: 10) {
+            Divider()
+                .overlay(.white.opacity(0.15))
+                .padding(.vertical, 6)
+
+            Text("SOURCES")
+                .font(.system(size: 11, weight: .bold))
+                .tracking(1.0)
+                .foregroundStyle(.white.opacity(0.45))
+
+            ForEach(article.sources) { source in
+                Button {
+                    openURL(source.url)
+                } label: {
+                    HStack(spacing: 10) {
+                        VStack(alignment: .leading, spacing: 2) {
+                            Text(source.name)
+                                .font(.subheadline.weight(.semibold))
+                                .foregroundStyle(.white)
+                            Text(source.displayHost)
+                                .font(.caption)
+                                .foregroundStyle(.white.opacity(0.45))
+                        }
+                        Spacer(minLength: 8)
+                        Image(systemName: "arrow.up.right")
+                            .font(.system(size: 12, weight: .semibold))
+                            .foregroundStyle(.white.opacity(0.5))
+                    }
+                    .padding(.horizontal, 14)
+                    .padding(.vertical, 11)
+                    .frame(maxWidth: .infinity, alignment: .leading)
+                    .background(.white.opacity(0.07), in: .rect(cornerRadius: 12))
+                }
+                .buttonStyle(.plain)
+            }
+
+            Text(article.publishedAt.formatted(date: .abbreviated, time: .shortened))
+                .font(.caption2)
+                .foregroundStyle(.white.opacity(0.3))
+                .padding(.top, 4)
+        }
+    }
+}
