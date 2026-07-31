@@ -17,7 +17,7 @@ When you are done, **write a handoff document back** telling Shane and Claude
 Code what you decided, so the app can be pointed at your feed. Section 9 lists
 exactly what that needs to contain.
 
-Repo: `/Users/shanedoc/Sites/iOS-News-App`
+Repo: `/Users/shanedoc/Sites/News-To-Me`
 Working directory for everything below: `feed-data/`
 
 ---
@@ -210,7 +210,7 @@ Whatever you pick must meet these requirements:
 
 Some context that may help, but decide for yourself:
 
-- The GitHub remote is `seandoc66/iOS-News-App`. It is currently **private**, and
+- The GitHub remote is `seandoc66/News-To-Me`. It is currently **private**, and
   the account this machine authenticates as has **push access** already — so
   `git push` needs no new credentials. Making the repo public is fine by Shane if
   that simplifies things.
@@ -284,7 +284,7 @@ Shane and Claude Code. The app currently points at a placeholder and **cannot
 fetch anything until it has your answers.** It must contain:
 
 1. **The exact, full URL of `latest.json`.** e.g.
-   `https://example.github.io/iOS-News-App/latest.json`
+   `https://example.github.io/News-To-Me/latest.json`
 2. **The base URL that relative image paths resolve against**, and one **real
    example image URL** so it can be verified with `curl`.
 3. **Confirmation it is publicly reachable with no authentication**, ideally with
