@@ -33,10 +33,23 @@ Repo: `/Users/shanedoc/Sites/News-To-Me`
 
 Most Lugo and Spanish coverage is in Spanish or Galician. Read it in the original
 and write in English. Do **not** restrict sourcing to English-language outlets —
-that would gut local coverage. Useful starting points, not a required list:
-*El Progreso*, *La Voz de Galicia*, *El Correo Gallego*, *Noticias Lugo*, the
-Concello de Lugo and Deputación de Lugo press pages; nationally *El País*,
-*El Mundo*, *RTVE*, *20minutos*, *Público*, *Europa Press*.
+that would gut local coverage.
+
+### Sources by section
+
+| Section | Sources |
+|---|---|
+| **local** | *El Progreso*, *La Voz de Galicia*, *El Correo Gallego*, *Noticias Lugo*, Concello de Lugo press page, Deputación de Lugo press page |
+| **national** | *El País*, *El Mundo*, *RTVE*, *20minutos*, *Público*, *Europa Press* |
+| **global** | Reuters, BBC, AP, The Guardian |
+| **tech** | Hacker News, TechCrunch, Wired, VentureBeat, The Verge, arXiv |
+| **ai** | Simon Willison's blog (simonwillison.net), Anthropic blog, OpenAI blog, plus general tech sources above |
+
+### Future: configurable sources & story counts
+
+A future app feature should let Shane manage sources and daily story counts per
+section from within the iOS app. This will require extending the JSON contract
+(see section 11).
 
 ---
 
@@ -146,18 +159,17 @@ third-party URL in `imageURL`.**
 
 This is deliberate: the app caches photos to disk and keeps them for saved
 articles indefinitely, so a story Shane saved six months ago must still have its
-picture. Hotlinked images rot. Self-hosting also sidesteps whether the source
-permits hotlinking at all.
+picture. Hotlinked images rot.
 
 For each story:
 
-1. **Find a relevant photo.** Prefer openly-licensed or public-domain sources, or
-   the outlet's own Open Graph image. It must genuinely illustrate *that* story —
-   a generic stock laptop photo on every tech story defeats the point. Shane
-   cares about the photos.
+1. **Find a relevant photo.** Grab the Open Graph image from the source article,
+   or any news photo that genuinely illustrates *that* story — a generic stock
+   laptop photo on every tech story defeats the point. Shane cares about the
+   photos.
 2. **Download it, resize to max 1000px on the long edge, JPEG quality ~75**
    (roughly 60–120KB per file).
-3. **Save as `public/images/<article-id>.jpg`** and set `imageURL` to
+3. **Save as `docs/images/<article-id>.jpg`** and set `imageURL` to
    `/images/<article-id>.jpg`.
 
 `scripts/fetch-photos.mjs` will do steps 2–3 for you: put a
@@ -167,6 +179,12 @@ page, resizes via `sips`, rewrites `imageURL`, and exits non-zero listing any
 story whose photo failed. It throttles and retries, but **note that some image
 hosts rate-limit hard** — if you are pulling many photos from one origin, expect
 429s and pace accordingly. You are free to ignore this script and do it yourself.
+
+### What if a story has no good photo?
+
+If after reasonable effort there is no suitable photo for a genuinely interesting
+story, skip the story rather than pad with a generic image. A story with no photo
+is better than one with a photo that adds nothing.
 
 ### Rolling 14-day window
 
@@ -297,6 +315,42 @@ object storage and using absolute URLs in `imageURL` needs no app change — the
 schema already accepts them.
 
 **There is a draft batch already in the repo** at
-`public/archive/2026-07-31.json`: 14 real articles with verified sources, of which
+`docs/archive/2026-07-31.json`: 14 real articles with verified sources, of which
 only 2 have photos fetched. Treat it as a worked example of the format, or
 overwrite it with your first real run — Shane has no attachment to it.
+
+---
+
+## 11. Future app features (for Claude Code)
+
+### Configurable sources & story counts
+
+Add a settings screen in the iOS app that lets Shane manage which sources are
+used per section and how many stories to aim for daily. This will require
+extending the JSON contract — likely a `config` object alongside `articles`:
+
+```json
+{
+  "generatedAt": "2026-07-31T06:00:00Z",
+  "config": {
+    "sections": {
+      "local": { "min": 3, "max": 6 },
+      "national": { "min": 3, "max": 6 },
+      "global": { "min": 2, "max": 5 },
+      "tech": { "min": 2, "max": 4 },
+      "ai": { "min": 1, "max": 3 }
+    }
+  },
+  "articles": []
+}
+```
+
+The app would write this config back to a file or send it to the feed pipeline.
+The exact mechanism (API endpoint, config file in the repo, etc.) is to be
+decided.
+
+### Auto-delete unsaved stories after 1 week
+
+Stories that Shane has not saved (hearted) should be automatically deleted from
+the device after 7 days. Saved stories persist indefinitely. This is purely an
+app-side feature — the feed pipeline only publishes what's new each day.
