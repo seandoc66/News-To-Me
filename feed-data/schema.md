@@ -79,10 +79,14 @@ without bound, **delete image files older than 14 days** in the same commit that
 adds new ones. (Git history retains deleted blobs, so without this the repo grows
 by roughly 1GB/year permanently.)
 
-*Upgrade path if repo size ever becomes a problem:* move images to Vercel Blob
-storage and put the returned absolute CDN URL in `imageURL` instead. The schema
-already supports this — `imageURL` may be either a relative path or an absolute
-URL, and the app handles both.
+*Upgrade path if repo size ever becomes a problem:* move images to object storage
+and put the returned absolute CDN URL in `imageURL` instead. The schema already
+supports this — `imageURL` may be either a relative path or an absolute URL, and
+the app handles both.
+
+**Hosting is not specified here.** Where `latest.json` and `images/` are served
+from is Hermes' decision; see section 6 of [`HERMES_HANDOFF.md`](HERMES_HANDOFF.md)
+for the requirements any choice has to meet. This document only defines the data.
 
 **Licensing note:** prefer openly-licensed images (Wikimedia Commons, Unsplash,
 government/press-release imagery, or the outlet's own Open Graph image) over

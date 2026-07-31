@@ -1,215 +1,326 @@
-# Hermes Task Spec — Daily News Feed
+# Hermes Task Spec — Daily Personal News Feed
 
-This is the complete brief for generating the daily news feed consumed by the
-personal iOS news app. It is written to be run unattended, once per day.
+You are being asked to produce and publish a daily news feed for Shane's personal
+iOS app. The app is built and working; it is waiting on a live feed URL.
 
-**Scheduling is not set up by this document.** Shane decides when and how this
-runs — whether via cron, a Hermes scheduled task, or manually on demand. Run it
-manually a few times first and read the output before trusting it unattended.
+This document is the complete brief. Two things in it are **fixed** and two are
+**yours to decide**:
+
+| | |
+|---|---|
+| **Fixed** | The JSON contract (section 2). The app already decodes exactly this. |
+| **Fixed** | Photos are self-hosted, never hotlinked (section 5). |
+| **Yours** | Where the feed is hosted and how it gets published (section 6). |
+| **Yours** | How you source and research the news (section 3–4 set the standards, not the method). |
+
+When you are done, **write a handoff document back** telling Shane and Claude
+Code what you decided, so the app can be pointed at your feed. Section 9 lists
+exactly what that needs to contain.
 
 Repo: `/Users/shanedoc/Sites/iOS-News-App`
 Working directory for everything below: `feed-data/`
 
 ---
 
-## 0. Configuration to confirm before first run
+## 1. Configuration
 
 | Setting | Value |
 |---|---|
-| **Local news area** | **Lugo, Galicia, Spain.** City and surrounding province. |
+| **Local news area** | **Lugo, Galicia, Spain.** The city and its province. |
 | **National news country** | **Spain.** |
-| Output language | English, always — even when the source material is in another language. |
-| Run time | Early morning, before Shane wakes up. Suggested 06:00 Europe/Madrid. |
+| Output language | **English, always** — even when the source material is Spanish or Galician. |
+| Run frequency | Once per day, early morning. Suggested 06:00 Europe/Madrid. |
 
-Most Lugo and Spanish national coverage will be in Spanish or Galician. Read it
-in the original and write the article in English — do not restrict sourcing to
-English-language outlets, which would badly thin out local coverage. Useful
-starting points for `local`: *El Progreso* (Lugo), *La Voz de Galicia*, *Cadena
-SER Lugo*, the Concello de Lugo and Deputación de Lugo press pages. For
-`national`: *El País*, *El Mundo*, *RTVE*, *20minutos*, *Público*.
-
-Everything else below is fixed by the data contract in [`schema.md`](schema.md).
+Most Lugo and Spanish coverage is in Spanish or Galician. Read it in the original
+and write in English. Do **not** restrict sourcing to English-language outlets —
+that would gut local coverage. Useful starting points, not a required list:
+*El Progreso*, *La Voz de Galicia*, *El Correo Gallego*, *Noticias Lugo*, the
+Concello de Lugo and Deputación de Lugo press pages; nationally *El País*,
+*El Mundo*, *RTVE*, *20minutos*, *Público*, *Europa Press*.
 
 ---
 
-## 1. What to produce
+## 2. The JSON contract — FIXED
 
-One JSON file, `public/latest.json`, matching [`schema.md`](schema.md) exactly.
-Read that file — it is the authority on field names, types and limits. This
-document covers editorial judgment and process; `schema.md` covers structure.
+One file, `latest.json`. The iOS app decodes exactly this structure. Deviating
+breaks the app silently, so `validate.mjs` (section 7) enforces every rule below.
 
-### Categories and volume
+```json
+{
+  "generatedAt": "2026-07-31T06:00:00Z",
+  "articles": [
+    {
+      "id": "2026-07-31-tech-001",
+      "category": "tech",
+      "headline": "Rocket Lab Wins Its Largest Contract to Date",
+      "subtitle": "A $266 million US Space Force award covers twelve suborbital launches with options for six more, flown mostly from a new site at Kodiak, Alaska, in support of missile defence testing.",
+      "body": "Rocket Lab has been awarded a $266 million contract by the US Space Force, the largest launch contract in the company's history. … (100-300 words of plain prose)",
+      "imageURL": "/images/2026-07-31-tech-001.jpg",
+      "sources": [
+        { "name": "Rocket Lab", "url": "https://rocketlabcorp.com/updates/record-contract-rslp-kodiak/" },
+        { "name": "The Defense Post", "url": "https://thedefensepost.com/2026/07/29/rocket-lab-us-launch-contract/" },
+        { "name": "GlobeNewswire", "url": "https://www.globenewswire.com/news-release/2026/07/27/3333334/0/en/Rocket-Lab-Awarded-Record-266M-Missile-Defense-Contract-with-U-S-Space-Force-for-Suborbital-Launches.html" }
+      ],
+      "publishedAt": "2026-07-27T10:00:00Z"
+    }
+  ]
+}
+```
 
-Five sections. Roughly **4–8 stories each**, driven entirely by what is
-genuinely newsworthy that day:
+### Field reference
 
-| Category | Scope |
-|---|---|
-| `local` | The local area (see configuration above). |
-| `national` | The national picture (see configuration above). |
-| `global` | International news of real consequence. |
-| `tech` | Technology, software, hardware, science-adjacent. |
-| `ai` | AI specifically — models, research, policy, industry. |
+| Field | Type | Rule |
+|---|---|---|
+| `generatedAt` | ISO-8601 string | When this batch was built. |
+| `articles` | array | See below. |
+| `articles[].id` | string | **`YYYY-MM-DD-category-NNN`**, e.g. `2026-07-31-local-003`. `NNN` starts at `001` within each category each day. **Must be unique and stable.** The app tracks saved articles by `id` — never reuse an `id` for a different story, and never re-issue a different `id` for the same story. |
+| `articles[].category` | string enum | Exactly one of: `local`, `national`, `global`, `tech`, `ai`. No other values. |
+| `articles[].headline` | string | Short, single line, headline style, **no trailing period**. Keep under ~120 characters or it wraps awkwardly on a phone. |
+| `articles[].subtitle` | string | **20–50 words.** The teaser on the card, and the single most important field — most stories are only ever read at this length. It must *add* information, not restate the headline. |
+| `articles[].body` | string | **100–300 words.** Plain prose only: no markdown, no headings, no bullet lists. |
+| `articles[].imageURL` | string | Path to the self-hosted photo. Normally `/images/<id>.jpg`, resolved by the app against the feed's base URL. An absolute `https://…` URL is also accepted. |
+| `articles[].sources` | array | **3–4** objects, each `{ "name": string, "url": string }`. Real, working URLs. |
+| `articles[].publishedAt` | ISO-8601 string | Roughly when the story broke. |
 
-**Do not pad to hit a number.** A quiet local news day producing 2 stories is a
-correct outcome; five padded non-stories is a failure. Equally, if something big
-is unfolding in one section, 8 is fine.
+### Ordering — FIXED
 
-### Ordering
-
-Emit articles grouped by section in this order, most significant story first
+Emit articles **grouped by section**, in this order, most significant story first
 within each section:
 
 ```
 local → national → global → tech → ai
 ```
 
----
-
-## 2. Writing each story
-
-For every story, produce:
-
-**Headline** — short, single line, standard headline style, no trailing period.
-
-**Subtitle — 20 to 50 words.** This is the teaser Shane reads on the card to
-decide whether to open the story. It must add information, not restate the
-headline in different words. This is the single most important field in the feed:
-most stories will only ever be read at this length.
-
-**Body — 100 to 300 words.** *Match the length to the story.* A council planning
-decision may be complete in 110 words. A shifting geopolitical situation may
-genuinely need 290. Never inflate a simple story with context-padding,
-scene-setting, or "it remains to be seen" filler to reach a word count. Plain
-prose, no markdown, no headings, no bullet lists.
-
-Write in clear, neutral, factual reporting style. Rewrite and synthesise from the
-sources — do not copy sentences verbatim from any outlet. Where facts are
-contested between sources, say so briefly rather than picking one silently.
-
-**Sources — 3 to 4 real links.** These are the places the story was actually
-researched from, and Shane clicks through to them. Read as many sources as
-needed to get a rounded picture; list the 3–4 most useful. Every URL must be
-real and resolve — never invent a plausible-looking URL. Prefer primary sources
-(official statements, filings, papers) alongside reporting.
-
-**ID** — `YYYY-MM-DD-category-NNN`, e.g. `2026-07-28-local-003`. Sequence starts
-at `001` within each category each day. IDs must be stable: the app tracks
-saved articles by ID, so never re-issue an ID for a different story.
+The app also sorts defensively, but emit them sorted anyway.
 
 ---
 
-## 3. Photos
+## 3. Volume and editorial judgment
 
-Every story needs a title photo. Photos are **self-hosted**, not hotlinked, so
-they can't disappear from under a story Shane saved months ago.
+Roughly **4–8 stories per category**, driven entirely by what is genuinely
+newsworthy that day.
 
-**`scripts/fetch-photos.mjs` does the download and resizing for you.** Write the
-draft JSON with a `photoCandidate: { url, description, license }` on each
-article, then run it — it downloads, verifies the response is genuinely an image
-(not an HTML error page), resizes via `sips`, writes
-`public/images/<article-id>.jpg`, and rewrites `imageURL` to match.
+**Do not pad to hit a number.** A quiet local news day that yields two real
+stories is a correct outcome; five padded non-stories is a failure. Equally, if
+something significant is unfolding, eight is fine. An empty category produces a
+validator warning, not an error — that is deliberate.
 
-So the only editorial work is step 1:
+---
 
-1. **Find a relevant photo** and record it as `photoCandidate`. Prefer
-   openly-licensed or public-domain sources: Wikimedia Commons, Unsplash,
-   government and institutional press imagery, or the outlet's own Open Graph
-   image. Avoid agency wire photos where an openly-licensed alternative exists.
-   The URL must point directly at an image file, not at a page containing one.
-2. Run `node scripts/fetch-photos.mjs <draft.json>`. It exits non-zero and lists
-   any story whose photo failed, so you can find a replacement and re-run.
+## 4. Writing each story
 
-The photo should genuinely illustrate the story. A generic stock image of a
-laptop for every tech story defeats the point — Shane cares about the photos.
+**Headline** — short, factual, headline style, no trailing period.
 
-### Housekeeping — 14-day image window
+**Subtitle (20–50 words)** — what Shane reads to decide whether to open the
+story. Add detail the headline doesn't carry. Never a reworded headline.
 
-**In the same commit that adds today's images, delete image files older than 14
-days:**
+**Body (100–300 words)** — *match the length to the story*. A council decision
+may be complete in 110 words; a shifting geopolitical situation may genuinely
+need 290. Never inflate with scene-setting, context-padding, or "it remains to be
+seen" filler to reach a word count.
+
+Write in clear, neutral, factual reporting style. **Rewrite and synthesise — never
+copy sentences verbatim from any outlet.** Where facts are contested between
+sources, say so briefly rather than silently picking one version. Be sceptical of
+vendor and press-release claims; attribute contested figures to whoever claimed
+them.
+
+**Sources (3–4)** — the places you actually researched from. Shane clicks these.
+Every URL must be real and resolve. **Never invent a plausible-looking URL.** Read
+as many sources as you need for a rounded picture, then list the 3–4 most useful.
+Prefer primary sources (filings, official statements, papers) alongside reporting.
+
+### Don't repeat yesterday
+
+Before writing, read the previous few days of `public/archive/*.json` and avoid
+re-covering stories already sent. A genuinely developing story may be revisited,
+but only with a new angle and a headline that makes the development clear.
+Repeats are the most irritating possible failure in a feed read once a day.
+
+---
+
+## 5. Photos — self-hosted, FIXED
+
+**Every story needs a title photo, and you host it yourself. Never put a
+third-party URL in `imageURL`.**
+
+This is deliberate: the app caches photos to disk and keeps them for saved
+articles indefinitely, so a story Shane saved six months ago must still have its
+picture. Hotlinked images rot. Self-hosting also sidesteps whether the source
+permits hotlinking at all.
+
+For each story:
+
+1. **Find a relevant photo.** Prefer openly-licensed or public-domain sources, or
+   the outlet's own Open Graph image. It must genuinely illustrate *that* story —
+   a generic stock laptop photo on every tech story defeats the point. Shane
+   cares about the photos.
+2. **Download it, resize to max 1000px on the long edge, JPEG quality ~75**
+   (roughly 60–120KB per file).
+3. **Save as `public/images/<article-id>.jpg`** and set `imageURL` to
+   `/images/<article-id>.jpg`.
+
+`scripts/fetch-photos.mjs` will do steps 2–3 for you: put a
+`photoCandidate: { url, description, license }` on each article in your draft and
+run it. It verifies the response is actually an image rather than an HTML error
+page, resizes via `sips`, rewrites `imageURL`, and exits non-zero listing any
+story whose photo failed. It throttles and retries, but **note that some image
+hosts rate-limit hard** — if you are pulling many photos from one origin, expect
+429s and pace accordingly. You are free to ignore this script and do it yourself.
+
+### Rolling 14-day window
+
+**In the same commit that adds today's photos, delete photos older than 14 days:**
 
 ```
 node scripts/prune-images.mjs
 ```
 
-The app caches every photo to disk on first view and keeps saved articles' photos
-permanently, so the server only needs to hold a photo long enough to be fetched
-once. The script never deletes anything still referenced by `latest.json`,
-whatever its age.
-
-This matters: git retains deleted blobs in history forever, so without the
-rolling window the repo grows by roughly 1GB/year permanently.
+The app caches every photo on first view, so the server only needs to hold one
+long enough to be fetched once. Without pruning, git history grows by roughly
+1GB/year permanently — deleted blobs stay in history forever. The script never
+deletes anything still referenced by `latest.json`, whatever its age.
 
 ---
 
-## 4. Don't repeat yesterday
+## 6. Hosting — YOUR DECISION
 
-Before writing, **read the previous few days of `public/archive/*.json`** and
-avoid re-covering stories already sent. A genuinely developing story may be
-revisited, but only with a new angle and a headline that makes the development
-clear — not a reworded version of yesterday's card. Repeats are the most
-irritating possible failure mode for a feed read once a day.
+**You choose where the feed lives and how it gets published.** Shane is happy for
+it to be completely public; this is a single-user app serving ordinary news
+stories, and there is nothing here worth protecting.
+
+Whatever you pick must meet these requirements:
+
+1. **Publicly reachable over HTTPS with no authentication.** The app does a plain
+   `GET` and has no credential handling. HTTPS is required — iOS blocks plain HTTP
+   by default.
+2. **A stable URL that will not change.** It gets compiled into the app.
+3. **`latest.json` must not be served with a long cache lifetime.** The phone
+   fetches roughly once a day and must receive *that day's* file. A long-lived
+   immutable cache header will silently serve stale news, which defeats the whole
+   thing. Short max-age, or must-revalidate.
+4. **Images must sit at URLs derivable from the article id** — normally
+   `<base>/images/<id>.jpg`. Long cache headers on images are good and correct,
+   since their contents never change.
+5. **Not served from this Mac Mini.** It sleeps, its IP moves, and the phone needs
+   the feed on cellular away from home.
+6. **Publishing must be fully automatable and unattended** from this machine. No
+   daily manual UI steps.
+7. **Free**, and comfortable with ~30 images/day under a rolling 14-day window.
+
+Some context that may help, but decide for yourself:
+
+- The GitHub remote is `seandoc66/iOS-News-App`. It is currently **private**, and
+  the account this machine authenticates as has **push access** already — so
+  `git push` needs no new credentials. Making the repo public is fine by Shane if
+  that simplifies things.
+- A `feed-data/vercel.json` already exists with sensible cache headers
+  (no-cache on `latest.json`, immutable on `/images/`) in case you choose Vercel
+  with Root Directory set to `feed-data`. Delete it if you go another way.
+- Options worth weighing include GitHub Pages via an Actions workflow,
+  `raw.githubusercontent.com` on a public repo (zero setup, but ~5-minute cache
+  and unpredictable content types), Vercel, Cloudflare Pages, or object storage
+  such as Cloudflare R2. Pick what you can operate reliably every day.
 
 ---
 
-## 5. Process
+## 7. Validation — not optional
+
+```
+node scripts/validate.mjs                       # checks public/latest.json
+node scripts/validate.mjs path/to/draft.json    # checks a draft
+```
+
+It enforces every hard rule in section 2 — word counts, id format and uniqueness,
+category names, source count and URL validity, duplicate headlines, timestamp
+format, and that every referenced image file actually exists on disk. It exits
+non-zero and prints **every** problem it found, not just the first. Warnings
+(section ordering, headline style, unusual category counts) are advisory.
+
+**If validation fails, do not publish.** Leave the previous day's `latest.json`
+in place. Yesterday's feed staying live is far better than a broken or empty one.
+
+---
+
+## 8. Daily process
 
 All commands run from `feed-data/`.
 
 ```
-1. Read public/archive/*.json for the last ~3 days       (avoid repeats)
+1. Read public/archive/*.json for the last ~3 days          (avoid repeats)
 
-2. Research and write the stories, including a photoCandidate for each.
-   Save as public/archive/YYYY-MM-DD.json
+2. Research and write the stories. Save the draft as
+   public/archive/YYYY-MM-DD.json, with a photoCandidate on each article.
 
-3. Fetch and resize the photos:
+3. Fetch and resize photos:
       node scripts/fetch-photos.mjs public/archive/YYYY-MM-DD.json
    Exits non-zero if any photo failed — find replacements and re-run.
+   Re-running only retries what is still missing.
 
-4. Validate:
+4. Validate the draft:
       node scripts/validate.mjs public/archive/YYYY-MM-DD.json
 
 5. If validation FAILS → stop. Do NOT touch public/latest.json.
-   Report the errors. Yesterday's feed stays live, which is a far better
-   outcome than a broken or empty one.
+   Report the errors.
 
-6. If validation PASSES → copy it over public/latest.json
+6. If validation PASSES → publish it:
       cp public/archive/YYYY-MM-DD.json public/latest.json
 
-7. Prune old photos:
+7. Prune photos older than 14 days:
       node scripts/prune-images.mjs
 
 8. Final check against the live file:
       node scripts/validate.mjs
 
-9. Commit and push from the repo root:
-      git add -A && git commit -m "Feed for YYYY-MM-DD" && git push
+9. Publish by whatever mechanism you chose in section 6.
 ```
-
-The push triggers a Vercel deploy automatically; the app picks up the new feed
-the next time Shane opens it.
-
-### Validation is not optional
-
-`scripts/validate.mjs` enforces every hard limit in the contract — word counts,
-category names, ID format and uniqueness, source count, timestamp format, and
-that every referenced image file actually exists on disk. It exits non-zero on
-failure and prints every problem it found. Warnings (section ordering, headline
-style, unusual category counts) are advisory but worth reading.
 
 ---
 
-## 6. Notes and escape hatches
+## 9. What to hand back — REQUIRED
 
-**If the repo grows uncomfortably large** despite the 14-day window, move photos
-to Vercel Blob storage and put the returned absolute CDN URL in `imageURL`
-instead. The schema and the app already accept absolute URLs, so this needs no
-app change.
+When you have the pipeline working and a feed live, write a handoff document for
+Shane and Claude Code. The app currently points at a placeholder and **cannot
+fetch anything until it has your answers.** It must contain:
 
-**If a day's research genuinely turns up nothing** for a category, emit no
-articles for it. The app renders whatever sections are present. An empty
-category produces a validator warning, not an error.
+1. **The exact, full URL of `latest.json`.** e.g.
+   `https://example.github.io/iOS-News-App/latest.json`
+2. **The base URL that relative image paths resolve against**, and one **real
+   example image URL** so it can be verified with `curl`.
+3. **Confirmation it is publicly reachable with no authentication**, ideally with
+   the `curl -I` output showing the status and `Cache-Control` header for both
+   `latest.json` and an image.
+4. **What you chose and why**, briefly — enough that Shane can reason about it
+   later without re-deriving your decision.
+5. **How publishing works**, concretely: the exact command or job that runs, what
+   time it runs, where it runs from, and whether anything (a token, a workflow
+   file, a service connection) had to be set up that Shane should know exists.
+6. **How it fails, and how you would notice.** If a run fails or the source of a
+   photo goes down, what happens — and does Shane find out, or does the feed just
+   quietly stop updating?
+7. **Anything you changed in this repo**, so nothing is a surprise.
 
-**Licensing:** this feed is private, single-user, and never redistributed, which
+Claude Code will then set `FeedEndpoint.base` in
+`NewsApp/Networking/FeedService.swift` and verify the app end to end against your
+live feed.
+
+---
+
+## 10. Notes
+
+**A first run does not have to be perfect.** Run it manually a few times and read
+the output before letting it go unattended. It is worth checking a couple of
+articles by eye for tone and length before trusting it daily.
+
+**Licensing.** This feed is private, single-user, and never redistributed, which
 keeps it in personal-use territory. Preferring openly-licensed images avoids the
 question entirely.
+
+**If the repo grows uncomfortably** despite the 14-day window, moving photos to
+object storage and using absolute URLs in `imageURL` needs no app change — the
+schema already accepts them.
+
+**There is a draft batch already in the repo** at
+`public/archive/2026-07-31.json`: 14 real articles with verified sources, of which
+only 2 have photos fetched. Treat it as a worked example of the format, or
+overwrite it with your first real run — Shane has no attachment to it.

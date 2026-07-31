@@ -28,6 +28,15 @@ const MAX_EDGE = 1000;
 const JPEG_QUALITY = 75;
 const TIMEOUT_MS = 20_000;
 
+// Wikimedia rate-limits unauthenticated bursts and starts returning 429 after a
+// couple of rapid requests, so downloads are spaced out and retried with
+// backoff. Without this, a full day's batch fails almost entirely.
+const DELAY_MS = 1_500;
+const MAX_ATTEMPTS = 4;
+const BACKOFF_MS = 5_000;
+
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+
 const USER_AGENT =
   "PersonalNewsFeed/1.0 (single-user personal news app; contact: repo owner)";
 
@@ -54,12 +63,48 @@ if (!Array.isArray(feed.articles)) {
   process.exit(1);
 }
 
+/// Fetches with backoff on 429/5xx, which Wikimedia returns readily.
+async function fetchWithRetry(url) {
+  let lastError;
+  for (let attempt = 1; attempt <= MAX_ATTEMPTS; attempt++) {
+    try {
+      const response = await fetch(url, {
+        redirect: "follow",
+        headers: { "User-Agent": USER_AGENT, Accept: "image/*" },
+        signal: AbortSignal.timeout(TIMEOUT_MS),
+      });
+      if (response.status === 429 || response.status >= 500) {
+        lastError = new Error(`HTTP ${response.status}`);
+        if (attempt < MAX_ATTEMPTS) {
+          const wait = BACKOFF_MS * attempt;
+          console.log(`     …${response.status}, retrying in ${wait / 1000}s`);
+          await sleep(wait);
+          continue;
+        }
+      }
+      return response;
+    } catch (err) {
+      lastError = err;
+      if (attempt < MAX_ATTEMPTS) await sleep(BACKOFF_MS * attempt);
+    }
+  }
+  throw lastError ?? new Error("fetch failed");
+}
+
 let ok = 0;
+let attempted = 0;
 const failures = [];
 
 for (const article of feed.articles) {
   const candidate = article.photoCandidate;
   const label = article.id ?? "(no id)";
+
+  // Already has a photo from an earlier run — skip, so re-running after a
+  // partial failure only retries what's still missing.
+  if (!candidate?.url && article.imageURL) {
+    ok += 1;
+    continue;
+  }
 
   if (!candidate?.url) {
     failures.push(`${label}: no photoCandidate`);
@@ -67,15 +112,14 @@ for (const article of feed.articles) {
     continue;
   }
 
+  if (attempted > 0) await sleep(DELAY_MS);
+  attempted += 1;
+
   const target = join(imagesDir, `${article.id}.jpg`);
   let temp;
 
   try {
-    const response = await fetch(candidate.url, {
-      redirect: "follow",
-      headers: { "User-Agent": USER_AGENT, Accept: "image/*" },
-      signal: AbortSignal.timeout(TIMEOUT_MS),
-    });
+    const response = await fetchWithRetry(candidate.url);
 
     if (!response.ok) {
       throw new Error(`HTTP ${response.status}`);
