@@ -1,23 +1,23 @@
 import SwiftUI
 
-/// Full-screen vertical pager: one story per screen, folding as you swipe.
+/// Full-screen vertical pager: one story per screen, turning like the pages of
+/// a spiral-bound pad hinged across the middle of the screen.
 ///
-/// Built on `ScrollView` + `.scrollTargetBehavior(.paging)` rather than a
-/// rotated `TabView` (the pre-iOS-17 trick) so paging, safe areas and
-/// `.scrollTransition` all behave natively.
+/// The turn itself lives in `FlipPager` — see there for why this can't be a
+/// `ScrollView`.
 struct FeedView: View {
     @Environment(ArticleStore.self) private var store
     @Binding var showingSaved: Bool
     @Binding var toast: ToastMessage?
 
-    @State private var currentID: String?
+    @State private var index = 0
     /// Article *ids*, not `Article` values. Hearting a story mutates its
     /// `savedAt`, which changes the value's hash — so pushing the value itself
     /// would break navigation identity mid-read.
     @State private var path: [String] = []
 
-    /// Set the first time a page is turned, and remembered, so the swipe hint
-    /// appears for a newcomer and never nags again.
+    /// Set the first time a page is turned, and remembered, so the hint appears
+    /// for a newcomer and never nags again.
     @AppStorage("hasScrolledFeed") private var hasScrolledFeed = false
 
     #if DEBUG
@@ -58,31 +58,21 @@ struct FeedView: View {
             let safeTop = outer.safeAreaInsets.top
             let safeBottom = outer.safeAreaInsets.bottom
 
-            ScrollView(.vertical) {
-                LazyVStack(spacing: 0) {
-                    ForEach(store.articles) { article in
-                        // A NavigationLink rather than .onTapGesture: a
-                        // full-screen tap recogniser inside a ScrollView can
-                        // swallow the vertical drag, whereas a link cooperates
-                        // with scrolling — a drag cancels it and pages instead.
-                        NavigationLink(value: article.id) {
-                            ArticleCardView(
-                                article: article,
-                                toast: $toast,
-                                safeTop: safeTop,
-                                safeBottom: safeBottom
-                            )
-                        }
-                        .buttonStyle(.plain)
-                        .containerRelativeFrame([.horizontal, .vertical])
-                        .fold()
-                    }
+            FlipPager(count: store.articles.count, index: $index) { i in
+                // A NavigationLink rather than .onTapGesture: a full-screen tap
+                // recogniser swallows the vertical drag, whereas a link
+                // cooperates with it — a drag cancels the link and turns the
+                // page instead.
+                NavigationLink(value: store.articles[i].id) {
+                    ArticleCardView(
+                        article: store.articles[i],
+                        toast: $toast,
+                        safeTop: safeTop,
+                        safeBottom: safeBottom
+                    )
                 }
-                .scrollTargetLayout()
+                .buttonStyle(.plain)
             }
-            .scrollTargetBehavior(.paging)
-            .scrollIndicators(.hidden)
-            .scrollPosition(id: $currentID)
             .ignoresSafeArea()
             .overlay(alignment: .bottom) {
                 // Each card fills the screen exactly, so without this there is
@@ -93,22 +83,22 @@ struct FeedView: View {
                         .transition(.opacity)
                 }
             }
-            .onChange(of: currentID) { old, id in
-                // Only a genuine page change counts — `currentID` also goes from
-                // nil to the first article's id on appear.
-                if let old, let id, old != id {
-                    withAnimation(.easeOut(duration: 0.4)) { hasScrolledFeed = true }
+            .onChange(of: index) { _, i in
+                withAnimation(.easeOut(duration: 0.4)) { hasScrolledFeed = true }
+                Task { await prefetchNeighbours(of: i) }
+            }
+            .onChange(of: store.articles.count) { _, count in
+                // A refresh or a purge can land while the feed is open.
+                index = min(index, max(0, count - 1))
+            }
+            .task {
+                #if DEBUG
+                if let start = debugStartIndex, store.articles.indices.contains(start) {
+                    index = start
                 }
-                Task { await prefetchNeighbours(of: id) }
+                #endif
+                await prefetchNeighbours(of: index)
             }
-            #if DEBUG
-            .task(id: store.articles.count) {
-                guard let index = debugStartIndex,
-                      store.articles.indices.contains(index) else { return }
-                try? await Task.sleep(for: .milliseconds(400))
-                currentID = store.articles[index].id
-            }
-            #endif
         }
     }
 
@@ -126,54 +116,19 @@ struct FeedView: View {
         .accessibilityLabel("Saved stories")
     }
 
-    /// Decodes the photos either side of the current card so the fold never
+    /// Decodes the photos either side of the current card so the turn never
     /// reveals an empty frame.
-    private func prefetchNeighbours(of id: String?) async {
-        guard let id, let index = store.articles.firstIndex(where: { $0.id == id }) else { return }
-        let neighbours = [index - 1, index + 1, index + 2]
+    private func prefetchNeighbours(of i: Int) async {
+        let neighbours = [i - 1, i + 1, i + 2]
             .filter { store.articles.indices.contains($0) }
             .compactMap { store.articles[$0].imageURL(base: FeedEndpoint.base) }
         await ImageCache.shared.prefetch(neighbours, maxPixel: 1200 * 3)
     }
 }
 
-// MARK: - Fold transition
-
-private extension View {
-    /// Flipboard-style hinge fold driven by scroll position.
-    ///
-    /// `phase.value` runs continuously from -1 (card is above, folding away
-    /// upward) through 0 (flat and centred) to +1 (card is below, still folded
-    /// down). The hinge sits on whichever edge faces the centre of the screen,
-    /// so a card pivots on its top edge as it leaves and its bottom edge as it
-    /// arrives.
-    ///
-    /// The angle and perspective values are deliberately tuneable — how
-    /// aggressive this looks is a matter of taste and needs judging on a real
-    /// device, not in a simulator screenshot.
-    func fold(maxAngle: Double = 76, perspective: CGFloat = 0.42) -> some View {
-        scrollTransition(.interactive, axis: .vertical) { content, phase in
-            let t = Double(phase.value)          // -1 ... 0 ... 1
-            let magnitude = abs(t)
-            return content
-                .rotation3DEffect(
-                    .degrees(t * maxAngle),
-                    axis: (x: 1, y: 0, z: 0),
-                    anchor: t < 0 ? .top : .bottom,
-                    perspective: perspective
-                )
-                // Darken as the page turns away — this is what sells the crease.
-                // (The transition closure hands back a VisualEffect, not a View,
-                // so this has to be brightness rather than a black overlay.)
-                .brightness(-magnitude * 0.45)
-                .scaleEffect(1 - magnitude * 0.06)
-        }
-    }
-}
-
 // MARK: - Swipe affordance
 
-/// A gently rising chevron telling you there's another story above this one.
+/// A gently rising chevron telling you there's another story under this one.
 private struct SwipeUpHint: View {
     @State private var lift = false
 
