@@ -32,8 +32,8 @@ if (!Number.isFinite(days) || days < 1) {
 
 const scriptDir = dirname(fileURLToPath(import.meta.url));
 const feedRoot = resolve(scriptDir, "..");
-const imagesDir = join(feedRoot, "public", "images");
-const latestPath = join(feedRoot, "public", "latest.json");
+const imagesDir = join(feedRoot, "docs", "images");
+const latestPath = join(feedRoot, "docs", "latest.json");
 
 if (!existsSync(imagesDir)) {
   console.log("No images directory — nothing to prune.");

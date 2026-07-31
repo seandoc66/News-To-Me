@@ -22,7 +22,7 @@ const scriptDir = dirname(fileURLToPath(import.meta.url));
 const feedRoot = resolve(scriptDir, "..");
 const feedPath = process.argv[2]
   ? resolve(process.argv[2])
-  : join(feedRoot, "public", "latest.json");
+  : join(feedRoot, "docs", "latest.json");
 
 const problems = [];
 const warnings = [];

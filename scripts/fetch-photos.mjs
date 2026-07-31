@@ -42,7 +42,7 @@ const USER_AGENT =
 
 const scriptDir = dirname(fileURLToPath(import.meta.url));
 const feedRoot = resolve(scriptDir, "..");
-const imagesDir = join(feedRoot, "public", "images");
+const imagesDir = join(feedRoot, "docs", "images");
 
 const draftPath = process.argv[2];
 if (!draftPath) {

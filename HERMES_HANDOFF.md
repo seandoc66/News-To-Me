@@ -18,7 +18,7 @@ Code what you decided, so the app can be pointed at your feed. Section 9 lists
 exactly what that needs to contain.
 
 Repo: `/Users/shanedoc/Sites/News-To-Me`
-Working directory for everything below: `feed-data/`
+| Working directory for everything below: the repo root (`docs/`, `scripts/`). |
 
 ---
 
@@ -183,44 +183,20 @@ deletes anything still referenced by `latest.json`, whatever its age.
 
 ---
 
-## 6. Hosting — YOUR DECISION
+## 6. Hosting — DECIDED: GitHub Pages
 
-**You choose where the feed lives and how it gets published.** Shane is happy for
-it to be completely public; this is a single-user app serving ordinary news
-stories, and there is nothing here worth protecting.
+**Chosen: GitHub Pages** via the `docs/` folder on `main`.
 
-Whatever you pick must meet these requirements:
+The feed lives at `https://seandoc66.github.io/News-To-Me/`. Publishing is fully automated: commit to `main` and GitHub Pages auto-deploys from the `docs/` folder. No tokens, no service connections, no manual steps.
 
-1. **Publicly reachable over HTTPS with no authentication.** The app does a plain
-   `GET` and has no credential handling. HTTPS is required — iOS blocks plain HTTP
-   by default.
-2. **A stable URL that will not change.** It gets compiled into the app.
-3. **`latest.json` must not be served with a long cache lifetime.** The phone
-   fetches roughly once a day and must receive *that day's* file. A long-lived
-   immutable cache header will silently serve stale news, which defeats the whole
-   thing. Short max-age, or must-revalidate.
-4. **Images must sit at URLs derivable from the article id** — normally
-   `<base>/images/<id>.jpg`. Long cache headers on images are good and correct,
-   since their contents never change.
-5. **Not served from this Mac Mini.** It sleeps, its IP moves, and the phone needs
-   the feed on cellular away from home.
-6. **Publishing must be fully automatable and unattended** from this machine. No
-   daily manual UI steps.
-7. **Free**, and comfortable with ~30 images/day under a rolling 14-day window.
-
-Some context that may help, but decide for yourself:
-
-- The GitHub remote is `seandoc66/News-To-Me`. It is currently **private**, and
-  the account this machine authenticates as has **push access** already — so
-  `git push` needs no new credentials. Making the repo public is fine by Shane if
-  that simplifies things.
-- A `feed-data/vercel.json` already exists with sensible cache headers
-  (no-cache on `latest.json`, immutable on `/images/`) in case you choose Vercel
-  with Root Directory set to `feed-data`. Delete it if you go another way.
-- Options worth weighing include GitHub Pages via an Actions workflow,
-  `raw.githubusercontent.com` on a public repo (zero setup, but ~5-minute cache
-  and unpredictable content types), Vercel, Cloudflare Pages, or object storage
-  such as Cloudflare R2. Pick what you can operate reliably every day.
+Requirements met:
+1. **Publicly reachable over HTTPS** — GitHub Pages provides HTTPS by default.
+2. **Stable URL** — `https://seandoc66.github.io/News-To-Me/latest.json` won't change.
+3. **No long cache on latest.json** — GitHub Pages serves with `max-age=600` (10 min), which is short enough for daily updates.
+4. **Images at derivable URLs** — `/images/<id>.jpg` resolves against the base URL.
+5. **Not served from this Mac Mini** — GitHub handles hosting.
+6. **Fully automatable** — `git push` is the publish step.
+7. **Free** — GitHub Pages is free for public repos.
 
 ---
 
@@ -244,27 +220,27 @@ in place. Yesterday's feed staying live is far better than a broken or empty one
 
 ## 8. Daily process
 
-All commands run from `feed-data/`.
+All commands run from the repo root.
 
 ```
-1. Read public/archive/*.json for the last ~3 days          (avoid repeats)
+1. Read docs/archive/*.json for the last ~3 days          (avoid repeats)
 
 2. Research and write the stories. Save the draft as
-   public/archive/YYYY-MM-DD.json, with a photoCandidate on each article.
+   docs/archive/YYYY-MM-DD.json, with a photoCandidate on each article.
 
 3. Fetch and resize photos:
-      node scripts/fetch-photos.mjs public/archive/YYYY-MM-DD.json
+      node scripts/fetch-photos.mjs docs/archive/YYYY-MM-DD.json
    Exits non-zero if any photo failed — find replacements and re-run.
    Re-running only retries what is still missing.
 
 4. Validate the draft:
-      node scripts/validate.mjs public/archive/YYYY-MM-DD.json
+      node scripts/validate.mjs docs/archive/YYYY-MM-DD.json
 
-5. If validation FAILS → stop. Do NOT touch public/latest.json.
+5. If validation FAILS → stop. Do NOT touch docs/latest.json.
    Report the errors.
 
 6. If validation PASSES → publish it:
-      cp public/archive/YYYY-MM-DD.json public/latest.json
+      cp docs/archive/YYYY-MM-DD.json docs/latest.json
 
 7. Prune photos older than 14 days:
       node scripts/prune-images.mjs
@@ -272,7 +248,7 @@ All commands run from `feed-data/`.
 8. Final check against the live file:
       node scripts/validate.mjs
 
-9. Publish by whatever mechanism you chose in section 6.
+9. Commit and push to main — GitHub Pages auto-deploys.
 ```
 
 ---
