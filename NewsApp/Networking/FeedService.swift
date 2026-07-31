@@ -3,20 +3,19 @@ import Foundation
 /// Where the app gets its news from.
 ///
 /// `base` is the host serving the feed; `latest.json` sits at its root and
-/// photos live under `/images/`. Set this once the Vercel project exists.
+/// photos live under `/images/`.
 enum FeedEndpoint {
     #if DEBUG
     /// Debug builds read from a local server, so the feed and photos can be
     /// changed without deploying:
     ///
-    ///     cd feed-data/public && python3 -m http.server 8765
+    ///     cd docs && python3 -m http.server 8765
     ///
     /// This works from the simulator, which shares the Mac's network. To run a
     /// Debug build on the phone, swap `localhost` for the Mac's LAN IP.
     static let base = URL(string: "http://localhost:8765/")!
     #else
-    /// TODO: replace with the real Vercel URL once the feed-data project is deployed.
-    static let base = URL(string: "https://example.invalid/")!
+    static let base = URL(string: "https://seandoc66.github.io/News-To-Me/")!
     #endif
 
     static var latest: URL { base.appending(path: "latest.json") }
