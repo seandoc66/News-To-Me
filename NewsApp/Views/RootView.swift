@@ -46,7 +46,7 @@ struct RootView: View {
             .font(.footnote)
             .padding(.horizontal, 14)
             .padding(.vertical, 8)
-            .glassEffect(in: .capsule)
+            .glassCapsule()
             .padding(.top, 8)
             .transition(.move(edge: .top).combined(with: .opacity))
     }

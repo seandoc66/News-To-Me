@@ -108,7 +108,7 @@ struct HeartButton: View {
                 .frame(width: 46, height: 46)
                 .symbolEffect(.bounce, value: bounce)
         }
-        .buttonStyle(.glass)
+        .glassButtonStyle()
         .sensoryFeedback(.impact(weight: .light), trigger: bounce)
         .accessibilityLabel(isSaved ? "Remove from saved" : "Save for later")
     }

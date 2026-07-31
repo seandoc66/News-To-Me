@@ -126,7 +126,7 @@ struct FeedView: View {
                 .font(.system(size: 17, weight: .semibold))
                 .frame(width: 40, height: 40)
         }
-        .buttonStyle(.glass)
+        .glassButtonStyle()
         .accessibilityLabel(label)
     }
 
