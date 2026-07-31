@@ -146,9 +146,9 @@ feed.articles.forEach((a, i) => {
   if (typeof a.imageURL !== "string" || !a.imageURL.trim()) {
     fail(`${at("imageURL")} must be a non-empty string`);
   } else if (a.imageURL.startsWith("/")) {
-    const onDisk = join(feedRoot, "public", a.imageURL.replace(/^\//, ""));
+    const onDisk = join(feedRoot, "docs", a.imageURL.replace(/^\//, ""));
     if (!existsSync(onDisk)) {
-      fail(`${at("imageURL")} points at a file that doesn't exist: public${a.imageURL}`);
+      fail(`${at("imageURL")} points at a file that doesn't exist: docs${a.imageURL}`);
     }
   } else if (/^https?:\/\//.test(a.imageURL)) {
     warn(`${at("imageURL")} is an absolute URL — fine for Blob storage, but self-hosted photos should use /images/<id>.jpg`);
