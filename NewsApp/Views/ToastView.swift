@@ -49,7 +49,7 @@ private struct ToastView: View {
         .foregroundStyle(.white)
         .padding(.horizontal, 18)
         .padding(.vertical, 12)
-        .glassEffect(in: .capsule)
+        .glassCapsule()
         .shadow(color: .black.opacity(0.3), radius: 12, y: 4)
         .accessibilityAddTraits(.isStaticText)
     }
