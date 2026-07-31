@@ -142,17 +142,25 @@ struct CachedImage: View {
     @Environment(\.displayScale) private var displayScale
 
     var body: some View {
-        ZStack {
-            fallback
-            if let image {
-                Image(uiImage: image)
-                    .resizable()
-                    .scaledToFill()
-                    .transition(.opacity.animation(.easeOut(duration: 0.25)))
+        // `Color.clear` accepts exactly the size it's offered, so the overlaid
+        // image fills that frame and the overflow from `scaledToFill` gets
+        // clipped to it. Putting the image directly in a ZStack instead lets it
+        // report an oversized ideal height and push the layout around.
+        Color.clear
+            .overlay {
+                ZStack {
+                    fallback
+                    if let image {
+                        Image(uiImage: image)
+                            .resizable()
+                            .scaledToFill()
+                            .transition(.opacity.animation(.easeOut(duration: 0.25)))
+                    }
+                }
             }
-        }
-        .clipped()
-        .task(id: url) { await load() }
+            .clipped()
+            .contentShape(.rect)
+            .task(id: url) { await load() }
     }
 
     private var fallback: some View {

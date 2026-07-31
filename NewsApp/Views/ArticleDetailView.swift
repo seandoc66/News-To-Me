@@ -23,11 +23,10 @@ struct ArticleDetailView: View {
                         .padding(16)
                 }
 
+                // Neither headline nor subtitle is repeated here — both have
+                // already done their job of getting you to open the story, and
+                // the space belongs to the body text.
                 VStack(alignment: .leading, spacing: 18) {
-                    Text(article.headline)
-                        .font(.system(.title2, design: .serif, weight: .bold))
-                        .fixedSize(horizontal: false, vertical: true)
-
                     Text(article.body)
                         .font(.system(.body, design: .serif))
                         .lineSpacing(6)
