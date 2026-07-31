@@ -27,6 +27,8 @@ The feed is produced by a Hermes Agent cron job that runs daily at **06:00 Europ
 
 GitHub Pages auto-deploys from the `docs/` folder on `main`. No manual steps.
 
+> **For full details on how news is sourced, editorial standards, photo sourcing, and the daily pipeline, see [`HERMES_HANDOFF.md`](./HERMES_HANDOFF.md)** — that's the complete operational brief for the feed.
+
 ## 3. What to set in the app
 
 Set `FeedEndpoint.base` in `NewsApp/Networking/FeedService.swift` to:
