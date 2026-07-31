@@ -1,0 +1,76 @@
+{
+  "generatedAt": "2026-07-29T06:00:00Z",
+  "articles": [
+    {
+      "id": "2026-07-29-local-001",
+      "category": "local",
+      "headline": "Placeholder Local Story for Layout Testing",
+      "subtitle": "Fixture text standing in for a real Lugo story while the app layout is built. It runs to roughly forty words so the subtitle block fills the lower half of the card exactly the way a genuine teaser will.",
+      "body": "This is placeholder content used to check that the article card and detail view hold up against realistic text lengths. It is not a real news story and carries no real sources. The body deliberately runs to around a hundred and forty words, near the shorter end of the permitted range, so the detail view can be checked with a brief article as well as a long one. Body text renders in a serif face at a comfortable reading size with generous line spacing, since this is the screen where actual reading happens rather than skimming. Below this text sit the source links, which in a real story would point at the places the article was researched from. The heart button lives in the navigation bar here rather than floating over the card, so it stays reachable while scrolling through a longer piece.",
+      "imageURL": "/images/dev-local-1.jpg",
+      "sources": [
+        { "name": "Example Source One", "url": "https://example.com/local/one" },
+        { "name": "Example Source Two", "url": "https://example.com/local/two" },
+        { "name": "Example Source Three", "url": "https://example.com/local/three" }
+      ],
+      "publishedAt": "2026-07-29T05:40:00Z"
+    },
+    {
+      "id": "2026-07-29-national-001",
+      "category": "national",
+      "headline": "A Deliberately Longer Placeholder Headline That Wraps Onto Two Lines",
+      "subtitle": "This card tests a headline long enough to wrap, paired with a subtitle at the upper end of the permitted range, to confirm nothing collides or pushes the heart button off the bottom of the screen at larger text sizes.",
+      "body": "Placeholder content for the national section. This body sits in the middle of the permitted length range so the scroll behaviour of the detail view can be judged with a typical article rather than an extreme one. The point of these fixtures is to exercise the layout with text that has realistic proportions, because a card that looks fine with two words of placeholder will fall apart the moment a real forty word subtitle arrives. Each fixture therefore matches the word counts the validator enforces on genuine content, and passes the same validation script. The category tag above should read National and be tinted differently from the local card, making the section boundary visible as the feed is swiped through. Since the feed is grouped by section, the tag doubles as a marker for roughly where in the edition you are.",
+      "imageURL": "/images/dev-national-1.jpg",
+      "sources": [
+        { "name": "Example Source One", "url": "https://example.com/national/one" },
+        { "name": "Example Source Two", "url": "https://example.com/national/two" },
+        { "name": "Example Source Three", "url": "https://example.com/national/three" },
+        { "name": "Example Source Four", "url": "https://example.com/national/four" }
+      ],
+      "publishedAt": "2026-07-29T05:35:00Z"
+    },
+    {
+      "id": "2026-07-29-global-001",
+      "category": "global",
+      "headline": "Short Global Placeholder",
+      "subtitle": "A deliberately short headline paired with a minimum length subtitle, to check the card still looks balanced when there is much less text than the maximum the contract allows.",
+      "body": "Placeholder content for the global section, kept near the shortest body the contract permits. Short stories matter as a test case because the whole point of the length range is that simple stories should stay simple. If a story is complete in a hundred words then padding it out to three hundred makes the app worse, not better, so the layout has to look deliberate rather than empty when the text is brief. The detail view should not leave an awkward gap between the end of this paragraph and the source links below it. This card also uses a third tint for its category tag, continuing the pattern that each of the five sections is visually distinguishable at a glance without having to read the label.",
+      "imageURL": "/images/dev-global-1.jpg",
+      "sources": [
+        { "name": "Example Source One", "url": "https://example.com/global/one" },
+        { "name": "Example Source Two", "url": "https://example.com/global/two" },
+        { "name": "Example Source Three", "url": "https://example.com/global/three" }
+      ],
+      "publishedAt": "2026-07-29T05:30:00Z"
+    },
+    {
+      "id": "2026-07-29-tech-001",
+      "category": "tech",
+      "headline": "Tech Section Placeholder With a Long Body",
+      "subtitle": "This fixture carries a body near the three hundred word ceiling, so the detail view can be checked for comfortable scrolling and to confirm the shrunken photo stays put at the top as expected.",
+      "body": "Placeholder content for the technology section, written near the upper end of the permitted body length so the reading experience can be judged with a substantial article. Long stories are the case where the detail view earns its keep, because the card only ever shows a headline and a teaser. Tapping through has to feel like arriving somewhere worth reading rather than a cramped popover. The photo appears again at the top of this screen at a fraction of its size on the card, which keeps a visual thread between the two views without wasting the space that the text now needs. Neither the headline overlay nor the subtitle repeats here, since both have already done their job of getting you to open the story. The body renders in a serif typeface, which reads better than a sans at this length on a phone screen, with line spacing loosened slightly beyond the system default. Below the text, three or four source links let you jump out to the places the story came from, opening in Safari rather than an in-app browser so that saved reading lists and history work normally. A timestamp sits underneath those links, small and quiet, for the occasions when it matters how old a story actually is.",
+      "imageURL": "/images/dev-tech-1.jpg",
+      "sources": [
+        { "name": "Example Source One", "url": "https://example.com/tech/one" },
+        { "name": "Example Source Two", "url": "https://example.com/tech/two" },
+        { "name": "Example Source Three", "url": "https://example.com/tech/three" }
+      ],
+      "publishedAt": "2026-07-29T05:25:00Z"
+    },
+    {
+      "id": "2026-07-29-ai-001",
+      "category": "ai",
+      "headline": "Final Placeholder Card in the AI Section",
+      "subtitle": "The last card in the fixture feed, used to confirm that paging stops cleanly at the end of the edition rather than allowing a partial scroll past the final story into empty space.",
+      "body": "Placeholder content for the AI section, and the final card in this fixture feed. The end of the feed is worth testing explicitly, because a paging scroll view that lets you drag past the last item into blank space feels broken in a way that is easy to miss during development when there is always more content below. This card is also the one to check the heart button against, since saving the last story and then reopening the saved sheet exercises both the persistence layer and the sheet presentation at once. Saved stories are exempt from the seven day purge, so anything hearted here should still be present after the retention window has passed, while everything unsaved should quietly disappear. That behaviour is the single most important thing to get right in the store, because silently losing something deliberately saved would be the worst bug this app could have.",
+      "imageURL": "/images/dev-ai-1.jpg",
+      "sources": [
+        { "name": "Example Source One", "url": "https://example.com/ai/one" },
+        { "name": "Example Source Two", "url": "https://example.com/ai/two" },
+        { "name": "Example Source Three", "url": "https://example.com/ai/three" }
+      ],
+      "publishedAt": "2026-07-29T05:20:00Z"
+    }
+  ]
+}
