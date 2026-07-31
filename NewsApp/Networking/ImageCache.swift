@@ -15,6 +15,31 @@ import UniformTypeIdentifiers
 /// Images are also downsampled at decode time. A full-resolution JPEG rotated in
 /// 3D during the fold transition is the most expensive thing this app could
 /// possibly do; decoding straight to display size avoids it.
+/// The decoded-image memory cache, deliberately **outside** the actor.
+///
+/// A view has to be able to ask "do you already have this one?" while building
+/// its body, with no `await`. Hopping to an actor costs at least a frame, and a
+/// frame is exactly long enough to show the fallback gradient — which is what
+/// made the photo flicker at both ends of every page turn, since a turn builds
+/// four fresh `CachedImage`s and tears them down again.
+///
+/// `NSCache` is thread-safe in its own right; the actor isolation was only ever
+/// protecting `inFlight`.
+/// `nonisolated` throughout: the whole point is to be callable from inside the
+/// `ImageCache` actor *and* from a view's `init` without an `await` from either.
+nonisolated final class ImageMemoryCache: @unchecked Sendable {
+    static let shared = ImageMemoryCache()
+
+    private let cache: NSCache<NSURL, UIImage> = {
+        let cache = NSCache<NSURL, UIImage>()
+        cache.countLimit = 60
+        return cache
+    }()
+
+    func image(for url: URL) -> UIImage? { cache.object(forKey: url as NSURL) }
+    func store(_ image: UIImage, for url: URL) { cache.setObject(image, forKey: url as NSURL) }
+}
+
 actor ImageCache {
     static let shared = ImageCache()
 
@@ -22,14 +47,6 @@ actor ImageCache {
     private let session: URLSession
     /// Coalesces concurrent requests for the same URL into one download.
     private var inFlight: [URL: Task<UIImage?, Never>] = [:]
-
-    /// Thread-safe in its own right, but kept actor-isolated so it needs no
-    /// Sendable gymnastics.
-    private let memory: NSCache<NSURL, UIImage> = {
-        let cache = NSCache<NSURL, UIImage>()
-        cache.countLimit = 60
-        return cache
-    }()
 
     init(session: URLSession = .shared) {
         self.session = session
@@ -41,7 +58,7 @@ actor ImageCache {
     /// Returns the image for `url`, from memory, then disk, then the network.
     /// `maxPixel` is the longest edge to decode to, in pixels.
     func image(for url: URL, maxPixel: CGFloat) async -> UIImage? {
-        if let hit = memory.object(forKey: url as NSURL) { return hit }
+        if let hit = ImageMemoryCache.shared.image(for: url) { return hit }
 
         if let existing = inFlight[url] { return await existing.value }
 
@@ -65,7 +82,7 @@ actor ImageCache {
         let image = await task.value
         inFlight[url] = nil
 
-        if let image { memory.setObject(image, forKey: url as NSURL) }
+        if let image { ImageMemoryCache.shared.store(image, for: url) }
         return image
     }
 
@@ -139,7 +156,24 @@ struct CachedImage: View {
 
     @State private var image: UIImage?
     @State private var didFail = false
+    /// Which URL `image` actually belongs to, so a reused view with a new URL
+    /// still reloads while a re-created one with the same URL doesn't.
+    @State private var loadedURL: URL?
     @Environment(\.displayScale) private var displayScale
+
+    init(url: URL?, category: NewsCategory, maxPointSize: CGFloat = 1200) {
+        self.url = url
+        self.category = category
+        self.maxPointSize = maxPointSize
+        // Seeded synchronously, so an already-decoded photo is on screen in the
+        // very first frame. Every re-creation of this view otherwise starts on
+        // the fallback gradient and fades in — and a page turn creates four of
+        // them and then throws them away, which is the flicker at each end of
+        // the animation.
+        let hit = url.flatMap { ImageMemoryCache.shared.image(for: $0) }
+        _image = State(initialValue: hit)
+        _loadedURL = State(initialValue: hit == nil ? nil : url)
+    }
 
     var body: some View {
         // `Color.clear` accepts exactly the size it's offered, so the overlaid
@@ -180,10 +214,15 @@ struct CachedImage: View {
 
     private func load() async {
         guard let url else {
+            image = nil
             didFail = true
             return
         }
-        image = nil
+        // Already showing the right photo — seeded in `init`, or loaded by an
+        // earlier run of this task. Clearing and refetching here unconditionally
+        // is what made a settled card flash when the turn ended.
+        if loadedURL == url, image != nil { return }
+
         didFail = false
         let loaded = await ImageCache.shared.image(
             for: url,
@@ -191,7 +230,9 @@ struct CachedImage: View {
         )
         if let loaded {
             image = loaded
+            loadedURL = url
         } else {
+            image = nil
             didFail = true
         }
     }
