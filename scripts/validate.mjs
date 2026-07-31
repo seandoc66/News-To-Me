@@ -3,9 +3,9 @@
 //
 //   node scripts/validate.mjs [path/to/feed.json]
 //
-// Defaults to public/latest.json. Exits 0 if valid, 1 if not, printing every
+// Defaults to docs/latest.json. Exits 0 if valid, 1 if not, printing every
 // problem it found (not just the first). Run this BEFORE overwriting
-// public/latest.json — if it fails, leave the previous day's file in place.
+// docs/latest.json — if it fails, leave the previous day's file in place.
 
 import { readFileSync, existsSync } from "node:fs";
 import { dirname, join, resolve } from "node:path";
@@ -216,6 +216,72 @@ for (const c of CATEGORIES) {
     warn(`no "${c}" articles in this batch`);
   } else if (perCategory[c] > 10) {
     warn(`${perCategory[c]} "${c}" articles — more than expected (4–8 is typical)`);
+  }
+}
+
+// --- config (optional) ------------------------------------------------------
+
+// Descriptive only: the app shows this read-only. Absent is fine — but a
+// malformed block would silently drop sections from the Sections screen, so
+// check the shape when one is present.
+if (feed.config !== undefined) {
+  const cfg = feed.config;
+  if (cfg === null || typeof cfg !== "object" || Array.isArray(cfg)) {
+    fail(`config must be an object when present, got: ${JSON.stringify(cfg)}`);
+  } else if (cfg.sections !== undefined) {
+    const sections = cfg.sections;
+    if (sections === null || typeof sections !== "object" || Array.isArray(sections)) {
+      fail(`config.sections must be an object keyed by category`);
+    } else {
+      for (const [key, section] of Object.entries(sections)) {
+        const at = (f) => `config.sections.${key}.${f}`;
+        if (!CATEGORIES.includes(key)) {
+          warn(`config.sections has an unknown category "${key}" — the app ignores it`);
+          continue;
+        }
+        if (section === null || typeof section !== "object" || Array.isArray(section)) {
+          fail(`config.sections.${key} must be an object`);
+          continue;
+        }
+        for (const bound of ["min", "max"]) {
+          const v = section[bound];
+          if (v !== undefined && (!Number.isInteger(v) || v < 0)) {
+            fail(`${at(bound)} must be a non-negative integer, got: ${JSON.stringify(v)}`);
+          }
+        }
+        if (
+          Number.isInteger(section.min) &&
+          Number.isInteger(section.max) &&
+          section.min > section.max
+        ) {
+          fail(`${at("min")} (${section.min}) is greater than ${at("max")} (${section.max})`);
+        }
+        if (section.sources !== undefined) {
+          if (!Array.isArray(section.sources)) {
+            fail(`${at("sources")} must be an array`);
+          } else {
+            section.sources.forEach((s, i) => {
+              if (s === null || typeof s !== "object" || Array.isArray(s)) {
+                fail(`${at(`sources[${i}]`)} must be an object`);
+                return;
+              }
+              if (typeof s.name !== "string" || !s.name.trim()) {
+                fail(`${at(`sources[${i}]`)}.name must be a non-empty string`);
+              }
+              // url is optional — some sources are named pages with no clean link.
+              if (s.url !== undefined && !/^https?:\/\//.test(String(s.url))) {
+                fail(`${at(`sources[${i}]`)}.url must be an http(s) URL when present, got: ${JSON.stringify(s.url)}`);
+              }
+            });
+          }
+        }
+      }
+      for (const c of CATEGORIES) {
+        if (sections[c] === undefined) {
+          warn(`config.sections has no "${c}" entry — that section won't appear on the Sections screen`);
+        }
+      }
+    }
   }
 }
 

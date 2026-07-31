@@ -4,6 +4,9 @@ import Foundation
 struct Feed: Codable, Sendable {
     let generatedAt: Date
     let articles: [Article]
+    /// The publishing rules behind this edition. Optional: feeds published
+    /// before the config block existed simply don't carry one.
+    let config: FeedConfig?
 }
 
 extension JSONDecoder {

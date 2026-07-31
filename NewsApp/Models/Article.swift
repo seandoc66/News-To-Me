@@ -86,10 +86,18 @@ struct Article: Codable, Identifiable, Hashable, Sendable {
 
     /// Resolves `imageURLString` against the host serving the feed, so the
     /// generator can emit either relative paths or absolute URLs.
+    ///
+    /// The feed writes photo paths host-absolute ("/images/<id>.jpg"), but the
+    /// feed itself can live under a subpath — GitHub Pages serves this repo from
+    /// `/News-To-Me/`. `URL(string:relativeTo:)` reads a leading slash as
+    /// "from the host root" and throws that subpath away, so the path is appended
+    /// to the base instead.
     func imageURL(base: URL) -> URL? {
         if imageURLString.hasPrefix("http://") || imageURLString.hasPrefix("https://") {
             return URL(string: imageURLString)
         }
-        return URL(string: imageURLString, relativeTo: base)
+        let path = imageURLString.trimmingPrefix("/")
+        guard !path.isEmpty else { return nil }
+        return base.appending(path: path)
     }
 }

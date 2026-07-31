@@ -11,7 +11,7 @@
 // mtime to checkout time, which would make mtime-based pruning silently do
 // nothing.
 //
-// Photos still referenced by public/latest.json are always kept, whatever their
+// Photos still referenced by docs/latest.json are always kept, whatever their
 // age, so the live feed can never end up pointing at a deleted file.
 
 import { readdirSync, existsSync, readFileSync, rmSync, statSync } from "node:fs";

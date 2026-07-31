@@ -9,12 +9,13 @@ struct RootView: View {
     @State private var lastRefresh: Date?
     @State private var refreshError: String?
     @State private var showingSaved = false
+    @State private var showingSettings = false
     @State private var toast: ToastMessage?
 
     private let service = FeedService()
 
     var body: some View {
-        FeedView(showingSaved: $showingSaved, toast: $toast)
+        FeedView(showingSaved: $showingSaved, showingSettings: $showingSettings, toast: $toast)
             .overlay(alignment: .top) {
                 if let refreshError {
                     banner(refreshError)
@@ -23,6 +24,9 @@ struct RootView: View {
             .toast($toast)
             .sheet(isPresented: $showingSaved) {
                 SavedView(toast: $toast)
+            }
+            .sheet(isPresented: $showingSettings) {
+                SettingsView()
             }
             .task {
                 // Purge first, and unconditionally — retention must not depend on

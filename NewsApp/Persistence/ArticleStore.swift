@@ -24,6 +24,11 @@ final class ArticleStore {
     /// say "no new stories today" if the daily job didn't run.
     private(set) var feedGeneratedAt: Date?
 
+    /// The publishing rules the last successful fetch reported. Persisted with
+    /// the articles so Settings still has something to show offline, and kept
+    /// from the previous feed if a newer one omits the block.
+    private(set) var feedConfig: FeedConfig?
+
     private let fileURL: URL
 
     init(fileURL: URL? = nil) {
@@ -68,6 +73,9 @@ final class ArticleStore {
         }
 
         feedGeneratedAt = feed.generatedAt
+        // A feed without a config block leaves the last known one in place —
+        // better a slightly stale Settings screen than an empty one.
+        if let config = feed.config { feedConfig = config }
         articles = Self.sorted(Array(byID.values))
         persist()
     }
@@ -116,6 +124,9 @@ final class ArticleStore {
     private struct Snapshot: Codable {
         var generatedAt: Date?
         var articles: [Article]
+        /// Optional so snapshots written before the config block existed still
+        /// decode.
+        var config: FeedConfig?
     }
 
     private static func defaultFileURL() -> URL {
@@ -130,6 +141,7 @@ final class ArticleStore {
             // the very first launch has something to show, online or not.
             if let seed = Self.bundledSeedFeed() {
                 feedGeneratedAt = seed.generatedAt
+                feedConfig = seed.config
                 articles = Self.sorted(seed.articles.map {
                     var a = $0
                     a.fetchedAt = .now
@@ -141,6 +153,7 @@ final class ArticleStore {
         do {
             let snapshot = try JSONDecoder.feed.decode(Snapshot.self, from: data)
             feedGeneratedAt = snapshot.generatedAt
+            feedConfig = snapshot.config
             articles = Self.sorted(snapshot.articles)
         } catch {
             // A corrupt store must never brick the app. Start clean; the next
@@ -151,7 +164,7 @@ final class ArticleStore {
     }
 
     private func persist() {
-        let snapshot = Snapshot(generatedAt: feedGeneratedAt, articles: articles)
+        let snapshot = Snapshot(generatedAt: feedGeneratedAt, articles: articles, config: feedConfig)
         do {
             let data = try JSONEncoder.feed.encode(snapshot)
             try data.write(to: fileURL, options: .atomic)

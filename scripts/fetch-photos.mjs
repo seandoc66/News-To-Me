@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 // Downloads each article's candidate photo, resizes it, and writes it to
-// public/images/<article-id>.jpg.
+// docs/images/<article-id>.jpg.
 //
 //   node scripts/fetch-photos.mjs draft.json
 //
@@ -11,7 +11,7 @@
 //      Wikimedia rejects requests without one)
 //   2. verifies the response is genuinely an image, not an HTML error page
 //   3. resizes to max 1000px on the long edge, JPEG quality 75, via `sips`
-//   4. writes public/images/<id>.jpg and rewrites `imageURL` to /images/<id>.jpg
+//   4. writes docs/images/<id>.jpg and rewrites `imageURL` to /images/<id>.jpg
 //
 // It prints a per-article result and rewrites the draft in place. Articles whose
 // photo could not be fetched keep their `photoCandidate` so you can see what
@@ -170,7 +170,7 @@ for (const article of feed.articles) {
 
 writeFileSync(resolvedDraft, JSON.stringify(feed, null, 2) + "\n");
 
-console.log(`\n${ok}/${feed.articles.length} photos fetched → public/images/`);
+console.log(`\n${ok}/${feed.articles.length} photos fetched → docs/images/`);
 if (failures.length) {
   console.log(`\n${failures.length} still need a photo:`);
   for (const f of failures) console.log(`  • ${f}`);

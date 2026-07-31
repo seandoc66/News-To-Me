@@ -1,11 +1,11 @@
 # News Feed Data Contract
 
 This is the contract between whatever generates news content (Hermes) and the
-iOS app that consumes it. The app fetches a single JSON file — `public/latest.json`
+iOS app that consumes it. The app fetches a single JSON file — `docs/latest.json`
 — once per day (on launch). It does not need history from the server: the app
 keeps its own rolling 7-day local store and merges new articles into it by `id`.
 
-## File: `public/latest.json`
+## File: `docs/latest.json`
 
 ```json
 {
@@ -39,9 +39,47 @@ keeps its own rolling 7-day local store and merges new articles into it by `id`.
 | `articles[].headline` | string | Short, single line. No period at the end, standard headline style. |
 | `articles[].subtitle` | string | **20–50 words.** The teaser shown on the card — enough to decide whether to open the full article. Not a repeat of the headline. |
 | `articles[].body` | string | **100–300 words.** Length should match the story's actual complexity — don't pad simple stories to hit 300, and don't force complex stories into 100. Plain prose, no markdown. |
-| `articles[].imageURL` | string (URL) | Title photo, **self-hosted by us** — see "Photos" below. Path form: `/images/<id>.jpg` (relative) so it resolves against whatever host serves this JSON. Must point at a file that actually exists in `public/images/`. |
+| `articles[].imageURL` | string (URL) | Title photo, **self-hosted by us** — see "Photos" below. Path form: `/images/<id>.jpg` (relative) so it resolves against whatever host serves this JSON, **including a subpath** — GitHub Pages serves this repo from `/News-To-Me/`, and the app appends the path to that base rather than treating the leading slash as the host root. Must point at a file that actually exists in `docs/images/`. |
 | `articles[].sources` | array of `{name, url}` | 3–4 real source links used to research/write the story. Count is a judgment call — use as many as were actually needed to get a rounded picture, within that range. |
 | `articles[].publishedAt` | ISO-8601 string | When the story was written/finalized. |
+
+## `config` (optional)
+
+An optional top-level block describing how the edition was assembled. The app
+shows it read-only under the Sections button, so the sources and story targets
+in play are visible on the phone without opening the repo.
+
+```json
+{
+  "generatedAt": "2026-07-28T06:00:00Z",
+  "config": {
+    "sections": {
+      "local":    { "min": 3, "max": 6, "sources": [
+        { "name": "El Progreso", "url": "https://www.elprogreso.es" },
+        { "name": "Concello de Lugo press page" }
+      ]},
+      "national": { "min": 3, "max": 6, "sources": [] },
+      "global":   { "min": 2, "max": 5, "sources": [] },
+      "tech":     { "min": 2, "max": 4, "sources": [] },
+      "ai":       { "min": 1, "max": 3, "sources": [] }
+    }
+  },
+  "articles": []
+}
+```
+
+| Field | Type | Rules |
+|---|---|---|
+| `config.sections` | object | Keyed by category (`local`, `national`, `global`, `tech`, `ai`). Any key that isn't one of those is ignored by the app rather than failing the decode. Sections may be omitted. |
+| `config.sections.<cat>.min` | int, optional | Lower end of the daily target. |
+| `config.sections.<cat>.max` | int, optional | Upper end of the daily target. |
+| `config.sections.<cat>.sources` | array of `{name, url?}`, optional | Sources drawn on for this section. `url` may be omitted for named pages that have no clean link; the app then shows the name alone. Defaults to `[]`. |
+
+**This block is descriptive, not a control surface.** The app never writes it —
+it reports what the generator did. Changing targets or sources means editing the
+generator's brief in `HERMES_HANDOFF.md`, then reflecting the change here on the
+next run. The whole block is optional: a feed without it decodes fine, and the
+app keeps showing the last config it saw.
 
 ## Categories, per day
 
@@ -69,8 +107,12 @@ saved article. For each story the generator must:
 1. Download the chosen photo.
 2. Resize to **max 1000px on the long edge, JPEG quality ~75** (keeps each file
    roughly 60–120KB).
-3. Save to `public/images/<article-id>.jpg`.
+3. Save to `docs/images/<article-id>.jpg`.
 4. Set `imageURL` to `/images/<article-id>.jpg`.
+
+Steps 3 and 4 go together: a photo on disk whose `imageURL` was never written
+back is invisible to the app, and validation rejects the batch. `fetch-photos.mjs`
+does both — check its exit status rather than assuming it finished.
 
 **Rolling window:** the app caches every image to disk on first view and keeps
 cached copies for saved articles indefinitely, so the server only needs to hold
@@ -96,11 +138,11 @@ open licenses avoids the question entirely.
 
 ## Validation
 
-Before publishing, run `scripts/validate.js` against the generated JSON. If it
-fails, **do not overwrite `public/latest.json`** — leave the previous day's file
+Before publishing, run `scripts/validate.mjs` against the generated JSON. If it
+fails, **do not overwrite `docs/latest.json`** — leave the previous day's file
 in place and surface the error instead.
 
 ## Archive (optional)
 
-Each day's batch may also be written to `public/archive/YYYY-MM-DD.json` for
+Each day's batch may also be written to `docs/archive/YYYY-MM-DD.json` for
 debugging/backfill purposes. The app never reads this — it's for humans only.

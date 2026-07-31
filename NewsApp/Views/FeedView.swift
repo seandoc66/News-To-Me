@@ -8,6 +8,7 @@ import SwiftUI
 struct FeedView: View {
     @Environment(ArticleStore.self) private var store
     @Binding var showingSaved: Bool
+    @Binding var showingSettings: Bool
     @Binding var toast: ToastMessage?
 
     @State private var index = 0
@@ -41,7 +42,7 @@ struct FeedView: View {
                 }
             }
             .background(.black)
-            .overlay(alignment: .topTrailing) { savedButton }
+            .overlay(alignment: .topTrailing) { topButtons }
             .navigationDestination(for: String.self) { id in
                 if let article = store.article(id: id) {
                     ArticleDetailView(article: article, toast: $toast)
@@ -102,18 +103,31 @@ struct FeedView: View {
         }
     }
 
-    private var savedButton: some View {
-        Button {
-            showingSaved = true
-        } label: {
-            Image(systemName: "heart.text.square")
+    private var topButtons: some View {
+        HStack(spacing: 10) {
+            button("slider.horizontal.3", label: "Sections and sources") {
+                showingSettings = true
+            }
+            button("heart.text.square", label: "Saved stories") {
+                showingSaved = true
+            }
+        }
+        .padding(.trailing, 16)
+        .padding(.top, 8)
+    }
+
+    private func button(
+        _ symbol: String,
+        label: String,
+        action: @escaping () -> Void
+    ) -> some View {
+        Button(action: action) {
+            Image(systemName: symbol)
                 .font(.system(size: 17, weight: .semibold))
                 .frame(width: 40, height: 40)
         }
         .buttonStyle(.glass)
-        .padding(.trailing, 16)
-        .padding(.top, 8)
-        .accessibilityLabel("Saved stories")
+        .accessibilityLabel(label)
     }
 
     /// Decodes the photos either side of the current card so the turn never
