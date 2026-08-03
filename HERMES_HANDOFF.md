@@ -20,11 +20,49 @@ Repo root is the working directory for everything below (`docs/`, `scripts/`):
 
 - **3 Aug** — `imageURL` is now **optional**. A story with no photo publishes
   anyway and renders with a category-tinted gradient. See section 5.
+- **3 Aug** — photos are now resized to **1600px** rather than 1000px, and
+  sources under 800×450 are rejected as too small. See section 5.
 - **3 Aug** — the validator now warns when two articles cite the same story URL
   (a duplicate published across two sections) and when a source link points at a
-  masthead rather than the story. See section 7.
+  masthead rather than the story. See sections 4 and 7.
 - **3 Aug** — an independent watchdog now checks the live feed each morning and
   emails Shane if no fresh edition arrived. See section 6.
+
+---
+
+## ⚠️ Outstanding right now — 3 August edition unpublished
+
+**The live feed is still 2 August.** Today's batch was written and is correct,
+but never published: two stories had no photo, and under the old rules that
+blocked the whole edition. Under the new rules **it now passes validation.**
+
+You were right not to publish. The rule was wrong, not your handling of it.
+
+Three things to settle before publishing, then run the commands at the end of
+section 8:
+
+1. **`tech-002` (Go 1.27) — its photo already exists.**
+   `docs/images/2026-08-03-tech-002.jpg` is on disk, 62KB. The download worked;
+   the path was simply never written back into the article. Set
+   `"imageURL": "/images/2026-08-03-tech-002.jpg"`.
+
+2. **`ai-002` (EU AI Act) — genuinely has no photo.** Find one, or publish it
+   without. Both are fine now.
+
+3. **`tech-001` and `ai-001` are the same story.** OpenAI's Astra model solving
+   ten open maths problems, same four sources, byte-identical photo. Drop one —
+   see the duplicate rule in section 4.
+
+**Your report for this run had two errors worth understanding**, because they
+point at the run rather than the news. It named `tech-003` (Seedance) as needing
+a photo — `tech-003` has one. And it described `tech-002` as missing a photo when
+the file was on disk. Together that suggests in-run state drifted from what was
+actually written. **Worth checking whether articles get renumbered mid-run**:
+`id` is load-bearing, since the app tracks Shane's saved stories by it, and an id
+shifting between what you think you wrote and what lands on disk could detach a
+saved story.
+
+Delete this section once the edition is out.
 
 ---
 
@@ -149,23 +187,60 @@ Every URL must be real and resolve. **Never invent a plausible-looking URL.** Re
 as many sources as you need for a rounded picture, then list the 3–4 most useful.
 Prefer primary sources (filings, official statements, papers) alongside reporting.
 
-### Don't repeat yesterday
+### One story, once — the duplicate rule
 
-Before writing, read the previous few days of `public/archive/*.json` and avoid
+**A story appears in exactly one section, once per edition.** This is the rule
+most often broken, and the most irritating one to break in a feed read once a
+day.
+
+It happens because sections overlap, not because of carelessness:
+
+| Overlap | Put it in |
+|---|---|
+| An AI model, lab, or AI policy story | `ai` — never also `tech` |
+| A Spanish story with an international dimension | `national` — Spain is the angle Shane wants |
+| A Lugo or Galicia story that made the national press | `local` — the closer section wins |
+| A tech story that is mostly EU/Spanish regulation | whichever section Shane would look for it in, not both |
+
+**The closer, more specific section always wins.** When genuinely torn, pick one
+and drop the other — never hedge by running both.
+
+Cross-posting is only defensible when the two pieces are genuinely different
+stories that happen to touch the same subject: different angle, different facts,
+**different sources**. If they share a source URL, they are the same story.
+
+The validator flags two articles citing the same story URL, which is the reliable
+signal — reworded headlines defeat any headline comparison. Treat that warning as
+a duplicate until you have shown otherwise.
+
+> This has been happening. On 3 August the OpenAI Astra maths story ran as both
+> `tech-001` and `ai-001` with identical sources and a byte-identical photo. The
+> already-published 2 August edition contains four more pairs: Ceuta across
+> `global` and `national`, the EU AI Act across `tech` and `ai`, and the Suno
+> copyright ruling likewise.
+
+### Don't repeat yesterday either
+
+Before writing, read the previous few days of `docs/archive/*.json` and avoid
 re-covering stories already sent. A genuinely developing story may be revisited,
 but only with a new angle and a headline that makes the development clear.
-Repeats are the most irritating possible failure in a feed read once a day.
 
 ---
 
 ## 5. Photos — self-hosted, FIXED
 
-**Every story needs a title photo, and you host it yourself. Never put a
-third-party URL in `imageURL`.**
+**Photos are hosted by us. Never put a third-party URL in `imageURL`.** Give
+every story a photo where you reasonably can, but a story without one still
+publishes — see below.
 
-This is deliberate: the app caches photos to disk and keeps them for saved
-articles indefinitely, so a story Shane saved six months ago must still have its
-picture. Hotlinked images rot.
+Self-hosting is deliberate: the app caches photos to disk and keeps them for
+saved articles indefinitely, so a story Shane saved six months ago must still
+have its picture. Hotlinked images rot.
+
+**One photo per story, and only one.** The app crops it to fill the top half of
+the card and shows the same file, smaller, in the header when the story is
+opened. Shane likes that — don't supply separate images for the two, and don't
+change the shape of what you provide.
 
 For each story:
 
@@ -173,10 +248,33 @@ For each story:
    or any news photo that genuinely illustrates *that* story — a generic stock
    laptop photo on every tech story defeats the point. Shane cares about the
    photos.
-2. **Download it, resize to max 1000px on the long edge, JPEG quality ~75**
-   (roughly 60–120KB per file).
+2. **Download it, resize to max 1600px on the long edge, JPEG quality ~75**
+   (roughly 150–250KB per file).
 3. **Save as `docs/images/<article-id>.jpg`** and set `imageURL` to
    `/images/<article-id>.jpg`.
+
+### Minimum resolution — reject anything too small
+
+A card photo fills the full width and half the height of the screen: about
+**1206 × 1311 physical pixels** on Shane's phone. A source smaller than that gets
+stretched, and it shows.
+
+`fetch-photos.mjs` now **rejects any source below 800px on its long edge or 450px
+on its short edge** and reports it as a failed photo. That story then publishes
+without a picture, which looks far better than a pixelated one.
+
+So when choosing a candidate, **prefer the largest version available**. Open Graph
+images are usually 1200×630, which is fine. Article thumbnails and list-view
+images often are not — follow through to the full-size original where the page
+offers one.
+
+If the only image available is too small, that is a legitimate no-photo story.
+Publish it without one.
+
+> On 2 August a local story ran with a visibly pixelated portrait. The main cause
+> was on our side — the resize ceiling was 1000px, so every photo was being
+> upscaled about 2.3× to fill the card. That ceiling is now 1600px. The minimum
+> check above covers the other half of the problem.
 
 `scripts/fetch-photos.mjs` will do steps 2–3 for you: put a
 `photoCandidate: { url, description, license }` on each article in your draft and

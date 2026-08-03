@@ -39,7 +39,7 @@ keeps its own rolling 7-day local store and merges new articles into it by `id`.
 | `articles[].headline` | string | Short, single line. No period at the end, standard headline style. |
 | `articles[].subtitle` | string | **20–50 words.** The teaser shown on the card — enough to decide whether to open the full article. Not a repeat of the headline. |
 | `articles[].body` | string | **100–300 words.** Length should match the story's actual complexity — don't pad simple stories to hit 300, and don't force complex stories into 100. Plain prose, no markdown. |
-| `articles[].imageURL` | string (URL) | Title photo, **self-hosted by us** — see "Photos" below. Path form: `/images/<id>.jpg` (relative) so it resolves against whatever host serves this JSON, **including a subpath** — GitHub Pages serves this repo from `/News-To-Me/`, and the app appends the path to that base rather than treating the leading slash as the host root. Must point at a file that actually exists in `docs/images/`. |
+| `articles[].imageURL` | string (URL), **optional** | Title photo, **self-hosted by us** — see "Photos" below. Path form: `/images/<id>.jpg` (relative) so it resolves against whatever host serves this JSON, **including a subpath** — GitHub Pages serves this repo from `/News-To-Me/`, and the app appends the path to that base rather than treating the leading slash as the host root. **May be omitted, `null`, or `""`** when a story has no photo; the app renders a category-tinted gradient instead. When a path *is* given, the file must exist in `docs/images/` — absent is acceptable, broken is not. |
 | `articles[].sources` | array of `{name, url}` | 3–4 real source links used to research/write the story. Count is a judgment call — use as many as were actually needed to get a rounded picture, within that range. |
 | `articles[].publishedAt` | ISO-8601 string | When the story was written/finalized. |
 
@@ -112,15 +112,22 @@ edition's, each in its own emitted order.
 Photos are **self-hosted**, not hotlinked, so they can't rot out from under a
 saved article. For each story the generator must:
 
-1. Download the chosen photo.
-2. Resize to **max 1000px on the long edge, JPEG quality ~75** (keeps each file
-   roughly 60–120KB).
+1. Download the chosen photo. **Reject sources under 800px on the long edge or
+   450px on the short edge** — a card photo fills roughly 1206 × 1311 physical
+   pixels, and anything smaller visibly stretches.
+2. Resize to **max 1600px on the long edge, JPEG quality ~75** (roughly
+   150–250KB per file).
 3. Save to `docs/images/<article-id>.jpg`.
 4. Set `imageURL` to `/images/<article-id>.jpg`.
 
 Steps 3 and 4 go together: a photo on disk whose `imageURL` was never written
-back is invisible to the app, and validation rejects the batch. `fetch-photos.mjs`
-does both — check its exit status rather than assuming it finished.
+back is invisible to the app. `fetch-photos.mjs` does both — check its exit
+status rather than assuming it finished.
+
+**A story with no photo still publishes.** If no suitable image can be found, or
+every candidate is too small, omit `imageURL` and ship the story. The app has a
+category-tinted fallback for exactly this, and one plainer card is a far better
+outcome than holding an edition.
 
 **Rolling window:** the app caches every image to disk on first view and keeps
 cached copies for saved articles indefinitely, so the server only needs to hold

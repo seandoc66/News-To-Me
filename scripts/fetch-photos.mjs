@@ -24,8 +24,24 @@ import { dirname, join, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import { tmpdir } from "node:os";
 
-const MAX_EDGE = 1000;
+// A card photo fills the full width and half the height of the screen — on an
+// iPhone 17 Pro that's 1206x1311 physical pixels. The old 1000px ceiling
+// guaranteed every photo was upscaled ~2.3x to fill it, which is what made them
+// look soft and, on lower-resolution sources, visibly pixelated. 1600 brings
+// that down to about 1.4x.
+//
+// This roughly doubles storage, to ~2GB/year of git history at 30 photos a day.
+// The 14-day prune keeps the working tree small, and if history ever becomes a
+// problem the escape hatch is object storage with absolute URLs, which the
+// schema and the app already accept.
+const MAX_EDGE = 1600;
 const JPEG_QUALITY = 75;
+
+// Below this, a photo cannot look good blown up to half the screen — it arrives
+// already smaller than the space it has to fill. Better no photo than a
+// pixelated one, now that a missing photo no longer blocks the edition.
+const MIN_SOURCE_LONG_EDGE = 800;
+const MIN_SOURCE_SHORT_EDGE = 450;
 const TIMEOUT_MS = 20_000;
 
 // Wikimedia rate-limits unauthenticated bursts and starts returning 429 after a
@@ -61,6 +77,21 @@ const feed = JSON.parse(readFileSync(resolvedDraft, "utf8"));
 if (!Array.isArray(feed.articles)) {
   console.error("✗ draft has no `articles` array");
   process.exit(1);
+}
+
+/// Pixel dimensions of an image on disk, via sips.
+function imageSize(path) {
+  const out = execFileSync(
+    "sips",
+    ["-g", "pixelWidth", "-g", "pixelHeight", path],
+    { encoding: "utf8" }
+  );
+  const width = Number(out.match(/pixelWidth:\s*(\d+)/)?.[1]);
+  const height = Number(out.match(/pixelHeight:\s*(\d+)/)?.[1]);
+  if (!Number.isFinite(width) || !Number.isFinite(height)) {
+    throw new Error("could not read image dimensions");
+  }
+  return { width, height };
 }
 
 /// Fetches with backoff on 429/5xx, which Wikimedia returns readily.
@@ -138,6 +169,18 @@ for (const article of feed.articles) {
 
     temp = join(tmpdir(), `photo-${article.id}-${bytes.length}`);
     writeFileSync(temp, bytes);
+
+    // Reject sources too small to fill a half-screen card. sips only ever
+    // downsizes, so a small source stays small and gets stretched by the app.
+    const { width, height } = imageSize(temp);
+    const longEdge = Math.max(width, height);
+    const shortEdge = Math.min(width, height);
+    if (longEdge < MIN_SOURCE_LONG_EDGE || shortEdge < MIN_SOURCE_SHORT_EDGE) {
+      throw new Error(
+        `too small at ${width}x${height} — needs at least ` +
+        `${MIN_SOURCE_LONG_EDGE}x${MIN_SOURCE_SHORT_EDGE} to fill a card`
+      );
+    }
 
     // sips is built into macOS, so this needs no dependencies. -Z scales the
     // long edge while preserving aspect ratio.
