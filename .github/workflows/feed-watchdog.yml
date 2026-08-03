@@ -1,0 +1,65 @@
+name: Feed watchdog
+
+# Checks each morning that a fresh edition actually reached the live site, and
+# fails loudly if it didn't. GitHub emails the repo owner when a scheduled
+# workflow fails, which is the notification.
+#
+# This deliberately checks the PUBLISHED URL rather than the repo contents, so
+# it exercises the whole chain — generator, commit, push, Pages deploy. A
+# watchdog that only inspected the repo would miss a Pages build failing.
+#
+# It is also independent of the generator. The generator can report its own
+# aborts, but it cannot report never having run at all, which is the failure
+# most likely to go unnoticed.
+
+on:
+  schedule:
+    # 06:00 UTC — 08:00 Europe/Madrid in summer, 07:00 in winter. The feed is
+    # generated at 06:00 Madrid, so this leaves at least an hour of slack.
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check the live feed is today's
+        run: |
+          set -euo pipefail
+          URL="https://seandoc66.github.io/News-To-Me/latest.json"
+          MAX_AGE_HOURS=24
+
+          echo "Fetching $URL"
+          if ! curl -fsSL --max-time 30 "$URL" -o feed.json; then
+            echo "::error::Feed is unreachable at $URL"
+            exit 1
+          fi
+
+          GENERATED=$(python3 -c "import json;print(json.load(open('feed.json'))['generatedAt'])")
+          COUNT=$(python3 -c "import json;print(len(json.load(open('feed.json'))['articles']))")
+
+          AGE_HOURS=$(python3 - "$GENERATED" <<'PY'
+          import sys, datetime
+          g = datetime.datetime.fromisoformat(sys.argv[1])
+          now = datetime.datetime.now(datetime.timezone.utc)
+          if g.tzinfo is None:
+              g = g.replace(tzinfo=datetime.timezone.utc)
+          print(round((now - g).total_seconds() / 3600, 1))
+          PY
+          )
+
+          echo "Edition generated: $GENERATED"
+          echo "Articles:          $COUNT"
+          echo "Age:               ${AGE_HOURS}h"
+
+          if [ "$COUNT" -eq 0 ]; then
+            echo "::error::Feed published with zero articles"
+            exit 1
+          fi
+
+          if awk "BEGIN{exit !($AGE_HOURS > $MAX_AGE_HOURS)}"; then
+            echo "::error::No new edition — the live feed is ${AGE_HOURS}h old (generated $GENERATED). The daily job either failed or never ran."
+            exit 1
+          fi
+
+          echo "Feed is current."

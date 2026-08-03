@@ -1,24 +1,30 @@
-# Hermes Task Spec — Daily Personal News Feed
+# Hermes Operating Brief — Daily Personal News Feed
 
-You are being asked to produce and publish a daily news feed for Shane's personal
-iOS app. The app is built and working; it is waiting on a live feed URL.
+**This is the standing brief for a pipeline that is already live**, not a setup
+task. The feed has been running since 31 July: hosting is chosen, the cron is
+scheduled, the app is pointed at it and installed. What follows is what you need
+every morning.
 
-This document is the complete brief. Two things in it are **fixed** and two are
-**yours to decide**:
+The pipeline is working. Read this when something changes or something breaks.
 
 | | |
 |---|---|
-| **Fixed** | The JSON contract (section 2). The app already decodes exactly this. |
-| **Fixed** | Photos are self-hosted, never hotlinked (section 5). |
-| **Yours** | Where the feed is hosted and how it gets published (section 6). |
-| **Yours** | How you source and research the news (section 3–4 set the standards, not the method). |
+| **Fixed** | The JSON contract (section 2). The app decodes exactly this; deviating breaks it silently. |
+| **Fixed** | Photos are self-hosted, never hotlinked (section 5). A missing photo no longer blocks the edition. |
+| **Yours** | How you source and research the news. Sections 3–4 set the standards, not the method. |
 
-When you are done, **write a handoff document back** telling Shane and Claude
-Code what you decided, so the app can be pointed at your feed. Section 9 lists
-exactly what that needs to contain.
+Repo root is the working directory for everything below (`docs/`, `scripts/`):
+`/Users/shanedoc/Sites/News-To-Me`
 
-Repo: `/Users/shanedoc/Sites/News-To-Me`
-| Working directory for everything below: the repo root (`docs/`, `scripts/`). |
+### Changed recently
+
+- **3 Aug** — `imageURL` is now **optional**. A story with no photo publishes
+  anyway and renders with a category-tinted gradient. See section 5.
+- **3 Aug** — the validator now warns when two articles cite the same story URL
+  (a duplicate published across two sections) and when a source link points at a
+  masthead rather than the story. See section 7.
+- **3 Aug** — an independent watchdog now checks the live feed each morning and
+  emails Shane if no fresh edition arrived. See section 6.
 
 ---
 
@@ -219,20 +225,37 @@ deletes anything still referenced by `latest.json`, whatever its age.
 
 ---
 
-## 6. Hosting — DECIDED: GitHub Pages
+## 6. How publishing works, and how failure gets noticed
 
-**Chosen: GitHub Pages** via the `docs/` folder on `main`.
+**GitHub Pages**, serving the `docs/` folder on `main`. The feed lives at
+`https://seandoc66.github.io/News-To-Me/`, `latest.json` at its root and photos
+under `/images/`. Publishing is `git push` — Pages auto-deploys. No tokens, no
+service connections, no manual steps. `latest.json` is served with
+`max-age=600`, short enough that the phone never reads a stale copy for long.
 
-The feed lives at `https://seandoc66.github.io/News-To-Me/`. Publishing is fully automated: commit to `main` and GitHub Pages auto-deploys from the `docs/` folder. No tokens, no service connections, no manual steps.
+The app is pointed at that base URL and resolves `/images/<id>.jpg` against it.
 
-Requirements met:
-1. **Publicly reachable over HTTPS** — GitHub Pages provides HTTPS by default.
-2. **Stable URL** — `https://seandoc66.github.io/News-To-Me/latest.json` won't change.
-3. **No long cache on latest.json** — GitHub Pages serves with `max-age=600` (10 min), which is short enough for daily updates.
-4. **Images at derivable URLs** — `/images/<id>.jpg` resolves against the base URL.
-5. **Not served from this Mac Mini** — GitHub handles hosting.
-6. **Fully automatable** — `git push` is the publish step.
-7. **Free** — GitHub Pages is free for public repos.
+### Two independent checks now catch a missed edition
+
+Silence used to be the failure mode. On 3 August a batch correctly refused to
+publish, the previous day's file stayed live, and nobody knew for two days —
+a stale feed is indistinguishable from a quiet news day if nothing says
+otherwise. Two things now say otherwise:
+
+1. **The app** compares the edition's `generatedAt` against the clock on every
+   refresh. Past 26 hours it shows a banner — *"No new edition today — showing
+   yesterday's news"*. Shane sees it the moment he opens the app.
+2. **A GitHub Actions watchdog** (`.github/workflows/feed-watchdog.yml`) fetches
+   the live URL each morning at 06:00 UTC and fails the workflow if the edition
+   is over 24 hours old, unreachable, or empty. GitHub emails Shane on failure.
+
+The watchdog checks the **published URL**, not the repo, so it exercises the
+whole chain including the Pages deploy. It is deliberately independent of you:
+you can report your own aborts, but you cannot report never having run at all,
+and that is the failure most likely to go unnoticed.
+
+**This does not replace your own reporting.** The watchdog says only that
+something is wrong; your report says what. Keep writing it.
 
 ---
 
@@ -314,32 +337,26 @@ All commands run from the repo root.
 
 ---
 
-## 9. What to hand back — REQUIRED
+## 9. Reporting each run
 
-When you have the pipeline working and a feed live, write a handoff document for
-Shane and Claude Code. The app currently points at a placeholder and **cannot
-fetch anything until it has your answers.** It must contain:
+Write a short report every run. It is the only account of what happened, and the
+watchdog in section 6 only says *that* something is wrong, never *what*.
 
-1. **The exact, full URL of `latest.json`.** e.g.
-   `https://example.github.io/News-To-Me/latest.json`
-2. **The base URL that relative image paths resolve against**, and one **real
-   example image URL** so it can be verified with `curl`.
-3. **Confirmation it is publicly reachable with no authentication**, ideally with
-   the `curl -I` output showing the status and `Cache-Control` header for both
-   `latest.json` and an image.
-4. **What you chose and why**, briefly — enough that Shane can reason about it
-   later without re-deriving your decision.
-5. **How publishing works**, concretely: the exact command or job that runs, what
-   time it runs, where it runs from, and whether anything (a token, a workflow
-   file, a service connection) had to be set up that Shane should know exists.
-6. **How it fails, and how you would notice.** If a run fails or the source of a
-   photo goes down, what happens — and does Shane find out, or does the feed just
-   quietly stop updating?
-7. **Anything you changed in this repo**, so nothing is a surprise.
+Say plainly:
 
-Claude Code will then set `FeedEndpoint.base` in
-`NewsApp/Networking/FeedService.swift` and verify the app end to end against your
-live feed.
+- Whether the edition **published**, and if not, why.
+- Any story that shipped **without a photo**, and any you couldn't source one for.
+- Any **validator warnings**, especially duplicate-source and dead-end-link ones.
+- Anything that looked wrong but you worked around.
+
+**Check the report against the files before sending it.** On 3 August the report
+named the wrong story as missing a photo, and named a story whose photo was
+present on disk. A report that disagrees with the repo sends whoever reads it
+after the wrong problem.
+
+If something needs changing on the app side — a contract change, a new field,
+anything Claude Code has to implement — say so explicitly rather than assuming
+it will be noticed.
 
 ---
 
@@ -357,43 +374,37 @@ question entirely.
 object storage and using absolute URLs in `imageURL` needs no app change — the
 schema already accepts them.
 
-**There is a draft batch already in the repo** at
-`docs/archive/2026-07-31.json`: 14 real articles with verified sources, of which
-only 2 have photos fetched. Treat it as a worked example of the format, or
-overwrite it with your first real run — Shane has no attachment to it.
-
 ---
 
-## 11. Future app features (for Claude Code)
+## 11. Optional `config` block
 
-### Configurable sources & story counts
-
-Add a settings screen in the iOS app that lets Shane manage which sources are
-used per section and how many stories to aim for daily. This will require
-extending the JSON contract — likely a `config` object alongside `articles`:
+The feed may carry a `config` object alongside `articles`, describing the story
+counts each section aims for:
 
 ```json
 {
-  "generatedAt": "2026-07-31T06:00:00Z",
+  "generatedAt": "2026-08-03T06:00:00+02:00",
   "config": {
     "sections": {
-      "local": { "min": 3, "max": 6 },
+      "local":    { "min": 3, "max": 6 },
       "national": { "min": 3, "max": 6 },
-      "global": { "min": 2, "max": 5 },
-      "tech": { "min": 2, "max": 4 },
-      "ai": { "min": 1, "max": 3 }
+      "global":   { "min": 2, "max": 5 },
+      "tech":     { "min": 2, "max": 4 },
+      "ai":       { "min": 1, "max": 3 }
     }
   },
   "articles": []
 }
 ```
 
-The app would write this config back to a file or send it to the feed pipeline.
-The exact mechanism (API endpoint, config file in the repo, etc.) is to be
-decided.
+It is **descriptive, not instructive** — the app displays it read-only on the
+Sections screen so Shane can see what the feed is aiming for. It does not change
+what you produce; section 3 still governs that, and real newsworthiness still
+beats hitting a number.
 
-### Auto-delete unsaved stories after 1 week
+The block is optional and absent is fine, but the validator checks its shape when
+present, since a malformed one would silently drop sections from that screen.
 
-Stories that Shane has not saved (hearted) should be automatically deleted from
-the device after 7 days. Saved stories persist indefinitely. This is purely an
-app-side feature — the feed pipeline only publishes what's new each day.
+Letting Shane *edit* these from the phone would need a way for the app to send
+changes back, which does not exist. That is an open design question, not
+something to implement against.
