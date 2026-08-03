@@ -31,6 +31,27 @@ const warn = (msg) => warnings.push(msg);
 
 const countWords = (s) => s.trim().split(/\s+/).filter(Boolean).length;
 
+/// True when a URL points at an individual story rather than a masthead or
+/// section index.
+///
+/// Depth alone isn't enough: plenty of sites publish stories at the root with a
+/// slug ("/denuncian-agresion-a-un-menor-en-sarria"), which is one segment deep
+/// yet obviously a story, while "/news" is one segment and obviously not. So a
+/// lone segment counts when it looks like a slug — hyphenated or long — or when
+/// a query string identifies the item.
+const isStoryURL = (raw) => {
+  try {
+    const u = new URL(raw);
+    const segments = u.pathname.split("/").filter(Boolean);
+    if (segments.length >= 2) return true;
+    if (segments.length === 0) return false;
+    const slug = segments[0];
+    return u.search.length > 1 || slug.includes("-") || slug.length > 15;
+  } catch {
+    return false;
+  }
+};
+
 const isISODate = (s) =>
   typeof s === "string" &&
   /^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(\.\d+)?(Z|[+-]\d{2}:\d{2})$/.test(s) &&
@@ -69,6 +90,9 @@ if (feed.articles.length === 0) {
 
 const seenIds = new Set();
 const seenHeadlines = new Map();
+const seenSourceUrls = new Map();
+const missingPhotos = [];
+const reportedPairs = new Set();
 const perCategory = Object.fromEntries(CATEGORIES.map((c) => [c, 0]));
 
 feed.articles.forEach((a, i) => {
@@ -142,9 +166,15 @@ feed.articles.forEach((a, i) => {
     }
   }
 
-  // imageURL — self-hosted, so verify the file actually exists
-  if (typeof a.imageURL !== "string" || !a.imageURL.trim()) {
-    fail(`${at("imageURL")} must be a non-empty string`);
+  // imageURL — optional. A story with no photo still publishes and renders with
+  // the category-tinted fallback; blocking a whole edition over one missing
+  // image costs far more than one plainer card. When a path IS given it must be
+  // well-formed and the file must exist, since a broken path is a bug rather
+  // than an accepted absence.
+  if (a.imageURL === undefined || a.imageURL === null || a.imageURL === "") {
+    missingPhotos.push(a.id ?? at());
+  } else if (typeof a.imageURL !== "string" || !a.imageURL.trim()) {
+    fail(`${at("imageURL")} must be a string path, an absolute URL, or omitted entirely`);
   } else if (a.imageURL.startsWith("/")) {
     const onDisk = join(feedRoot, "docs", a.imageURL.replace(/^\//, ""));
     if (!existsSync(onDisk)) {
@@ -178,6 +208,36 @@ feed.articles.forEach((a, i) => {
       } else {
         if (seenUrls.has(s.url)) fail(`${sat}.url is a duplicate within this article`);
         seenUrls.add(s.url);
+        // Two articles citing the same *story* URL are almost always the same
+        // story written twice — usually across sections, since tech and ai
+        // overlap. Reworded headlines slip past the exact-match headline check,
+        // so this is what actually catches a duplicate.
+        //
+        // Only deep links count. A masthead like bbc.com/news gets cited by
+        // several unrelated stories quite legitimately, and treating that as a
+        // duplicate would be a false positive on most batches.
+        if (isStoryURL(s.url)) {
+          const owner = seenSourceUrls.get(s.url);
+          if (owner) {
+            // Report once per pair, not once per shared link — a genuine
+            // duplicate usually shares every source it has.
+            const pair = [owner, a.id].sort().join(" | ");
+            if (!reportedPairs.has(pair)) {
+              reportedPairs.add(pair);
+              warn(
+                `${a.id} and ${owner} cite the same source (${s.url}) — ` +
+                `check these aren't the same story published twice`
+              );
+            }
+          } else if (a.id) {
+            seenSourceUrls.set(s.url, a.id);
+          }
+        } else {
+          warn(
+            `${sat}.url is a section or home page (${s.url}), not the story itself — ` +
+            `it's a dead end when tapped`
+          );
+        }
         try {
           new URL(s.url);
         } catch {
@@ -216,6 +276,25 @@ for (const c of CATEGORIES) {
     warn(`no "${c}" articles in this batch`);
   } else if (perCategory[c] > 10) {
     warn(`${perCategory[c]} "${c}" articles — more than expected (4–8 is typical)`);
+  }
+}
+
+// Photos are optional, but a batch that has largely given up on them is a
+// broken pipeline rather than an unlucky day, so say so loudly.
+if (missingPhotos.length) {
+  const share = missingPhotos.length / feed.articles.length;
+  const list = missingPhotos.join(", ");
+  if (share > 0.5) {
+    fail(
+      `${missingPhotos.length} of ${feed.articles.length} articles have no photo — ` +
+      `that's over half the batch, which suggests the photo step failed rather than ` +
+      `a few images being unavailable: ${list}`
+    );
+  } else {
+    warn(
+      `${missingPhotos.length} article(s) publishing without a photo — ` +
+      `these render with the category gradient: ${list}`
+    );
   }
 }
 

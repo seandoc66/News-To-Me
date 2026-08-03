@@ -25,7 +25,11 @@ struct Article: Codable, Identifiable, Hashable, Sendable {
     let body: String
     /// Either an absolute URL or a path relative to the feed host
     /// (e.g. "/images/2026-07-28-tech-001.jpg"). Resolve with `imageURL(base:)`.
-    let imageURLString: String
+    ///
+    /// Optional: a story whose photo couldn't be sourced still publishes, and
+    /// renders with the category-tinted fallback instead. Requiring a photo
+    /// meant one missing image blocked a whole edition.
+    let imageURLString: String?
     let sources: [ArticleSource]
     let publishedAt: Date
 
@@ -60,7 +64,7 @@ struct Article: Codable, Identifiable, Hashable, Sendable {
         headline: String,
         subtitle: String,
         body: String,
-        imageURLString: String,
+        imageURLString: String? = nil,
         sources: [ArticleSource],
         publishedAt: Date,
         fetchedAt: Date = .now,
@@ -92,7 +96,10 @@ struct Article: Codable, Identifiable, Hashable, Sendable {
         headline = try c.decode(String.self, forKey: .headline)
         subtitle = try c.decode(String.self, forKey: .subtitle)
         body = try c.decode(String.self, forKey: .body)
-        imageURLString = try c.decode(String.self, forKey: .imageURLString)
+        // Absent, null, or empty all mean "no photo" — the generator writes an
+        // empty string when a photo couldn't be fetched.
+        let rawImage = try c.decodeIfPresent(String.self, forKey: .imageURLString)
+        imageURLString = (rawImage?.isEmpty ?? true) ? nil : rawImage
         sources = try c.decodeIfPresent([ArticleSource].self, forKey: .sources) ?? []
         publishedAt = try c.decode(Date.self, forKey: .publishedAt)
         fetchedAt = try c.decodeIfPresent(Date.self, forKey: .fetchedAt) ?? .now
@@ -109,7 +116,10 @@ struct Article: Codable, Identifiable, Hashable, Sendable {
     /// `/News-To-Me/`. `URL(string:relativeTo:)` reads a leading slash as
     /// "from the host root" and throws that subpath away, so the path is appended
     /// to the base instead.
+    /// Returns nil when the story has no photo, which callers render as the
+    /// category-tinted fallback.
     func imageURL(base: URL) -> URL? {
+        guard let imageURLString else { return nil }
         if imageURLString.hasPrefix("http://") || imageURLString.hasPrefix("https://") {
             return URL(string: imageURLString)
         }

@@ -180,11 +180,29 @@ story whose photo failed. It throttles and retries, but **note that some image
 hosts rate-limit hard** — if you are pulling many photos from one origin, expect
 429s and pace accordingly. You are free to ignore this script and do it yourself.
 
-### What if a story has no good photo?
+### What if a story has no good photo? — PUBLISH ANYWAY
 
-If after reasonable effort there is no suitable photo for a genuinely interesting
-story, skip the story rather than pad with a generic image. A story with no photo
-is better than one with a photo that adds nothing.
+**A missing photo must never block the edition.** This changed on 3 August, after
+a missing image held back a complete, otherwise-correct feed of sixteen stories
+for a whole day.
+
+`imageURL` is **optional**. If after reasonable effort there is no suitable photo,
+either omit the `imageURL` key entirely or set it to an empty string, and publish
+the story anyway. The app renders those cards with the category-tinted gradient
+that already exists for photos that fail to load — it looks deliberate, not
+broken. One plainer card costs far less than a day with no news.
+
+Two things still *are* errors, because they indicate a bug rather than an
+unlucky story:
+
+- An `imageURL` that points at a file which isn't on disk. Absent is fine; broken
+  is not.
+- **More than half** the batch missing photos. That isn't a run of bad luck, it's
+  the photo step having failed, and it's worth stopping for.
+
+Never pad with a generic image that adds nothing — an empty `imageURL` is the
+better outcome. And don't drop a genuinely interesting story just because it has
+no picture; publish it.
 
 ### Rolling 14-day window
 
@@ -221,18 +239,34 @@ Requirements met:
 ## 7. Validation — not optional
 
 ```
-node scripts/validate.mjs                       # checks public/latest.json
+node scripts/validate.mjs                       # checks docs/latest.json
 node scripts/validate.mjs path/to/draft.json    # checks a draft
 ```
 
 It enforces every hard rule in section 2 — word counts, id format and uniqueness,
-category names, source count and URL validity, duplicate headlines, timestamp
-format, and that every referenced image file actually exists on disk. It exits
-non-zero and prints **every** problem it found, not just the first. Warnings
-(section ordering, headline style, unusual category counts) are advisory.
+category names, source count and URL validity, duplicate headlines, and timestamp
+format. It exits non-zero and prints **every** problem it found, not just the
+first.
 
 **If validation fails, do not publish.** Leave the previous day's `latest.json`
 in place. Yesterday's feed staying live is far better than a broken or empty one.
+
+### Read the warnings — they are the quality signal
+
+Warnings do not block publication, and three of them are worth acting on:
+
+- **`… cite the same source … check these aren't the same story published twice`**
+  Two articles sharing a story URL almost always means one story written twice,
+  usually split across `tech` and `ai`, which overlap heavily. Reworded headlines
+  sail past the exact-match headline check, so this is what actually catches it.
+  **This has already happened** — on 3 August, the OpenAI Astra maths story ran as
+  both `tech-001` and `ai-001` with identical photos and identical sources. Merge
+  or drop one.
+- **`… is a section or home page …, it's a dead end when tapped`**
+  A source of `https://www.bbc.com/news` is useless: Shane taps it expecting the
+  story and gets a masthead. Link the article itself.
+- **`… article(s) publishing without a photo`**
+  Informational. Fine in small numbers; see section 5.
 
 ---
 
@@ -248,14 +282,23 @@ All commands run from the repo root.
 
 3. Fetch and resize photos:
       node scripts/fetch-photos.mjs docs/archive/YYYY-MM-DD.json
-   Exits non-zero if any photo failed — find replacements and re-run.
    Re-running only retries what is still missing.
+
+   It exits non-zero if any photo failed. Make ONE reasonable attempt at
+   replacements for those, then MOVE ON — set their imageURL to "" and
+   continue. A missing photo is not a reason to hold the edition.
+
+   Check the JSON actually matches what is on disk before continuing. On
+   3 August a photo downloaded successfully but its path was never written
+   back into the article, so a story that had its picture was reported as
+   missing one — and the report named the wrong story on top of that.
 
 4. Validate the draft:
       node scripts/validate.mjs docs/archive/YYYY-MM-DD.json
 
 5. If validation FAILS → stop. Do NOT touch docs/latest.json.
    Report the errors.
+   Read the WARNINGS too, even when it passes — see section 7.
 
 6. If validation PASSES → publish it:
       cp docs/archive/YYYY-MM-DD.json docs/latest.json
