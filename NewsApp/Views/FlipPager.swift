@@ -43,11 +43,6 @@ struct FlipPager<Page: View>: View {
     /// the height exactly makes every page feel like hard work.
     private static var dragSpan: CGFloat { 0.62 }
 
-    /// Strength of the 3D projection. Tuned so the near edge splays visibly past
-    /// both sides of the screen at the steepest part of the turn — that flare is
-    /// what reads as paper rather than as a rotating rectangle.
-    private static var perspective: CGFloat { 0.62 }
-
     var body: some View {
         GeometryReader { geo in
             let size = geo.size
@@ -60,10 +55,16 @@ struct FlipPager<Page: View>: View {
                     page(index)
                         .frame(width: size.width, height: size.height)
                 } else {
-                    turn(p, in: size)
-                        // Mid-turn the layers are clipped halves of the same
-                        // card; nothing there is meant to be tappable.
-                        .allowsHitTesting(false)
+                    FlipLayers(
+                        progress: p,
+                        index: index,
+                        count: count,
+                        size: size,
+                        page: page
+                    )
+                    // Mid-turn the layers are clipped halves of the same card;
+                    // nothing there is meant to be tappable.
+                    .allowsHitTesting(false)
                 }
             }
             .frame(width: size.width, height: size.height)
@@ -78,77 +79,6 @@ struct FlipPager<Page: View>: View {
             // link to handle it.
             .highPriorityGesture(drag(height: size.height))
         }
-    }
-
-    // MARK: - Layers
-
-    /// Three layers, back to front: the top half of the pad, the bottom half of
-    /// the pad, and the flap turning between them.
-    @ViewBuilder
-    private func turn(_ p: Double, in size: CGSize) -> some View {
-        let forward = p > 0
-        let q = min(abs(p), 1)                  // 0 … 1
-        let target = forward ? index + 1 : index - 1
-        let past = q > 0.5                      // has the flap gone edge-on yet?
-
-        // The flap always shows the half it is currently covering, so which
-        // slot it occupies is decided by how far through the turn it is.
-        let flapSlot: Half = forward == past ? .top : .bottom
-        let flapPage = past ? target : index
-        // One continuous sweep: 0 → 90 → 0, re-anchored to the far edge as it
-        // passes vertical.
-        let angle = forward
-            ? (past ? 180 * q - 180 : 180 * q)
-            : (past ? 180 - 180 * q : -180 * q)
-
-        ZStack {
-            VStack(spacing: 0) {
-                half(forward ? index : target, .top, size)
-                    .creaseShadow(on: .bottom, showing: !forward ? 1 - q * 2 : 0)
-                half(forward ? target : index, .bottom, size)
-                    .creaseShadow(on: .top, showing: forward ? 1 - q * 2 : 0)
-            }
-
-            VStack(spacing: 0) {
-                if flapSlot == .bottom { Color.clear.frame(height: size.height / 2) }
-                half(flapPage, flapSlot, size)
-                    // Light falls off the page as it turns away from you. This
-                    // is what sells the crease — without it the flap reads as a
-                    // sheet of glass.
-                    .overlay { Color.black.opacity(0.55 * sin(abs(angle) * .pi / 180)) }
-                    .rotation3DEffect(
-                        .degrees(angle),
-                        axis: (x: 1, y: 0, z: 0),
-                        // The hinge: whichever edge of the flap faces the
-                        // midline.
-                        anchor: flapSlot == .top ? .bottom : .top,
-                        perspective: Self.perspective
-                    )
-                if flapSlot == .top { Color.clear.frame(height: size.height / 2) }
-            }
-        }
-    }
-
-    private enum Half { case top, bottom }
-
-    /// One half of a page, clipped out of a full-size render of it.
-    ///
-    /// The card is laid out at full screen size and then offset behind a
-    /// half-height window, rather than being asked to lay itself out at half
-    /// height — otherwise the two halves would each reflow to fit and stop
-    /// lining up as one page.
-    @ViewBuilder
-    private func half(_ i: Int, _ part: Half, _ size: CGSize) -> some View {
-        Color.black
-            .frame(width: size.width, height: size.height / 2)
-            .overlay {
-                if (0..<count).contains(i) {
-                    page(i)
-                        .frame(width: size.width, height: size.height)
-                        .offset(y: part == .top ? size.height / 4 : -size.height / 4)
-                }
-            }
-            .clipped()
     }
 
     // MARK: - Gesture
@@ -209,12 +139,119 @@ struct FlipPager<Page: View>: View {
     /// its endpoints, and a finger can't be held still for a screenshot.
     ///
     ///     xcrun simctl launch <device> com.shanedoc.NewsApp -flipProgress 0.35
+    ///
+    /// Note it ignores the gesture entirely while set, so a frozen build looks
+    /// exactly like paging with no animation at all.
     private static var frozenProgress: Double? {
         let v = UserDefaults.standard.double(forKey: "flipProgress")
         return v == 0 ? nil : v
     }
     #endif
 }
+
+// MARK: - The turn
+
+/// The three layers of a turn in flight: the top half of the pad, the bottom
+/// half of the pad, and the flap rotating between them.
+///
+/// **`Animatable` is load-bearing here.** `withAnimation` evaluates a body
+/// *once*, at its final value, then interpolates whatever animatable modifiers
+/// it finds between the old rendering and the new one. Without this conformance
+/// a flick produced no fold at all: SwiftUI saw a flap in the bottom slot at one
+/// angle and a flap in the top slot at another, and simply slid the one to the
+/// other with its contents swapped. Conforming to `Animatable` makes SwiftUI
+/// re-evaluate this body for every interpolated `progress`, which is the only
+/// way the halves can be re-picked frame by frame.
+///
+/// A slow drag hid that completely, because `onChanged` re-evaluates the body on
+/// its own — the fold was only ever wrong when an animation was driving it.
+private struct FlipLayers<Page: View>: View, Animatable {
+    var progress: Double
+    var index: Int
+    var count: Int
+    var size: CGSize
+    var page: (Int) -> Page
+
+    var animatableData: Double {
+        get { progress }
+        set { progress = newValue }
+    }
+
+    /// Strength of the 3D projection. Tuned so the near edge splays visibly past
+    /// both sides of the screen at the steepest part of the turn — that flare is
+    /// what reads as paper rather than as a rotating rectangle.
+    private static var perspective: CGFloat { 0.62 }
+
+    var body: some View {
+        let forward = progress > 0
+        let q = min(abs(progress), 1)                  // 0 … 1
+        let target = forward ? index + 1 : index - 1
+        let past = q > 0.5                             // gone edge-on yet?
+
+        // The flap always shows the half it is currently covering, so which slot
+        // it occupies is decided by how far through the turn it is.
+        let flapSlot: Half = forward == past ? .top : .bottom
+        let flapPage = past ? target : index
+        // One continuous sweep: 0 → 90 → 0, re-anchored to the far edge as it
+        // passes vertical.
+        let angle = forward
+            ? (past ? 180 * q - 180 : 180 * q)
+            : (past ? 180 - 180 * q : -180 * q)
+
+        return ZStack {
+            VStack(spacing: 0) {
+                half(forward ? index : target, .top)
+                    .creaseShadow(on: .bottom, showing: forward ? 0 : 1 - q * 2)
+                half(forward ? target : index, .bottom)
+                    .creaseShadow(on: .top, showing: forward ? 1 - q * 2 : 0)
+            }
+
+            VStack(spacing: 0) {
+                if flapSlot == .bottom { Color.clear.frame(height: size.height / 2) }
+                half(flapPage, flapSlot)
+                    // Light falls off the page as it turns away from you. This
+                    // is what sells the crease — without it the flap reads as a
+                    // sheet of glass.
+                    .overlay { Color.black.opacity(0.55 * sin(abs(angle) * .pi / 180)) }
+                    .rotation3DEffect(
+                        .degrees(angle),
+                        axis: (x: 1, y: 0, z: 0),
+                        // The hinge: whichever edge of the flap faces the
+                        // midline.
+                        anchor: flapSlot == .top ? .bottom : .top,
+                        perspective: Self.perspective
+                    )
+                if flapSlot == .top { Color.clear.frame(height: size.height / 2) }
+            }
+        }
+        // Every recomputed frame *is* the animation. Letting the ambient
+        // transaction animate these values again makes the flap chase its own
+        // position a frame behind, which smears the fold.
+        .transaction { $0.animation = nil }
+    }
+
+    /// One half of a page, clipped out of a full-size render of it.
+    ///
+    /// The card is laid out at full screen size and then offset behind a
+    /// half-height window, rather than being asked to lay itself out at half
+    /// height — otherwise the two halves would each reflow to fit and stop
+    /// lining up as one page.
+    @ViewBuilder
+    private func half(_ i: Int, _ part: Half) -> some View {
+        Color.black
+            .frame(width: size.width, height: size.height / 2)
+            .overlay {
+                if (0..<count).contains(i) {
+                    page(i)
+                        .frame(width: size.width, height: size.height)
+                        .offset(y: part == .top ? size.height / 4 : -size.height / 4)
+                }
+            }
+            .clipped()
+    }
+}
+
+private enum Half { case top, bottom }
 
 // MARK: - Crease shadow
 
