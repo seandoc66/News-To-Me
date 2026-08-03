@@ -51,18 +51,31 @@ struct SettingsView: View {
                 }
             }
 
-            if let generated = store.feedGeneratedAt {
-                Section {
-                    EmptyView()
-                } footer: {
-                    Text("From the edition published \(generated.formatted(date: .abbreviated, time: .shortened)). These are set by the daily news job, not in the app.")
-                        .font(.caption)
-                        .foregroundStyle(.secondary)
+            Section {
+                EmptyView()
+            } footer: {
+                VStack(alignment: .leading, spacing: 6) {
+                    if let generated = store.feedGeneratedAt {
+                        Text("From the edition published \(generated.formatted(date: .abbreviated, time: .shortened)). These are set by the daily news job, not in the app.")
+                    }
+                    Text(buildDescription)
                 }
+                .font(.caption)
+                .foregroundStyle(.secondary)
             }
         }
         .listStyle(.insetGrouped)
         .scrollContentBackground(.hidden)
+    }
+
+    /// Which copy of the app this is. The build number changes on every install
+    /// (see `scripts/install-to-phone.sh`), so it tells two installs apart even
+    /// though the version stays 1.0.
+    private var buildDescription: String {
+        let info = Bundle.main.infoDictionary
+        let version = info?["CFBundleShortVersionString"] as? String ?? "—"
+        let build = info?["CFBundleVersion"] as? String ?? "—"
+        return "News \(version) (build \(build))"
     }
 
     private func header(_ category: NewsCategory, config: SectionConfig) -> some View {
@@ -105,6 +118,9 @@ struct SettingsView: View {
                 .font(.footnote)
                 .foregroundStyle(.secondary)
                 .multilineTextAlignment(.center)
+            Text(buildDescription)
+                .font(.caption)
+                .foregroundStyle(.secondary)
         }
         .padding(40)
         .frame(maxHeight: .infinity)
