@@ -35,12 +35,23 @@ struct Article: Codable, Identifiable, Hashable, Sendable {
     /// Non-nil once hearted. Saved articles are exempt from the purge.
     var savedAt: Date?
 
+    /// The edition this article arrived in — the `generatedAt` of that feed —
+    /// and its slot within it.
+    ///
+    /// Together these preserve the generator's running order. The feed does the
+    /// editorial ranking ("most significant story first"), and it isn't
+    /// recoverable from the article itself: `publishedAt` is when the source
+    /// story broke, not how much it matters. Both optional so articles stored
+    /// before these fields existed still decode.
+    var editionAt: Date?
+    var feedOrder: Int?
+
     var isSaved: Bool { savedAt != nil }
 
     enum CodingKeys: String, CodingKey {
         case id, category, headline, subtitle, body
         case imageURLString = "imageURL"
-        case sources, publishedAt, fetchedAt, savedAt
+        case sources, publishedAt, fetchedAt, savedAt, editionAt, feedOrder
     }
 
     init(
@@ -53,7 +64,9 @@ struct Article: Codable, Identifiable, Hashable, Sendable {
         sources: [ArticleSource],
         publishedAt: Date,
         fetchedAt: Date = .now,
-        savedAt: Date? = nil
+        savedAt: Date? = nil,
+        editionAt: Date? = nil,
+        feedOrder: Int? = nil
     ) {
         self.id = id
         self.category = category
@@ -65,6 +78,8 @@ struct Article: Codable, Identifiable, Hashable, Sendable {
         self.publishedAt = publishedAt
         self.fetchedAt = fetchedAt
         self.savedAt = savedAt
+        self.editionAt = editionAt
+        self.feedOrder = feedOrder
     }
 
     /// `fetchedAt`/`savedAt` are absent from the server payload, so they get
@@ -82,6 +97,8 @@ struct Article: Codable, Identifiable, Hashable, Sendable {
         publishedAt = try c.decode(Date.self, forKey: .publishedAt)
         fetchedAt = try c.decodeIfPresent(Date.self, forKey: .fetchedAt) ?? .now
         savedAt = try c.decodeIfPresent(Date.self, forKey: .savedAt)
+        editionAt = try c.decodeIfPresent(Date.self, forKey: .editionAt)
+        feedOrder = try c.decodeIfPresent(Int.self, forKey: .feedOrder)
     }
 
     /// Resolves `imageURLString` against the host serving the feed, so the

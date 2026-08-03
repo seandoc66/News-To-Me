@@ -95,9 +95,17 @@ The app presents articles **grouped by section**, in this fixed order:
 local → national → global → tech → ai
 ```
 
-Within a section, most significant story first. The generator should emit
-articles already in this order (the app also sorts defensively, so a
-mis-ordered file still renders correctly — but emit them sorted anyway).
+Within a section, most significant story first. **The app presents a section in
+exactly the order the articles appear in this file** — it records each article's
+position on fetch and never re-sorts by date. Significance is the generator's
+call, and `publishedAt` is a poor proxy for it: a lead story researched from a
+morning source would otherwise fall below a lighter one filed later that day.
+
+So the running order genuinely matters. Emit each section deliberately ranked.
+
+Where several editions are held at once (the app keeps a rolling 7 days), the
+newest edition's stories come first within a section, then the previous
+edition's, each in its own emitted order.
 
 ## Photos
 

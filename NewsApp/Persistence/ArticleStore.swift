@@ -55,21 +55,25 @@ final class ArticleStore {
     /// Articles already present keep their local `fetchedAt` and `savedAt` — a
     /// re-published story must never lose its heart or have its purge clock
     /// reset. Genuinely new articles are inserted with `fetchedAt = now`.
+    ///
+    /// Every article takes this feed's edition and its position in it, including
+    /// re-published ones: a story carried into today's edition belongs in
+    /// today's running order, at the slot the generator gave it.
     func merge(_ feed: Feed) {
         var byID = Dictionary(uniqueKeysWithValues: articles.map { ($0.id, $0) })
 
-        for incoming in feed.articles {
+        for (position, incoming) in feed.articles.enumerated() {
+            var article = incoming
             if let existing = byID[incoming.id] {
-                var updated = incoming
-                updated.fetchedAt = existing.fetchedAt
-                updated.savedAt = existing.savedAt
-                byID[incoming.id] = updated
+                article.fetchedAt = existing.fetchedAt
+                article.savedAt = existing.savedAt
             } else {
-                var fresh = incoming
-                fresh.fetchedAt = .now
-                fresh.savedAt = nil
-                byID[incoming.id] = fresh
+                article.fetchedAt = .now
+                article.savedAt = nil
             }
+            article.editionAt = feed.generatedAt
+            article.feedOrder = position
+            byID[incoming.id] = article
         }
 
         feedGeneratedAt = feed.generatedAt
@@ -107,13 +111,30 @@ final class ArticleStore {
 
     // MARK: - Ordering
 
+    /// Sections in reading order; within a section, newest edition first and
+    /// then exactly the order the generator emitted.
+    ///
+    /// Deliberately *not* sorted by `publishedAt`: the generator ranks a section
+    /// by significance, and ordering by date silently overrides that — a lead
+    /// story researched from a morning source would fall below a lighter one
+    /// filed later. `feedOrder` carries the ranking the generator intended.
+    ///
+    /// Articles stored before those fields existed fall back to `publishedAt`,
+    /// which is the old behaviour and orders them sensibly among themselves.
+    /// The comparison is a total order, so the result doesn't depend on
+    /// `sorted(by:)` being stable — it isn't.
     private static func sorted(_ articles: [Article]) -> [Article] {
         articles.sorted { lhs, rhs in
             if lhs.category.sortOrder != rhs.category.sortOrder {
                 return lhs.category.sortOrder < rhs.category.sortOrder
             }
-            if lhs.publishedAt != rhs.publishedAt {
-                return lhs.publishedAt > rhs.publishedAt
+            let lhsEdition = lhs.editionAt ?? lhs.publishedAt
+            let rhsEdition = rhs.editionAt ?? rhs.publishedAt
+            if lhsEdition != rhsEdition {
+                return lhsEdition > rhsEdition
+            }
+            if lhs.feedOrder != rhs.feedOrder {
+                return (lhs.feedOrder ?? .max) < (rhs.feedOrder ?? .max)
             }
             return lhs.id < rhs.id
         }
@@ -142,9 +163,11 @@ final class ArticleStore {
             if let seed = Self.bundledSeedFeed() {
                 feedGeneratedAt = seed.generatedAt
                 feedConfig = seed.config
-                articles = Self.sorted(seed.articles.map {
-                    var a = $0
+                articles = Self.sorted(seed.articles.enumerated().map { position, article in
+                    var a = article
                     a.fetchedAt = .now
+                    a.editionAt = seed.generatedAt
+                    a.feedOrder = position
                     return a
                 })
             }
