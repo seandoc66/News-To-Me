@@ -15,8 +15,8 @@ struct ArticleSource: Codable, Hashable, Identifiable, Sendable {
 }
 
 /// One story. This is both the wire format (decoded from the feed JSON) and the
-/// on-disk format, with two extra locally-owned fields — `fetchedAt` and
-/// `savedAt` — that the server never sends.
+/// on-disk format, with three extra locally-owned fields — `fetchedAt`,
+/// `savedAt` and `readAt` — that the server never sends.
 struct Article: Codable, Identifiable, Hashable, Sendable {
     let id: String
     let category: NewsCategory
@@ -33,11 +33,17 @@ struct Article: Codable, Identifiable, Hashable, Sendable {
     let sources: [ArticleSource]
     let publishedAt: Date
 
-    /// When this app first saw the article. Drives the 7-day purge, so it is
+    /// When this app first saw the article. Drives the purge, so it is
     /// deliberately local rather than trusting the server's dates.
     var fetchedAt: Date
     /// Non-nil once hearted. Saved articles are exempt from the purge.
     var savedAt: Date?
+    /// Non-nil once the full story has been opened. Only the first visit is
+    /// recorded — this is "have you read it", not a visit log.
+    ///
+    /// Feeds the day picker, where the share of a day's stories that carry this
+    /// is what drains the colour out of that day's button.
+    var readAt: Date?
 
     /// The edition this article arrived in — the `generatedAt` of that feed —
     /// and its slot within it.
@@ -51,11 +57,12 @@ struct Article: Codable, Identifiable, Hashable, Sendable {
     var feedOrder: Int?
 
     var isSaved: Bool { savedAt != nil }
+    var isRead: Bool { readAt != nil }
 
     enum CodingKeys: String, CodingKey {
         case id, category, headline, subtitle, body
         case imageURLString = "imageURL"
-        case sources, publishedAt, fetchedAt, savedAt, editionAt, feedOrder
+        case sources, publishedAt, fetchedAt, savedAt, readAt, editionAt, feedOrder
     }
 
     init(
@@ -69,6 +76,7 @@ struct Article: Codable, Identifiable, Hashable, Sendable {
         publishedAt: Date,
         fetchedAt: Date = .now,
         savedAt: Date? = nil,
+        readAt: Date? = nil,
         editionAt: Date? = nil,
         feedOrder: Int? = nil
     ) {
@@ -82,13 +90,14 @@ struct Article: Codable, Identifiable, Hashable, Sendable {
         self.publishedAt = publishedAt
         self.fetchedAt = fetchedAt
         self.savedAt = savedAt
+        self.readAt = readAt
         self.editionAt = editionAt
         self.feedOrder = feedOrder
     }
 
-    /// `fetchedAt`/`savedAt` are absent from the server payload, so they get
-    /// sensible defaults when decoding a fresh feed and are preserved when
-    /// decoding our own on-disk store.
+    /// `fetchedAt`/`savedAt`/`readAt` are absent from the server payload, so
+    /// they get sensible defaults when decoding a fresh feed and are preserved
+    /// when decoding our own on-disk store.
     init(from decoder: any Decoder) throws {
         let c = try decoder.container(keyedBy: CodingKeys.self)
         id = try c.decode(String.self, forKey: .id)
@@ -104,6 +113,7 @@ struct Article: Codable, Identifiable, Hashable, Sendable {
         publishedAt = try c.decode(Date.self, forKey: .publishedAt)
         fetchedAt = try c.decodeIfPresent(Date.self, forKey: .fetchedAt) ?? .now
         savedAt = try c.decodeIfPresent(Date.self, forKey: .savedAt)
+        readAt = try c.decodeIfPresent(Date.self, forKey: .readAt)
         editionAt = try c.decodeIfPresent(Date.self, forKey: .editionAt)
         feedOrder = try c.decodeIfPresent(Int.self, forKey: .feedOrder)
     }

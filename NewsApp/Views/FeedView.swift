@@ -1,21 +1,32 @@
 import SwiftUI
 
-/// Full-screen vertical pager: one story per screen, turning like the pages of
-/// a spiral-bound pad hinged across the middle of the screen.
+/// One day's edition: a full-screen vertical pager, one story per screen,
+/// turning like the pages of a spiral-bound pad hinged across the middle of the
+/// screen.
+///
+/// Scoped to a single day on purpose. This used to page through everything the
+/// store held — five mornings run together with no seam — so the story after the
+/// last of today's was yesterday's lead, and nothing said so.
 ///
 /// The turn itself lives in `FlipPager` — see there for why this can't be a
 /// `ScrollView`.
 struct FeedView: View {
-    @Environment(ArticleStore.self) private var store
+    /// Midnight of the day being read, as handed over by the day picker.
+    let day: Date
     @Binding var showingSaved: Bool
     @Binding var showingSettings: Bool
     @Binding var toast: ToastMessage?
 
+    @Environment(ArticleStore.self) private var store
+    @Environment(\.dismiss) private var dismiss
+
+    /// This day's stories, cached rather than recomputed in `body`.
+    ///
+    /// `FlipPager` rebuilds four clipped half-pages per frame during a turn, and
+    /// bucketing the whole store by calendar day on each of them — `startOfDay`
+    /// per article, per half, sixty times a second — is not free.
+    @State private var articles: [Article] = []
     @State private var index = 0
-    /// Article *ids*, not `Article` values. Hearting a story mutates its
-    /// `savedAt`, which changes the value's hash — so pushing the value itself
-    /// would break navigation identity mid-read.
-    @State private var path: [String] = []
 
     /// Set the first time a page is turned, and remembered, so the hint appears
     /// for a newcomer and never nags again.
@@ -33,74 +44,109 @@ struct FeedView: View {
     #endif
 
     var body: some View {
-        NavigationStack(path: $path) {
-            Group {
-                if store.articles.isEmpty {
-                    EmptyFeedView()
-                } else {
-                    pager
-                }
-            }
-            .background(.black)
-            .overlay(alignment: .topTrailing) { topButtons }
-            .navigationDestination(for: String.self) { id in
-                if let article = store.article(id: id) {
-                    ArticleDetailView(article: article, toast: $toast)
-                }
+        Group {
+            if articles.isEmpty {
+                EmptyFeedView(day: day)
+            } else {
+                pager
             }
         }
+        .background(.black)
+        .overlay(alignment: .topLeading) { backButton }
+        .overlay(alignment: .topTrailing) { topButtons }
+        .toolbar(.hidden, for: .navigationBar)
+        .task { reload() }
+        // A refresh, a backfill or a purge can land while a day is open.
+        .onChange(of: store.articles) { _, _ in reload() }
+    }
+
+    private func reload() {
+        articles = store.articles(on: day)
+        index = min(index, max(0, articles.count - 1))
+    }
+
+    /// The window the feed is being drawn into.
+    ///
+    /// Both its size and its safe-area insets are needed, and neither can be got
+    /// from a proxy on this screen. Inside the card a proxy reads zeroes,
+    /// because the card is deliberately bigger than the space it is given. And
+    /// just outside it the numbers don't agree with each other: this screen is
+    /// laid out from an origin 20pt down while reporting a 47pt top inset, so
+    /// anything derived from that pair — `ignoresSafeArea` included — lands the
+    /// card 27pt high and takes the category tag up into the status bar.
+    private static var window: UIWindow? {
+        UIApplication.shared.connectedScenes
+            .compactMap { $0 as? UIWindowScene }
+            .first { $0.activationState == .foregroundActive }?
+            .keyWindow
     }
 
     private var pager: some View {
-        // The safe-area insets have to be read out here, *outside* the
-        // `ignoresSafeArea` below — a GeometryReader inside the card sees zeroes
-        // and the status bar would sit on top of the category tag.
-        GeometryReader { outer in
-            let safeTop = outer.safeAreaInsets.top
-            let safeBottom = outer.safeAreaInsets.bottom
+        let screen = Self.window?.safeAreaInsets ?? .zero
+        let screenSize = Self.window?.bounds.size ?? .zero
 
-            FlipPager(count: store.articles.count, index: $index) { i in
+        // Sized to the window and pulled up by however far down the screen this
+        // reader actually starts, so the card's edges land on the screen's
+        // edges — measured rather than inferred.
+        return GeometryReader { outer in
+            let originY = outer.frame(in: .global).minY
+
+            FlipPager(count: articles.count, index: $index) { i in
                 // A NavigationLink rather than .onTapGesture: a full-screen tap
                 // recogniser swallows the vertical drag, whereas a link
                 // cooperates with it — a drag cancels the link and turns the
                 // page instead.
-                NavigationLink(value: store.articles[i].id) {
+                NavigationLink(value: Route.article(articles[i].id)) {
                     ArticleCardView(
-                        article: store.articles[i],
+                        article: articles[i],
                         toast: $toast,
-                        safeTop: safeTop,
-                        safeBottom: safeBottom
+                        safeTop: screen.top,
+                        safeBottom: screen.bottom,
+                        tagTopGap: Self.tagTopGap
                     )
                 }
                 .buttonStyle(.plain)
             }
-            .ignoresSafeArea()
+            .frame(width: screenSize.width, height: screenSize.height)
             .overlay(alignment: .bottom) {
                 // Each card fills the screen exactly, so without this there is
-                // no visual cue that anything exists below it.
-                if !hasScrolledFeed, store.articles.count > 1 {
+                // no visual cue that anything exists below it. Attached here,
+                // inside the offset below, so it travels with the card's bottom
+                // edge rather than the reader's.
+                if !hasScrolledFeed, articles.count > 1 {
                     SwipeUpHint()
-                        .padding(.bottom, safeBottom + 18)
+                        .padding(.bottom, screen.bottom + 18)
                         .transition(.opacity)
                 }
             }
+            .offset(y: -originY)
             .onChange(of: index) { _, i in
                 withAnimation(.easeOut(duration: 0.4)) { hasScrolledFeed = true }
                 Task { await prefetchNeighbours(of: i) }
             }
-            .onChange(of: store.articles.count) { _, count in
-                // A refresh or a purge can land while the feed is open.
-                index = min(index, max(0, count - 1))
-            }
             .task {
                 #if DEBUG
-                if let start = debugStartIndex, store.articles.indices.contains(start) {
+                if let start = debugStartIndex, articles.indices.contains(start) {
                     index = start
                 }
                 #endif
                 await prefetchNeighbours(of: index)
             }
         }
+    }
+
+    /// How far the card's category tag is dropped, to clear the row of floating
+    /// buttons. 8pt of padding, a button a little over 40pt tall once its glass
+    /// capsule is counted, and a gap under it.
+    private static let tagTopGap: CGFloat = 62
+
+    /// The nav bar is hidden so the photo can run to the top of the screen, so
+    /// back is a floating glass circle like the other two — same shape, opposite
+    /// corner.
+    private var backButton: some View {
+        button("chevron.left", label: "Back to the week") { dismiss() }
+            .padding(.leading, 16)
+            .padding(.top, 8)
     }
 
     private var topButtons: some View {
@@ -134,8 +180,8 @@ struct FeedView: View {
     /// reveals an empty frame.
     private func prefetchNeighbours(of i: Int) async {
         let neighbours = [i - 1, i + 1, i + 2]
-            .filter { store.articles.indices.contains($0) }
-            .compactMap { store.articles[$0].imageURL(base: FeedEndpoint.base) }
+            .filter { articles.indices.contains($0) }
+            .compactMap { articles[$0].imageURL(base: FeedEndpoint.base) }
         await ImageCache.shared.prefetch(neighbours, maxPixel: 1200 * 3)
     }
 }
@@ -163,15 +209,20 @@ private struct SwipeUpHint: View {
 
 // MARK: - Empty state
 
+/// Reachable in one narrow case: a day whose stories were purged, or dropped by
+/// a refresh, while its feed was open. The day picker disables a button with
+/// nothing behind it, so this is a race rather than a route.
 private struct EmptyFeedView: View {
+    let day: Date
+
     var body: some View {
         VStack(spacing: 12) {
             Image(systemName: "newspaper")
                 .font(.system(size: 44, weight: .light))
                 .foregroundStyle(.secondary)
-            Text("No stories yet")
+            Text("Nothing for \(day.formatted(.dateTime.weekday(.wide)))")
                 .font(.title3.weight(.semibold))
-            Text("Today's edition hasn't arrived. Pull the app open again once the morning feed has run.")
+            Text("There's no edition for this day. Pick another from the front page.")
                 .font(.footnote)
                 .foregroundStyle(.secondary)
                 .multilineTextAlignment(.center)

@@ -1,9 +1,13 @@
 # News Feed Data Contract
 
 This is the contract between whatever generates news content (Hermes) and the
-iOS app that consumes it. The app fetches a single JSON file — `docs/latest.json`
-— once per day (on launch). It does not need history from the server: the app
-keeps its own rolling 7-day local store and merges new articles into it by `id`.
+iOS app that consumes it. The app fetches `docs/latest.json` once per day (on
+launch) and merges new articles into its own rolling 5-day local store by `id`.
+
+It also reads `docs/archive/<YYYY-MM-DD>.json` — but only to fill a day it has
+no stories for at all, such as after a fresh install or a few days away from the
+app. The archive is a backstop, not the primary path: a 404 there is treated as
+an ordinary quiet morning, not an error.
 
 ## File: `docs/latest.json`
 
@@ -141,9 +145,10 @@ morning source would otherwise fall below a lighter one filed later that day.
 
 So the running order genuinely matters. Emit each section deliberately ranked.
 
-Where several editions are held at once (the app keeps a rolling 7 days), the
+Where several editions are held at once (the app keeps a rolling 5 days), the
 newest edition's stories come first within a section, then the previous
-edition's, each in its own emitted order.
+edition's, each in its own emitted order. The app reads one edition at a time —
+you pick a day first — so this ordering matters within a day, not across days.
 
 ## Photos
 
