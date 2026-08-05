@@ -45,18 +45,23 @@ error — deliberately.
 
 ### Researching without looping
 
-The failure mode here is searching in circles, not searching too little. Hard caps:
+The failure mode here is searching in circles, not searching too little. Hard
+caps, from `config.json → research`:
 
-- **At most 3 `web_search` calls per section.** After three, stop researching that
-  section and write with what you have.
-- **At most 15 `web_search` calls across the whole run.**
+- **`maxSearchesPerSection` `web_search` calls per section.** Once you hit it,
+  stop researching that section and write with what you have.
+- **`maxSearchesPerRun` `web_search` calls across the whole run.**
 - **Prefer `web_extract` on a known source URL** (the outlets in
   `config.json → sources`) over `web_search` — it's direct and doesn't loop.
 - If a search repeats a result you've already seen, move on immediately — never
   retry the same query.
 
-Hitting a cap with a thin section is fine: a genuinely empty section is a correct
-outcome (see above), not a reason to keep searching.
+Read the current values from the config rather than assuming — they are tuned
+from experience and will change.
+
+Nothing checks afterwards whether you respected these; they hold only because you
+follow them. Hitting a cap with a thin section is fine: a genuinely empty section
+is a correct outcome (see above), not a reason to keep searching.
 
 ---
 

@@ -26,6 +26,12 @@
     "sourcesPerArticle": { "min": 3, "max": 4 }
   },
 
+  "research": {
+    "_note": "Caps on searching, to stop a run going in circles. Unlike everything else in this file these are enforced by Hermes reading the brief, not by a script — nothing checks afterwards whether they were respected.",
+    "maxSearchesPerSection": 3,
+    "maxSearchesPerRun": 15
+  },
+
   "photos": {
     "_note": "A card photo fills roughly 1206x1311 physical pixels on the phone. maxLongEdge below that guarantees upscaling; sources below the minimums cannot look good at that size.",
     "maxLongEdge": 1600,
