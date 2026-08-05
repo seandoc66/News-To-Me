@@ -86,9 +86,19 @@ struct FlipPager<Page: View>: View {
     private func drag(height: CGFloat) -> some Gesture {
         DragGesture(minimumDistance: 10)
             .onChanged { value in
+                // A sideways drag is the back-swipe, not a page turn. Without
+                // this the pad starts folding as the screen slides away, and
+                // you leave the day mid-crease.
+                guard !value.isSideways else { return }
                 progress = resisted(-value.translation.height / (height * Self.dragSpan))
             }
             .onEnded { value in
+                guard !value.isSideways else {
+                    // Nothing to commit, but a drag that arced sideways after
+                    // starting upward has left the flap part-turned.
+                    withAnimation(.spring(response: 0.38, dampingFraction: 1)) { progress = 0 }
+                    return
+                }
                 // Predicted end, not the raw translation, so a short fast flick
                 // turns the page and a long slow drag that stalls doesn't.
                 settle(predicted: -value.predictedEndTranslation.height / (height * Self.dragSpan))
@@ -252,6 +262,20 @@ private struct FlipLayers<Page: View>: View, Animatable {
 }
 
 private enum Half { case top, bottom }
+
+// MARK: - Drag direction
+
+private extension DragGesture.Value {
+    /// Whether the drag has travelled further across than up or down.
+    ///
+    /// Read fresh on every callback rather than latched at the start of the
+    /// gesture: a latch set on a drag that is then cancelled — which is exactly
+    /// what happens when the back-swipe takes over — never gets cleared, and
+    /// the next drag inherits it.
+    var isSideways: Bool {
+        abs(translation.width) > abs(translation.height)
+    }
+}
 
 // MARK: - Crease shadow
 
