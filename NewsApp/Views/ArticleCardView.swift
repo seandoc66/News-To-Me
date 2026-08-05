@@ -1,22 +1,20 @@
 import SwiftUI
 
 /// One story, one screen: photo across the top half, headline beneath it,
-/// subtitle filling what's left, section tag and heart floating on top.
+/// subtitle filling what's left, and the heart floating on top.
+///
+/// The section pill isn't here. It used to sit in the photo's top corner and
+/// spent its life dodging the row of floating buttons above it; it now lives in
+/// that row, drawn by `FeedView`, which is the only view that knows what else is
+/// up there.
 struct ArticleCardView: View {
     let article: Article
     @Binding var toast: ToastMessage?
-    /// Passed down from `FeedView`, which reads the real insets before the
-    /// scroll view ignores them.
-    let safeTop: CGFloat
+    /// Passed down from `FeedView`, which reads the real inset before the
+    /// scroll view ignores it. Only the bottom one is needed: the photo runs
+    /// under the status bar on purpose, and everything that has to clear it is
+    /// drawn by `FeedView` over the top.
     let safeBottom: CGFloat
-    /// How far to drop the category tag below the safe-area top.
-    ///
-    /// The tag used to have that corner to itself. It now shares it with
-    /// `FeedView`'s floating back button, and only `FeedView` knows how tall
-    /// that row of buttons is — so it says, and the tag clears it. Dropping the
-    /// tag rather than insetting it keeps it off a narrowing squeeze between the
-    /// back button and the two buttons opposite.
-    var tagTopGap: CGFloat = 6
 
     @Environment(ArticleStore.self) private var store
 
@@ -30,11 +28,6 @@ struct ArticleCardView: View {
                     category: article.category
                 )
                 .frame(width: geo.size.width, height: photoHeight)
-                .overlay(alignment: .topLeading) {
-                    CategoryTag(category: article.category)
-                        .padding(.leading, 20)
-                        .padding(.top, safeTop + tagTopGap)
-                }
                 .overlay(alignment: .bottom) {
                     // Keeps the headline legible against a bright photo edge.
                     LinearGradient(
@@ -63,11 +56,11 @@ struct ArticleCardView: View {
                         .lineLimit(4)
                         .minimumScaleFactor(0.75)
 
-                    // Set at title3 rather than body so a 20–50 word teaser
+                    // Set at title2 rather than body so a 20–50 word teaser
                     // genuinely fills the lower half of the screen instead of
                     // leaving a dead gap above the heart.
                     Text(article.subtitle)
-                        .font(.system(.title3, design: .default))
+                        .font(.system(.title2, design: .default))
                         .foregroundStyle(.white.opacity(0.82))
                         .lineSpacing(5)
                         // Shrink rather than push the heart off screen at large

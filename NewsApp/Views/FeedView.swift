@@ -52,8 +52,7 @@ struct FeedView: View {
             }
         }
         .background(.black)
-        .overlay(alignment: .topLeading) { backButton }
-        .overlay(alignment: .topTrailing) { topButtons }
+        .overlay(alignment: .top) { topBar }
         .toolbar(.hidden, for: .navigationBar)
         .task { reload() }
         // A refresh, a backfill or a purge can land while a day is open.
@@ -100,9 +99,7 @@ struct FeedView: View {
                     ArticleCardView(
                         article: articles[i],
                         toast: $toast,
-                        safeTop: screen.top,
-                        safeBottom: screen.bottom,
-                        tagTopGap: Self.tagTopGap
+                        safeBottom: screen.bottom
                     )
                 }
                 .buttonStyle(.plain)
@@ -135,30 +132,52 @@ struct FeedView: View {
         }
     }
 
-    /// How far the card's category tag is dropped, to clear the row of floating
-    /// buttons. 8pt of padding, a button a little over 40pt tall once its glass
-    /// capsule is counted, and a gap under it.
-    private static let tagTopGap: CGFloat = 62
-
+    /// The furniture floating over the photo: the three buttons, the section
+    /// pill for the story you're on, and the day's progress under them.
+    ///
     /// The nav bar is hidden so the photo can run to the top of the screen, so
     /// back is a floating glass circle like the other two — same shape, opposite
-    /// corner.
-    private var backButton: some View {
-        button("chevron.left", label: "Back to the week") { dismiss() }
-            .padding(.leading, 16)
-            .padding(.top, 8)
-    }
+    /// corner. The pill sits in that row rather than on the card below it, so
+    /// the whole strip reads as one band of chrome and the photograph starts
+    /// cleanly beneath it.
+    ///
+    /// The pill is centred in the gap between the buttons, not on the screen.
+    /// Glass lays a button out at about 60pt, half again as wide as its 40pt
+    /// label, so the three of them leave a gap of roughly 165pt that isn't
+    /// centred on anything — and "NATIONAL" is wide enough that centring it on
+    /// the screen puts its right edge under the settings button.
+    private var topBar: some View {
+        VStack(spacing: 10) {
+            HStack(spacing: 10) {
+                button("chevron.left", label: "Back to the week") { dismiss() }
 
-    private var topButtons: some View {
-        HStack(spacing: 10) {
-            button("slider.horizontal.3", label: "Sections and sources") {
-                showingSettings = true
+                Spacer(minLength: 12)
+                if articles.indices.contains(index) {
+                    // `fixedSize` because the pill and the two spacers are
+                    // otherwise all flexible, and an HStack shares the slack out
+                    // between them rather than settling the pill at its ideal
+                    // width first — so "LOCAL" came out stacked three letters
+                    // deep in a circle. The tag's type is a fixed size, not
+                    // Dynamic Type, so its ideal width can't run away with the
+                    // row.
+                    CategoryTag(category: articles[index].category)
+                        .fixedSize()
+                }
+                Spacer(minLength: 12)
+
+                button("slider.horizontal.3", label: "Sections and sources") {
+                    showingSettings = true
+                }
+                button("heart.text.square", label: "Saved stories") {
+                    showingSaved = true
+                }
             }
-            button("heart.text.square", label: "Saved stories") {
-                showingSaved = true
+
+            if !articles.isEmpty {
+                ReadingProgressBar(articles: articles)
             }
         }
-        .padding(.trailing, 16)
+        .padding(.horizontal, 16)
         .padding(.top, 8)
     }
 
@@ -183,6 +202,49 @@ struct FeedView: View {
             .filter { articles.indices.contains($0) }
             .compactMap { articles[$0].imageURL(base: FeedEndpoint.base) }
         await ImageCache.shared.prefetch(neighbours, maxPixel: 1200 * 3)
+    }
+}
+
+// MARK: - Reading progress
+
+/// How much of the day has been read: one tick per story, in reading order.
+///
+/// Each tick is tinted by its section, so the bar runs through the same colours
+/// as the pill above it — local, national, world, tech, AI, left to right — and
+/// its blocks say how the day is divided as well as how far into it you are. A
+/// story you've opened is in full colour; one you haven't is that colour turned
+/// right down.
+///
+/// Read means opened, not passed: `readAt` is stamped by the detail screen, so
+/// flipping through the cards doesn't fill the bar in behind you.
+private struct ReadingProgressBar: View {
+    let articles: [Article]
+
+    private var readCount: Int { articles.filter(\.isRead).count }
+
+    var body: some View {
+        HStack(spacing: 2) {
+            ForEach(articles) { article in
+                Capsule()
+                    .fill(article.category.tint.opacity(article.isRead ? 1 : 0.45))
+                    .frame(maxWidth: .infinity)
+            }
+        }
+        .frame(height: 5)
+        // The bar floats over a photograph that could be any colour, including
+        // the colours it is drawn in. An unread tick is a turned-down tint, so
+        // it needs to be turned down against something known: over a card that
+        // had no photo and fell back to its own section colour, unread local
+        // ticks came out the exact green of the page and disappeared. Opaque, so
+        // every tick is composited against black wherever the bar happens to
+        // sit, and the gaps read as gaps.
+        .background(.black, in: .capsule)
+        .shadow(color: .black.opacity(0.35), radius: 3, y: 1)
+        // Worth animating: coming back from a story, its tick lights up.
+        .animation(.easeInOut(duration: 0.35), value: readCount)
+        .accessibilityElement()
+        .accessibilityLabel("Reading progress")
+        .accessibilityValue("\(readCount) of \(articles.count) stories read")
     }
 }
 
