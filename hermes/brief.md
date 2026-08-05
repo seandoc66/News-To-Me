@@ -43,6 +43,21 @@ a correct outcome; five padded non-stories is a failure. If something big is
 unfolding, exceeding the range is fine. An empty section is a warning, not an
 error — deliberately.
 
+### Researching without looping
+
+The failure mode here is searching in circles, not searching too little. Hard caps:
+
+- **At most 3 `web_search` calls per section.** After three, stop researching that
+  section and write with what you have.
+- **At most 15 `web_search` calls across the whole run.**
+- **Prefer `web_extract` on a known source URL** (the outlets in
+  `config.json → sources`) over `web_search` — it's direct and doesn't loop.
+- If a search repeats a result you've already seen, move on immediately — never
+  retry the same query.
+
+Hitting a cap with a thin section is fine: a genuinely empty section is a correct
+outcome (see above), not a reason to keep searching.
+
 ---
 
 ## Writing each story
