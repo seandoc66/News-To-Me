@@ -52,6 +52,10 @@ struct FeedView: View {
             }
         }
         .background(.black)
+        // Swipe right anywhere to go back to the week. The nav bar is hidden
+        // here so UIKit's own edge swipe is refused outright — this screen had
+        // nothing but the chevron until now.
+        .backSwipe()
         .overlay(alignment: .topLeading) { backButton }
         .overlay(alignment: .topTrailing) { topButtons }
         .toolbar(.hidden, for: .navigationBar)

@@ -41,6 +41,10 @@ struct ArticleDetailView: View {
         }
         .background(.black)
         .scrollIndicators(.hidden)
+        // Swipe right anywhere on the story to go back, not only from the left
+        // edge — a hand holding a phone one-handed doesn't reach that edge, and
+        // there is nothing else a rightward swipe could mean while reading.
+        .backSwipe()
         .toolbar {
             ToolbarItem(placement: .topBarTrailing) {
                 HeartButton(article: article, toast: $toast)
