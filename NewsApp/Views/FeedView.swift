@@ -15,7 +15,6 @@ struct FeedView: View {
     let day: Date
     @Binding var showingSaved: Bool
     @Binding var showingSettings: Bool
-    @Binding var toast: ToastMessage?
 
     @Environment(ArticleStore.self) private var store
     @Environment(\.dismiss) private var dismiss
@@ -57,15 +56,37 @@ struct FeedView: View {
         // nothing but the chevron until now.
         .backSwipe()
         .overlay(alignment: .top) { topBar }
+        .overlay(alignment: .bottom) { progress }
         .toolbar(.hidden, for: .navigationBar)
         .task { reload() }
         // A refresh, a backfill or a purge can land while a day is open.
         .onChange(of: store.articles) { _, _ in reload() }
     }
 
+    /// Only a genuine change to the day's line-up gets through to the pager.
+    ///
+    /// Every mutation of the store lands here, and turning a page is now one of
+    /// them: the card you arrive on is marked read. Replacing `articles`
+    /// wholesale on the way past would hand `FlipPager` a brand-new model
+    /// mid-turn — the same stories in the same order, but a new array — and it
+    /// would rebuild its four half-pages in the middle of the fold. The
+    /// progress bar reads its own state from the store, so it stays live
+    /// without this.
     private func reload() {
-        articles = store.articles(on: day)
+        let fresh = store.articles(on: day)
+        guard fresh.map(\.id) != articles.map(\.id) else { return }
+        articles = fresh
         index = min(index, max(0, articles.count - 1))
+    }
+
+    /// Marks the card you've landed on, whether or not you open it.
+    ///
+    /// Seeing the photo and the headline is reading enough to count: the
+    /// question the day picker asks is whether you've been through the day's
+    /// news, and a story you looked at and chose not to open has been answered.
+    private func markSeen(_ i: Int) {
+        guard articles.indices.contains(i) else { return }
+        store.markRead(id: articles[i].id)
     }
 
     /// The window the feed is being drawn into.
@@ -102,7 +123,6 @@ struct FeedView: View {
                 NavigationLink(value: Route.article(articles[i].id)) {
                     ArticleCardView(
                         article: articles[i],
-                        toast: $toast,
                         safeBottom: screen.bottom
                     )
                 }
@@ -123,6 +143,7 @@ struct FeedView: View {
             .offset(y: -originY)
             .onChange(of: index) { _, i in
                 withAnimation(.easeOut(duration: 0.4)) { hasScrolledFeed = true }
+                markSeen(i)
                 Task { await prefetchNeighbours(of: i) }
             }
             .task {
@@ -131,13 +152,14 @@ struct FeedView: View {
                     index = start
                 }
                 #endif
+                markSeen(index)
                 await prefetchNeighbours(of: index)
             }
         }
     }
 
-    /// The furniture floating over the photo: the three buttons, the section
-    /// pill for the story you're on, and the day's progress under them.
+    /// The furniture floating over the photo: the three buttons and the section
+    /// pill for the story you're on.
     ///
     /// The nav bar is hidden so the photo can run to the top of the screen, so
     /// back is a floating glass circle like the other two — same shape, opposite
@@ -151,38 +173,49 @@ struct FeedView: View {
     /// centred on anything — and "NATIONAL" is wide enough that centring it on
     /// the screen puts its right edge under the settings button.
     private var topBar: some View {
-        VStack(spacing: 10) {
-            HStack(spacing: 10) {
-                button("chevron.left", label: "Back to the week") { dismiss() }
+        HStack(spacing: 10) {
+            button("chevron.left", label: "Back to the week") { dismiss() }
 
-                Spacer(minLength: 12)
-                if articles.indices.contains(index) {
-                    // `fixedSize` because the pill and the two spacers are
-                    // otherwise all flexible, and an HStack shares the slack out
-                    // between them rather than settling the pill at its ideal
-                    // width first — so "LOCAL" came out stacked three letters
-                    // deep in a circle. The tag's type is a fixed size, not
-                    // Dynamic Type, so its ideal width can't run away with the
-                    // row.
-                    CategoryTag(category: articles[index].category)
-                        .fixedSize()
-                }
-                Spacer(minLength: 12)
-
-                button("slider.horizontal.3", label: "Sections and sources") {
-                    showingSettings = true
-                }
-                button("heart.text.square", label: "Saved stories") {
-                    showingSaved = true
-                }
+            Spacer(minLength: 12)
+            if articles.indices.contains(index) {
+                // `fixedSize` because the pill and the two spacers are
+                // otherwise all flexible, and an HStack shares the slack out
+                // between them rather than settling the pill at its ideal
+                // width first — so "LOCAL" came out stacked three letters
+                // deep in a circle. The tag's type is a fixed size, not
+                // Dynamic Type, so its ideal width can't run away with the
+                // row.
+                CategoryTag(category: articles[index].category)
+                    .fixedSize()
             }
+            Spacer(minLength: 12)
 
-            if !articles.isEmpty {
-                ReadingProgressBar(articles: articles)
+            button("slider.horizontal.3", label: "Sections and sources") {
+                showingSettings = true
+            }
+            button("heart.text.square", label: "Saved stories") {
+                showingSaved = true
             }
         }
         .padding(.horizontal, 16)
         .padding(.top, 8)
+    }
+
+    /// The day's progress, along the very bottom of the screen.
+    ///
+    /// It used to run under the top row, where it lay across the photograph at
+    /// its most interesting point. Down here it sits under the story's text,
+    /// where the card is plain black and the bar is the only thing on it.
+    private var progress: some View {
+        let screen = Self.window?.safeAreaInsets ?? .zero
+
+        return Group {
+            if !articles.isEmpty {
+                ReadingProgressBar(articles: articles)
+                    .padding(.horizontal, 16)
+                    .padding(.bottom, max(screen.bottom, 10) + 4)
+            }
+        }
     }
 
     private func button(
@@ -211,41 +244,49 @@ struct FeedView: View {
 
 // MARK: - Reading progress
 
-/// How much of the day has been read: one tick per story, in reading order.
+/// How much of the day has been read: one tick per story, in reading order,
+/// each tinted by its section — local, national, world, tech, AI, left to
+/// right. A story you've seen is in full colour; one you haven't is nothing at
+/// all, so the bar draws itself in behind you as you go rather than sitting
+/// there fully formed and waiting to be filled.
 ///
-/// Each tick is tinted by its section, so the bar runs through the same colours
-/// as the pill above it — local, national, world, tech, AI, left to right — and
-/// its blocks say how the day is divided as well as how far into it you are. A
-/// story you've opened is in full colour; one you haven't is that colour turned
-/// right down.
+/// There is no track under it. There used to be an opaque black one, because an
+/// unread tick was a dimmed tint and dimmed tints get lost against a photograph
+/// — over a card that fell back to its own section colour, unread local ticks
+/// came out the exact green of the page and disappeared. Unread ticks draw
+/// nothing now, so there is nothing left to lose, and the black bar it needed
+/// was the heaviest thing on the screen.
 ///
-/// Read means opened, not passed: `readAt` is stamped by the detail screen, so
-/// flipping through the cards doesn't fill the bar in behind you.
+/// Read state comes from the store rather than the `Article` values handed in:
+/// the feed deliberately holds its array still while you turn pages, so those
+/// copies stop being current the moment a card is marked.
 private struct ReadingProgressBar: View {
     let articles: [Article]
 
-    private var readCount: Int { articles.filter(\.isRead).count }
+    @Environment(ArticleStore.self) private var store
+
+    private func isRead(_ article: Article) -> Bool {
+        store.article(id: article.id)?.isRead ?? article.isRead
+    }
+
+    private var readCount: Int { articles.filter(isRead).count }
 
     var body: some View {
         HStack(spacing: 2) {
             ForEach(articles) { article in
                 Capsule()
-                    .fill(article.category.tint.opacity(article.isRead ? 1 : 0.45))
+                    .fill(isRead(article) ? article.category.tint : .clear)
                     .frame(maxWidth: .infinity)
             }
         }
-        .frame(height: 5)
-        // The bar floats over a photograph that could be any colour, including
-        // the colours it is drawn in. An unread tick is a turned-down tint, so
-        // it needs to be turned down against something known: over a card that
-        // had no photo and fell back to its own section colour, unread local
-        // ticks came out the exact green of the page and disappeared. Opaque, so
-        // every tick is composited against black wherever the bar happens to
-        // sit, and the gaps read as gaps.
-        .background(.black, in: .capsule)
-        .shadow(color: .black.opacity(0.35), radius: 3, y: 1)
-        // Worth animating: coming back from a story, its tick lights up.
-        .animation(.easeInOut(duration: 0.35), value: readCount)
+        .frame(height: 4)
+        // Only the filled ticks cast this; a clear capsule has nothing to cast.
+        // Enough to hold them apart from a pale photograph without putting a
+        // slab behind the whole bar.
+        .shadow(color: .black.opacity(0.5), radius: 2, y: 1)
+        // Short, because this now fires as you land on a card rather than on
+        // the way back from one — it should settle before the turn finishes.
+        .animation(.easeOut(duration: 0.22), value: readCount)
         .accessibilityElement()
         .accessibilityLabel("Reading progress")
         .accessibilityValue("\(readCount) of \(articles.count) stories read")

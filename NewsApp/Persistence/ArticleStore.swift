@@ -199,16 +199,45 @@ final class ArticleStore {
         return nowSaved
     }
 
-    /// Records that a story has been opened.
+    /// Records that a story has been seen.
     ///
     /// Only the first visit counts — re-reading a story doesn't move the
     /// timestamp, and there is no way to mark one unread. The day picker asks
     /// "have you been through this day's news", and re-opening a story you've
     /// already read is not new information about that.
+    ///
+    /// Persisted lazily, unlike every other mutation here. This used to fire
+    /// once per story you chose to open; it now fires once per card you turn
+    /// past, and encoding the whole store to disk between one card and the next
+    /// is a stutter you can feel in the page turn. The timestamp lands in memory
+    /// immediately — everything on screen reads it from there — and the file
+    /// catches up once you settle.
     func markRead(id: String, now: Date = .now) {
         guard let index = articles.firstIndex(where: { $0.id == id }),
               articles[index].readAt == nil else { return }
         articles[index].readAt = now
+        persistSoon()
+    }
+
+    /// Coalesces a burst of read-marks into a single write.
+    @ObservationIgnored private var pendingPersist: Task<Void, Never>?
+
+    private func persistSoon() {
+        pendingPersist?.cancel()
+        pendingPersist = Task { @MainActor [weak self] in
+            try? await Task.sleep(for: .milliseconds(600))
+            guard !Task.isCancelled else { return }
+            self?.flushPendingWrites()
+        }
+    }
+
+    /// Writes anything `markRead` has left in memory. Called when the app leaves
+    /// the foreground, so a batch of turns can't be lost by quitting inside the
+    /// coalescing window.
+    func flushPendingWrites() {
+        guard pendingPersist != nil else { return }
+        pendingPersist?.cancel()
+        pendingPersist = nil
         persist()
     }
 
