@@ -62,8 +62,7 @@ struct RootView: View {
                     FeedView(
                         day: date,
                         showingSaved: $showingSaved,
-                        showingSettings: $showingSettings,
-                        toast: $toast
+                        showingSettings: $showingSettings
                     )
                 case .article(let id):
                     if let article = store.article(id: id) {
@@ -89,7 +88,12 @@ struct RootView: View {
             #endif
         }
         .onChange(of: scenePhase) { _, phase in
-            guard phase == .active else { return }
+            // Turning past a card marks it read and lets the write wait a
+            // moment. Leaving the app is where that moment has to end.
+            guard phase == .active else {
+                store.flushPendingWrites()
+                return
+            }
             store.purgeExpired()
             Task { await refresh() }
         }

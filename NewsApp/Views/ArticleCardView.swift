@@ -1,22 +1,22 @@
 import SwiftUI
 
-/// One story, one screen: photo across the top half, headline beneath it,
-/// subtitle filling what's left, and the heart floating on top.
+/// One story, one screen: photo across the top half, headline beneath it, and
+/// the subtitle filling what's left.
 ///
-/// The section pill isn't here. It used to sit in the photo's top corner and
+/// Nothing else. The section pill used to sit in the photo's top corner and
 /// spent its life dodging the row of floating buttons above it; it now lives in
 /// that row, drawn by `FeedView`, which is the only view that knows what else is
-/// up there.
+/// up there. A heart and a "Tap to read" label used to sit along the bottom, and
+/// both have gone the same way for the same reason — the card is a cover, and a
+/// cover that has to be told it can be opened isn't one. The heart is on the
+/// story itself, which is where you know whether you want to keep it.
 struct ArticleCardView: View {
     let article: Article
-    @Binding var toast: ToastMessage?
     /// Passed down from `FeedView`, which reads the real inset before the
     /// scroll view ignores it. Only the bottom one is needed: the photo runs
     /// under the status bar on purpose, and everything that has to clear it is
     /// drawn by `FeedView` over the top.
     let safeBottom: CGFloat
-
-    @Environment(ArticleStore.self) private var store
 
     var body: some View {
         GeometryReader { geo in
@@ -68,14 +68,6 @@ struct ArticleCardView: View {
                         .minimumScaleFactor(0.6)
 
                     Spacer(minLength: 8)
-
-                    HStack(alignment: .bottom) {
-                        Text("Tap to read")
-                            .font(.caption.weight(.medium))
-                            .foregroundStyle(.white.opacity(0.4))
-                        Spacer()
-                        HeartButton(article: article, toast: $toast)
-                    }
                 }
                 .padding(.horizontal, 22)
                 .padding(.top, 22)
