@@ -26,7 +26,7 @@ import UniformTypeIdentifiers
 /// `NSCache` is thread-safe in its own right; the actor isolation was only ever
 /// protecting `inFlight`.
 /// `nonisolated` throughout: the whole point is to be callable from inside the
-/// `ImageCache` actor *and* from a view's `init` without an `await` from either.
+/// `ImageCache` actor *and* from a view's `body` without an `await` from either.
 nonisolated final class ImageMemoryCache: @unchecked Sendable {
     static let shared = ImageMemoryCache()
 
@@ -156,23 +156,35 @@ struct CachedImage: View {
 
     @State private var image: UIImage?
     @State private var didFail = false
-    /// Which URL `image` actually belongs to, so a reused view with a new URL
-    /// still reloads while a re-created one with the same URL doesn't.
+    /// Which URL `image` and `didFail` actually describe. Everything below keys
+    /// off this: state left over from another story is state about another
+    /// story, and is never drawn.
     @State private var loadedURL: URL?
     @Environment(\.displayScale) private var displayScale
 
+    /// Spelled out because the synthesised memberwise one inherits the `private`
+    /// of the state above and so can't be called from the views.
     init(url: URL?, category: NewsCategory, maxPointSize: CGFloat = 1200) {
         self.url = url
         self.category = category
         self.maxPointSize = maxPointSize
-        // Seeded synchronously, so an already-decoded photo is on screen in the
-        // very first frame. Every re-creation of this view otherwise starts on
-        // the fallback gradient and fades in — and a page turn creates four of
-        // them and then throws them away, which is the flicker at each end of
-        // the animation.
-        let hit = url.flatMap { ImageMemoryCache.shared.image(for: $0) }
-        _image = State(initialValue: hit)
-        _loadedURL = State(initialValue: hit == nil ? nil : url)
+    }
+
+    /// The photo to draw right now, which always belongs to `url`.
+    ///
+    /// SwiftUI hands this view's `@State` on to whatever takes its place — and
+    /// at the end of a page turn the settled card takes the place of the turning
+    /// halves, so it inherits the *previous* story's decoded photo. Drawing
+    /// `image` directly showed that photo under the new story's headline until
+    /// `load()` had hopped to the actor and come back: one frame of the wrong
+    /// picture at the end of every turn.
+    ///
+    /// Reading the memory cache here instead costs a dictionary lookup and makes
+    /// the wrong photo unrepresentable. A miss draws the fallback gradient,
+    /// which is honest — this view has no photo for this story yet.
+    private var shown: UIImage? {
+        if loadedURL == url { return image }
+        return url.flatMap { ImageMemoryCache.shared.image(for: $0) }
     }
 
     var body: some View {
@@ -184,8 +196,8 @@ struct CachedImage: View {
             .overlay {
                 ZStack {
                     fallback
-                    if let image {
-                        Image(uiImage: image)
+                    if let shown {
+                        Image(uiImage: shown)
                             .resizable()
                             .scaledToFill()
                             .transition(.opacity.animation(.easeOut(duration: 0.25)))
@@ -204,7 +216,8 @@ struct CachedImage: View {
             endPoint: .bottomTrailing
         )
         .overlay {
-            if didFail {
+            // Only once *this* story's photo has been tried and missed.
+            if didFail, loadedURL == url {
                 Image(systemName: category.symbolName)
                     .font(.system(size: 44, weight: .light))
                     .foregroundStyle(.white.opacity(0.5))
@@ -216,24 +229,29 @@ struct CachedImage: View {
         guard let url else {
             image = nil
             didFail = true
+            loadedURL = nil
             return
         }
-        // Already showing the right photo — seeded in `init`, or loaded by an
-        // earlier run of this task. Clearing and refetching here unconditionally
-        // is what made a settled card flash when the turn ended.
+        // Already holding the right photo, from an earlier run of this task.
+        // Clearing and refetching here unconditionally is what made a settled
+        // card flash the fallback gradient when the turn ended.
         if loadedURL == url, image != nil { return }
 
-        didFail = false
+        // Already decoded: take it without hopping to the actor, which costs a
+        // frame. This is the usual case for a card built during a turn.
+        if let hit = ImageMemoryCache.shared.image(for: url) {
+            image = hit
+            didFail = false
+            loadedURL = url
+            return
+        }
+
         let loaded = await ImageCache.shared.image(
             for: url,
             maxPixel: maxPointSize * displayScale
         )
-        if let loaded {
-            image = loaded
-            loadedURL = url
-        } else {
-            image = nil
-            didFail = true
-        }
+        image = loaded
+        didFail = loaded == nil
+        loadedURL = url
     }
 }
