@@ -147,7 +147,7 @@ would have meant carrying a renderer for lists, tables, code and links that a
 generator and the app to disagree about what the reader sees. The subset is small
 enough that `StoryBlock.parse` and the validator's `parseBlocks` are the same
 twenty lines written twice, which is what keeps them honest. A body with no
-Markdown in it still renders — as one paragraph — so the week of plain-prose
+Markdown in it still renders — as one paragraph — so the five days of plain-prose
 stories already on the phone didn't need migrating.
 
 **Photos self-hosted, on a rolling window.** Hotlinks rot, and a saved story with

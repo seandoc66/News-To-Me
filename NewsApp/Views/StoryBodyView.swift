@@ -19,8 +19,8 @@ extension StoryBlock {
     /// precede it, and a body written before this format existed — one unbroken
     /// string with no newlines at all — comes back as a single paragraph rather
     /// than as nothing. That second case is live, not hypothetical: the app holds
-    /// a rolling 7 days, so plain-prose stories stay on the phone for a week
-    /// after the generator starts emitting Markdown.
+    /// a rolling 5 days, so plain-prose stories stay on the phone for most of a
+    /// week after the generator starts emitting Markdown.
     ///
     /// Lines within a paragraph join with a space — a lone newline is a soft wrap
     /// in Markdown, not a break.

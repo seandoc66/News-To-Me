@@ -82,7 +82,7 @@ The exact numbers live in [`hermes/config.json`](hermes/config.json) under
 
 **A body with no Markdown in it at all is valid** and renders as a single
 paragraph. That is what every story published before this format existed looks
-like, and the app holds a rolling 7 days of them.
+like, and the app holds a rolling 5 days of them.
 
 ## `config` (optional)
 
