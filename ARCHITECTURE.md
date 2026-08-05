@@ -44,8 +44,10 @@ same values sat in prose *and* in each script, so editing the document that
 looked authoritative changed nothing and caused validation failures that pointed
 at the wrong culprit.
 
-The one setting that can't live there is the app's **7-day article retention**,
-which is compiled into the app. Changing it needs a rebuild and reinstall.
+The one setting that can't live there is the app's **5-day article retention**,
+which is compiled into the app. Changing it needs a rebuild and reinstall. It is
+tied to the five buttons on the front page — a story older than the oldest button
+has nowhere left to be read, so the two numbers are one number.
 
 ---
 
@@ -73,7 +75,9 @@ Three things now cover it, at different distances:
 
 1. **Hermes' own report** — the only thing that can say *why*.
 2. **The app** compares the edition's `generatedAt` against the clock on every
-   refresh and shows a banner past 26 hours. That threshold clears the daily
+   refresh and shows a banner past 26 hours. It sits inline on the front page,
+   under the masthead — the screen you land on, and the one where today's button
+   is visibly empty. That threshold clears the daily
    peak — a feed is normally hours old and briefly approaches 24 just before the
    next run — without hiding a real miss for long. It runs whether or not the
    fetch succeeded, because a successful fetch of yesterday's feed is exactly
@@ -86,6 +90,39 @@ The watchdog checks the live URL rather than the repo, so it exercises the Pages
 deploy too, and it is deliberately independent of Hermes: Hermes can report its
 own aborts but cannot report never having run, which is the failure most likely
 to pass unnoticed.
+
+---
+
+## Reading a day
+
+The app opens on a front page: the masthead, and a button for each of the last
+five days named after its weekday. Picking one slides that day's edition in from
+the right; the story pager and the full story sit behind it, as before.
+
+Each button's background is a collage of four photos sampled evenly across that
+day's stories — evenly rather than off the front, because the store is ordered by
+section and the first four photos of any edition are always the same section.
+
+**Colour is the progress bar.** A day you haven't opened is in full colour; one
+you've read every story of is greyscale; part-read lands proportionally between.
+A story counts as read when its full text is opened, and only the first visit
+counts. The badge on each button says the same thing in words — saturation alone
+would be a signal carried entirely by colour, which is no signal at all to a
+colour-blind reader or to VoiceOver.
+
+**One day at a time, never all of them.** The feed used to page through
+everything the store held, so the story after the last of today's was yesterday's
+lead and nothing marked the join. Days are the unit news arrives in, so they are
+the unit you choose between.
+
+**Backfilled from the archive, but only into gaps.** The app still fetches only
+`latest.json`; a past day is otherwise populated only if the app happened to be
+opened that morning, which would leave a fresh install showing four empty
+buttons. Days with no stories at all are filled from `docs/archive/`. Days that
+already have stories are left alone — editions overlap, and re-stamping a story
+today's feed has already claimed would drag it back onto an older button.
+Backfilled stories are dated to their edition, not to now, so a four-day-old
+edition doesn't outlive its own button by four days.
 
 ---
 
@@ -121,6 +158,17 @@ downsizes, so a small source can only be stretched.
 **Purge runs on every launch, independent of the network.** Otherwise a week
 offline would mean nothing ever expires. Saved articles are exempt.
 
+**The card is positioned against the window, not against its container.** Once
+the feed became a *pushed* screen with its nav bar hidden, the numbers around it
+stopped agreeing: it is laid out from an origin 20pt down the screen while
+reporting a 47pt top inset, so `ignoresSafeArea` — and anything else derived from
+that pair — put the card 27pt too high and the section tag level with the clock.
+`FeedView` now sizes the card to the window and pulls it up by the reader's
+measured global origin. Related: the card's lower half is given an exact height
+and its two `Text`s are no longer `fixedSize`, because pinning a `Text` to its
+ideal height silently cancels the `minimumScaleFactor` under it — which is how a
+long headline used to grow the card past the screen and push the heart off it.
+
 **Navigation carries article ids, not `Article` values.** Hearting a story mutates
 `savedAt`, which changes the value's hash and would break navigation identity
 mid-read.
@@ -141,7 +189,7 @@ photo.
 
 ## Known gaps
 
-- **The 7-day purge has never been tested against backdated data.** It has
+- **The 5-day purge has never been tested against backdated data.** It has
   shipped to the phone unverified, and silently losing a saved article is the
   worst bug this app could have.
 - **The fold animation's angle and perspective are initial guesses**, tuned by

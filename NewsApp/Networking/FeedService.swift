@@ -20,6 +20,23 @@ enum FeedEndpoint {
 
     static var latest: URL { base.appending(path: "latest.json") }
 
+    /// A past edition, named by its own calendar day: `/archive/2026-08-03.json`.
+    static func archive(for day: Date) -> URL {
+        base.appending(path: "archive/\(archiveDay.string(from: day)).json")
+    }
+
+    /// Formats in the phone's own timezone, not UTC. The generator names archive
+    /// files for the local day it published on, and an edition stamped 06:00
+    /// Madrid time is still the previous day in UTC — formatting in UTC would
+    /// ask for yesterday's file every single morning.
+    private static let archiveDay: DateFormatter = {
+        let f = DateFormatter()
+        f.calendar = Calendar(identifier: .gregorian)
+        f.locale = Locale(identifier: "en_US_POSIX")
+        f.dateFormat = "yyyy-MM-dd"
+        return f
+    }()
+
     /// True while still pointing at the placeholder, so the UI can explain why
     /// there's nothing new rather than showing a bare network error.
     static var isConfigured: Bool { base.host() != "example.invalid" }
@@ -63,6 +80,37 @@ struct FeedService: Sendable {
 
         if let http = response as? HTTPURLResponse, !(200..<300).contains(http.statusCode) {
             throw FeedError.badStatus(http.statusCode)
+        }
+
+        do {
+            return try JSONDecoder.feed.decode(Feed.self, from: data)
+        } catch {
+            throw FeedError.decoding(error)
+        }
+    }
+
+    /// Fetches one past edition from the archive, for a day the app didn't see
+    /// live.
+    ///
+    /// Returns nil for a day that was never published. The generator refuses to
+    /// publish a batch it can't fill, so a 404 here is an ordinary quiet morning
+    /// rather than a fault worth surfacing.
+    ///
+    /// Unlike `fetchLatest` this leaves the URL cache alone: an archived edition
+    /// never changes once written, so a cached copy is as good as the original.
+    func fetchArchive(for day: Date) async throws -> Feed? {
+        guard FeedEndpoint.isConfigured else { throw FeedError.notConfigured }
+
+        var request = URLRequest(url: FeedEndpoint.archive(for: day))
+        request.timeoutInterval = 20
+
+        let (data, response) = try await session.data(for: request)
+
+        if let http = response as? HTTPURLResponse {
+            if http.statusCode == 404 { return nil }
+            guard (200..<300).contains(http.statusCode) else {
+                throw FeedError.badStatus(http.statusCode)
+            }
         }
 
         do {

@@ -9,6 +9,14 @@ struct ArticleCardView: View {
     /// scroll view ignores them.
     let safeTop: CGFloat
     let safeBottom: CGFloat
+    /// How far to drop the category tag below the safe-area top.
+    ///
+    /// The tag used to have that corner to itself. It now shares it with
+    /// `FeedView`'s floating back button, and only `FeedView` knows how tall
+    /// that row of buttons is — so it says, and the tag clears it. Dropping the
+    /// tag rather than insetting it keeps it off a narrowing squeeze between the
+    /// back button and the two buttons opposite.
+    var tagTopGap: CGFloat = 6
 
     @Environment(ArticleStore.self) private var store
 
@@ -25,7 +33,7 @@ struct ArticleCardView: View {
                 .overlay(alignment: .topLeading) {
                     CategoryTag(category: article.category)
                         .padding(.leading, 20)
-                        .padding(.top, safeTop + 6)
+                        .padding(.top, safeTop + tagTopGap)
                 }
                 .overlay(alignment: .bottom) {
                     // Keeps the headline legible against a bright photo edge.
@@ -38,12 +46,22 @@ struct ArticleCardView: View {
                     .allowsHitTesting(false)
                 }
 
+                // Neither text is `fixedSize` any more, and the block is given an
+                // exact height rather than "whatever's left".
+                //
+                // `fixedSize(vertical:)` pins a Text to its ideal height, which
+                // quietly cancels the `minimumScaleFactor` beneath it — so a long
+                // headline over a long teaser grew the card taller than the
+                // screen instead of shrinking to fit, and the overflow took the
+                // heart off the bottom edge. Bounded, the scale factors do the
+                // job they were always there to do.
                 VStack(alignment: .leading, spacing: 16) {
                     Text(article.headline)
                         .font(.system(.title, design: .serif, weight: .bold))
                         .foregroundStyle(.white)
                         .lineSpacing(1)
-                        .fixedSize(horizontal: false, vertical: true)
+                        .lineLimit(4)
+                        .minimumScaleFactor(0.75)
 
                     // Set at title3 rather than body so a 20–50 word teaser
                     // genuinely fills the lower half of the screen instead of
@@ -55,7 +73,6 @@ struct ArticleCardView: View {
                         // Shrink rather than push the heart off screen at large
                         // Dynamic Type sizes.
                         .minimumScaleFactor(0.6)
-                        .fixedSize(horizontal: false, vertical: true)
 
                     Spacer(minLength: 8)
 
@@ -70,10 +87,19 @@ struct ArticleCardView: View {
                 .padding(.horizontal, 22)
                 .padding(.top, 22)
                 .padding(.bottom, max(safeBottom, 16) + 6)
-                .frame(width: geo.size.width, alignment: .leading)
-                .frame(maxHeight: .infinity, alignment: .top)
+                .frame(
+                    width: geo.size.width,
+                    height: geo.size.height - photoHeight,
+                    alignment: .topLeading
+                )
             }
-            .frame(width: geo.size.width, height: geo.size.height)
+            // `alignment: .top` is load-bearing. A long headline over a long
+            // teaser can make this stack taller than the card, and a frame
+            // centres what overflows it — so the photo, and the section tag
+            // pinned to its top corner, rode up off the top of the screen and
+            // the tag ended up level with the clock. Which stories did it
+            // depended on how many lines their headline wrapped to.
+            .frame(width: geo.size.width, height: geo.size.height, alignment: .top)
             .background(.black)
             .contentShape(.rect)
         }

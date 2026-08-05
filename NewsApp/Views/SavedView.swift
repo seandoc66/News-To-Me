@@ -1,6 +1,6 @@
 import SwiftUI
 
-/// The stories you hearted. These are exempt from the 7-day purge, so this is
+/// The stories you hearted. These are exempt from the 5-day purge, so this is
 /// the one place articles accumulate indefinitely.
 struct SavedView: View {
     @Binding var toast: ToastMessage?
@@ -88,7 +88,7 @@ struct SavedView: View {
                 .foregroundStyle(.secondary)
             Text("Nothing saved yet")
                 .font(.title3.weight(.semibold))
-            Text("Tap the heart on any story to keep it here. Saved stories stay put — everything else clears after seven days.")
+            Text("Tap the heart on any story to keep it here. Saved stories stay put — everything else clears after five days.")
                 .font(.footnote)
                 .foregroundStyle(.secondary)
                 .multilineTextAlignment(.center)

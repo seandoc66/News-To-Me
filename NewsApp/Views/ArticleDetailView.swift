@@ -8,6 +8,7 @@ struct ArticleDetailView: View {
     @Binding var toast: ToastMessage?
 
     @Environment(\.openURL) private var openURL
+    @Environment(ArticleStore.self) private var store
 
     var body: some View {
         ScrollView {
@@ -51,6 +52,10 @@ struct ArticleDetailView: View {
         }
         .toolbarBackground(.hidden, for: .navigationBar)
         .navigationBarTitleDisplayMode(.inline)
+        // Opening the full story is what "read" means here. Deliberately not
+        // gated on scrolling to the end: the day picker is asking whether you've
+        // been through the day's news, not whether you finished every word.
+        .task { store.markRead(id: article.id) }
     }
 
     private var sourcesSection: some View {
