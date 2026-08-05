@@ -8,40 +8,35 @@
 // `photoCandidate: { url, description, license }`. This script:
 //
 //   1. downloads the candidate (following redirects, with a real User-Agent —
-//      Wikimedia rejects requests without one)
+//      some hosts reject requests without one)
 //   2. verifies the response is genuinely an image, not an HTML error page
-//   3. resizes to max 1000px on the long edge, JPEG quality 75, via `sips`
-//   4. writes docs/images/<id>.jpg and rewrites `imageURL` to /images/<id>.jpg
+//   3. rejects sources too small to fill a card without stretching
+//   4. resizes via `sips` to the dimensions in hermes/config.json
+//   5. writes docs/images/<id>.jpg and rewrites `imageURL` to /images/<id>.jpg
 //
 // It prints a per-article result and rewrites the draft in place. Articles whose
 // photo could not be fetched keep their `photoCandidate` so you can see what
-// failed; `validate.mjs` will then fail on the missing image, which is the
-// intended behaviour — a story with no photo shouldn't ship silently.
+// failed. That is no longer fatal: `imageURL` is optional, and a story with no
+// photo publishes with a category-tinted fallback rather than holding the
+// edition. Exiting non-zero is a prompt to try once more, not a blocker.
 
 import { readFileSync, writeFileSync, existsSync, mkdirSync, rmSync } from "node:fs";
 import { execFileSync } from "node:child_process";
-import { dirname, join, resolve } from "node:path";
-import { fileURLToPath } from "node:url";
+import { join, resolve } from "node:path";
 import { tmpdir } from "node:os";
+import { config, repoRoot } from "./config.mjs";
 
-// A card photo fills the full width and half the height of the screen — on an
-// iPhone 17 Pro that's 1206x1311 physical pixels. The old 1000px ceiling
-// guaranteed every photo was upscaled ~2.3x to fill it, which is what made them
-// look soft and, on lower-resolution sources, visibly pixelated. 1600 brings
-// that down to about 1.4x.
+// All photo limits come from hermes/config.json.
 //
-// This roughly doubles storage, to ~2GB/year of git history at 30 photos a day.
-// The 14-day prune keeps the working tree small, and if history ever becomes a
-// problem the escape hatch is object storage with absolute URLs, which the
-// schema and the app already accept.
-const MAX_EDGE = 1600;
-const JPEG_QUALITY = 75;
-
-// Below this, a photo cannot look good blown up to half the screen — it arrives
-// already smaller than the space it has to fill. Better no photo than a
-// pixelated one, now that a missing photo no longer blocks the edition.
-const MIN_SOURCE_LONG_EDGE = 800;
-const MIN_SOURCE_SHORT_EDGE = 450;
+// A card photo fills the full width and half the height of the screen — about
+// 1206x1311 physical pixels. A maxLongEdge below that guarantees every photo is
+// upscaled to fill, which is what makes them look soft. Sources below the
+// minimums arrive already smaller than the space they must fill; sips only ever
+// downsizes, so those can only be stretched.
+const MAX_EDGE = config.photos.maxLongEdge;
+const JPEG_QUALITY = config.photos.jpegQuality;
+const MIN_SOURCE_LONG_EDGE = config.photos.minSourceLongEdge;
+const MIN_SOURCE_SHORT_EDGE = config.photos.minSourceShortEdge;
 const TIMEOUT_MS = 20_000;
 
 // Wikimedia rate-limits unauthenticated bursts and starts returning 429 after a
@@ -56,9 +51,8 @@ const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 const USER_AGENT =
   "PersonalNewsFeed/1.0 (single-user personal news app; contact: repo owner)";
 
-const scriptDir = dirname(fileURLToPath(import.meta.url));
-const feedRoot = resolve(scriptDir, "..");
-const imagesDir = join(feedRoot, "docs", "images");
+const feedRoot = repoRoot;
+const imagesDir = join(feedRoot, config.paths.imagesDir);
 
 const draftPath = process.argv[2];
 if (!draftPath) {

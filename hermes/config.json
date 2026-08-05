@@ -1,0 +1,79 @@
+{
+  "_readme": [
+    "Single source of truth for every tunable setting in the daily feed.",
+    "Read at run time by hermes/brief.md, scripts/validate.mjs,",
+    "scripts/fetch-photos.mjs and scripts/prune-images.mjs.",
+    "Change a number here and everything follows — nothing is duplicated in code.",
+    "Anything NOT listed here is a hard part of the contract; see schema.md."
+  ],
+
+  "locale": {
+    "localArea": "Lugo, Galicia, Spain — the city and its province",
+    "nationalCountry": "Spain",
+    "outputLanguage": "English",
+    "timezone": "Europe/Madrid",
+    "runTime": "06:00"
+  },
+
+  "sections": {
+    "order": ["local", "national", "global", "tech", "ai"],
+    "storiesPerSection": { "min": 4, "max": 8 }
+  },
+
+  "writing": {
+    "subtitleWords": { "min": 20, "max": 50 },
+    "bodyWords": { "min": 100, "max": 300 },
+    "sourcesPerArticle": { "min": 3, "max": 4 }
+  },
+
+  "photos": {
+    "_note": "A card photo fills roughly 1206x1311 physical pixels on the phone. maxLongEdge below that guarantees upscaling; sources below the minimums cannot look good at that size.",
+    "maxLongEdge": 1600,
+    "jpegQuality": 75,
+    "minSourceLongEdge": 800,
+    "minSourceShortEdge": 450,
+    "retentionDays": 14
+  },
+
+  "sources": {
+    "_note": "Starting points, not a closed list. Follow the story wherever it leads, but these are the outlets Shane expects each section to draw on.",
+    "local": [
+      "El Progreso",
+      "La Voz de Galicia",
+      "El Correo Gallego",
+      "Noticias Lugo",
+      "Concello de Lugo press page",
+      "Deputación de Lugo press page"
+    ],
+    "national": [
+      "El País",
+      "El Mundo",
+      "RTVE",
+      "20minutos",
+      "Público",
+      "Europa Press"
+    ],
+    "global": ["Reuters", "BBC", "AP", "The Guardian"],
+    "tech": [
+      "Hacker News",
+      "TechCrunch",
+      "Wired",
+      "VentureBeat",
+      "The Verge",
+      "arXiv"
+    ],
+    "ai": [
+      "Simon Willison's blog (simonwillison.net)",
+      "Anthropic blog",
+      "OpenAI blog",
+      "plus the tech sources above"
+    ]
+  },
+
+  "publishing": {
+    "liveURL": "https://seandoc66.github.io/News-To-Me/",
+    "feedPath": "docs/latest.json",
+    "archiveDir": "docs/archive",
+    "imagesDir": "docs/images"
+  }
+}

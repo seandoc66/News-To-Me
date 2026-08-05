@@ -8,21 +8,25 @@
 // docs/latest.json — if it fails, leave the previous day's file in place.
 
 import { readFileSync, existsSync } from "node:fs";
-import { dirname, join, resolve } from "node:path";
-import { fileURLToPath } from "node:url";
+import { join, resolve } from "node:path";
+import { config, repoRoot } from "./config.mjs";
 
-const CATEGORIES = ["local", "national", "global", "tech", "ai"];
+// Every limit below comes from hermes/config.json — see scripts/config.mjs.
+const CATEGORIES = config.categories;
 const SECTION_ORDER = new Map(CATEGORIES.map((c, i) => [c, i]));
 
-const SUBTITLE_WORDS = { min: 20, max: 50 };
-const BODY_WORDS = { min: 100, max: 300 };
-const SOURCES = { min: 3, max: 4 };
+const SUBTITLE_WORDS = config.subtitleWords;
+const BODY_WORDS = config.bodyWords;
+const SOURCES = config.sourcesPerArticle;
+const MAX_PER_SECTION = config.storiesPerSection.max;
 
-const scriptDir = dirname(fileURLToPath(import.meta.url));
-const feedRoot = resolve(scriptDir, "..");
+// Built from the configured categories so adding a section needs no code change.
+const ID_PATTERN = new RegExp(`^\\d{4}-\\d{2}-\\d{2}-(${CATEGORIES.join("|")})-\\d{3}$`);
+
+const feedRoot = repoRoot;
 const feedPath = process.argv[2]
   ? resolve(process.argv[2])
-  : join(feedRoot, "docs", "latest.json");
+  : join(feedRoot, config.paths.feed);
 
 const problems = [];
 const warnings = [];
@@ -107,7 +111,7 @@ feed.articles.forEach((a, i) => {
   if (typeof a.id !== "string" || !a.id.trim()) {
     fail(`${at("id")} must be a non-empty string`);
   } else {
-    if (!/^\d{4}-\d{2}-\d{2}-(local|national|global|tech|ai)-\d{3}$/.test(a.id)) {
+    if (!ID_PATTERN.test(a.id)) {
       warn(`${at("id")} doesn't match the YYYY-MM-DD-category-NNN convention: "${a.id}"`);
     }
     if (seenIds.has(a.id)) fail(`${at("id")} duplicate id: "${a.id}"`);
@@ -176,7 +180,7 @@ feed.articles.forEach((a, i) => {
   } else if (typeof a.imageURL !== "string" || !a.imageURL.trim()) {
     fail(`${at("imageURL")} must be a string path, an absolute URL, or omitted entirely`);
   } else if (a.imageURL.startsWith("/")) {
-    const onDisk = join(feedRoot, "docs", a.imageURL.replace(/^\//, ""));
+    const onDisk = join(feedRoot, config.paths.imagesDir, "..", a.imageURL.replace(/^\//, ""));
     if (!existsSync(onDisk)) {
       fail(`${at("imageURL")} points at a file that doesn't exist: docs${a.imageURL}`);
     }
@@ -274,8 +278,8 @@ if (orderBroken) {
 for (const c of CATEGORIES) {
   if (perCategory[c] === 0) {
     warn(`no "${c}" articles in this batch`);
-  } else if (perCategory[c] > 10) {
-    warn(`${perCategory[c]} "${c}" articles — more than expected (4–8 is typical)`);
+  } else if (perCategory[c] > MAX_PER_SECTION * 1.5) {
+    warn(`${perCategory[c]} "${c}" articles — well above the ${config.storiesPerSection.min}–${MAX_PER_SECTION} the config aims for`);
   }
 }
 

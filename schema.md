@@ -76,10 +76,11 @@ in play are visible on the phone without opening the repo.
 | `config.sections.<cat>.sources` | array of `{name, url?}`, optional | Sources drawn on for this section. `url` may be omitted for named pages that have no clean link; the app then shows the name alone. Defaults to `[]`. |
 
 **This block is descriptive, not a control surface.** The app never writes it —
-it reports what the generator did. Changing targets or sources means editing the
-generator's brief in `HERMES_HANDOFF.md`, then reflecting the change here on the
-next run. The whole block is optional: a feed without it decodes fine, and the
-app keeps showing the last config it saw.
+it reports what the generator did. Changing targets or sources means editing
+[`hermes/config.json`](hermes/config.json), which the generator and the scripts
+both read, then reflecting the change here on the next run. The whole block is
+optional: a feed without it decodes fine, and the app keeps showing the last
+config it saw.
 
 ## Categories, per day
 
@@ -141,9 +142,14 @@ and put the returned absolute CDN URL in `imageURL` instead. The schema already
 supports this — `imageURL` may be either a relative path or an absolute URL, and
 the app handles both.
 
-**Hosting is not specified here.** Where `latest.json` and `images/` are served
-from is Hermes' decision; see section 6 of [`HERMES_HANDOFF.md`](HERMES_HANDOFF.md)
-for the requirements any choice has to meet. This document only defines the data.
+**Hosting is not specified here** — this document defines the data only. The feed
+is served by GitHub Pages from `docs/` on `main`; see
+[`ARCHITECTURE.md`](ARCHITECTURE.md) for how that fits together.
+
+**Numbers are not specified here either.** Word counts, source counts and photo
+dimensions all live in [`hermes/config.json`](hermes/config.json), which the
+validator and the photo scripts read directly. Any figure quoted in this document
+is illustrative — the config is what gets enforced.
 
 **Licensing note:** prefer openly-licensed images (Wikimedia Commons, Unsplash,
 government/press-release imagery, or the outlet's own Open Graph image) over

@@ -15,10 +15,10 @@
 // age, so the live feed can never end up pointing at a deleted file.
 
 import { readdirSync, existsSync, readFileSync, rmSync, statSync } from "node:fs";
-import { dirname, join, resolve } from "node:path";
-import { fileURLToPath } from "node:url";
+import { join } from "node:path";
+import { config, repoRoot } from "./config.mjs";
 
-const DEFAULT_DAYS = 14;
+const DEFAULT_DAYS = config.photos.retentionDays;
 
 const args = process.argv.slice(2);
 const dryRun = args.includes("--dry-run");
@@ -30,10 +30,9 @@ if (!Number.isFinite(days) || days < 1) {
   process.exit(1);
 }
 
-const scriptDir = dirname(fileURLToPath(import.meta.url));
-const feedRoot = resolve(scriptDir, "..");
-const imagesDir = join(feedRoot, "docs", "images");
-const latestPath = join(feedRoot, "docs", "latest.json");
+const feedRoot = repoRoot;
+const imagesDir = join(feedRoot, config.paths.imagesDir);
+const latestPath = join(feedRoot, config.paths.feed);
 
 if (!existsSync(imagesDir)) {
   console.log("No images directory — nothing to prune.");
