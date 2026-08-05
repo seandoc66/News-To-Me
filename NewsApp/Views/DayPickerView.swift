@@ -43,11 +43,10 @@ struct DayPickerView: View {
 
     // MARK: - Masthead
 
-    /// A newspaper masthead rather than a logo: the project has no logo asset,
-    /// and a serif wordmark between two rules is what the top of a front page
-    /// looks like anyway.
+    /// A serif wordmark under the app's logo mark — the yellow "N" medallion
+    /// on the rose gradient, matching the app icon.
     private var masthead: some View {
-        VStack(spacing: 9) {
+        VStack(spacing: 10) {
             HStack(spacing: 10) {
                 Spacer()
                 iconButton("slider.horizontal.3", label: "Sections and sources") {
@@ -58,9 +57,12 @@ struct DayPickerView: View {
                 }
             }
 
-            Image(systemName: "newspaper.fill")
-                .font(.system(size: 21))
-                .foregroundStyle(.white.opacity(0.5))
+            Image("AppLogo")
+                .resizable()
+                .aspectRatio(contentMode: .fit)
+                .frame(width: 40, height: 40)
+                .clipShape(RoundedRectangle(cornerRadius: 10, style: .continuous))
+                .accessibilityHidden(true)
 
             Text("News To Me")
                 .font(.system(size: 34, weight: .bold, design: .serif))
