@@ -12,7 +12,8 @@
 #
 # Each run bumps the build number so two installs can be told apart in the app's
 # Sections screen, which shows "News <version> (build <n>)" at the bottom. The
-# counter lives in .build-number and isn't committed; delete it to restart.
+# counter lives in .git/build-number, shared by every worktree; delete it to
+# restart.
 #
 # The build is signed with a personal development profile, so iOS stops
 # launching it about 7 days after install. Re-run this to get another week.
@@ -24,7 +25,11 @@ cd "$(dirname "$0")/.."
 PROJECT="NewsApp.xcodeproj"
 SCHEME="NewsApp"
 BUNDLE_ID="com.shanedoc.NewsApp"
-COUNTER_FILE=".build-number"
+# Kept in the shared git directory rather than the working tree, so every
+# worktree draws from one counter. Per-worktree files would each restart at 1
+# and put the same build number on the phone twice, which is the one thing the
+# number exists to prevent.
+COUNTER_FILE="$(git rev-parse --git-common-dir)/build-number"
 DERIVED_DATA="build/phone"
 
 # --- Pick the device ------------------------------------------------------

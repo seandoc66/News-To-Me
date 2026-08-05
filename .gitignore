@@ -23,9 +23,6 @@ xcuserdata/
 *.dSYM.zip
 *.dSYM
 
-## Install counter, bumped per phone install by scripts/install-to-phone.sh
-.build-number
-
 ## Playgrounds
 timeline.xctimeline
 playground.xcworkspace
