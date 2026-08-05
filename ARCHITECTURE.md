@@ -102,6 +102,17 @@ time, which matters because rotating full-resolution JPEGs in 3D during the fold
 is the most expensive thing the app does. Photos are kept on disk so a saved
 article still has its picture months later.
 
+**The body is a Markdown *subset*, not Markdown.** Paragraphs, `## ` subheads,
+inline emphasis — that is all the app parses. Bodies used to be one unbroken
+string, which on a phone is a wall of serif text with no way in. Full Markdown
+would have meant carrying a renderer for lists, tables, code and links that a
+300-word news story will never use, and every unused construct is a way for the
+generator and the app to disagree about what the reader sees. The subset is small
+enough that `StoryBlock.parse` and the validator's `parseBlocks` are the same
+twenty lines written twice, which is what keeps them honest. A body with no
+Markdown in it still renders — as one paragraph — so the week of plain-prose
+stories already on the phone didn't need migrating.
+
 **Photos self-hosted, on a rolling window.** Hotlinks rot, and a saved story with
 a dead image is exactly the failure Shane would hate. The window keeps git from
 growing without bound — deleted blobs stay in history forever, so without it the

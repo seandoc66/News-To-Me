@@ -38,10 +38,47 @@ keeps its own rolling 7-day local store and merges new articles into it by `id`.
 | `articles[].category` | string enum | One of: `local`, `national`, `global`, `tech`, `ai`. |
 | `articles[].headline` | string | Short, single line. No period at the end, standard headline style. |
 | `articles[].subtitle` | string | **20–50 words.** The teaser shown on the card — enough to decide whether to open the full article. Not a repeat of the headline. |
-| `articles[].body` | string | **100–300 words.** Length should match the story's actual complexity — don't pad simple stories to hit 300, and don't force complex stories into 100. Plain prose, no markdown. |
+| `articles[].body` | string | **100–300 words of prose**, in the Markdown subset below. Length should match the story's actual complexity — don't pad simple stories to hit 300, and don't force complex stories into 100. |
 | `articles[].imageURL` | string (URL), **optional** | Title photo, **self-hosted by us** — see "Photos" below. Path form: `/images/<id>.jpg` (relative) so it resolves against whatever host serves this JSON, **including a subpath** — GitHub Pages serves this repo from `/News-To-Me/`, and the app appends the path to that base rather than treating the leading slash as the host root. **May be omitted, `null`, or `""`** when a story has no photo; the app renders a category-tinted gradient instead. When a path *is* given, the file must exist in `docs/images/` — absent is acceptable, broken is not. |
 | `articles[].sources` | array of `{name, url}` | 3–4 real source links used to research/write the story. Count is a judgment call — use as many as were actually needed to get a rounded picture, within that range. |
 | `articles[].publishedAt` | ISO-8601 string | When the story was written/finalized. |
+
+## `body` formatting
+
+`body` is Markdown, but only this much of it:
+
+| Syntax | Renders as |
+|---|---|
+| A blank line between blocks | A new paragraph |
+| `## Subhead` | A crosshead within the story |
+| `**bold**`, `*italic*` | Emphasis, inline |
+
+That is the whole subset. **No `#`** — the headline owns that level. No lists, no
+links, no images, no blockquotes, no code, no tables. The app parses exactly what
+is in that table and nothing else; anything outside it renders as its own literal
+characters, and `validate.mjs` warns rather than fails so a stray construct can't
+hold an edition.
+
+```json
+"body": "The regional government declared a water-scarcity pre-alert across the whole eastern part of the community.\n\nThe declaration follows five months in which rainfall was 49 percent below the March-to-July average.\n\n## What the reservoirs show\n\nReservoirs in the Miño-Sil basin lost 57 cubic hectometres in the past week."
+```
+
+Three rules the validator checks, all as warnings:
+
+- **Paragraphs run 30–80 words.** Over 80 reads as a wall of text on a phone.
+- **Subheads only above 200 words.** A short story divided into parts is a short
+  story with furniture on it. Most stories won't have any, and shouldn't.
+- **A story opens on prose and ends on prose**, never on a subhead.
+
+Subhead text is **not counted** toward the 100–300 range — that range has always
+meant prose, and counting navigation would quietly shrink every structured story.
+
+The exact numbers live in [`hermes/config.json`](hermes/config.json) under
+`writing`, like every other tunable; the figures quoted here are illustrative.
+
+**A body with no Markdown in it at all is valid** and renders as a single
+paragraph. That is what every story published before this format existed looks
+like, and the app holds a rolling 7 days of them.
 
 ## `config` (optional)
 

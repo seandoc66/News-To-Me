@@ -17,6 +17,8 @@ const SECTION_ORDER = new Map(CATEGORIES.map((c, i) => [c, i]));
 
 const SUBTITLE_WORDS = config.subtitleWords;
 const BODY_WORDS = config.bodyWords;
+const PARAGRAPH_WORDS = config.paragraphWords;
+const SUBHEADS_ABOVE_WORDS = config.subheadsAboveWords;
 const SOURCES = config.sourcesPerArticle;
 const MAX_PER_SECTION = config.storiesPerSection.max;
 
@@ -34,6 +36,60 @@ const fail = (msg) => problems.push(msg);
 const warn = (msg) => warnings.push(msg);
 
 const countWords = (s) => s.trim().split(/\s+/).filter(Boolean).length;
+
+// --- body markdown ----------------------------------------------------------
+
+/// Splits a body into the blocks the app renders.
+///
+/// `body` is Markdown, but only a deliberately small subset of it: paragraphs
+/// separated by a blank line, `## ` subheads, and inline emphasis. This walks it
+/// line by line rather than splitting on blank lines, because that is what
+/// `StoryBlock.parse` in the app does — a subhead is its own block whether or not
+/// a blank line happens to precede it, so the validator sees what the phone sees.
+const parseBlocks = (body) => {
+  const blocks = [];
+  let paragraph = [];
+  const flush = () => {
+    if (paragraph.length) {
+      blocks.push({ kind: "paragraph", text: paragraph.join(" ") });
+      paragraph = [];
+    }
+  };
+
+  for (const raw of body.replace(/\r\n/g, "\n").split("\n")) {
+    const line = raw.trim();
+    const heading = line.match(/^(#{1,6})\s+(.*)$/);
+    if (!line) {
+      flush();
+    } else if (heading) {
+      flush();
+      blocks.push({ kind: "subhead", level: heading[1].length, text: heading[2].trim() });
+    } else {
+      paragraph.push(line);
+    }
+  }
+  flush();
+  return blocks;
+};
+
+/// Inline syntax removed, so word counts measure prose rather than punctuation.
+const stripInline = (s) =>
+  s
+    .replace(/!\[([^\]]*)\]\([^)]*\)/g, "$1")
+    .replace(/\[([^\]]*)\]\([^)]*\)/g, "$1")
+    .replace(/(\*\*|__|\*|_|`)/g, "");
+
+/// Markdown the app doesn't render. None of it is fatal — the renderer degrades
+/// to showing the literal characters — but all of it means the generator reached
+/// for syntax the contract doesn't offer, which is worth seeing.
+const OUTSIDE_SUBSET = [
+  [/^\s*([-*+]|\d+[.)])\s+\S/m, "a list"],
+  [/^\s*>/m, "a blockquote"],
+  [/^\s*(```|~~~)/m, "a code fence"],
+  [/!\[[^\]]*\]\([^)]*\)/, "an image"],
+  [/(^|[^!])\[[^\]]+\]\([^)]+\)/, "a link — sources belong in `sources`, not the body"],
+  [/^\s*\|.*\|\s*$/m, "a table"],
+];
 
 /// True when a URL points at an individual story rather than a masthead or
 /// section index.
@@ -157,16 +213,69 @@ feed.articles.forEach((a, i) => {
     }
   }
 
-  // body
+  // body — Markdown, restricted to paragraphs, `## ` subheads and inline emphasis.
   if (typeof a.body !== "string" || !a.body.trim()) {
     fail(`${at("body")} must be a non-empty string`);
   } else {
-    const n = countWords(a.body);
-    if (n < BODY_WORDS.min || n > BODY_WORDS.max) {
-      fail(`${at("body")} is ${n} words — must be ${BODY_WORDS.min}–${BODY_WORDS.max}`);
+    const blocks = parseBlocks(a.body);
+    const paragraphs = blocks.filter((b) => b.kind === "paragraph");
+    const subheads = blocks.filter((b) => b.kind === "subhead");
+
+    if (!paragraphs.length) {
+      fail(`${at("body")} has no prose — only subheads`);
     }
-    if (/^#{1,6}\s|\*\*|\[.+\]\(.+\)/m.test(a.body)) {
-      warn(`${at("body")} looks like it contains markdown — body should be plain prose`);
+
+    // Subhead text is navigation, not story. Counting it would quietly shrink
+    // every structured article against a range that has always meant prose.
+    const n = paragraphs.reduce((sum, p) => sum + countWords(stripInline(p.text)), 0);
+    if (n < BODY_WORDS.min || n > BODY_WORDS.max) {
+      fail(
+        `${at("body")} is ${n} words of prose — must be ${BODY_WORDS.min}–${BODY_WORDS.max}` +
+        (subheads.length ? ` (subheads excluded)` : "")
+      );
+    }
+
+    for (const [pattern, what] of OUTSIDE_SUBSET) {
+      if (pattern.test(a.body)) {
+        warn(`${at("body")} contains ${what} — the body subset is paragraphs, "## " subheads and inline emphasis`);
+      }
+    }
+
+    paragraphs.forEach((p, k) => {
+      const words = countWords(stripInline(p.text));
+      if (words > PARAGRAPH_WORDS.max) {
+        warn(
+          `${at("body")} paragraph ${k + 1} is ${words} words — over ${PARAGRAPH_WORDS.max}, ` +
+          `which reads as a wall of text on a phone. Aim for ${PARAGRAPH_WORDS.min}–${PARAGRAPH_WORDS.max}`
+        );
+      }
+    });
+
+    if (subheads.length) {
+      if (n < SUBHEADS_ABOVE_WORDS) {
+        warn(
+          `${at("body")} has ${subheads.length} subhead(s) in a ${n}-word story — ` +
+          `below ${SUBHEADS_ABOVE_WORDS} words they divide a story too short to need dividing`
+        );
+      }
+      if (blocks[0].kind === "subhead") {
+        warn(`${at("body")} opens with a subhead — the story should start on prose, under its own headline`);
+      }
+      if (blocks[blocks.length - 1].kind === "subhead") {
+        warn(`${at("body")} ends with a subhead — it has no text under it`);
+      }
+      for (const s of subheads) {
+        if (s.level === 1) {
+          warn(`${at("body")} uses "# ${s.text}" — the headline owns that level; subheads are "## "`);
+        }
+        if (!s.text) {
+          warn(`${at("body")} has an empty subhead`);
+        } else if (s.text.endsWith(".")) {
+          warn(`${at("body")} subhead "${s.text}" ends with a period — subheads are headline style`);
+        } else if (s.text.length > 60) {
+          warn(`${at("body")} subhead "${s.text}" is ${s.text.length} chars — subheads should be a few words`);
+        }
+      }
     }
   }
 

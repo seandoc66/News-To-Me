@@ -85,6 +85,45 @@ sentences verbatim from any outlet.** Where sources disagree, say so briefly
 rather than silently picking one. Be sceptical of vendor and press-release
 claims; attribute contested figures to whoever claimed them.
 
+### Shaping the body
+
+The body is **Markdown**, in a deliberately small subset. Structure it like a
+news story, not like a memo:
+
+```markdown
+Opening paragraph. This is the lede: what happened, before anything explains
+it. It is the only part many stories get read past.
+
+Second paragraph, developing it.
+
+## A subhead, if the story has earned one
+
+The part the subhead announced.
+```
+
+That is the whole subset: **blank lines between paragraphs**, `## ` subheads,
+and `**bold**` / `*italic*` used sparingly. **No `#`** — the headline owns that
+level. No lists, no links, no images, no blockquotes, no tables. Sources go in
+`sources`, never as links in the prose.
+
+**Paragraphs**: `config.json → writing.paragraphWords`. On a phone a paragraph
+over that maximum is a wall of text. Break where the story turns, not every N
+words — a paragraph is a unit of thought, and one deliberately short line lands
+hard when the rest are full.
+
+**Subheads are the exception, not the furniture.** Only consider one above
+`config.json → writing.subheadsAboveWords` words of prose, and only where a long
+story genuinely changes subject — the numbers behind a decision, the reaction to
+it, what happens next. Most stories are shorter than that and want none at all;
+two or three paragraphs and no subhead is a complete, well-formed story. A short
+story chopped into labelled parts reads worse than the same story left whole.
+
+Never open on a subhead — the headline already did that job — and never end on
+one with nothing underneath.
+
+Subhead text doesn't count toward `bodyWords`. Adding subheads doesn't buy you
+room, and it doesn't cost you any either.
+
 **Sources** — count from `config.json → writing.sourcesPerArticle`. These are
 the places you actually researched from, and Shane taps them. Every URL must be
 real and resolve. **Never invent a plausible-looking URL.** Link the *story*, not
@@ -195,7 +234,7 @@ All commands from the repo root.
 
 ### Warnings are the quality signal
 
-They never block publication, and three are worth acting on every run:
+They never block publication, and four are worth acting on every run:
 
 - **`… cite the same source … same story published twice`** — the duplicate
   check. Reworded headlines defeat any headline comparison, so this is what
@@ -203,6 +242,9 @@ They never block publication, and three are worth acting on every run:
 - **`… is a section or home page … dead end when tapped`** — link the story.
 - **`… publishing without a photo`** — informational, tells you whether the photo
   step is degrading.
+- **`… paragraph N is … words`** / **`… subhead(s) in a … story`** — the body
+  shape. Both are cheap to fix by re-breaking the prose, and both are exactly
+  what the reader feels.
 
 ---
 

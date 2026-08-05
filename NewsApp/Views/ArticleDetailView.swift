@@ -27,11 +27,7 @@ struct ArticleDetailView: View {
                 // already done their job of getting you to open the story, and
                 // the space belongs to the body text.
                 VStack(alignment: .leading, spacing: 18) {
-                    Text(article.body)
-                        .font(.system(.body, design: .serif))
-                        .lineSpacing(6)
-                        .foregroundStyle(.white.opacity(0.88))
-                        .fixedSize(horizontal: false, vertical: true)
+                    StoryBodyView(markdown: article.body)
 
                     if !article.sources.isEmpty {
                         sourcesSection

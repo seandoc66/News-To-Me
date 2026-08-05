@@ -48,6 +48,8 @@ export const config = {
 
   subtitleWords: required("writing.subtitleWords"),
   bodyWords: required("writing.bodyWords"),
+  paragraphWords: required("writing.paragraphWords"),
+  subheadsAboveWords: required("writing.subheadsAboveWords"),
   sourcesPerArticle: required("writing.sourcesPerArticle"),
 
   photos: {

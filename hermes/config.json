@@ -21,8 +21,11 @@
   },
 
   "writing": {
+    "_note": "bodyWords counts prose only — subhead text is navigation, not story, and is excluded from the count. paragraphWords.min is guidance for the writer; only the max is checked, because a deliberately short paragraph is a legitimate choice and a runaway one never is.",
     "subtitleWords": { "min": 20, "max": 50 },
     "bodyWords": { "min": 100, "max": 300 },
+    "paragraphWords": { "min": 30, "max": 80 },
+    "subheadsAboveWords": 200,
     "sourcesPerArticle": { "min": 3, "max": 4 }
   },
 
