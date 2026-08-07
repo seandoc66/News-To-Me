@@ -171,6 +171,17 @@ a sort. A file is less code, has no schema migration to get wrong, and can be
 `cat`-ed when debugging. A SwiftData migration mismatch that stopped the app
 launching would be miserable to diagnose on a phone.
 
+**Every dynamic colour's provider is `nonisolated`.** `Palette.page`,
+`Palette.ink` and `NewsCategory.tint` are all `UIColor(dynamicProvider:)`, and
+UIKit runs that closure on whichever thread is drawing. A settled screen draws on
+the main thread; a page turn drives its frames from SwiftUI's own async render
+thread. The target builds with `SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor`, which
+infers those closures `@MainActor`, and Swift 6 guards a main-actor closure
+reached through a non-isolated function type with a main-queue assertion — so
+every single swipe trapped in `ShapeStyleResolver` on the render thread. Nothing
+in a colour provider needs the main actor. Any new dynamic colour needs the same
+annotation.
+
 **A custom image cache, not `AsyncImage`.** `AsyncImage` does no caching, so
 paging back would refetch every photo. The cache also downsamples at decode
 time, which matters because rotating full-resolution JPEGs in 3D during the fold
