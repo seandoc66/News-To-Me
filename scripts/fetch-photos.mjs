@@ -120,8 +120,38 @@ let ok = 0;
 let attempted = 0;
 const failures = [];
 
+/// Fetches the article's first source URL, extracts og:image (or twitter:image)
+/// from the page's meta tags, and returns a photoCandidate if one is found.
+/// Falls back through each source until one yields an image URL.
+async function discoverPhotoCandidate(article) {
+  const sources = article.sources ?? [];
+  for (const source of sources) {
+    const url = source?.url;
+    if (!url) continue;
+    try {
+      const response = await fetchWithRetry(url);
+      if (!response.ok) continue;
+      const html = await response.text();
+      const og = html.match(
+        /<meta[^>]+(?:property|name)=["'](?:og:image|twitter:image)["'][^>]*content=["']([^"']+)["']/i
+      ) ?? html.match(
+        /<meta[^>]+content=["']([^"']+)["'][^>]*(?:property|name)=["'](?:og:image|twitter:image)["']/i
+      );
+      if (!og) continue;
+      return {
+        url: og[1],
+        description: `og:image from ${source.name ?? url}`,
+        license: "fair-use",
+      };
+    } catch {
+      // Try the next source.
+    }
+  }
+  return null;
+}
+
 for (const article of feed.articles) {
-  const candidate = article.photoCandidate;
+  let candidate = article.photoCandidate;
   const label = article.id ?? "(no id)";
 
   // Already has a photo from an earlier run — skip, so re-running after a
@@ -131,10 +161,18 @@ for (const article of feed.articles) {
     continue;
   }
 
+  // No candidate from the agent — try to discover one from the first source URL.
   if (!candidate?.url) {
-    failures.push(`${label}: no photoCandidate`);
-    console.log(`  –  ${label}  no candidate`);
-    continue;
+    const discovered = await discoverPhotoCandidate(article);
+    if (discovered) {
+      article.photoCandidate = discovered;
+      candidate = discovered;
+      console.log(`  →  ${label}  auto-discovered: ${discovered.url.slice(0, 80)}...`);
+    } else {
+      failures.push(`${label}: no photoCandidate`);
+      console.log(`  –  ${label}  no candidate`);
+      continue;
+    }
   }
 
   if (attempted > 0) await sleep(DELAY_MS);
