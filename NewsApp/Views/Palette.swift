@@ -13,10 +13,17 @@ import SwiftUI
 /// white lettering on its coloured capsule — those sit on a photograph, not on
 /// the page, and they stay exactly as dark or as light as they are in both
 /// modes.
+///
+/// Both are `nonisolated`, for the same reason `NewsCategory.tint` is — see the
+/// note there. A dynamic colour's provider runs on whichever thread is drawing,
+/// which during a page turn is SwiftUI's async render thread; the module's
+/// default MainActor isolation would otherwise put a main-queue assertion in
+/// front of it and trap. These two are drawn by every half-page of every fold,
+/// so they would have been next.
 enum Palette {
     /// The background behind everything: black, or a warm near-white that reads
     /// as newsprint rather than as a lightbox.
-    static let page = Color(uiColor: UIColor { traits in
+    nonisolated static let page = Color(uiColor: UIColor { traits in
         traits.userInterfaceStyle == .dark
             ? UIColor(white: 0, alpha: 1)
             : UIColor(red: 0.980, green: 0.976, blue: 0.969, alpha: 1)
@@ -25,7 +32,7 @@ enum Palette {
     /// Everything drawn on the page. Used at full strength for headlines and at
     /// a fraction of it for secondary text, hairlines and row fills — the
     /// fractions in the app are all of this, so they follow the mode too.
-    static let ink = Color(uiColor: UIColor { traits in
+    nonisolated static let ink = Color(uiColor: UIColor { traits in
         traits.userInterfaceStyle == .dark
             ? UIColor(white: 1, alpha: 1)
             : UIColor(red: 0.078, green: 0.075, blue: 0.071, alpha: 1)

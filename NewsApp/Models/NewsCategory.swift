@@ -56,7 +56,17 @@ enum NewsCategory: String, Codable, CaseIterable, Identifiable, Sendable {
     /// mid-bright orange on newsprint is barely there. The light variants are
     /// the same hues taken down far enough to read on paper, and still dark
     /// enough for the tag's white lettering.
-    var tint: Color {
+    ///
+    /// **`nonisolated` is load-bearing**, here and on the two tables below.
+    /// UIKit resolves a dynamic colour on whichever thread is drawing, and
+    /// SwiftUI draws a page turn on its own async render thread rather than on
+    /// the main one. This module builds with default MainActor isolation, so
+    /// without this the closure is inferred `@MainActor` and Swift 6 puts a
+    /// "same queue?" assertion in front of every call into it — which trapped on
+    /// the first frame of every flip, off the main queue, in
+    /// `ShapeStyleResolver`. Nothing in here needs the main actor: it reads a
+    /// trait and a frozen enum case and returns a colour.
+    nonisolated var tint: Color {
         Color(uiColor: UIColor { [self] traits in
             let rgb = traits.userInterfaceStyle == .dark ? onDark : onLight
             return UIColor(red: rgb.0, green: rgb.1, blue: rgb.2, alpha: 1)
@@ -68,7 +78,7 @@ enum NewsCategory: String, Codable, CaseIterable, Identifiable, Sendable {
     /// enough that the new tag can't be mistaken for a neighbour at a glance.
     /// Green rather than anything flag-adjacent — the section covers both
     /// communities and shouldn't wear either one's colour.
-    private var onDark: (CGFloat, CGFloat, CGFloat) {
+    nonisolated private var onDark: (CGFloat, CGFloat, CGFloat) {
         switch self {
         case .local: (0.20, 0.62, 0.47)
         case .national: (0.25, 0.47, 0.78)
@@ -79,7 +89,7 @@ enum NewsCategory: String, Codable, CaseIterable, Identifiable, Sendable {
         }
     }
 
-    private var onLight: (CGFloat, CGFloat, CGFloat) {
+    nonisolated private var onLight: (CGFloat, CGFloat, CGFloat) {
         switch self {
         case .local: (0.09, 0.42, 0.31)
         case .national: (0.13, 0.31, 0.56)

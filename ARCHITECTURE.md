@@ -143,6 +143,18 @@ modes. Section tints have a second, darker set for light mode; the first was
 picked to sit on black, and the reading bar names the current section in flat
 tint on the page itself.
 
+**Nothing in the build settings may pin the appearance.** The target used to
+carry `UIUserInterfaceStyle = Dark` and `UIStatusBarStyle = LightContent` from the
+days when dark was the only mode. Those are UIKit-level pins: they hold the
+window's trait and the status bar's glyphs dark whatever the theme setting says,
+so light mode reached the SwiftUI views through `preferredColorScheme` while the
+chrome around them stayed put — white glyphs on a white page. Both keys are gone,
+and the theme is the only thing that decides. One consequence worth knowing: the
+generated launch screen follows the *phone*, not the app, so a dark-pinned app on
+a light phone flashes white for an instant before the first frame. A static
+launch screen can't read a preference, and pinning it back would take light mode
+with it.
+
 **Reading font — serif, sans or rounded.** A `Font.Design`, not a bundled
 typeface, so every weight and every Dynamic Type size keeps working. It governs
 headlines, subheads and story text. Two things stay where they are: the masthead,
@@ -170,6 +182,17 @@ step is handed on as a finished size so restating it can't compound it.
 a sort. A file is less code, has no schema migration to get wrong, and can be
 `cat`-ed when debugging. A SwiftData migration mismatch that stopped the app
 launching would be miserable to diagnose on a phone.
+
+**Every dynamic colour's provider is `nonisolated`.** `Palette.page`,
+`Palette.ink` and `NewsCategory.tint` are all `UIColor(dynamicProvider:)`, and
+UIKit runs that closure on whichever thread is drawing. A settled screen draws on
+the main thread; a page turn drives its frames from SwiftUI's own async render
+thread. The target builds with `SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor`, which
+infers those closures `@MainActor`, and Swift 6 guards a main-actor closure
+reached through a non-isolated function type with a main-queue assertion — so
+every single swipe trapped in `ShapeStyleResolver` on the render thread. Nothing
+in a colour provider needs the main actor. Any new dynamic colour needs the same
+annotation.
 
 **A custom image cache, not `AsyncImage`.** `AsyncImage` does no caching, so
 paging back would refetch every photo. The cache also downsamples at decode
