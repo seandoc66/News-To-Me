@@ -12,11 +12,14 @@ import SwiftUI
 /// story itself, which is where you know whether you want to keep it.
 struct ArticleCardView: View {
     let article: Article
-    /// Passed down from `FeedView`, which reads the real inset before the
-    /// scroll view ignores it. Only the bottom one is needed: the photo runs
-    /// under the status bar on purpose, and everything that has to clear it is
-    /// drawn by `FeedView` over the top.
-    let safeBottom: CGFloat
+    /// How much room to leave under the story's text.
+    ///
+    /// Passed down because only `FeedView` knows it. The card is exactly the
+    /// size of the screen and has no idea what the reader has laid over it, and
+    /// the real safe-area inset can't be read from a proxy on this screen
+    /// anyway. Nothing is needed at the top: the photo runs under the status bar
+    /// on purpose, and the buttons up there float over it.
+    let bottomInset: CGFloat
 
     var body: some View {
         GeometryReader { geo in
@@ -71,7 +74,7 @@ struct ArticleCardView: View {
                 }
                 .padding(.horizontal, 22)
                 .padding(.top, 22)
-                .padding(.bottom, max(safeBottom, 16) + 6)
+                .padding(.bottom, bottomInset)
                 .frame(
                     width: geo.size.width,
                     height: geo.size.height - photoHeight,

@@ -27,6 +27,13 @@ struct FeedView: View {
     @State private var articles: [Article] = []
     @State private var index = 0
 
+    /// The measured height of the reading bar and its section name.
+    ///
+    /// Seeded with what the two of them come to at their current sizes, so the
+    /// very first card is laid out clear of them rather than being corrected a
+    /// frame later.
+    @State private var progressHeight: CGFloat = 26
+
     /// Set the first time a page is turned, and remembered, so the hint appears
     /// for a newcomer and never nags again.
     @AppStorage("hasScrolledFeed") private var hasScrolledFeed = false
@@ -106,7 +113,6 @@ struct FeedView: View {
     }
 
     private var pager: some View {
-        let screen = Self.window?.safeAreaInsets ?? .zero
         let screenSize = Self.window?.bounds.size ?? .zero
 
         // Sized to the window and pulled up by however far down the screen this
@@ -123,7 +129,7 @@ struct FeedView: View {
                 NavigationLink(value: Route.article(articles[i].id)) {
                     ArticleCardView(
                         article: articles[i],
-                        safeBottom: screen.bottom
+                        bottomInset: bottomInset
                     )
                 }
                 .buttonStyle(.plain)
@@ -136,7 +142,7 @@ struct FeedView: View {
                 // edge rather than the reader's.
                 if !hasScrolledFeed, articles.count > 1 {
                     SwipeUpHint()
-                        .padding(.bottom, screen.bottom + 18)
+                        .padding(.bottom, bottomInset + 8)
                         .transition(.opacity)
                 }
             }
@@ -158,38 +164,20 @@ struct FeedView: View {
         }
     }
 
-    /// The furniture floating over the photo: the three buttons and the section
-    /// pill for the story you're on.
+    /// The three buttons, floating over the photo.
     ///
     /// The nav bar is hidden so the photo can run to the top of the screen, so
     /// back is a floating glass circle like the other two — same shape, opposite
-    /// corner. The pill sits in that row rather than on the card below it, so
-    /// the whole strip reads as one band of chrome and the photograph starts
-    /// cleanly beneath it.
+    /// corner.
     ///
-    /// The pill is centred in the gap between the buttons, not on the screen.
-    /// Glass lays a button out at about 60pt, half again as wide as its 40pt
-    /// label, so the three of them leave a gap of roughly 165pt that isn't
-    /// centred on anything — and "NATIONAL" is wide enough that centring it on
-    /// the screen puts its right edge under the settings button.
+    /// The section used to be a tinted pill in the middle of this row. A pill
+    /// over a photograph is one more small bright object among many and was easy
+    /// to look straight past, so the section is named down at the bar instead,
+    /// where it sits on plain black and marks the story you're on.
     private var topBar: some View {
         HStack(spacing: 10) {
             button("chevron.left", label: "Back to the week") { dismiss() }
-
             Spacer(minLength: 12)
-            if articles.indices.contains(index) {
-                // `fixedSize` because the pill and the two spacers are
-                // otherwise all flexible, and an HStack shares the slack out
-                // between them rather than settling the pill at its ideal
-                // width first — so "LOCAL" came out stacked three letters
-                // deep in a circle. The tag's type is a fixed size, not
-                // Dynamic Type, so its ideal width can't run away with the
-                // row.
-                CategoryTag(category: articles[index].category)
-                    .fixedSize()
-            }
-            Spacer(minLength: 12)
-
             button("slider.horizontal.3", label: "Sections and sources") {
                 showingSettings = true
             }
@@ -207,15 +195,35 @@ struct FeedView: View {
     /// its most interesting point. Down here it sits under the story's text,
     /// where the card is plain black and the bar is the only thing on it.
     private var progress: some View {
-        let screen = Self.window?.safeAreaInsets ?? .zero
-
-        return Group {
+        Group {
             if !articles.isEmpty {
-                ReadingProgressBar(articles: articles)
+                ReadingProgressBar(articles: articles, current: index)
+                    .onGeometryChange(for: CGFloat.self) { $0.size.height } action: {
+                        progressHeight = $0
+                    }
                     .padding(.horizontal, 16)
-                    .padding(.bottom, max(screen.bottom, 10) + 4)
+                    .padding(.bottom, Self.progressBottomGap)
             }
         }
+    }
+
+    /// The gap between the reading bar and the bottom of the screen. Clears the
+    /// home indicator, or stands in for it on a device without one.
+    private static var progressBottomGap: CGFloat {
+        max(window?.safeAreaInsets.bottom ?? 0, 10) + 4
+    }
+
+    /// How much of the card's bottom the reading bar and its section name take
+    /// up, with a gap over them for the story's last line.
+    ///
+    /// The bar is drawn in an overlay, so it floats over the card and knows
+    /// nothing about the text underneath — a long enough teaser ran its last
+    /// line straight through the ticks and the word under them. The card can't
+    /// work this out for itself either: it is the same size as the screen and
+    /// has no idea what the reader has put on top of it. So the reader measures
+    /// its own furniture and tells the card how much room to leave.
+    private var bottomInset: CGFloat {
+        Self.progressBottomGap + progressHeight + 12
     }
 
     private func button(
@@ -244,11 +252,17 @@ struct FeedView: View {
 
 // MARK: - Reading progress
 
-/// How much of the day has been read: one tick per story, in reading order,
-/// each tinted by its section — local, national, world, tech, AI, left to
-/// right. A story you've seen is in full colour; one you haven't is nothing at
-/// all, so the bar draws itself in behind you as you go rather than sitting
-/// there fully formed and waiting to be filled.
+/// How much of the day has been read and where in it you are: one tick per
+/// story, in reading order, each tinted by its section — local, national,
+/// world, tech, AI, left to right — with the section you're in named under its
+/// own run of ticks.
+///
+/// Three states. The story you're on is the tint lifted halfway to white; one
+/// you've seen is the tint itself; one you haven't is nothing at all, so the bar
+/// draws itself in behind you as you go rather than sitting there fully formed
+/// and waiting to be filled. The current tick is drawn bright whether or not it
+/// has been marked yet, so the bar always says where you are — and once you turn
+/// back through stories you've already seen, it is the only thing that does.
 ///
 /// There is no track under it. There used to be an opaque black one, because an
 /// unread tick was a dimmed tint and dimmed tints get lost against a photograph
@@ -262,8 +276,15 @@ struct FeedView: View {
 /// copies stop being current the moment a card is marked.
 private struct ReadingProgressBar: View {
     let articles: [Article]
+    let current: Int
 
     @Environment(ArticleStore.self) private var store
+
+    /// Measured rather than assumed: the section name is placed along the bar by
+    /// fraction, so both widths have to be real numbers before it can be centred
+    /// over a tick and kept inside the bar's ends.
+    @State private var barWidth: CGFloat = 0
+    @State private var labelWidth: CGFloat = 0
 
     private func isRead(_ article: Article) -> Bool {
         store.article(id: article.id)?.isRead ?? article.isRead
@@ -271,11 +292,29 @@ private struct ReadingProgressBar: View {
 
     private var readCount: Int { articles.filter(isRead).count }
 
+    private var currentCategory: NewsCategory? {
+        articles.indices.contains(current) ? articles[current].category : nil
+    }
+
     var body: some View {
+        VStack(alignment: .leading, spacing: 7) {
+            ticks
+            if let currentCategory { label(currentCategory) }
+        }
+        // Short, because these now fire as you land on a card rather than on
+        // the way back from one — they should settle before the turn finishes.
+        .animation(.easeOut(duration: 0.22), value: readCount)
+        .animation(.easeOut(duration: 0.25), value: current)
+        .accessibilityElement()
+        .accessibilityLabel("Reading progress")
+        .accessibilityValue(accessibilityValue)
+    }
+
+    private var ticks: some View {
         HStack(spacing: 2) {
-            ForEach(articles) { article in
+            ForEach(Array(articles.enumerated()), id: \.element.id) { position, article in
                 Capsule()
-                    .fill(isRead(article) ? article.category.tint : .clear)
+                    .fill(fill(for: article, at: position))
                     .frame(maxWidth: .infinity)
             }
         }
@@ -284,12 +323,67 @@ private struct ReadingProgressBar: View {
         // Enough to hold them apart from a pale photograph without putting a
         // slab behind the whole bar.
         .shadow(color: .black.opacity(0.5), radius: 2, y: 1)
-        // Short, because this now fires as you land on a card rather than on
-        // the way back from one — it should settle before the turn finishes.
-        .animation(.easeOut(duration: 0.22), value: readCount)
-        .accessibilityElement()
-        .accessibilityLabel("Reading progress")
-        .accessibilityValue("\(readCount) of \(articles.count) stories read")
+        .onGeometryChange(for: CGFloat.self) { $0.size.width } action: { barWidth = $0 }
+    }
+
+    private func fill(for article: Article, at position: Int) -> Color {
+        guard position != current else {
+            // Full tint is already what "seen" looks like, so the only way up
+            // from there is towards white.
+            return article.category.tint.mix(with: .white, by: 0.5)
+        }
+        return isRead(article) ? article.category.tint : .clear
+    }
+
+    /// The section, named under its own stretch of the bar.
+    ///
+    /// Under the whole run rather than under the tick you're on, so it holds
+    /// still while you read through a section and only moves when you cross into
+    /// the next one. Following the current tick meant a word sliding a few
+    /// points under the bar on every single page turn, which pulled the eye down
+    /// to it each time for news it had already given you.
+    private func label(_ category: NewsCategory) -> some View {
+        Text(category.displayName.uppercased())
+            .font(.system(size: 12, weight: .heavy))
+            .tracking(1.1)
+            // The pill's own colour, not the lifted one the tick uses. The bar
+            // lives on the plain black under the story's text, which is what
+            // makes a flat tint legible here where it wasn't over a photograph.
+            .foregroundStyle(category.tint)
+            .shadow(color: .black.opacity(0.8), radius: 4, y: 1)
+            .fixedSize()
+            .onGeometryChange(for: CGFloat.self) { $0.size.width } action: { labelWidth = $0 }
+            .offset(x: labelOffset)
+            .frame(maxWidth: .infinity, alignment: .leading)
+    }
+
+    /// The stretch of ticks the current section owns.
+    ///
+    /// The store hands a day over ordered by section, so a section is always one
+    /// unbroken run and its first and last stories describe the whole of it.
+    private var currentRun: ClosedRange<Int>? {
+        guard let currentCategory,
+              let first = articles.firstIndex(where: { $0.category == currentCategory }),
+              let last = articles.lastIndex(where: { $0.category == currentCategory })
+        else { return nil }
+        return first...last
+    }
+
+    /// Centred under the section's run, then pulled back inside the bar at both
+    /// ends — the first and last runs reach the very edge, and a word centred on
+    /// a short one there would hang off the side of the screen.
+    private var labelOffset: CGFloat {
+        guard barWidth > 0, !articles.isEmpty, let run = currentRun else { return 0 }
+        let runCentre = barWidth
+            * CGFloat(run.lowerBound + run.upperBound + 1)
+            / (2 * CGFloat(articles.count))
+        return min(max(runCentre - labelWidth / 2, 0), max(barWidth - labelWidth, 0))
+    }
+
+    private var accessibilityValue: String {
+        let position = "story \(current + 1) of \(articles.count)"
+        guard let currentCategory else { return position }
+        return "\(currentCategory.displayName), \(position), \(readCount) read"
     }
 }
 
