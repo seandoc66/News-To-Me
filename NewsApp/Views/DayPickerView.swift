@@ -37,7 +37,7 @@ struct DayPickerView: View {
             .padding(.bottom, 32)
         }
         .scrollIndicators(.hidden)
-        .background(.black)
+        .background(Palette.page)
         .toolbar(.hidden, for: .navigationBar)
     }
 
@@ -64,9 +64,11 @@ struct DayPickerView: View {
                 .clipShape(RoundedRectangle(cornerRadius: 10, style: .continuous))
                 .accessibilityHidden(true)
 
+            // The wordmark stays serif whatever the reading font is set to: it's
+            // the masthead, not something you read.
             Text("News To Me")
                 .font(.system(size: 34, weight: .bold, design: .serif))
-                .foregroundStyle(.white)
+                .foregroundStyle(Palette.ink)
                 .minimumScaleFactor(0.7)
                 .lineLimit(1)
 
@@ -75,7 +77,7 @@ struct DayPickerView: View {
                 Text(Self.todayLine.uppercased())
                     .font(.system(size: 10, weight: .semibold))
                     .tracking(1.3)
-                    .foregroundStyle(.white.opacity(0.45))
+                    .foregroundStyle(Palette.ink.opacity(0.45))
                     .fixedSize()
                 rule
             }
@@ -85,7 +87,7 @@ struct DayPickerView: View {
 
     private var rule: some View {
         Rectangle()
-            .fill(.white.opacity(0.22))
+            .fill(Palette.ink.opacity(0.22))
             .frame(height: 0.5)
     }
 
@@ -123,18 +125,25 @@ private struct DayButton: View {
     private static let height: CGFloat = 92
     private static let corner: CGFloat = 18
 
+    /// Worked out once and passed around: whether this button has photographs
+    /// behind it decides its scrim, its lettering and its shadow, and
+    /// `collageArticles()` can come back empty even for a day that has stories.
+    private var photos: [Article] { day.collageArticles() }
+
     var body: some View {
-        NavigationLink(value: Route.day(day.date)) {
+        let photos = self.photos
+
+        return NavigationLink(value: Route.day(day.date)) {
             ZStack {
-                background
-                scrim
-                labels
+                background(photos)
+                if !photos.isEmpty { scrim }
+                labels(overPhotos: !photos.isEmpty)
             }
             .frame(height: Self.height)
             .clipShape(.rect(cornerRadius: Self.corner))
             .overlay {
                 RoundedRectangle(cornerRadius: Self.corner)
-                    .strokeBorder(.white.opacity(day.isEmpty ? 0.08 : 0.14), lineWidth: 0.5)
+                    .strokeBorder(Palette.ink.opacity(day.isEmpty ? 0.08 : 0.14), lineWidth: 0.5)
             }
         }
         .buttonStyle(.plain)
@@ -148,10 +157,9 @@ private struct DayButton: View {
     }
 
     @ViewBuilder
-    private var background: some View {
-        let photos = day.collageArticles()
+    private func background(_ photos: [Article]) -> some View {
         if photos.isEmpty {
-            Color.white.opacity(0.05)
+            Palette.ink.opacity(0.05)
         } else {
             HStack(spacing: 1) {
                 ForEach(photos) { article in
@@ -174,7 +182,9 @@ private struct DayButton: View {
     }
 
     /// Dark on the left where the type sits, clearing to the right so the
-    /// photographs are still photographs.
+    /// photographs are still photographs. Only drawn where there are photographs
+    /// to darken — a day with none is a plain tile, and in light mode a black
+    /// gradient across it would be the one dark slab on a paper page.
     private var scrim: some View {
         LinearGradient(
             colors: [.black.opacity(0.82), .black.opacity(0.28)],
@@ -183,25 +193,31 @@ private struct DayButton: View {
         )
     }
 
-    private var labels: some View {
-        HStack(spacing: 12) {
+    /// White over a scrimmed photograph, ink over a bare tile.
+    private func labels(overPhotos: Bool) -> some View {
+        let letters: Color = overPhotos ? .white : Palette.ink
+
+        return HStack(spacing: 12) {
             VStack(alignment: .leading, spacing: 3) {
                 Text(day.weekday)
                     .font(.system(.title2, design: .serif, weight: .bold))
-                    .foregroundStyle(.white.opacity(day.isEmpty ? 0.45 : 1))
+                    .foregroundStyle(letters.opacity(day.isEmpty ? 0.45 : 1))
                 Text(subtitle)
                     .font(.caption.weight(.medium))
-                    .foregroundStyle(.white.opacity(0.6))
+                    .foregroundStyle(letters.opacity(0.6))
             }
             .lineLimit(1)
             .minimumScaleFactor(0.75)
 
             Spacer(minLength: 4)
 
-            if !day.isEmpty { readBadge }
+            // The badge is the one thing here on glass rather than straight on
+            // the photograph, and glass follows the mode — so it takes ink even
+            // where the lettering beside it is white.
+            if !day.isEmpty { readBadge(letters: Palette.ink) }
         }
         .padding(.horizontal, 16)
-        .shadow(color: .black.opacity(0.5), radius: 6, y: 1)
+        .shadow(color: .black.opacity(overPhotos ? 0.5 : 0), radius: 6, y: 1)
     }
 
     private var subtitle: String {
@@ -214,14 +230,14 @@ private struct DayButton: View {
     ///
     /// Saturation alone would be the only signal, and a signal carried purely by
     /// colour is no signal at all to a colour-blind reader or to VoiceOver.
-    private var readBadge: some View {
+    private func readBadge(letters: Color) -> some View {
         HStack(spacing: 5) {
             Image(systemName: badgeSymbol)
                 .font(.system(size: 10, weight: .bold))
             Text(badgeText)
                 .font(.system(size: 11, weight: .semibold))
         }
-        .foregroundStyle(.white.opacity(day.readFraction == 1 ? 0.6 : 0.95))
+        .foregroundStyle(letters.opacity(day.readFraction == 1 ? 0.6 : 0.95))
         .padding(.horizontal, 10)
         .padding(.vertical, 6)
         .glassCapsule()

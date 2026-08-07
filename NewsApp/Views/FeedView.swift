@@ -57,7 +57,7 @@ struct FeedView: View {
                 pager
             }
         }
-        .background(.black)
+        .background(Palette.page)
         // Swipe right anywhere to go back to the week. The nav bar is hidden
         // here so UIKit's own edge swipe is refused outright — this screen had
         // nothing but the chevron until now.
@@ -279,6 +279,9 @@ private struct ReadingProgressBar: View {
     let current: Int
 
     @Environment(ArticleStore.self) private var store
+    /// Read directly rather than leaning on a dynamic `Color`: the current tick
+    /// is a *mix* of two colours, and mixing wants both of them settled.
+    @Environment(\.colorScheme) private var colorScheme
 
     /// Measured rather than assumed: the section name is placed along the bar by
     /// fraction, so both widths have to be real numbers before it can be centred
@@ -321,16 +324,20 @@ private struct ReadingProgressBar: View {
         .frame(height: 4)
         // Only the filled ticks cast this; a clear capsule has nothing to cast.
         // Enough to hold them apart from a pale photograph without putting a
-        // slab behind the whole bar.
-        .shadow(color: .black.opacity(0.5), radius: 2, y: 1)
+        // slab behind the whole bar. The page's own colour, so it separates in
+        // whichever direction there is contrast to be had.
+        .shadow(color: Palette.page.opacity(0.5), radius: 2, y: 1)
         .onGeometryChange(for: CGFloat.self) { $0.size.width } action: { barWidth = $0 }
     }
 
     private func fill(for article: Article, at position: Int) -> Color {
         guard position != current else {
             // Full tint is already what "seen" looks like, so the only way up
-            // from there is towards white.
-            return article.category.tint.mix(with: .white, by: 0.5)
+            // from there is towards the ink — white on a black page, near-black
+            // on a paper one. Either way it stands furthest off the page of
+            // anything on the bar.
+            let ink: Color = colorScheme == .dark ? .white : .black
+            return article.category.tint.mix(with: ink, by: 0.5)
         }
         return isRead(article) ? article.category.tint : .clear
     }
@@ -350,7 +357,7 @@ private struct ReadingProgressBar: View {
             // lives on the plain black under the story's text, which is what
             // makes a flat tint legible here where it wasn't over a photograph.
             .foregroundStyle(category.tint)
-            .shadow(color: .black.opacity(0.8), radius: 4, y: 1)
+            .shadow(color: Palette.page.opacity(0.8), radius: 4, y: 1)
             .fixedSize()
             .onGeometryChange(for: CGFloat.self) { $0.size.width } action: { labelWidth = $0 }
             .offset(x: labelOffset)
@@ -400,7 +407,7 @@ private struct SwipeUpHint: View {
             Text("Swipe for next story")
                 .font(.caption2.weight(.medium))
         }
-        .foregroundStyle(.white.opacity(0.55))
+        .foregroundStyle(Palette.ink.opacity(0.55))
         .offset(y: lift ? -6 : 0)
         .animation(.easeInOut(duration: 1.1).repeatForever(autoreverses: true), value: lift)
         .allowsHitTesting(false)

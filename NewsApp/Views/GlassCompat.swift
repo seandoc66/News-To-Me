@@ -14,7 +14,7 @@ extension View {
             glassEffect(in: .capsule)
         } else {
             background(.ultraThinMaterial, in: Capsule())
-                .overlay(Capsule().strokeBorder(.white.opacity(0.18), lineWidth: 0.5))
+                .overlay(Capsule().strokeBorder(Palette.ink.opacity(0.18), lineWidth: 0.5))
         }
     }
 
@@ -36,7 +36,7 @@ private struct FrostedButtonStyle: ButtonStyle {
     func makeBody(configuration: Configuration) -> some View {
         configuration.label
             .background(.ultraThinMaterial, in: Capsule())
-            .overlay(Capsule().strokeBorder(.white.opacity(0.18), lineWidth: 0.5))
+            .overlay(Capsule().strokeBorder(Palette.ink.opacity(0.18), lineWidth: 0.5))
             .opacity(configuration.isPressed ? 0.7 : 1)
             .scaleEffect(configuration.isPressed ? 0.92 : 1)
             .animation(.spring(response: 0.3, dampingFraction: 0.7), value: configuration.isPressed)

@@ -74,22 +74,24 @@ extension StoryBlock {
 struct StoryBodyView: View {
     let markdown: String
 
+    @Environment(\.readingFont) private var readingFont
+
     var body: some View {
         VStack(alignment: .leading, spacing: 0) {
             ForEach(Array(StoryBlock.parse(markdown).enumerated()), id: \.offset) { index, block in
                 switch block {
                 case .subhead(let text):
                     Text(text)
-                        .font(.system(.headline, design: .serif).bold())
-                        .foregroundStyle(.white.opacity(0.95))
+                        .font(.system(.headline, design: readingFont).bold())
+                        .foregroundStyle(Palette.ink.opacity(0.95))
                         .fixedSize(horizontal: false, vertical: true)
                         .padding(.top, index == 0 ? 0 : 28)
 
                 case .paragraph(let text):
                     Text(inline(text))
-                        .font(.system(.body, design: .serif))
+                        .font(.system(.body, design: readingFont))
                         .lineSpacing(6)
-                        .foregroundStyle(.white.opacity(0.88))
+                        .foregroundStyle(Palette.ink.opacity(0.88))
                         .fixedSize(horizontal: false, vertical: true)
                         .padding(.top, index == 0 ? 0 : 18)
                 }

@@ -36,13 +36,36 @@ enum NewsCategory: String, Codable, CaseIterable, Identifiable, Sendable {
 
     /// Accent used for the category tag and as the fallback background when a
     /// photo is missing or still loading.
+    ///
+    /// Two versions of each. The first was picked to sit on black, and the
+    /// reading bar names the current section in flat tint on the page itself —
+    /// mid-bright orange on newsprint is barely there. The light variants are
+    /// the same hues taken down far enough to read on paper, and still dark
+    /// enough for the tag's white lettering.
     var tint: Color {
+        Color(uiColor: UIColor { [self] traits in
+            let rgb = traits.userInterfaceStyle == .dark ? onDark : onLight
+            return UIColor(red: rgb.0, green: rgb.1, blue: rgb.2, alpha: 1)
+        })
+    }
+
+    private var onDark: (CGFloat, CGFloat, CGFloat) {
         switch self {
-        case .local: Color(red: 0.20, green: 0.62, blue: 0.47)
-        case .national: Color(red: 0.25, green: 0.47, blue: 0.78)
-        case .global: Color(red: 0.62, green: 0.35, blue: 0.72)
-        case .tech: Color(red: 0.88, green: 0.52, blue: 0.20)
-        case .ai: Color(red: 0.82, green: 0.30, blue: 0.42)
+        case .local: (0.20, 0.62, 0.47)
+        case .national: (0.25, 0.47, 0.78)
+        case .global: (0.62, 0.35, 0.72)
+        case .tech: (0.88, 0.52, 0.20)
+        case .ai: (0.82, 0.30, 0.42)
+        }
+    }
+
+    private var onLight: (CGFloat, CGFloat, CGFloat) {
+        switch self {
+        case .local: (0.09, 0.42, 0.31)
+        case .national: (0.13, 0.31, 0.56)
+        case .global: (0.43, 0.22, 0.52)
+        case .tech: (0.65, 0.35, 0.09)
+        case .ai: (0.60, 0.17, 0.28)
         }
     }
 

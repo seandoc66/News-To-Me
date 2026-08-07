@@ -39,7 +39,7 @@ struct ArticleDetailView: View {
                 .padding(.bottom, 40)
             }
         }
-        .background(.black)
+        .background(Palette.page)
         .scrollIndicators(.hidden)
         // Swipe right anywhere on the story to go back, not only from the left
         // edge — a hand holding a phone one-handed doesn't reach that edge, and
@@ -61,13 +61,13 @@ struct ArticleDetailView: View {
     private var sourcesSection: some View {
         VStack(alignment: .leading, spacing: 10) {
             Divider()
-                .overlay(.white.opacity(0.15))
+                .overlay(Palette.ink.opacity(0.15))
                 .padding(.vertical, 6)
 
             Text("SOURCES")
                 .font(.system(size: 11, weight: .bold))
                 .tracking(1.0)
-                .foregroundStyle(.white.opacity(0.45))
+                .foregroundStyle(Palette.ink.opacity(0.45))
 
             ForEach(article.sources) { source in
                 Button {
@@ -77,27 +77,27 @@ struct ArticleDetailView: View {
                         VStack(alignment: .leading, spacing: 2) {
                             Text(source.name)
                                 .font(.subheadline.weight(.semibold))
-                                .foregroundStyle(.white)
+                                .foregroundStyle(Palette.ink)
                             Text(source.displayHost)
                                 .font(.caption)
-                                .foregroundStyle(.white.opacity(0.45))
+                                .foregroundStyle(Palette.ink.opacity(0.45))
                         }
                         Spacer(minLength: 8)
                         Image(systemName: "arrow.up.right")
                             .font(.system(size: 12, weight: .semibold))
-                            .foregroundStyle(.white.opacity(0.5))
+                            .foregroundStyle(Palette.ink.opacity(0.5))
                     }
                     .padding(.horizontal, 14)
                     .padding(.vertical, 11)
                     .frame(maxWidth: .infinity, alignment: .leading)
-                    .background(.white.opacity(0.07), in: .rect(cornerRadius: 12))
+                    .background(Palette.ink.opacity(0.07), in: .rect(cornerRadius: 12))
                 }
                 .buttonStyle(.plain)
             }
 
             Text(article.publishedAt.formatted(date: .abbreviated, time: .shortened))
                 .font(.caption2)
-                .foregroundStyle(.white.opacity(0.3))
+                .foregroundStyle(Palette.ink.opacity(0.3))
                 .padding(.top, 4)
         }
     }

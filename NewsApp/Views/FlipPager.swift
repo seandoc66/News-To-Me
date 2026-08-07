@@ -68,7 +68,7 @@ struct FlipPager<Page: View>: View {
                 }
             }
             .frame(width: size.width, height: size.height)
-            .background(.black)
+            .background(Palette.page)
             .contentShape(.rect)
             // High priority, not `.gesture`: the card is wrapped in a
             // NavigationLink, and a plain `.gesture` is outranked by it — the
@@ -248,7 +248,7 @@ private struct FlipLayers<Page: View>: View, Animatable {
     /// lining up as one page.
     @ViewBuilder
     private func half(_ i: Int, _ part: Half) -> some View {
-        Color.black
+        Palette.page
             .frame(width: size.width, height: size.height / 2)
             .overlay {
                 if (0..<count).contains(i) {

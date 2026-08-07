@@ -21,6 +21,8 @@ struct ArticleCardView: View {
     /// on purpose, and the buttons up there float over it.
     let bottomInset: CGFloat
 
+    @Environment(\.readingFont) private var readingFont
+
     var body: some View {
         GeometryReader { geo in
             let photoHeight = geo.size.height * 0.5
@@ -53,8 +55,8 @@ struct ArticleCardView: View {
                 // job they were always there to do.
                 VStack(alignment: .leading, spacing: 16) {
                     Text(article.headline)
-                        .font(.system(.title, design: .serif, weight: .bold))
-                        .foregroundStyle(.white)
+                        .font(.system(.title, design: readingFont, weight: .bold))
+                        .foregroundStyle(Palette.ink)
                         .lineSpacing(1)
                         .lineLimit(4)
                         .minimumScaleFactor(0.75)
@@ -62,9 +64,15 @@ struct ArticleCardView: View {
                     // Set at title2 rather than body so a 20–50 word teaser
                     // genuinely fills the lower half of the screen instead of
                     // leaving a dead gap above the heart.
+                    //
+                    // The one piece of reading text that doesn't follow the
+                    // reading font. It is the standfirst under a display
+                    // headline, and the contrast between the two faces is the
+                    // point — matching them makes the card one undifferentiated
+                    // block of type.
                     Text(article.subtitle)
                         .font(.system(.title2, design: .default))
-                        .foregroundStyle(.white.opacity(0.82))
+                        .foregroundStyle(Palette.ink.opacity(0.82))
                         .lineSpacing(5)
                         // Shrink rather than push the heart off screen at large
                         // Dynamic Type sizes.
@@ -88,7 +96,7 @@ struct ArticleCardView: View {
             // the tag ended up level with the clock. Which stories did it
             // depended on how many lines their headline wrapped to.
             .frame(width: geo.size.width, height: geo.size.height, alignment: .top)
-            .background(.black)
+            .background(Palette.page)
             .contentShape(.rect)
         }
     }
@@ -118,7 +126,9 @@ struct HeartButton: View {
         } label: {
             Image(systemName: isSaved ? "heart.fill" : "heart")
                 .font(.system(size: 19, weight: .semibold))
-                .foregroundStyle(isSaved ? .pink : .white)
+                // Ink, not white: the glass under it takes its cue from the
+                // mode, so in light mode a white heart would be on a white pill.
+                .foregroundStyle(isSaved ? .pink : Palette.ink)
                 .frame(width: 46, height: 46)
                 .symbolEffect(.bounce, value: bounce)
         }

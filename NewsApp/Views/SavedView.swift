@@ -7,6 +7,7 @@ struct SavedView: View {
 
     @Environment(ArticleStore.self) private var store
     @Environment(\.dismiss) private var dismiss
+    @Environment(\.readingFont) private var readingFont
 
     /// The sheet needs its own toast: `RootView`'s overlay sits *behind* a
     /// presented sheet, so unsaving from here would show nothing.
@@ -21,7 +22,7 @@ struct SavedView: View {
                     list
                 }
             }
-            .background(.black)
+            .background(Palette.page)
             .navigationTitle("Saved")
             .navigationBarTitleDisplayMode(.large)
             .toolbar {
@@ -36,7 +37,7 @@ struct SavedView: View {
             }
         }
         .toast($sheetToast)
-        .preferredColorScheme(.dark)
+        .themedSheet()
     }
 
     private var list: some View {
@@ -45,7 +46,7 @@ struct SavedView: View {
                 NavigationLink(value: article.id) {
                     row(article)
                 }
-                .listRowBackground(Color.white.opacity(0.04))
+                .listRowBackground(Palette.ink.opacity(0.04))
                 .swipeActions(edge: .trailing) {
                     Button("Unsave", systemImage: "heart.slash", role: .destructive) {
                         store.toggleSaved(id: article.id)
@@ -72,8 +73,8 @@ struct SavedView: View {
                 CategoryTag(category: article.category)
                     .scaleEffect(0.85, anchor: .leading)
                 Text(article.headline)
-                    .font(.subheadline.weight(.semibold))
-                    .foregroundStyle(.white)
+                    .font(.system(.subheadline, design: readingFont, weight: .semibold))
+                    .foregroundStyle(Palette.ink)
                     .lineLimit(3)
                     .fixedSize(horizontal: false, vertical: true)
             }

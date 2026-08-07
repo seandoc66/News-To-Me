@@ -46,7 +46,7 @@ private struct ToastView: View {
             Text(message.text)
                 .font(.subheadline.weight(.semibold))
         }
-        .foregroundStyle(.white)
+        .foregroundStyle(Palette.ink)
         .padding(.horizontal, 18)
         .padding(.vertical, 12)
         .glassCapsule()

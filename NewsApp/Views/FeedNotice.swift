@@ -72,7 +72,7 @@ struct FeedNoticeBanner: View {
                 .lineLimit(2)
                 .multilineTextAlignment(.leading)
         }
-        .foregroundStyle(.white)
+        .foregroundStyle(Palette.ink)
         .padding(.horizontal, 14)
         .padding(.vertical, 9)
         .glassCapsule()

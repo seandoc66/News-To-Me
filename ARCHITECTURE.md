@@ -126,6 +126,44 @@ edition doesn't outlive its own button by four days.
 
 ---
 
+## How it looks
+
+Three choices, on the sheet behind the slider button, saved on the phone and
+nowhere else — the feed has no say in any of them. They default to what the app
+was before they existed: dark, serif, and the phone's own text size.
+
+**Theme — system, light or dark.** The app was black-and-white by construction:
+`.background(.black)` and `.foregroundStyle(.white)` written in at every call
+site, because dark was the only mode. Both are now named for their job instead of
+their colour — `Palette.page` is the paper, `Palette.ink` is what's printed on
+it — and flip together. Not every black became a page: the scrim under a
+headline, the shadow a turning page casts and the section tag's own white
+lettering sit on a photograph rather than on the page, so they stay put in both
+modes. Section tints have a second, darker set for light mode; the first was
+picked to sit on black, and the reading bar names the current section in flat
+tint on the page itself.
+
+**Reading font — serif, sans or rounded.** A `Font.Design`, not a bundled
+typeface, so every weight and every Dynamic Type size keeps working. It governs
+headlines, subheads and story text. Two things stay where they are: the masthead,
+which is a wordmark rather than something you read, and the teaser under the
+headline on each card, which is the standfirst to a display line — the contrast
+between the two faces is the point, and matching them makes the card one
+undifferentiated block of type.
+
+**Text size — a step, not a size.** Small through X-Large move one or two places
+along the Dynamic Type scale *from wherever the phone is already set*, so
+someone who reads large everywhere keeps it. Worked out once at the root, in
+`themed(_:)`, which is the only place that still sees the phone's own setting
+before the app's step goes on top.
+
+Sheets need both restating (`themedSheet()`). A sheet is its own UIKit
+presentation: custom environment values reach it, but `preferredColorScheme`
+travels the other way, and the type size gets re-read from the phone's trait. The
+step is handed on as a finished size so restating it can't compound it.
+
+---
+
 ## Decisions worth remembering
 
 **A JSON file, not SwiftData.** ~200 records, no relationships, no queries beyond
