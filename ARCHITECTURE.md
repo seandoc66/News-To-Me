@@ -143,6 +143,18 @@ modes. Section tints have a second, darker set for light mode; the first was
 picked to sit on black, and the reading bar names the current section in flat
 tint on the page itself.
 
+**Nothing in the build settings may pin the appearance.** The target used to
+carry `UIUserInterfaceStyle = Dark` and `UIStatusBarStyle = LightContent` from the
+days when dark was the only mode. Those are UIKit-level pins: they hold the
+window's trait and the status bar's glyphs dark whatever the theme setting says,
+so light mode reached the SwiftUI views through `preferredColorScheme` while the
+chrome around them stayed put — white glyphs on a white page. Both keys are gone,
+and the theme is the only thing that decides. One consequence worth knowing: the
+generated launch screen follows the *phone*, not the app, so a dark-pinned app on
+a light phone flashes white for an instant before the first frame. A static
+launch screen can't read a preference, and pinning it back would take light mode
+with it.
+
 **Reading font — serif, sans or rounded.** A `Font.Design`, not a bundled
 typeface, so every weight and every Dynamic Type size keeps working. It governs
 headlines, subheads and story text. Two things stay where they are: the masthead,
