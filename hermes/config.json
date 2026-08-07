@@ -8,15 +8,22 @@
   ],
 
   "locale": {
+    "_note": "outputLanguage is keyed by section, with `default` covering every section not named. Local and national are written in Spanish because that is the language of their sources and of the city Shane lives in — translating a Lugo council story into English only puts a layer of paraphrase between him and what was actually said. Source language is never restricted anywhere; see brief.md.",
     "localArea": "Lugo, Galicia, Spain — the city and its province",
     "nationalCountry": "Spain",
-    "outputLanguage": "English",
+    "northernIrelandArea": "Northern Ireland — all six counties, with the north-west (Strabane, Derry, Tyrone) of particular interest",
+    "outputLanguage": {
+      "default": "English",
+      "local": "Spanish",
+      "national": "Spanish"
+    },
     "timezone": "Europe/Madrid",
     "runTime": "06:00"
   },
 
   "sections": {
-    "order": ["local", "national", "global", "tech", "ai"],
+    "_note": "Adding or removing a section here is NOT a content-only change: the same list is an enum in NewsApp/Models/NewsCategory.swift, and the app decodes `category` strictly — a category the installed build doesn't know throws and takes the whole feed down with it, rather than dropping the one story. Ship the app change first.",
+    "order": ["local", "national", "northernIreland", "global", "tech", "ai"],
     "storiesPerSection": { "min": 4, "max": 8 }
   },
 
@@ -61,6 +68,14 @@
       "20minutos",
       "Público",
       "Europa Press"
+    ],
+    "northernIreland": [
+      "BBC News NI (bbc.co.uk/news/northern_ireland)",
+      "Belfast Telegraph",
+      "The Irish News",
+      "News Letter",
+      "Strabane Chronicle",
+      "Derry Journal"
     ],
     "global": ["Reuters", "BBC", "AP", "The Guardian"],
     "tech": [

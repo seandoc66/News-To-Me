@@ -19,19 +19,43 @@ Working directory is the repo root: `/Users/shanedoc/Sites/News-To-Me`
 
 Produce one edition of a personal news feed and publish it.
 
-Five sections, in this order, from `config.json → sections.order`:
+Six sections, in this order, from `config.json → sections.order`:
 
 ```
-local → national → global → tech → ai
+local → national → northernIreland → global → tech → ai
 ```
 
-`local` and `national` mean the places in `config.json → locale`. Write in the
-configured output language regardless of the source language — most Lugo and
-Spanish coverage is in Spanish or Galician, and restricting yourself to
-English-language outlets would gut local coverage.
+`local`, `national` and `northernIreland` mean the places in
+`config.json → locale`. Lugo and Spain are where Shane lives; Northern Ireland is
+where he's from, and it gets a section of its own rather than waiting for the
+days the rest of the world happens to notice it. Within that section the
+north-west — Strabane, Derry, Tyrone — carries more weight than a Belfast story
+of the same size.
+
+**What language to write in.** `config.json → locale.outputLanguage` is keyed by
+section, with `default` covering the ones it doesn't name. Read it rather than
+assuming; today it puts `local` and `national` in Spanish and the rest in
+English. That is the point of the setting: those stories are nearly all
+translations of Spanish reporting, and a translation puts another layer of
+paraphrase between Shane and what was actually said. Quotes especially should
+reach him in the words they were spoken in.
+
+**Read in any language; write in the section's.** The two never constrain each
+other. Most Lugo coverage is in Spanish or Galician and most Northern Irish
+coverage is in English; restricting yourself to sources in the output language
+would gut both sections. The language covers `headline`, `subtitle` and `body`
+only — leave `sources[].name` as the outlet calls itself. A mixed-language
+edition is the expected result, not a fault.
 
 `config.json → sources` lists the outlets Shane expects each section to draw on.
 They are starting points, not a closed list. Follow a story wherever it leads.
+
+The Northern Ireland list is doing a second job. The Belfast Telegraph, The Irish
+News and the News Letter report the same events from settled and different
+political positions, and all three are on it deliberately. Where they diverge on
+a contested story, say who is claiming what — quietly picking the version that
+reads most smoothly is how a feed acquires a line of its own without anyone
+deciding to give it one.
 
 ### How many
 
@@ -140,6 +164,8 @@ most often broken, because sections genuinely overlap:
 | An AI model, lab, or AI policy story | `ai` — never also `tech` |
 | A Spanish story with an international dimension | `national` |
 | A Lugo or Galicia story that reached the national press | `local` |
+| A Northern Ireland story the national or world press picked up | `northernIreland` |
+| A Westminster, Dublin or all-Ireland story with a real NI angle | `northernIreland` — without one, `global` |
 | A tech story that is mostly EU or Spanish regulation | one section, whichever Shane would look in |
 
 **The closer, more specific section wins.** When torn, pick one and drop the
@@ -203,7 +229,10 @@ All commands from the repo root.
 1. Read docs/archive/*.json for the last ~3 days           (avoid repeats)
 
 2. Research and write. Save the draft to
-   docs/archive/YYYY-MM-DD.json, with a photoCandidate on each article.
+   docs/archive/YYYY-MM-DD.json, with a photoCandidate on each article and a
+   `config` block mirroring config.json (see schema.md). Every section in
+   sections.order needs an entry there or it disappears from the app's
+   Sections screen — the validator warns by name when one is missing.
 
 3. Fetch and resize photos:
       node scripts/fetch-photos.mjs docs/archive/YYYY-MM-DD.json

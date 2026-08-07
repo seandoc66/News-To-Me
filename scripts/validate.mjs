@@ -368,7 +368,7 @@ feed.articles.forEach((a, i) => {
 
 // --- feed-level shape -------------------------------------------------------
 
-// Section ordering: articles should already be grouped local→national→global→tech→ai
+// Section ordering: articles should already be grouped in sections.order
 let lastRank = -1;
 let orderBroken = false;
 for (const a of feed.articles) {

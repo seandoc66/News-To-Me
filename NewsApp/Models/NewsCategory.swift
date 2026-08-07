@@ -1,10 +1,17 @@
 import SwiftUI
 
-/// The five sections the feed is divided into. The raw values match the
-/// `category` strings in the feed JSON (see feed-data/schema.md).
+/// The six sections the feed is divided into. The raw values match the
+/// `category` strings in the feed JSON (see feed-data/schema.md) and the list in
+/// `hermes/config.json → sections.order`.
+///
+/// `Article` decodes `category` strictly and `Feed` holds a plain `[Article]`, so
+/// a category this enum doesn't know throws and takes the *whole feed* down with
+/// it rather than dropping the one story. A new section therefore ships here
+/// first and goes into the config only once this build is on the phone.
 enum NewsCategory: String, Codable, CaseIterable, Identifiable, Sendable {
     case local
     case national
+    case northernIreland
     case global
     case tech
     case ai
@@ -12,10 +19,16 @@ enum NewsCategory: String, Codable, CaseIterable, Identifiable, Sendable {
     var id: String { rawValue }
 
     /// Label shown in the category tag on each card.
+    ///
+    /// Abbreviated where the full name would misbehave: the tag is a capsule and
+    /// the reading bar centres this word under its own run of ticks, so
+    /// "NORTHERN IRELAND" would be half the width of the bar and spend most of a
+    /// section clamped against one end of it.
     var displayName: String {
         switch self {
         case .local: "Local"
         case .national: "National"
+        case .northernIreland: "N. Ireland"
         case .global: "World"
         case .tech: "Tech"
         case .ai: "AI"
@@ -28,9 +41,10 @@ enum NewsCategory: String, Codable, CaseIterable, Identifiable, Sendable {
         switch self {
         case .local: 0
         case .national: 1
-        case .global: 2
-        case .tech: 3
-        case .ai: 4
+        case .northernIreland: 2
+        case .global: 3
+        case .tech: 4
+        case .ai: 5
         }
     }
 
@@ -49,10 +63,16 @@ enum NewsCategory: String, Codable, CaseIterable, Identifiable, Sendable {
         })
     }
 
+    /// Northern Ireland is the olive: the five existing hues leave a gap between
+    /// tech's orange and local's green-teal, and it is the one opening wide
+    /// enough that the new tag can't be mistaken for a neighbour at a glance.
+    /// Green rather than anything flag-adjacent — the section covers both
+    /// communities and shouldn't wear either one's colour.
     private var onDark: (CGFloat, CGFloat, CGFloat) {
         switch self {
         case .local: (0.20, 0.62, 0.47)
         case .national: (0.25, 0.47, 0.78)
+        case .northernIreland: (0.45, 0.60, 0.24)
         case .global: (0.62, 0.35, 0.72)
         case .tech: (0.88, 0.52, 0.20)
         case .ai: (0.82, 0.30, 0.42)
@@ -63,6 +83,7 @@ enum NewsCategory: String, Codable, CaseIterable, Identifiable, Sendable {
         switch self {
         case .local: (0.09, 0.42, 0.31)
         case .national: (0.13, 0.31, 0.56)
+        case .northernIreland: (0.30, 0.42, 0.13)
         case .global: (0.43, 0.22, 0.52)
         case .tech: (0.65, 0.35, 0.09)
         case .ai: (0.60, 0.17, 0.28)
@@ -73,6 +94,7 @@ enum NewsCategory: String, Codable, CaseIterable, Identifiable, Sendable {
         switch self {
         case .local: "mappin.and.ellipse"
         case .national: "building.columns"
+        case .northernIreland: "map"
         case .global: "globe"
         case .tech: "cpu"
         case .ai: "sparkles"

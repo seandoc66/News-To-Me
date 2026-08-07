@@ -41,7 +41,7 @@ because the app needs a code change and a reinstall to read it.
 
 ### Sources and outlets → `config.json → sources`
 
-One array per section (`local`, `national`, `global`, `tech`, `ai`). Add,
+One array per section in `sections.order`. Add,
 remove or reorder entries there. They are starting points, not a closed list —
 Hermes follows a story off-list — so "add X" means "expect X", not "restrict to
 X". If Shane wants a hard restriction or a ban ("never use the Daily Mail"),
@@ -53,18 +53,20 @@ the name is ambiguous (`"Simon Willison's blog (simonwillison.net)"`).
 
 ### Languages → `config.json → locale`
 
-- `outputLanguage` — the language stories are **written in**. One value for the
-  whole feed.
+- `outputLanguage` — the language stories are **written in**. An object keyed by
+  section, with `default` covering every section it doesn't name. Currently
+  `local` and `national` are Spanish and the rest English, so the feed is
+  deliberately mixed-language; the masthead and section labels come from the app
+  and stay in English regardless.
 - Source language is deliberately unconstrained: `brief.md` tells Hermes to
   read Spanish and Galician coverage and write in the output language anyway.
   Don't narrow that without Shane asking — it would gut local coverage.
 
-Wants a **different language per section** (e.g. local in Spanish, rest in
-English)? `outputLanguage` is a single string. Change it to an object keyed by
-section, or add `locale.languageOverrides`, then update the `brief.md` sentence
-that points at it. Nothing in the scripts reads `outputLanguage`, so no
-validator change is needed — but the app shows one masthead in one language, so
-mention that mixed-language editions will look mixed.
+Moving a section between languages is a one-line edit to that object plus a
+check that the `brief.md` paragraph pointing at it still describes what's there
+— the brief names the current split in prose, so it goes stale silently
+otherwise. Nothing in the scripts reads `outputLanguage`, so no validator change
+is needed.
 
 ### Length, shape and formatting → mostly `config.json → writing`
 
@@ -233,12 +235,26 @@ take too long.
 ### Sections themselves → careful
 
 `sections.order` drives the validator's category list and the id pattern. But
-the five sections are **also hardcoded in the iOS app** at
-`NewsApp/Models/NewsCategory.swift` — raw value, display name, sort order, tint
-and SF Symbol. Adding, renaming or removing a section needs a Swift change, a
-rebuild and a reinstall on Shane's phone, and old articles in the local store
-keep the old category. Don't do it as a casual tweak; tell Shane the cost first
-and get a yes.
+the same list is **also hardcoded in the iOS app** at
+`NewsApp/Models/NewsCategory.swift` — raw value, display name, sort order, both
+tint variants and SF Symbol. Adding, renaming or removing a section needs a
+Swift change, a rebuild and a reinstall on Shane's phone, and old articles in
+the local store keep the old category.
+
+**The failure mode is worse than it looks.** `Article` decodes `category` with a
+plain `decode(NewsCategory.self)` and `Feed` holds a plain `[Article]`, so a
+category the installed build doesn't recognise doesn't drop that one story — it
+throws, and the **entire feed fails to decode**. Ship the Swift change and get it
+onto the phone *before* the first edition that emits the new value. Don't do
+this as a casual tweak; tell Shane the cost first and get a yes.
+
+Two display details worth checking on any new section, because neither shows up
+until it's on the phone: the tag capsule and the reading-bar label both render
+`displayName.uppercased()`, and the bar centres it under that section's run of
+ticks — a long name spends most of the section clamped against one end. Abbreviate
+it there ("N. Ireland") rather than letting it sprawl. And the tint needs a hue
+that isn't already taken by a neighbouring section, in **both** `onDark` and
+`onLight`.
 
 ## How to run
 

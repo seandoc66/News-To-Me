@@ -39,7 +39,7 @@ an ordinary quiet morning, not an error.
 | `generatedAt` | ISO-8601 string | Timestamp this batch was generated. |
 | `articles` | array | See below. Order doesn't matter — the app sorts/groups as it likes. |
 | `articles[].id` | string | **Stable and unique.** Format: `YYYY-MM-DD-category-NNN` (e.g. `2026-07-28-local-003`). Must not change if the same story is re-published — the app uses this to dedupe and to track "saved" state across days. |
-| `articles[].category` | string enum | One of: `local`, `national`, `global`, `tech`, `ai`. |
+| `articles[].category` | string enum | One of: `local`, `national`, `northernIreland`, `global`, `tech`, `ai`. **Decoded strictly, and `articles` is a plain array** — a value the installed app doesn't know throws and fails the *whole feed*, not just that article. A new category ships in `NewsCategory.swift` and reaches the phone before any edition emits it. |
 | `articles[].headline` | string | Short, single line. No period at the end, standard headline style. |
 | `articles[].subtitle` | string | **20–50 words.** The teaser shown on the card — enough to decide whether to open the full article. Not a repeat of the headline. |
 | `articles[].body` | string | **100–300 words of prose**, in the Markdown subset below. Length should match the story's actual complexity — don't pad simple stories to hit 300, and don't force complex stories into 100. |
@@ -100,6 +100,7 @@ in play are visible on the phone without opening the repo.
         { "name": "Concello de Lugo press page" }
       ]},
       "national": { "min": 3, "max": 6, "sources": [] },
+      "northernIreland": { "min": 3, "max": 6, "sources": [] },
       "global":   { "min": 2, "max": 5, "sources": [] },
       "tech":     { "min": 2, "max": 4, "sources": [] },
       "ai":       { "min": 1, "max": 3, "sources": [] }
@@ -111,7 +112,7 @@ in play are visible on the phone without opening the repo.
 
 | Field | Type | Rules |
 |---|---|---|
-| `config.sections` | object | Keyed by category (`local`, `national`, `global`, `tech`, `ai`). Any key that isn't one of those is ignored by the app rather than failing the decode. Sections may be omitted. |
+| `config.sections` | object | Keyed by category (`local`, `national`, `northernIreland`, `global`, `tech`, `ai`). Any key that isn't one of those is ignored by the app rather than failing the decode. Sections may be omitted. |
 | `config.sections.<cat>.min` | int, optional | Lower end of the daily target. |
 | `config.sections.<cat>.max` | int, optional | Upper end of the daily target. |
 | `config.sections.<cat>.sources` | array of `{name, url?}`, optional | Sources drawn on for this section. `url` may be omitted for named pages that have no clean link; the app then shows the name alone. Defaults to `[]`. |
@@ -125,16 +126,17 @@ config it saw.
 
 ## Categories, per day
 
-Roughly **4–8 stories per category** (`local`, `national`, `global`, `tech`, `ai`),
-driven by what's actually newsworthy that day — not padded to a fixed count. A
-slow local-news day might only produce 2; a big tech day might produce 8+.
+Roughly **4–8 stories per category** (`local`, `national`, `northernIreland`,
+`global`, `tech`, `ai`), driven by what's actually newsworthy that day — not
+padded to a fixed count. A slow local-news day might only produce 2; a big tech
+day might produce 8+.
 
 ## Ordering
 
 The app presents articles **grouped by section**, in this fixed order:
 
 ```
-local → national → global → tech → ai
+local → national → northernIreland → global → tech → ai
 ```
 
 Within a section, most significant story first. **The app presents a section in
