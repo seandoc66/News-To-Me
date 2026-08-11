@@ -18,9 +18,12 @@ import urllib.error
 import ssl
 from pathlib import Path
 
-# Minimum image dimensions from hermes/config.json
-MIN_LONG_EDGE = 800
-MIN_SHORT_EDGE = 450
+# Minimum image dimensions, read from hermes/config.json so this can't drift
+# out of sync with fetch-photos.mjs, which enforces the same numbers.
+_repo_root = Path(__file__).resolve().parent.parent
+_config = json.loads((_repo_root / "hermes" / "config.json").read_text("utf-8"))
+MIN_LONG_EDGE = _config["photos"]["minSourceLongEdge"]
+MIN_SHORT_EDGE = _config["photos"]["minSourceShortEdge"]
 
 ssl_ctx = ssl.create_default_context()
 USER_AGENT = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36"

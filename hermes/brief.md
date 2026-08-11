@@ -209,18 +209,34 @@ Give every story a photo where you reasonably can. Choose one that genuinely
 illustrates *that* story — a generic stock laptop on every tech story defeats
 the point. Shane cares about the photos.
 
+**The photo comes from a source you already cited, not a separate search.**
+`sources[]` are the article pages you actually researched from — you were just
+on them. Take the photo the outlet itself published with that story: its Open
+Graph image, or a specific photo from the body if the og:image is a generic
+site banner. Work through `sources[]` in order until one has a usable
+article-specific photo. **Never substitute an image from anywhere else** —
+a stock photo, an illustrative library shot, an image from an unrelated
+article — even one that is technically a good, sharp, on-topic-looking photo.
+If it didn't come from the story you're citing, it isn't *that* story's photo,
+and a reader who opens the source will notice it doesn't match. This is the
+same rule as never inventing a source URL, applied to the picture: real and
+traceable to the story, or omitted.
+
 **Prefer the largest version available.** A card photo fills roughly 1206 × 1311
 physical pixels. Open Graph images are usually 1200 × 630 and fine; list-view
 thumbnails are not. Follow through to the full-size original where one exists.
 `fetch-photos.mjs` rejects anything below the minimums in `config.json →
 photos`, because sips only downsizes — a small source can only be stretched.
+That threshold is a size check, not a relevance check — it will happily accept
+a sharp, correctly-sized photo of the wrong thing, so it's not a substitute for
+sourcing the photo correctly in the first place.
 
 ### A missing photo never blocks the edition
 
-`imageURL` is **optional**. If there's no suitable photo, or every candidate is
-too small, omit the key or set it to `""` and **publish the story anyway**. The
-app renders a category-tinted gradient — it looks deliberate, not broken. One
-plainer card costs far less than a day with no news.
+`imageURL` is **optional**. If none of `sources[]` has a usable photo, or every
+candidate is too small, omit the key or set it to `""` and **publish the story
+anyway**. The app renders a category-tinted gradient — it looks deliberate,
+not broken. One plainer card costs far less than a day with no news.
 
 Never pad with a generic image that adds nothing; an empty `imageURL` is better.
 And never drop an interesting story merely because it has no picture.

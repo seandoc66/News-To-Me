@@ -134,7 +134,7 @@
         }
       ],
       "publishedAt": "2026-08-11T04:00:00+02:00",
-      "imageURL": ""
+      "imageURL": "/images/2026-08-11-local-001.jpg"
     },
     {
       "id": "2026-08-11-local-002",
@@ -157,7 +157,7 @@
         }
       ],
       "publishedAt": "2026-08-11T04:15:00+02:00",
-      "imageURL": ""
+      "imageURL": "/images/2026-08-11-local-002.jpg"
     },
     {
       "id": "2026-08-11-local-003",
@@ -253,7 +253,7 @@
         }
       ],
       "publishedAt": "2026-08-11T04:00:00+02:00",
-      "imageURL": ""
+      "imageURL": "/images/2026-08-11-national-001.jpg"
     },
     {
       "id": "2026-08-11-national-002",
@@ -556,7 +556,7 @@
         }
       ],
       "publishedAt": "2026-08-11T04:00:00+02:00",
-      "imageURL": "/images/2026-08-11-global-005.jpg"
+      "imageURL": ""
     },
     {
       "id": "2026-08-11-tech-001",
