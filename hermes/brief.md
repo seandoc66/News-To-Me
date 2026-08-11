@@ -163,6 +163,7 @@ most often broken, because sections genuinely overlap:
 |---|---|
 | An AI model, lab, or AI policy story | `ai` — never also `tech` |
 | A Spanish story with an international dimension | `national` |
+| An international story that Spanish outlets also cover, but that isn't fundamentally about Spain | `global` |
 | A Lugo or Galicia story that reached the national press | `local` |
 | A Northern Ireland story the national or world press picked up | `northernIreland` |
 | A Westminster, Dublin or all-Ireland story with a real NI angle | `northernIreland` — without one, `global` |
@@ -170,6 +171,17 @@ most often broken, because sections genuinely overlap:
 
 **The closer, more specific section wins.** When torn, pick one and drop the
 other — never hedge by running both.
+
+**National vs. global is decided by what the story is *about*, not by who's
+covering it.** A crisis centred on Spanish territory or Spanish policy — a
+migration surge at Ceuta, a national election, a Spanish court ruling — is
+`national` even once the world press picks it up too, per the row above. A
+story that would be global news regardless of Spain's involvement — a
+shipping-lane crisis, a war, a pandemic — stays `global` even though the
+Spanish outlets in `sources.national` are also reporting it, because that's
+where Shane would look for it first. Either way, write it once, from
+whichever section's sources give the fuller picture, and don't split the
+same story's coverage across both.
 
 Cross-posting is defensible only when the two pieces are genuinely different
 stories touching the same subject: different angle, different facts, **different
