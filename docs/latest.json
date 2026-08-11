@@ -126,11 +126,11 @@
         },
         {
           "name": "El Progreso",
-          "url": "https://www.elprogreso.es"
+          "url": "https://www.elprogreso.es/articulo/lugo/guia-ver-eclipse-seguir-regla-3-segundos-usar-gafas-homologadas/202607161754401985795.html"
         },
         {
-          "name": "La Voz de Galicia",
-          "url": "https://www.lavozdegalicia.es"
+          "name": "Moncloa",
+          "url": "https://www.moncloa.com/2026/08/08/eclipse-solar-galicia-2026-cielos-despejados-3412259/"
         }
       ],
       "publishedAt": "2026-08-11T04:00:00+02:00",
@@ -149,11 +149,11 @@
         },
         {
           "name": "La Voz de Galicia",
-          "url": "https://www.lavozdegalicia.es"
+          "url": "https://www.lavozdegalicia.es/noticia/lugo/lugo/2026/08/10/cortocircuito-pudo-causar-incendio-parrillada-antas-lugo-prioridad-asegurar-primer-piso/00031786357016708952811.htm"
         },
         {
-          "name": "Europa Press",
-          "url": "https://www.europapress.es/galicia"
+          "name": "Aquí Lugo",
+          "url": "https://www.aquilugo.com/articulo/lugo/incendio-local-hosteleria-obliga/20260809161257108084.html"
         }
       ],
       "publishedAt": "2026-08-11T04:15:00+02:00",
@@ -168,7 +168,7 @@
       "sources": [
         {
           "name": "El Progreso",
-          "url": "https://www.elprogreso.es/archive/content"
+          "url": "https://www.elprogreso.es/articulo/lugo/colombianos-lugo-fue-muy-angustiante-podia-dar-familia-pedi-que-buscaran/202608102344221990895.html"
         },
         {
           "name": "Europa Press",
@@ -191,15 +191,15 @@
       "sources": [
         {
           "name": "El Progreso",
-          "url": "https://www.elprogreso.es"
+          "url": "https://www.elprogreso.es/articulo/a-marina/agenda-10-16-agosto/202608100500001990258.html"
         },
         {
           "name": "La Voz de Galicia",
-          "url": "https://www.lavozdegalicia.es"
+          "url": "https://www.lavozdegalicia.es/noticia/amarina/2026/08/09/lunes-modo-fiesta-total-foz-viveiro/00031786276377930121544.htm"
         },
         {
           "name": "Europa Press",
-          "url": "https://www.europapress.es/galicia"
+          "url": "https://www.europapress.es/galicia/noticia-xunta-preve-verano-record-mirada-puesta-eclipse-atraera-mas-30-turistas-agosto-20260809122217.html"
         }
       ],
       "publishedAt": "2026-08-11T04:45:00+02:00",
@@ -214,15 +214,15 @@
       "sources": [
         {
           "name": "El Progreso",
-          "url": "https://www.elprogreso.es"
+          "url": "https://www.elprogreso.es/articulo/galicia/estabilizado-incendio-forestal-balta-que-calcina-120-hectareas-inicio-sabado/202608091607201990546.html"
         },
         {
-          "name": "La Voz de Galicia",
-          "url": "https://www.lavozdegalicia.es"
+          "name": "Galicia Press",
+          "url": "https://www.galiciapress.es/articulo/ultima-hora/2026-08-10/5980085-galicia-da-controlados-incendios-forestales-rodeiro-baltar-calcinaron-160-hectareas"
         },
         {
           "name": "Europa Press",
-          "url": "https://www.europapress.es/galicia"
+          "url": "https://www.europapress.es/galicia/noticia-estabilizado-incendio-forestal-baltar-ourense-calcina-120-hectareas-inicio-sabado-20260809143622.html"
         }
       ],
       "publishedAt": "2026-08-11T05:00:00+02:00",
@@ -264,7 +264,7 @@
       "sources": [
         {
           "name": "RTVE",
-          "url": "https://www.rtve.es/noticias"
+          "url": "https://www.rtve.es/noticias/20260810/incendios-hoy-lunes-10-agosto-huelva-segovia-castellon/17185413.shtml"
         },
         {
           "name": "El País",
@@ -272,7 +272,7 @@
         },
         {
           "name": "Europa Press",
-          "url": "https://www.europapress.es"
+          "url": "https://www.europapress.tv/sociedad/1109731/1/sanz-informa-467-desalojados-incendio-niebla-8000-hectareas-perimetradas"
         }
       ],
       "publishedAt": "2026-08-11T04:15:00+02:00",
@@ -287,7 +287,7 @@
       "sources": [
         {
           "name": "El Progreso",
-          "url": "https://www.elprogreso.es"
+          "url": "https://www.elprogreso.es/articulo/espana/italia-ve-desproprocionada-reaccion-sanchez-controles/202608091759431990558.html"
         },
         {
           "name": "RTVE",
@@ -295,7 +295,7 @@
         },
         {
           "name": "El País",
-          "url": "https://elpais.com/espana/2026-08-01/ultima-hora-de-la-entrada-de-inmigrantes-a-ceuta-en-directo.html"
+          "url": "https://elpais.com/espana/2026-08-09/italia-califica-de-inaceptable-que-espana-establezca-controles-como-hizo-antes-el-gobierno-italiano.html"
         }
       ],
       "publishedAt": "2026-08-11T04:30:00+02:00",
@@ -305,20 +305,20 @@
       "id": "2026-08-11-national-004",
       "category": "national",
       "headline": "El PP solicita la comparecencia de Marlaska y Robles en el Senado por la crisis de Ceuta",
-      "subtitle": "La oposición exige explicaciones al Gobierno mientras la Fiscalía de Tetuán procesa a 25 personas por la organización de los cruces masivos que dejaron al menos 88 fallecidos.",
-      "body": "El Partido Popular ha solicitado la habilitación del mes de agosto para que la ministra de Defensa, Margarita Robles, y la directora del CNI, Esperanza Casteleiro, comparezcan en el Senado para dar explicaciones sobre la crisis migratoria de Ceuta. El PP, que tiene mayoría absoluta en la Cámara alta, reclama \"rendición de cuentas\" sobre la actuación del Gobierno durante la entrada masiva de migrantes.\n\nMientras tanto, la Fiscalía de Tetuán ha procesado a 25 personas por delitos relacionados con la organización de los cruces irregulares, incluido el transporte de pasajeros sin licencia. La cifra oficial de fallecidos asciende a 88, aunque organizaciones humanitarias elevan la cifra a más de un centenar, incluyendo decenas de desaparecidos.\n\n## Menores tutelados\n\nCeuta mantiene bajo su tutela a más de 1.000 menores no acompañados, una cifra que desborda la capacidad de acogida de la ciudad, que dispone de apenas 29 plazas en sus centros. El Gobierno de Ceuta ha solicitado ayuda urgente al resto de comunidades autónomas para redistribuir a los menores, mientras que el Defensor del Pueblo ha abierto una investigación de oficio sobre las condiciones de acogida.\n\nLa Guardia Civil mantiene abierta una oficina de atención en el paso del Tarajal para recabar información de las familias que buscan a desaparecidos, en un ambiente que sigue siendo tenso en la ciudad autónoma.",
+      "subtitle": "La oposición exige explicaciones al Gobierno sobre la gestión de la llegada irregular de más de 70.000 personas desde Marruecos registrada el pasado 30 de julio.",
+      "body": "El Partido Popular ha solicitado la habilitación del mes de agosto para que la ministra de Defensa, Margarita Robles, y la directora del CNI, Esperanza Casteleiro, comparezcan en el Senado para dar explicaciones sobre la crisis migratoria de Ceuta. El PP, que tiene mayoría absoluta en la Cámara alta, reclama \"rendición de cuentas\" sobre la actuación del Gobierno durante la entrada masiva de migrantes.\n\nLa crisis se originó el 30 de julio, cuando más de 70.000 personas entraron de forma irregular desde Marruecos en un único episodio, según los datos manejados por el Ejecutivo. El elevado volumen de llegadas desbordó los dispositivos de acogida de la ciudad autónoma y reavivó el debate sobre la gestión fronteriza del Gobierno.\n\n## Menores tutelados\n\nCeuta mantiene bajo su tutela a más de 1.000 menores no acompañados, una cifra que desborda la capacidad de acogida de la ciudad, que dispone de apenas 29 plazas en sus centros. El Gobierno de Ceuta ha solicitado ayuda urgente al resto de comunidades autónomas para redistribuir a los menores, mientras que el Defensor del Pueblo ha abierto una investigación de oficio sobre las condiciones de acogida.\n\nLa Guardia Civil mantiene abierta una oficina de atención en el paso del Tarajal para recabar información de las familias que buscan a desaparecidos, en un ambiente que sigue siendo tenso en la ciudad autónoma.",
       "sources": [
         {
           "name": "El País",
           "url": "https://elpais.com/espana/2026-08-05/ultima-hora-de-la-entrada-de-inmigrantes-a-ceuta-en-directo.html"
         },
         {
-          "name": "RTVE",
-          "url": "https://www.rtve.es/noticias"
+          "name": "El Pueblo de Ceuta",
+          "url": "https://www.elpueblodeceuta.es/sec/politica/senado-exige-marlaska-robles-albares_1_1184999.html"
         },
         {
           "name": "Europa Press",
-          "url": "https://www.europapress.es"
+          "url": "https://www.europapress.tv/politica/1109505/1/pp-cita-proxima-semana-senado-marlaska-robles-crisis-migratoria-ceuta"
         }
       ],
       "publishedAt": "2026-08-11T04:45:00+02:00",
@@ -340,8 +340,8 @@
           "url": "https://www.rte.ie/news/ulster/2026/0808/1587079-fleadh-belfast/"
         },
         {
-          "name": "Belfast Telegraph",
-          "url": "https://www.belfasttelegraph.co.uk"
+          "name": "The Irish News",
+          "url": "https://www.irishnews.com/news/northern-ireland/we-celebrated-together-and-made-history-belfast-fleadh-enters-final-day-after-magical-week-E7MU6DJHOFELLO5ZEMGVAHFDII/"
         }
       ],
       "publishedAt": "2026-08-11T04:00:00+02:00",
@@ -364,7 +364,7 @@
         },
         {
           "name": "News Letter",
-          "url": "https://www.newsletter.co.uk"
+          "url": "https://www.newsletter.co.uk/news/weather/eclipse-2026-queens-university-to-host-public-viewing-event-in-belfast-on-wednesday-evening-8849903"
         }
       ],
       "publishedAt": "2026-08-11T04:15:00+02:00",
@@ -405,12 +405,12 @@
           "url": "https://www.bbc.com/news/northern_ireland"
         },
         {
-          "name": "Belfast Telegraph",
-          "url": "https://www.belfasttelegraph.co.uk"
+          "name": "News Letter",
+          "url": "https://www.newsletter.co.uk/news/politics/muir-must-go-farmers-gather-outside-stormont-calling-for-daera-minister-to-quit-over-cattle-cull-8848730"
         },
         {
           "name": "The Irish News",
-          "url": "https://www.irishnews.com"
+          "url": "https://www.irishnews.com/news/northern-ireland/hundreds-of-farmers-protest-at-stormont-after-cows-shot-in-co-tyrone-J5BDD5A6HVG4NPRQJ5WLR7Q7EI/"
         }
       ],
       "publishedAt": "2026-08-11T04:45:00+02:00",
@@ -456,7 +456,7 @@
         },
         {
           "name": "BBC News",
-          "url": "https://www.bbc.com/news"
+          "url": "https://www.bbc.co.uk/news/articles/c5yw4lpe0yeo"
         },
         {
           "name": "RFI",
@@ -483,7 +483,7 @@
         },
         {
           "name": "BBC News",
-          "url": "https://www.bbc.com/news"
+          "url": "https://www.bbc.com/news/articles/cx2rgzyplg2o"
         }
       ],
       "publishedAt": "2026-08-11T03:15:00+02:00",
@@ -528,35 +528,12 @@
           "url": "https://www.rfi.fr/en/international/20260809-netanyahu-rejects-gaza-plan-in-new-break-from-trump"
         },
         {
-          "name": "AP News",
-          "url": "https://apnews.com"
+          "name": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/ce3q5282ep3o"
         }
       ],
       "publishedAt": "2026-08-11T03:45:00+02:00",
       "imageURL": "/images/2026-08-11-global-004.jpg"
-    },
-    {
-      "id": "2026-08-11-global-005",
-      "category": "global",
-      "headline": "Armenia and Azerbaijan sign historic agreement aimed at ending decades of conflict",
-      "subtitle": "The landmark deal, brokered with international mediation, outlines a framework for normalising relations between the two South Caucasus nations after decades of hostility over Nagorno-Karabakh.",
-      "body": "Armenia and Azerbaijan have signed a historic agreement aimed at ending one of the world's longest-running conflicts, according to reports from the region. The deal, which was brokered with international mediation, establishes a framework for normalising diplomatic relations and resolving outstanding issues between the two South Caucasus nations.\n\nThe agreement comes after months of intensive negotiations and follows significant shifts in the regional balance of power. While the full text has not been published, sources indicate the deal includes provisions for border demarcation, transport corridor access and the status of ethnic Armenian communities in the Nagorno-Karabakh region.\n\n## A fragile peace\n\nInternational observers have welcomed the signing but cautioned that implementation will be the real test. Previous attempts at peace have collapsed over mutual distrust and competing territorial claims. The European Union and the United States have both pledged support for the implementation process.\n\nThe agreement represents a significant diplomatic victory for the mediating powers and could reshape the geopolitical landscape of the South Caucasus, a region that serves as a crucial energy transit corridor. Analysts note that Russia's reduced influence in the region following its war in Ukraine created space for alternative mediation efforts to succeed.",
-      "sources": [
-        {
-          "name": "AP News",
-          "url": "https://apnews.com/world-news"
-        },
-        {
-          "name": "Reuters",
-          "url": "https://www.reuters.com/world"
-        },
-        {
-          "name": "BBC News",
-          "url": "https://www.bbc.com/news"
-        }
-      ],
-      "publishedAt": "2026-08-11T04:00:00+02:00",
-      "imageURL": ""
     },
     {
       "id": "2026-08-11-tech-001",
@@ -570,8 +547,8 @@
           "url": "https://research.checkpoint.com/2026/ai-security-report-2026"
         },
         {
-          "name": "The Register",
-          "url": "https://www.theregister.com"
+          "name": "Unite.AI",
+          "url": "https://www.unite.ai/check-point-research-ai-security-report-2026-ai-moves-from-cybersecurity-assistant-to-active-operator/"
         },
         {
           "name": "Bleeping Computer",
@@ -593,12 +570,12 @@
           "url": "https://www.crn.com/news/security/2026/20-cool-new-ai-and-security-products-at-black-hat-2026"
         },
         {
-          "name": "The Register",
-          "url": "https://www.theregister.com"
+          "name": "SecurityWeek",
+          "url": "https://www.securityweek.com/black-hat-usa-2026-summary-of-vendor-announcements-part-3/"
         },
         {
-          "name": "TechCrunch",
-          "url": "https://techcrunch.com"
+          "name": "SiliconANGLE",
+          "url": "https://siliconangle.com/2026/08/04/rubrik-unveils-agent-identity-govern-ai-agents-one-tool-call-time/"
         }
       ],
       "publishedAt": "2026-08-11T03:15:00+02:00",
@@ -617,11 +594,11 @@
         },
         {
           "name": "Bleeping Computer",
-          "url": "https://www.bleepingcomputer.com"
+          "url": "https://www.bleepingcomputer.com/news/security/framework-tally-disclose-metabase-data-theft-attacks/"
         },
         {
           "name": "The Register",
-          "url": "https://www.theregister.com"
+          "url": "https://www.theregister.com/personal-tech/2026/08/10/framework-loses-customer-data-in-metabase-zero-day-attack/5285302"
         }
       ],
       "publishedAt": "2026-08-11T03:30:00+02:00",
@@ -635,16 +612,16 @@
       "body": "The US Cybersecurity and Infrastructure Security Agency has added a critical vulnerability in JetBrains TeamCity to its Known Exploited Vulnerabilities catalog, ordering federal agencies to patch the flaw within a specified deadline. The vulnerability, which allows remote code execution on unpatched TeamCity servers, has come under active exploitation.\n\nThe flaw affects TeamCity, the widely used continuous integration and delivery platform from JetBrains. Attackers are exploiting unpatched instances to gain initial access to corporate networks, from where they can move laterally to more sensitive systems. The vulnerability is particularly dangerous because TeamCity servers often have elevated network privileges.\n\n## Supply chain implications\n\nAs a CI/CD platform, TeamCity servers sit at the heart of many organisations' software development pipelines. A compromised TeamCity instance can allow attackers to inject malicious code into the software build process itself, creating a supply chain attack vector. CISA's directive applies to US federal civilian executive branch agencies, but private sector organisations are strongly urged to patch as well.\n\nSecurity experts recommend organisations using TeamCity update to the latest patched version immediately, audit their CI/CD pipelines for signs of compromise, and ensure that TeamCity servers are not exposed directly to the internet without proper access controls.",
       "sources": [
         {
-          "name": "Bleeping Computer",
-          "url": "https://www.bleepingcomputer.com"
+          "name": "The Hacker News",
+          "url": "https://thehackernews.com/2026/08/cisa-flags-teamcity-cve-2026-63077-rce.html"
         },
         {
-          "name": "The Register",
-          "url": "https://www.theregister.com"
+          "name": "SecurityWeek",
+          "url": "https://www.securityweek.com/hackers-start-exploiting-recent-jetbrains-teamcity-vulnerability/"
         },
         {
-          "name": "TechCrunch",
-          "url": "https://techcrunch.com"
+          "name": "Security Affairs",
+          "url": "https://securityaffairs.com/196725/security/u-s-cisa-adds-a-jetbrains-teamcity-flaw-to-its-known-exploited-vulnerabilities-catalog.html"
         }
       ],
       "publishedAt": "2026-08-11T03:45:00+02:00",
@@ -659,15 +636,15 @@
       "sources": [
         {
           "name": "TechCrunch",
-          "url": "https://techcrunch.com/category/artificial-intelligence/"
+          "url": "https://techcrunch.com/2026/06/08/following-anthropic-openai-files-confidentially-for-ipo/"
         },
         {
           "name": "The Register",
-          "url": "https://www.theregister.com"
+          "url": "https://www.theregister.com/ai-and-ml/2026/06/11/openai-could-go-from-ai-pioneer-to-ais-blackberry-says-forrester/5254120"
         },
         {
-          "name": "Simon Willison's blog",
-          "url": "https://simonwillison.net"
+          "name": "Wired",
+          "url": "https://www.wired.com/story/openai-confidentially-files-for-ipo/"
         }
       ],
       "publishedAt": "2026-08-11T03:00:00+02:00",
@@ -682,11 +659,11 @@
       "sources": [
         {
           "name": "CNBC",
-          "url": "https://www.cnbc.com"
+          "url": "https://www.cnbc.com/2026/08/05/anthropic-mythos-openai-security-breaches.html"
         },
         {
           "name": "The Register",
-          "url": "https://www.theregister.com"
+          "url": "https://www.theregister.com/ai-and-ml/2026/08/05/ai-researchers-let-models-off-the-leash-then-watched-as-they-tried-to-add-malware-to-a-foss-project/5283165"
         },
         {
           "name": "TechCrunch",
@@ -705,15 +682,15 @@
       "sources": [
         {
           "name": "Reuters",
-          "url": "https://www.reuters.com/technology"
+          "url": "https://www.reuters.com/legal/litigation/china-launches-cybersecurity-review-into-palo-alto-networks-products-2026-08-06/"
         },
         {
           "name": "The Register",
-          "url": "https://www.theregister.com"
+          "url": "https://www.theregister.com/security/2026/08/07/china-launches-mysterious-probe-into-security-of-palo-alto-networks-products/5284453"
         },
         {
-          "name": "TechCrunch",
-          "url": "https://techcrunch.com"
+          "name": "South China Morning Post",
+          "url": "https://www.scmp.com/economy/global-economy/article/3363177/china-launches-probe-us-cybersecurity-firm-palo-alto-networks"
         }
       ],
       "publishedAt": "2026-08-11T03:30:00+02:00",
@@ -727,16 +704,16 @@
       "body": "Anthropic has begun developing its own custom AI chips for training and inference, according to industry sources. The move makes Anthropic the latest frontier AI lab to reduce its dependence on Nvidia's GPUs, which have been in short supply and commanding premium prices as AI infrastructure spending approaches $700 billion in 2026.\n\nThe custom silicon effort is still in early stages, but it signals Anthropic's ambition to control more of its technology stack. The company joins OpenAI, which has reportedly explored chip designs, and Google, which has long used its own TPUs for AI workloads. Building custom chips is expensive — estimates suggest a competitive design and fabrication run costs hundreds of millions of dollars — but offers significant advantages in performance, power efficiency and supply chain control.\n\n## The hardware race\n\nThe development reflects a broader trend of vertical integration in the AI industry. As models grow larger and inference costs become a significant operational expense, the ability to optimise hardware for specific model architectures becomes a competitive advantage. AMD's acquisition of Taalas earlier this month, designed to hardwire AI models into silicon, is another sign of the same trend.\n\nNvidia, meanwhile, continues to dominate the AI chip market with its latest-generation GPUs. But the company faces growing competition from AMD, Intel and a host of startups, as well as from its own customers who are increasingly looking to design their own alternatives.",
       "sources": [
         {
-          "name": "Simon Willison's blog",
-          "url": "https://simonwillison.net"
+          "name": "Tom's Hardware",
+          "url": "https://www.tomshardware.com/tech-industry/anthropic-to-build-its-own-co-designed-custom-ai-accelerator-for-inferencing-workloads-samsung-reported-to-be-partnering-with-the-claude-ai-maker-for-manufacturing"
         },
         {
           "name": "TechCrunch",
           "url": "https://techcrunch.com/category/artificial-intelligence/"
         },
         {
-          "name": "The Register",
-          "url": "https://www.theregister.com"
+          "name": "Ars Technica",
+          "url": "https://arstechnica.com/ai/2026/08/anthropic-confirms-plans-to-build-an-in-house-silicon-team/"
         }
       ],
       "publishedAt": "2026-08-11T03:45:00+02:00",
