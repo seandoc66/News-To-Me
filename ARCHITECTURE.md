@@ -20,6 +20,7 @@ scripts/
   validate.mjs      hard-fails a batch that breaks the contract
   fetch-photos.mjs  downloads, size-checks and resizes photos
   prune-images.mjs  enforces the rolling photo window
+  trending.mjs      opt-in: cross-outlet corroboration via GDELT (see Known gaps)
 docs/               what GitHub Pages serves
   latest.json         the live edition
   archive/            every edition, by date
@@ -261,6 +262,22 @@ photo.
 
 ## Known gaps
 
+- **`scripts/trending.mjs` is a prototype, not wired into the daily run.** It
+  queries GDELT's free DOC 2.0 API for the outlets already listed in
+  `config.json → sources`, per section, and flags which stories more than one
+  of them is covering — a coverage-corroboration signal Hermes could read
+  before spending `web_search` budget. It works: a clean, deliberately paced
+  run (15s between requests, exponential backoff) still only got real data
+  back from 5 of 30 outlet queries, the rest failing with a mix of `429`s and
+  raw connection timeouts. That pattern — failures scattered across domains
+  rather than clustered — points at shared network egress in the sandbox this
+  was tested from, not the script's own request rate, and the same kind of
+  environment may be what runs Hermes daily. Until reliability is confirmed
+  from wherever Hermes actually executes, it stays a manual, opt-in tool.
+  It also duplicates each section's outlet list as domains + a language code,
+  hand-maintained separately from `config.json → sources` — if that list
+  changes, this needs updating too, which is exactly the kind of drift
+  `config.json` exists to prevent elsewhere in this pipeline.
 - **The 5-day purge has never been tested against backdated data.** It has
   shipped to the phone unverified, and silently losing a saved article is the
   worst bug this app could have.
