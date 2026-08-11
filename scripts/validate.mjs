@@ -346,7 +346,7 @@ feed.articles.forEach((a, i) => {
             seenSourceUrls.set(s.url, a.id);
           }
         } else {
-          warn(
+          fail(
             `${sat}.url is a section or home page (${s.url}), not the story itself — ` +
             `it's a dead end when tapped`
           );

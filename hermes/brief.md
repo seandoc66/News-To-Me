@@ -150,9 +150,22 @@ room, and it doesn't cost you any either.
 
 **Sources** — count from `config.json → writing.sourcesPerArticle`. These are
 the places you actually researched from, and Shane taps them. Every URL must be
-real and resolve. **Never invent a plausible-looking URL.** Link the *story*, not
-the masthead: `https://www.bbc.com/news` is a dead end when tapped. Prefer
-primary sources — filings, statements, papers — alongside reporting.
+real, resolve, and land on *that specific story* — never a masthead, a
+homepage, or a section/category front (`https://www.bbc.com/news`,
+`https://techcrunch.com/category/artificial-intelligence/`), even when that's
+the only page you actually had open. **Never invent a plausible-looking URL.**
+If the only thing you looked at for an outlet was its homepage or a roundup
+page, that outlet doesn't have a citable source for this story yet — either
+find its actual article or cite a different outlet whose specific article you
+do have. A story-specific link at a less-obvious outlet beats a dead end at
+the expected one.
+
+This is not a style preference: `validate.mjs` rejects a section/homepage URL
+outright and the run **fails**, the same as a photo file that doesn't exist on
+disk. It used to only warn, and a full edition went out with roughly half its
+links landing on homepages before anyone noticed — a warning that's cheap to
+ignore on a Friday evening doesn't get read. Prefer primary sources — filings,
+statements, papers — alongside reporting.
 
 ### One story, once
 
@@ -291,17 +304,19 @@ All commands from the repo root.
 
 ### Warnings are the quality signal
 
-They never block publication, and four are worth acting on every run:
+They never block publication, and three are worth acting on every run:
 
 - **`… cite the same source … same story published twice`** — the duplicate
   check. Reworded headlines defeat any headline comparison, so this is what
   actually catches it. Treat it as a duplicate until you've shown otherwise.
-- **`… is a section or home page … dead end when tapped`** — link the story.
 - **`… publishing without a photo`** — informational, tells you whether the photo
   step is degrading.
 - **`… paragraph N is … words`** / **`… subhead(s) in a … story`** — the body
   shape. Both are cheap to fix by re-breaking the prose, and both are exactly
   what the reader feels.
+
+A section-or-homepage source URL is **not** in this list anymore — it's a hard
+failure now (see "Sources" above), not a warning to weigh.
 
 ---
 
