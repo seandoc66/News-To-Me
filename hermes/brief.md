@@ -150,9 +150,22 @@ room, and it doesn't cost you any either.
 
 **Sources** — count from `config.json → writing.sourcesPerArticle`. These are
 the places you actually researched from, and Shane taps them. Every URL must be
-real and resolve. **Never invent a plausible-looking URL.** Link the *story*, not
-the masthead: `https://www.bbc.com/news` is a dead end when tapped. Prefer
-primary sources — filings, statements, papers — alongside reporting.
+real, resolve, and land on *that specific story* — never a masthead, a
+homepage, or a section/category front (`https://www.bbc.com/news`,
+`https://techcrunch.com/category/artificial-intelligence/`), even when that's
+the only page you actually had open. **Never invent a plausible-looking URL.**
+If the only thing you looked at for an outlet was its homepage or a roundup
+page, that outlet doesn't have a citable source for this story yet — either
+find its actual article or cite a different outlet whose specific article you
+do have. A story-specific link at a less-obvious outlet beats a dead end at
+the expected one.
+
+This is not a style preference: `validate.mjs` rejects a section/homepage URL
+outright and the run **fails**, the same as a photo file that doesn't exist on
+disk. It used to only warn, and a full edition went out with roughly half its
+links landing on homepages before anyone noticed — a warning that's cheap to
+ignore on a Friday evening doesn't get read. Prefer primary sources — filings,
+statements, papers — alongside reporting.
 
 ### One story, once
 
@@ -209,18 +222,34 @@ Give every story a photo where you reasonably can. Choose one that genuinely
 illustrates *that* story — a generic stock laptop on every tech story defeats
 the point. Shane cares about the photos.
 
+**The photo comes from a source you already cited, not a separate search.**
+`sources[]` are the article pages you actually researched from — you were just
+on them. Take the photo the outlet itself published with that story: its Open
+Graph image, or a specific photo from the body if the og:image is a generic
+site banner. Work through `sources[]` in order until one has a usable
+article-specific photo. **Never substitute an image from anywhere else** —
+a stock photo, an illustrative library shot, an image from an unrelated
+article — even one that is technically a good, sharp, on-topic-looking photo.
+If it didn't come from the story you're citing, it isn't *that* story's photo,
+and a reader who opens the source will notice it doesn't match. This is the
+same rule as never inventing a source URL, applied to the picture: real and
+traceable to the story, or omitted.
+
 **Prefer the largest version available.** A card photo fills roughly 1206 × 1311
 physical pixels. Open Graph images are usually 1200 × 630 and fine; list-view
 thumbnails are not. Follow through to the full-size original where one exists.
 `fetch-photos.mjs` rejects anything below the minimums in `config.json →
 photos`, because sips only downsizes — a small source can only be stretched.
+That threshold is a size check, not a relevance check — it will happily accept
+a sharp, correctly-sized photo of the wrong thing, so it's not a substitute for
+sourcing the photo correctly in the first place.
 
 ### A missing photo never blocks the edition
 
-`imageURL` is **optional**. If there's no suitable photo, or every candidate is
-too small, omit the key or set it to `""` and **publish the story anyway**. The
-app renders a category-tinted gradient — it looks deliberate, not broken. One
-plainer card costs far less than a day with no news.
+`imageURL` is **optional**. If none of `sources[]` has a usable photo, or every
+candidate is too small, omit the key or set it to `""` and **publish the story
+anyway**. The app renders a category-tinted gradient — it looks deliberate,
+not broken. One plainer card costs far less than a day with no news.
 
 Never pad with a generic image that adds nothing; an empty `imageURL` is better.
 And never drop an interesting story merely because it has no picture.
@@ -275,17 +304,19 @@ All commands from the repo root.
 
 ### Warnings are the quality signal
 
-They never block publication, and four are worth acting on every run:
+They never block publication, and three are worth acting on every run:
 
 - **`… cite the same source … same story published twice`** — the duplicate
   check. Reworded headlines defeat any headline comparison, so this is what
   actually catches it. Treat it as a duplicate until you've shown otherwise.
-- **`… is a section or home page … dead end when tapped`** — link the story.
 - **`… publishing without a photo`** — informational, tells you whether the photo
   step is degrading.
 - **`… paragraph N is … words`** / **`… subhead(s) in a … story`** — the body
   shape. Both are cheap to fix by re-breaking the prose, and both are exactly
   what the reader feels.
+
+A section-or-homepage source URL is **not** in this list anymore — it's a hard
+failure now (see "Sources" above), not a warning to weigh.
 
 ---
 

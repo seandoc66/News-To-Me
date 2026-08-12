@@ -43,11 +43,11 @@
   },
 
   "photos": {
-    "_note": "A card photo fills roughly 1206x1311 physical pixels on the phone. maxLongEdge below that guarantees upscaling; sources below the minimums cannot look good at that size.",
+    "_note": "A card photo fills roughly 1206x1311 physical pixels on the phone. maxLongEdge below that guarantees upscaling; sources below the minimums cannot look good at that size. minSource* is a direct trade against bare gradient cards: lower catches more Open Graph/Twitter-card-sized sources (commonly 640x360 or 600x315) at the cost of more upscaling softness on the smallest ones let through.",
     "maxLongEdge": 1600,
     "jpegQuality": 75,
-    "minSourceLongEdge": 800,
-    "minSourceShortEdge": 450,
+    "minSourceLongEdge": 640,
+    "minSourceShortEdge": 360,
     "retentionDays": 14
   },
 
