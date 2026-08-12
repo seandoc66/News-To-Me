@@ -30,6 +30,8 @@ struct ArticleDetailView: View {
                 VStack(alignment: .leading, spacing: 18) {
                     StoryBodyView(markdown: article.body)
 
+                    digDeeperButton
+
                     if !article.sources.isEmpty {
                         sourcesSection
                     }
@@ -56,6 +58,41 @@ struct ArticleDetailView: View {
         // gated on scrolling to the end: the day picker is asking whether you've
         // been through the day's news, not whether you finished every word.
         .task { store.markRead(id: article.id) }
+    }
+
+    /// Hands the story to the system Share Sheet with a prompt asking an AI to
+    /// verify and expand on it — Claude and Gemini both surface themselves there
+    /// directly (as "Ask Claude" / their share extension) already signed in to
+    /// whichever account the reader uses, so this needed no per-service logic.
+    private var digDeeperPrompt: String {
+        """
+        Please verify and tell me more about this news story. Provide links to your sources.
+
+        \(article.headline)
+
+        \(article.body)
+        """
+    }
+
+    private var digDeeperButton: some View {
+        ShareLink(item: digDeeperPrompt, preview: SharePreview(article.headline)) {
+            HStack(spacing: 10) {
+                Image(systemName: "sparkles")
+                    .font(.system(size: 15, weight: .semibold))
+                Text("Find out more with AI")
+                    .font(.subheadline.weight(.semibold))
+                Spacer(minLength: 8)
+                Image(systemName: "arrow.up.right")
+                    .font(.system(size: 12, weight: .semibold))
+                    .opacity(0.7)
+            }
+            .foregroundStyle(.white)
+            .padding(.horizontal, 14)
+            .padding(.vertical, 13)
+            .frame(maxWidth: .infinity, alignment: .leading)
+            .background(NewsCategory.ai.tint, in: .rect(cornerRadius: 12))
+        }
+        .buttonStyle(.plain)
     }
 
     private var sourcesSection: some View {
