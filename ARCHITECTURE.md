@@ -14,6 +14,8 @@ and publishes it as static JSON; an iOS app on Shane's phone reads it.
 hermes/
   brief.md          the daily prompt — read by the cron each morning at 06:00
   config.json       every tunable setting; the scripts read this too
+  report-schema.md  the JSON contract for the run report below
+  reports/          one YYYY-MM-DD.json per run, every run — see "How failure surfaces"
 schema.md           the JSON contract the app decodes
 scripts/
   config.mjs        loads config.json for the other scripts
@@ -32,12 +34,14 @@ NewsApp/            the iOS app
 
 ### Who reads what
 
-| File | Hermes, daily | Scripts | App | Human |
-|---|:--:|:--:|:--:|:--:|
-| `hermes/brief.md` | ● | | | ● |
-| `hermes/config.json` | ● | ● | | ● |
-| `schema.md` | ● | | | ● |
-| `ARCHITECTURE.md` | | | | ● |
+| File | Hermes, daily | Scripts | App | Human | Hourly check |
+|---|:--:|:--:|:--:|:--:|:--:|
+| `hermes/brief.md` | ● | | | ● | |
+| `hermes/config.json` | ● | ● | | ● | |
+| `schema.md` | ● | | | ● | |
+| `hermes/report-schema.md` | ● | | | ● | ● |
+| `hermes/reports/*.json` | (writes) | | | ● | ● |
+| `ARCHITECTURE.md` | | | | ● | |
 
 `config.json` matters most here. Every tunable number — word counts, source
 counts, photo dimensions, retention — lives there and nowhere else. Before, the
@@ -72,9 +76,11 @@ for two days: the app showed a full screen of real stories and said nothing,
 because the fetch had succeeded. A stale feed and a quiet news day looked
 identical.
 
-Three things now cover it, at different distances:
+Four things now cover it, at different distances:
 
-1. **Hermes' own report** — the only thing that can say *why*.
+1. **Hermes' own report** — the only thing that can say *why*. Written both as
+   prose and as `hermes/reports/YYYY-MM-DD.json` (`hermes/report-schema.md`),
+   every run, whether or not it published.
 2. **The app** compares the edition's `generatedAt` against the clock on every
    refresh and shows a banner past 26 hours. It sits inline on the front page,
    under the masthead — the screen you land on, and the one where today's button
@@ -83,14 +89,27 @@ Three things now cover it, at different distances:
    next run — without hiding a real miss for long. It runs whether or not the
    fetch succeeded, because a successful fetch of yesterday's feed is exactly
    the case that was silent.
-3. **A GitHub Actions watchdog** fetches the published URL each morning and
-   fails if the edition is over 24 hours old, unreachable, or empty. GitHub
-   emails on a failed scheduled workflow.
-
-The watchdog checks the live URL rather than the repo, so it exercises the Pages
-deploy too, and it is deliberately independent of Hermes: Hermes can report its
-own aborts but cannot report never having run, which is the failure most likely
-to pass unnoticed.
+3. **A GitHub Actions watchdog** fetches the published URL and fails if the
+   edition is over 24 hours old, unreachable, or empty. GitHub emails on a
+   failed scheduled workflow. It runs at 10:00 UTC — deliberately not near
+   06:00, Hermes' nominal start time: real runs have finished anywhere from
+   minutes to several hours after that, and an earlier check mistook a run
+   still in progress for a failure often enough to be noise (see the run
+   history around 7-13 August). Checking the live URL rather than the repo
+   means it exercises the Pages deploy too, and it is deliberately independent
+   of Hermes: Hermes can report its own aborts but cannot report never having
+   run, which is the failure most likely to pass unnoticed.
+4. **An hourly check, 06:30–11:30 Madrid**, reads today's
+   `hermes/reports/YYYY-MM-DD.json` as soon as it exists. A report with
+   `needsHumanAttention: true` — a tool outage, a budget/credit limit, the run
+   never getting far enough to write a story — opens a GitHub issue and sends
+   a push notification; nothing in that category is something it attempts to
+   fix itself. A report describing an ordinary content-level problem (a dead
+   source link, a config value worth nudging) gets a pull request instead, for
+   review rather than a silent direct push. If 11:30 arrives with no report
+   at all, that itself is the alert — Hermes did not even start, or is stuck
+   somewhere no report will ever describe. This runs as a scheduled Routine
+   outside the repo, not a file here — this paragraph is its documentation.
 
 ---
 

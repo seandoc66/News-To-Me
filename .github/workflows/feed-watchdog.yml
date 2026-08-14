@@ -14,9 +14,12 @@ name: Feed watchdog
 
 on:
   schedule:
-    # 06:00 UTC — 08:00 Europe/Madrid in summer, 07:00 in winter. The feed is
-    # generated at 06:00 Madrid, so this leaves at least an hour of slack.
-    - cron: "0 6 * * *"
+    # 10:00 UTC — 12:00 Europe/Madrid in summer, 11:00 in winter. The feed is
+    # nominally generated at 06:00 Madrid, but real runs have finished
+    # anywhere from minutes to several hours later; checking closer to the
+    # nominal time caught runs still in progress and failed on days that went
+    # on to publish fine (see ARCHITECTURE.md "How failure surfaces").
+    - cron: "0 10 * * *"
   workflow_dispatch:
 
 jobs:

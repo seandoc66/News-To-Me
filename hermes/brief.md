@@ -10,6 +10,7 @@ Two companion files, both also current:
 |---|---|
 | `hermes/config.json` | Every tunable setting — locations, sources, word counts, photo limits. The scripts read the same file, so these numbers are what actually gets enforced. |
 | `schema.md` | The JSON contract the app decodes. Structure only. |
+| `hermes/report-schema.md` | The JSON contract for the run report you write at the end — see "Report each run" below. |
 
 Working directory is the repo root: `/Users/shanedoc/Sites/News-To-Me`
 
@@ -289,7 +290,9 @@ All commands from the repo root.
 4. Validate:
       node scripts/validate.mjs docs/archive/YYYY-MM-DD.json
 
-5. FAILS  → stop. Do NOT touch docs/latest.json. Report the errors.
+5. FAILS  → do NOT touch docs/latest.json. Write hermes/reports/YYYY-MM-DD.json
+   (hermes/report-schema.md) with published: false and the validator errors,
+   commit and push it, then stop.
    PASSES → read the warnings anyway, then publish:
       cp docs/archive/YYYY-MM-DD.json docs/latest.json
 
@@ -299,7 +302,10 @@ All commands from the repo root.
 7. Final check against the live file:
       node scripts/validate.mjs
 
-8. Commit and push to main. GitHub Pages deploys automatically.
+8. Write hermes/reports/YYYY-MM-DD.json (hermes/report-schema.md) with
+   published: true.
+
+9. Commit and push to main. GitHub Pages deploys automatically.
 ```
 
 ### Warnings are the quality signal
@@ -323,17 +329,22 @@ failure now (see "Sources" above), not a warning to weigh.
 ## Report each run
 
 Your report is the only account of what happened. The watchdog can say *that*
-something is wrong; only you can say *what*.
+something is wrong; only you can say *what*. Write it twice, in two forms,
+every run — including a run that fails validation:
 
-State plainly:
+1. **Prose**, wherever you'd normally send it. State plainly:
+   - Whether the edition **published**, and if not, why.
+   - Any story that shipped **without a photo**.
+   - Any **validator warnings**, especially duplicates and dead-end links.
+   - Anything that looked wrong that you worked around.
+2. **`hermes/reports/YYYY-MM-DD.json`**, following `hermes/report-schema.md`.
+   Commit and push it — same commit as the edition if you published, its own
+   commit if you didn't. Nothing else in the repo reads it; it exists so an
+   hourly check can tell, without you, whether today's run needs a human.
 
-- Whether the edition **published**, and if not, why.
-- Any story that shipped **without a photo**.
-- Any **validator warnings**, especially duplicates and dead-end links.
-- Anything that looked wrong that you worked around.
-
-**Check the report against the files before sending it.** A report that
-disagrees with the repo sends whoever reads it after the wrong problem.
+**Check the report against the files before sending it**, in both forms. A
+report that disagrees with the repo sends whoever reads it after the wrong
+problem.
 
 If something needs changing on the app side — a contract change, a new field —
 say so explicitly rather than assuming it will be noticed.
@@ -342,8 +353,12 @@ say so explicitly rather than assuming it will be noticed.
 
 ## If validation fails
 
-Leave the previous day's `latest.json` in place and report. Yesterday's feed
-staying live beats a broken or empty one.
+Leave the previous day's `latest.json` in place — yesterday's feed staying
+live beats a broken or empty one — but still write and commit both reports
+above. `published: false` with a real `validatorErrors` list in the JSON
+report is what turns "nothing happened" into "something specific broke,"
+which is the whole reason that file exists. Do not skip the commit just
+because there's nothing to publish.
 
 Be aware that a stale feed is now visible: the app shows a banner past 26 hours,
 and a watchdog emails Shane each morning if no fresh edition arrived. Silence is
