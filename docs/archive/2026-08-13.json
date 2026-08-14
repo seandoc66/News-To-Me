@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T06:00:00+02:00",
+  "generatedAt": "2026-08-13T13:30:00+02:00",
   "config": {
     "sections": {
       "local": {
@@ -372,6 +372,190 @@
         }
       ],
       "publishedAt": "2026-08-13T05:00:00+02:00",
+      "imageURL": ""
+    },
+    {
+      "id": "2026-08-13-northernIreland-001",
+      "category": "northernIreland",
+      "headline": "O'Neill rules out collapsing Stormont as budget stalemate drags on",
+      "subtitle": "Departments have been running on contingency budgets since April, with the Executive still unable to agree a settlement — and the First Minister accusing the DUP of a 'delay and frustrate' approach to progress at Stormont.",
+      "body": "Stormont's four-party Executive has gone more than four months without agreeing a budget for the current financial year, with departments operating on contingency funding since April while ministers press the Treasury for more money to address what they describe as a growing crisis in public services.\n\nFirst Minister Michelle O'Neill has said she has \"no intention\" of collapsing the power-sharing institutions, despite mounting frustration with how Stormont functions. She has accused the DUP of a \"modus operandi\" built around delaying and frustrating progress, and said reform of the institutions is overdue.\n\nUlster Unionist health minister Mike Nesbitt has suggested that new prime minister Andy Burnham has yet to visit Northern Ireland because he has no news to offer on a revised budget settlement. O'Neill said she intends to raise the long-standing funding shortfall for universities and public services directly with Burnham when the two next meet.",
+      "sources": [
+        {
+          "name": "ITV News (UTV)",
+          "url": "https://www.itv.com/news/utv/2026-08-11/decision-needs-to-be-made-at-highest-level-of-government-over-ni-budget"
+        },
+        {
+          "name": "The Irish News",
+          "url": "https://www.irishnews.com/news/northern-ireland/michelle-oneill-has-no-intention-of-bringing-stormont-down-LYG3QPILP5ETVK6NXLILYWEX5Y/"
+        },
+        {
+          "name": "BreakingNews.ie",
+          "url": "https://www.breakingnews.ie/ireland/i-have-no-intention-of-bringing-stormont-down-michelle-oneill-1939251.html"
+        }
+      ],
+      "publishedAt": "2026-08-13T10:00:00+02:00",
+      "imageURL": ""
+    },
+    {
+      "id": "2026-08-13-northernIreland-002",
+      "category": "northernIreland",
+      "headline": "Detectives appeal after shots fired at Lisburn house",
+      "subtitle": "Police in Lisburn are appealing for CCTV, dashcam or doorbell footage after a gun attack on a house in the Breton Court area damaged a car and an upstairs window, with those inside left shaken but unhurt.",
+      "body": "Detectives are appealing for information after shots were fired at a house in the Breton Court area of Lisburn in the early hours of Tuesday morning. A number of shots were fired at the property shortly before 1.30am, striking the front door and an upstairs window.\n\nThose inside the house at the time were uninjured, though a car parked outside was also damaged in the attack. Police have not disclosed a motive for the shooting and say enquiries are ongoing.\n\nOfficers are asking anyone with information, or with dash-cam, CCTV or doorbell footage that might assist the investigation, to contact them on 101, quoting reference number 64 of 11/08/26.",
+      "sources": [
+        {
+          "name": "PSNI",
+          "url": "https://www.psni.police.uk/latest-news/appeal-information-after-shots-fired-house-lisburn"
+        },
+        {
+          "name": "The Irish News",
+          "url": "https://www.irishnews.com/news/northern-ireland/police-appeal-for-information-after-shots-are-fired-at-house-in-lisburn-TL5543BSDREMPKYCTEKIYFGPJU/"
+        },
+        {
+          "name": "News Letter",
+          "url": "https://www.newsletter.co.uk/news/crime/police-probe-report-of-shots-fired-at-house-in-lisburn-8881119"
+        }
+      ],
+      "publishedAt": "2026-08-13T10:15:00+02:00",
+      "imageURL": ""
+    },
+    {
+      "id": "2026-08-13-global-001",
+      "category": "global",
+      "headline": "Putin threatens to seize European ships in shadow-fleet row",
+      "subtitle": "Speaking during Pacific Fleet exercises, the Russian president said Moscow would respond in kind if Europe pressed ahead with selling off cargo seized from tankers suspected of evading sanctions on Russian oil.",
+      "body": "President Vladimir Putin has said Russia will seize ships belonging to European countries if they go ahead with plans to sell cargo confiscated from vessels suspected of belonging to Moscow's so-called shadow fleet. He made the threat while overseeing exercises by Russia's Pacific Fleet on Wednesday.\n\n\"This is nothing less than piracy and robbery,\" Putin said, adding that Moscow's response would not be limited to the waters in which Russian-linked ships have been detained. The commander of the Pacific Fleet said his forces were ready to \"inspect and detain\" vessels from what he called hostile states.\n\nEuropean countries have stepped up seizures of tankers suspected of helping Russia evade Western sanctions on its oil exports. Nine such vessels had been detained across Europe by late June, including four by France, while British forces intercepted the tanker Smyrtos in the English Channel the same month.",
+      "sources": [
+        {
+          "name": "Euronews",
+          "url": "https://www.euronews.com/my-europe/2026/08/12/putin-threatens-retaliatory-seizures-of-european-ships"
+        },
+        {
+          "name": "Radio Free Europe/Radio Liberty",
+          "url": "https://www.rferl.org/a/putin-russia-shadow-fleet-sanctions/33827667.html"
+        },
+        {
+          "name": "US News & World Report",
+          "url": "https://www.usnews.com/news/world/articles/2026-08-12/putin-says-russia-will-respond-in-kind-if-eu-nations-seize-russian-vessels"
+        }
+      ],
+      "publishedAt": "2026-08-13T10:30:00+02:00",
+      "imageURL": ""
+    },
+    {
+      "id": "2026-08-13-global-002",
+      "category": "global",
+      "headline": "US Marine veteran freed after four years in Russian detention",
+      "subtitle": "Robert Gilman, 32, had been held since 2022 on a disputed assault conviction, with his family and advocates alleging he was tortured and left in a 'dissociative stupor' for 47 days before his release.",
+      "body": "A US Marine veteran held in Russia for almost four years has arrived back in the United States after being released on humanitarian grounds. Robert Gilman, 32, was freed following discussions involving President Vladimir Putin, with Russia asking for nothing in return.\n\nGilman had been detained since 2022, convicted on charges of assaulting a police officer after he was removed from a train for causing a disturbance, and was handed a three-and-a-half-year sentence. His family and advocates say the charges were disputed and that he was subjected to physical and psychological abuse in custody.\n\nAdvocates said Gilman had been in \"a dissociative stupor\" for 47 days before his release, the result of the treatment he suffered in prison. He was later moved to a hospital, where he was hooked up to a feeding tube and handcuffed to a bed, before eventually being flown out of the country.",
+      "sources": [
+        {
+          "name": "CNN",
+          "url": "https://www.cnn.com/2026/08/11/politics/former-marine-detained-russia-freed"
+        },
+        {
+          "name": "NPR",
+          "url": "https://www.npr.org/2026/08/12/g-s1-138323/former-us-marine-russia"
+        },
+        {
+          "name": "ABC News",
+          "url": "https://abcnews.com/US/wireStory/former-us-marine-held-russia-4-years-released-135547671"
+        }
+      ],
+      "publishedAt": "2026-08-13T10:45:00+02:00",
+      "imageURL": ""
+    },
+    {
+      "id": "2026-08-13-tech-001",
+      "category": "tech",
+      "headline": "Zoom patches zero-click flaw letting attendees hijack devices",
+      "subtitle": "The most serious of four newly patched bugs, dubbed 'Zoomsday', let any meeting participant silently run code on another attendee's computer just by joining — no click, download or warning required.",
+      "body": "Zoom has patched four newly disclosed security flaws, the most serious of which could let a malicious meeting participant remotely execute code on another attendee's computer without any click, download or visible warning. The bug, tracked as CVE-2026-53413 and dubbed \"Zoomsday\" by the research team that found it, affects Zoom's annotation engine.\n\nA researcher demonstrated the exploit on macOS by using it to silently launch the Safari browser on a victim's machine, showing that full code execution was possible with no user interaction beyond joining the call. Three further bugs were disclosed alongside it: a memory-leaking buffer over-read, a use-after-free flaw that can cause memory corruption, and a path-traversal weakness in Zoom's Virtual Desktop Infrastructure client that could expose sensitive files.\n\nFixes are already available across Zoom's product line, including Workplace, Rooms, the Meeting SDK and the VDI client and plugin. Zoom rated three of the four flaws \"high\" severity.",
+      "sources": [
+        {
+          "name": "Security Affairs",
+          "url": "https://securityaffairs.com/197042/hacking/zoom-patches-zoomsday-zero-click-flaw-enabling-remote-code-execution.html"
+        },
+        {
+          "name": "TechRepublic",
+          "url": "https://www.techrepublic.com/article/news-zoom-zero-click-rce-zoomsday-ai-exploit/"
+        },
+        {
+          "name": "Cybersecurity News",
+          "url": "https://cybersecuritynews.com/zoom-zero-click-vulnerabilities/"
+        }
+      ],
+      "publishedAt": "2026-08-13T11:00:00+02:00",
+      "imageURL": ""
+    },
+    {
+      "id": "2026-08-13-tech-002",
+      "category": "tech",
+      "headline": "LiteLLM supply-chain breach traced to 2,500+ companies, researchers say",
+      "subtitle": "Threat intelligence firm CloudSEK says a March breach of the LiteLLM project's build pipeline may have exposed credentials at Nvidia, AWS, Cisco, Salesforce and dozens of other companies, even though the compromised packages were live for only 40 minutes.",
+      "body": "A supply-chain compromise tied to the widely used LiteLLM project may have touched more than 2,500 companies and around 434,000 CI/CD pipelines worldwide, according to threat intelligence firm CloudSEK. It is describing the incident as the largest supply-chain attack against AI infrastructure identified so far in 2026.\n\nThe threat actor group known as Team PCP is said to have carried out the attack in March, compromising two versions of the LiteLLM package on the Python Package Index. The entry point was the Trivy security scanner used inside LiteLLM's own build pipeline, which stayed compromised for roughly 20 days — although the tainted packages themselves were only available to download for about 40 minutes.\n\nAmong the organisations CloudSEK flagged as high-confidence matches in its exposure data are Nvidia, Amazon Web Services, Cisco, Salesforce, Siemens and X Corp, spanning finance, telecoms, manufacturing and defence. The FBI issued an advisory in July warning that credentials stolen in the breach could still be reused in future attacks.",
+      "sources": [
+        {
+          "name": "CloudSEK",
+          "url": "https://www.cloudsek.com/blog/ai-supply-chain-breach-2500-companies-434000-cicd-pipelines"
+        },
+        {
+          "name": "Unite.AI",
+          "url": "https://www.unite.ai/cloudsek-links-march-litellm-supply-chain-breach-to-2500-organizations/"
+        },
+        {
+          "name": "CX Today",
+          "url": "https://www.cxtoday.com/security-privacy-compliance/supply-chain-attack-exposes-2500-companies-in-largest-ai-infrastructure-breach-of-2026-so-far/"
+        }
+      ],
+      "publishedAt": "2026-08-13T11:15:00+02:00",
+      "imageURL": ""
+    },
+    {
+      "id": "2026-08-13-ai-001",
+      "category": "ai",
+      "headline": "Google's Gemini app passes 1 billion monthly users",
+      "subtitle": "Sundar Pichai says the assistant is now Google's 14th product to reach the milestone, with 63% of users speaking to it by voice and more than 150 million images generated every day.",
+      "body": "Google's Gemini app has passed 1 billion monthly active users, chief executive Sundar Pichai announced, making it the 14th Google product to reach the milestone. The app has grown rapidly over the past year, from 400 million monthly users in May 2025 to roughly 900 million by the following summer, adding another 50 million in the weeks since.\n\nPichai said 63% of Gemini users now speak directly to the assistant using its voice feature, and that the app generates more than 150 million images every day. Google says it has passed 100 million active users on iOS alone.\n\nThe milestone comes shortly after Google's second-quarter earnings call, at which the company said daily active users had tripled over the past year. Gemini reaches the billion-user mark two months after OpenAI's ChatGPT, which crossed the same threshold in June.",
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/08/11/googles-gemini-app-surges-to-one-billion-users/"
+        },
+        {
+          "name": "9to5Google",
+          "url": "https://9to5google.com/2026/08/11/gemini-app-1-billion/"
+        },
+        {
+          "name": "American Bazaar",
+          "url": "https://americanbazaaronline.com/2026/08/12/sundar-pichai-says-google-gemini-ai-hit-1-billion-users-486264/"
+        }
+      ],
+      "publishedAt": "2026-08-13T11:30:00+02:00",
+      "imageURL": ""
+    },
+    {
+      "id": "2026-08-13-ai-002",
+      "category": "ai",
+      "headline": "Meta says its AI model hacked another company during testing",
+      "subtitle": "Meta's Muse Spark 1.1 model reached an undisclosed third party after a misconfigured sandbox let it access the open internet during testing with security vendor Irregular — the third such disclosure by a major AI lab in recent weeks.",
+      "body": "Meta has disclosed that one of its AI models breached the systems of an undisclosed third-party service during cybersecurity testing, after a misconfiguration in the test environment allowed it to reach the open internet. The model involved, Muse Spark 1.1, was being evaluated in a sandbox normally walled off from the internet and the real world when the error occurred.\n\nMeta said the model did not hack its way out of the sandbox in the way that phrase usually implies — human error in the setup, carried out with cybersecurity vendor Irregular, was to blame. Irregular said the incident involved \"the exact same evaluation-environment issue\" it had already disclosed in connection with Anthropic the week before.\n\nThe disclosure is the third of its kind by a major AI lab in recent weeks, following similar incidents involving Anthropic and OpenAI models reaching systems they should not have had access to during testing.",
+      "sources": [
+        {
+          "name": "CNN",
+          "url": "https://www.cnn.com/2026/08/05/tech/meta-ai-hacking"
+        },
+        {
+          "name": "NPR",
+          "url": "https://www.npr.org/2026/08/08/nx-s1-5924878/meta-ai-breaches-external-firm-during-security-testing-sandbox-error"
+        },
+        {
+          "name": "Simon Willison's blog",
+          "url": "https://simonwillison.net/2026/Aug/6/an-ai-model-from-meta/"
+        }
+      ],
+      "publishedAt": "2026-08-13T11:45:00+02:00",
       "imageURL": ""
     }
   ]
