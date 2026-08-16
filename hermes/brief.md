@@ -275,31 +275,18 @@ All commands from the repo root.
    sections.order needs an entry there or it disappears from the app's
    Sections screen — the validator warns by name when one is missing.
 
-3. Fetch and resize photos:
-      node scripts/fetch-photos.mjs docs/archive/YYYY-MM-DD.json
-   Re-running only retries what is still missing.
+3. Publish everything in one shot (photo-fetch → validate → copy → prune →
+   final validate → git add/commit/push):
+      node scripts/publish-and-push.mjs docs/archive/YYYY-MM-DD.json
 
-   Non-zero exit means some photo failed. Make ONE reasonable attempt at
-   replacements, then move on — set their imageURL to "" and continue.
+   This script handles all mechanical steps and exits with a clear code:
+     0 = published and pushed
+     1 = validation FAILED (edition NOT published — do NOT touch latest.json)
+     2 = post-validation step (cp/prune/git) failed — investigate
 
-   Confirm the JSON matches what is actually on disk before continuing.
-   A photo can download successfully and still have its path not written
-   back, which reads as a missing photo when the file is right there.
-
-4. Validate:
-      node scripts/validate.mjs docs/archive/YYYY-MM-DD.json
-
-5. FAILS  → stop. Do NOT touch docs/latest.json. Report the errors.
-   PASSES → read the warnings anyway, then publish:
-      cp docs/archive/YYYY-MM-DD.json docs/latest.json
-
-6. Prune old photos:
-      node scripts/prune-images.mjs
-
-7. Final check against the live file:
-      node scripts/validate.mjs
-
-8. Commit and push to main. GitHub Pages deploys automatically.
+   If it fails, read the output, fix the issue, and re-run the script.
+   To retry a specific sub-step (e.g. retry failed photos) run individual
+   commands manually, then re-run publish-and-push.mjs to finish.
 ```
 
 ### Warnings are the quality signal
