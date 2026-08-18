@@ -1,0 +1,413 @@
+{
+  "generatedAt": "2026-08-15T06:00:00+02:00",
+  "config": {
+    "sections": {
+      "local": {
+        "min": 4,
+        "max": 8,
+        "sources": [
+          {
+            "name": "El Progreso",
+            "url": "https://www.elprogreso.es"
+          },
+          {
+            "name": "La Voz de Galicia",
+            "url": "https://www.lavozdegalicia.es"
+          },
+          {
+            "name": "Europa Press",
+            "url": "https://www.europapress.es/galicia"
+          }
+        ]
+      },
+      "national": {
+        "min": 4,
+        "max": 8,
+        "sources": [
+          {
+            "name": "RTVE",
+            "url": "https://www.rtve.es"
+          },
+          {
+            "name": "El País",
+            "url": "https://elpais.com"
+          },
+          {
+            "name": "Europa Press",
+            "url": "https://www.europapress.es"
+          }
+        ]
+      },
+      "northernIreland": {
+        "min": 3,
+        "max": 6,
+        "sources": [
+          {
+            "name": "BBC News NI",
+            "url": "https://www.bbc.com/news/northern_ireland"
+          },
+          {
+            "name": "RTÉ News",
+            "url": "https://www.rte.ie/news"
+          },
+          {
+            "name": "Belfast Telegraph",
+            "url": "https://www.belfasttelegraph.co.uk"
+          }
+        ]
+      },
+      "global": {
+        "min": 2,
+        "max": 5,
+        "sources": [
+          {
+            "name": "BBC News",
+            "url": "https://www.bbc.com/news"
+          },
+          {
+            "name": "Reuters",
+            "url": "https://www.reuters.com"
+          },
+          {
+            "name": "AP News",
+            "url": "https://apnews.com"
+          }
+        ]
+      },
+      "tech": {
+        "min": 2,
+        "max": 4,
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com"
+          },
+          {
+            "name": "Hacker News",
+            "url": "https://news.ycombinator.com"
+          },
+          {
+            "name": "The Verge",
+            "url": "https://www.theverge.com"
+          }
+        ]
+      },
+      "ai": {
+        "min": 2,
+        "max": 4,
+        "sources": [
+          {
+            "name": "Simon Willison's blog",
+            "url": "https://simonwillison.net"
+          },
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/category/artificial-intelligence/"
+          },
+          {
+            "name": "Hacker News",
+            "url": "https://news.ycombinator.com"
+          }
+        ]
+      }
+    }
+  },
+  "articles": [
+    {
+      "id": "2026-08-15-local-001",
+      "category": "local",
+      "headline": "El incendio de Penarrubia, a las puertas de Lugo, reabre el choque entre Candia y el BNG",
+      "subtitle": "El fuego que el jueves se acercó a las viviendas de Orbazai, ya controlado, disparó la bronca política: el BNG habla de negligencia en la prevención y el gobierno local defiende su gestión.",
+      "body": "El incendio declarado el jueves en la parroquia de Orbazai, en el límite de la ciudad de Lugo, se dio por controlado en apenas una hora y media, pero dejó momentos de angustia en Penarrubia, donde las llamas llegaron a acercarse a pocos metros de las viviendas y la Policía Local cortó varias calles.\n\nSegún Medio Rural, ardieron algo más de dos hectáreas y trabajaron en la extinción dos helicópteros, dos aviones, tres brigadas y dos motobombas. Los vecinos, sin embargo, cargaron contra la falta de desbroce: “Estamos a mediados de agosto y no hay nada desbrozado”.\n\nEl fuego reabrió además el choque político. El portavoz del BNG, Rubén Arroxo, habló de negligencia al recordar que el Concello no tiene aún contratada la brigada de limpieza que financia la Xunta con 101.250 euros para cinco operarios en 54 parroquias: las bases se publicaron el 23 de julio y los exámenes se celebraron el 10 de agosto, y en otros años a estas alturas la brigada estaría a pleno rendimiento.\n\nLa alcaldesa, Elena Candia, defendió la “respuesta ágil” de los servicios municipales y pidió cambiar el modelo. “Los incendios se apagan en invierno”, dijo, reclamando más medios propios durante todo el año. El plan de prevención de la Xunta, el Pladiga, fija para 2026 el objetivo de que no ardan más de 29.207 hectáreas.",
+      "sources": [
+        {
+          "name": "La Voz de Galicia",
+          "url": "https://www.lavozdegalicia.es/noticia/lugo/lugo/2026/08/13/activo-incendio-forestal-cerca-ciudad-lugo/00031786622272637527727.htm"
+        },
+        {
+          "name": "El Progreso",
+          "url": "https://www.elprogreso.es/articulo/lugo/activo-incendio-penarrubia-orbazai/202608131357091991472.html"
+        },
+        {
+          "name": "COPE Lugo",
+          "url": "https://www.cope.es/emisoras/galicia/lugo-provincia/lugo/noticias/incendio-penarrubia-enfrenta-elena-candia-ruben-arroxo-gestion-fuego-lugo-20260814_3420097.html"
+        },
+        {
+          "name": "Europa Press",
+          "url": "https://www.europapress.es/galicia/noticia-activo-incendio-forestal-lugo-afecta-dos-hectareas-20260813165605.html"
+        }
+      ],
+      "publishedAt": "2026-08-15T04:00:00+02:00",
+      "imageURL": "/images/2026-08-15-local-001.jpg"
+    },
+    {
+      "id": "2026-08-15-local-002",
+      "category": "local",
+      "headline": "Europol busca a la falsa médica gallega cuya última parada fue Lugo",
+      "subtitle": "Andrea Sánchez Antelo, de 32 años y huida de la Justicia desde 2022, figura ya en la lista europea de fugitivos más buscados; el Colegio de Médicos de Lugo fue el primero en denunciarla.",
+      "body": "Europol ha incluido esta semana en su lista de fugitivos más buscados a Andrea Sánchez Antelo, la mujer de 32 años que se hizo pasar por médica y cuya última parada conocida fue Lugo. Sobre ella pesa una requisitoria en vigor de la sección penal del Tribunal de Instancia de Lugo, y el Colegio de Médicos lucense fue el primero en denunciarla.\n\nSe la investiga por intrusismo profesional, falsedad documental y delitos contra la salud pública. Según la alerta europea, extendida a Francia, Portugal, Bélgica y Alemania, trabajó con titulación y colegiación falsas en un geriátrico de la provincia de Lugo y en una clínica de A Coruña, donde llegó a administrar tratamientos inyectables, a recetar con recetarios oficiales del Sergas e incluso a emitir certificados de defunción.\n\nLa coruñesa, de 155 centímetros, permanece huida de la Justicia desde al menos 2022. Hay orden de búsqueda y captura desde noviembre y un juicio pendiente en el Juzgado de lo Penal de Lugo, con una pena solicitada de hasta tres años y medio de cárcel por el “elevado número de víctimas” atendidas por la falsa facultativa.\n\nEl caso ha reabierto el debate sobre los controles a la hora de contratar personal sanitario en el ámbito privado y sobre la verificación de títulos y colegiaciones.",
+      "sources": [
+        {
+          "name": "La Voz de Galicia",
+          "url": "https://www.lavozdegalicia.es/noticia/galicia/2026/08/12/lugo-ultima-parada-falsa-medica-gallega-buscada-europol/00031786524623736211767.htm"
+        },
+        {
+          "name": "Redacción Médica",
+          "url": "https://www.redaccionmedica.com/profesionales/derecho-sanitario/20260807/una-falsa-medica-gallega-entra-en-la-lista-de-los-fugitivos-mas-buscados-europol/348807_0.html"
+        },
+        {
+          "name": "Antena 3",
+          "url": "https://www.antena3.com/noticias/mundo/europol-incluye-lista-mas-buscados-mujer-que-hizo-pasar-medica-lugo-coruna_202608076a763757a046ad6ebca46a23.html"
+        }
+      ],
+      "publishedAt": "2026-08-15T04:10:00+02:00",
+      "imageURL": "/images/2026-08-15-local-002.jpg"
+    },
+    {
+      "id": "2026-08-15-local-003",
+      "category": "local",
+      "headline": "El BOE declara el Pazo de Meirás lugar de memoria democrática",
+      "subtitle": "La resolución, publicada este viernes en el Boletín Oficial del Estado, reconoce el inmueble de Sada como símbolo de la represión franquista; sigue cerrado al público a la espera de un plan de usos.",
+      "body": "El Boletín Oficial del Estado publicó este viernes la declaración del Pazo de Meirás como lugar de memoria democrática. El inmueble de Sada, propiedad del Estado desde que la familia Franco lo devolvió en 2020, queda así formalmente incorporado a la red de espacios de memoria que protege la ley.\n\nLa resolución subraya la doble historia del pazo: residencia de verano de Emilia Pardo Bazán y, desde la Guerra Civil, símbolo del poder de Franco, escenario de represión y lugar de detención para muchos republicanos de la comarca.\n\nCon esta declaración, el Gobierno atiende una de las reclamaciones de las asociaciones memorialistas, que llevaban años pidiendo que el inmueble dejara de mostrarse únicamente como patrimonio monumental. El pazo sigue cerrado al público a la espera de un plan de usos que garantice su apertura.\n\nLa decisión se suma a otros reconocimientos de espacios vinculados a la represión franquista aprobados en los últimos meses dentro del catálogo de lugares de memoria del Estado.",
+      "sources": [
+        {
+          "name": "RTVE",
+          "url": "https://www.rtve.es/noticias/20260814/boe-publica-declaracion-pazo-meiras-lugar-memoria-democratica/17190796.shtml"
+        },
+        {
+          "name": "El País",
+          "url": "https://elpais.com/espana/2026-08-14/el-boe-publica-la-declaracion-del-pazo-de-meiras-como-lugar-de-memoria-democratica.html"
+        },
+        {
+          "name": "El Progreso",
+          "url": "https://www.elprogreso.es/articulo/galicia/pazo-meiras-es-lugar-memoria-democratica/202608141400461991641.html"
+        },
+        {
+          "name": "ABC",
+          "url": "https://www.abc.es/espana/boe-declara-pazo-meiras-lugar-esencial-memoria-20260814104349-nt.html"
+        }
+      ],
+      "publishedAt": "2026-08-15T04:20:00+02:00",
+      "imageURL": "/images/2026-08-15-local-003.jpg"
+    },
+    {
+      "id": "2026-08-15-national-001",
+      "category": "national",
+      "headline": "España y Marruecos blindan Ceuta ante una posible nueva entrada masiva este sábado",
+      "subtitle": "Marruecos ha desplegado cientos de policías y militares en la frontera tras los llamamientos en redes a una nueva irrupción; España ha reforzado un 42% los agentes y busca expulsar a unos 5.000 migrantes.",
+      "body": "España y Marruecos blindan este fin de semana la frontera de Ceuta ante los llamamientos difundidos en redes sociales a una nueva entrada masiva de migrantes para este sábado. Marruecos ha desplegado cientos de policías y militares en el perímetro y ha detenido a personas que animaban a cruzarlo.\n\nEn el lado español, el Gobierno ha elevado un 42% el número de policías y guardias civiles en la ciudad autónoma, y centra sus esfuerzos en expulsar a los cerca de 5.000 migrantes irregulares que permanecen allí: unos 2.500 menores y otros 2.500 potenciales solicitantes de asilo, según las cifras del Ejecutivo.\n\nLa primera ministra italiana, Giorgia Meloni, pidió “extremar” la vigilancia de cara a la supuesta incursión, mientras Bruselas coordina con los Veintisiete la respuesta ante la campaña de desinformación vinculada a la crisis.\n\nLa tensión viene de la entrada masiva registrada a finales de julio, que según las ONG dejó más de un centenar de muertos, y que ha agrietado la relación diplomática con Rabat, con el acuerdo de extradición en el aire. El PP y las comunidades gobernadas por los populares condicionan además su apoyo al reparto de menores.",
+      "sources": [
+        {
+          "name": "El País",
+          "url": "https://elpais.com/espana/2026-08-14/marruecos-despliega-cientos-de-policias-y-militares-en-la-frontera-ante-los-llamamientos-a-una-nueva-irrupcion-masiva.html"
+        },
+        {
+          "name": "RTVE",
+          "url": "https://www.rtve.es/noticias/20260814/ceuta-posible-llegada-masiva-migrantes-marruecos/17190770.shtml"
+        },
+        {
+          "name": "Europa Press",
+          "url": "https://www.europapress.es/internacional/noticia-meloni-insiste-extremar-vigilancia-cara-supuesta-incursion-proximo-sabado-ceuta-20260814101220.html"
+        }
+      ],
+      "publishedAt": "2026-08-15T04:30:00+02:00",
+      "imageURL": "/images/2026-08-15-national-001.jpg"
+    },
+    {
+      "id": "2026-08-15-national-002",
+      "category": "national",
+      "headline": "El incendio de Huesca obliga a rescatar los restos de los primeros reyes de Aragón; su presunto autor, a prisión",
+      "subtitle": "La UME trasladó los restos óseos del monasterio de San Juan de la Peña, mientras el detenido de 28 años quedaba en prisión provisional sin fianza; el fuego supera ya las 11.000 hectáreas.",
+      "body": "La UME ha rescatado del monasterio de San Juan de la Peña los restos de los primeros reyes de Aragón ante el avance del incendio declarado en Las Peñas de Riglos, en Huesca. Los restos óseos fueron trasladados a un lugar seguro para evitar que las llamas los alcanzaran.\n\nEl fuego, que se inició el lunes, ha quemado ya más de 11.000 hectáreas y ha obligado a evacuar a más de 850 personas de 18 localidades, con otras dos confinadas. Los equipos de extinción han consolidado el 40% del perímetro en una jornada complicada, con 38 medios aéreos y unos 600 efectivos trabajando sobre el terreno.\n\nMientras tanto, un juez ha decretado prisión provisional sin fianza para el detenido de 28 años, arrestado por el Seprona como presunto autor del incendio; ingresó en la cárcel de Zuera, en Zaragoza.\n\nLa Guardia Civil mantiene un dispositivo especial alrededor del fuego, con agentes del Seprona, la unidad aérea y unidades de seguridad ciudadana. El monasterio, joya del románico aragonés, permanece cerrado mientras continúan las labores de protección de su patrimonio.",
+      "sources": [
+        {
+          "name": "RTVE",
+          "url": "https://www.rtve.es/noticias/20260814/ume-rescata-restos-primeros-reyes-aragon-por-incendio-pena-riglos-huesca/17190803.shtml"
+        },
+        {
+          "name": "RTVE",
+          "url": "https://www.rtve.es/noticias/20260814/evacuan-cuatro-municipios-tras-reproduccion-del-fuego-cola-penas-riglos-huesca/17190662.shtml"
+        },
+        {
+          "name": "El País",
+          "url": "https://elpais.com/espana/2026-08-13/la-amenaza-del-fuego-obliga-a-trasladar-restos-oseos-del-monasterio-de-san-juan-de-la-pena-en-huesca.html"
+        },
+        {
+          "name": "COPE",
+          "url": "https://www.cope.es/emisoras/aragon/huesca-provincia/huesca/noticias/prision-provisional-fianza-presunto-autor-incendio-penas-riglos-huesca-20260814_3420271.html"
+        }
+      ],
+      "publishedAt": "2026-08-15T04:40:00+02:00",
+      "imageURL": "/images/2026-08-15-national-002.jpg"
+    },
+    {
+      "id": "2026-08-15-northernIreland-001",
+      "category": "northernIreland",
+      "headline": "Petrol bomb thrown at police after Bogside bonfire material removed",
+      "subtitle": "Contractors removed hundreds of pallets from the Lecky Road site citing a major gas pipeline, sparking two nights of disorder; police chiefs and Michelle O'Neill have appealed for calm.",
+      "body": "Petrol bombs were thrown at police and a motorbike was set alight in the Bogside on Wednesday night after contractors removed hundreds of pallets from the traditional August 15 bonfire site on Lecky Road.\n\nThe Department for Infrastructure said the material was removed because a “very major” gas pipeline runs beneath the road, a decision welcomed by Michelle O'Neill, who said it was right to put safety first. Around 450 pallets had been collected at the site, with more arriving in the days before the removal.\n\nPolice said a petrol bomb was thrown at officers on Bishop Street, a motorbike was set on fire and mattress and pallet material was set alight between 20:00 and 23:30, with criminal damage caused in the area. Chief Superintendent Gillian Kearney said the removal had prompted the initial incidents and appealed for calm, urging people not to put themselves or others at risk.\n\nThe operation drew criticism from Bogside Community Support, which said it was “deeply disappointed” that months of community engagement had been put at risk by an unannounced removal. Community activists said the material was due to be burned as part of the annual August 15 festivities, and accused authorities of applying double standards to bonfire sites.",
+      "sources": [
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.com/news/articles/ce85pm2e2g6o"
+        },
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.com/news/articles/cjwxpq3jynpo"
+        },
+        {
+          "name": "Derry Journal",
+          "url": "https://www.derryjournal.com/news/crime/derry-police-chief-appeals-for-calm-after-further-bogside-disturbances-linked-to-bonfire-materials-removal-8918788"
+        },
+        {
+          "name": "Irish News",
+          "url": "https://www.irishnews.com/news/northern-ireland/very-major-gas-pipeline-beneath-road-prompted-derry-bonfire-material-removal-IZTOHRJUTNFN3JRJFWN2UAWFHU/"
+        }
+      ],
+      "publishedAt": "2026-08-15T04:50:00+02:00",
+      "imageURL": "/images/2026-08-15-northernIreland-001.jpg"
+    },
+    {
+      "id": "2026-08-15-global-001",
+      "category": "global",
+      "headline": "Luigi Mangione pleads guilty to killing UnitedHealthcare CEO Brian Thompson",
+      "subtitle": "The 28-year-old changed his plea in the federal murder case over the December 2024 shooting outside a New York hotel, in which prosecutors had already agreed to take the death penalty off the table.",
+      "body": "Luigi Mangione pleaded guilty on Thursday to the federal murder of Brian Thompson, the UnitedHealthcare CEO who was shot dead outside a Midtown Manhattan hotel in December 2024.\n\nThe 28-year-old changed his plea during a court appearance that prosecutors had flagged a day earlier, ending a federal case in which the judge had already taken the death penalty off the table in January. He now faces a possible life sentence without parole.\n\nThompson was shot with a 3D-printed pistol, and ammunition found at the scene carried the words “delay”, “deny” and “depose”. Mangione was arrested days later at a McDonald's in Altoona, Pennsylvania, after a nationwide manhunt, and was later transferred to New York to face the charges.\n\nThe plea came after months of procedural battles, including disputes over a potential psychiatric defence and over the $1.5 million public defence fund raised for Mangione, which prosecutors had opposed. The case has become a flashpoint in the debate over US health insurance, with supporters casting Thompson's killer as a folk hero and critics condemning the violence.",
+      "sources": [
+        {
+          "name": "RTVE",
+          "url": "https://www.rtve.es/noticias/20260814/luigi-mangione-se-declara-culpable-asesinar-brian-thompson-ejecutivo-seguros-medicos/17191658.shtml"
+        },
+        {
+          "name": "AP News",
+          "url": "https://apnews.com/article/luigi-mangione-plea-unitedhealthcare-ceo-4fa5e27b6baef00f8465e78243a2d58e"
+        },
+        {
+          "name": "AP News",
+          "url": "https://apnews.com/article/luigi-mangione-plea-unitedhealthcare-ceo-3b8a5bb41589c9f5f4775dba2beea66f"
+        }
+      ],
+      "publishedAt": "2026-08-15T05:00:00+02:00",
+      "imageURL": "/images/2026-08-15-global-001.jpg"
+    },
+    {
+      "id": "2026-08-15-global-002",
+      "category": "global",
+      "headline": "US envoy calls settlers' siege of Palestinian homes in Qusra a 'horrific act of terror'",
+      "subtitle": "Dozens of Israeli settlers have surrounded family homes in the West Bank village since Sunday, cutting water and power; the US ambassador demanded the siege be lifted.",
+      "body": "Dozens of Israeli settlers have besieged the homes of Palestinian families in the West Bank village of Qusra, near Nablus, since Sunday, cutting off water and electricity in a standoff that has drawn an unusually sharp rebuke from Washington.\n\nThe US ambassador, Mike Huckabee, called the siege “a horrific act of terror”, described those responsible as “Israeli terrorists”, and said Israeli military and police had gone to the area “to remove the Israeli terrorists doing this”.\n\nOne family inside the homes, which include the residence of a Palestinian-American, told the AP they were “prisoners in our own house”, with food running low after five nights. Residents said settlers had also torched a mosque in the village last month, and the mayor described a “clear and sustained pattern” of attacks.\n\nAl Jazeera reported that Israeli forces were simultaneously carrying out a fourth day of raids in nearby Jenin. The episode is one of the sharpest American condemnations of settler violence in years, and comes as rights groups warn that such attacks are accelerating with little pushback from the Israeli authorities.",
+      "sources": [
+        {
+          "name": "AP News",
+          "url": "https://apnews.com/article/israel-west-bank-settler-violence-palestinian-qusra-huckabee-aad901d8ee7cf54e5e4952bf61a4f6d1"
+        },
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.com/news/articles/cn0npjkqrleo"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/14/huckabee-calls-israeli-settlers-terrorists-can-us-push-end-qusra-siege"
+        }
+      ],
+      "publishedAt": "2026-08-15T05:10:00+02:00",
+      "imageURL": "/images/2026-08-15-global-002.jpg"
+    },
+    {
+      "id": "2026-08-15-tech-001",
+      "category": "tech",
+      "headline": "Flock Safety backtracks on surveillance push after police-abuse backlash",
+      "subtitle": "The license-plate reader company announced audits and retention limits, and a new tool to catch police abuse — without saying how it works.",
+      "body": "Flock Safety, the Atlanta company whose network of around two million automatic license-plate readers is used by thousands of police agencies, is scrambling to contain a backlash after months of expanding what its cameras can do.\n\nIn a video posted this week, the company's CEO acknowledged missteps — “we got this one wrong”, he said — and announced changes including audits of sensitive data access and limits on how long footage is retained.\n\nThe company also said it is building a tool intended to identify police abuse of its systems, but TechCrunch noted it has not explained how that tool would work or who would operate it. The announcements follow coordinated protests by the “DeFlock” movement, which has organised national days of action against the surveillance network, and growing scrutiny from civil liberties groups who argue that mass plate scanning chills lawful activity.\n\nSeveral cities and counties have begun reviewing their contracts, and lawmakers in a handful of states have introduced bills to restrict how long police can keep plate data. Flock says its technology has helped solve thousands of crimes, but the episode has sharpened the debate over whether the convenience is worth the cost.",
+      "sources": [
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/policy/979339/flock-ceo-audits-data-retention"
+        },
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/tech/979869/flock-alpr-ai-surveillance-protest-privacy"
+        },
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/08/13/flock-says-its-new-tool-will-help-identify-police-abuse-but-hasnt-explained-how-it-works/"
+        },
+        {
+          "name": "AP News",
+          "url": "https://apnews.com/article/flock-license-plate-cameras-surveillance-deflock-2a93bc075e2f7ffcca9e04a35d75a3fe"
+        }
+      ],
+      "publishedAt": "2026-08-15T05:20:00+02:00",
+      "imageURL": "/images/2026-08-15-tech-001.jpg"
+    },
+    {
+      "id": "2026-08-15-tech-002",
+      "category": "tech",
+      "headline": "Instagram unveils its first new wordmark in a decade",
+      "subtitle": "Meta rolled out a refreshed script logo on Thursday, with a bolder, simpler look that Instagram head Adam Mosseri called 'cleaner and more modern'; the app icon is unchanged.",
+      "body": "Instagram has unveiled its first new wordmark in a decade, replacing the flowing script that has crowned the app since 2016 with a bolder, simpler design.\n\nThe change was announced by Instagram head Adam Mosseri on Thursday, who said the new mark was “cleaner and more modern, with references to the original and the simplicity and craft that's always made Instagram”. Meta's design team said the refresh modernises the brand while keeping the warmth of the handcrafted script, and introduces new typefaces including an updated Instagram Sans.\n\nThe app icon is unchanged, and the wordmark will roll out across the platform globally through 2026 and into next year, appearing first at the top of the app.\n\nEarly reaction has been mixed. Some praised the fresher look, while others joked that the new lettering reads as “Instagzam”, with The Verge noting the half-cursive, half-print design is “somehow less legible than its predecessor”. It is the latest in a series of brand refreshes by Meta, which redesigned Facebook's identity last year.",
+      "sources": [
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/tech/979583/this-is-instagrams-new-logo"
+        },
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/08/13/instagram-introduces-a-redesigned-wordmark"
+        },
+        {
+          "name": "Meta",
+          "url": "https://www.meta.com/design-at-meta/blog/the-new-instagram-brand-identity"
+        }
+      ],
+      "publishedAt": "2026-08-15T05:30:00+02:00",
+      "imageURL": "/images/2026-08-15-tech-002.jpg"
+    },
+    {
+      "id": "2026-08-15-ai-001",
+      "category": "ai",
+      "headline": "Auto mode becomes the default in Claude Code, with Anthropic citing a new safety study",
+      "subtitle": "From August 14, new sessions in most Claude Code plans run in auto mode; Anthropic points to evaluations claiming zero successful prompt-injection attacks, while Simon Willison urges caution on agent safety.",
+      "body": "Anthropic has made auto mode the default for new Claude Code sessions on Pro, Max and Team plans, a change that took effect on August 14. Auto mode lets Claude act without asking for permission on routine actions, relying on its own judgment within a sandbox, with the aim of reducing the constant prompts that slow agentic workflows.\n\nAnthropic is leaning on new safety data. Evaluations by Trajectory Labs found that none of 720 indirect prompt-injection attacks succeeded against Claude Fable 5, Opus 5 and Sonnet 5 running in auto mode. In a separate controlled study of 1,053 paid testers, only 13.6% of humans refused a harmful action when one was slipped into a session, while auto mode blocked 89% of the same commands.\n\nSimon Willison, who has tracked prompt-injection risks for years, said he “absolutely” buys that auto mode beats constant human approval, since confirmation fatigue makes people click through warnings. But he warned that the real test is agents with access to data, tools and the network — the “lethal trifecta” — and that the new default should push developers to think harder about what their agents can reach.\n\nUsers can still switch back to manual approval, and auto mode remains opt-in for Enterprise and API users, but Anthropic's bet is that most teams will stay in auto mode. Early adopters including Adobe, Nuro and Gusto already run it in production.",
+      "sources": [
+        {
+          "name": "Anthropic",
+          "url": "https://claude.com/blog/auto-mode-default-in-claude-code"
+        },
+        {
+          "name": "Claude Code docs",
+          "url": "https://code.claude.com/docs/en/auto-mode-config"
+        },
+        {
+          "name": "Simon Willison's blog",
+          "url": "https://simonwillison.net/2026/Aug/8/auto-mode/"
+        }
+      ],
+      "publishedAt": "2026-08-15T05:40:00+02:00",
+      "imageURL": "/images/2026-08-15-ai-001.jpg"
+    },
+    {
+      "id": "2026-08-15-ai-002",
+      "category": "ai",
+      "headline": "Anthropic confirms Claude text will carry an invisible watermark to comply with EU AI law",
+      "subtitle": "Future Claude models will embed a SynthID-style statistical pattern in generated text, undetectable to readers; some users worry the watermark will catch them using AI at work or school.",
+      "body": "Anthropic has confirmed that future Claude models will embed an invisible statistical watermark in the text they generate, a change the company says is needed to comply with the European Union's AI Act.\n\nIn a detailed explainer, Anthropic said the technique is based on Google DeepMind's SynthID-Text approach, published in Nature in 2024. The watermark lives in the random choices a model makes between equally good words, leaving a pattern that is undetectable to readers but verifiable by anyone holding the key. Internal testing found no impact on quality, creativity or readability.\n\nAnthropic is among around 190 signatories of the EU's Code of Practice on Transparency of AI-Generated Content, signed in July, and says it will apply watermarking globally at launch, with a detection API to follow. The company stressed that the watermark does not identify individual users, and that code and lightly edited text carry little or none of the signal.\n\nThe news has unsettled some users: TechCrunch reported that people fear the watermark will expose them for using Claude at work, in classes or on exams. Anthropic says light editing will not remove the mark, though a full rewrite will.",
+      "sources": [
+        {
+          "name": "Anthropic",
+          "url": "https://www.anthropic.com/news/claude-text-watermark"
+        },
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/08/11/anthropic-says-it-will-watermark-text-generated-by-its-ai-models/"
+        },
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/08/12/some-claude-users-are-mad-that-anthropics-new-watermarks-will-catch-them-cheating-at-their-jobs-classes/"
+        }
+      ],
+      "publishedAt": "2026-08-15T05:50:00+02:00",
+      "imageURL": "/images/2026-08-15-ai-002.jpg"
+    }
+  ]
+}

@@ -276,36 +276,28 @@ All commands from the repo root.
    sections.order needs an entry there or it disappears from the app's
    Sections screen — the validator warns by name when one is missing.
 
-3. Fetch and resize photos:
-      node scripts/fetch-photos.mjs docs/archive/YYYY-MM-DD.json
-   Re-running only retries what is still missing.
+3. Publish everything in one shot (photo-fetch → validate → copy → prune →
+   final validate → git add/commit/push):
+      node scripts/publish-and-push.mjs docs/archive/YYYY-MM-DD.json
 
-   Non-zero exit means some photo failed. Make ONE reasonable attempt at
-   replacements, then move on — set their imageURL to "" and continue.
+   This script handles all mechanical steps and exits with a clear code:
+     0 = published and pushed
+     1 = validation FAILED (edition NOT published — do NOT touch latest.json)
+     2 = post-validation step (cp/prune/git) failed — investigate
 
-   Confirm the JSON matches what is actually on disk before continuing.
-   A photo can download successfully and still have its path not written
-   back, which reads as a missing photo when the file is right there.
+   If it fails, read the output, fix the issue, and re-run the script.
+   To retry a specific sub-step (e.g. retry failed photos) run individual
+   commands manually, then re-run publish-and-push.mjs to finish.
 
-4. Validate:
-      node scripts/validate.mjs docs/archive/YYYY-MM-DD.json
-
-5. FAILS  → do NOT touch docs/latest.json. Write hermes/reports/YYYY-MM-DD.json
-   (hermes/report-schema.md) with published: false and the validator errors,
-   commit and push it, then stop.
-   PASSES → read the warnings anyway, then publish:
-      cp docs/archive/YYYY-MM-DD.json docs/latest.json
-
-6. Prune old photos:
-      node scripts/prune-images.mjs
-
-7. Final check against the live file:
-      node scripts/validate.mjs
-
-8. Write hermes/reports/YYYY-MM-DD.json (hermes/report-schema.md) with
-   published: true.
-
-9. Commit and push to main. GitHub Pages deploys automatically.
+4. Either way, write hermes/reports/YYYY-MM-DD.json (hermes/report-schema.md)
+   and commit and push it — this is not something publish-and-push.mjs does
+   for you:
+     exit 0 → published: true.
+     exit 1 → published: false, with the validator errors it printed. The
+       script already left docs/latest.json untouched; just write the report.
+     exit 2 → whatever you find after investigating — validation passed but
+       something mechanical broke, so this is closer to the "needs a human"
+       end of hermes/report-schema.md than an ordinary run.
 ```
 
 ### Warnings are the quality signal

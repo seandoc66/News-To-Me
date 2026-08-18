@@ -1,0 +1,589 @@
+{
+  "generatedAt": "2026-08-16T06:00:00+02:00",
+  "config": {
+    "sections": {
+      "local": {
+        "min": 4,
+        "max": 8,
+        "sources": [
+          {
+            "name": "El Progreso",
+            "url": "https://www.elprogreso.es"
+          },
+          {
+            "name": "La Voz de Galicia",
+            "url": "https://www.lavozdegalicia.es"
+          },
+          {
+            "name": "Europa Press",
+            "url": "https://www.europapress.es/galicia"
+          }
+        ]
+      },
+      "national": {
+        "min": 4,
+        "max": 8,
+        "sources": [
+          {
+            "name": "RTVE",
+            "url": "https://www.rtve.es"
+          },
+          {
+            "name": "El País",
+            "url": "https://elpais.com"
+          },
+          {
+            "name": "Europa Press",
+            "url": "https://www.europapress.es"
+          }
+        ]
+      },
+      "northernIreland": {
+        "min": 3,
+        "max": 6,
+        "sources": [
+          {
+            "name": "BBC News NI",
+            "url": "https://www.bbc.com/news/northern_ireland"
+          },
+          {
+            "name": "RTÉ News",
+            "url": "https://www.rte.ie/news"
+          },
+          {
+            "name": "Belfast Telegraph",
+            "url": "https://www.belfasttelegraph.co.uk"
+          }
+        ]
+      },
+      "global": {
+        "min": 2,
+        "max": 5,
+        "sources": [
+          {
+            "name": "BBC News",
+            "url": "https://www.bbc.com/news"
+          },
+          {
+            "name": "Reuters",
+            "url": "https://www.reuters.com"
+          },
+          {
+            "name": "AP News",
+            "url": "https://apnews.com"
+          }
+        ]
+      },
+      "tech": {
+        "min": 2,
+        "max": 4,
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com"
+          },
+          {
+            "name": "Hacker News",
+            "url": "https://news.ycombinator.com"
+          },
+          {
+            "name": "The Verge",
+            "url": "https://www.theverge.com"
+          }
+        ]
+      },
+      "ai": {
+        "min": 2,
+        "max": 4,
+        "sources": [
+          {
+            "name": "Simon Willison's blog",
+            "url": "https://simonwillison.net"
+          },
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/category/artificial-intelligence/"
+          },
+          {
+            "name": "Hacker News",
+            "url": "https://news.ycombinator.com"
+          }
+        ]
+      }
+    }
+  },
+  "articles": [
+    {
+      "id": "2026-08-16-local-001",
+      "category": "local",
+      "headline": "Lugo abarrota la catedral en el día de su patrona, la Virgen de los Ojos Grandes",
+      "subtitle": "La ciudad celebra el 15 de agosto con la tradicional ofrenda y una gran afluencia de fieles, en una jornada marcada por el anuncio del cierre temporal de la capilla de la patrona por obras de restauración.",
+      "body": "Lugo celebró este sábado, día de la Asunción, la festividad de su patrona, la Virgen de los Ojos Grandes, con la tradicional ofrenda en la catedral y una gran afluencia de fieles llegados de toda la provincia.\n\nLa jornada tuvo este año un matiz especial: tras la celebración, la capilla que acoge a la imagen cerrará temporalmente para someterse a una restauración, según anunció la diócesis, que ya prepara los trabajos en uno de los espacios más venerados de la ciudad.\n\nLa imagen de la Virgen, según avanzó la diócesis, permanecerá en el templo mientras duren las obras, de modo que los fieles podrán seguir rezando ante ella. En la misa solemne de la mañana, el obispo de Lugo ensalzó la figura de María como cooperadora de la redención y animó a mantener viva una devoción que cada 15 de agosto vuelve a llenar las calles del centro histórico.\n\nLa festividad se completó con actos en varios municipios de la provincia y con la tradicional ofrenda del Concello, en una jornada que la ciudad vivió entre la celebración y la expectativa por el futuro de la capilla, cuyos trabajos de restauración se prolongarán durante meses.",
+      "sources": [
+        {
+          "name": "El Progreso",
+          "url": "https://www.elprogreso.es/articulo/lugo/lugo-celebra-dia-patrona-antes-cierre-capilla-ollos-grandes/202608150500001991671.html"
+        },
+        {
+          "name": "La Voz de Galicia",
+          "url": "https://www.lavozdegalicia.es/noticia/lugo/lugo/2026/08/14/catedral-lugo-celebra-ofrenda-virxe-dos-ollos-grandes-cierre-capilla-obras/00031786716578455501479.htm"
+        },
+        {
+          "name": "Diócesis de Lugo",
+          "url": "https://www.diocesisdelugo.org/15-de-agosto-lugo-vuelve-ante-su-patrona"
+        },
+        {
+          "name": "El Progreso",
+          "url": "https://www.elprogreso.es/articulo/lugo/obispo-lugo-ensalza-figura-maria-como/202608151414291991862.html"
+        }
+      ],
+      "publishedAt": "2026-08-16T04:00:00+02:00",
+      "imageURL": "/images/2026-08-16-local-001.jpg"
+    },
+    {
+      "id": "2026-08-16-local-002",
+      "category": "local",
+      "headline": "El Concello de Lugo da luz verde a la residencia de 115 mayores en Recatelo",
+      "subtitle": "La Junta de Gobierno aprueba el proyecto privado de la cadena Ballesol, con una inversión de 10,9 millones de euros, presentado públicamente por la alcaldesa Elena Candia a los vecinos del barrio.",
+      "body": "La Junta de Gobierno del Concello de Lugo dio luz verde el viernes al proyecto de la nueva residencia de mayores en el barrio de Recatelo, un equipamiento privado de la cadena Ballesol que sumará 115 plazas y supondrá una inversión de 10,9 millones de euros.\n\nLa alcaldesa, Elena Candia, presentó públicamente el proyecto a los vecinos, y defendió que la ciudad necesita dar respuesta a la demanda de plazas residenciales y a la creación de empleo en el ámbito sociosanitario. El edificio se levantará en una parcela del barrio y el gobierno local subrayó que el impulso municipal fue clave para desbloquear una iniciativa que llevaba tiempo sobre la mesa.\n\nLa nueva residencia se suma a los equipamientos sociosanitarios privados que operan en la ciudad, en un contexto en el que la lista de espera para una plaza residencial pública sigue siendo uno de los principales problemas del sector en Lugo, con la residencia pública de As Gándaras aún pendiente de su apertura definitiva.",
+      "sources": [
+        {
+          "name": "El Progreso",
+          "url": "https://www.elprogreso.es/articulo/lugo/concello-da-luz-verde-recatelo-residencia-115-mayores/202608141404011991642.html"
+        },
+        {
+          "name": "La Voz de Galicia",
+          "url": "https://www.lavozdegalicia.es/noticia/lugo/lugo/2026/08/14/gobierno-lugo-presenta-residencia-privada-construira-recatelo/00031786713963317587870.htm"
+        },
+        {
+          "name": "Noticias Lugo",
+          "url": "https://www.noticiaslugo.com/2026/08/14/el-ayuntamiento-aprueba-la-construccion-de-una-nueva-residencia-de-mayores-en-recatelo/"
+        }
+      ],
+      "publishedAt": "2026-08-16T04:05:00+02:00",
+      "imageURL": "/images/2026-08-16-local-002.jpg"
+    },
+    {
+      "id": "2026-08-16-local-003",
+      "category": "local",
+      "headline": "Muere un hombre de 29 años a las puertas de un centro de salud de Lugo",
+      "subtitle": "El joven se desplomó el viernes al salir del centro de salud de la capital lucense y los sanitarios intentaron reanimarlo durante más de una hora, sin que finalmente se pudiera hacer nada por salvarle la vida.",
+      "body": "Un hombre de 29 años falleció el viernes en Lugo tras desplomarse a las puertas de un centro de salud de la ciudad. Los equipos sanitarios del propio centro y del 061 lo atendieron de inmediato y practicaron maniobras de reanimación durante más de una hora, sin que finalmente se pudiera hacer nada por salvarle la vida, según informaron fuentes de emergencias.\n\nLa muerte se produjo cuando el joven salía del centro de salud, en plena jornada, y movilizó durante largo tiempo a los servicios de urgencias, que trabajaron en el lugar mientras los usuarios del centro asistían conmocionados a la intervención.\n\nEl suceso ha reabierto en la ciudad las quejas sobre la presión asistencial de los centros de salud en verano y sobre los tiempos de respuesta de las urgencias, aunque fuentes sanitarias recordaron que cada caso depende de las circunstancias clínicas del paciente. Los servicios funerarios se hicieron cargo del cuerpo y se abrieron diligencias para esclarecer las causas del fallecimiento.",
+      "sources": [
+        {
+          "name": "El Progreso",
+          "url": "https://www.elprogreso.es/articulo/lugo/fallece-hombre-29-anos-puertas-centro-salud-lugo/202608141238541991627.html"
+        },
+        {
+          "name": "La Voz de Galicia",
+          "url": "https://www.lavozdegalicia.es/noticia/lugo/lugo/2026/08/14/muere-lucense-29-anos-tras-desplomarse-salir-centro-salud/00031786705483753159421.htm"
+        },
+        {
+          "name": "Telecinco",
+          "url": "https://www.telecinco.es/noticias/galicia/20260814/muere-hombre-desplomarse-centro-salud-lugo_18_019952144.html"
+        }
+      ],
+      "publishedAt": "2026-08-16T04:10:00+02:00",
+      "imageURL": "/images/2026-08-16-local-003.jpg"
+    },
+    {
+      "id": "2026-08-16-local-004",
+      "category": "local",
+      "headline": "Víctor Arteaga regresa al Breogán para reforzar la pretemporada celeste",
+      "subtitle": "El pívot, que disputó 28 partidos con el conjunto lucense en la temporada 2022-23, se incorpora a la preparación del Río Breogán, según confirmó el club en un anuncio recogido por la Liga Endesa.",
+      "body": "El Río Breogán anunció que Víctor Arteaga se suma a la pretemporada del primer equipo. El pívot, que ya defendió la camiseta celeste en la temporada 2022-23 con 28 partidos en la Liga Endesa, ayudará al conjunto lucense durante la preparación, según confirmó el club, en un anuncio recogido por la propia competición.\n\nLa incorporación refuerza el juego interior de un equipo que prepara su próxima temporada en la máxima categoría, y aporta experiencia, centímetros y presencia física a la pintura celeste en una pretemporada en la que el cuerpo técnico busca dar minutos a la plantilla antes del arranque liguero.\n\nEl regreso de Arteaga fue recibido con satisfacción entre la afición, que recuerda su rendimiento en su anterior etapa en Lugo. El club no ha concretado si la colaboración se limitará a la fase de preparación o podría prolongarse a lo largo de la temporada.",
+      "sources": [
+        {
+          "name": "El Progreso",
+          "url": "https://www.elprogreso.es/articulo/deporte-local-lugo/victor-arteaga-refuerza-pretemporada/202608141537251991648.html"
+        },
+        {
+          "name": "ACB (Liga Endesa)",
+          "url": "https://www.acb.com/es/liga/noticias/victor-arteaga-se-suma-a-la-pretemporada-del-rio-breogan-145780"
+        },
+        {
+          "name": "La Voz de Galicia",
+          "url": "https://www.lavozdegalicia.es/noticia/lugo/2026/08/15/victor-arteaga-regresa-breogan/0003_202608L15P32991.htm"
+        }
+      ],
+      "publishedAt": "2026-08-16T04:15:00+02:00",
+      "imageURL": "/images/2026-08-16-local-004.jpg"
+    },
+    {
+      "id": "2026-08-16-national-001",
+      "category": "national",
+      "headline": "Una riada mortal golpea Manzanedo de Valdueza, en El Bierzo: dos mujeres muertas y dos menores heridos",
+      "subtitle": "Una tromba de agua descarga el sábado por la tarde sobre la localidad leonesa y la riada sorprende a varias personas en una bodega; los menores fueron trasladados al Hospital de Ponferrada.",
+      "body": "Una violenta tromba de agua descargó el sábado por la tarde sobre la localidad leonesa de Manzanedo de Valdueza, en El Bierzo, donde la riada dejó dos mujeres fallecidas y dos menores heridos. Las víctimas, de unos 60 y 80 años, se encontraban en el interior de una bodega cuando el agua y el barro las sorprendieron, según los primeros datos del operativo de emergencias.\n\nLos dos menores, heridos de diversa consideración, fueron atendidos en el lugar y trasladados al Hospital de Ponferrada. La tromba también provocó daños en otras zonas de la comarca, como Bouzas, donde el agua arrastró vehículos, y obligó a movilizar a bomberos, Guardia Civil y emergencias del 112, que trabajaron durante horas ante la posibilidad de más afectados.\n\nLa provincia de León se encontraba bajo aviso naranja por lluvias torrenciales dentro del episodio de inestabilidad que este fin de semana cruza la península, con tormentas, granizo y viento en amplias zonas del norte y del interior.",
+      "sources": [
+        {
+          "name": "RTVE",
+          "url": "https://www.rtve.es/noticias/20260815/varias-personas-desaparecidas-tras-riada-manzanedo-valdueza-leon/17192225.shtml"
+        },
+        {
+          "name": "ABC",
+          "url": "https://www.abc.es/espana/castilla-leon/varias-personas-desaparecidas-tras-riada-manzanedo-valdueza-20260815210803-nt.html"
+        },
+        {
+          "name": "Estrella Digital",
+          "url": "https://www.estrelladigital.es/articulo/sucesos/dos-mujeres-mueren-bodega-riada-manzanedo-valdueza-ponferrada/20260815234450449920.html"
+        }
+      ],
+      "publishedAt": "2026-08-16T04:20:00+02:00",
+      "imageURL": "/images/2026-08-16-national-001.jpg"
+    },
+    {
+      "id": "2026-08-16-national-002",
+      "category": "national",
+      "headline": "Un terremoto de magnitud 5,0 sacude Granada y se siente en una decena de provincias",
+      "subtitle": "El seísmo, con epicentro en Alhendín, se registra a la 01:04 de la madrugada con una profundidad de unos dos kilómetros, provoca daños materiales en la Vega y obliga a evacuar un edificio en Las Gabias, sin heridos.",
+      "body": "Un terremoto de magnitud 5,0 con epicentro en el municipio granadino de Alhendín sacudió la madrugada del sábado la Vega de Granada y se dejó sentir en una decena de provincias, según el Instituto Geográfico Nacional. El seísmo, registrado a la 01:04 con una profundidad de unos dos kilómetros, provocó daños materiales en varias localidades del cinturón metropolitano, con desprendimientos, grietas y mobiliario caído, y obligó a evacuar de forma preventiva un edificio en Las Gabias.\n\nNo se registraron heridos, aunque el movimiento despertó a buena parte de la población, saturó las líneas de emergencia y mantuvo en vilo a los vecinos durante horas, con decenas de réplicas de menor intensidad sucediéndose a lo largo de la madrugada. La Junta de Andalucía activó la situación operativa 1 del plan sísmico para coordinar la revisión de los daños.\n\nEl seísmo recuerda al enjambre de temblores que sacudió la misma zona en enero de 2021, el episodio sísmico más notable vivido en Granada en las últimas décadas, y reabre el debate sobre la prevención sísmica en una de las áreas de mayor actividad de la península.",
+      "sources": [
+        {
+          "name": "RTVE",
+          "url": "https://www.rtve.es/noticias/20260815/terremoto-5-grados-con-epicentro-alhendin-granada-provoca-danos-materiales-se-siente-diez-provincias/17191871.shtml"
+        },
+        {
+          "name": "Ahora Granada",
+          "url": "https://www.ahoragranada.com/noticias/un-violento-terremoto-de-magnitud-5-con-epicentro-en-alhendin-sacude-granada-y-el-area-metropolitana"
+        },
+        {
+          "name": "El Ideal Gallego",
+          "url": "https://www.elidealgallego.com/actualidad/espana/2026-08-15/un-fuerte-terremoto-de-intensidad-5-sacude-granada-de-madrugada-873723.html"
+        }
+      ],
+      "publishedAt": "2026-08-16T04:25:00+02:00",
+      "imageURL": "/images/2026-08-16-national-002.jpg"
+    },
+    {
+      "id": "2026-08-16-national-003",
+      "category": "national",
+      "headline": "Ceuta vive una jornada de máxima tensión: Marruecos intercepta a 148 migrantes y expulsa a los periodistas de TVE y EFE",
+      "subtitle": "Las autoridades marroquíes cargan contra decenas de migrantes en un nuevo intento de cruce y ordenan a los periodistas españoles abandonar Castillejos sin explicaciones, mientras España mantiene 1.500 agentes en el perímetro.",
+      "body": "Ceuta vivió un sábado de máxima tensión en el segundo fin de semana de la crisis migratoria. Marruecos desplegó cientos de efectivos militares y policiales en Castillejos, la localidad fronteriza de Fnideq, y anunció la interceptación de 148 migrantes, 128 subsaharianos y 20 marroquíes, en un nuevo intento de entrada en el que sus fuerzas cargaron contra decenas de personas.\n\nEn el lado español, más de 1.500 agentes de Policía Nacional y Guardia Civil blindaron el perímetro fronterizo y la ciudad amaneció con normalidad. La jornada se tensó además con la orden de las autoridades marroquíes a los periodistas de TVE y de la Agencia EFE desplazados a Castillejos para que abandonaran la zona, sin dar explicaciones: RTVE expresó su enérgico rechazo y defendió el derecho a informar.\n\nEn paralelo, el ministro del Interior, Fernando Grande-Marlaska, aseguró que los migrantes detenidos por algún delito ya están siendo expulsados, mientras medios marroquíes informaban de que Rabat estudia suspender el acuerdo de extradición con España y Melilla ultima nuevas medidas de refuerzo en su frontera marítima.",
+      "sources": [
+        {
+          "name": "RTVE",
+          "url": "https://www.rtve.es/noticias/20260815/migrantes-ceuta-marruecos-entrada/17191891.shtml"
+        },
+        {
+          "name": "RTVE",
+          "url": "https://www.rtve.es/noticias/20260815/autoridades-marroquies-ordenan-a-periodistas-tve-agencia-efe-abandonen-castillejos/17192149.shtml"
+        },
+        {
+          "name": "20minutos",
+          "url": "https://www.20minutos.es/nacional/marlaska-dice-que-los-migrantes-irregulares-detenidos-por-algun-delito-ceuta-ya-estan-siendo-expulsados-he-dado-una-orden-clara_7025022_0.html"
+        },
+        {
+          "name": "20minutos",
+          "url": "https://www.20minutos.es/internacional/marruecos-estudia-suspender-acuerdo-extradicion-con-espana_7025166_0.html"
+        }
+      ],
+      "publishedAt": "2026-08-16T04:30:00+02:00",
+      "imageURL": "/images/2026-08-16-national-003.jpg"
+    },
+    {
+      "id": "2026-08-16-national-004",
+      "category": "national",
+      "headline": "El incendio de Niebla frena su avance por primera vez en nueve días y queda perimetrado",
+      "subtitle": "El fuego de Huelva, que ya es el más extenso de la historia de Andalucía con unas 38.000 hectáreas afectadas, frena su avance y permite que 114 personas vuelvan a casa, mientras siguen activos los incendios de Huesca y Zamora.",
+      "body": "El incendio forestal de Niebla, en Huelva, frenó su avance por primera vez en nueve días y quedó perimetrado, según informó el sábado el consejero de la Presidencia andaluz, Antonio Sanz, que cifró la superficie afectada en unas 38.000 hectáreas, lo que lo convierte en el incendio más extenso de la historia de Andalucía.\n\nMás de un millar de efectivos trabajaron durante la jornada en un perímetro de decenas de kilómetros, y 114 personas pudieron regresar a sus viviendas, mientras otras 52 permanecían reubicadas. El fuego, que el jueves entró en la provincia de Sevilla por Aznalcóllar, mantiene la zona en alerta por las altas temperaturas y el viento.\n\nLa situación sigue siendo crítica en otros puntos del país: en Huesca, el incendio del Pirineo ha arrasado más de 15.000 hectáreas y mantiene evacuados a un millar de vecinos de 19 municipios, con avisos a la población por mensajería móvil y apoyo de bomberos franceses, mientras en Zamora el fuego de Hermisende obligó a desalojar varias localidades y en Salamanca un rayo provocó un nuevo foco.",
+      "sources": [
+        {
+          "name": "RTVE",
+          "url": "https://www.rtve.es/noticias/20260815/fuego-niebla-frena-avance-perimetrado/17191929.shtml"
+        },
+        {
+          "name": "ABC",
+          "url": "https://www.abc.es/espana/andalucia/incendio-huelva-extenso-historia-andaluza-mira-sevilla-20260815013848-nts.html"
+        },
+        {
+          "name": "20minutos",
+          "url": "https://www.20minutos.es/andalucia/huelva/incendio-niebla-entra-provincia-sevilla-traves-aznalcollar_7024917_0.html"
+        }
+      ],
+      "publishedAt": "2026-08-16T04:35:00+02:00",
+      "imageURL": "/images/2026-08-16-national-004.jpg"
+    },
+    {
+      "id": "2026-08-16-northernIreland-001",
+      "category": "northernIreland",
+      "headline": "Petrol bomb thrown at Belfast house with people inside as masked men strike in early hours",
+      "subtitle": "Police are investigating after two masked men threw a petrol bomb at a property in Hatfield Street in south Belfast, damaging a window; nobody was injured and the men fled towards Balfour Avenue.",
+      "body": "Detectives in south Belfast have appealed for information after a petrol bomb was thrown at a house in Hatfield Street in the early hours of Saturday. Two masked men approached the property, ignited a petrol bomb and threw it at the house, damaging a window, before a second object failed to ignite and the pair fled towards Balfour Avenue.\n\nPeople were inside the property at the time of the attack but no one was injured, and crews from the Northern Ireland Fire and Rescue Service extinguished the resulting fire. Police said the occupants were left badly shaken by what happened.\n\nDetective Sergeant Faulkner said police are keen to speak to anyone who was in the area at the time, or who has CCTV, doorbell or dashcam footage that could assist the investigation. The attack is being treated as deliberate and police have asked anyone with information to contact them, adding that all reports will be treated in confidence.",
+      "sources": [
+        {
+          "name": "Belfast Telegraph",
+          "url": "https://www.belfasttelegraph.co.uk/area/south-belfast/news/petrol-bomb-attack-on-house-in-south-belfast-as-masked-men-strike-in-early-hours/a/160071958.html"
+        },
+        {
+          "name": "Derry Now",
+          "url": "https://www.derrynow.com/national/people-inside-property-during-petrol-bomb-attack-8922916"
+        },
+        {
+          "name": "The Irish News",
+          "url": "https://www.irishnews.com/news/northern-ireland/multiple-people-inside-belfast-house-targeted-with-petrol-bomb-D76WEFJU7ZCPLBWIRFYKKXRYIY/"
+        },
+        {
+          "name": "PSNI",
+          "url": "https://www.psni.police.uk/latest-news/police-appeal-information-following-petrol-bomb-attack"
+        }
+      ],
+      "publishedAt": "2026-08-16T04:40:00+02:00",
+      "imageURL": "/images/2026-08-16-northernIreland-001.jpg"
+    },
+    {
+      "id": "2026-08-16-northernIreland-002",
+      "category": "northernIreland",
+      "headline": "Bogside bonfire set alight beside Derry's Lecky Road flyover after week of removal controversy",
+      "subtitle": "Youths lit the structure just before 23:00 on Saturday with fireworks and a large crowd watching, days after nearly 500 pallets were removed from under the flyover over fire safety fears.",
+      "body": "A bonfire was set alight beside the Lecky Road flyover in Derry on Saturday night, days after nearly 500 pallets had been removed from beneath the structure amid a week of controversy. Youths placed pallets at the bottom of the flyover and set fire to them shortly before 23:00, with fireworks let off and a large crowd gathering to watch while police observed from the city walls overlooking the Bogside.\n\nThe pallets had been removed during the week by the Department for Infrastructure, with PSNI protection, which said the illegal storage posed a significant fire safety risk because gas mains run beneath the tarmac. The Lecky Road had already been closed twice during the week when materials were set alight, and a petrol bomb was thrown at police in Bishop Street.\n\nOn Friday evening, youths again blocked the flyover and built a new structure at its base, causing major disruption for motorists. Police reported minor disturbances on Saturday night, including sectarian abuse and a small number of missiles thrown, and moved about 30 people on from a section of the city walls.",
+      "sources": [
+        {
+          "name": "BBC News NI",
+          "url": "https://www.bbc.co.uk/news/articles/c78gg7d284mo"
+        },
+        {
+          "name": "The Irish News",
+          "url": "https://www.irishnews.com/news/northern-ireland/bonfire-structure-causes-major-disruption-in-derry-MUECTVXFXZC57DYDO7DPH7Y52E/"
+        },
+        {
+          "name": "BBC News NI",
+          "url": "https://www.bbc.co.uk/news/articles/ce85pm2e2g6o"
+        }
+      ],
+      "publishedAt": "2026-08-16T04:45:00+02:00",
+      "imageURL": "/images/2026-08-16-northernIreland-002.jpg"
+    },
+    {
+      "id": "2026-08-16-northernIreland-003",
+      "category": "northernIreland",
+      "headline": "DUP says Sinn Féin avoiding 'own failures' after A5 Plantation comments",
+      "subtitle": "West Tyrone MLA Tom Buchanan hits back after former MP Francie Molloy linked delays to the Derry-Aughnacloy upgrade to landowner opposition rooted in the Plantation of Ulster.",
+      "body": "The DUP has accused Sinn Féin of trying to avoid responsibility for its own failures after former MP Francie Molloy suggested delays to the A5 upgrade could be linked to landowner opposition rooted in the Plantation of Ulster. Molloy made the remarks on BBC Radio Ulster's Nolan Show when asked whether Sinn Féin's base feels the party is delivering, after the presenter noted it has not delivered the A5.\n\nDUP MLA Tom Buchanan, whose West Tyrone constituency the road crosses, said reaching back more than 400 years to explain Sinn Féin's inability to deliver a road in 2026 is the hallmark of a party divorced from reality. He said many farmers were denied access to their property without receiving a penny in compensation, and that the department's approach to compulsory purchase and vesting has been appallingly poor.\n\nThe 58-mile upgrade, first announced in 2007 and given the go-ahead by Stormont ministers in October 2024, has been repeatedly delayed by court proceedings. Sinn Féin said Molloy does not represent the party. People in West Tyrone want the A5 delivered, Buchanan said, not another Sinn Féin excuse.",
+      "sources": [
+        {
+          "name": "BBC News NI",
+          "url": "https://www.bbc.com/news/articles/cd0xpdn5y07o"
+        },
+        {
+          "name": "The Irish News",
+          "url": "https://www.irishnews.com/news/northern-ireland/ex-sinn-fein-mp-blames-ulster-plantation-for-a5-delays-TEJC6L676RBTJHXB2YUPODRRGA"
+        },
+        {
+          "name": "DUP",
+          "url": "https://mydup.com/news/sinn-fein-should-stop-blaming-1609-for-a5-failure"
+        }
+      ],
+      "publishedAt": "2026-08-16T04:50:00+02:00",
+      "imageURL": "/images/2026-08-16-northernIreland-003.jpg"
+    },
+    {
+      "id": "2026-08-16-northernIreland-004",
+      "category": "northernIreland",
+      "headline": "Derry Féile draws to a close with carnival parade through Bogside and Brandywell",
+      "subtitle": "The Our Place, Our People parade capped an 11-day programme of more than 150 events which organisers say makes the festival one of the largest community-led events on the island of Ireland.",
+      "body": "Derry's Féile drew to a close on Saturday with the Our Place, Our People carnival parade through the Bogside and Brandywell, capping an 11-day programme of more than 150 events that organisers say makes it one of the largest community-led festivals on the island of Ireland.\n\nThe parade, which set off from Charlotte Street and wound through Bishop Street to finish at the mural of Sr Clare Crockett in the Brandywell, celebrated the history and people of the two neighbourhoods, from the era of St Colmcille to the civil rights campaign and local figures including Ryan McBride and Sr Clare Crockett.\n\nFéile's Eibhlín Morrison said residents, sports clubs and community groups had spent months helping to create a carnival atmosphere while reflecting the area's history. Now in its 34th year, the festival hosted events in more than 40 venues across the city and organisers estimate more than 20,000 people attended since it opened on 5 August, with David Kitt and DJ Mano Le Tough due to close the programme with performances in the city on Saturday evening.",
+      "sources": [
+        {
+          "name": "BBC News NI",
+          "url": "https://www.bbc.co.uk/news/articles/ce97531dr53o"
+        },
+        {
+          "name": "Derry Journal",
+          "url": "https://www.derryjournal.com/news/people/feile-carnival-parade-set-to-bring-bogside-and-brandywell-streets-alive-8919976"
+        },
+        {
+          "name": "Derry Now",
+          "url": "https://www.derrynow.com/whats-on/our-place-our-people-showcase-ready-to-bring-derry-streets-alive-8921415"
+        }
+      ],
+      "publishedAt": "2026-08-16T04:55:00+02:00",
+      "imageURL": "/images/2026-08-16-northernIreland-004.jpg"
+    },
+    {
+      "id": "2026-08-16-global-001",
+      "category": "global",
+      "headline": "Magnitude 7.7 earthquake off Flores kills at least 38 in eastern Indonesia",
+      "subtitle": "The quake struck early on Saturday about 60 kilometres north of Ende, triggering a brief tsunami warning, as aftershocks and thousands of evacuated residents complicated rescue efforts.",
+      "body": "A powerful magnitude 7.7 earthquake struck early on Saturday off the northern coast of Flores island in eastern Indonesia, killing at least 38 people, according to authorities, and leaving dozens more injured. The quake, centred about 60 kilometres north-northwest of the town of Ende at a depth of around 10 kilometres, was felt across East Nusa Tenggara province and sent residents fleeing from their homes in the dark.\n\nA tsunami warning was issued for coastal areas of the Flores Sea before being lifted, and thousands of people evacuated to higher ground. Officials reported hundreds of damaged buildings across several districts, with rescue teams searching for people believed to be trapped under collapsed structures.\n\nAftershocks, including one of magnitude 6.1, continued through the morning, hampering the relief effort in a region where many villages sit at the foot of steep, forested hills. Indonesia, which sits on the Pacific Ring of Fire, is regularly hit by powerful earthquakes and volcanic eruptions.",
+      "sources": [
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.com/news/articles/c5y0zz63gero"
+        },
+        {
+          "name": "CNN",
+          "url": "https://www.cnn.com/2026/08/14/asia/indonesia-earthquake-intl-latam"
+        },
+        {
+          "name": "ABC News",
+          "url": "https://abcnews.com/International/2-dead-after-powerful-77-earthquake-strikes-off/story?id=135664681"
+        }
+      ],
+      "publishedAt": "2026-08-16T05:00:00+02:00",
+      "imageURL": "/images/2026-08-16-global-001.jpg"
+    },
+    {
+      "id": "2026-08-16-global-002",
+      "category": "global",
+      "headline": "South Korea's Lee proposes talks to formally end the Korean War",
+      "subtitle": "In his Liberation Day address, President Lee Jae-myung called for replacing the 1953 armistice with a peace regime, while insisting denuclearisation remains a precondition for any deal.",
+      "body": "South Korean President Lee Jae-myung used his Liberation Day address to propose talks with North Korea on formally ending the Korean War, which concluded with an armistice in 1953 rather than a peace treaty. Speaking at the ceremony marking the 81st anniversary of Korea's liberation from Japanese rule, Lee said a peace regime that replaces the armistice is within reach if both sides commit to dialogue, while stressing that denuclearisation remains a precondition.\n\nHe also outlined plans to strengthen deterrence, including a proposal to build a force of hundreds of thousands of drone warriors to counter the North's military, which has continued to develop nuclear and missile programmes in defiance of international sanctions.\n\nThe proposal echoes similar overtures made in previous years, which have foundered over the North's weapons programmes and the reluctance of the international community to ease sanctions. Seoul and Washington maintain that any peace process must be accompanied by verifiable denuclearisation, a position Pyongyang has repeatedly rejected.",
+      "sources": [
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/c8en2z9jp2xo"
+        },
+        {
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/aug/15/south-koreas-lee-urges-talks-with-north-korea-about-finally-ending-korean-war"
+        },
+        {
+          "name": "ABS-CBN News",
+          "url": "https://www.abs-cbn.com/news/world/2026/8/15/south-korea-president-proposes-talks-with-north-to-formally-end-korean-war-1453"
+        }
+      ],
+      "publishedAt": "2026-08-16T05:05:00+02:00",
+      "imageURL": "/images/2026-08-16-global-002.jpg"
+    },
+    {
+      "id": "2026-08-16-global-003",
+      "category": "global",
+      "headline": "France's top court blocks social media ban for under-15s",
+      "subtitle": "The Constitutional Council struck down a law requiring parental consent for minors to open social media accounts, ruling that the age-verification requirements disproportionately restricted freedom of expression.",
+      "body": "France's Constitutional Council has struck down a law that would have required under-15s to obtain parental authorisation before opening accounts on social media platforms, ruling that it disproportionately restricted freedom of expression. The law, approved by parliament earlier this summer, would also have forced platforms to verify users' ages more strictly.\n\nThe Council said the age-verification requirements and the penalties attached were not proportionate to the goal of protecting minors, and that less restrictive alternatives exist. The ruling is a setback for the government, which had championed the measure as a flagship of its child-safety agenda, and for campaigners who argue platforms expose children to harmful content.\n\nThe government said it would study the ruling and could return with revised legislation, while privacy advocates welcomed the decision, arguing that crude age checks risked forcing all users to hand over personal documents. The ruling does not affect other EU-wide obligations, including the Digital Services Act's protections for minors.",
+      "sources": [
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cx2vj433xqlo"
+        },
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/world/frances-top-court-rules-social-media-ban-curtails-freedom-expression-2026-08-14"
+        },
+        {
+          "name": "PBS NewsHour",
+          "url": "https://www.pbs.org/newshour/world/frances-top-court-blocks-under-15-social-media-ban-citing-constitutional-freedoms"
+        }
+      ],
+      "publishedAt": "2026-08-16T05:10:00+02:00",
+      "imageURL": "/images/2026-08-16-global-003.jpg"
+    },
+    {
+      "id": "2026-08-16-global-004",
+      "category": "global",
+      "headline": "Five years after the Taliban's return, Afghan women describe lives they no longer recognise",
+      "subtitle": "On the anniversary of Kabul's fall, women tell the BBC how bans on education and work have transformed daily life, as analysts question how much influence the West still holds.",
+      "body": "Afghanistan marked five years since the Taliban's return to power on 15 August 2021, an anniversary that has brought renewed attention to the toll of their rule. In interviews with the BBC, Afghan women described lives they say are unrecognisable, with girls barred from secondary school and university and women excluded from most jobs and public life.\n\nThe economy remains in deep crisis, with the United Nations warning that millions face acute hunger and that humanitarian funding is shrinking. Analysts also question how much influence the West retains: with no formal recognition of the Taliban government, diplomatic channels are limited, and sanctions remain in place even as some countries cautiously engage.\n\nHuman rights groups say the Taliban's restrictions, particularly on women, have tightened rather than eased over the five years, and call for a coordinated international response that keeps pressure on the authorities while preserving humanitarian access to the country's most vulnerable people.",
+      "sources": [
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/clyje43dz4eo"
+        },
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cm2gp5g0xngo"
+        },
+        {
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/global-development/2026/aug/15/five-years-taliban-rule-afghanistan-collapse-visualised"
+        }
+      ],
+      "publishedAt": "2026-08-16T05:15:00+02:00",
+      "imageURL": "/images/2026-08-16-global-004.jpg"
+    },
+    {
+      "id": "2026-08-16-tech-001",
+      "category": "tech",
+      "headline": "Apple proposes to take a 15% cut of purchases made outside the App Store",
+      "subtitle": "In a court filing, Apple proposed commissions of up to 15% on purchases made through external links in iOS apps, with 5% for small businesses and 10% for partner programmes and renewals.",
+      "body": "Apple has filed its proposed commission structure for purchases made through external links inside iOS apps, in the latest twist in its long-running battle with Epic Games. In a filing in the US District Court for the Northern District of California, Apple proposed a 15% commission for standard apps, falling to 5% for small business developers and 10% for developers in its Video, News and Mini Apps partner programmes, with subscription renewals also at 10%.\n\nThe proposal follows the Supreme Court's decision to reject Apple's bid to pause the lower-court proceedings, forcing the company to reveal its pricing plans after years of resisting. Apple argues the fees are justified by its investment in the App Store and the tools it provides, and notes that Google Play charges 20% for link-out purchases by standard apps, a rate Epic Games agreed to.\n\nEpic has long argued that Apple's commissions are anticompetitive, and the two companies remain locked in litigation that has already reshaped app store economics, including the way developers link out to their own payment systems.",
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/08/14/apple-proposes-to-take-a-15-cut-of-purchases-made-outside-the-app-store/"
+        },
+        {
+          "name": "9to5Mac",
+          "url": "https://9to5mac.com/2026/08/13/apple-proposes-commissions-of-up-to-15-for-off-app-store-purchases-in-the-us/"
+        },
+        {
+          "name": "Game World Observer",
+          "url": "https://gameworldobserver.com/2026/08/14/apple-wants-to-charge-up-to-a-15-commission-on-purchases-outside-the-app-store-in-the-u-s/"
+        }
+      ],
+      "publishedAt": "2026-08-16T05:20:00+02:00",
+      "imageURL": "/images/2026-08-16-tech-001.jpg"
+    },
+    {
+      "id": "2026-08-16-tech-002",
+      "category": "tech",
+      "headline": "Talks to sell PayPal to Stripe and Advent are heating up",
+      "subtitle": "The Wall Street Journal reports negotiations have intensified months after Stripe and Advent offered $60.50 a share, valuing the payments company at about $53 billion.",
+      "body": "Negotiations to sell PayPal to Stripe and private equity firm Advent have intensified, the Wall Street Journal reported, citing unnamed sources, raising the prospect that the payments pioneer could change hands within weeks. The two companies offered $60.50 a share for PayPal in July, a deal that would value it at about $53 billion, but PayPal balked at the initial approach.\n\nThe renewed talks come as CEO Enrique Lores, who joined in March after years at HP, pushes a turnaround plan that includes splitting the business into three operating units covering checkout, consumer financial services and payment services, and cutting the workforce by 20% over the next two to three years.\n\nPayPal declined to comment on the report, while a Stripe spokesperson said the company does not comment on rumours or speculation. A sale would cap one of the most dramatic chapters in fintech for a company founded in 1998 by a group of entrepreneurs including Peter Thiel and Elon Musk, which ballooned during the pandemic before its stock stagnated.",
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/08/14/talks-to-sell-paypal-to-stripe-and-advent-are-heating-up/"
+        },
+        {
+          "name": "The Wall Street Journal",
+          "url": "https://www.wsj.com/business/deals/stripe-advent-in-talks-to-buy-paypal-ea6aa2ba"
+        },
+        {
+          "name": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/stripe-advent-bid-60-50-202741307.html"
+        }
+      ],
+      "publishedAt": "2026-08-16T05:25:00+02:00",
+      "imageURL": "/images/2026-08-16-tech-002.jpg"
+    },
+    {
+      "id": "2026-08-16-ai-001",
+      "category": "ai",
+      "headline": "Google will now allow users to remove the visible watermark from its AI generations",
+      "subtitle": "A new toggle in Gemini and Flow lets users turn off visible marks on images, videos and songs from the Nano Banana, Omni and Lyria models, while invisible SynthID and C2PA metadata remain.",
+      "body": "Google has announced that users will be able to remove the visible watermark from AI-generated content, including images, videos and songs, in a change that reflects an evolving approach to labelling AI media. The toggle will be available for content produced by the Nano Banana, Omni and Lyria models, and can be switched off under Settings, in the Media Watermark section, in Gemini and in Google's video editor Flow, with support for Search coming soon.\n\nGoogle stressed that removing the visible mark does not affect the invisible SynthID watermark or the C2PA metadata attached to AI-generated files, so content can still be identified as machine-made. Josh Woodward, the company's vice president for Gemini, said the move strikes a balance between creative control and safety.\n\nThe company is also open-sourcing Credentio, a library that lets developers embed C2PA validation directly in their apps. The change follows Anthropic's decision to add watermarks to text and files generated by Claude, a move that proved controversial with some users.",
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/08/14/google-will-now-allow-users-to-remove-visible-watermark-from-its-ai-generations/"
+        },
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/tech/980416/google-gemini-ai-watermarks-removal"
+        },
+        {
+          "name": "Entarabi",
+          "url": "https://entarabi.com/en/2026/08/google-now-allows-users-to-remove-visible-watermarks-from-ai-generated-content"
+        }
+      ],
+      "publishedAt": "2026-08-16T05:30:00+02:00",
+      "imageURL": "/images/2026-08-16-ai-001.jpg"
+    },
+    {
+      "id": "2026-08-16-ai-002",
+      "category": "ai",
+      "headline": "Kog is going deeper to squeeze more inference out of GPUs",
+      "subtitle": "The French startup, which demoed 3,000 tokens per second of single-request decoding on standard data-centre GPUs, has open-sourced the Laneformer 2B model behind the milestone.",
+      "body": "French AI startup Kog is betting that conventional GPUs have far more inference performance to give, and has open-sourced the model behind its attention-grabbing demo. The company, founded by Gaël Delalleau, hit the front page of Hacker News in May with a technical preview showing extremely fast single-request decoding on standard data-centre GPUs such as the AMD MI300X and Nvidia H200, at roughly 3,000 tokens per second.\n\nThe demo used a purpose-built model of about two billion parameters, Laneformer 2B, which is now open-sourced on Hugging Face. Delalleau says the startup has collected around 200 tangible business leads, with software engineering the first target market, and is aiming for 30x faster LLM inference as it scales the approach to larger models.\n\nInvestors including Varsity VC backed Kog's seed round. The startup positions itself between GPU-optimisation rivals and academic labs such as Stanford's Hazy Research, arguing that newer GPUs have memory bandwidth that software can unlock, and that the idea GPUs are poorly suited to fast decoding is a misconception.",
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/08/14/kog-is-going-deeper-to-squeeze-more-inference-out-of-gpus/"
+        },
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48321076"
+        },
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/kogai/laneformer-2b-it"
+        }
+      ],
+      "publishedAt": "2026-08-16T05:35:00+02:00",
+      "imageURL": "/images/2026-08-16-ai-002.jpg"
+    }
+  ]
+}
