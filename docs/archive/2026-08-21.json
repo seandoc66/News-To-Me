@@ -118,7 +118,7 @@
       "category": "local",
       "headline": "El 'triángulo sísmico' de Lugo: Sarria, Triacastela y Becerreá concentran los mayores terremotos de la provincia",
       "subtitle": "Sarria, Triacastela y Becerreá concentran más de la mitad de los seísmos que se registran cada año en Galicia. El Progreso repasa la historia sísmica de la montaña lucense, desde el terremoto de Guilfrei de 1997 hasta el derrumbe de la catedral de Lugo en 1755.",
-      "body": "Sarria, Triacastela y Becerreá forman lo que los sismólogos llaman el 'triángulo sísmico' de Lugo: la zona de la provincia donde se concentran más de la mitad de los terremotos que se registran cada año en Galicia. El Progreso repasa esta semana la historia sísmica de la montaña lucense, en plena semana de réplicas en Granada.\n\nEl episodio más reciente de importancia fue el terremoto de Guilfrei, en Triacastela, del 22 de mayo de 1997: con magnitud 5,1, se sintió en toda Galicia y en el oeste de Castilla y León y provocó un fallecimiento por infarto en Becerreá. Antes, en 1995, la zona ya había registrado seísmos de 4,7 en Baralla y Triacastela, y en 1979 uno de 4,6 en Sarria causó daños y pánico, con vecinos que salieron despavoridos incluso de la catedral de Lugo.\n\nLa falla de Becerreá, de unos 40 kilómetros de longitud y hasta 9.000 metros de profundidad, es la gran responsable. El Instituto Geográfico Nacional recoge estos episodios en su catálogo de terremotos importantes, y el riesgo actual se considera mínimo: Galicia es zona de riesgo sísmico desde 2002 y cuenta con el plan Sismigal y una red de sismógrafos portátiles.\n\nLa memoria histórica va más lejos: el terremoto de Lisboa de 1755, de magnitud 8,5, derribó la bóveda central y la fachada oeste de la catedral de Lugo. Mientras tanto, la actividad sísmica de Granada sigue copando titulares, lo que reaviva la curiosidad por el subsuelo de la provincia.",
+      "body": "Sarria, Triacastela y Becerreá forman lo que los sismólogos llaman el 'triángulo sísmico' de Lugo: la zona de la provincia donde se concentran más de la mitad de los terremotos que se registran cada año en Galicia. El Progreso repasa esta semana la historia sísmica de la montaña lucense, en plena semana de réplicas en Granada.\n\nEl episodio más reciente de importancia fue el terremoto de Guilfrei, en Triacastela, del 22 de mayo de 1997: con magnitud 5,1, se sintió en toda Galicia y en el oeste de Castilla y León y provocó un fallecimiento por infarto en Becerreá.\n\nAntes, en 1995, la zona ya había registrado seísmos de 4,7 en Baralla y Triacastela, y en 1979 uno de 4,6 en Sarria causó daños y pánico, con vecinos que salieron despavoridos incluso de la catedral de Lugo.\n\nLa falla de Becerreá, de unos 40 kilómetros de longitud y hasta 9.000 metros de profundidad, es la gran responsable. El Instituto Geográfico Nacional recoge estos episodios en su catálogo de terremotos importantes, y el riesgo actual se considera mínimo: Galicia es zona de riesgo sísmico desde 2002 y cuenta con el plan Sismigal y una red de sismógrafos portátiles.\n\nLa memoria histórica va más lejos: el terremoto de Lisboa de 1755, de magnitud 8,5, derribó la bóveda central y la fachada oeste de la catedral de Lugo. Mientras tanto, la actividad sísmica de Granada sigue copando titulares, lo que reaviva la curiosidad por el subsuelo de la provincia.",
       "sources": [
         {
           "name": "El Progreso",
@@ -139,7 +139,7 @@
     {
       "id": "2026-08-21-local-002",
       "category": "local",
-      "headline": "La sequía aprieta a la ganadería de Lugo: las lácteas reciben agua en cisternas y UU.AA. cifra en 52,5 millones las pérdidas en forrajes",
+      "headline": "La sequía aprieta a la ganadería de Lugo: cisternas para las lácteas y 52,5 millones en pérdidas de forrajes",
       "subtitle": "Lactalis traslada agua a su planta de Vilalba y Larsa empezará a tomar suministro en Outeiro de Rei. UU.AA. cifra en 52,5 millones las pérdidas en forrajes y pastos de la provincia, y el Miño baja con seis grados más de temperatura que hace veinte años.",
       "body": "La sequía empieza a notarse en la industria láctea de Lugo. Lactalis, que tiene planta en Vilalba, ha comenzado a completar sus necesidades de agua con traslados en cisterna a la fábrica, mientras que Larsa empezará a tomar suministro en la captación de Outeiro de Rei, según informa La Voz de Galicia.\n\nEn el campo, las pérdidas se acumulan: la organización agraria UU.AA. cifra en 52,5 millones de euros las pérdidas en forrajes y pastos en la provincia de Lugo a causa de la falta de lluvias, una factura que condicionará la alimentación del ganado este invierno.\n\nEl río Azúmara, a su paso por Castro de Rei, muestra un caudal muy bajo, y el Miño a su paso por Lugo refleja también el estiaje: la temperatura del agua ha subido seis grados en veinte años, en contraste con el alto nivel de los ríos de otras zonas como Cataluña.\n\nLas industrias aseguran que, por ahora, el abastecimiento está garantizado y que las cisternas son una medida preventiva, pero admiten que la situación exige vigilancia si el otoño no trae lluvias.",
       "sources": [
@@ -327,6 +327,11 @@
     {
       "id": "2026-08-21-northernIreland-001",
       "category": "northernIreland",
+      "photoCandidate": {
+        "url": "https://www.irishnews.com/resizer/v2/SFNOJRYCRJH4NK2GH4DYMW5VOM.JPG?smart=true&amp;auth=2fefd8b63ed2f6dd675af14031b9c11b877e839b8c4e89d7293e0aebdc86feee&amp;width=1200&amp;height=630",
+        "description": "og:image from Irish News",
+        "license": "fair-use"
+      },
       "headline": "New health minister 'not yet' as Burrows pledges replacement and Robbie Butler emerges as frontrunner",
       "subtitle": "First Minister Jon Burrows pledges to name a new Stormont health minister 'but not yet', as Robbie Butler emerges as the frontrunner to replace Mike Nesbitt and Causeway campaigners demand the next minister commit to saving services.",
       "body": "Northern Ireland will get a new health minister, but not immediately. First Minister Jon Burrows has pledged to name a successor to Mike Nesbitt, who resigned on Monday over the handling of the Causeway Hospital row, while insisting the appointment will be made in due course.\n\nRobbie Butler is emerging as the frontrunner, with SDLP MLA Dr Tom Black paying tribute to Nesbitt's difficult job in a divided Executive. Butler, a former firefighter and the DUP's health spokesperson, would inherit a department facing crisis-level pressures.\n\nCauseway Hospital campaigners are pressing the incoming minister to commit to saving services in line with Burrows' own declaration, and argue the row has forced a tipping point in how crucial reform of the health service will be handled.\n\nThe appointment is being watched closely across the north-west, where the future of emergency services at Causeway remains the defining political issue of the summer.",
@@ -348,12 +353,7 @@
           "url": "https://www.irishnews.com/news/northern-ireland/causeway-hospital-row-forces-tipping-point-in-how-crucial-reform-of-ni-health-service-will-be-handled-W3CQXHTG5RFILPJQLZQU5ZHM4E/"
         }
       ],
-      "publishedAt": "2026-08-21T06:00:00+02:00",
-      "photoCandidate": {
-        "url": "https://www.irishnews.com/resizer/v2/SFNOJRYCRJH4NK2GH4DYMW5VOM.JPG?smart=true&amp;auth=2fefd8b63ed2f6dd675af14031b9c11b877e839b8c4e89d7293e0aebdc86feee&amp;width=1200&amp;height=630",
-        "description": "og:image from Irish News",
-        "license": "fair-use"
-      }
+      "publishedAt": "2026-08-21T06:00:00+02:00"
     },
     {
       "id": "2026-08-21-northernIreland-002",
