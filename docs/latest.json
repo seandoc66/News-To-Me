@@ -327,11 +327,6 @@
     {
       "id": "2026-08-21-northernIreland-001",
       "category": "northernIreland",
-      "photoCandidate": {
-        "url": "https://www.irishnews.com/resizer/v2/SFNOJRYCRJH4NK2GH4DYMW5VOM.JPG?smart=true&amp;auth=2fefd8b63ed2f6dd675af14031b9c11b877e839b8c4e89d7293e0aebdc86feee&amp;width=1200&amp;height=630",
-        "description": "og:image from Irish News",
-        "license": "fair-use"
-      },
       "headline": "New health minister 'not yet' as Burrows pledges replacement and Robbie Butler emerges as frontrunner",
       "subtitle": "First Minister Jon Burrows pledges to name a new Stormont health minister 'but not yet', as Robbie Butler emerges as the frontrunner to replace Mike Nesbitt and Causeway campaigners demand the next minister commit to saving services.",
       "body": "Northern Ireland will get a new health minister, but not immediately. First Minister Jon Burrows has pledged to name a successor to Mike Nesbitt, who resigned on Monday over the handling of the Causeway Hospital row, while insisting the appointment will be made in due course.\n\nRobbie Butler is emerging as the frontrunner, with SDLP MLA Dr Tom Black paying tribute to Nesbitt's difficult job in a divided Executive. Butler, a former firefighter and the DUP's health spokesperson, would inherit a department facing crisis-level pressures.\n\nCauseway Hospital campaigners are pressing the incoming minister to commit to saving services in line with Burrows' own declaration, and argue the row has forced a tipping point in how crucial reform of the health service will be handled.\n\nThe appointment is being watched closely across the north-west, where the future of emergency services at Causeway remains the defining political issue of the summer.",
@@ -353,7 +348,8 @@
           "url": "https://www.irishnews.com/news/northern-ireland/causeway-hospital-row-forces-tipping-point-in-how-crucial-reform-of-ni-health-service-will-be-handled-W3CQXHTG5RFILPJQLZQU5ZHM4E/"
         }
       ],
-      "publishedAt": "2026-08-21T06:00:00+02:00"
+      "publishedAt": "2026-08-21T06:00:00+02:00",
+      "imageURL": "/images/2026-08-21-northernIreland-001.jpg"
     },
     {
       "id": "2026-08-21-northernIreland-002",
