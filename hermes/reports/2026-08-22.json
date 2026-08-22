@@ -1,0 +1,19 @@
+{
+  "date": "2026-08-22",
+  "published": true,
+  "publishedAt": "2026-08-22T06:00:00+02:00",
+  "sections": {
+    "present": ["local", "national", "northernIreland", "global", "tech", "ai"],
+    "missing": []
+  },
+  "storiesWithoutPhoto": [],
+  "validatorWarnings": [],
+  "validatorErrors": [],
+  "workarounds": [
+    "Irish News og:image URL for northernIreland-003 was captured with HTML-escaped &amp; entities, which caused HTTP 400 on the first photo fetch; unescaped the URL and the photo downloaded on re-run.",
+    "Cobalt homepage URL (https://bandarlabs.github.io/Cobalt/) is a single-segment path and fails the story-URL check in validate.mjs; cited the Hacker News item (item?id=49390427) instead."
+  ],
+  "needsHumanAttention": false,
+  "humanAttentionReason": null,
+  "notes": "Quiet Saturday edition: 17 stories with local, global and tech at their minimums. The Ceuta migrant crisis dominates the national section (diplomatic channel via the King, Morocco's claims, smuggling networks dismantled). All 17 stories shipped with photos."
+}
