@@ -203,11 +203,7 @@
         }
       ],
       "publishedAt": "2026-08-24T06:00:00+02:00",
-      "photoCandidate": {
-        "url": "https://img.rtve.es/n/17199032?h=300",
-        "description": "Marruecos pide a España que devuelva a los migrantes supervivientes y fallecidos en la entrada masiva a Ceuta.",
-        "license": "news"
-      }
+      "imageURL": "/images/2026-08-24-national-002.jpg"
     },
     {
       "id": "2026-08-24-national-003",
