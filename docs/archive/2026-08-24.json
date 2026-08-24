@@ -179,7 +179,8 @@
           "url": "https://elpais.com/espana/2026-08-21/el-gran-desalojo-de-la-playa-de-el-trampolin-no-es-para-ir-a-marruecos-es-una-jaima-buena.html"
         }
       ],
-      "publishedAt": "2026-08-24T06:00:00+02:00"
+      "publishedAt": "2026-08-24T06:00:00+02:00",
+      "imageURL": "/images/2026-08-24-national-001.jpg"
     },
     {
       "id": "2026-08-24-national-002",
@@ -203,7 +204,7 @@
       ],
       "publishedAt": "2026-08-24T06:00:00+02:00",
       "photoCandidate": {
-        "url": "https://img.rtve.es/v/17199139?w=400",
+        "url": "https://img.rtve.es/n/17199032?h=300",
         "description": "Marruecos pide a España que devuelva a los migrantes supervivientes y fallecidos en la entrada masiva a Ceuta.",
         "license": "news"
       }
@@ -251,7 +252,8 @@
           "url": "https://elpais.com/espana/2026-06-11/unos-narcos-disparan-contra-agentes-de-la-guardia-civil-en-un-alijo-frustrado-en-huelva-que-no-deja-heridos.html"
         }
       ],
-      "publishedAt": "2026-08-24T06:00:00+02:00"
+      "publishedAt": "2026-08-24T06:00:00+02:00",
+      "imageURL": "/images/2026-08-24-national-004.jpg"
     },
     {
       "id": "2026-08-24-national-005",
