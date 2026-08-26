@@ -60,8 +60,11 @@ deciding to give it one.
 
 ### How many
 
-`config.json → sections.storiesPerSection` gives the range to aim for, driven
-entirely by what is genuinely newsworthy.
+`config.json → sections.storiesPerSection` gives the range to aim for, keyed by
+section like `locale.outputLanguage` — `default` covers any section not named.
+Local and Northern Ireland run narrower (1–3) than the rest; AI runs wider
+(4–6). Read the current values per section rather than assuming a single range
+applies everywhere. Driven entirely by what is genuinely newsworthy.
 
 **Never pad to hit a number.** A quiet local day that yields two real stories is
 a correct outcome; five padded non-stories is a failure. If something big is
@@ -288,6 +291,16 @@ unavailable:
 All commands from the repo root.
 
 ```
+0. Check whether today already has work in progress, before assuming a clean
+   start:
+     - docs/archive/YYYY-MM-DD.json already exists → skip straight to step 4
+       (publish). Don't redo finished research.
+     - drafts/YYYY-MM-DD/ has some section files but no archive yet → a
+       previous attempt today ran out of budget partway. Skip research for
+       every section that already has a draft file and resume from the next
+       one in sections.order, then continue to step 3.
+     - Neither exists → normal run, start at step 1.
+
 1. Read docs/archive/*.json for the last ~3 days           (avoid repeats)
 
 2. Research and write ONE SECTION AT A TIME, saving each before starting the
@@ -307,6 +320,16 @@ All commands from the repo root.
 
    Do NOT write the whole edition in one go. See "Why section by section".
 
+   **Watch your remaining budget, not just the research caps.** A published
+   edition from five finished sections beats a six-section edition that's
+   fully researched but never shipped — that has happened before (see "Why
+   section by section"). If you can tell you're running low — several
+   compactions already, or you're deep into a section with two or three still
+   to go — stop researching the rest, write up what you have as one more
+   thin-but-real section (or leave it genuinely empty per "How many"), and go
+   straight to steps 3–5. Merging and publishing what's done is always worth
+   more than researching a section you won't get to write.
+
 3. Assemble the edition:
       node scripts/merge-sections.mjs YYYY-MM-DD
 
@@ -324,7 +347,17 @@ All commands from the repo root.
      1 = validation FAILED (edition NOT published — do NOT touch latest.json)
      2 = post-validation step (cp/prune/git) failed — investigate
 
-   If it fails, read the output, fix the issue, and re-run the script.
+   If it fails, read the output. Most validation failures are a specific,
+   mechanical fix — make it and re-run the script, up to twice more:
+     - A body or paragraph over its word cap by a small margin: tighten the
+       prose (cut a redundant clause, not a fact) rather than rewriting the
+       story.
+     - A headline over the character guideline, or a source/photo issue
+       `publish-and-push.mjs` names specifically: fix that one thing.
+   If the same error repeats after a genuine fix attempt, or the failure isn't
+   a specific content shape issue (a tool erroring, a script crashing, a whole
+   section missing) — stop retrying. Write the report with `needsHumanAttention`
+   and move on; guessing at an unrelated fix costs budget without helping.
    To retry a specific sub-step (e.g. retry failed photos) run individual
    commands manually, then re-run publish-and-push.mjs to finish.
 

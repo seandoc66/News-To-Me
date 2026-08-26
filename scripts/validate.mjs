@@ -20,7 +20,8 @@ const BODY_WORDS = config.bodyWords;
 const PARAGRAPH_WORDS = config.paragraphWords;
 const SUBHEADS_ABOVE_WORDS = config.subheadsAboveWords;
 const SOURCES = config.sourcesPerArticle;
-const MAX_PER_SECTION = config.storiesPerSection.max;
+// config.storiesPerSection is keyed by category — each section can have its
+// own min/max, not one range shared by all six (see scripts/config.mjs).
 
 // Built from the configured categories so adding a section needs no code change.
 const ID_PATTERN = new RegExp(`^\\d{4}-\\d{2}-\\d{2}-(${CATEGORIES.join("|")})-\\d{3}$`);
@@ -385,10 +386,11 @@ if (orderBroken) {
 }
 
 for (const c of CATEGORIES) {
+  const { min: sectionMin, max: sectionMax } = config.storiesPerSection[c];
   if (perCategory[c] === 0) {
     warn(`no "${c}" articles in this batch`);
-  } else if (perCategory[c] > MAX_PER_SECTION * 1.5) {
-    warn(`${perCategory[c]} "${c}" articles — well above the ${config.storiesPerSection.min}–${MAX_PER_SECTION} the config aims for`);
+  } else if (perCategory[c] > sectionMax * 1.5) {
+    warn(`${perCategory[c]} "${c}" articles — well above the ${sectionMin}–${sectionMax} the config aims for`);
   }
 }
 

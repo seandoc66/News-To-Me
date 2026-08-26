@@ -40,11 +40,25 @@ function required(path) {
   return node;
 }
 
+const categories = required("sections.order");
+const storiesPerSectionRaw = required("sections.storiesPerSection");
+if (!storiesPerSectionRaw.default) {
+  console.error(`✗ hermes/config.json "sections.storiesPerSection" is missing "default"`);
+  process.exit(1);
+}
+// Keyed by category like locale.outputLanguage — a section with no override
+// falls back to `default`. Resolved once here so every call site gets a
+// plain { min, max } per category without re-deriving the fallback.
+const storiesPerSection = {};
+for (const cat of categories) {
+  storiesPerSection[cat] = storiesPerSectionRaw[cat] ?? storiesPerSectionRaw.default;
+}
+
 export const config = {
   raw: parsed,
 
-  categories: required("sections.order"),
-  storiesPerSection: required("sections.storiesPerSection"),
+  categories,
+  storiesPerSection,
 
   subtitleWords: required("writing.subtitleWords"),
   bodyWords: required("writing.bodyWords"),

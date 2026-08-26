@@ -27,7 +27,9 @@ import { join, dirname } from "node:path";
 import { config, repoRoot } from "./config.mjs";
 
 const CATEGORIES = config.categories;
-const { min: MIN, max: MAX } = config.storiesPerSection;
+// config.storiesPerSection is keyed by category (see scripts/config.mjs) —
+// each section can have its own min/max, not one range for all six.
+const rangeFor = (category) => config.storiesPerSection[category];
 
 const date = process.argv[2];
 if (!date || !/^\d{4}-\d{2}-\d{2}$/.test(date)) {
@@ -61,7 +63,7 @@ for (const category of CATEGORIES) {
   // truncated write leaves behind, and those two need telling apart.
   if (!existsSync(partPath)) {
     warn(`no draft for "${category}" (${partPath}) — section will be empty`);
-    sections[category] = { min: MIN, max: MAX, sources: [] };
+    sections[category] = { ...rangeFor(category), sources: [] };
     continue;
   }
 
@@ -84,7 +86,7 @@ for (const category of CATEGORIES) {
     continue;
   }
 
-  sections[category] = { min: MIN, max: MAX, sources: part.sources ?? [] };
+  sections[category] = { ...rangeFor(category), sources: part.sources ?? [] };
 
   part.articles.forEach((article, i) => {
     const where = `${category}.json article ${i + 1}`;

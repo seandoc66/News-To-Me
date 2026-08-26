@@ -24,7 +24,13 @@
   "sections": {
     "_note": "Adding or removing a section here is NOT a content-only change: the same list is an enum in NewsApp/Models/NewsCategory.swift, and the app decodes `category` strictly — a category the installed build doesn't know throws and takes the whole feed down with it, rather than dropping the one story. Ship the app change first.",
     "order": ["local", "national", "northernIreland", "global", "tech", "ai"],
-    "storiesPerSection": { "min": 4, "max": 8 }
+    "storiesPerSection": {
+      "_note": "Keyed by section, like locale.outputLanguage — `default` covers any section not named here. Local and Northern Ireland are kept small deliberately: most days don't produce enough genuinely newsworthy items to fill a wider range, and padding is worse than a short section (see 'Never pad to hit a number' in brief.md). AI runs wider because Shane wants more day-to-day AI coverage.",
+      "default": { "min": 4, "max": 8 },
+      "local": { "min": 1, "max": 3 },
+      "northernIreland": { "min": 1, "max": 3 },
+      "ai": { "min": 4, "max": 6 }
+    }
   },
 
   "writing": {

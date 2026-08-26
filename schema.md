@@ -128,10 +128,11 @@ the app keeps showing the last config it saw.
 
 ## Categories, per day
 
-Roughly **4–8 stories per category** (`local`, `national`, `northernIreland`,
-`global`, `tech`, `ai`), driven by what's actually newsworthy that day — not
-padded to a fixed count. A slow local-news day might only produce 2; a big tech
-day might produce 8+.
+Target ranges are per-category — see `hermes/config.json → sections.storiesPerSection`
+(`local` and `northernIreland` run narrower, `ai` runs wider than the rest) —
+driven by what's actually newsworthy that day, not padded to a fixed count. A
+slow local-news day might only produce the low end of its range; a big AI or
+tech day might exceed the top of its own.
 
 ## Ordering
 
