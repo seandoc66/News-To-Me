@@ -1,0 +1,31 @@
+{
+  "date": "2026-08-26",
+  "published": true,
+  "publishedAt": "2026-08-26T17:25:41+02:00",
+  "sections": {
+    "present": ["local", "national", "northernIreland", "global", "tech", "ai"],
+    "missing": []
+  },
+  "storiesWithoutPhoto": [],
+  "validatorWarnings": [
+    "articles[0].body (2026-08-26-local-001) paragraph 2 is 82 words — over 80",
+    "articles[1].body (2026-08-26-local-002) paragraph 2 is 89 words — over 80",
+    "articles[1].body (2026-08-26-local-002) paragraph 3 is 92 words — over 80",
+    "articles[2].body (2026-08-26-local-003) paragraph 1 is 104 words — over 80",
+    "articles[3].body (2026-08-26-local-004) paragraph 1 is 95 words — over 80",
+    "articles[4].body (2026-08-26-national-001) paragraph 1 is 83 words — over 80",
+    "articles[4].body (2026-08-26-national-001) paragraph 3 is 92 words — over 80",
+    "articles[5].body (2026-08-26-national-002) paragraph 3 is 100 words — over 80",
+    "articles[6].body (2026-08-26-national-003) paragraph 1 is 83 words — over 80",
+    "articles[7].headline (2026-08-26-national-004) is 126 chars — may wrap awkwardly on a phone",
+    "articles[17].body (2026-08-26-tech-001) paragraph 3 is 85 words — over 80"
+  ],
+  "validatorErrors": [],
+  "workarounds": [
+    "articles[0].body (2026-08-26-local-001) was 302 words, 2 over the 300 cap on first validate — trimmed a redundant clause ('que se encuentra en fase de tramitación' -> 'en fase de tramitación') with no loss of fact, bringing it to 299. Re-ran validate/publish, which then passed.",
+    "The cron run itself (source=direct, started 17:02) got through all six section drafts and a successful merge-sections.mjs, but exhausted its 90-turn iteration budget before reaching publish-and-push.mjs or writing this report. docs/archive/2026-08-26.json was already on disk and valid, so Shane's Claude Code session ran publish-and-push.mjs manually (per 'Running Manually' in the fix-history reference) and is writing this report on the run's behalf."
+  ],
+  "needsHumanAttention": true,
+  "humanAttentionReason": "Hit the hard iteration budget (90 turns) after merge but before publish/report — the run itself did not complete steps 4-5 unattended. Not a content problem: research and writing were fine. brief.md now has budget-awareness and resume-from-drafts guidance (added today) aimed at preventing this specific shape of cutoff going forward; worth checking tomorrow's run completed on its own before assuming it's fixed.",
+  "notes": "Also the first run under three pipeline changes made today: (1) RSS-first source discovery to cut web_search spend, (2) per-section story-count targets (local/northernIreland 1-3, ai 4-6, others default 4-8) — today's edition still reflects the old flat 4-8 range since it was researched before that change landed, hence 5 northernIreland stories and 2 ai stories against the new targets; tomorrow's run is the first to research under the new ranges, (3) budget-awareness + bounded self-heal-on-validation-failure guidance in 'The run'."
+}
