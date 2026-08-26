@@ -76,10 +76,30 @@ caps, from `config.json → research`:
 - **`maxSearchesPerSection` `web_search` calls per section.** Once you hit it,
   stop researching that section and write with what you have.
 - **`maxSearchesPerRun` `web_search` calls across the whole run.**
-- **Prefer `web_extract` on a known source URL** (the outlets in
-  `config.json → sources`) over `web_search` — it's direct and doesn't loop.
 - If a search repeats a result you've already seen, move on immediately — never
   retry the same query.
+
+These caps are on `web_search` specifically. RSS fetches and `web_extract`
+calls don't count against them, which is exactly why the order below leans on
+them first.
+
+**Research each section in this order:**
+
+1. **RSS first, where an outlet has one.** `config.json → sources` gives each
+   outlet an `rss` field where a real feed exists. Fetch it directly (`curl` via
+   the terminal tool — this is a plain HTTP request, free, and doesn't touch
+   your search caps) and skim the entries for anything from the last day or two
+   worth a story. A feed only gets you headlines/links, not full text — you
+   still `web_extract` each article you're actually considering, exactly as
+   before, both for the body and because the photo comes from that same page
+   (see "Photos" below). RSS replaces `web_search` for *discovery* only; it
+   changes nothing else about how a story gets written or photographed.
+2. **`web_extract` on a known source URL** for anything RSS didn't surface but
+   you already know is worth checking (a specific press release, a follow-up on
+   yesterday's story) — direct and doesn't loop.
+3. **`web_search`, spending from the caps above**, only for what's left: an
+   outlet with no `rss` field, a story you know is happening that isn't in any
+   feed yet, or verifying/expanding a contested claim.
 
 Read the current values from the config rather than assuming — they are tuned
 from experience and will change.

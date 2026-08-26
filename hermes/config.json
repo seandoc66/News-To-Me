@@ -52,45 +52,54 @@
   },
 
   "sources": {
-    "_note": "Starting points, not a closed list. Follow the story wherever it leads, but these are the outlets Shane expects each section to draw on.",
+    "_note": "Starting points, not a closed list. Follow the story wherever it leads, but these are the outlets Shane expects each section to draw on. `rss` is a verified feed URL — fetch it directly (free, doesn't count against the research caps) to find candidate articles before ever calling web_search. No `rss` key means no working feed was found for that outlet; research it the old way (web_search / web_extract). See brief.md → 'Researching without looping'.",
     "local": [
-      "El Progreso",
-      "La Voz de Galicia",
-      "El Correo Gallego",
-      "Noticias Lugo",
-      "Concello de Lugo press page",
-      "Deputación de Lugo press page"
+      { "name": "El Progreso", "rss": "https://www.elprogreso.es/rss" },
+      { "name": "La Voz de Galicia" },
+      { "name": "El Correo Gallego", "rss": "https://www.elcorreogallego.es/rss" },
+      { "name": "Noticias Lugo" },
+      { "name": "Concello de Lugo press page" },
+      { "name": "Deputación de Lugo press page" }
     ],
     "national": [
-      "El País",
-      "El Mundo",
-      "RTVE",
-      "20minutos",
-      "Público",
-      "Europa Press"
+      { "name": "El País", "rss": "https://elpais.com/rss/elpais/portada.xml" },
+      { "name": "El Mundo", "rss": "https://e00-elmundo.uecdn.es/elmundo/rss/portada.xml" },
+      { "name": "RTVE", "rss": "https://www.rtve.es/rss/temas_noticias.xml" },
+      { "name": "20minutos", "rss": "https://www.20minutos.es/rss/" },
+      { "name": "Público" },
+      { "name": "Europa Press", "rss": "https://www.europapress.es/rss/rss.aspx" }
     ],
     "northernIreland": [
-      "BBC News NI (bbc.co.uk/news/northern_ireland)",
-      "Belfast Telegraph",
-      "The Irish News",
-      "News Letter",
-      "Strabane Chronicle",
-      "Derry Journal"
+      { "name": "BBC News NI (bbc.co.uk/news/northern_ireland)", "rss": "http://feeds.bbci.co.uk/news/northern_ireland/rss.xml" },
+      { "name": "Belfast Telegraph", "rss": "https://www.belfasttelegraph.co.uk/news/northern-ireland/rss" },
+      { "name": "The Irish News" },
+      { "name": "News Letter", "rss": "https://www.newsletter.co.uk/rss" },
+      { "name": "Strabane Chronicle" },
+      { "name": "Derry Journal", "rss": "https://www.derryjournal.com/rss" }
     ],
-    "global": ["Reuters", "BBC", "AP", "The Guardian"],
+    "global": [
+      { "name": "Reuters" },
+      { "name": "BBC", "rss": "http://feeds.bbci.co.uk/news/world/rss.xml" },
+      { "name": "AP" },
+      { "name": "The Guardian", "rss": "https://www.theguardian.com/world/rss" },
+      { "name": "Thomson Reuters", "_note": "thomsonreuters.com is the Thomson Reuters corporate site (legal/tax/professional-services press releases), not the Reuters news wire — no RSS found, and it will rarely carry general-news stories. Confirm with Shane if Reuters wire coverage was actually intended." }
+    ],
     "tech": [
-      "Hacker News",
-      "TechCrunch",
-      "Wired",
-      "VentureBeat",
-      "The Verge",
-      "arXiv"
+      { "name": "Hacker News", "rss": "https://news.ycombinator.com/rss" },
+      { "name": "TechCrunch", "rss": "https://techcrunch.com/feed/" },
+      { "name": "Wired", "rss": "https://www.wired.com/feed/rss" },
+      { "name": "VentureBeat", "rss": "https://venturebeat.com/feed/" },
+      { "name": "The Verge", "rss": "https://www.theverge.com/rss/index.xml" },
+      { "name": "arXiv", "rss": "http://export.arxiv.org/rss/cs.AI" },
+      { "name": "Open Source For You (opensourceforu.com)", "rss": "https://www.opensourceforu.com/feed/" }
     ],
     "ai": [
-      "Simon Willison's blog (simonwillison.net)",
-      "Anthropic blog",
-      "OpenAI blog",
-      "plus the tech sources above"
+      { "name": "Simon Willison's blog (simonwillison.net)", "rss": "https://simonwillison.net/atom/everything/" },
+      { "name": "Anthropic blog" },
+      { "name": "OpenAI blog", "rss": "https://openai.com/news/rss.xml" },
+      { "name": "Humanity Redefined (humanityredefined.com)", "rss": "https://www.humanityredefined.com/feed" },
+      { "name": "Alex Mercer's blog (dev.to/alexmercedcoder)", "rss": "https://dev.to/feed/alexmercedcoder" },
+      { "name": "plus the tech sources above" }
     ]
   },
 
