@@ -12,6 +12,10 @@ DerivedData/
 ## feed-data tooling
 node_modules/
 
+## Per-section drafts, assembled into docs/archive/ by scripts/merge-sections.mjs.
+## Scratch space for a run in progress — the archive file is the edition of record.
+drafts/
+
 ## User settings
 xcuserdata/
 

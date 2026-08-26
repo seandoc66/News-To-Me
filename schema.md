@@ -118,11 +118,13 @@ in play are visible on the phone without opening the repo.
 | `config.sections.<cat>.sources` | array of `{name, url?}`, optional | Sources drawn on for this section. `url` may be omitted for named pages that have no clean link; the app then shows the name alone. Defaults to `[]`. |
 
 **This block is descriptive, not a control surface.** The app never writes it —
-it reports what the generator did. Changing targets or sources means editing
-[`hermes/config.json`](hermes/config.json), which the generator and the scripts
-both read, then reflecting the change here on the next run. The whole block is
-optional: a feed without it decodes fine, and the app keeps showing the last
-config it saw.
+it reports what the generator did. `scripts/merge-sections.mjs` assembles it:
+`min` and `max` are mirrored straight from
+[`hermes/config.json`](hermes/config.json), and `sources` come from each
+section's draft, being the outlets that section actually drew on. Changing
+targets means editing the config, and the next edition reports the new numbers
+on its own. The whole block is optional: a feed without it decodes fine, and
+the app keeps showing the last config it saw.
 
 ## Categories, per day
 

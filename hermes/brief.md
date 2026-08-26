@@ -270,13 +270,32 @@ All commands from the repo root.
 ```
 1. Read docs/archive/*.json for the last ~3 days           (avoid repeats)
 
-2. Research and write. Save the draft to
-   docs/archive/YYYY-MM-DD.json, with a photoCandidate on each article and a
-   `config` block mirroring config.json (see schema.md). Every section in
-   sections.order needs an entry there or it disappears from the app's
-   Sections screen — the validator warns by name when one is missing.
+2. Research and write ONE SECTION AT A TIME, saving each before starting the
+   next:
+      drafts/YYYY-MM-DD/local.json
+      drafts/YYYY-MM-DD/national.json
+      ... one file per section in sections.order
 
-3. Publish everything in one shot (photo-fetch → validate → copy → prune →
+   Each file holds only that section, with a photoCandidate on each article:
+
+      { "sources": [ { "name": "El Progreso", "url": "https://..." } ],
+        "articles": [ ... ] }
+
+   `sources` are the outlets this section actually drew on today. Article
+   order within the file is the running order the app shows — most
+   significant first.
+
+   Do NOT write the whole edition in one go. See "Why section by section".
+
+3. Assemble the edition:
+      node scripts/merge-sections.mjs YYYY-MM-DD
+
+   Writes docs/archive/YYYY-MM-DD.json, adding `generatedAt` and the `config`
+   block itself from config.json — don't write those by hand. A missing
+   section warns and comes out empty; it fails on a bad id, a duplicate id,
+   or a story filed under the wrong section.
+
+4. Publish everything in one shot (photo-fetch → validate → copy → prune →
    final validate → git add/commit/push):
       node scripts/publish-and-push.mjs docs/archive/YYYY-MM-DD.json
 
@@ -289,7 +308,7 @@ All commands from the repo root.
    To retry a specific sub-step (e.g. retry failed photos) run individual
    commands manually, then re-run publish-and-push.mjs to finish.
 
-4. Either way, write hermes/reports/YYYY-MM-DD.json (hermes/report-schema.md)
+5. Either way, write hermes/reports/YYYY-MM-DD.json (hermes/report-schema.md)
    and commit and push it — this is not something publish-and-push.mjs does
    for you:
      exit 0 → published: true.
@@ -299,6 +318,29 @@ All commands from the repo root.
        something mechanical broke, so this is closer to the "needs a human"
        end of hermes/report-schema.md than an ordinary run.
 ```
+
+### Why section by section
+
+An edition is 45–67KB of JSON. Written in one go it sits inside a single
+response, and that has already cost entire runs — an August 2026 run failed
+with the write truncated mid-response, and two later runs never got past
+research at all because the single-file write was the last big step standing
+between finished research and a published edition, and there wasn't enough
+of the run's tool-call budget left to reach it. Each failure left nothing on
+disk: no draft, no report, no day.
+
+Six files of roughly 4–14KB each mean a truncated or budget-cut write costs
+one section rather than the edition. Everything already written is on disk
+and still good, so a re-run only has to redo the section that failed — check
+`drafts/` before assuming you're starting from nothing.
+
+`drafts/` is scratch space and isn't committed. `docs/archive/YYYY-MM-DD.json`
+remains the edition of record, and steps 4 onward are unchanged — they still
+operate on that one assembled file.
+
+**If a section is genuinely too long to write in one file**, it's too long for
+the edition — that's the story-count guidance in "How many" telling you
+something, not a reason to split further.
 
 ### Warnings are the quality signal
 
