@@ -1,0 +1,41 @@
+{
+ "date": "2026-08-27",
+ "published": true,
+ "publishedAt": "2026-08-27T07:48:00+02:00",
+ "sections": {
+  "present": [
+   "local",
+   "national",
+   "northernIreland",
+   "global",
+   "tech",
+   "ai"
+  ],
+  "missing": []
+ },
+ "storiesWithoutPhoto": [
+  {
+   "id": "2026-08-27-northernIreland-002",
+   "section": "northernIreland"
+  },
+  {
+   "id": "2026-08-27-ai-004",
+   "section": "ai"
+  }
+ ],
+ "validatorWarnings": [
+  "2 article(s) publishing without a photo — these render with the category gradient: 2026-08-27-northernIreland-002, 2026-08-27-ai-004"
+ ],
+ "validatorErrors": [],
+ "workarounds": [
+  "Kusama obituary and Algeria wildfires dropped: only 2 verifiable sources each within the 15-search cap (Guardian+JapanTimes; BBC+France24) — 3-source rule kept strict.",
+  "Claudeforce story dropped: only 2 verifiable sources (VentureBeat + Salesforce PR). Anthropic's blog post on the topic is the Oct-2025 'expanded partnership' announcement, not today's news, so it was not used.",
+  "national (3), tech (3) and global-adjacent sections landed below the default min-4 target: the 15 web_search cap was hit exactly; only stories with 3+ verified sources were kept rather than padding.",
+  "El País, France24, Reuters, Belfast Telegraph, News Letter and Perplexity return HTTP 403/401 to bots; their URLs were taken from their own RSS feeds / search results and cross-checked, so treated as valid.",
+  "Botnet-takedown story dropped: TechCrunch + Wired only, no third verifiable source (BleepingComputer/Register/HN had no coverage in top feeds).",
+  "El Progreso Sagrado Corazón 3rd source: Xunta press note base URL used (xunta.gal/notas-de-prensa/-/nova/013329) after the slugged variant 404'd."
+ ],
+ "needsHumanAttention": false,
+ "humanAttentionReason": null,
+ "notes": "18 stories (local 2, national 3, northernIreland 2, global 4, tech 3, ai 4). Lead stories: Dolly Parton obit (global), Ceuta one month on (national), OpenAI Hugging-Face incident report (ai), Nvidia-HF talks (tech), Ancares quake (local), NI trusts 12% savings (northernIreland). 16/18 photos fetched; 2 render with gradient fallback. Research used exactly 15/15 web_search calls + RSS-first discovery. Commit 569c2df."
+}
