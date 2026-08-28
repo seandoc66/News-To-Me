@@ -1,0 +1,30 @@
+{
+ "date": "2026-08-28",
+ "published": true,
+ "publishedAt": "2026-08-28T06:27:52+02:00",
+ "sections": {
+  "present": [
+   "local",
+   "national",
+   "northernIreland",
+   "global",
+   "tech",
+   "ai"
+  ],
+  "missing": []
+ },
+ "storiesWithoutPhoto": [],
+ "validatorWarnings": [],
+ "validatorErrors": [],
+ "workarounds": [
+  "web_search results were unreadable this run (tool returned char-count summaries only), so every cited URL was verified via RSS feeds, web_extract, or direct HTTP fetches (title match required). Total web_search calls: 13/15; none of their contents were used.",
+  "Dropped for lack of a 3rd verified source: Mutilba (20minutos+El Mundo), Kusama obituary (BBC+Guardian), ATF ransomware, Waymo/Zoox injuries, Bluesky opt-out, GPT-5.6 in Kiro, Salesforce-in-Claude, rogue-AI coalition, persistent agent — 3-source rule kept strict rather than padding.",
+  "tech (1) and ai (2) landed below the default min-4 target: only stories with 3+ verified sources were kept. Validator treats story counts as warnings; none were emitted.",
+  "Eclipse story (partial lunar eclipse, early Fri) placed in global with Wired + BBC NI + 20minutos — 3 verified sources.",
+  "La Voz de Galicia 'Paradoja en Lugo' article URL recovered via DDG HTML scrape and confirmed by web_extract (page <title> match). Belfast Telegraph URLs taken from BT's own RSS (BT blocks scrapers with 403).",
+  "Ceuta covered yesterday as 'one month on' — today's entry is the new third day of protests/police charges; Nepal covered with new development angle (glacier collapse cause, toll 469)."
+ ],
+ "needsHumanAttention": false,
+ "humanAttentionReason": null,
+ "notes": "16 stories (local 2, national 3, northernIreland 2, global 6, tech 1, ai 2). Lead stories: Nepal floods day 3 (global), Ceuta third day of protests (national), decade of fires in Lugo (local), Burnham border-poll row (northernIreland), Meta $16.7B settlement (tech), Pentagon-Anthropic blacklist ruling (ai). 16/16 photos fetched via auto-discovery. Commit ff92d8b."
+}
