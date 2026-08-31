@@ -136,7 +136,11 @@ if (problems.length) {
 // generatedAt and the min/max targets are mirrored from hermes/config.json
 // rather than written by hand, so they can't drift from what the config says.
 const edition = {
-  generatedAt: new Date().toISOString(),
+  // Whole seconds only, not toISOString()'s milliseconds. The feed contract is
+  // ISO-8601 and iOS 18's strict `.iso8601` decoder rejects fractional seconds,
+  // which took the whole edition down on the phone once (see NewsApp
+  // JSONDecoder.feed). A daily edition has no use for sub-second precision.
+  generatedAt: new Date().toISOString().replace(/\.\d{3}Z$/, "Z"),
   config: { sections },
   articles,
 };

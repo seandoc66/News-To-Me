@@ -113,9 +113,15 @@ const isStoryURL = (raw) => {
   }
 };
 
+// Whole seconds only. The generator used to emit `toISOString()`'s
+// milliseconds ("…04:34:05.464Z"), and iOS 18's strict ISO-8601 decoder
+// rejects fractional seconds — decoding `generatedAt` threw and every story
+// failed with it (fixed in NewsApp JSONDecoder.feed). The contract is the
+// whole-second shape: `merge-sections.mjs` strips the fraction, and this check
+// enforces it so a regression fails the run instead of silently shipping.
 const isISODate = (s) =>
   typeof s === "string" &&
-  /^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(\.\d+)?(Z|[+-]\d{2}:\d{2})$/.test(s) &&
+  /^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(Z|[+-]\d{2}:\d{2})$/.test(s) &&
   !Number.isNaN(Date.parse(s));
 
 // --- load -------------------------------------------------------------------
@@ -136,7 +142,7 @@ try {
 // --- top level --------------------------------------------------------------
 
 if (!isISODate(feed.generatedAt)) {
-  fail(`generatedAt must be an ISO-8601 timestamp, got: ${JSON.stringify(feed.generatedAt)}`);
+  fail(`generatedAt must be an ISO-8601 timestamp with whole seconds (no fractional part), got: ${JSON.stringify(feed.generatedAt)}`);
 }
 
 if (!Array.isArray(feed.articles)) {
@@ -363,7 +369,7 @@ feed.articles.forEach((a, i) => {
 
   // publishedAt
   if (!isISODate(a.publishedAt)) {
-    fail(`${at("publishedAt")} must be an ISO-8601 timestamp, got: ${JSON.stringify(a.publishedAt)}`);
+    fail(`${at("publishedAt")} must be an ISO-8601 timestamp with whole seconds (no fractional part), got: ${JSON.stringify(a.publishedAt)}`);
   }
 });
 

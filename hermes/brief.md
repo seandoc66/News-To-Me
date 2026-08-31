@@ -338,6 +338,12 @@ All commands from the repo root.
    section warns and comes out empty; it fails on a bad id, a duplicate id,
    or a story filed under the wrong section.
 
+   `generatedAt` is **whole seconds only** — never milliseconds. A fractional
+   timestamp ("…04:34:05.464Z") fails the phone's ISO-8601 decoder and takes
+   the whole feed down, not just one story — that is what broke editions
+   26–31 Aug 2026. `validate.mjs` rejects it now, so a timestamp error is a
+   hard contract violation to fix in the data, never something to work around.
+
 4. Publish everything in one shot (photo-fetch → validate → copy → prune →
    final validate → git add/commit/push):
       node scripts/publish-and-push.mjs docs/archive/YYYY-MM-DD.json
@@ -446,6 +452,11 @@ above. `published: false` with a real `validatorErrors` list in the JSON
 report is what turns "nothing happened" into "something specific broke,"
 which is the whole reason that file exists. Do not skip the commit just
 because there's nothing to publish.
+
+A `generatedAt`/`publishedAt` error means the timestamp is fractional or
+wrongly shaped — a hard contract violation (see "The run", step 3). Fix the
+timestamp itself and re-run; never loosen or bypass the check to get it out
+the door.
 
 Be aware that a stale feed is now visible: the app shows a banner past 26 hours,
 and a watchdog emails Shane each morning if no fresh edition arrived. Silence is
