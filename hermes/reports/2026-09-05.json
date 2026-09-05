@@ -1,0 +1,25 @@
+{
+  "date": "2026-09-05",
+  "published": true,
+  "publishedAt": "2026-09-05T06:15:00+02:00",
+  "sections": {
+    "present": ["local", "national", "northernIreland", "global", "tech", "ai"],
+    "missing": []
+  },
+  "storiesWithoutPhoto": ["2026-09-05-ai-004"],
+  "validatorWarnings": [
+    "14 warnings: 13 paragraph-width warnings (paragraphs 82-117 words, over the 80-word phone-read target) across local-001, national-001/002/003/004, global-001/002/003, tech-002, ai-004; plus 1 article publishing without a photo (ai-004)",
+    "1 article publishing without a photo — these render with the category gradient: 2026-09-05-ai-004"
+  ],
+  "validatorErrors": [],
+  "workarounds": [
+    "09-03 and 09-04 editions never published (previous runs died after drafting). Nvidia-Hugging Face $12.9B (Sep 3) and VW/Seat future (Sep 4) were backfilled into today's edition with fresh angles so the feed gap is partially covered.",
+    "ai-004 (Microsoft/NYT summary judgment) ships without a photo: The Verge exposes only its generic social-share PNG and Unite.AI/Authors Guild pages return no og:image meta. Precedent: 09-01 and 09-02 editions also shipped 1-2 photo-less stories.",
+    "collusion.wiki homepage rejected by validator as a non-story URL, so ai-001 carries 3 sources (Simon Willison + 2 TechCrunch).",
+    "El Pais/RTVE RSS feeds are dead (stale 2020-2022 content) — used Europa Press/20minutos/El Mundo/El Correo Gallego feeds instead.",
+    "Total web_search calls: 11/15 (3 local, 1 national, 1 NI, 3 global, 3 tech... ai used 3) — under all caps; research was RSS-first per anti-loop rules."
+  ],
+  "needsHumanAttention": false,
+  "humanAttentionReason": null,
+  "notes": "21 stories (local 2, national 4, northernIreland 3, global 4, tech 4, ai 4). Lead stories: Concello de Lugo opens up town hall (local), Hacienda approves new regional financing model over 13 comunidades (national), Israeli triathlon legal action over Derry (northernIreland), Falklands escalation Milei/Trump/UK (global), Chrome zero-day CVE-2026-85046 (tech), OpenAI rogue-agent wiki breakout (ai). 20/21 photos fetched via auto-discovery. Commit aa42d21."
+}
