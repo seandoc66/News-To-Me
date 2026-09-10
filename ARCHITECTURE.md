@@ -18,6 +18,7 @@ hermes/
   reports/          one YYYY-MM-DD.json per run, every run — see "How failure surfaces"
 schema.md           the JSON contract the app decodes
 scripts/
+  install-to-phone.sh  builds Release and installs it on the phone
   config.mjs        loads config.json for the other scripts
   validate.mjs      hard-fails a batch that breaks the contract
   fetch-photos.mjs  downloads, size-checks and resizes photos
@@ -28,6 +29,7 @@ docs/               what GitHub Pages serves
   archive/            every edition, by date
   images/             photos, named by article id
 NewsApp/            the iOS app
+TROUBLESHOOTING.md  failures that actually happened, and what was ruled out
 .github/workflows/
   feed-watchdog.yml daily check that a fresh edition actually landed
 ```
@@ -42,6 +44,7 @@ NewsApp/            the iOS app
 | `hermes/report-schema.md` | ● | | | ● | ● |
 | `hermes/reports/*.json` | (writes) | | | ● | ● |
 | `ARCHITECTURE.md` | | | | ● | |
+| `TROUBLESHOOTING.md` | | | | ● | |
 
 `config.json` matters most here. Every tunable number — word counts, source
 counts, photo dimensions, retention — lives there and nowhere else. Before, the

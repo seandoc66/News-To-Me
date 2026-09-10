@@ -15,8 +15,26 @@
 # counter lives in .git/build-number, shared by every worktree; delete it to
 # restart.
 #
-# The build is signed with a personal development profile, so iOS stops
-# launching it about 7 days after install. Re-run this to get another week.
+# The build is signed with the paid team (7UPTF38D36) using an Apple
+# Development certificate and the wildcard "iOS Team Provisioning Profile: *".
+# Both run a year from issue, so an install keeps working until the profile
+# expires — there is no weekly re-install to do. (An earlier version of this
+# comment claimed a 7-day personal-team limit. That was wrong, and it sends
+# you chasing an expiry that has not happened.)
+#
+# If the app suddenly refuses to launch AND a fresh install fails with
+# 0xe8008015 "A valid provisioning profile for this executable was not found",
+# check the expiry dates before assuming signing broke:
+#
+#     security find-certificate -c "Apple Development: Shane Doherty" -p \
+#         | openssl x509 -noout -dates
+#     security cms -D -i ~/Library/Developer/Xcode/UserData/Provisioning\ Profiles/*.mobileprovision \
+#         | plutil -extract ExpirationDate raw -
+#
+# If both are still valid, the fault is the phone's in-memory provisioning
+# profile cache, which amfid consults for both launching and installing —
+# one cache, so both break together. Reboot the phone and it rebuilds from
+# disk. Happened 2026-09-10; nothing on the Mac needed changing.
 
 set -euo pipefail
 
