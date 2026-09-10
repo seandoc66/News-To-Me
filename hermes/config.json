@@ -25,11 +25,12 @@
     "_note": "Adding or removing a section here is NOT a content-only change: the same list is an enum in NewsApp/Models/NewsCategory.swift, and the app decodes `category` strictly — a category the installed build doesn't know throws and takes the whole feed down with it, rather than dropping the one story. Ship the app change first.",
     "order": ["local", "national", "northernIreland", "global", "tech", "ai"],
     "storiesPerSection": {
-      "_note": "Keyed by section, like locale.outputLanguage — `default` covers any section not named here. Local and Northern Ireland are kept small deliberately: most days don't produce enough genuinely newsworthy items to fill a wider range, and padding is worse than a short section (see 'Never pad to hit a number' in brief.md). AI runs wider because Shane wants more day-to-day AI coverage.",
+      "_note": "Keyed by section, like locale.outputLanguage — `default` covers any section not named here. Local is kept small deliberately: most days don't produce enough genuinely newsworthy items to fill a wider range, and padding is worse than a short section (see 'Never pad to hit a number' in brief.md). northernIreland, tech and ai are pinned to exact counts Shane asked for — one NI story, five tech, five AI. min equals max there on purpose, but it is a target and not a quota: 'Never pad to hit a number' still wins on a day that doesn't hold five real AI stories.",
       "default": { "min": 4, "max": 8 },
       "local": { "min": 1, "max": 3 },
-      "northernIreland": { "min": 1, "max": 3 },
-      "ai": { "min": 4, "max": 6 }
+      "northernIreland": { "min": 1, "max": 1 },
+      "tech": { "min": 5, "max": 5 },
+      "ai": { "min": 5, "max": 5 }
     }
   },
 
@@ -102,7 +103,7 @@
     "ai": [
       { "name": "Simon Willison's blog (simonwillison.net)", "rss": "https://simonwillison.net/atom/everything/" },
       { "name": "Anthropic blog" },
-      { "name": "OpenAI blog", "rss": "https://openai.com/news/rss.xml" },
+      { "name": "Hacker News", "rss": "https://news.ycombinator.com/rss", "_note": "Also listed under tech. The 'One story, once' table in brief.md decides which section a given Hacker News item lands in — anything about a model, a lab or AI policy is ai, the rest is tech." },
       { "name": "Humanity Redefined (humanityredefined.com)", "rss": "https://www.humanityredefined.com/feed" },
       { "name": "Alex Mercer's blog (dev.to/alexmercedcoder)", "rss": "https://dev.to/feed/alexmercedcoder" },
       { "name": "plus the tech sources above" }

@@ -62,9 +62,16 @@ deciding to give it one.
 
 `config.json → sections.storiesPerSection` gives the range to aim for, keyed by
 section like `locale.outputLanguage` — `default` covers any section not named.
-Local and Northern Ireland run narrower (1–3) than the rest; AI runs wider
-(4–6). Read the current values per section rather than assuming a single range
-applies everywhere. Driven entirely by what is genuinely newsworthy.
+The ranges are not uniform: local runs narrower than the rest, and some sections
+are pinned to an exact count, with `min` equal to `max`. Read the current values
+per section rather than assuming a single range applies everywhere. Driven
+entirely by what is genuinely newsworthy.
+
+**An exact count is a target, not a quota.** Where `min` equals `max` it means
+Shane wants that section at that size, so the job is to *choose* rather than to
+stop as soon as the number is reached — a section asking for one story needs the
+best story of the day in it, which means reading enough of its sources to be
+picking rather than settling. It does not override the rule below.
 
 **Never pad to hit a number.** A quiet local day that yields two real stories is
 a correct outcome; five padded non-stories is a failure. If something big is
