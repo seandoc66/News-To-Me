@@ -197,12 +197,14 @@ struct FeedView: View {
     private var progress: some View {
         Group {
             if !articles.isEmpty {
-                ReadingProgressBar(articles: articles, current: index)
-                    .onGeometryChange(for: CGFloat.self) { $0.size.height } action: {
-                        progressHeight = $0
-                    }
-                    .padding(.horizontal, 16)
-                    .padding(.bottom, Self.progressBottomGap)
+                ReadingProgressBar(articles: articles, current: index) { target in
+                    index = target
+                }
+                .onGeometryChange(for: CGFloat.self) { $0.size.height } action: {
+                    progressHeight = $0
+                }
+                .padding(.horizontal, 16)
+                .padding(.bottom, Self.progressBottomGap)
             }
         }
     }
@@ -277,6 +279,8 @@ struct FeedView: View {
 private struct ReadingProgressBar: View {
     let articles: [Article]
     let current: Int
+    /// Called with the story index to jump to when a section is tapped.
+    let onJump: (Int) -> Void
 
     @Environment(ArticleStore.self) private var store
     /// Read directly rather than leaning on a dynamic `Color`: the current tick
@@ -328,6 +332,27 @@ private struct ReadingProgressBar: View {
         // whichever direction there is contrast to be had.
         .shadow(color: Palette.page.opacity(0.5), radius: 2, y: 1)
         .onGeometryChange(for: CGFloat.self) { $0.size.width } action: { barWidth = $0 }
+        // The ticks themselves are 4pt tall — padded out here purely to widen
+        // what a tap can land on, then pulled back in so the bar's own layout
+        // doesn't grow. Horizontal position is untouched, so the x taken by the
+        // gesture below still lines up with `barWidth`.
+        .padding(.vertical, 12)
+        .contentShape(Rectangle())
+        .gesture(DragGesture(minimumDistance: 0).onEnded { jump(toX: $0.location.x) })
+        .padding(.vertical, -12)
+    }
+
+    /// Jumps to the first unread story in whichever section was tapped, or its
+    /// first story if the section has already been fully read.
+    private func jump(toX x: CGFloat) {
+        guard barWidth > 0, !articles.isEmpty else { return }
+        let fraction = max(0, min(1, x / barWidth))
+        let position = min(articles.count - 1, Int(fraction * CGFloat(articles.count)))
+        let category = articles[position].category
+        let target = articles.firstIndex { $0.category == category && !isRead($0) }
+            ?? articles.firstIndex { $0.category == category }
+            ?? position
+        onJump(target)
     }
 
     private func fill(for article: Article, at position: Int) -> Color {
