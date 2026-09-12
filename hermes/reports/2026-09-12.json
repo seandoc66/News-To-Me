@@ -1,0 +1,23 @@
+{
+  "date": "2026-09-12",
+  "published": true,
+  "publishedAt": "2026-09-12T04:15:42Z",
+  "sections": {
+    "present": ["local", "national", "northernIreland", "global", "tech", "ai"],
+    "missing": []
+  },
+  "storiesWithoutPhoto": [],
+  "validatorWarnings": [],
+  "validatorErrors": [],
+  "workarounds": [
+    "El País and RTVE RSS feeds served stale cached items (both partially unmoved from previous days), so national research was built from elDiario.es, Europa Press, EFE, 20minutos, ABC and La Razón instead.",
+    "La Voz de Galicia's RSS feed returned no usable items across several alternative URLs; local coverage was built from El Progreso, El Correo Gallego and Observador (Portugal).",
+    "rubyhack.ai, the researchers' report on the RubyGems agent attack, is a single-page site, so validate.mjs correctly rejected it as a home page. Replaced with The Hacker News and Socket coverage of the same May incident.",
+    "Two cited URLs returned 404 on pre-flight check (an elDiario Diada live blog and an Irish News Stormont URL) and were dropped in favour of the other sources for those stories.",
+    "The first publish attempt failed validation on the rubyhack.ai home-page source and was not published; the edition was fixed and re-run. An earlier commit c93b000 is superseded by 846deb9.",
+    "Five paragraphs across four stories came out at 81-99 words on the first pass; they were split to 80 words or fewer and the edition re-published rather than shipping the warnings."
+  ],
+  "needsHumanAttention": false,
+  "humanAttentionReason": null,
+  "notes": "Full six-section edition, 24 stories, 24 of 24 photos fetched. Local lead: narcolancha beached at Moledo (Caminha) after failing to enter the Miño. NI had a single story (Stormont budget offer raised to £1.5bn) because the pinned NI count is one. Coverage avoided repeating the previous three editions: the Anthropic threat report and the IDScan breach (both run 2026-09-11), the Philippines ferry toll (2026-09-10) and the PISA 2025 results themselves (2026-09-09) were all skipped; the PISA piece runs instead on the ABC report about exclusion rates in four communities, which is a separate story. web_search budget used in full: 15 of 15 across the run."
+}
