@@ -1,0 +1,25 @@
+{
+  "date": "2026-09-19",
+  "published": true,
+  "publishedAt": "2026-09-19T05:07:12Z",
+  "sections": {
+    "present": ["local", "national", "northernIreland", "global", "tech", "ai"],
+    "missing": []
+  },
+  "storiesWithoutPhoto": [
+    { "id": "2026-09-19-national-005", "section": "national" }
+  ],
+  "validatorWarnings": [
+    "1 article(s) publishing without a photo — these render with the category gradient: 2026-09-19-national-005"
+  ],
+  "validatorErrors": [],
+  "workarounds": [
+    "La Voz de Galicia's RSS feed (lavozdegalicia.es/rss, /rss/lugo.xml) and g24.gal would not parse to items; La Voz article URLs were harvested through search instead.",
+    "local came in at 1 story against a 1-3 target: the other two Lugo candidates (Campus de Lugo Alzheimer research, Lactalis Nadela unions) had only one verifiable outlet each, below the 3-source minimum, so they were dropped rather than padded.",
+    "BleepingComputer, Neowin and Android Police feeds returned 403; security coverage came from The Hacker News, The Register and Tom's Hardware instead.",
+    "First publish (commit 4ee5355) shipped three style warnings — two paragraphs over 80 words and one subhead in a story under 200 words. Drafts were edited and re-published as commit b3fbafb; only the photo warning remains."
+  ],
+  "needsHumanAttention": false,
+  "humanAttentionReason": null,
+  "notes": "21 articles — local 1, national 5, northernIreland 1, global 4, tech 5, ai 5. Search budget fully used (15/15 web_search calls); the rest of the research came from RSS feed harvests and web_extract. national-005 (El Trompas) follows yesterday's detention story with a new angle (confession, 70-year sentence request) and four sources not used in the 2026-09-18 edition."
+}
