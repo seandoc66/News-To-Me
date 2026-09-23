@@ -1,0 +1,23 @@
+{
+  "date": "2026-09-23",
+  "published": true,
+  "publishedAt": "2026-09-23T06:20:00Z",
+  "sections": {
+    "present": ["local", "national", "northernIreland", "global", "tech", "ai"],
+    "missing": []
+  },
+  "storiesWithoutPhoto": [],
+  "validatorWarnings": [],
+  "validatorErrors": [],
+  "workarounds": [
+    "La Voz de Galicia, Faro de Vigo and El Correo Gallego carried no coverage of the two biggest Lugo stories of the day — the rise in Galicia of euthanasia requests tied to mental-health suffering after the Noelia Castillo case, and five schoolchildren taken to HULA after taking pills found on a bus. Only El Progreso had story-specific URLs, so both were dropped rather than published below the 3-source minimum.",
+    "local came in at 2 stories: a Galicia-wide September heat record (El Correo Gallego, La Región, Galiciapress) and the Viladonga excavation (El Progreso plus Historia de Galicia and a Cultura de Galicia note as primary sources).",
+    "Al Jazeera story URLs could not be recovered from its feed and every candidate slug returned 404, so global sourcing used BBC, The Guardian, Axios, Semafor, eldiario.es, La Vanguardia and El Español instead.",
+    "All 21 source URLs were HTTP-checked before publishing; the only non-200s were 403 bot blocks from Axios, Belfast Telegraph and News Letter, whose URLs came from those outlets' own feeds.",
+    "The first assembled edition failed validation: national-003 ran to 316 words and five paragraphs across the batch exceeded 80 words. Sections were rewritten and re-merged before publishing, and nothing was pushed until validation passed.",
+    "publish-and-push reported a non-zero exit from the photo step as a warning while still fetching 21/21 images."
+  ],
+  "needsHumanAttention": false,
+  "humanAttentionReason": "",
+  "notes": "21 stories. Leads: Galicia closes summer with record heat (Santiago breaks a 36-year mark, Ourense 38.5C); Interior starts works to extend the Tarajal breakwater and replaces the floating barrier with buoys as the Army reinforces Ceuta's border on Morocco's election day; ICRIR publishes its first-ever Troubles murder report, on the 1977 killing of prosecutor Rory O'Kelly; Trump threatens to annihilate Iran at the UN before US and Iranian officials meet in New York; ShinyHunters claims data on all FBI employees and applicants. Commit 90673b6."
+}
