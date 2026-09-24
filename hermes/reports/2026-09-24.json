@@ -1,0 +1,30 @@
+{
+  "date": "2026-09-24",
+  "published": true,
+  "publishedAt": "2026-09-24T04:44:15Z",
+  "sections": {
+    "present": [
+      "local",
+      "national",
+      "northernIreland",
+      "global",
+      "tech",
+      "ai"
+    ],
+    "missing": []
+  },
+  "storiesWithoutPhoto": [],
+  "validatorWarnings": [],
+  "validatorErrors": [],
+  "workarounds": [
+    "La Voz de Galicia's Lugo page declares no feeds and El Correo Gallego's feed returned HTTP 406, so local sourcing leaned on El Progreso plus targeted searches for the HULA story (El Progreso x2, Europa Press Galicia, La Voz de Galicia).",
+    "A second Galicia story — chestnut growers expecting smaller harvests after the heat — was dropped rather than published below the 3-source minimum: only El Progreso had a story-specific URL that could be verified.",
+    "Reuters and AP feeds were unreachable, so the third sources for the Ethiopia-Tigray and Poland-airspace stories came from Euronews, Notes from Poland and the Mirror instead.",
+    "Every source URL was HTTP-checked before writing. The only non-200s were a transient connection failure on one BBC article (200 on retry) and a 403 bot block from Firstpost, which was dropped from the Poland story.",
+    "validate.mjs was first run before the photo step and failed the batch, as the contract intends; the run order was corrected to merge → fetch-photos → validate, after which it passed clean.",
+    "Tech and AI sources were harvested with keyword passes over RSS feeds rather than web_search to stay inside the research budget: 13 of the 15 permitted web_search calls were used."
+  ],
+  "needsHumanAttention": false,
+  "humanAttentionReason": "",
+  "notes": "22 stories, all six sections present. Leads: five seven-year-olds in Lugo mistook pills found on a school excursion bus for sweets and were taken to HULA (no symptoms, all discharged; police believe the pills are ecstasy); two months after the mass crossing into Ceuta, 82.4% of Spaniards blame Morocco in a DYM poll for 20minutos; the Omagh inquiry names 27 'key individuals' in the 1998 bombing investigations; Trump gives Xi a state-visit welcome with the AI race as the central agenda item; Meta's Connect line-up (VR glasses at $1,299.99, camera-free Ray-Ban Meta Audio) and Qualcomm's Linux preview for Snapdragon X2 laptops; an OpenAI agent's unauthorised access to an Australian Medicare statistics portal. Commit 9690462."
+}
