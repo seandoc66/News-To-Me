@@ -1,0 +1,856 @@
+{
+  "generatedAt": "2026-10-16T04:18:33Z",
+  "config": {
+    "sections": {
+      "local": {
+        "min": 1,
+        "max": 3,
+        "sources": [
+          {
+            "name": "El Progreso",
+            "url": "https://www.elprogreso.es"
+          },
+          {
+            "name": "La Voz de Galicia",
+            "url": "https://www.lavozdegalicia.es"
+          },
+          {
+            "name": "El Correo Gallego",
+            "url": "https://www.elcorreogallego.es"
+          },
+          {
+            "name": "El Bierzo (eldiario.es)",
+            "url": "https://elbierzo.eldiario.es"
+          },
+          {
+            "name": "GCiencia",
+            "url": "https://www.gciencia.com"
+          }
+        ]
+      },
+      "national": {
+        "min": 4,
+        "max": 8,
+        "sources": [
+          {
+            "name": "El País",
+            "url": "https://elpais.com"
+          },
+          {
+            "name": "El Mundo",
+            "url": "https://www.elmundo.es"
+          },
+          {
+            "name": "RTVE",
+            "url": "https://www.rtve.es"
+          },
+          {
+            "name": "20 minutos",
+            "url": "https://www.20minutos.es"
+          },
+          {
+            "name": "Europa Press",
+            "url": "https://www.europapress.es"
+          },
+          {
+            "name": "La Voz de Galicia",
+            "url": "https://www.lavozdegalicia.es"
+          },
+          {
+            "name": "elDiario.es",
+            "url": "https://www.eldiario.es"
+          },
+          {
+            "name": "El Progreso",
+            "url": "https://www.elprogreso.es"
+          }
+        ]
+      },
+      "northernIreland": {
+        "min": 1,
+        "max": 1,
+        "sources": [
+          {
+            "name": "BBC News NI",
+            "url": "https://www.bbc.co.uk/news/northern_ireland"
+          },
+          {
+            "name": "Belfast Telegraph",
+            "url": "https://www.belfasttelegraph.co.uk"
+          },
+          {
+            "name": "Derry Journal",
+            "url": "https://www.derryjournal.com"
+          },
+          {
+            "name": "News Letter",
+            "url": "https://www.newsletter.co.uk"
+          }
+        ]
+      },
+      "global": {
+        "min": 4,
+        "max": 8,
+        "sources": [
+          {
+            "name": "BBC News",
+            "url": "https://www.bbc.co.uk/news/world"
+          },
+          {
+            "name": "The Guardian",
+            "url": "https://www.theguardian.com/world"
+          },
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com"
+          },
+          {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com"
+          },
+          {
+            "name": "20 minutos",
+            "url": "https://www.20minutos.es"
+          },
+          {
+            "name": "Agência Brasil",
+            "url": "https://agenciabrasil.ebc.com.br"
+          }
+        ]
+      },
+      "tech": {
+        "min": 5,
+        "max": 5,
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com"
+          },
+          {
+            "name": "The Verge",
+            "url": "https://www.theverge.com"
+          },
+          {
+            "name": "Wired",
+            "url": "https://www.wired.com"
+          },
+          {
+            "name": "The Citizen Lab",
+            "url": "https://citizenlab.ca"
+          },
+          {
+            "name": "The Hacker News",
+            "url": "https://thehackernews.com"
+          },
+          {
+            "name": "MacRumors",
+            "url": "https://www.macrumors.com"
+          }
+        ]
+      },
+      "ai": {
+        "min": 5,
+        "max": 5,
+        "sources": [
+          {
+            "name": "Meta AI Research",
+            "url": "https://research.meta.ai"
+          },
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com"
+          },
+          {
+            "name": "The Verge",
+            "url": "https://www.theverge.com"
+          },
+          {
+            "name": "Simon Willison",
+            "url": "https://simonwillison.net"
+          },
+          {
+            "name": "The Guardian",
+            "url": "https://www.theguardian.com"
+          },
+          {
+            "name": "Anthropic",
+            "url": "https://www.anthropic.com"
+          }
+        ]
+      }
+    }
+  },
+  "articles": [
+    {
+      "id": "2026-10-16-local-001",
+      "category": "local",
+      "headline": "Un terremoto de magnitud 4,2 con epicentro en El Bierzo se siente en toda la provincia de Lugo",
+      "subtitle": "El seísmo se registró a las 22.34 del jueves a diez kilómetros de profundidad, cerca de Benuza, y se notó con especial intensidad en Quiroga y la montaña lucense. No constan daños personales ni materiales.",
+      "body": "Un movimiento sísmico de magnitud 4,2 sacudió la noche del jueves buena parte de Galicia, con epicentro en la comarca leonesa de El Bierzo. El temblor se produjo a las 22.34 horas y se dejó sentir en prácticamente toda la provincia de Lugo, con mayor intensidad en la zona de Quiroga, según los testimonios recogidos por la prensa lucense.\n\nEl Instituto Geográfico Nacional (IGN) situó en primer lugar el epicentro al sureste de Priaranza del Bierzo, a diez kilómetros de profundidad, y después lo desplazó al este de Benuza, en la Cabrera. La escasa profundidad del hipocentro explica que el temblor se percibiera con nitidez en puntos alejados del origen, desde Sarria hasta Triacastela o Becerreá.\n\nVecinos de Lugo describieron una sacudida breve pero clara. «Se me movió la cama durante unos segundos», relató una de las personas que sintieron el temblor en la ciudad. El servicio de emergencias no registró daños personales ni materiales atribuibles al seísmo.\n\nLa zona entre Sarria, Triacastela y Becerreá, conocida por los sismólogos como el triángulo sísmico lucense, concentra los terremotos de mayor magnitud registrados históricamente en la provincia. El temblor también se notó en Asturias y en otras provincias gallegas.",
+      "sources": [
+        {
+          "name": "El Progreso",
+          "url": "https://www.elprogreso.es/articulo/lugo/terremoto-45-grados-epicentro-ponferrada-hace-temblar-lugo-movio-cama-segundos/202610152300242006381.html"
+        },
+        {
+          "name": "El Bierzo",
+          "url": "https://elbierzo.eldiario.es/comarca/terremoto-bierzo-alcanza-magnitud-4-deja-sentir-poblacion_1_13589730.html"
+        },
+        {
+          "name": "Metropolitano",
+          "url": "https://metropolitano.gal/enfoque/un-terremoto-de-magnitud-4-en-el-bierzo-hace-temblar-decenas-de-concellos-de-galicia/"
+        },
+        {
+          "name": "El Comercio",
+          "url": "https://www.elcomercio.es/asturias/temblor-terremoto-ponferrada-asturias-20261015225359-nt.html"
+        }
+      ],
+      "publishedAt": "2026-10-16T04:10:00Z",
+      "imageURL": "/images/2026-10-16-local-001.jpg"
+    },
+    {
+      "id": "2026-10-16-local-002",
+      "category": "local",
+      "headline": "Un frente atlántico pone fin al veranillo en Galicia con hasta diez grados menos",
+      "subtitle": "Tras jornadas en las que Lugo llegó a 27 grados y Ourense a 30, la entrada de aire frío por el norte devuelve el ambiente otoñal, con lluvia en la mitad norte y temperaturas que caen de golpe este viernes.",
+      "body": "Galicia da un giro completo a su panorama meteorológico. Después de varias jornadas con temperaturas muy por encima de lo habitual para la época, el paso de un frente atlántico dejará este viernes un descenso térmico de hasta diez grados y lluvias en la mitad norte de la comunidad.\n\nEl veranillo de octubre había dejado máximas de 30 grados en Ourense y 27 en Lugo, valores más propios de septiembre. La llegada de una masa de aire frío por el norte devuelve el ambiente fresco a toda la comunidad: en la ciudad de Lugo los termómetros se quedarán en torno a los 16 grados y en las comarcas de montaña el descenso será todavía más acusado.\n\nMeteoGalicia prevé que la inestabilidad se mantenga durante varios días, con precipitaciones intermitentes y ambiente frío, y no anticipa una tendencia clara a tiempo más seco hasta mediados de la próxima semana.\n\nEl cambio llega después de un mes de octubre anómalamente cálido en Galicia, con una masa de aire africana que elevó las temperaturas muy por encima de la media y dejó registros propios del final del verano en pleno otoño. La Aemet también ha avisado de frío y lluvias intensas en buena parte de España para los próximos días.",
+      "sources": [
+        {
+          "name": "El Correo Gallego",
+          "url": "https://www.elcorreogallego.es/galicia/2026/10/15/el-tiempo-galicia-llega-frente-frio-dejara-descenso-temperaturas-135352927.html"
+        },
+        {
+          "name": "El Progreso",
+          "url": "https://www.elprogreso.es/articulo/el-tiempo-lugo/adios-calor-frente-frio-pone-fin-veranillo-galicia-10-grados-menos/202610160500002006364.html"
+        },
+        {
+          "name": "GCiencia",
+          "url": "https://www.gciencia.com/medioambiental/unha-fronte-fria-afunde-as-temperaturas-en-galicia-10-graos-menos-en-so-24-horas/"
+        },
+        {
+          "name": "Galicia Universal",
+          "url": "https://galiciauniversal.org/del-verano-al-otono-en-24-horas-galicia-encara-un-brusco-giro-meteorologico-con-10-grados-menos/"
+        }
+      ],
+      "publishedAt": "2026-10-16T04:15:00Z",
+      "imageURL": "/images/2026-10-16-local-002.jpg"
+    },
+    {
+      "id": "2026-10-16-local-003",
+      "category": "local",
+      "headline": "Oftalmología del Hula estrena en Galicia una IA que hace 25 pruebas de ojos en ocho minutos",
+      "subtitle": "El servicio lucense lleva dos semanas usando la plataforma Doria, que asumirá la mayoría de las primeras consultas, explora el ojo sin dilatar la pupila y emite un informe que revisa después un oftalmólogo.",
+      "body": "El servicio de Oftalmología del Hospital Universitario Lucus Augusti (Hula) lleva dos semanas utilizando la plataforma de diagnóstico con inteligencia artificial Doria, la primera de este tipo que se pone en marcha en Galicia. El sistema realiza más de 25 pruebas distintas del ojo en apenas ocho minutos y emite a continuación un informe con las alteraciones que haya detectado.\n\nLa herramienta, desarrollada en Valencia, explora toda la estructura ocular sin necesidad de dilatar la pupila, algo que no se hace en todas las consultas convencionales. Según el servicio, está previsto que asuma la mayoría de las primeras visitas, de modo que el especialista revise el informe y se concentre en el diagnóstico y el tratamiento de los casos que lo requieran.\n\nLa llegada del sistema responde a uno de los cuellos de botella clásicos del área sanitaria de Lugo. Las consultas de Oftalmología figuran entre las que acumulan mayores demoras del Sergas, y el propio servicio reconoce que la presión asistencial ha ido en aumento en los últimos años.\n\nDoria ya se emplea en otros hospitales españoles, donde se ha presentado como una vía para recortar listas de espera sin perder exploraciones. En el Hula, el objetivo declarado es liberar tiempo de consulta sin reducir la calidad del examen.",
+      "sources": [
+        {
+          "name": "El Progreso",
+          "url": "https://www.elprogreso.es/articulo/lugo/hula-estrena-galicia-ia-que-hace-mas-25-pruebas-ojos-8-minutos/202610160500002006346.html"
+        },
+        {
+          "name": "El Confidencial",
+          "url": "https://www.elconfidencial.com/bienestar/2024-06-14/innovadora-herramienta-pruebas-detectar-patologias-ojo_3896200/"
+        },
+        {
+          "name": "Innovaspain",
+          "url": "https://www.innovaspain.com/doria-mikajaki-oftalmologia-la-paz-alfonso-camino-optimetria/"
+        },
+        {
+          "name": "La Voz de Galicia",
+          "url": "https://www.lavozdegalicia.es/noticia/lugo/2026/09/30/seis-meses-espera-consulta-oftalmologia-lugo-cuatro-traumatologia-segun-sergas/00031790770530417742416.htm"
+        }
+      ],
+      "publishedAt": "2026-10-16T04:20:00Z",
+      "imageURL": "/images/2026-10-16-local-003.jpg"
+    },
+    {
+      "id": "2026-10-16-national-001",
+      "category": "national",
+      "headline": "La Junta Electoral abre un expediente sancionador a Sánchez por su rueda de prensa en la Moncloa",
+      "subtitle": "El órgano arbitral responde a la denuncia del PP por la comparecencia del 6 de octubre, un día después de convocar las elecciones, en la que el presidente descalificó a la oposición y pidió una mayoría más amplia.",
+      "body": "La Junta Electoral Central (JEC) ha acordado abrir un expediente sancionador al presidente del Gobierno, Pedro Sánchez, por la rueda de prensa que ofreció en la Moncloa el 6 de octubre, un día después de convocar las elecciones generales del 29 de noviembre. El PP lo denunció por convertir la comparecencia posterior al Consejo de Ministros en un «mitin».\n\nEn aquella intervención Sánchez descalificó a la oposición y reclamó una mayoría parlamentaria más amplia que la que le dieron las urnas en 2023. La JEC considera que esos mensajes pudieron vulnerar el principio de neutralidad de los poderes públicos durante el proceso electoral.\n\nNo es la primera vez que el organismo expedienta al jefe del Ejecutivo. Según RTVE, Sánchez acumula ya cinco expedientes sancionados por la Junta Electoral, con multas que suman unos 6.600 euros, la mayoría por declaraciones y actos considerados electoralistas desde la sede de la Presidencia.\n\nEl expediente se abre en plena precampaña y a pocas horas de que el Gobierno y el PP crucen acusaciones ante la propia JEC por el uso de medios públicos. La decisión no implica por sí sola una sanción: el órgano arbitral abre ahora un periodo de alegaciones antes de resolver.",
+      "sources": [
+        {
+          "name": "La Voz de Galicia",
+          "url": "https://www.lavozdegalicia.es/noticia/espana/2026/10/15/junta-electoral-abre-expediente-sanchez-lanzar-mensajes-electoralistas-moncloa/00031792075646285559920.htm"
+        },
+        {
+          "name": "RTVE",
+          "url": "https://www.rtve.es/noticias/20261015/junta-electoral-abre-nuevo-expediente-sancionador-a-sanchez-por-hacer-partidismo-desde-moncloa/17268851.shtml"
+        },
+        {
+          "name": "Europa Press",
+          "url": "https://www.europapress.es/nacional/noticia-jec-abre-nuevo-expediente-sancionador-sanchez-hacer-partidismo-moncloa-20261015164433.html"
+        },
+        {
+          "name": "20 minutos",
+          "url": "https://www.20minutos.es/nacional/junta-electoral-abre-un-expediente-sanchez-por-rueda-prensa-moncloa-tras-convocar-las-elecciones_7049268_0.html"
+        }
+      ],
+      "publishedAt": "2026-10-16T04:25:00Z",
+      "imageURL": "/images/2026-10-16-national-001.jpg"
+    },
+    {
+      "id": "2026-10-16-national-002",
+      "category": "national",
+      "headline": "Defensa lleva a la justicia los audios de militares que presumían de palizas a migrantes en Ceuta",
+      "subtitle": "El Ministerio remite al juzgado de Ceuta y a la Fiscalía las grabaciones publicadas por elDiario.es, en las que tres militares en un turno de vigilancia comentan entre risas agresiones durante la crisis migratoria de finales de julio.",
+      "body": "El Ministerio de Defensa ha remitido al juzgado de Ceuta y a la Fiscalía la información publicada por elDiario.es en la que se escucha a militares presumiendo de haber golpeado a migrantes tras la entrada masiva registrada en la ciudad a finales de julio. Las grabaciones, según el medio, corresponden a un turno de vigilancia.\n\nEn los audios se oye a tres militares hablar con desprecio de las personas a las que custodiaban. «Sin guantes mola más», dice uno de ellos entre risas, según la transcripción difundida. Los mensajes describen agresiones y se refieren a los migrantes en términos vejatorios.\n\nDefensa ha asegurado que colabora con la investigación y que fue la propia empresa periodística quien le trasladó el material. El asunto está ya en manos judiciales, según confirmó el departamento este jueves.\n\nEl director de Amnistía Internacional España valoró los audios como una muestra de que no se trata de episodios de legítima defensa: «Son simplemente operaciones de castigo que buscan humillar a inmigrantes», declaró. El caso añade presión a la crisis abierta en Ceuta, donde la visita de los Reyes esta semana ha vuelto a poner el foco sobre la gestión de la frontera.",
+      "sources": [
+        {
+          "name": "La Vanguardia",
+          "url": "https://www.lavanguardia.com/politica/20261015/11659914/defensa-remite-juzgado-fiscalia-audios-militares-presumiendo-palizas-migrantes-ceuta.html"
+        },
+        {
+          "name": "elDiario.es",
+          "url": "https://www.eldiario.es/desalambre/defensa-asegura-investigara-audios-militares-presumen-palizas-migrantes-ceuta_1_13587546.html"
+        },
+        {
+          "name": "El País",
+          "url": "https://elpais.com/espana/2026-10-15/defensa-remite-al-juzgado-audios-de-supuestos-militares-que-se-jactan-de-golpear-a-inmigrantes.html"
+        },
+        {
+          "name": "Europa Press",
+          "url": "https://www.europapress.es/nacional/noticia-defensa-remite-juzgado-fiscalia-informacion-audios-militares-presumiendo-palizas-migrantes-ceuta-20261015160934.html"
+        }
+      ],
+      "publishedAt": "2026-10-16T04:30:00Z",
+      "imageURL": "/images/2026-10-16-national-002.jpg"
+    },
+    {
+      "id": "2026-10-16-national-003",
+      "category": "national",
+      "headline": "La acampada de la Puerta del Sol decide seguir sin fecha límite y llevar la protesta a los barrios",
+      "subtitle": "Los manifestantes reunidos en asamblea por vigésima noche rechazan poner fin al campamento por la vivienda y anuncian que extenderán el movimiento a barrios de toda España.",
+      "body": "Los cientos de personas que siguen acampadas en la Puerta del Sol de Madrid decidieron este jueves mantener la protesta sin fecha límite. La asamblea, que empezó pasadas las 20.30 horas, concluyó con un voto a favor de continuar de forma indefinida y con el compromiso de trasladar el movimiento a los barrios de toda España.\n\nEl campamento por la vivienda cumple ya veinte noches. En la reunión intervinieron distintos grupos de manifestantes para fijar los siguientes pasos, entre ellos la extensión del modelo a otras ciudades y la coordinación con las plataformas vecinales que reclaman alquileres asequibles.\n\nLa protesta transcurre en paralelo a la precampaña de las elecciones del 29 de noviembre, con la vivienda instalada como uno de los asuntos que más preocupan a los votantes. Los sindicatos UGT y CCOO han convocado una huelga general para el 11 de noviembre centrada precisamente en el precio del alquiler.\n\nEl campamento ha generado también roces con la administración autonómica. La Comunidad de Madrid denunció el uso de la fuente de la estatua de Carlos III como si fuera un «parque acuático» por parte de algunos acampados.",
+      "sources": [
+        {
+          "name": "Levante-EMV",
+          "url": "https://www.levante-emv.com/espana/2026/10/16/acampados-sol-deciden-continuar-protesta-sin-fecha-limite-135393332.html"
+        },
+        {
+          "name": "20 minutos",
+          "url": "https://www.20minutos.es/nacional/los-acampados-sol-votan-continuar-con-protesta-sin-una-fecha-limite_7049418_0.html"
+        },
+        {
+          "name": "EFE",
+          "url": "https://efe.com/espana/2026-10-15/acampados-puerta-sol-movilizacion/"
+        },
+        {
+          "name": "20 minutos",
+          "url": "https://www.20minutos.es/madrid/comunidad-madrid-denuncia-uso-fuente-estatua-carlos-iii-como-parque-acuatico-por-parte-acampados_7049401_0.html"
+        }
+      ],
+      "publishedAt": "2026-10-16T04:35:00Z",
+      "imageURL": "/images/2026-10-16-national-003.jpg"
+    },
+    {
+      "id": "2026-10-16-national-004",
+      "category": "national",
+      "headline": "El gasto en intereses de la deuda crecerá un 46% en cinco años y estrecha el margen fiscal de España",
+      "subtitle": "El encarecimiento de la financiación llevará el pago de intereses hasta los 63.700 millones anuales en 2030, el equivalente al 70% de lo que el país dedica a educación, según los cálculos publicados este viernes.",
+      "body": "El encarecimiento de la deuda pública está reduciendo el margen de maniobra del Estado para afrontar crisis futuras. El gasto en intereses crecerá un 46% en cinco años hasta alcanzar los 63.700 millones de euros anuales, una cifra equivalente al 70% de todo lo que España destina a educación, según los datos difundidos por la prensa económica.\n\nLa causa principal es la subida de los tipos de interés, que se traslada al coste de las nuevas emisiones y de las refinanciaciones. España destinará alrededor de 20.000 millones de euros más al año a pagar los intereses de su deuda, dinero que deja de estar disponible para otras políticas.\n\nEl problema tiene una segunda derivada: la deuda ligada a la inflación, que ya supera los 100.000 millones de euros, se encarece cuando el índice de precios sube. El Gobierno ha fijado un techo de gasto récord de 226.032 millones para los presupuestos de 2027, en un contexto de presión sobre las cuentas públicas.\n\nLos economistas advierten de que un margen fiscal estrecho limita la capacidad de reacción ante catástrofes como la dana, conflictos internacionales o nuevas pandemias, justo cuando el país afronta un ciclo de inversión en defensa y en transición energética.",
+      "sources": [
+        {
+          "name": "20 minutos",
+          "url": "https://www.20minutos.es/lainformacion/economia-y-finanzas/espana-se-esta-quedando-sin-margen-fiscal-para-hacer-frente-crisis-futuras-como-catastrofes-guerras-pandemias_7049303_0.html"
+        },
+        {
+          "name": "El Mundo",
+          "url": "https://www.elmundo.es/economia/2026/10/16/6ad0d646e85eced3738b456f.html"
+        },
+        {
+          "name": "El Español",
+          "url": "https://www.elespanol.com/invertia/economia/macroeconomia/20261016/encarecimiento-deuda-hipoteca-futuro-espana-intereses-subiran-costaran/1003744421782_0.html"
+        }
+      ],
+      "publishedAt": "2026-10-16T04:40:00Z",
+      "imageURL": "/images/2026-10-16-national-004.jpg"
+    },
+    {
+      "id": "2026-10-16-national-005",
+      "category": "national",
+      "headline": "Isabel Allende gana el 75 Premio Planeta con «La hora antes del alba»",
+      "subtitle": "La escritora chilena cierra el universo de «La casa de los espíritus» con la novela galardonada, dotada con un millón de euros. El valenciano Sergio Hernández queda finalista con «La añoranza».",
+      "body": "Isabel Allende ha ganado el 75 Premio Planeta de Novela con «La hora antes del alba», una continuación cronológica de «La casa de los espíritus». El jurado anunció el fallo el jueves por la noche en una gala celebrada en el Pabellón 1 del recinto de Montjuïc de Fira de Barcelona. El premio está dotado con un millón de euros.\n\nLa novela retoma el universo familiar que dio a la autora chilena su reconocimiento internacional y lo prolonga en el tiempo, cerrando una historia que empezó a publicarse en 1982. Allende, de 84 años, es una de las escritoras vivas más leídas de la literatura en español.\n\nEl autor valenciano Sergio Hernández fue finalista con «La añoranza», en una edición que cumplía tres cuartos de siglo de historia. El Premio Planeta es el galardón literario mejor dotado de España y uno de los más cuantiosos del mundo.\n\nLa entrega se produce en un año en el que el grupo editor ha renovado el formato de la gala, que tradicionalmente abría la temporada literaria de otoño. La novela llegará a las librerías en las próximas semanas con una tirada inicial acorde al peso comercial del premio.",
+      "sources": [
+        {
+          "name": "El Progreso",
+          "url": "https://www.elprogreso.es/articulo/cultura/isabel-allende-gana-75-premio-planeta-hora-antes-alba/202610160030062006388.html"
+        },
+        {
+          "name": "Europa Press",
+          "url": "https://www.europapress.es/catalunya/noticia-isabel-allende-gana-75-premio-planeta-hora-antes-alba-20261015225406.html"
+        },
+        {
+          "name": "RTVE",
+          "url": "https://www.rtve.es/noticias/20261015/isabel-allende-premio-planeta-2026-novela-hora-antes-alba/17268643.shtml"
+        },
+        {
+          "name": "Premio Planeta",
+          "url": "https://planeta.es/es/noticia/isabel-allende-premio-planeta-2026-con-la-hora-antes-del-alba-y-sergio-hernandez-carrasco"
+        }
+      ],
+      "publishedAt": "2026-10-16T04:45:00Z",
+      "imageURL": "/images/2026-10-16-national-005.jpg"
+    },
+    {
+      "id": "2026-10-16-northernIreland-001",
+      "category": "northernIreland",
+      "headline": "Jeffrey Donaldson sentenced to 15 years for child sex abuse",
+      "subtitle": "The former DUP leader was jailed at Newry Crown Court for offences committed against two women when they were children, with the judge describing a 'catastrophic descent into disgrace'. He will serve half the term.",
+      "body": "Jeffrey Donaldson has been sentenced to 15 years in prison for a series of child sex offences, including one count of rape, committed against two women when they were children. The former Democratic Unionist Party leader, 63, stood with his hands clasped in the dock at Newry Crown Court as the sentence was handed down on Thursday.\n\nJudge Paul Ramsey said the crimes, which took place between 1985 and 2008, represented a \"catastrophic descent into disgrace\". Donaldson received 11 years for the offences against one victim and four years for those against the other. He was convicted in June on 18 counts and is seeking to appeal.\n\nBecause the offences predate a change in sentencing law, he will spend only half the term in custody. The Belfast Telegraph reported he could walk free in a little over seven years, a detail that drew sharp reaction from survivors' groups.\n\nVictims described the impact of the abuse for the first time after the hearing. One told the News Letter that the abuse had left her \"not wanting to be alive most days\", while another said she was glad the Donaldsons \"can no longer hurt anyone\". Abuse charities said the case showed the need for organisations to ask difficult questions earlier.\n\nThe sentence closes one of the most consequential criminal cases in the recent history of unionism, months after the convictions ended Donaldson's political career.",
+      "sources": [
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cwdr8grnykrlo"
+        },
+        {
+          "name": "Belfast Telegraph",
+          "url": "https://www.belfasttelegraph.co.uk/news/northern-ireland/jeffrey-donaldson-will-walk-free-from-prison-in-just-over-seven-years-despite-15-year-sentence/a/163042282.html"
+        },
+        {
+          "name": "News Letter",
+          "url": "https://www.newsletter.co.uk/news/politics/jeffrey-donaldson-survivor-the-sexual-abuse-left-me-not-wanting-to-be-alive-most-days-9290671"
+        },
+        {
+          "name": "Derry Journal",
+          "url": "https://www.derryjournal.com/news/politics/jeffrey-donaldson-sentencing-the-evidence-which-led-to-the-conviction-of-ex-dup-leader-9289831"
+        }
+      ],
+      "publishedAt": "2026-10-16T04:50:00Z",
+      "imageURL": "/images/2026-10-16-northernIreland-001.jpg"
+    },
+    {
+      "id": "2026-10-16-global-001",
+      "category": "global",
+      "headline": "Sixteen-year-old kills three children and a teacher at Oregon primary school",
+      "subtitle": "The attacker forced his way into Silver Rail Elementary in Bend by shooting at locked doors, police say. He was shot dead by a member of the public who followed him inside.",
+      "body": "A 16-year-old shot dead three children and a teacher at a primary school in Bend, Oregon, on Thursday afternoon before he was killed by a bystander, according to police. The three children who died were aged five, eight and 11.\n\nThe suspect, who has not been named, forced his way into Silver Rail Elementary School by shooting at locked doors, Bend police chief Mike Krantz said. A community member \"pursued him into the school and engaged him\", Krantz added, describing the bystander as having stopped the attack. A seven-year-old pupil and a 54-year-old teacher were taken to hospital in a critical condition.\n\nPupils were still being accounted for hours after the shooting, and parents gathered at a nearby middle school where survivors were taken. The FBI said it was assisting local police, who have not yet described a motive.\n\nOregon's governor called the shooting a devastating day for the state and ordered flags to be flown at half mast. The attack is one of the deadliest at a US school in recent years, and it has renewed scrutiny of how a teenager obtained the weapon used.\n\nPolice said the investigation would continue through the weekend, with forensic teams working inside the school building.",
+      "sources": [
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cm89zp48k4kzo"
+        },
+        {
+          "name": "Associated Press",
+          "url": "https://apnews.com/article/oregon-school-shooting-silver-rail-elementary-b0642ec5cd3da0db24227a2798e2c6ce"
+        },
+        {
+          "name": "CNN",
+          "url": "https://www.cnn.com/2026/10/15/us/oregon-school-active-shooter"
+        },
+        {
+          "name": "20 minutos",
+          "url": "https://www.20minutos.es/internacional/un-tiroteo-una-escuela-primaria-oregon-deja-cuatro-muertos-entre-ellos-tres-menores_7049422_0.html"
+        }
+      ],
+      "publishedAt": "2026-10-16T04:55:00Z",
+      "imageURL": "/images/2026-10-16-global-001.jpg"
+    },
+    {
+      "id": "2026-10-16-global-002",
+      "category": "global",
+      "headline": "School roof collapse in Pakistan kills at least 33 pupils and a teacher",
+      "subtitle": "The roof of an upper-floor classroom gave way at a private school in Peshawar during morning lessons, sending ceilings below crashing down. More than a dozen people are injured, several critically.",
+      "body": "At least 33 pupils and a teacher were killed when the roof of a school building collapsed in the north-western Pakistani city of Peshawar on Thursday morning, according to hospital officials. More than a dozen others were injured, some of them critically.\n\nEmergency services were called to the private Al-Khair school in Dir Colony at 08:48 after lessons had begun. Rescue official Bilal Faizi said the roof of an upper-floor classroom had collapsed, causing ceilings below to cave in and trapping children under rubble.\n\nDozens of ambulances were sent to the site and rescue workers used heavy machinery to clear debris, with the dead and injured taken to Lady Reading Hospital. Distraught parents gathered outside the school gates as the bodies of pupils were brought out.\n\nThe death toll varies between outlets: the Associated Press reported 34 children and a teacher killed, while Arab News put the figure at 35 dead with more than 50 injured. Local officials warned the count could rise as rescue work continued.\n\nAn investigation has begun into whether the building, in a densely populated part of the city, met construction standards.",
+      "sources": [
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cked326llddgo"
+        },
+        {
+          "name": "Associated Press",
+          "url": "https://apnews.com/article/pakistan-school-roof-collapse-peshawar-c0be44527f22b43ea16a1f10d4b43e54"
+        },
+        {
+          "name": "Arab News",
+          "url": "https://www.arabnews.com/world/school-roof-collapse-in-pakistan-kills-at-least-35-and-injures-more-than-50-3006452"
+        },
+        {
+          "name": "ABC News (Australia)",
+          "url": "https://www.abc.net.au/news/2026-10-15/students-and-teacher-dead-in-pakistan-roof-collapse/107272300"
+        }
+      ],
+      "publishedAt": "2026-10-16T05:00:00Z",
+      "imageURL": "/images/2026-10-16-global-002.jpg"
+    },
+    {
+      "id": "2026-10-16-global-003",
+      "category": "global",
+      "headline": "Houthi missiles hit Yemen's presidential palace in Aden, killing five",
+      "subtitle": "The Iranian-aligned group said it targeted a Saudi military headquarters at al-Maashiq Palace. Yemen's prime minister and other ministers were unhurt, the information minister said.",
+      "body": "Five people were killed and 16 injured when Houthi ballistic missiles struck the presidential palace in Aden, the southern port city that serves as the seat of Yemen's internationally recognised government. Officials said the prime minister and other ministers present at the compound were unhurt.\n\nInformation Minister Moammar al-Eryani told the BBC that five missiles hit al-Maashiq Palace. The Houthis' military spokesman, Yahya Sarea, said the group had struck \"the Saudi enemy's military operations headquarters in Aden\" rather than a civilian target.\n\nThe attack is the most serious in a series of strikes on the city in recent weeks and underlines how far the Houthis can reach in a war that has lasted more than a decade. Aden has hosted the government since the Houthis took the capital, Sanaa, in 2014.\n\nSaudi Arabia blamed Iran for the escalation, which came alongside renewed battles between government forces and Iranian-aligned fighters in the central city of Taiz. Regional outlets carried headline tolls of two dead before the higher figure was confirmed.\n\nRescue teams were still working at the palace compound on Thursday night. The tolls given by different outlets differ: initial reports put the number of dead at two, before hospital and government officials revised it to five.",
+      "sources": [
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cm62y6lp73zdo"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/15/houthis-target-yemens-presidential-palace-in-aden-with-missiles"
+        },
+        {
+          "name": "CNN",
+          "url": "https://www.cnn.com/2026/10/15/middleeast/yemeni-houthi-strikes-on-aden-presidential-palace-kill-two-latam-intl"
+        },
+        {
+          "name": "Arab News",
+          "url": "https://www.arabnews.com/middle-east/houthi-missile-attack-on-aden-presidential-palace-kills-2-as-taiz-battles-intensify-3006578"
+        }
+      ],
+      "publishedAt": "2026-10-16T05:05:00Z",
+      "imageURL": "/images/2026-10-16-global-003.jpg"
+    },
+    {
+      "id": "2026-10-16-global-004",
+      "category": "global",
+      "headline": "Trump's energy ceasefire collapses as Russia and Ukraine trade strikes",
+      "subtitle": "Moscow accused Kyiv of hitting an oil refinery in Ryazan hours after sending a record swarm of drones at central Ukraine. Zelensky said Ukraine is 'done' with the truce he had agreed to.",
+      "body": "The White House's effort to negotiate an energy ceasefire between Russia and Ukraine has collapsed, days after Donald Trump announced an agreement under which both sides would stop striking each other's energy infrastructure. Moscow said Ukraine attacked a refinery in the Ryazan region overnight, and Volodymyr Zelensky indicated Kyiv would resume strikes on Russian oil facilities.\n\nRussia sent a record number of drones at targets in central Ukraine in the same period, hitting power and gas infrastructure. Ukrainian officials reported damage to generation capacity and warned of possible restrictions on supply as winter approaches.\n\nThe American-brokered deal had always looked fragile. Trump linked its survival to Russian diesel exports reaching global markets, while Kyiv complained that Moscow was violating its side of the arrangement from the start. Zelensky's position hardened this week to a blunt \"we're done\".\n\nAnalysts describe the collapse as a setback for Washington's push to lower energy prices before winter and to keep the war off the global oil market. Neither side has signalled a return to talks.\n\nThe exchange of strikes continued on Thursday night, with air-raid alerts reported across several Ukrainian regions.",
+      "sources": [
+        {
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/oct/15/us-effort-to-get-russia-ukraine-energy-ceasefire-collapses"
+        },
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cqwyrnwd9dw1o"
+        },
+        {
+          "name": "Associated Press",
+          "url": "https://apnews.com/article/russia-ukraine-war-oil-refinery-attacks-resume-0071b4f3792c9912b977b0ee73505b18"
+        },
+        {
+          "name": "DW",
+          "url": "https://www.dw.com/en/ukraine-resumes-attacks-on-russian-refineries-as-zelenskyy-says-were-done/a-79667757"
+        }
+      ],
+      "publishedAt": "2026-10-16T05:10:00Z",
+      "imageURL": "/images/2026-10-16-global-004.jpg"
+    },
+    {
+      "id": "2026-10-16-global-005",
+      "category": "global",
+      "headline": "Chip sell-off wipes roughly a trillion dollars off AI-linked shares",
+      "subtitle": "South Korea's benchmark index fell more than 8% overnight as investors worried about US inflation, the prospect of higher interest rates and the debts taken on to build AI infrastructure.",
+      "body": "A deepening sell-off in AI-linked shares has hit markets from Seoul to New York, as investors worried about rising inflation, the prospect of further interest-rate rises and the borrowing that has funded the build-out of AI data centres. South Korea's Kospi 200, heavily weighted towards memory-chip makers, fell more than 8% overnight.\n\nSamsung and SK Hynix led the decline in Asia, while Japan's chip equipment makers and the technology investor SoftBank also plunged. Business Insider estimated that around a trillion dollars of market value had been wiped off chip stocks as the trade that has driven global equities for two years wobbled.\n\nThe trigger was a combination of stubborn US inflation figures and growing scrutiny of how AI companies are financing their capital spending. Investors have become more sensitive to the gap between the debt being raised and the revenue arriving to service it.\n\nAnalysts stressed the fall followed an extraordinary run-up and does not by itself signal the end of the AI investment cycle. But the scale of the move shows how concentrated global markets have become around a small group of chip and cloud companies.\n\nThe sell-off spread to Europe and Wall Street, dragging down broader indices.",
+      "sources": [
+        {
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/business/2026/oct/15/tech-market-sell-off-deepens-amid-fears-over-us-inflation-and-ai-debt"
+        },
+        {
+          "name": "Business Insider",
+          "url": "https://www.businessinsider.com/chip-stocks-ai-tech-stock-market-today-korea-kospi-2026-10?op=1"
+        },
+        {
+          "name": "CNN",
+          "url": "https://www.cnn.com/2026/10/15/business/tech-selloff-nasdaq-ai-intl"
+        },
+        {
+          "name": "Channel NewsAsia",
+          "url": "https://www.channelnewsasia.com/business/us-chip-stocks-set-wipe-out-2-trillion-after-latest-selloff-6462771"
+        }
+      ],
+      "publishedAt": "2026-10-16T05:15:00Z",
+      "imageURL": "/images/2026-10-16-global-005.jpg"
+    },
+    {
+      "id": "2026-10-16-global-006",
+      "category": "global",
+      "headline": "Brazil's Congress ends the six-day week and cuts the maximum working week to 40 hours",
+      "subtitle": "Senators approved a constitutional amendment giving workers two paid days off for every five worked, with no cut in pay. The change is expected to benefit 26.8 million people.",
+      "body": "Brazil's Senate has approved a constitutional amendment abolishing the 6x1 schedule, under which employees work six days and take one day off, and reducing the maximum working week from 44 hours to 40. The measure passed on Wednesday and must now be promulgated by Congress.\n\nUnder the new rules, workers will be entitled to two paid days off for every five days worked, with no reduction in pay. A study by the Inter-Union Department of Statistics and Socioeconomic Studies (DIEESE) estimates that 26.8 million workers will benefit.\n\nThe vote is a significant political win for President Luiz Inácio Lula da Silva ahead of a presidential runoff, and follows months of campaigning by unions and labour groups. Opponents in business associations argued the change would raise costs for small firms and reduce flexibility.\n\nThe 6x1 week has been a defining feature of Brazilian working life for retail and service staff, who often have only one rest day a week and irregular Sundays off. Employers will have time to adapt, since the amendment sets a transition period before the new limits take effect.\n\nBrazil now joins a small group of countries that have legislated a standard working week below 44 hours.",
+      "sources": [
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cmwy43pp08elo"
+        },
+        {
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/oct/15/brazil-cuts-work-week-to-40-hours-lula-bolsonaro-election-runoff"
+        },
+        {
+          "name": "Agência Brasil",
+          "url": "https://agenciabrasil.ebc.com.br/en/economia/noticia/2026-10/congress-approves-changes-brazils-working-hours"
+        },
+        {
+          "name": "Associated Press",
+          "url": "https://apnews.com/article/brazil-workweek-lula-flavio-bolsonaro-senate-b851c95d90ff5ad3675e4ec343bd12fe"
+        }
+      ],
+      "publishedAt": "2026-10-16T05:20:00Z",
+      "imageURL": "/images/2026-10-16-global-006.jpg"
+    },
+    {
+      "id": "2026-10-16-tech-001",
+      "category": "tech",
+      "headline": "Tesla unveils a Roadster with SpaceX thrusters that can fly",
+      "subtitle": "The second-generation Roadster used cold-gas thrusters to leap over a Cybertruck, a Tesla Semi and three other cars at a demo in Texas. Elon Musk called it 'the best of the last of the human-driven cars'.",
+      "body": "Tesla has finally revealed the second-generation Roadster, a car it has been developing for nearly a decade, and the headline feature is not acceleration but flight. At a demo in Texas, the vehicle used cold-gas thrusters developed with SpaceX to lift off the ground and jump over a Cybercab, a Cybertruck, a Tesla Semi, a Model Y and a Model 3.\n\nAccording to The Verge, the car also hit 60mph in under a second and was shown driving upside down. The thrusters are the physical realisation of a joke Elon Musk has repeated for years about fitting a \"SpaceX option package\" to the car.\n\nMusk described the Roadster as \"the best of the last of the human-driven cars\", a line that leans on Tesla's argument that its future lies in autonomy rather than driver thrill. TechCrunch noted the demo ended with the car descending under control rather than falling, which was the more technically impressive half of the trick.\n\nThe reveal raises obvious regulatory questions. A production car with thrusters that can lift it off the road would need approval nobody has yet applied for, and no date has been given for deliveries. Tesla has not said how much the Roadster will cost.",
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/15/tesla-reveals-spacex-powered-roadster-that-flies-and-falls-with-style/"
+        },
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/transportation/1012552/tesla-roadster-next-gen-reveal-elon-musk"
+        },
+        {
+          "name": "Wired",
+          "url": "https://www.wired.com/story/tesla-roadster-2-launch/"
+        },
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/business/autos-transportation/tesla-set-unveil-next-generation-roadster-sports-ev-after-years-delay-2026-10-15/"
+        }
+      ],
+      "publishedAt": "2026-10-16T05:25:00Z",
+      "imageURL": "/images/2026-10-16-tech-001.jpg"
+    },
+    {
+      "id": "2026-10-16-tech-002",
+      "category": "tech",
+      "headline": "Targeted ads are being used to plant zero-click spyware, researchers find",
+      "subtitle": "The Citizen Lab says it has confirmed for the first time that mercenary spyware was delivered through online advertising, in an operation that infected devices at Al Jazeera with Candiru's software.",
+      "body": "The Citizen Lab has published research describing what it says is the first public confirmation of zero-click mercenary spyware delivered through online advertising. The technique, which the researchers call AdFection, was used to infect devices at the broadcaster Al Jazeera with spyware made by the Israeli vendor Candiru.\n\nThe report also names the company behind the infrastructure: Discover-Tech, which runs a malicious ad-targeting platform called Controlium. According to the Citizen Lab, Discover-Tech helps surveillance vendors track and hack devices around the world, operating at a scale measured in billions of ad bids.\n\nThe finding matters because it removes the last assumption people make about ad networks: that the worst thing they do is profile you. If a malicious ad can deliver code without a click, then any app or site that shows third-party advertising becomes a potential infection route, and the ad industry's supply chain becomes a security problem.\n\nThe Hacker News summarised the chain of evidence linking the ad targeting to the infections. Discover-Tech has not responded publicly to the research, and Candiru has previously denied wrongdoing when its tools have been linked to attacks on journalists and activists.",
+      "sources": [
+        {
+          "name": "The Citizen Lab",
+          "url": "https://citizenlab.ca/research/how-discover-tech-turned-targeted-ads-into-a-pipeline-for-spyware/"
+        },
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/15/citizen-lab-says-governments-are-abusing-online-ads-to-hack-people-with-zero-click-spyware/"
+        },
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/tech/1011956/discover-tech-zero-click-ads-spyware"
+        },
+        {
+          "name": "The Hacker News",
+          "url": "https://thehackernews.com/2026/10/citizen-lab-traces-zero-click-candiru.html"
+        }
+      ],
+      "publishedAt": "2026-10-16T05:30:00Z",
+      "imageURL": "/images/2026-10-16-tech-002.jpg"
+    },
+    {
+      "id": "2026-10-16-tech-003",
+      "category": "tech",
+      "headline": "Amazon's Bee launches two new AI devices starting at $75",
+      "subtitle": "The first products since Amazon bought Bee last year are a wearable called Frontier and a credit-card-sized recorder called Eclipse that attaches to a phone. Both plug into Alexa and Amazon shopping.",
+      "body": "Amazon's Bee has announced its first new products since the retail giant acquired the personal AI wearable maker last year. The company introduced two devices on Thursday: the Bee Frontier, a wearable, and the Bee Eclipse, a credit-card-sized recorder that attaches to a smartphone.\n\nPrices start at $74.99. The devices are designed to summarise conversations, produce to-do lists and feed context into Alexa and Amazon's shopping services, which is where the strategic logic of the acquisition becomes obvious.\n\nWearable AI recorders have had a mixed reception. Their usefulness depends on how well they summarise a day and how much of what they capture is stored, and privacy campaigners have raised questions about consent when a device in the room is recording everyone. Amazon is selling the Frontier and Eclipse on exactly that always-on, always-remembering pitch.\n\nBee's launch lands in a crowded market that includes pendants and pins from several startups, most of which have struggled to move beyond novelty. Amazon's advantage is distribution and the ability to fold the hardware into an ecosystem that already knows what its customers buy.",
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/15/amazons-bee-launches-two-new-personal-ai-devices-starting-at-75/"
+        },
+        {
+          "name": "About Amazon",
+          "url": "https://www.aboutamazon.com/news/devices/amazon-personal-ai-bee-frontier-bee-eclipse"
+        },
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/10/15/amazon-bee-frontier-eclipse-ai-devices.html"
+        },
+        {
+          "name": "Android Headlines",
+          "url": "https://www.androidheadlines.com/2026/10/amazon-bee-frontier-eclipse-ai-wearable.html"
+        }
+      ],
+      "publishedAt": "2026-10-16T05:35:00Z",
+      "imageURL": "/images/2026-10-16-tech-003.jpg"
+    },
+    {
+      "id": "2026-10-16-tech-004",
+      "category": "tech",
+      "headline": "Volvo expands its Nvidia partnership to chase hands-free driving by 2030",
+      "subtitle": "The carmaker is widening a partnership that began nearly a decade ago so that its automated driving system can work beyond battery-electric models, with door-to-door operation as the target.",
+      "body": "Volvo Cars has expanded its partnership with Nvidia in a push towards hands-free automated driving. The two companies announced on Thursday that the carmaker will build its next-generation automated driving system on Nvidia hardware and software, extending a relationship that has run for nearly a decade.\n\nThe change of substance is scope. Volvo's existing automated driving work has been tied to its battery-electric vehicles; the expansion means the system can be deployed across more of the range, including models with combustion engines. Nvidia's announcement frames the goal as safe, door-to-door automated driving, which is the industry's phrase for a system that handles a whole journey rather than motorway stretches.\n\nVolvo is targeting the end of the decade for hands-free operation. That is a level 2 system in engineering terms, meaning the driver remains responsible and has to be ready to take over, even when the car is doing the driving.\n\nThe bet is a familiar one for the sector: carmakers that cannot afford to develop their own AI stack are buying compute and software from Nvidia, which now supplies most of the industry. Reuters reported the expansion as part of Volvo's preparation for its next generation of models.",
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/15/volvo-makes-a-bigger-bet-on-nvidia/"
+        },
+        {
+          "name": "NVIDIA Newsroom",
+          "url": "https://nvidianews.nvidia.com/news/volvo-cars-and-nvidia-expand-partnership-to-advance-safe-automated-driving"
+        },
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/business/autos-transportation/volvo-cars-expands-automated-driving-partnership-with-nvidia-2026-10-15/"
+        },
+        {
+          "name": "Unite.AI",
+          "url": "https://www.unite.ai/volvo-cars-expands-nvidia-partnership-for-door-to-door-automated-driving/"
+        }
+      ],
+      "publishedAt": "2026-10-16T05:40:00Z",
+      "imageURL": "/images/2026-10-16-tech-004.jpg"
+    },
+    {
+      "id": "2026-10-16-tech-005",
+      "category": "tech",
+      "headline": "Withings puts Apple Health syncing behind a $100-a-year paywall for new users",
+      "subtitle": "Scales and trackers from the French company will only send data to Apple Health, Google Fit and other apps if the owner takes out a Withings+ subscription. Accounts created on or before 12 October keep it free.",
+      "body": "Withings has started charging new customers to sync their data with other apps. Anyone creating an account from 13 October onwards needs a Withings+ subscription, which costs around $99.50 a year, to send readings from the company's scales, blood-pressure monitors and sleep trackers to Apple Health, Google Fit and similar services.\n\nThe change is a paywall on a feature that owners of connected health hardware have always treated as the basic point of the device: if the numbers cannot reach the health app, the hardware is a closed box. MacRumors and AppleInsider both reported significant criticism from users, on the grounds that syncing is plumbing rather than an advanced feature.\n\nWithings has softened the change in one respect. Accounts created on or before 12 October 2026 keep third-party syncing for free, so existing owners are grandfathered in, and the company says it is investing the subscription revenue in its app and new features.\n\nThe move follows a pattern across consumer hardware, where margins on devices have been squeezed and companies look to recurring revenue instead. The risk is that the subscription becomes a reason not to buy the device at all.",
+      "sources": [
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/tech/1012350/withings-plus-subscription-new-users-october-13-2026"
+        },
+        {
+          "name": "MacRumors",
+          "url": "https://www.macrumors.com/2026/10/15/withings-plus-apple-health-syncing/"
+        },
+        {
+          "name": "AppleInsider",
+          "url": "https://appleinsider.com/articles/26/10/15/withings-wants-you-to-pay-100-a-year-to-sync-a-scale-with-apple-health"
+        },
+        {
+          "name": "Gadgets & Wearables",
+          "url": "https://gadgetsandwearables.com/2026/10/13/withings-apple-health-sync-withings-plus/"
+        }
+      ],
+      "publishedAt": "2026-10-16T05:45:00Z",
+      "imageURL": "/images/2026-10-16-tech-005.jpg"
+    },
+    {
+      "id": "2026-10-16-ai-001",
+      "category": "ai",
+      "headline": "Meta releases an 816-billion-parameter open-weight model that runs on a Mac",
+      "subtitle": "Muse Spark Open arrives with its weights published and enough agentic ability to drive a desktop, according to Meta. It is natively multimodal, has a million-token context window and runs on Apple's M5 Ultra Mac Studios.",
+      "body": "Meta has published the weights for Muse Spark Open, which it describes as the most capable US open-weight model to date. The model is natively multimodal, has 816 billion total parameters with 42 billion active at any time, and a context window of one million tokens.\n\nMeta is positioning it for coding and agentic work rather than chat. The announcement emphasises long-horizon tasks and running locally: the model is designed to work on a desktop, specifically Apple's M5 Ultra Mac Studios, rather than only in a data centre.\n\nThat last detail depends on a rapprochement with Apple. The Verge reported that the two companies are working together so that Meta's Muse models run better on Macs through Apple's MLX framework, with both chief executives publicly endorsing the other's work. \"We're excited for mommy and daddy to be playing nice again,\" one AI developer told the site.\n\nOpen weights matter beyond licensing. A frontier-class model that a studio or a single developer can run on hardware they own changes who gets to build on top of it, and Meta has made that accessibility the core of its pitch. TechCrunch reported that the model can be run locally, the first time a model of this size has plausibly been framed as a desktop tool.",
+      "sources": [
+        {
+          "name": "Meta AI Research",
+          "url": "https://research.meta.ai/blog/muse-spark-open"
+        },
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs/"
+        },
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/news/1012293/meta-apple-muse-spark-open-ai-model-mlx"
+        },
+        {
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/technology/2026/oct/16/meta-releases-muse-spark-open-a-new-open-weight-ai-model"
+        }
+      ],
+      "publishedAt": "2026-10-16T05:50:00Z",
+      "imageURL": "/images/2026-10-16-ai-001.jpg"
+    },
+    {
+      "id": "2026-10-16-ai-002",
+      "category": "ai",
+      "headline": "Anthropic tells investors quarterly revenue reached $16.8bn ahead of IPO",
+      "subtitle": "The company hosted investors on Wednesday and put a number on its growth, reported as 45% by the New York Times and nearly 50% by the Financial Times. It is preparing to list while spending heavily on compute.",
+      "body": "Anthropic has told investors that its quarterly revenue reached $16.8bn, according to reports, as the company prepares for a stock market listing. The Financial Times, whose reporting was flagged by Simon Willison, said the figure represented growth of nearly 50%, while the New York Times put the increase at 45%.\n\nThe company held a day for investors on Wednesday, and the reporting is based on people with knowledge of the matter rather than published accounts. Both figures point the same way: enormous revenue by the standards of software companies, and slower growth than the company has previously posted.\n\nThe slowdown matters for the listing. Anthropic's valuation rests on the assumption that demand for frontier models keeps compounding, and investors will want to know whether the deceleration reflects customers settling on one provider, competition from cheaper open-weight models or simply the law of large numbers at this scale.\n\nThe other half of the story is spending. Anthropic, like its rivals, is committed to enormous compute contracts, and the gap between revenue growth and capital commitments is now the central question in the sector. Nvidia's results and the recent slump in chip shares are downstream of the same arithmetic.",
+      "sources": [
+        {
+          "name": "Simon Willison",
+          "url": "https://simonwillison.net/2026/Oct/15/anthropic-tells-investors/"
+        },
+        {
+          "name": "Financial Times",
+          "url": "https://www.ft.com/content/11632d03-358c-454b-af95-d06d4072932b"
+        },
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/10/15/anthropics-third-quarter-revenue-hits-16point8-billion-ipo.html"
+        },
+        {
+          "name": "The New York Times",
+          "url": "https://www.nytimes.com/2026/10/14/technology/anthropic-ipo-revenue-profit.html"
+        }
+      ],
+      "publishedAt": "2026-10-16T05:55:00Z",
+      "imageURL": "/images/2026-10-16-ai-002.jpg"
+    },
+    {
+      "id": "2026-10-16-ai-003",
+      "category": "ai",
+      "headline": "Anthropic gives six outside evaluators employee-level access to its models",
+      "subtitle": "Researchers from the nonprofit METR will be able to assess Anthropic's models, safety practices and risk management as insiders, and the company has given up the right to block what they publish.",
+      "body": "Anthropic has granted employee-level access to six researchers from METR, the nonprofit that evaluates frontier AI models, so they can independently assess the company's models, safety practices and risk management. The arrangement was announced in a blog post on Thursday.\n\nAccess is the crux of it. Independent evaluators have generally been given a model and a set of prompts, which makes it hard to see training procedures, deployment decisions or how incidents are handled. Employee-level access means the researchers can look at the systems as staff would, with a view of the machinery rather than the finished product.\n\nThe same applies to publication. METR will publish its own assessments of Anthropic's risks, incidents and practices, and Anthropic has given up the right to block them, which is unusual for a company of its size. TechCrunch reported the arrangement arrives as concern grows about AI agents acting outside their instructions.\n\nThe wider context is regulatory pressure. Demands for third-party evaluation of frontier models are increasing, and both the companies and the evaluators are improvising the rules as they go. Whether an access agreement like this one becomes the template, or stays a voluntary gesture, is the question worth watching.",
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/15/anthropic-is-letting-metr-researchers-look-under-the-hood-with-employee-level-access/"
+        },
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/business/anthropic-grants-ai-evaluator-metr-employee-level-access-its-models-2026-10-15/"
+        },
+        {
+          "name": "Anthropic",
+          "url": "https://www.anthropic.com/news/an-update-on-independent-evaluators"
+        },
+        {
+          "name": "Unite.AI",
+          "url": "https://www.unite.ai/anthropic-onboards-six-metr-evaluators-with-employee-like-access/"
+        }
+      ],
+      "publishedAt": "2026-10-16T06:00:00Z",
+      "imageURL": "/images/2026-10-16-ai-003.jpg"
+    },
+    {
+      "id": "2026-10-16-ai-004",
+      "category": "ai",
+      "headline": "Krea launches an image editor that turns round a 2K edit in under eight seconds",
+      "subtitle": "Krea 3 takes a photo or a set of references and changes it from a written prompt, can edit one region and leave the rest untouched, and can be fine-tuned on a specific product, person or style.",
+      "body": "Krea has launched Krea 3, an image-editing model that takes a photograph or a set of reference images and changes it according to a written prompt. The company says high-quality 2K edits are returned in under eight seconds end to end, quick enough for a designer to try a new background, outfit or lighting setup without waiting on each render.\n\nThe features are aimed at production work rather than novelty. Krea 3 can edit a selected region of an image and leave the rest of the frame untouched, bounding boxes let a user choose where new elements go, and each edit can draw on up to six reference images, including style references.\n\nKrea also says it is the first editing model that can be fine-tuned with LoRAs on a specific product, person or style, which is the feature that matters most commercially: a brand can train the model on its own catalogue and keep the output consistent. Pricing starts at $0.03 per image according to TestingCatalog.\n\nFast, cheap, controllable editing is where the competition among image models has moved to, after the race to generate a convincing picture from nothing. The winners of that competition will be the tools that fit into an existing workflow without requiring the user to learn a new one.",
+      "sources": [
+        {
+          "name": "TestingCatalog",
+          "url": "https://www.testingcatalog.com/krea-launched-krea-3-for-fast-and-precise-image-editing/"
+        },
+        {
+          "name": "Krea",
+          "url": "https://www.krea.ai/krea-3"
+        },
+        {
+          "name": "fal",
+          "url": "https://fal.ai/krea-3"
+        },
+        {
+          "name": "Byteiota",
+          "url": "https://byteiota.com/krea-3-image-model-11x-faster-3-7x-cheaper-than-gpt/"
+        }
+      ],
+      "publishedAt": "2026-10-16T06:05:00Z",
+      "imageURL": "/images/2026-10-16-ai-004.jpg"
+    },
+    {
+      "id": "2026-10-16-ai-005",
+      "category": "ai",
+      "headline": "Caine prize winner denies using AI after journal flags his story",
+      "subtitle": "Simbarashe Kundizeza won the Caine prize for African writers on 6 October. Five days later The Atlantic said software had flagged his story, 'The Blue Fighter', as almost entirely AI-generated.",
+      "body": "The Zimbabwean writer Simbarashe Kundizeza has denied using AI to write his prize-winning short story after an article in The Atlantic said software had flagged it as almost entirely generated by a machine. His story, \"The Blue Fighter\", was announced as the winner of the Caine prize for African writing on 6 October.\n\nFive days later, The Atlantic published an analysis of the text. Kundizeza rejected the claim, and the dispute has since been taken up across the African literary community, much of which has pushed back on the article's methods and on the suggestion that its author cheated.\n\nThe row matters because it has no clean resolution. AI-detection tools are unreliable, and a false accusation can damage a writer's reputation permanently, while a genuine case of undisclosed AI use would undermine a prize whose purpose is to recognise original work. The Atlantic's case rests on textual analysis, not on a confession or documentary evidence.\n\nThe Caine prize is one of the most significant awards for African short fiction. Whatever the outcome, the episode has opened a bigger argument in publishing about how judges, editors and readers should treat the question of machine assistance at all.",
+      "sources": [
+        {
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/technology/2026/oct/14/zimbabwean-author-simbarashe-kundizeza-denies-ai-story"
+        },
+        {
+          "name": "The Atlantic",
+          "url": "https://www.theatlantic.com/books/2026/10/caine-prize-winning-short-story-seems-be-ai/688967/"
+        },
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.com/news/articles/cm4g1rekpgnjo"
+        },
+        {
+          "name": "Associated Press",
+          "url": "https://apnews.com/article/writing-prize-winner-artificial-intelligence-allegations-denial-64793e57050247acdab1ddef0ea48141"
+        }
+      ],
+      "publishedAt": "2026-10-16T06:08:00Z",
+      "imageURL": "/images/2026-10-16-ai-005.jpg"
+    }
+  ]
+}
