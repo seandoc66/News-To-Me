@@ -8,14 +8,18 @@
   ],
 
   "locale": {
-    "_note": "outputLanguage is keyed by section, with `default` covering every section not named. Local and national are written in Spanish because that is the language of their sources and of the city Shane lives in — translating a Lugo council story into English only puts a layer of paraphrase between him and what was actually said. Source language is never restricted anywhere; see brief.md.",
+    "_note": "outputLanguage is keyed by section, with `default` covering any section not named. Every section is now listed explicitly so the language is never left to the fallback: local and national Spanish, northernIreland/global/tech/ai English. Local and national are written in Spanish because that is the language of their sources and of the city Shane lives in — translating a Lugo council story into English only puts a layer of paraphrase between him and what was actually said. Source language is never restricted anywhere; see brief.md.",
     "localArea": "Lugo, Galicia, Spain — the city and its province",
     "nationalCountry": "Spain",
     "northernIrelandArea": "Northern Ireland — all six counties, with the north-west (Strabane, Derry, Tyrone) of particular interest",
     "outputLanguage": {
       "default": "English",
       "local": "Spanish",
-      "national": "Spanish"
+      "national": "Spanish",
+      "northernIreland": "English",
+      "global": "English",
+      "tech": "English",
+      "ai": "English"
     },
     "timezone": "Europe/Madrid",
     "runTime": "06:00"

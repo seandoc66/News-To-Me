@@ -34,12 +34,22 @@ north-west — Strabane, Derry, Tyrone — carries more weight than a Belfast st
 of the same size.
 
 **What language to write in.** `config.json → locale.outputLanguage` is keyed by
-section, with `default` covering the ones it doesn't name. Read it rather than
-assuming; today it puts `local` and `national` in Spanish and the rest in
-English. That is the point of the setting: those stories are nearly all
-translations of Spanish reporting, and a translation puts another layer of
-paraphrase between Shane and what was actually said. Quotes especially should
-reach him in the words they were spoken in.
+section, and it is a rule rather than a preference. `local` and `national` are
+Spanish. `northernIreland`, `global`, `tech` and `ai` are English. Check the
+section's entry before writing its first word.
+
+This has already gone wrong: the editions of 6, 8 and 18 October 2026 wrote all
+fifteen global, tech and AI stories in Spanish, because the per-section setting
+was treated as a suggestion. `validate.mjs` now fails the edition when an
+English section comes out in Spanish, so getting this wrong costs the whole
+day's publish rather than one card.
+
+The language applies to `headline`, `subtitle` and `body`. If your sources are
+Spanish — normal for a global story that El Mundo also covered — you translate
+the story into the section's language; you do not switch the section's language
+to match the source. Only `local` and `national` stay Spanish, because there the
+source language and Shane's are the same, and a translation would only put a
+layer of paraphrase between him and what was actually said.
 
 **Read in any language; write in the section's.** The two never constrain each
 other. Most Lugo coverage is in Spanish or Galician and most Northern Irish

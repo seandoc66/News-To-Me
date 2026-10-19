@@ -400,6 +400,61 @@ for (const c of CATEGORIES) {
   }
 }
 
+// --- output language --------------------------------------------------------
+// `locale.outputLanguage` is per section: local and national are Spanish on
+// purpose, everything else is English. Three editions (6, 8 and 18 Oct 2026)
+// wrote the whole of global/tech/ai in Spanish — 46 articles — because the
+// per-section setting was treated as advice rather than a rule. A mixed edition
+// is expected; a section that has flipped language wholesale is not.
+const stripAccents = (s) => s.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+const ES_WORDS = new Set(
+  "el la los las de que en un una por para con del se su pero mas como este esta entre cuando desde hasta tambien segun sobre al lo le les sus ni".split(" ")
+);
+const EN_WORDS = new Set(
+  "the of and to in is that for with on as by at from was were this which their its but not have has it be are".split(" ")
+);
+
+const looksSpanish = (text) => {
+  const words = stripAccents(text).match(/[a-z]+/g) ?? [];
+  let es = 0;
+  let en = 0;
+  for (const w of words) {
+    if (ES_WORDS.has(w)) es += 1;
+    else if (EN_WORDS.has(w)) en += 1;
+  }
+  // Short headlines carry too little signal to judge on their own.
+  if (es + en < 8) return false;
+  return es > en * 1.3;
+};
+
+const languageFor = (category) => {
+  const table = config.raw?.locale?.outputLanguage ?? {};
+  return table[category] ?? table.default ?? "English";
+};
+
+for (const c of CATEGORIES) {
+  const target = languageFor(c);
+  if (String(target).toLowerCase() !== "english") continue;
+
+  const inSection = feed.articles.filter((a) => a.category === c);
+  if (!inSection.length) continue;
+
+  const spanish = inSection.filter((a) => looksSpanish(`${a.headline} ${a.subtitle} ${a.body}`));
+  if (!spanish.length) continue;
+
+  if (inSection.length >= 2 && spanish.length / inSection.length >= 0.6) {
+    fail(
+      `${spanish.length} of ${inSection.length} "${c}" articles are written in Spanish, but "${c}" is set to ${target} — ` +
+        `the section has flipped language wholesale: ${spanish.map((a) => a.id).join(", ")}`
+    );
+  } else {
+    warn(
+      `${spanish.length} "${c}" article(s) read as Spanish though "${c}" is set to ${target}: ` +
+        spanish.map((a) => a.id).join(", ")
+    );
+  }
+}
+
 // Photos are optional, but a batch that has largely given up on them is a
 // broken pipeline rather than an unlucky day, so say so loudly.
 if (missingPhotos.length) {
