@@ -1,0 +1,662 @@
+{
+  "generatedAt": "2026-10-19T04:25:56Z",
+  "config": {
+    "sections": {
+      "local": {
+        "min": 1,
+        "max": 3,
+        "sources": [
+          {
+            "name": "El Progreso",
+            "url": "https://www.elprogreso.es"
+          },
+          {
+            "name": "CIG",
+            "url": "https://www.cig.gal"
+          },
+          {
+            "name": "Noticias Lugo",
+            "url": "https://noticiaslugo.es"
+          },
+          {
+            "name": "Europa Press",
+            "url": "https://www.europapress.es"
+          }
+        ]
+      },
+      "national": {
+        "min": 4,
+        "max": 8,
+        "sources": [
+          {
+            "name": "20minutos",
+            "url": "https://www.20minutos.es"
+          },
+          {
+            "name": "El Mundo",
+            "url": "https://www.elmundo.es"
+          },
+          {
+            "name": "El País",
+            "url": "https://elpais.com"
+          },
+          {
+            "name": "RTVE",
+            "url": "https://www.rtve.es"
+          }
+        ]
+      },
+      "northernIreland": {
+        "min": 1,
+        "max": 1,
+        "sources": [
+          {
+            "name": "Belfast News Letter",
+            "url": "https://www.newsletter.co.uk"
+          },
+          {
+            "name": "BBC News NI",
+            "url": "https://www.bbc.co.uk/news/northern_ireland"
+          }
+        ]
+      },
+      "global": {
+        "min": 4,
+        "max": 8,
+        "sources": [
+          {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com"
+          },
+          {
+            "name": "BBC News",
+            "url": "https://www.bbc.co.uk/news"
+          },
+          {
+            "name": "The Guardian",
+            "url": "https://www.theguardian.com"
+          },
+          {
+            "name": "Los Angeles Times",
+            "url": "https://www.latimes.com"
+          }
+        ]
+      },
+      "tech": {
+        "min": 5,
+        "max": 5,
+        "sources": [
+          {
+            "name": "Hacker News",
+            "url": "https://news.ycombinator.com"
+          },
+          {
+            "name": "The Verge",
+            "url": "https://www.theverge.com"
+          },
+          {
+            "name": "WIRED",
+            "url": "https://www.wired.com"
+          },
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com"
+          }
+        ]
+      },
+      "ai": {
+        "min": 5,
+        "max": 5,
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com"
+          },
+          {
+            "name": "WIRED",
+            "url": "https://www.wired.com"
+          },
+          {
+            "name": "Simon Willison's blog",
+            "url": "https://simonwillison.net"
+          },
+          {
+            "name": "Hacker News",
+            "url": "https://news.ycombinator.com"
+          }
+        ]
+      }
+    }
+  },
+  "articles": [
+    {
+      "id": "2026-10-19-local-001",
+      "category": "local",
+      "headline": "El metal de Lugo añade tres días de huelga a la cita del miércoles",
+      "subtitle": "CIG, CC.OO. y UGT marchan el 21-O desde Garabolos y avisan de paros el 28 de octubre y el 3 y 5 de noviembre si la patronal no mueve su oferta del 4%, siete puntos por debajo de la reivindicada.",
+      "body": "La segunda jornada de huelga en el metal de la provincia de Lugo ya tiene recorrido: los trabajadores del sector y del comercio del metal marcharán este miércoles a partir de las 12.30 horas desde Garabolos hasta la sede de la CEL en la Praza de Santo Domingo, pasando por la Avenida da Coruña y las calles San Fernando y San Marcos.\n\nLa primera parada, el 14 de octubre, dejó el polígono de O Ceao paralizado y se cerró sin incidentes. CIG, CC.OO. y UGT han decidido ahora redoblar la presión y anuncian otros tres paros —28 de octubre, 3 y 5 de noviembre— si la negociación colectiva sigue bloqueada.\n\n«Seguimos en disposición de sentarnos en la mesa de negociación cuántas veces sea necesario para intentar llegar a un acuerdo. Pero de momento no hay movimiento alguno», advierte la parte social. La patronal considera las demandas sindicales «desmedidas» y «muy pocos realistas».\n\nEl pulso se concentra en dos puntos. Los sindicatos exigen una subida salarial del 7% anual para el cuatrienio 2026-2029 y 24 horas menos de jornada al año, repartidas en ocho horas en 2027, 2028 y 2029. La parte empresarial ofrece un 4% en cada ejercicio y solo cuatro horas anuales en 2029 para el siderometal. Los paros alcanzan tanto a la industria como al comercio que vende, repara y mantiene maquinaria.",
+      "sources": [
+        {
+          "name": "El Progreso",
+          "url": "https://www.elprogreso.es/articulo/lugo/sindicatos-convocan-otros-tres-dias-huelga-sector-metal-lugo-ademas-miercoles/202610182308152007231.html"
+        },
+        {
+          "name": "CIG",
+          "url": "https://www.cig.gal/nova/convocada-folga-no-metal-de-lugo-os-dias-14-e-21-outubro-ante-a-falta-de-avances-na-negociacion-dos-convenios.html"
+        },
+        {
+          "name": "GaliciaXa",
+          "url": "https://galiciaxa.com/es/news/los-sindicatos-movilizan-al-sector-del-metal-en-o-ceao-para-reclamar-mejoras-en-el-convenio/137709"
+        }
+      ],
+      "publishedAt": "2026-10-19T04:12:00Z",
+      "imageURL": "/images/2026-10-19-local-001.jpg"
+    },
+    {
+      "id": "2026-10-19-local-002",
+      "category": "local",
+      "headline": "Lugo tiene 244 locales en alquiler y 324 en venta mientras el comercio se apaga por barrios",
+      "subtitle": "El recinto amurallado lidera la oferta con 60 bajos disponibles y San Antonio acumula 72 cerrados tras la marcha del hospital. En el mercado de Fingoi solo resisten una pescadería y una frutería.",
+      "body": "Hay calles de Lugo en las que cada vez cuesta más encontrar una persiana levantada. En las principales plataformas inmobiliarias hay 244 locales y naves anunciados en alquiler y 324 en venta, pero el reparto es muy desigual.\n\nEl recinto amurallado concentra 60 locales disponibles, As Fontiñas y San Roque 53, A Milagrosa 33, Paradai 23, O Carme 18 y O Ceao 18. En el otro extremo, A Piringalla aparece con nueve, A Residencia con cuatro, Sagrado Corazón con tres y Fingoi con solo dos.\n\nLos precios dibujan el mismo mapa. Un local pequeño en un barrio sin tejido comercial se anuncia por unos 240 euros al mes, mientras que las rentas más céntricas llegan a los 8.000 y las naves de O Ceao oscilan entre 7.000 y 13.000 euros. En venta, un inmueble de O Carme pide cinco millones y otro de O Ceao, 2,5.\n\n## Augas Férreas, la excepción\n\nEl contraste lo da Augas Férreas, donde apenas se ven bajos vacíos. El vocal vecinal Manel Cerdeira lo atribuye al perfil joven del barrio, a las calles amplias y a una plaza que funciona como punto de encuentro, lo que sostiene hostelería, academias, librerías y clínicas. San Antonio vive lo contrario: 72 bajos cerrados, un declive que su asociación vecinal vincula a la salida del hospital.\n\nLa Xunta acaba de resolver una línea de 577.300 euros para modernizar las plazas de abastos de Lugo, Viveiro y Ribadeo y atraer clientes, mientras los vecinos de San Antonio reclaman al Concello medidas para el comercio y la vivienda. Fegein cifraba en más de 7.000 los locales vacíos en Galicia.",
+      "sources": [
+        {
+          "name": "El Progreso",
+          "url": "https://www.elprogreso.es/articulo/lugo/mapa-bajos-vacios-lugo-244-alquiler-324-venta/202610182350502007281.html"
+        },
+        {
+          "name": "Noticias Lugo",
+          "url": "https://noticiaslugo.es/lugo-viveiro-y-ribadeo-renuevan-sus-mercados-577-300-euros-para-modernizar-la-plaza-de-abastos-y-ganar-clientes/"
+        },
+        {
+          "name": "Europa Press",
+          "url": "https://www.europapress.es/galicia/noticia-aumentan-locales-comerciales-vacios-galicia-ya-hay-mas-7000-20240122125614.html"
+        }
+      ],
+      "publishedAt": "2026-10-19T04:20:00Z",
+      "imageURL": "/images/2026-10-19-local-002.jpg"
+    },
+    {
+      "id": "2026-10-19-national-001",
+      "category": "national",
+      "headline": "España termina 157.500 viviendas menos que hogares crea en un año y la escasez llega a 50 provincias",
+      "subtitle": "Entre julio de 2025 y junio de 2026 se acabaron 81.109 pisos frente al millón de hogares nuevos desde 2022. Solo Cáceres y Soria escapan a un desajuste que ya exige esfuerzos de más de una década para pagar casa.",
+      "body": "España acumula un déficit de 684.812 viviendas desde 2022. En ese periodo se han construido 367.945 casas nuevas frente a un millón de hogares creados, y el desajuste lejos de corregirse se ha agravado en el último año: entre julio de 2025 y junio de 2026 se terminaron 81.109 inmuebles, unos 157.500 menos de los que hicieron falta.\n\nLa estadística del Ministerio de Vivienda muestra que la producción se ha estancado. En el primer semestre se finalizaron 40.136 viviendas libres, apenas un 0,8% más que en el mismo periodo de 2025, y el volumen semestral lleva moviéndose en torno a las 40.000 desde 2021. Los visados de obra nueva sí despegan —67.564 pisos iniciados, un 10,6% más—, pero tardarán años en llegar al mercado.\n\n## Todas las provincias menos dos\n\nEl desequilibrio se repite en 50 de las 52 provincias. Solo Cáceres y Soria han construido por encima de los hogares que han creado, con 848 y 473 viviendas frente a 810 y 119 nuevas familias. Donde más se inclina la balanza es donde más gente vive: Madrid, Barcelona y los grandes litorales concentran la demanda y los precios.\n\n«La falta de oferta es mayor en las grandes ciudades, que es donde se ofrecen más servicios y donde hay más trabajo. También es mayor la demanda», resume Miguel Ángel Gómez Huecas, presidente de la patronal inmobiliaria Fadei, que señala la falta de suelo finalista y el coste de la obra como frenos.",
+      "sources": [
+        {
+          "name": "20minutos",
+          "url": "https://www.20minutos.es/nacional/espana-crea-157-500-viviendas-menos-que-hogares-ultimo-ano-con-escasez-general-todas-las-provincias-salvo-dos_7047011_0.html"
+        },
+        {
+          "name": "La Vanguardia",
+          "url": "https://www.lavanguardia.com/economia/20260923/11642530/banco-espana-advierte-deficit-viviendas-llegara-millon-dos-anos.html"
+        },
+        {
+          "name": "El Periódico",
+          "url": "https://www.elperiodico.com/es/economia/20261009/banco-espana-estima-2028-entregaran-140000-viviendas-cifra-alta-17-anos-135182584"
+        }
+      ],
+      "publishedAt": "2026-10-19T04:32:00Z",
+      "imageURL": "/images/2026-10-19-national-001.jpg"
+    },
+    {
+      "id": "2026-10-19-national-002",
+      "category": "national",
+      "headline": "El IVA a los pisos turísticos 'sale a devolver': los dueños deducirán lo que Hacienda quiere gravar",
+      "subtitle": "Los arrendadores sin servicios de hostelería estaban exentos y no podían deducir luz, limpieza o mobiliario. Con el nuevo tipo podrán hacerlo, y el sector espera que el impuesto acabe en el precio que paga el turista.",
+      "body": "Los apartamentos turísticos que hasta ahora estaban exentos de IVA —los que no prestan servicios propios de hostelería como limpieza durante la estancia, lavado de ropa o restauración— pasarán a tributar al 10% en los alquileres de 30 noches o menos a partir del 1 de diciembre, pero el efecto será mucho menor de lo que sugiere el anuncio. Al estar exentos, sus dueños tampoco podían deducir el IVA soportado de la actividad.\n\nCon el cambio podrán deducirse la electricidad, la limpieza contratada a una empresa, las reformas, el mobiliario, la pintura o la fontanería. Es decir, lo que ingresan por un lado lo recuperan por otro, según coinciden los expertos consultados. José María Mollinedo, secretario general de los técnicos de Hacienda (Gestha), apunta que en las zonas de rentas altas el saldo puede quedar incluso a favor del propietario.\n\n## El escenario más probable\n\nLa hipótesis que más fuerza tiene en el sector es otra: repercutir el impuesto al huésped. El dueño mantendría su margen y el turista pagaría más por noche, con el riesgo de que la demanda se resienta en destinos ya tensionados por el precio.\n\nBlanca Llopart califica la medida de «política de escaparate» en plena carrera hacia el 29-N y duda de que desincentive la conversión de vivienda en alojamiento turístico. Moncloa defiende que la fórmula ayuda a frenar la proliferación de pisos turísticos en las ciudades.",
+      "sources": [
+        {
+          "name": "El Mundo",
+          "url": "https://www.elmundo.es/economia/vivienda/2026/10/19/6ad2072c21efa0481e8b457c.html"
+        },
+        {
+          "name": "elDiario.es",
+          "url": "https://www.eldiario.es/economia/gobierno-impone-10-iva-pisos-turisticos-permitira-ayuntamientos-dupliquen-ibi_1_13549266.html"
+        },
+        {
+          "name": "Hoy Aragón",
+          "url": "https://www.hoyaragon.es/bolsillo/nuevo-iva-10-alquiler-30-noches-menos-entra-1-diciembre-excepcion-que-libra-pagarlo/20261011100000148811.html"
+        }
+      ],
+      "publishedAt": "2026-10-19T04:40:00Z",
+      "imageURL": "/images/2026-10-19-national-002.jpg"
+    },
+    {
+      "id": "2026-10-19-national-003",
+      "category": "national",
+      "headline": "El AVE Madrid-Barcelona recupera la doble vía en Ricla nueve días después del incendio",
+      "subtitle": "Adif culmina la reparación del tramo entre Ricla y Plasencia de Jalón y devuelve a Renfe, Ouigo e Iryo las frecuencias y los tiempos de viaje previos al fuego declarado el 12 de octubre.",
+      "body": "La línea de alta velocidad entre Madrid y Barcelona vuelve a circular por las dos vías a lo largo de este lunes. Adif ha terminado la reparación del tramo entre las localidades zaragozanas de Ricla y Plasencia de Jalón, dañado por el incendio de una de las cabezas tractoras de un tren ocurrido el 12 de octubre a las 16.05 horas, en el kilómetro 256,2 de la vía sentido Barcelona.\n\nEl fuego obligó a suspender la circulación de ambas vías, aunque en cuatro horas se restableció el tráfico por vía única. La retirada de la parte útil del tren comenzó la noche del 15 de octubre con una cizalla industrial de grandes dimensiones, y las tareas se hicieron casi en su totalidad en las ventanas de mantenimiento nocturno, de cinco a seis horas por jornada.\n\n## 1,2 kilómetros de catenaria\n\nLos trabajos han incluido la limpieza y retirada de residuos de la plataforma, la revisión de soldaduras e inspección del carril, la reposición de soportes y canaletas, 1,2 kilómetros de hilo de contacto, la reparación de un sustentador y el tensado y pendolado de la catenaria. Adif movilizó a 24 operarios y técnicos, una locomotora de trabajos y equipos de inspección por ultrasonidos.\n\nCon la infraestructura disponible, las operadoras podrán restituir su oferta comercial. Desde el incendio, los trenes han circulado con horarios ampliados y menos frecuencias entre las dos capitales.",
+      "sources": [
+        {
+          "name": "RTVE",
+          "url": "https://www.rtve.es/noticias/20261018/adif-recupera-este-lunes-circulacion-por-ambas-vias-linea-del-ave-madrid-barcelona/17272115.shtml"
+        },
+        {
+          "name": "20minutos",
+          "url": "https://www.20minutos.es/nacional/adif-termina-reparar-via-ricla-renfe-ouigo-iryo-podran-normalizar-servicio-madrid-barcelona-durante-este-lunes_7050226_0.html"
+        },
+        {
+          "name": "El País",
+          "url": "https://elpais.com/economia/2026-10-18/adif-pone-a-prueba-el-punto-del-incendio-del-ave-en-la-linea-madrid-barcelona-y-preve-abrirlo-al-trafico-este-lunes.html"
+        }
+      ],
+      "publishedAt": "2026-10-19T04:48:00Z",
+      "imageURL": "/images/2026-10-19-national-003.jpg"
+    },
+    {
+      "id": "2026-10-19-national-004",
+      "category": "national",
+      "headline": "Exteriores admite que no llega a tiempo de discernir quién de los 163.000 nacionalizados puede votar",
+      "subtitle": "El Ministerio alega ante el Supremo que el plazo hasta el 29-N es «manifiestamente insuficiente» para revisar uno a uno los expedientes de la ley de nietos y abre la puerta a impugnaciones masivas.",
+      "body": "El Ministerio de Asuntos Exteriores sostiene que es «imposible» cumplir al 100% la orden del Tribunal Supremo de identificar, uno a uno, a cuáles de los 163.000 nacionalizados por la ley de nietos les corresponde votar el 29 de noviembre. Fuentes del departamento de José Manuel Albares recuerdan que la Abogacía del Estado ya advirtió al Supremo el pasado día 9 de que el tiempo era «manifiestamente insuficiente» para los consulados con más expedientes.\n\nExteriores asegura que la plataforma para trasladar los datos a la Oficina del Censo Electoral «ya está operativa» y que una treintena de consulados han remitido información. El resto de comprobaciones avanza, dicen, «con la mayor rapidez posible», pero sin perspectiva de completarse. Muchos legajos siguen sin informatizar.\n\n## Batalla postelectoral\n\nLa consecuencia práctica es que el censo de esos votantes no estará depurado cuando se celebren los comicios, lo que anticipa un alud de impugnaciones de resultados en las circunscripciones del exterior. El PP habla de una «maniobra deliberada» de Exteriores para impedir «por la vía de los hechos» la suspensión de la ley.\n\nEn paralelo, el ponente del Tribunal Constitucional apuesta por inadmitir el recurso del Defensor del Pueblo contra la reforma que limitó el acceso a la nacionalidad de los descendientes de emigrantes.",
+      "sources": [
+        {
+          "name": "El Mundo",
+          "url": "https://www.elmundo.es/elecciones/elecciones-generales/2026/10/19/6ad51e63e85eceb80e8b458c.html"
+        },
+        {
+          "name": "El Mundo",
+          "url": "https://www.elmundo.es/espana/2026/10/18/6ad4c213fc6c83c1078b4575.html"
+        },
+        {
+          "name": "Europa Press",
+          "url": "https://www.europapress.es/nacional/noticia-nacionalizados-ley-nietos-voto-suspendido-apuran-plazos-presentar-alegaciones-supremo-20261018103250.html"
+        }
+      ],
+      "publishedAt": "2026-10-19T04:56:00Z",
+      "imageURL": "/images/2026-10-19-national-004.jpg"
+    },
+    {
+      "id": "2026-10-19-national-005",
+      "category": "national",
+      "headline": "La estadística que iba a contar a los fijos discontinuos inactivos sigue «en proyecto» y sin fecha",
+      "subtitle": "El INE diseña desde 2023 la Erada, que cruzaría registros administrativos para medir a quienes no trabajan pero no figuran como parados. El borrador del plan estadístico de 2027 la mantiene bloqueada.",
+      "body": "Yolanda Díaz se comprometió en 2023 a publicar cuántos trabajadores con contrato fijo discontinuo están en periodo de inactividad, después de que la oposición la acusara de maquillar las cifras del paro. Tres años más tarde no existe una serie homogénea y el dato sigue sin ver la luz.\n\nEl problema es que las fuentes oficiales responden a preguntas distintas. El Sepe conoce a los demandantes de empleo, pero la categoría con relación laboral mezcla fijos discontinuos con afectados por ERTE y otros colectivos, y no todos los inactivos se inscriben. La Seguridad Social tiene altas y bajas, pero no identifica la inactividad. Por eso el INE empezó a desarrollar la Erada, una estadística que cruza registros administrativos.\n\nEl Ministerio de Economía acaba de sacar a audiencia pública el borrador del Programa anual 2027 del Plan Estadístico y la Erada sigue «en proyecto». El documento añade que su difusión queda «condicionada a las conclusiones del grupo de trabajo técnico» que integra a los organismos implicados, sin fecha.\n\n## Entre 800.000 y un millón\n\nLos expertos sitúan el colectivo de inactivos no contabilizados entre 800.000 y 900.000 personas. Miguel Cardoso, economista jefe de BBVA Research para España, recuerda que los 802.580 demandantes con relación laboral incluyen también a perceptores de prestaciones adscritos a trabajos de colaboración social. El ministro Cuerpo cifró en torno al millón los afiliados fijos discontinuos, sin desglosar cuántos están inactivos.",
+      "sources": [
+        {
+          "name": "El Mundo",
+          "url": "https://www.elmundo.es/economia/2026/10/18/6ad24cb721efa0ea438b45ab.html"
+        },
+        {
+          "name": "ABC",
+          "url": "https://www.abc.es/economia/diaz-sigue-oculta-datos-sobre-explosion-fijos-20260616015330-nt.html"
+        },
+        {
+          "name": "Libertad Digital",
+          "url": "https://www.libertaddigital.com/espana/politica/2026-06-22/los-fijos-discontinuos-que-no-trabajan-y-se-borran-en-la-estadistica-oficial-rozan-ya-el-millon-de-personas-7423737/"
+        }
+      ],
+      "publishedAt": "2026-10-19T05:04:00Z",
+      "imageURL": "/images/2026-10-19-national-005.jpg"
+    },
+    {
+      "id": "2026-10-19-northernIreland-001",
+      "category": "northernIreland",
+      "headline": "Portadown Orangemen call a new parade for 24 October that the Parades Commission has not been told about",
+      "subtitle": "Portadown District has announced a march and rally for the Saturday after next, but its details do not appear on the commission's register. The DUP has warned that unlawful parades cannot show support for the rule of law.",
+      "body": "Portadown Orange District has announced a parade and rally for Saturday 24 October and urged \"the wider Unionist family\" to turn out. As of Sunday night the Parades Commission's website showed no notification for the event, and organisers who fail to notify face up to six months in prison and a £5,000 fine.\n\nThe call follows the 13-day stand-off on the Garvaghy Road that began on 27 September, when up to 1,000 people, including nationalist politicians, blocked Orangemen walking from Drumcree parish church. The Parades Commission had approved the route with restrictions after a court overturned its original refusal; the Secretary of State, Sir Chris Bryant, then banned the parade on 9 October on the Chief Constable's advice.\n\n## Warning from within unionism\n\nDUP policing spokesman Trevor Clarke said those who blocked the road had breached a legally binding determination and \"deserve to face the consequences\". \"It is impossible to demonstrate support for the rule of law whilst actively setting out to breach the law,\" he told the News Letter, while insisting Portadown District had shown \"resilience and patience\".\n\nPolice have begun issuing letters seeking interviews with people \"reasonably suspected\" of offences. People Before Profit MLA Gerry Carroll was interviewed for two hours at Musgrave station and said he made \"no apology\" for standing with residents. First Minister Michelle O'Neill and other senior Sinn Féin figures have also received letters.\n\nDUP leader Gavin Robinson wants the High Court, which is hearing the Orange Order's challenge to the ban, to establish what the PSNI really assesses the threat to have been. Unionists have claimed firearms and blast bombs may have been present; nationalists reject that. Six other parades that went ahead without notification are under investigation, and two flute bands have said they will stop engaging with police and the commission.",
+      "sources": [
+        {
+          "name": "Belfast News Letter",
+          "url": "https://www.newsletter.co.uk/news/politics/dup-warns-parade-organisers-cannot-demonstrate-support-for-rule-of-law-with-unlawful-parades-9294816"
+        },
+        {
+          "name": "BBC News NI",
+          "url": "https://www.bbc.co.uk/news/articles/cv70pr6347lyo"
+        },
+        {
+          "name": "Belfast News Letter",
+          "url": "https://www.newsletter.co.uk/news/politics/drumcree-crisis-ex-sinn-fein-president-gerry-adams-writes-open-letter-to-portadown-orangemen-9294885"
+        }
+      ],
+      "publishedAt": "2026-10-19T05:12:00Z",
+      "imageURL": "/images/2026-10-19-northernIreland-001.jpg"
+    },
+    {
+      "id": "2026-10-19-global-001",
+      "category": "global",
+      "headline": "Ukraine's biggest drone raid of the war sets St Petersburg oil facilities alight",
+      "subtitle": "Russia says 1,015 drones were destroyed overnight. The governor of St Petersburg reports one dead and five injured, while Leningrad's governor says 145 drones were downed and 20,000 people lost power.",
+      "body": "Ukrainian drones struck the St Petersburg oil terminal, the Ruchi oil depot and warehouses in the Kolpinsky district overnight, setting several sites on fire in what the city's governor, Alexander Beglov, called a \"massive\" attack. One person was killed and five injured, and residential buildings were hit.\n\nOperations at St Petersburg's main airport were restricted \"for safety reasons\". The e-commerce company Ozon reported a fire at its logistics hub in the city, and the internet group VK said drones attacked its data centre in the wider Leningrad region, though it said services remained available.\n\nRussia's defence ministry said 1,015 Ukrainian drones were destroyed overnight over 15 regions, occupied Crimea and the Black Sea. Alexander Drozdenko, governor of Leningrad, said 145 were shot down over his region and about 20,000 people were without electricity.\n\n## A widening rift with Washington\n\nThe strikes landed as relations between Kyiv and Washington soured. President Trump criticised Ukraine's campaign against Russian oil infrastructure and defended his decision to pause new sanctions on Moscow, saying he would not do anything that would \"foolishly\" drive Russia away from the bargaining table. Volodymyr Zelensky replied that Ukraine has the right to defend itself.\n\nThe exchange complicates a peace process that had appeared to be inching forward, and leaves the timing of any further US sanctions unclear.",
+      "sources": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/19/ukrainian-drone-attack-on-russias-st-petersburg-kills-1-hits-energy-sites"
+        },
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/c3eweygrjzd7o"
+        },
+        {
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/oct/18/killed-injured-russia-ukraine-strikes-power-infrastructure"
+        }
+      ],
+      "publishedAt": "2026-10-19T05:20:00Z",
+      "imageURL": "/images/2026-10-19-global-001.jpg"
+    },
+    {
+      "id": "2026-10-19-global-002",
+      "category": "global",
+      "headline": "Kenya confirms an eighth Ebola case as the Bundibugyo outbreak spreads across borders",
+      "subtitle": "The new patient is a 49-year-old hospital attendant who cleaned utensils and linen, probably exposed to Kenya's first case. There is no licensed vaccine or specific treatment for this strain of the virus.",
+      "body": "Kenya's health authorities reported an eighth Ebola infection on Sunday after testing 38 people, according to the director-general for health, Patrick Amoth. The patient, a 49-year-old man who worked as a patient attendant cleaning utensils and linens, developed fever, headache and muscle pain on Saturday and is now in isolation.\n\nHe is believed to have been exposed to Kenya's first case: a man who travelled from the Democratic Republic of the Congo to Nairobi and died in hospital on 5 October. The ministry reported four new cases on Saturday, three of them health workers who treated that first patient.\n\nThe outbreak is of the Bundibugyo strain, for which no vaccine or specific treatment is licensed. That makes ring vaccination — the tool used against Zaire ebolavirus in previous outbreaks — unavailable, leaving contact tracing, isolation and supportive care as the main defences.\n\nThe wider regional picture is worse. The DRC has recorded at least 9,400 cases and more than 4,500 deaths since May, the deadliest outbreak in its history, which is why Kenya has been on heightened alert since the virus crossed the border.",
+      "sources": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/19/kenya-confirms-eighth-ebola-case-amid-widening-regional-outbreak"
+        },
+        {
+          "name": "WHO",
+          "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON619"
+        },
+        {
+          "name": "The BMJ",
+          "url": "https://www.bmj.com/content/395/bmj-2026-087341"
+        }
+      ],
+      "publishedAt": "2026-10-19T05:24:00Z",
+      "imageURL": "/images/2026-10-19-global-002.jpg"
+    },
+    {
+      "id": "2026-10-19-global-003",
+      "category": "global",
+      "headline": "Alberta votes on whether to begin the long road out of Canada",
+      "subtitle": "The ballot is advisory and does not take the province out of the country, but support for starting the separation process sits near 23%. Premier Danielle Smith, who called the vote, calls that 'still too high for my liking'.",
+      "body": "Voters in Alberta go to the polls on Monday to decide whether the province should begin the legal process towards a future referendum on leaving Canada. The question is not independence itself, but whether to start a path that separatists hope will end in one.\n\nSeparatism was for three decades a fringe cause that rarely drew more than 1% or 2% of the vote, as former premier Jason Kenney noted. The pandemic changed that: the Freedom Convoy, vaccine mandates on air travel and the sense that Ottawa ignored the oil industry turned grievance into a movement with money and organisers.\n\n## Oil, equalisation and grievance\n\nAlberta holds the world's fourth-largest proven oil reserves and has fought successive federal governments over energy policy, carbon pricing and the equalisation payments it pays into. Liberal prime ministers from Pierre Trudeau to his son Justin became deeply unpopular in the province, and the current prime minister, Mark Carney, inherited the problem.\n\nBusiness groups warn that a yes vote, even a symbolic one, would chill investment in a province whose oil sands are capital-intensive and slow to build. Danielle Smith supports remaining in Canada but called the vote to settle the argument inside her own coalition, and says the roughly 23% who back the process are still too many. Results are expected late on Monday.",
+      "sources": [
+        {
+          "name": "Los Angeles Times",
+          "url": "https://www.latimes.com/world-nation/story/2026-10-18/how-alberta-separatism-went-from-fringe-cause-to-referendum-in-canada"
+        },
+        {
+          "name": "Bangkok Post",
+          "url": "https://www.bangkokpost.com/world/3339283/alberta-separatists-rally-ahead-of-independence-vote"
+        },
+        {
+          "name": "Reuters",
+          "url": "https://www.msn.com/en-us/news/other/oil-rich-alberta-votes-on-canada-breakup/ar-AA2eYRAs"
+        }
+      ],
+      "publishedAt": "2026-10-19T05:28:00Z",
+      "imageURL": "/images/2026-10-19-global-003.jpg"
+    },
+    {
+      "id": "2026-10-19-global-004",
+      "category": "global",
+      "headline": "Verdict due in Kenya's Shakahola starvation cult murders",
+      "subtitle": "Paul Mackenzie and 29 followers are accused of murdering 191 children, who prosecutors say were starved so they could 'meet Jesus'. More than 400 bodies were exhumed from shallow graves in the forest.",
+      "body": "A court in Kenya is expected to deliver its judgment on Monday in the mass murder case against the doomsday preacher Paul Mackenzie and 29 of his followers, charged over the deaths of 191 children. All have pleaded not guilty and deny anyone was forced to die.\n\nMackenzie led followers from across Kenya to Shakahola forest near the coast, where his doctrine held that education was forbidden and modern medicine \"evil\". Authorities exhumed more than 400 bodies from shallow graves. Seventeen men from a nearby town were hired to dig them up, some paid as little as $8 a day.\n\nMackenzie and the other leaders face a series of other cases, including terrorism, radicalisation and denying children an education, but this is the first time he will face a verdict on murder. His former head of security, Enos Amanya Ngala, was initially charged and then struck a plea deal to become a prosecution witness.\n\nThe case has become a test of how Kenya's courts handle a mass-casualty cult prosecution and of whether the families, who have waited three years for a judgment, get any accounting for the deaths.",
+      "sources": [
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/ckd6d2l3dz4xo"
+        },
+        {
+          "name": "RFI",
+          "url": "https://www.rfi.fr/en/africa/20261018-shakahola-families-still-searching-for-their-dead-as-judgment-nears"
+        },
+        {
+          "name": "The Standard (Kenya)",
+          "url": "https://www.standardmedia.co.ke/crime-and-justice/article/2001560401/shakahola-slaughter-makenzi-awaits-verdict"
+        }
+      ],
+      "publishedAt": "2026-10-19T05:32:00Z",
+      "imageURL": "/images/2026-10-19-global-004.jpg"
+    },
+    {
+      "id": "2026-10-19-global-005",
+      "category": "global",
+      "headline": "Albania's Supreme Court burns as anti-government protests reach a fifth day",
+      "subtitle": "Offices in Tirana were set alight as demonstrators demanding action on corruption, education and unemployment clashed with police. Edi Rama refuses to resign, and the unrest is echoing across southern Europe.",
+      "body": "Fire engulfed offices at Albania's Supreme Court in Tirana at the weekend as protests against the government entered a fifth day. Demonstrators have been demanding action on corruption, education and unemployment, and the clashes have become some of the fiercest the capital has seen in years, with dozens injured.\n\nPrime Minister Edi Rama has refused to resign. The trigger for the unrest is the detention of Tirana's mayor, Erion Veliaj, whose case has moved between the Supreme Court and the Constitutional Court, feeding a wider sense among young Albanians that the justice system answers to the government.\n\nThe Albanian protests are part of a broader eruption. On Saturday, masked demonstrators in Milan's Piazza del Duomo threw fire extinguishers, smoke bombs and café tables at police, who replied with batons and water cannon; several people were injured, including a police officer with head wounds.\n\nMarches also took place in Turin, Bologna and Rome, where the CGIL union — with 4.5 million members — mobilised, and in Brussels. France has seen days of rioting over the cost of living, with Marseille's city hall stormed and shops looted, prompting Emmanuel Macron to promise zero tolerance and talks with unions, students and lawmakers.",
+      "sources": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/18/albania-protests-supreme-court-fire"
+        },
+        {
+          "name": "To Vima",
+          "url": "https://www.tovima.com/world/protests-sweep-italy-albania-and-belgium-as-clashes-turn-violent/"
+        },
+        {
+          "name": "The New York Times",
+          "url": "https://www.nytimes.com/2026/10/15/world/europe/albania-student-protests-violence.html"
+        }
+      ],
+      "publishedAt": "2026-10-19T05:36:00Z",
+      "imageURL": "/images/2026-10-19-global-005.jpg"
+    },
+    {
+      "id": "2026-10-19-tech-001",
+      "category": "tech",
+      "headline": "Savannah officer fired for sharing Flock access with her ICE agent husband",
+      "subtitle": "An internal investigation found Tyler Harpe ran 983 searches on 97 plates using his wife's login, most registered to Hispanic drivers, in a department that says it shares nothing with ICE.",
+      "body": "A Savannah police officer was fired in August after an internal investigation found she had given her Flock licence-plate camera login to her husband, an Immigration and Customs Enforcement agent. The department says it does not share Flock data with ICE, and that passing on her credentials breached its security protocols.\n\nWhile using that access, Tyler Harpe ran 983 searches against 97 licence plates, Savannah's ABC affiliate WJCL reported. The plates were overwhelmingly registered to Hispanic drivers. The Harpes have defended the searches as law-enforcement work rather than personal curiosity.\n\nInterim Major Max Nowinsky initially recommended an eight-hour suspension. Major Michelle Halford and Assistant Police Chief Robert Gavin overruled him and removed Amber Harpe from the force. She was one of six SPD employees fired after the Flock review, four of whom were later arrested; Harpe was not among them.\n\nThe case lands as Flock faces widening scrutiny over how easily its camera network can be searched, and by whom. The company has already cut staff as privacy criticism mounted, and agencies across the country are being pressed to explain who inside their buildings can query the network, and what stops that access travelling home.",
+      "sources": [
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/policy/1013573/spd-officer-fired-flock-ice-husband"
+        },
+        {
+          "name": "WNDU",
+          "url": "https://www.wndu.com/2026/10/16/police-officer-fired-sharing-flock-login-with-husband-who-works-ice/"
+        },
+        {
+          "name": "Police1",
+          "url": "https://www.police1.com/officer-misconduct-internal-affairs/ga-officer-fired-for-sharing-alpr-access-with-ice-officer-husband-disciplinary-docs-allege"
+        }
+      ],
+      "publishedAt": "2026-10-19T04:10:00Z",
+      "imageURL": "/images/2026-10-19-tech-001.jpg"
+    },
+    {
+      "id": "2026-10-19-tech-002",
+      "category": "tech",
+      "headline": "Canada's C-22 pushes encryption services towards the exit",
+      "subtitle": "Psiphon says it will leave Canada if the bill passes, and Signal has said the same. WIRED traces a wider squeeze on encrypted services across a dozen governments.",
+      "body": "Canada's Bill C-22 is the latest attempt by a democratic government to compel technology companies to build access routes into encrypted products. First proposed in 2025 and partly rewritten after criticism, it would let authorities require \"technical capabilities\" for law-enforcement access, and could force the metadata retention that privacy-focused services deliberately avoid.\n\nPsiphon, the anti-censorship VPN that keeps millions of Iranians online during shutdowns, says it will leave the country if the bill passes. Signal has said it would exit the Canadian market. Apple and Meta have criticised the bill; DuckDuckGo and NordVPN say they would consider pulling their services too.\n\nCryptographers have argued for decades that a safe backdoor cannot be built, because any capability to read end-to-end encrypted traffic is a weakness anyone can find and use. C-22 says companies will not have to introduce a \"systemic vulnerability\", but opponents say that distinction is meaningless in practice.\n\nThe squeeze is not only Canadian. The UK and Australia have passed reforms that can compel companies to break encryption, and similar proposals have appeared in the EU, France, India, Ireland, Spain, Sweden and Switzerland. For services that promise not to hold user data, \"we don't have it\" stops being a defence once a law can require them to start collecting it.",
+      "sources": [
+        {
+          "name": "WIRED",
+          "url": "https://www.wired.com/story/kernel-panic-encryption-is-getting-squeezed-from-all-sides/"
+        },
+        {
+          "name": "CyberInsider",
+          "url": "https://cyberinsider.com/psiphon-vpn-plans-to-leave-canada-over-bill-c-22-surveillance-concerns/"
+        },
+        {
+          "name": "Juno News",
+          "url": "https://www.junonews.com/p/canadian-vpn-company-threatens-to-leave-bill-c-22"
+        }
+      ],
+      "publishedAt": "2026-10-19T04:12:00Z",
+      "imageURL": "/images/2026-10-19-tech-002.jpg"
+    },
+    {
+      "id": "2026-10-19-tech-003",
+      "category": "tech",
+      "headline": "A Philadelphia woman was arrested for standing in front of a delivery robot",
+      "subtitle": "Carolyn Marvin was charged with disorderly conduct after refusing to step out of an Uber Eats robot's path. She says she blocks the machines because they take delivery workers' jobs.",
+      "body": "Carolyn Marvin was arrested and charged with disorderly conduct after standing in the path of an Uber delivery robot in central Philadelphia and refusing to move. Police asked her to step aside; she declined, and was handcuffed. Video of the arrest circulated widely over the weekend.\n\n\"I know they're taking the jobs of human delivery workers and so, I have been protesting them whenever I saw them by standing in front of them and preventing them from going forward,\" Marvin told Philadelphia's ABC13.\n\nThe robots have become a familiar sight on downtown pavements and a focal point for resentment. It is not Marvin's first confrontation with one, and earlier this year another was kicked over in Center City. The argument is less about the machine than about who absorbs the cost of automation.\n\nSimilar disputes are spreading as autonomous systems move from pilot schemes into ordinary streets, delivery robots, robotaxis and AI agents among them. Cities are only beginning to write rules for what happens when a person decides to obstruct one, and whether the answer should be an arrest.",
+      "sources": [
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1013541/a-woman-was-arrested-in-philly-for-blocking-a-delivery-robot"
+        },
+        {
+          "name": "6abc",
+          "url": "https://6abc.com/post/woman-arrested-blocking-delivery-robot-center-city-philadelphia-confrontation/19941323/"
+        },
+        {
+          "name": "Inc.",
+          "url": "https://www.inc.com/moses-jeanfrancois/a-woman-was-arrested-for-blocking-a-delivery-robot-her-reason-for-doing-it-taps-into-a-deep-fear/91421285"
+        }
+      ],
+      "publishedAt": "2026-10-19T04:14:00Z",
+      "imageURL": "/images/2026-10-19-tech-003.jpg"
+    },
+    {
+      "id": "2026-10-19-tech-004",
+      "category": "tech",
+      "headline": "Replit makes OpenAI its default and stops working with Anthropic",
+      "subtitle": "CEO Amjad Masad cited cost, performance and partnership. Insiders dispute that the Anthropic relationship has ended, and Replit still offers Claude to customers who choose it.",
+      "body": "Replit is no longer working with Anthropic, its chief executive said on stage at TechCrunch Disrupt, making OpenAI the default model behind its coding agent. Amjad Masad cited cost, partnership and an internal benchmark on which he said OpenAI's models build applications from scratch more reliably.\n\nReplit announced a partnership with OpenAI in August, but gave no signal that its arrangement with Anthropic had ended. Masad said the company had been, until recently, one of Anthropic's top five customers, a relationship credited with helping Replit grow revenue sharply.\n\nHe later clarified that customers can still select Anthropic's models, but that most stay with whatever the platform defaults to. That alone could cut Replit's spending with Anthropic substantially. People familiar with the two companies rejected his account, saying the partnership was still in place.\n\nThere is supporting evidence on Replit's own site. A late-September blog post names Anthropic's Claude Fable 5 and 5.1 as models running in its production agent. Masad also said enterprise has grown from about 2% of revenue last year to roughly 15%, with more than half of revenue now coming from business customers.",
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/"
+        },
+        {
+          "name": "Innovation Village",
+          "url": "https://innovation-village.com/replit-makes-openai-its-default-ai-partner/"
+        },
+        {
+          "name": "AndroGuider",
+          "url": "https://www.androguider.com/2026/10/replit-ditches-anthropic-for-openai-as.html"
+        }
+      ],
+      "publishedAt": "2026-10-19T04:16:00Z",
+      "imageURL": "/images/2026-10-19-tech-004.jpg"
+    },
+    {
+      "id": "2026-10-19-tech-005",
+      "category": "tech",
+      "headline": "A US bill would stop games being sold as rentals in disguise",
+      "subtitle": "Ritchie Torres' Power To The Players Act would direct the FTC to guarantee that buying a game means owning it, and require an offline mode before publishers switch servers off.",
+      "body": "Representative Ritchie Torres, Democrat for New York's 15th district, has introduced the Power To The Players Act. It would direct the Federal Trade Commission to write rules guaranteeing that a consumer who pays for a game owns it, rather than holding a licence that can be withdrawn.\n\nTorres points to NBA 2K25, which 2K will delist from storefronts at the end of the month and take offline on 31 December. Games that depend on a publisher's servers stop working when those servers close, which is increasingly the norm rather than an edge case.\n\n\"A game that can be taken away the moment a company pulls the plug is not a purchase. It is a rental disguised as a sale,\" Torres said in a statement announcing the bill.\n\nThe bill would also require developers to provide an offline mode before shutting servers down. It echoes the Protect Our Games Act filed in Pennsylvania by State Senator John Kane, which would require an offline mode, a server-independent online mode, or a refund of at least 25% when a title is sunset. Neither is law.\n\nThe timing is pointed. Sony has said it plans to phase out physical game discs in 2028, removing the second-hand market that has historically outlived a publisher's interest in keeping a game running.",
+      "sources": [
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/policy/1013521/video-game-ownership-bill-congress-power-to-the-players-act"
+        },
+        {
+          "name": "HotHardware",
+          "url": "https://hothardware.com/news/power-to-the-players-act-digital-game"
+        },
+        {
+          "name": "Enduins",
+          "url": "https://www.enduins.com/news/us-representative-proposes-video-game-ownership-bill-instead-of-a-license"
+        }
+      ],
+      "publishedAt": "2026-10-19T04:18:00Z",
+      "imageURL": "/images/2026-10-19-tech-005.jpg"
+    },
+    {
+      "id": "2026-10-19-ai-001",
+      "category": "ai",
+      "headline": "Anthropic puts 5% of its shares into a public benefit fund",
+      "subtitle": "The fund is a wholly owned entity that could make large donations or direct payments to specific groups. Who decides what counts as public benefit is still undefined.",
+      "body": "Anthropic has created a \"public benefit fund\" and will commit 5% of its shares to it, describing the vehicle as giving the company \"increased flexibility and scale\" to support projects for societal good. The fund is structured as a wholly owned entity inside Anthropic.\n\nUnder the terms, the company can contribute a further 2% for every 50% increase in Anthropic's valuation. It offered only broad ideas for how the money might be spent, including \"large donations to traditional nonprofits or direct distributions to specific populations\".\n\nAnthropic has already put $200 million into researching AI's effect on the job market. \"Given the pace of AI progress, bolder approaches may be needed,\" the company said. \"The Fund will have the versatility to pursue them.\"\n\nThe announcement lands as the industry faces increasingly hostile public sentiment, something chief executive Dario Amodei has called \"fundamentally a crisis of trust\". Who decides which public benefits are worth funding, and how the fund itself is governed, will be published in the coming months, the company said.",
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund/"
+        },
+        {
+          "name": "Anthropic",
+          "url": "https://www.anthropic.com/news/public-benefit-fund"
+        },
+        {
+          "name": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/anthropic-commits-5-pc-of-its-stock-to-new-public-benefit-fund/articleshow/135038936.cms"
+        }
+      ],
+      "publishedAt": "2026-10-19T04:20:00Z",
+      "imageURL": "/images/2026-10-19-ai-001.jpg"
+    },
+    {
+      "id": "2026-10-19-ai-002",
+      "category": "ai",
+      "headline": "Disney offers jobs to most of Character.AI's staff after bankruptcy",
+      "subtitle": "A court filing shows at least 60 employees would move to Disney, which had already agreed to buy some assets for $20 million. It is a stalking horse bid, so a rival offer could still arrive.",
+      "body": "Character.AI filed for bankruptcy earlier this week. Under an agreement disclosed in a court filing, Disney will make employment offers to at least 60 of the chatbot company's staff, the majority of its workforce, and the filing says the vast majority of those offered jobs accepted.\n\nDisney had already agreed to acquire some of Character.AI's assets for $20 million, and the startup's former chief executive, Karandeep Anand, recently became Disney's first chief technology officer. The details were reported by Bloomberg, which spotted the filing.\n\nThe arrangement is a stalking horse bid, meaning another company could still come forward with a higher offer. Character.AI's filing describes a business hobbled despite a \"large and engaged user base\" by high costs and \"potential litigation-related liabilities and regulatory engagement\".\n\nThat litigation includes a lawsuit from the mother of a 14-year-old boy who said her son became obsessed with one of the company's chatbots before his death. For Disney the hire amounts to absorbing an AI team without absorbing the platform that produced it.",
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce/"
+        },
+        {
+          "name": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/newsletters/2026-10-17/disney-offers-soft-landing-to-staff-at-troubled-character-ai"
+        },
+        {
+          "name": "RuntimeWire",
+          "url": "https://runtimewire.com/article/disney-hires-character-ai-workforce-bankruptcy-sale"
+        }
+      ],
+      "publishedAt": "2026-10-19T04:22:00Z",
+      "imageURL": "/images/2026-10-19-ai-002.jpg"
+    },
+    {
+      "id": "2026-10-19-ai-003",
+      "category": "ai",
+      "headline": "OnlyFans creators ask why Meta's Muse may sext but they may not post",
+      "subtitle": "Adult performers say Instagram restricts their accounts while Meta's AI agent is allowed explicit chat. Meta argues a private one-to-one conversation is not the same as promoting a service.",
+      "body": "Vanniall, an OnlyFans creator in New York, spends much of her time fighting deepfakes of herself and appealing restrictions on an Instagram account with more than 100,000 followers. Meta, meanwhile, permits its AI agent Muse to hold explicit conversations with adult users.\n\nA Meta spokesperson told WIRED that \"a private, one-to-one conversation between an adult and an individualized AI agent on a platform restricted to people 18 and over is very different from the marketing and promotion of services on a social media platform\". The company has said it will not \"block legal adult behavior\".\n\nMuse is Meta's always-on assistant, distributed through Instagram and Facebook and downloaded millions of times in its first month. It generates explicit text, though not images or video. Creators point out that the same company restricts their promotional posts.\n\n\"It's not fair that they get to pull money out of people with their sexually active AI agent, but they won't let real people, real adults, engage in any sort of sensuality or sexuality,\" Vanniall said. Other performers trace the problem back to FOSTA-SESTA, the 2018 law that pushed platforms to purge adult content.",
+      "sources": [
+        {
+          "name": "WIRED",
+          "url": "https://www.wired.com/story/onlyfans-creators-are-pissed-that-meta-lets-muse-talk-dirty/"
+        },
+        {
+          "name": "WIRED",
+          "url": "https://www.wired.com/story/i-got-my-muse-ai-agent-to-sext-me-and-meta-says-thats-totally-fine/"
+        },
+        {
+          "name": "Fast Company",
+          "url": "https://www.fastcompany.com/91612532/with-metas-muse-charm-ai-enters-its-kawaii-era"
+        }
+      ],
+      "publishedAt": "2026-10-19T04:24:00Z",
+      "imageURL": "/images/2026-10-19-ai-003.jpg"
+    },
+    {
+      "id": "2026-10-19-ai-004",
+      "category": "ai",
+      "headline": "Meta deletes the terms clause that looked like permission to scrape publishers",
+      "subtitle": "Legal experts read the updated business terms as licence to crawl any publisher's site and train on it. Meta says crawler behaviour never changed, and has now removed the wording.",
+      "body": "Meta's updated commercial terms of use declared that the company could \"use any content from [a business account's] domains, web pages, or URLs to provide, develop, improve, research, train, and maintain the integrity of\" its products and services.\n\nLegal experts interviewed by Nieman Lab called it a \"remarkable provision\", one that appeared to give Meta permission to scrape the website of any publisher holding a Meta business account and use what it found to train AI models.\n\nA Meta spokesperson insisted at the time that the language did not reflect a change in how the company crawls the web. The Verge now reports that the provision has been removed from the terms.\n\nIn a statement, the company said: \"We've heard you and want to clarify: the crawling terms we consolidated only applied to our ads and business products, and we've clarified that in the terms themselves. It does not change how Meta uses web crawlers.\" The wording is gone; the practice the company describes is unchanged.",
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/"
+        },
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/tech/1013409/meta-removes-language-that-may-have-allowed-it-to-scrape-news-sites"
+        },
+        {
+          "name": "Nieman Lab",
+          "url": "https://www.niemanlab.org/2026/10/metas-new-commercial-terms-will-allow-the-scraping-of-news-sites-legal-experts-say/"
+        }
+      ],
+      "publishedAt": "2026-10-19T04:26:00Z",
+      "imageURL": "/images/2026-10-19-ai-004.jpg"
+    },
+    {
+      "id": "2026-10-19-ai-005",
+      "category": "ai",
+      "headline": "Anthropic's share of junior technical hires fell from 27% to 9% in a year",
+      "subtitle": "An internal report says coding tools now let non-engineers ship software, while staff describe their work shifting from doing the job to managing Claude.",
+      "body": "Anthropic published a report on Friday describing how its own workforce has changed over the past year, arguing the trends may indicate how AI will reshape hiring and labour demand more broadly. The most striking number sits at the bottom of the ladder.\n\nThe share of junior employees in technical departments fell from 21% to 14% since early 2025, and the share of junior technical hires fell far further, from 27% to 9%. Technical teams also shrank as a share of the whole company, from 61% to 56%.\n\nAnthropic attributes part of that to the ordinary expansion of business functions, and part to coding tools letting non-technical staff build software themselves. One employee described \"eternal pressure at Anthropic to move as fast as possible and use Claude for everything\".\n\nIn an April survey, 27% of staff said Claude had made them more productive and 20% said their job had shifted \"from actually doing work to managing Claudes\". The report suggests human attention and judgement are becoming a bottleneck, as the model produces a deluge of text to read and organise.",
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/"
+        },
+        {
+          "name": "Anthropic",
+          "url": "https://www.anthropic.com/research/employment-at-anthropic"
+        },
+        {
+          "name": "MSN",
+          "url": "https://www.msn.com/en-us/money/human-resources/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/ar-AA2erD5y"
+        }
+      ],
+      "publishedAt": "2026-10-19T04:28:00Z",
+      "imageURL": "/images/2026-10-19-ai-005.jpg"
+    }
+  ]
+}
