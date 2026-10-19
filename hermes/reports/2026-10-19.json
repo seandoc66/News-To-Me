@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-19",
+  "published": true,
+  "publishedAt": "2026-10-19T04:26:56Z",
+  "sections": {
+    "present": [
+      "local",
+      "national",
+      "northernIreland",
+      "global",
+      "tech",
+      "ai"
+    ],
+    "missing": []
+  },
+  "storiesWithoutPhoto": [],
+  "validatorWarnings": [],
+  "validatorErrors": [],
+  "workarounds": [
+    "The 06:08 scheduled run exhausted its tool budget mid-research and published nothing, while the scheduler logged status ok because no [CRON_FAILURE] token was emitted. This edition was completed by hand from that run's surviving drafts.",
+    "Resumed from drafts/2026-10-19/ (global, northernIreland, local, national) per brief step 0; researched and wrote tech and ai fresh from live RSS feeds and article pages.",
+    "2026-10-19-global-003 photoCandidate was a fabricated S3 path that returned HTTP 400; replaced with the verified og:image served by the same article page (HTTP 200, 127KB).",
+    "2026-10-19-national-001 was citing the El Mundo article that is actually national-002's VAT story; swapped in El Periodico's Banco de Espana housing-supply piece (verified HTTP 200).",
+    "2026-10-19-northernIreland-001 trimmed from 301 to 297 words to meet the 300-word cap.",
+    "Removed subheads from global-002, global-004 and global-005, all of which are under 200 words.",
+    "Split local-002's 85-word opening paragraph into two to stay under the 80-word paragraph limit."
+  ],
+  "needsHumanAttention": true,
+  "humanAttentionReason": "The recurring budget failure is not fixed in the job configuration: today's scheduled run burned its turn budget and wrote nothing while reporting ok. The five proposed fixes (raise agent.max_turns, set budget_warning_ratio, batch URL checks in brief.md, stop using [SILENT] for a daily edition, make the run report mandatory) need Shane's approval before they can be applied.",
+  "notes": "23 articles, 23/23 photos. 10 source URLs return 403 to automated checks (Bloomberg, NYT, BMJ, RFI, Nieman Lab, Inc., HotHardware, Fast Company, newsletter.co.uk); none returned 404, and all resolve in a browser, so they are bot-blocks rather than dead links. Over the last 45 days only 34 editions shipped: 11 days are missing, split between turn exhaustion (14 and 19 Oct), self-suppression via [SILENT] (17, 15, 12, 7, 4 Oct) and one 489.5s model timeout. Run reports exist for only 11 of 92 runs."
+}
