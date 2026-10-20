@@ -1,0 +1,42 @@
+{
+  "date": "2026-10-20",
+  "published": true,
+  "publishedAt": "2026-10-20T04:06:19Z",
+  "sections": {
+    "present": [
+      "local",
+      "national",
+      "northernIreland",
+      "global",
+      "tech",
+      "ai"
+    ],
+    "missing": []
+  },
+  "storiesWithoutPhoto": [],
+  "validatorWarnings": [
+    "articles[0].body (2026-10-20-local-001) paragraph 3 is 82 words — over 80, which reads as a wall of text on a phone. Aim for 30–80",
+    "articles[1].body (2026-10-20-local-002) paragraph 1 is 86 words — over 80, which reads as a wall of text on a phone. Aim for 30–80",
+    "articles[2].body (2026-10-20-national-001) paragraph 2 is 92 words — over 80, which reads as a wall of text on a phone. Aim for 30–80",
+    "articles[3].body (2026-10-20-national-002) paragraph 1 is 84 words — over 80, which reads as a wall of text on a phone. Aim for 30–80",
+    "articles[3].body (2026-10-20-national-002) paragraph 2 is 82 words — over 80, which reads as a wall of text on a phone. Aim for 30–80",
+    "articles[4].body (2026-10-20-national-003) paragraph 1 is 82 words — over 80, which reads as a wall of text on a phone. Aim for 30–80",
+    "articles[4].body (2026-10-20-national-003) paragraph 4 is 88 words — over 80, which reads as a wall of text on a phone. Aim for 30–80",
+    "articles[10].body (2026-10-20-tech-001) paragraph 1 is 81 words — over 80, which reads as a wall of text on a phone. Aim for 30–80",
+    "articles[11].body (2026-10-20-tech-002) paragraph 2 is 82 words — over 80, which reads as a wall of text on a phone. Aim for 30–80",
+    "articles[12].body (2026-10-20-tech-003) paragraph 2 is 91 words — over 80, which reads as a wall of text on a phone. Aim for 30–80",
+    "articles[15].body (2026-10-20-ai-001) paragraph 2 is 85 words — over 80, which reads as a wall of text on a phone. Aim for 30–80",
+    "articles[15].body (2026-10-20-ai-001) paragraph 4 is 81 words — over 80, which reads as a wall of text on a phone. Aim for 30–80",
+    "articles[17].body (2026-10-20-ai-003) paragraph 2 is 83 words — over 80, which reads as a wall of text on a phone. Aim for 30–80"
+  ],
+  "validatorErrors": [],
+  "workarounds": [
+    "First publish attempt failed validation: three bodies over 300 words, four subtitles under 20 words, missing publishedAt, and two source URLs rejected by the deep-link rule (pazcasaytrabajo.es root, the three openbsd.org release pages). Trimmed the bodies, lengthened the subtitles, added publishedAt, dropped the Podemos/29N story (no third citable non-homepage source), and replaced the OpenBSD 8.0 story with the WhatsApp hidden-instructions story, which has three deep links.",
+    "Guardian Sudan URL from RSS was one slug short (missing 'market'); corrected against the feed's own <link> and re-verified 200.",
+    "Arab News supplied the Sudan photo after Guardian and France 24 both refused og:image fetches (404/403).",
+    "Nscale/Anthropic third source: idahostatesman.com refused connection, swapped for the CNA syndication on ua.news (200)."
+  ],
+  "needsHumanAttention": false,
+  "humanAttentionReason": null,
+  "notes": "19 stories, all 19 with a photo. Removed a stray docs/images/2026-10-20-national-004.jpg left behind by the failed first publish attempt (that story was dropped). 13 non-blocking paragraph-length warnings remain (82-92 words vs the 80-word guideline) in local, national, tech and ai bodies."
+}
