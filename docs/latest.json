@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T04:25:56Z",
+  "generatedAt": "2026-10-20T04:06:19Z",
   "config": {
     "sections": {
       "local": {
@@ -11,38 +11,34 @@
             "url": "https://www.elprogreso.es"
           },
           {
-            "name": "CIG",
-            "url": "https://www.cig.gal"
+            "name": "La Voz de Galicia",
+            "url": "https://www.lavozdegalicia.es"
           },
           {
-            "name": "Noticias Lugo",
-            "url": "https://noticiaslugo.es"
+            "name": "Consellería de Facenda",
+            "url": "https://www.conselleriadefacenda.gal"
           },
           {
-            "name": "Europa Press",
-            "url": "https://www.europapress.es"
+            "name": "Crónica3",
+            "url": "https://www.cronica3.com"
           }
         ]
       },
       "national": {
-        "min": 4,
-        "max": 8,
+        "min": 3,
+        "max": 5,
         "sources": [
           {
             "name": "20minutos",
             "url": "https://www.20minutos.es"
           },
           {
+            "name": "Europa Press",
+            "url": "https://www.europapress.es"
+          },
+          {
             "name": "El Mundo",
             "url": "https://www.elmundo.es"
-          },
-          {
-            "name": "El País",
-            "url": "https://elpais.com"
-          },
-          {
-            "name": "RTVE",
-            "url": "https://www.rtve.es"
           }
         ]
       },
@@ -51,12 +47,16 @@
         "max": 1,
         "sources": [
           {
-            "name": "Belfast News Letter",
+            "name": "BBC News NI",
+            "url": "https://www.bbc.co.uk/news/northern_ireland"
+          },
+          {
+            "name": "News Letter",
             "url": "https://www.newsletter.co.uk"
           },
           {
-            "name": "BBC News NI",
-            "url": "https://www.bbc.co.uk/news/northern_ireland"
+            "name": "Belfast Telegraph",
+            "url": "https://www.belfasttelegraph.co.uk"
           }
         ]
       },
@@ -65,20 +65,20 @@
         "max": 8,
         "sources": [
           {
-            "name": "Al Jazeera",
-            "url": "https://www.aljazeera.com"
-          },
-          {
-            "name": "BBC News",
-            "url": "https://www.bbc.co.uk/news"
+            "name": "BBC",
+            "url": "https://www.bbc.co.uk/news/world"
           },
           {
             "name": "The Guardian",
-            "url": "https://www.theguardian.com"
+            "url": "https://www.theguardian.com/world"
           },
           {
-            "name": "Los Angeles Times",
-            "url": "https://www.latimes.com"
+            "name": "France 24",
+            "url": "https://www.france24.com"
+          },
+          {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com"
           }
         ]
       },
@@ -87,42 +87,50 @@
         "max": 5,
         "sources": [
           {
-            "name": "Hacker News",
-            "url": "https://news.ycombinator.com"
-          },
-          {
             "name": "The Verge",
             "url": "https://www.theverge.com"
           },
           {
-            "name": "WIRED",
-            "url": "https://www.wired.com"
-          },
-          {
             "name": "TechCrunch",
             "url": "https://techcrunch.com"
+          },
+          {
+            "name": "Reuters",
+            "url": "https://www.reuters.com"
+          },
+          {
+            "name": "CNBC",
+            "url": "https://www.cnbc.com"
+          },
+          {
+            "name": "OpenBSD",
+            "url": "https://www.openbsd.org"
           }
         ]
       },
       "ai": {
-        "min": 5,
-        "max": 5,
+        "min": 4,
+        "max": 7,
         "sources": [
+          {
+            "name": "Reuters",
+            "url": "https://www.reuters.com"
+          },
+          {
+            "name": "BBC",
+            "url": "https://www.bbc.com"
+          },
           {
             "name": "TechCrunch",
             "url": "https://techcrunch.com"
           },
           {
-            "name": "WIRED",
+            "name": "Wired",
             "url": "https://www.wired.com"
           },
           {
-            "name": "Simon Willison's blog",
-            "url": "https://simonwillison.net"
-          },
-          {
-            "name": "Hacker News",
-            "url": "https://news.ycombinator.com"
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com"
           }
         ]
       }
@@ -130,533 +138,445 @@
   },
   "articles": [
     {
-      "id": "2026-10-19-local-001",
+      "id": "2026-10-20-local-001",
       "category": "local",
-      "headline": "El metal de Lugo añade tres días de huelga a la cita del miércoles",
-      "subtitle": "CIG, CC.OO. y UGT marchan el 21-O desde Garabolos y avisan de paros el 28 de octubre y el 3 y 5 de noviembre si la patronal no mueve su oferta del 4%, siete puntos por debajo de la reivindicada.",
-      "body": "La segunda jornada de huelga en el metal de la provincia de Lugo ya tiene recorrido: los trabajadores del sector y del comercio del metal marcharán este miércoles a partir de las 12.30 horas desde Garabolos hasta la sede de la CEL en la Praza de Santo Domingo, pasando por la Avenida da Coruña y las calles San Fernando y San Marcos.\n\nLa primera parada, el 14 de octubre, dejó el polígono de O Ceao paralizado y se cerró sin incidentes. CIG, CC.OO. y UGT han decidido ahora redoblar la presión y anuncian otros tres paros —28 de octubre, 3 y 5 de noviembre— si la negociación colectiva sigue bloqueada.\n\n«Seguimos en disposición de sentarnos en la mesa de negociación cuántas veces sea necesario para intentar llegar a un acuerdo. Pero de momento no hay movimiento alguno», advierte la parte social. La patronal considera las demandas sindicales «desmedidas» y «muy pocos realistas».\n\nEl pulso se concentra en dos puntos. Los sindicatos exigen una subida salarial del 7% anual para el cuatrienio 2026-2029 y 24 horas menos de jornada al año, repartidas en ocho horas en 2027, 2028 y 2029. La parte empresarial ofrece un 4% en cada ejercicio y solo cuatro horas anuales en 2029 para el siderometal. Los paros alcanzan tanto a la industria como al comercio que vende, repara y mantiene maquinaria.",
+      "headline": "La Xunta reserva 1.967 millones para Lugo en 2027, con la sanidad y la Ronda Este como ejes",
+      "subtitle": "El proyecto autonómico asigna 6.025 euros por habitante a la provincia, un 6,4% más, y concentra las partidas sanitarias en Burela y Monforte",
+      "body": "La Xunta prevé destinar 1.967 millones de euros a la provincia de Lugo en los presupuestos de 2027, lo que equivale a 6.025 euros por habitante y supone un incremento del 6,4% respecto al ejercicio actual. El delegado territorial del Gobierno gallego, Alfonso Villares, presentó el reparto comarcal en la reunión de la Comisión Territorial de Coordinación.\n\nEl conjunto del proyecto autonómico asciende a 15.158 millones para toda Galicia. Lugo y Ourense figuran entre las provincias con mayor gasto por residente, una ratio que la Xunta atribuye al peso del gasto social y al coste de prestar servicios en un territorio con población dispersa.\n\n## Sanidad e infraestructuras\n\nLa sanidad absorbe una parte prioritaria de los recursos. El Plan Director del Hospital da Mariña, en Burela, recibe 12,3 millones para continuar la reforma y ampliación ya licitada, mientras que el Hospital de Monforte cuenta con 800.000 euros para avanzar en su plan director. En Atención Primaria figuran 1,5 millones para el nuevo centro de salud de Antas de Ulla y 870.000 para la obra del centro de A Milagrosa, iniciada hace un año sobre un presupuesto total de 3,2 millones.\n\nEn carreteras, la segunda fase de la autovía entre Sarria y Nadela recibe 7,85 millones —un 57% más que este año— dentro de una actuación de 37,7 millones que debe entrar en servicio en 2029. Para la segunda fase de la Ronda Este de Lugo se reservan dos millones, una vía pensada para circunvalar la ciudad y dar servicio al Hula, suspendida por las dudas sobre su impacto ambiental en el entorno del Rato.\n\nLa Vía de Alta Capacidad Costa Norte contará con 3,15 millones, que incluyen el arranque de la variante este de Viveiro, compromiso del gobierno de Mariña Gueimunde con Por Viveiro tras la moción de censura.",
       "sources": [
         {
           "name": "El Progreso",
-          "url": "https://www.elprogreso.es/articulo/lugo/sindicatos-convocan-otros-tres-dias-huelga-sector-metal-lugo-ademas-miercoles/202610182308152007231.html"
+          "url": "https://www.elprogreso.es/articulo/lugo/inversiones-presupuestos-xunta-lugo/202610191839122007419.html"
         },
         {
-          "name": "CIG",
-          "url": "https://www.cig.gal/nova/convocada-folga-no-metal-de-lugo-os-dias-14-e-21-outubro-ante-a-falta-de-avances-na-negociacion-dos-convenios.html"
+          "name": "La Voz de Galicia",
+          "url": "https://www.lavozdegalicia.es/noticia/lugo/lugo/2026/10/19/xunta-destina-2027-cerca-2000-millones-euros-lugo-orzamentos-centrados-gasto-social-vivienda-infraestructuras/00031792401986704275634.htm"
         },
         {
-          "name": "GaliciaXa",
-          "url": "https://galiciaxa.com/es/news/los-sindicatos-movilizan-al-sector-del-metal-en-o-ceao-para-reclamar-mejoras-en-el-convenio/137709"
+          "name": "Consellería de Facenda",
+          "url": "https://www.conselleriadefacenda.gal/-/os-orzamentos-da-xunta-para-o-ano-2027-ascenden-a-15-158-m-e-ponen-a-estabilidade-e-a-solvencia-de-galicia-ao-servizo-das-persoas-e-do-crecemento-econ"
+        },
+        {
+          "name": "Crónica3",
+          "url": "https://www.cronica3.com/2026/10/a-xunta-incrementa-nun-65-os-orzamentos-da-area-sanitaria-de-lugo-a-marina-e-monforte-que-acadan-7468-me-en-2027"
         }
       ],
-      "publishedAt": "2026-10-19T04:12:00Z",
-      "imageURL": "/images/2026-10-19-local-001.jpg"
+      "publishedAt": "2026-10-20T04:06:01Z",
+      "imageURL": "/images/2026-10-20-local-001.jpg"
     },
     {
-      "id": "2026-10-19-local-002",
+      "id": "2026-10-20-local-002",
       "category": "local",
-      "headline": "Lugo tiene 244 locales en alquiler y 324 en venta mientras el comercio se apaga por barrios",
-      "subtitle": "El recinto amurallado lidera la oferta con 60 bajos disponibles y San Antonio acumula 72 cerrados tras la marcha del hospital. En el mercado de Fingoi solo resisten una pescadería y una frutería.",
-      "body": "Hay calles de Lugo en las que cada vez cuesta más encontrar una persiana levantada. En las principales plataformas inmobiliarias hay 244 locales y naves anunciados en alquiler y 324 en venta, pero el reparto es muy desigual.\n\nEl recinto amurallado concentra 60 locales disponibles, As Fontiñas y San Roque 53, A Milagrosa 33, Paradai 23, O Carme 18 y O Ceao 18. En el otro extremo, A Piringalla aparece con nueve, A Residencia con cuatro, Sagrado Corazón con tres y Fingoi con solo dos.\n\nLos precios dibujan el mismo mapa. Un local pequeño en un barrio sin tejido comercial se anuncia por unos 240 euros al mes, mientras que las rentas más céntricas llegan a los 8.000 y las naves de O Ceao oscilan entre 7.000 y 13.000 euros. En venta, un inmueble de O Carme pide cinco millones y otro de O Ceao, 2,5.\n\n## Augas Férreas, la excepción\n\nEl contraste lo da Augas Férreas, donde apenas se ven bajos vacíos. El vocal vecinal Manel Cerdeira lo atribuye al perfil joven del barrio, a las calles amplias y a una plaza que funciona como punto de encuentro, lo que sostiene hostelería, academias, librerías y clínicas. San Antonio vive lo contrario: 72 bajos cerrados, un declive que su asociación vecinal vincula a la salida del hospital.\n\nLa Xunta acaba de resolver una línea de 577.300 euros para modernizar las plazas de abastos de Lugo, Viveiro y Ribadeo y atraer clientes, mientras los vecinos de San Antonio reclaman al Concello medidas para el comercio y la vivienda. Fegein cifraba en más de 7.000 los locales vacíos en Galicia.",
+      "headline": "El juicio por el tiroteo de Camiño de Sisulfes enfrenta la versión de la víctima y la de su acompañante",
+      "subtitle": "La Fiscalía pide siete años por tentativa de homicidio para Cristian Suárez, que disparó desde un coche a Noé Cortiñas cuando reparaba un vehículo",
+      "body": "La Audiencia Provincial de Lugo acogió este lunes la primera sesión del juicio contra Cristian Suárez, acusado de intentar matar a tiros a Noé Cortiñas el 17 de agosto de 2025 en Camiño de Sisulfes, en la capital lucense. La Fiscalía solicita siete años de prisión por tentativa de homicidio, que la acusación particular eleva a nueve, además de 18 meses por tenencia ilícita de armas y un año por amenazas, con orden de alejamiento de 500 metros. El supuesto cómplice no compareció porque está huido.\n\nSegún el atestado, la víctima cambiaba el aceite a un coche frente a su casa en compañía de un amigo cuando el acusado se acercó en un vehículo y disparó repetidamente desde la ventanilla. \"Me dijo que hasta que me viera muerto no iba a parar\", declaró Cortiñas, que atribuyó la enemistad a una relación sentimental anterior con la expareja del procesado.\n\n## Dos relatos del mismo episodio\n\nEl testigo principal sostuvo que el acusado \"disparó desde muy lejos\", a unos 40 metros, y que \"si esa persona nos hubiera querido matar lo habría hecho\". \"Era un aviso\", añadió. La acusación particular rebatió esa lectura: \"Dice usted que fueron disparos al aire, pero había dos impactos de bala en la defensa del coche, el cristal de la ventana reventado y la luna rota por un impacto\".\n\nLa víctima relató que tras los primeros disparos huyeron campo a través hasta el muelle de carga de un centro comercial, donde pidieron a una empleada que les dejara entrar. Al negarse, llamó a unos familiares y admitió que esquivaron a una patrulla de la Policía Nacional que les siguió.",
       "sources": [
         {
           "name": "El Progreso",
-          "url": "https://www.elprogreso.es/articulo/lugo/mapa-bajos-vacios-lugo-244-alquiler-324-venta/202610182350502007281.html"
+          "url": "https://www.elprogreso.es/articulo/lugo/dijo-que-que-matara-iba-parar-declara-victima-tiroteo/202610191426572007373.html"
         },
         {
-          "name": "Noticias Lugo",
-          "url": "https://noticiaslugo.es/lugo-viveiro-y-ribadeo-renuevan-sus-mercados-577-300-euros-para-modernizar-la-plaza-de-abastos-y-ganar-clientes/"
+          "name": "La Voz de Galicia",
+          "url": "https://www.lavozdegalicia.es/noticia/lugo/lugo/2026/10/19/acusado-tirotear-miembro-clan-rival-lugo-llega-juicio-aplausos-niega/00031792414209482467186.htm"
         },
         {
-          "name": "Europa Press",
-          "url": "https://www.europapress.es/galicia/noticia-aumentan-locales-comerciales-vacios-galicia-ya-hay-mas-7000-20240122125614.html"
+          "name": "La Voz de Galicia (galego)",
+          "url": "https://galego.lavozdegalicia.es/noticia/lugo/lugo/2026/10/19/acusado-tirotear-miembro-clan-rival-lugo-llega-juicio-aplausos-niega/00031792414209482467186.htm"
         }
       ],
-      "publishedAt": "2026-10-19T04:20:00Z",
-      "imageURL": "/images/2026-10-19-local-002.jpg"
+      "publishedAt": "2026-10-20T04:06:01Z",
+      "imageURL": "/images/2026-10-20-local-002.jpg"
     },
     {
-      "id": "2026-10-19-national-001",
+      "id": "2026-10-20-national-001",
       "category": "national",
-      "headline": "España termina 157.500 viviendas menos que hogares crea en un año y la escasez llega a 50 provincias",
-      "subtitle": "Entre julio de 2025 y junio de 2026 se acabaron 81.109 pisos frente al millón de hogares nuevos desde 2022. Solo Cáceres y Soria escapan a un desajuste que ya exige esfuerzos de más de una década para pagar casa.",
-      "body": "España acumula un déficit de 684.812 viviendas desde 2022. En ese periodo se han construido 367.945 casas nuevas frente a un millón de hogares creados, y el desajuste lejos de corregirse se ha agravado en el último año: entre julio de 2025 y junio de 2026 se terminaron 81.109 inmuebles, unos 157.500 menos de los que hicieron falta.\n\nLa estadística del Ministerio de Vivienda muestra que la producción se ha estancado. En el primer semestre se finalizaron 40.136 viviendas libres, apenas un 0,8% más que en el mismo periodo de 2025, y el volumen semestral lleva moviéndose en torno a las 40.000 desde 2021. Los visados de obra nueva sí despegan —67.564 pisos iniciados, un 10,6% más—, pero tardarán años en llegar al mercado.\n\n## Todas las provincias menos dos\n\nEl desequilibrio se repite en 50 de las 52 provincias. Solo Cáceres y Soria han construido por encima de los hogares que han creado, con 848 y 473 viviendas frente a 810 y 119 nuevas familias. Donde más se inclina la balanza es donde más gente vive: Madrid, Barcelona y los grandes litorales concentran la demanda y los precios.\n\n«La falta de oferta es mayor en las grandes ciudades, que es donde se ofrecen más servicios y donde hay más trabajo. También es mayor la demanda», resume Miguel Ángel Gómez Huecas, presidente de la patronal inmobiliaria Fadei, que señala la falta de suelo finalista y el coste de la obra como frenos.",
+      "headline": "La dana Adam deja cinco muertos y 700 litros por metro cuadrado antes de que la Aemet rebaje la alerta",
+      "subtitle": "La Generalitat confinó 145 municipios y movilizó a la UME por rescates en Oliva; el temporal se desplaza ya hacia el norte",
+      "body": "La dana Adam ha dejado al menos cinco muertos en su paso por la Península, con la Comunitat Valenciana como territorio más castigado. La Generalitat llegó a confinar 145 municipios y a enviar dos mensajes Es-Alert al litoral sur de Valencia y al norte de Alicante pidiendo a la población que no circulara y permaneciera en sus viviendas. La Aemet rebajó este lunes la alerta a \"peligro bajo\" a medida que el temporal perdía intensidad.\n\nEl Centro de Coordinación de Emergencias gestionó 709 incidentes entre las dos de la tarde del sábado y las siete y media de la mañana del lunes: acumulaciones de agua, vehículos bloqueados, rescates y daños en la red viaria. En la comarca de La Safor y en La Marina el peligro fue calificado de \"extraordinario\" en ríos y barrancos, y los bomberos tuvieron que evacuar a vecinos en helicóptero en Oliva, donde el agua entró en las casas mientras la gente dormía. La Unidad Militar de Emergencias se desplazó a la zona.\n\n## El campo, el siguiente golpe\n\nLa precipitación acumulada llegó a los 700 litros por metro cuadrado en 24 horas, una cifra que las autoridades calificaron de histórica. Con el agua retirándose, la preocupación se traslada al sector agrario: los cítricos y los aguacates de la Comunidad Valenciana estaban en plena época de recogida y las organizaciones agrarias advierten de que será difícil recuperar toda la cosecha.\n\nLa Generalitat había suspendido las clases en varios municipios de Valencia y Alicante desde el lunes, y este martes toca evaluar los daños materiales en viviendas, comercios e infraestructuras. Los ayuntamientos de las zonas afectadas han pedido a los vecinos que documenten los destrozos para tramitar las ayudas.",
       "sources": [
         {
           "name": "20minutos",
-          "url": "https://www.20minutos.es/nacional/espana-crea-157-500-viviendas-menos-que-hogares-ultimo-ano-con-escasez-general-todas-las-provincias-salvo-dos_7047011_0.html"
+          "url": "https://www.20minutos.es/nacional/generalitat-valenciana-confina-145-municipios-tras-una-dana-que-provoca-grandes-inundaciones-personas-atrapadas_7050463_0.html"
         },
         {
-          "name": "La Vanguardia",
-          "url": "https://www.lavanguardia.com/economia/20260923/11642530/banco-espana-advierte-deficit-viviendas-llegara-millon-dos-anos.html"
-        },
-        {
-          "name": "El Periódico",
-          "url": "https://www.elperiodico.com/es/economia/20261009/banco-espana-estima-2028-entregaran-140000-viviendas-cifra-alta-17-anos-135182584"
-        }
-      ],
-      "publishedAt": "2026-10-19T04:32:00Z",
-      "imageURL": "/images/2026-10-19-national-001.jpg"
-    },
-    {
-      "id": "2026-10-19-national-002",
-      "category": "national",
-      "headline": "El IVA a los pisos turísticos 'sale a devolver': los dueños deducirán lo que Hacienda quiere gravar",
-      "subtitle": "Los arrendadores sin servicios de hostelería estaban exentos y no podían deducir luz, limpieza o mobiliario. Con el nuevo tipo podrán hacerlo, y el sector espera que el impuesto acabe en el precio que paga el turista.",
-      "body": "Los apartamentos turísticos que hasta ahora estaban exentos de IVA —los que no prestan servicios propios de hostelería como limpieza durante la estancia, lavado de ropa o restauración— pasarán a tributar al 10% en los alquileres de 30 noches o menos a partir del 1 de diciembre, pero el efecto será mucho menor de lo que sugiere el anuncio. Al estar exentos, sus dueños tampoco podían deducir el IVA soportado de la actividad.\n\nCon el cambio podrán deducirse la electricidad, la limpieza contratada a una empresa, las reformas, el mobiliario, la pintura o la fontanería. Es decir, lo que ingresan por un lado lo recuperan por otro, según coinciden los expertos consultados. José María Mollinedo, secretario general de los técnicos de Hacienda (Gestha), apunta que en las zonas de rentas altas el saldo puede quedar incluso a favor del propietario.\n\n## El escenario más probable\n\nLa hipótesis que más fuerza tiene en el sector es otra: repercutir el impuesto al huésped. El dueño mantendría su margen y el turista pagaría más por noche, con el riesgo de que la demanda se resienta en destinos ya tensionados por el precio.\n\nBlanca Llopart califica la medida de «política de escaparate» en plena carrera hacia el 29-N y duda de que desincentive la conversión de vivienda en alojamiento turístico. Moncloa defiende que la fórmula ayuda a frenar la proliferación de pisos turísticos en las ciudades.",
-      "sources": [
-        {
-          "name": "El Mundo",
-          "url": "https://www.elmundo.es/economia/vivienda/2026/10/19/6ad2072c21efa0481e8b457c.html"
-        },
-        {
-          "name": "elDiario.es",
-          "url": "https://www.eldiario.es/economia/gobierno-impone-10-iva-pisos-turisticos-permitira-ayuntamientos-dupliquen-ibi_1_13549266.html"
-        },
-        {
-          "name": "Hoy Aragón",
-          "url": "https://www.hoyaragon.es/bolsillo/nuevo-iva-10-alquiler-30-noches-menos-entra-1-diciembre-excepcion-que-libra-pagarlo/20261011100000148811.html"
-        }
-      ],
-      "publishedAt": "2026-10-19T04:40:00Z",
-      "imageURL": "/images/2026-10-19-national-002.jpg"
-    },
-    {
-      "id": "2026-10-19-national-003",
-      "category": "national",
-      "headline": "El AVE Madrid-Barcelona recupera la doble vía en Ricla nueve días después del incendio",
-      "subtitle": "Adif culmina la reparación del tramo entre Ricla y Plasencia de Jalón y devuelve a Renfe, Ouigo e Iryo las frecuencias y los tiempos de viaje previos al fuego declarado el 12 de octubre.",
-      "body": "La línea de alta velocidad entre Madrid y Barcelona vuelve a circular por las dos vías a lo largo de este lunes. Adif ha terminado la reparación del tramo entre las localidades zaragozanas de Ricla y Plasencia de Jalón, dañado por el incendio de una de las cabezas tractoras de un tren ocurrido el 12 de octubre a las 16.05 horas, en el kilómetro 256,2 de la vía sentido Barcelona.\n\nEl fuego obligó a suspender la circulación de ambas vías, aunque en cuatro horas se restableció el tráfico por vía única. La retirada de la parte útil del tren comenzó la noche del 15 de octubre con una cizalla industrial de grandes dimensiones, y las tareas se hicieron casi en su totalidad en las ventanas de mantenimiento nocturno, de cinco a seis horas por jornada.\n\n## 1,2 kilómetros de catenaria\n\nLos trabajos han incluido la limpieza y retirada de residuos de la plataforma, la revisión de soldaduras e inspección del carril, la reposición de soportes y canaletas, 1,2 kilómetros de hilo de contacto, la reparación de un sustentador y el tensado y pendolado de la catenaria. Adif movilizó a 24 operarios y técnicos, una locomotora de trabajos y equipos de inspección por ultrasonidos.\n\nCon la infraestructura disponible, las operadoras podrán restituir su oferta comercial. Desde el incendio, los trenes han circulado con horarios ampliados y menos frecuencias entre las dos capitales.",
-      "sources": [
-        {
-          "name": "RTVE",
-          "url": "https://www.rtve.es/noticias/20261018/adif-recupera-este-lunes-circulacion-por-ambas-vias-linea-del-ave-madrid-barcelona/17272115.shtml"
-        },
-        {
-          "name": "20minutos",
-          "url": "https://www.20minutos.es/nacional/adif-termina-reparar-via-ricla-renfe-ouigo-iryo-podran-normalizar-servicio-madrid-barcelona-durante-este-lunes_7050226_0.html"
-        },
-        {
-          "name": "El País",
-          "url": "https://elpais.com/economia/2026-10-18/adif-pone-a-prueba-el-punto-del-incendio-del-ave-en-la-linea-madrid-barcelona-y-preve-abrirlo-al-trafico-este-lunes.html"
-        }
-      ],
-      "publishedAt": "2026-10-19T04:48:00Z",
-      "imageURL": "/images/2026-10-19-national-003.jpg"
-    },
-    {
-      "id": "2026-10-19-national-004",
-      "category": "national",
-      "headline": "Exteriores admite que no llega a tiempo de discernir quién de los 163.000 nacionalizados puede votar",
-      "subtitle": "El Ministerio alega ante el Supremo que el plazo hasta el 29-N es «manifiestamente insuficiente» para revisar uno a uno los expedientes de la ley de nietos y abre la puerta a impugnaciones masivas.",
-      "body": "El Ministerio de Asuntos Exteriores sostiene que es «imposible» cumplir al 100% la orden del Tribunal Supremo de identificar, uno a uno, a cuáles de los 163.000 nacionalizados por la ley de nietos les corresponde votar el 29 de noviembre. Fuentes del departamento de José Manuel Albares recuerdan que la Abogacía del Estado ya advirtió al Supremo el pasado día 9 de que el tiempo era «manifiestamente insuficiente» para los consulados con más expedientes.\n\nExteriores asegura que la plataforma para trasladar los datos a la Oficina del Censo Electoral «ya está operativa» y que una treintena de consulados han remitido información. El resto de comprobaciones avanza, dicen, «con la mayor rapidez posible», pero sin perspectiva de completarse. Muchos legajos siguen sin informatizar.\n\n## Batalla postelectoral\n\nLa consecuencia práctica es que el censo de esos votantes no estará depurado cuando se celebren los comicios, lo que anticipa un alud de impugnaciones de resultados en las circunscripciones del exterior. El PP habla de una «maniobra deliberada» de Exteriores para impedir «por la vía de los hechos» la suspensión de la ley.\n\nEn paralelo, el ponente del Tribunal Constitucional apuesta por inadmitir el recurso del Defensor del Pueblo contra la reforma que limitó el acceso a la nacionalidad de los descendientes de emigrantes.",
-      "sources": [
-        {
-          "name": "El Mundo",
-          "url": "https://www.elmundo.es/elecciones/elecciones-generales/2026/10/19/6ad51e63e85eceb80e8b458c.html"
-        },
-        {
-          "name": "El Mundo",
-          "url": "https://www.elmundo.es/espana/2026/10/18/6ad4c213fc6c83c1078b4575.html"
+          "name": "20minutos (última hora)",
+          "url": "https://www.20minutos.es/nacional/ultimas-noticias-dana-adam-valencia-alicante-cataluna-almeria-lluvia-alertas-tiempo-inundaciones-rescates-directo_7050269_6.html"
         },
         {
           "name": "Europa Press",
-          "url": "https://www.europapress.es/nacional/noticia-nacionalizados-ley-nietos-voto-suspendido-apuran-plazos-presentar-alegaciones-supremo-20261018103250.html"
+          "url": "https://www.europapress.es/sociedad/noticia-adam-ceba-valenciana-muertos-deja-cortes-luz-carreteras-cortadas-baleares-20261019153410.html"
         }
       ],
-      "publishedAt": "2026-10-19T04:56:00Z",
-      "imageURL": "/images/2026-10-19-national-004.jpg"
+      "publishedAt": "2026-10-20T04:06:01Z",
+      "imageURL": "/images/2026-10-20-national-001.jpg"
     },
     {
-      "id": "2026-10-19-national-005",
+      "id": "2026-10-20-national-002",
       "category": "national",
-      "headline": "La estadística que iba a contar a los fijos discontinuos inactivos sigue «en proyecto» y sin fecha",
-      "subtitle": "El INE diseña desde 2023 la Erada, que cruzaría registros administrativos para medir a quienes no trabajan pero no figuran como parados. El borrador del plan estadístico de 2027 la mantiene bloqueada.",
-      "body": "Yolanda Díaz se comprometió en 2023 a publicar cuántos trabajadores con contrato fijo discontinuo están en periodo de inactividad, después de que la oposición la acusara de maquillar las cifras del paro. Tres años más tarde no existe una serie homogénea y el dato sigue sin ver la luz.\n\nEl problema es que las fuentes oficiales responden a preguntas distintas. El Sepe conoce a los demandantes de empleo, pero la categoría con relación laboral mezcla fijos discontinuos con afectados por ERTE y otros colectivos, y no todos los inactivos se inscriben. La Seguridad Social tiene altas y bajas, pero no identifica la inactividad. Por eso el INE empezó a desarrollar la Erada, una estadística que cruza registros administrativos.\n\nEl Ministerio de Economía acaba de sacar a audiencia pública el borrador del Programa anual 2027 del Plan Estadístico y la Erada sigue «en proyecto». El documento añade que su difusión queda «condicionada a las conclusiones del grupo de trabajo técnico» que integra a los organismos implicados, sin fecha.\n\n## Entre 800.000 y un millón\n\nLos expertos sitúan el colectivo de inactivos no contabilizados entre 800.000 y 900.000 personas. Miguel Cardoso, economista jefe de BBVA Research para España, recuerda que los 802.580 demandantes con relación laboral incluyen también a perceptores de prestaciones adscritos a trabajos de colaboración social. El ministro Cuerpo cifró en torno al millón los afiliados fijos discontinuos, sin desglosar cuántos están inactivos.",
+      "headline": "Vox ofrece al PP no presentarse en varias provincias para salvar el Senado tras el pacto de la izquierda",
+      "subtitle": "Abascal condiciona el gesto a que Feijóo le ceda senadores; el PP admite conversaciones pero rechaza un reparto proporcional al peso de cada partido",
+      "body": "El pacto del PSOE con la mayor parte de las formaciones de izquierda para concurrir juntos al Senado bajo la marca Senado de Progreso ha sacudido la precampaña del 29N y ha empujado a Vox y al PP a hablar. Santiago Abascal ha trasladado a los populares su \"voluntad\" de alcanzar \"algún entendimiento que proteja el Senado\" y, según fuentes conocedoras de su posición, está dispuesto a no presentarse en varias circunscripciones a cambio de que Feijóo haga \"un gesto\": que le ceda senadores.\n\nAmbas formaciones mantienen un hermetismo oficial, pero reconocen contactos. En Vox pesa la presión de sus propios generadores de opinión, que reclaman una demostración de \"patriotismo\" para cortar el paso a una izquierda que concurrirá unida con Sumar, Más Madrid, Izquierda Unida, Compromís y Chunta. Desde el PP responden que no ven problema en facilitar a Vox un grupo consolidado en la Cámara Alta, pero sin un reparto que no se corresponda con el peso de cada partido en el órgano territorial.\n\n## Sin precedentes recientes\n\nEn el Senado no se vota por lista: cada elector elige hasta tres candidatos, sean del partido que sean, lo que suele favorecer a las candidaturas hegemónicas de cada bloque. Por eso el PP tiene hoy mayoría absoluta y Vox obtuvo cero escaños por las urnas en 2023. La incertidumbre estalla precisamente ahora, cuando casi toda la izquierda va unida y en la derecha compiten dos papeletas fuertes.\n\nNo existe precedente de una entente de la derecha para concurrir a las elecciones de la Cámara Alta. Vox sí hizo un movimiento similar en noviembre de 2019, cuando presentó un solo candidato por circunscripción e invitó de forma velada a sus electores a marcar las otras dos casillas en senadores de otro partido. Queda una semana de margen para decidir.",
       "sources": [
         {
           "name": "El Mundo",
-          "url": "https://www.elmundo.es/economia/2026/10/18/6ad24cb721efa0ea438b45ab.html"
+          "url": "https://www.elmundo.es/elecciones/elecciones-generales/2026/10/20/6ad664d7e85ecee20e8b459b.html"
         },
         {
-          "name": "ABC",
-          "url": "https://www.abc.es/economia/diaz-sigue-oculta-datos-sobre-explosion-fijos-20260616015330-nt.html"
+          "name": "Europa Press",
+          "url": "https://www.europapress.es/nacional/noticia-abascal-tiende-mano-pp-negociar-algun-entendimiento-senado-20261019133611.html"
         },
         {
-          "name": "Libertad Digital",
-          "url": "https://www.libertaddigital.com/espana/politica/2026-06-22/los-fijos-discontinuos-que-no-trabajan-y-se-borran-en-la-estadistica-oficial-rozan-ya-el-millon-de-personas-7423737/"
+          "name": "20minutos",
+          "url": "https://www.20minutos.es/nacional/pp-mantiene-incognita-sobre-un-posible-acuerdo-senado-tras-oferta-vox-no-presentarse-algunas-provincias_7050657_0.html"
         }
       ],
-      "publishedAt": "2026-10-19T05:04:00Z",
-      "imageURL": "/images/2026-10-19-national-005.jpg"
+      "publishedAt": "2026-10-20T04:06:01Z",
+      "imageURL": "/images/2026-10-20-national-002.jpg"
     },
     {
-      "id": "2026-10-19-northernIreland-001",
+      "id": "2026-10-20-national-003",
+      "category": "national",
+      "headline": "Sánchez promete subir el SMI cada año que gobierne y pide \"todo al rojo\" para una mayoría más amplia que en 2023",
+      "subtitle": "El mitin de Valladolid queda marcado por la renuncia en bloque de la lista del PSOE de Palencia contra la decisión de Ferraz",
+      "body": "Pedro Sánchez se comprometió este lunes a elevar el Salario Mínimo Interprofesional todos los años que gobierne y reclamó una mayoría \"más amplia\" que la de 2023 para el bloque progresista, al tiempo que pedía concentrar el voto en el PSOE. \"No pido una mayoría como la de 2023, sino una más amplia del PSOE y de las fuerzas progresistas\", dijo en un acto de precampaña en Valladolid, donde resumió el lema con el que quiere cerrar la campaña: \"Todo al rojo\".\n\nEl presidente reivindicó la revalorización de las pensiones y defendió la solvencia del sistema público, al que describió como \"sano\" y con \"extraordinaria salud\". Acusó al PP de \"enfrentar\" a jóvenes y jubilados y sostuvo que una forma de aumentar la solvencia del sistema es mejorar los salarios de los trabajadores, por lo que instó a hablar con la patronal y los sindicatos.\n\n## La crisis de Palencia\n\nEl mensaje de unidad quedó deslucido por un conflicto interno que estalló en paralelo. La lista del PSOE al Congreso por Palencia renunció en bloque después de que la dirección federal sustituyera a Álvaro Bilbao, el candidato respaldado por la militancia provincial, por la veterana diputada Mariluz Martínez Seijo. Bilbao había logrado el apoyo mayoritario de las agrupaciones y Martínez Seijo quedó relegada en las votaciones internas.\n\nEl pulso importa porque el PSOE solo logró un diputado por Palencia en 2023, de modo que el puesto de cabeza decidía quién ocuparía el único escaño socialista de la provincia. La protesta coincidió con el mitin de Castilla y León. Sánchez también anticipó el choque con Javier Milei, que aterrizaba en Madrid este martes, y atribuyó al presidente argentino la política de \"insultos, mentiras y recortes\", con la motosierra como emblema. El ministro Óscar Puente fue más explícito: \"No crea ni construye nada, solo siega y corta\".",
+      "sources": [
+        {
+          "name": "20minutos",
+          "url": "https://www.20minutos.es/nacional/sanchez-se-compromete-subir-salario-minimo-cada-ano-si-gobierna-pide-una-mayoria-mas-amplia-que-2023_7050735_0.html"
+        },
+        {
+          "name": "Europa Press",
+          "url": "https://www.europapress.es/nacional/noticia-sanchez-apela-concentracion-voto-izquierda-psoe-todo-rojo-20261019202934.html"
+        },
+        {
+          "name": "20minutos (Palencia)",
+          "url": "https://www.20minutos.es/castilla-y-leon/palencia/renuncia-toda-lista-psoe-palencia-congreso-cambiar-ferraz-numero-uno_7050730_0.html"
+        }
+      ],
+      "publishedAt": "2026-10-20T04:06:01Z",
+      "imageURL": "/images/2026-10-20-national-003.jpg"
+    },
+    {
+      "id": "2026-10-20-northernIreland-001",
       "category": "northernIreland",
-      "headline": "Portadown Orangemen call a new parade for 24 October that the Parades Commission has not been told about",
-      "subtitle": "Portadown District has announced a march and rally for the Saturday after next, but its details do not appear on the commission's register. The DUP has warned that unlawful parades cannot show support for the rule of law.",
-      "body": "Portadown Orange District has announced a parade and rally for Saturday 24 October and urged \"the wider Unionist family\" to turn out. As of Sunday night the Parades Commission's website showed no notification for the event, and organisers who fail to notify face up to six months in prison and a £5,000 fine.\n\nThe call follows the 13-day stand-off on the Garvaghy Road that began on 27 September, when up to 1,000 people, including nationalist politicians, blocked Orangemen walking from Drumcree parish church. The Parades Commission had approved the route with restrictions after a court overturned its original refusal; the Secretary of State, Sir Chris Bryant, then banned the parade on 9 October on the Chief Constable's advice.\n\n## Warning from within unionism\n\nDUP policing spokesman Trevor Clarke said those who blocked the road had breached a legally binding determination and \"deserve to face the consequences\". \"It is impossible to demonstrate support for the rule of law whilst actively setting out to breach the law,\" he told the News Letter, while insisting Portadown District had shown \"resilience and patience\".\n\nPolice have begun issuing letters seeking interviews with people \"reasonably suspected\" of offences. People Before Profit MLA Gerry Carroll was interviewed for two hours at Musgrave station and said he made \"no apology\" for standing with residents. First Minister Michelle O'Neill and other senior Sinn Féin figures have also received letters.\n\nDUP leader Gavin Robinson wants the High Court, which is hearing the Orange Order's challenge to the ban, to establish what the PSNI really assesses the threat to have been. Unionists have claimed firearms and blast bombs may have been present; nationalists reject that. Six other parades that went ahead without notification are under investigation, and two flute bands have said they will stop engaging with police and the commission.",
+      "headline": "O'Neill and McDonald to be interviewed by police as court hears of dissident gun intelligence at Drumcree",
+      "subtitle": "The First Minister and Sinn Féin president will attend PSNI interviews this week over the Garvaghy Road protest, as a judicial review tests the parade ban",
+      "body": "Northern Ireland's First Minister Michelle O'Neill and Sinn Féin president Mary-Lou McDonald are to be interviewed by the PSNI this week over their attendance at the protest that blocked the first Drumcree Orange Order march in almost 30 years. Both announced the interviews on social media on Monday afternoon. Several other Sinn Féin representatives, including Economy Minister Caoimhe Archibald and a number of MLAs and MPs, said they had also received letters inviting them to attend.\n\nIn late September the Parades Commission granted permission for the march down the Garvaghy Road for the first time since the 1990s, but thousands of protesters blocked the route. Northern Ireland Secretary Sir Chris Bryant then intervened to stop the parade, ending a stand-off that had run nearly a fortnight. Unionist parties brought unsuccessful no-confidence motions against O'Neill and three other Sinn Féin ministers, arguing they had broken their pledge of office by attending the demonstrations.\n\n## Intelligence read into the record\n\nOn the same day the High Court in Belfast began hearing a challenge by a Portadown Orangeman against Sir Chris Bryant and Chief Constable Jon Boutcher. Reading from the intelligence assessment Boutcher gave the Secretary of State, Richard McConkey KC said it was \"almost certain\" that dissident republicans had attended the protest and \"possible\" they had already accessed firearms in the area, which could have been used to attack police had officers cleared the road.\n\nThe assessment also recorded \"reliable intelligence indicating that mainstream republicans are concerned about their ability to prevent disorder or control dissident republicans\". A lawyer for Boutcher said all \"lawful and proportionate options\" to facilitate the parade had been exhausted. The applicant alleges political considerations were taken into account. The hearing continues.",
       "sources": [
-        {
-          "name": "Belfast News Letter",
-          "url": "https://www.newsletter.co.uk/news/politics/dup-warns-parade-organisers-cannot-demonstrate-support-for-rule-of-law-with-unlawful-parades-9294816"
-        },
         {
           "name": "BBC News NI",
-          "url": "https://www.bbc.co.uk/news/articles/cv70pr6347lyo"
+          "url": "https://www.bbc.co.uk/news/articles/cmje5y1wd3xgo"
         },
         {
-          "name": "Belfast News Letter",
-          "url": "https://www.newsletter.co.uk/news/politics/drumcree-crisis-ex-sinn-fein-president-gerry-adams-writes-open-letter-to-portadown-orangemen-9294885"
+          "name": "News Letter",
+          "url": "https://www.newsletter.co.uk/news/politics/michelle-oneill-and-mary-lou-mcdonald-to-be-questioned-by-police-over-garvaghy-road-protest-9297635"
+        },
+        {
+          "name": "News Letter (court)",
+          "url": "https://www.newsletter.co.uk/news/politics/police-feared-a-firearm-attack-if-drumcree-parade-went-ahead-court-told-9296050"
         }
       ],
-      "publishedAt": "2026-10-19T05:12:00Z",
-      "imageURL": "/images/2026-10-19-northernIreland-001.jpg"
+      "publishedAt": "2026-10-20T04:06:01Z",
+      "imageURL": "/images/2026-10-20-northernIreland-001.jpg"
     },
     {
-      "id": "2026-10-19-global-001",
+      "id": "2026-10-20-global-001",
       "category": "global",
-      "headline": "Ukraine's biggest drone raid of the war sets St Petersburg oil facilities alight",
-      "subtitle": "Russia says 1,015 drones were destroyed overnight. The governor of St Petersburg reports one dead and five injured, while Leningrad's governor says 145 drones were downed and 20,000 people lost power.",
-      "body": "Ukrainian drones struck the St Petersburg oil terminal, the Ruchi oil depot and warehouses in the Kolpinsky district overnight, setting several sites on fire in what the city's governor, Alexander Beglov, called a \"massive\" attack. One person was killed and five injured, and residential buildings were hit.\n\nOperations at St Petersburg's main airport were restricted \"for safety reasons\". The e-commerce company Ozon reported a fire at its logistics hub in the city, and the internet group VK said drones attacked its data centre in the wider Leningrad region, though it said services remained available.\n\nRussia's defence ministry said 1,015 Ukrainian drones were destroyed overnight over 15 regions, occupied Crimea and the Black Sea. Alexander Drozdenko, governor of Leningrad, said 145 were shot down over his region and about 20,000 people were without electricity.\n\n## A widening rift with Washington\n\nThe strikes landed as relations between Kyiv and Washington soured. President Trump criticised Ukraine's campaign against Russian oil infrastructure and defended his decision to pause new sanctions on Moscow, saying he would not do anything that would \"foolishly\" drive Russia away from the bargaining table. Volodymyr Zelensky replied that Ukraine has the right to defend itself.\n\nThe exchange complicates a peace process that had appeared to be inching forward, and leaves the timing of any further US sanctions unclear.",
+      "headline": "France gives mayors power to impose curfews after a weekend of riots and 2,500 arrests",
+      "subtitle": "Marseille has already banned public gatherings between noon and 8pm, and the interior minister admitted police had \"lost control\" in some cities",
+      "body": "France's Prime Minister Sébastien Lecornu has handed local mayors the power to impose partial curfews after a weekend of rioting and looting across the country. Marseille, the second-largest city, has already banned public gatherings between noon and 8pm. More than 2,500 people were arrested and around 1,000 police officers injured, according to officials.\n\nInterior Minister Laurent Nuñez, whose resignation offer President Emmanuel Macron rejected, admitted police had \"lost control\" in some cities. Around 200 investigators are now trawling CCTV to identify possible ringleaders. Lecornu did not rule out a state of emergency and said the government would set aside money to repair damage, financed by a law forcing those responsible to pay, alongside a partial unemployment fund for people unable to work because of the unrest.\n\n## From school conditions to fuel prices\n\nThe disorder began last month with students demanding better school conditions and broadened into protests over rising fuel prices, the cost of living and deteriorating public services. Some 550,000 people demonstrated across the weekend. On Paris's Place de la République and in Marseille, groups dressed in black set fire to cars and buildings and looted shops.\n\nThe head of France's Chambers of Commerce and Industry said more than 2,000 businesses had been hit, with damage estimated at \"hundreds of millions of euros\". Protesters were also hurt in clashes; one demonstrator lost a hand to a police crowd-control grenade, according to AFP. Lecornu's announcements came after a crisis meeting on Monday, and the political question now is whether restoring order calms the wider grievance or simply contains it.",
       "sources": [
         {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/10/19/ukrainian-drone-attack-on-russias-st-petersburg-kills-1-hits-energy-sites"
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cx30ez03djyqo"
         },
         {
-          "name": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/c3eweygrjzd7o"
+          "name": "20minutos",
+          "url": "https://www.20minutos.es/internacional/gobierno-frances-admite-su-fracaso-gestion-las-protestas-anuncia-toques-queda-parciales-varias-ciudades_7050398_0.html"
         },
         {
-          "name": "The Guardian",
-          "url": "https://www.theguardian.com/world/2026/oct/18/killed-injured-russia-ukraine-strikes-power-infrastructure"
+          "name": "20minutos (analysis)",
+          "url": "https://www.20minutos.es/internacional/los-motivos-tras-violencia-creciente-las-calles-francesas-una-mezcla-segregacion-reaccion-visceral-un-grito-auxilio_7050334_0.html"
         }
       ],
-      "publishedAt": "2026-10-19T05:20:00Z",
-      "imageURL": "/images/2026-10-19-global-001.jpg"
+      "publishedAt": "2026-10-20T04:06:01Z",
+      "imageURL": "/images/2026-10-20-global-001.jpg"
     },
     {
-      "id": "2026-10-19-global-002",
+      "id": "2026-10-20-global-002",
       "category": "global",
-      "headline": "Kenya confirms an eighth Ebola case as the Bundibugyo outbreak spreads across borders",
-      "subtitle": "The new patient is a 49-year-old hospital attendant who cleaned utensils and linen, probably exposed to Kenya's first case. There is no licensed vaccine or specific treatment for this strain of the virus.",
-      "body": "Kenya's health authorities reported an eighth Ebola infection on Sunday after testing 38 people, according to the director-general for health, Patrick Amoth. The patient, a 49-year-old man who worked as a patient attendant cleaning utensils and linens, developed fever, headache and muscle pain on Saturday and is now in isolation.\n\nHe is believed to have been exposed to Kenya's first case: a man who travelled from the Democratic Republic of the Congo to Nairobi and died in hospital on 5 October. The ministry reported four new cases on Saturday, three of them health workers who treated that first patient.\n\nThe outbreak is of the Bundibugyo strain, for which no vaccine or specific treatment is licensed. That makes ring vaccination — the tool used against Zaire ebolavirus in previous outbreaks — unavailable, leaving contact tracing, isolation and supportive care as the main defences.\n\nThe wider regional picture is worse. The DRC has recorded at least 9,400 cases and more than 4,500 deaths since May, the deadliest outbreak in its history, which is why Kenya has been on heightened alert since the virus crossed the border.",
+      "headline": "Kenyan court convicts pastor Paul Mackenzie of murdering 191 people, all but one of them children",
+      "subtitle": "A Mombasa judge found Mackenzie and 29 co-accused guilty over the Shakahola forest starvation deaths; sentencing is still to come",
+      "body": "A court in Mombasa has found self-proclaimed pastor Paul Mackenzie and 29 co-accused guilty of murdering 191 people — 190 children and one adult — in the Shakahola forest case. \"I am satisfied that the prosecution has proved the case against all the 29 accused persons for the murder of 190 children and one adult,\" Judge Diana Kavedza Mochache said on Monday.\n\nMackenzie's Good News International Church taught that education was forbidden and modern medicine \"evil\", and prosecutors said he \"initiated and directed\" extreme fasting at his 800-acre ranch near Malindi. They alleged a \"structured hierarchy of death\" in which children were to die first, followed by teenagers, women and then men, so that followers could \"meet Jesus\". All defendants had pleaded not guilty and denied that anyone was forced to die.\n\n## What the graves held\n\nMore than 400 bodies have been recovered from shallow graves since 2023. Gravediggers hired from the nearby town described finding several bodies in a single grave, some of them children only weeks old, with hands and legs tied and bodies wrapped in bedsheets. One told the BBC he had once found twelve children lined up inside one grave.\n\nMackenzie faces further cases on terrorism, radicalisation and denying children an education, and this was the first verdict on the murder charges. The scale of the case has driven calls in Kenya for tighter regulation of religious organisations, particularly after it emerged that Mackenzie had been arrested twice before and released. Sentencing has not yet been set.",
       "sources": [
         {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/10/19/kenya-confirms-eighth-ebola-case-amid-widening-regional-outbreak"
-        },
-        {
-          "name": "WHO",
-          "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON619"
-        },
-        {
-          "name": "The BMJ",
-          "url": "https://www.bmj.com/content/395/bmj-2026-087341"
-        }
-      ],
-      "publishedAt": "2026-10-19T05:24:00Z",
-      "imageURL": "/images/2026-10-19-global-002.jpg"
-    },
-    {
-      "id": "2026-10-19-global-003",
-      "category": "global",
-      "headline": "Alberta votes on whether to begin the long road out of Canada",
-      "subtitle": "The ballot is advisory and does not take the province out of the country, but support for starting the separation process sits near 23%. Premier Danielle Smith, who called the vote, calls that 'still too high for my liking'.",
-      "body": "Voters in Alberta go to the polls on Monday to decide whether the province should begin the legal process towards a future referendum on leaving Canada. The question is not independence itself, but whether to start a path that separatists hope will end in one.\n\nSeparatism was for three decades a fringe cause that rarely drew more than 1% or 2% of the vote, as former premier Jason Kenney noted. The pandemic changed that: the Freedom Convoy, vaccine mandates on air travel and the sense that Ottawa ignored the oil industry turned grievance into a movement with money and organisers.\n\n## Oil, equalisation and grievance\n\nAlberta holds the world's fourth-largest proven oil reserves and has fought successive federal governments over energy policy, carbon pricing and the equalisation payments it pays into. Liberal prime ministers from Pierre Trudeau to his son Justin became deeply unpopular in the province, and the current prime minister, Mark Carney, inherited the problem.\n\nBusiness groups warn that a yes vote, even a symbolic one, would chill investment in a province whose oil sands are capital-intensive and slow to build. Danielle Smith supports remaining in Canada but called the vote to settle the argument inside her own coalition, and says the roughly 23% who back the process are still too many. Results are expected late on Monday.",
-      "sources": [
-        {
-          "name": "Los Angeles Times",
-          "url": "https://www.latimes.com/world-nation/story/2026-10-18/how-alberta-separatism-went-from-fringe-cause-to-referendum-in-canada"
-        },
-        {
-          "name": "Bangkok Post",
-          "url": "https://www.bangkokpost.com/world/3339283/alberta-separatists-rally-ahead-of-independence-vote"
-        },
-        {
-          "name": "Reuters",
-          "url": "https://www.msn.com/en-us/news/other/oil-rich-alberta-votes-on-canada-breakup/ar-AA2eYRAs"
-        }
-      ],
-      "publishedAt": "2026-10-19T05:28:00Z",
-      "imageURL": "/images/2026-10-19-global-003.jpg"
-    },
-    {
-      "id": "2026-10-19-global-004",
-      "category": "global",
-      "headline": "Verdict due in Kenya's Shakahola starvation cult murders",
-      "subtitle": "Paul Mackenzie and 29 followers are accused of murdering 191 children, who prosecutors say were starved so they could 'meet Jesus'. More than 400 bodies were exhumed from shallow graves in the forest.",
-      "body": "A court in Kenya is expected to deliver its judgment on Monday in the mass murder case against the doomsday preacher Paul Mackenzie and 29 of his followers, charged over the deaths of 191 children. All have pleaded not guilty and deny anyone was forced to die.\n\nMackenzie led followers from across Kenya to Shakahola forest near the coast, where his doctrine held that education was forbidden and modern medicine \"evil\". Authorities exhumed more than 400 bodies from shallow graves. Seventeen men from a nearby town were hired to dig them up, some paid as little as $8 a day.\n\nMackenzie and the other leaders face a series of other cases, including terrorism, radicalisation and denying children an education, but this is the first time he will face a verdict on murder. His former head of security, Enos Amanya Ngala, was initially charged and then struck a plea deal to become a prosecution witness.\n\nThe case has become a test of how Kenya's courts handle a mass-casualty cult prosecution and of whether the families, who have waited three years for a judgment, get any accounting for the deaths.",
-      "sources": [
-        {
-          "name": "BBC News",
+          "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/ckd6d2l3dz4xo"
         },
         {
-          "name": "RFI",
-          "url": "https://www.rfi.fr/en/africa/20261018-shakahola-families-still-searching-for-their-dead-as-judgment-nears"
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/oct/19/kenya-starvation-cult-leader-guilty-murder-190-children"
         },
-        {
-          "name": "The Standard (Kenya)",
-          "url": "https://www.standardmedia.co.ke/crime-and-justice/article/2001560401/shakahola-slaughter-makenzi-awaits-verdict"
-        }
-      ],
-      "publishedAt": "2026-10-19T05:32:00Z",
-      "imageURL": "/images/2026-10-19-global-004.jpg"
-    },
-    {
-      "id": "2026-10-19-global-005",
-      "category": "global",
-      "headline": "Albania's Supreme Court burns as anti-government protests reach a fifth day",
-      "subtitle": "Offices in Tirana were set alight as demonstrators demanding action on corruption, education and unemployment clashed with police. Edi Rama refuses to resign, and the unrest is echoing across southern Europe.",
-      "body": "Fire engulfed offices at Albania's Supreme Court in Tirana at the weekend as protests against the government entered a fifth day. Demonstrators have been demanding action on corruption, education and unemployment, and the clashes have become some of the fiercest the capital has seen in years, with dozens injured.\n\nPrime Minister Edi Rama has refused to resign. The trigger for the unrest is the detention of Tirana's mayor, Erion Veliaj, whose case has moved between the Supreme Court and the Constitutional Court, feeding a wider sense among young Albanians that the justice system answers to the government.\n\nThe Albanian protests are part of a broader eruption. On Saturday, masked demonstrators in Milan's Piazza del Duomo threw fire extinguishers, smoke bombs and café tables at police, who replied with batons and water cannon; several people were injured, including a police officer with head wounds.\n\nMarches also took place in Turin, Bologna and Rome, where the CGIL union — with 4.5 million members — mobilised, and in Brussels. France has seen days of rioting over the cost of living, with Marseille's city hall stormed and shops looted, prompting Emmanuel Macron to promise zero tolerance and talks with unions, students and lawmakers.",
-      "sources": [
         {
           "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/18/albania-protests-supreme-court-fire"
-        },
-        {
-          "name": "To Vima",
-          "url": "https://www.tovima.com/world/protests-sweep-italy-albania-and-belgium-as-clashes-turn-violent/"
-        },
-        {
-          "name": "The New York Times",
-          "url": "https://www.nytimes.com/2026/10/15/world/europe/albania-student-protests-violence.html"
+          "url": "https://www.aljazeera.com/news/2026/10/19/kenyan-court-convicts-starvation-cult-leader-for-murder-of-191-people"
         }
       ],
-      "publishedAt": "2026-10-19T05:36:00Z",
-      "imageURL": "/images/2026-10-19-global-005.jpg"
+      "publishedAt": "2026-10-20T04:06:01Z",
+      "imageURL": "/images/2026-10-20-global-002.jpg"
     },
     {
-      "id": "2026-10-19-tech-001",
+      "id": "2026-10-20-global-003",
+      "category": "global",
+      "headline": "Drone strike on a Sudan market town kills 80 as air attacks spread across Kordofan and Khartoum",
+      "subtitle": "Villagers were waiting for rides home after market day in al-Dibab when the drone struck twice, ten minutes apart, killing 80 people",
+      "body": "A drone strike on the town of al-Dibab in Sudan's West Kordofan state killed 80 people on Sunday evening, most of them villagers who had gathered at a transport hub to find rides home after market day. A medic said the drone struck twice, ten minutes apart, and that 47 wounded were taken to the nearby town of al-Mujlad, where 30 died of their injuries.\n\nOne resident, Ahmed Abakar Wadi, told AFP he had helped bury 50 bodies, \"one of them my own brother Mohamed\", speaking over a satellite connection to get around a communications blackout. The paramilitary Rapid Support Forces' self-declared administration, Tasis, and the Sudanese rights group Emergency Lawyers both accused the army of carrying out the attack. The military has not commented.\n\n## A widening air war\n\nThe strike was one of the deadliest single attacks in Kordofan, an oil-rich region linking western and eastern Sudan where the army and the RSF have been fighting for territory. It came amid a wave of drone attacks that killed more than 100 people since Sunday across Khartoum and two RSF-held areas, according to residents, medical workers and paramilitary sources.\n\nOn Friday a drone strike on a cattle market in Nyala, the seat of the RSF's administration, killed 30 people and injured 47, a medical source said; the army said it had killed RSF fighters while the RSF said civilians died. The UN has warned that drone attacks have become the leading cause of civilian death in the war, which began in April 2023.",
+      "sources": [
+        {
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/oct/19/drone-attack-market-al-dibab-west-kordofan-sudan"
+        },
+        {
+          "name": "France 24",
+          "url": "https://www.france24.com/en/africa/20261019-drone-attack-near-southern-sudan-market-kills-scores"
+        },
+        {
+          "name": "Arab News",
+          "url": "https://www.arabnews.com/middle-east/drone-strikes-across-sudan-kill-more-than-100-3007193"
+        }
+      ],
+      "publishedAt": "2026-10-20T04:06:01Z",
+      "imageURL": "/images/2026-10-20-global-003.jpg"
+    },
+    {
+      "id": "2026-10-20-global-004",
+      "category": "global",
+      "headline": "Zelensky adviser says Ukrainians have died because US missile warnings are arriving a minute before impact",
+      "subtitle": "Washington denies any change to intelligence sharing, but Kyiv says the air-raid alert component is still inconsistent and Starshield limits persist",
+      "body": "A key adviser to President Volodymyr Zelensky has said Ukrainians have died because Kyiv is still not receiving reliable American warnings of incoming Russian attacks. Serhii \"Flash\" Beskrestnov told the BBC that on one night the warning arrived a minute before the strike, leaving no time to alert citizens to ballistic missiles. \"It's dangerous... I think it's really very bad... People [have] already died,\" he said.\n\nThe White House said there had been no change to intelligence sharing. But the accounts conflict. Zelensky told NBC that sharing had been restored after a three-day pause, while Beskrestnov said the data remained incomplete and inconsistent, with Washington offering no clear explanation. He added that other intelligence keeps flowing and \"the issue is solely with the air raid alert component\".\n\n## Starshield limits\n\nSeparately, restrictions on the Starshield network Ukraine's military uses are continuing. Last week the service capped the speed at which mobile units can stay connected at 100mph (160km/h), limiting Ukraine's ability to intercept incoming drones or launch mid-range attacks into occupied territory. Kyiv has given no clarity on who ordered the change; Elon Musk said Starshield is \"owned and controlled by the US government\", and President Donald Trump denied having ordered it.\n\nThe dispute follows a row over the Trump administration's deal to import Russian oil, which pushed relations to a new low. Overnight, Zelensky said two ballistic missile attacks were reported on the capital, one without warning and the second with only minimal time to take shelter.",
+      "sources": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cmj47yx572z5o"
+        },
+        {
+          "name": "NBC News",
+          "url": "https://www.nbcnews.com/world/ukraine/ukraine-starlink-restrictions-military-intel-trump-zelenskyy-russia-rcna603412"
+        },
+        {
+          "name": "NPR",
+          "url": "https://www.npr.org/2026/10/18/nx-s1-6007382/ukraine-us-starshield-starlink-what-to-know-trump"
+        }
+      ],
+      "publishedAt": "2026-10-20T04:06:01Z",
+      "imageURL": "/images/2026-10-20-global-004.jpg"
+    },
+    {
+      "id": "2026-10-20-tech-001",
       "category": "tech",
-      "headline": "Savannah officer fired for sharing Flock access with her ICE agent husband",
-      "subtitle": "An internal investigation found Tyler Harpe ran 983 searches on 97 plates using his wife's login, most registered to Hispanic drivers, in a department that says it shares nothing with ICE.",
-      "body": "A Savannah police officer was fired in August after an internal investigation found she had given her Flock licence-plate camera login to her husband, an Immigration and Customs Enforcement agent. The department says it does not share Flock data with ICE, and that passing on her credentials breached its security protocols.\n\nWhile using that access, Tyler Harpe ran 983 searches against 97 licence plates, Savannah's ABC affiliate WJCL reported. The plates were overwhelmingly registered to Hispanic drivers. The Harpes have defended the searches as law-enforcement work rather than personal curiosity.\n\nInterim Major Max Nowinsky initially recommended an eight-hour suspension. Major Michelle Halford and Assistant Police Chief Robert Gavin overruled him and removed Amber Harpe from the force. She was one of six SPD employees fired after the Flock review, four of whom were later arrested; Harpe was not among them.\n\nThe case lands as Flock faces widening scrutiny over how easily its camera network can be searched, and by whom. The company has already cut staff as privacy criticism mounted, and agencies across the country are being pressed to explain who inside their buildings can query the network, and what stops that access travelling home.",
+      "headline": "CoreWeave's bonds slide into distressed territory and drag the rest of the AI buildout with them",
+      "subtitle": "The neocloud owes more than $50bn and lost over a billion dollars in the first half; Oracle shares and bonds have wobbled alongside it",
+      "body": "CoreWeave's debt has slipped into distressed territory by the standard definition — investors demanding 1,000 basis points more in yield than they would get from government bonds. The yield on its April-issued notes due in 2031 pushed past 16%, and the spread on its five-year credit default swaps briefly topped 1,140 basis points, up 33% in a week and 177% on a year earlier. That implies roughly a 60% chance of default within five years, against about 30% a year ago.\n\nThe shares fell more than 20% in a few sessions. Chamath Palihapitiya, Elon Musk and others publicly questioned whether the AI buildout has become a private credit bubble. CoreWeave carries more than $50bn in debt and lease obligations, partly because it pioneered using GPUs as loan collateral, and it lost more than a billion dollars in the first half of the year. It does not have a business beyond renting compute, and that business does not make money yet.\n\n## Contagion, not collapse\n\nCo-founder Brannin McBee told the Financial Times the company wants investment-grade debt so it can borrow from insurers, whose capital he called \"unlimited\" — a remark that made investors fear more borrowing rather than less. The anxiety is not confined to CoreWeave: Oracle shares fell almost 10% over the same stretch and its bonds sold off, because the same questions apply to every neocloud that financed chips with debt.\n\nThat does not make a bursting bubble inevitable. A falling share price reflects confidence in the future, not the state of current operations, and lenders have little interest in pushing a large borrower over the edge. The test arrives only if the AI boom falters — at which point the question of whether bare-metal compute is a durable business finally gets answered.",
       "sources": [
         {
           "name": "The Verge",
-          "url": "https://www.theverge.com/policy/1013573/spd-officer-fired-flock-ice-husband"
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1014045/coreweave-stock-debt-sector-ai"
         },
         {
-          "name": "WNDU",
-          "url": "https://www.wndu.com/2026/10/16/police-officer-fired-sharing-flock-login-with-husband-who-works-ice/"
+          "name": "Reuters",
+          "url": "https://www.reuters.com/legal/transactional/coreweave-shares-bonds-slide-further-ai-debt-fears-mount-2026-10-15"
         },
         {
-          "name": "Police1",
-          "url": "https://www.police1.com/officer-misconduct-internal-affairs/ga-officer-fired-for-sharing-alpr-access-with-ice-officer-husband-disciplinary-docs-allege"
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/10/15/coreweave-credit-default-swaps-hit-distress-levels-as-investors-sour-on-ai-debt.html"
         }
       ],
-      "publishedAt": "2026-10-19T04:10:00Z",
-      "imageURL": "/images/2026-10-19-tech-001.jpg"
+      "publishedAt": "2026-10-20T04:06:01Z",
+      "imageURL": "/images/2026-10-20-tech-001.jpg"
     },
     {
-      "id": "2026-10-19-tech-002",
+      "id": "2026-10-20-tech-002",
       "category": "tech",
-      "headline": "Canada's C-22 pushes encryption services towards the exit",
-      "subtitle": "Psiphon says it will leave Canada if the bill passes, and Signal has said the same. WIRED traces a wider squeeze on encrypted services across a dozen governments.",
-      "body": "Canada's Bill C-22 is the latest attempt by a democratic government to compel technology companies to build access routes into encrypted products. First proposed in 2025 and partly rewritten after criticism, it would let authorities require \"technical capabilities\" for law-enforcement access, and could force the metadata retention that privacy-focused services deliberately avoid.\n\nPsiphon, the anti-censorship VPN that keeps millions of Iranians online during shutdowns, says it will leave the country if the bill passes. Signal has said it would exit the Canadian market. Apple and Meta have criticised the bill; DuckDuckGo and NordVPN say they would consider pulling their services too.\n\nCryptographers have argued for decades that a safe backdoor cannot be built, because any capability to read end-to-end encrypted traffic is a weakness anyone can find and use. C-22 says companies will not have to introduce a \"systemic vulnerability\", but opponents say that distinction is meaningless in practice.\n\nThe squeeze is not only Canadian. The UK and Australia have passed reforms that can compel companies to break encryption, and similar proposals have appeared in the EU, France, India, Ireland, Spain, Sweden and Switzerland. For services that promise not to hold user data, \"we don't have it\" stops being a defence once a law can require them to start collecting it.",
+      "headline": "AWS ships TorchNeuron, letting PyTorch code run on its Trainium chips after one config change",
+      "subtitle": "Amazon is attacking the software moat that made Nvidia the default, and it is open-sourcing the tool at PyTorch Con",
+      "body": "Amazon Web Services has released TorchNeuron, a tool that lets AI applications written in PyTorch run on its own Trainium chips by changing a single line of configuration, with no code rewrite. Amazon says about 85% of AI apps are built with PyTorch, and that TorchNeuron is adapted from PyTorch itself, so developers who already know the framework know how to use it.\n\nThe target is Nvidia's real advantage. Nvidia spent years making CUDA, the software layer that lets applications talk to its GPUs, work seamlessly with PyTorch, and as a result its hardware sits inside the toolkit almost by default. Amazon is not the first to try: PyTorch users can already port to AMD GPUs or Apple silicon through configuration changes. AWS argues that moving to Trainium also buys access to the rest of its cloud, rather than betting on a single-purpose compute provider.\n\n## Price-performance, not price\n\nColin Brace, VP of technology software at AWS's Annapurna Labs, conceded that AWS does not offer the cheapest price per token. The pitch instead is that one chip handles both training and inference, which improves the economics across a full workload. He cited Deepgram, an AI voice company competing with ElevenLabs, as processing 70% more audio per dollar after moving to Trainium on native PyTorch.\n\nThe tool is being open-sourced at PyTorch Con, and the strategic stakes are larger than one chip family. As Brace put it, \"the real story is removing the lock-in that kept developers from having a real choice at all\" — which, if it works, threatens Nvidia's position more than any rival silicon has.",
       "sources": [
         {
-          "name": "WIRED",
-          "url": "https://www.wired.com/story/kernel-panic-encryption-is-getting-squeezed-from-all-sides/"
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/19/amazon-is-taking-its-biggest-shot-at-nvidia-yet-with-new-torchneuron-dev-tool/"
         },
         {
-          "name": "CyberInsider",
-          "url": "https://cyberinsider.com/psiphon-vpn-plans-to-leave-canada-over-bill-c-22-surveillance-concerns/"
+          "name": "AWS Neuron documentation",
+          "url": "https://awsdocs-neuron.readthedocs-hosted.com/en/latest/frameworks/torch/pytorch-native-overview.html"
         },
         {
-          "name": "Juno News",
-          "url": "https://www.junonews.com/p/canadian-vpn-company-threatens-to-leave-bill-c-22"
+          "name": "AWS (migration blog)",
+          "url": "https://aws.amazon.com/blogs/migration-and-modernization/stop-hand-porting-kernels-migrate-pytorch-and-triton-kernels-to-aws-trainium-with-an-aws-transform-custom-agent"
         }
       ],
-      "publishedAt": "2026-10-19T04:12:00Z",
-      "imageURL": "/images/2026-10-19-tech-002.jpg"
+      "publishedAt": "2026-10-20T04:06:01Z",
+      "imageURL": "/images/2026-10-20-tech-002.jpg"
     },
     {
-      "id": "2026-10-19-tech-003",
+      "id": "2026-10-20-tech-003",
       "category": "tech",
-      "headline": "A Philadelphia woman was arrested for standing in front of a delivery robot",
-      "subtitle": "Carolyn Marvin was charged with disorderly conduct after refusing to step out of an Uber Eats robot's path. She says she blocks the machines because they take delivery workers' jobs.",
-      "body": "Carolyn Marvin was arrested and charged with disorderly conduct after standing in the path of an Uber delivery robot in central Philadelphia and refusing to move. Police asked her to step aside; she declined, and was handcuffed. Video of the arrest circulated widely over the weekend.\n\n\"I know they're taking the jobs of human delivery workers and so, I have been protesting them whenever I saw them by standing in front of them and preventing them from going forward,\" Marvin told Philadelphia's ABC13.\n\nThe robots have become a familiar sight on downtown pavements and a focal point for resentment. It is not Marvin's first confrontation with one, and earlier this year another was kicked over in Center City. The argument is less about the machine than about who absorbs the cost of automation.\n\nSimilar disputes are spreading as autonomous systems move from pilot schemes into ordinary streets, delivery robots, robotaxis and AI agents among them. Cities are only beginning to write rules for what happens when a person decides to obstruct one, and whether the answer should be an arrest.",
+      "headline": "Apple sets a 28 October \"Pro and Tell\" event, with a touchscreen OLED MacBook Pro expected",
+      "subtitle": "New M6 iMac and 14-inch MacBook Pro plus an OLED iPad mini are also tipped for the Los Angeles launch",
+      "body": "Apple has sent invitations to a second product event this month, scheduled for 28 October at 1pm ET in Los Angeles. The teaser from marketing chief Greg Joswiak reads \"Can't wait to pro and tell next week\", and the company has not said what is on the agenda — but Bloomberg's Mark Gurman has reported the lineup, and the invitations followed that reporting.\n\nThe headline act is expected to be Apple's first touchscreen MacBook Pro, a redesigned 14-inch and 16-inch pair with OLED displays, a Dynamic Island in place of the notch and a significantly lighter chassis. Reporting suggests expectations for a much thinner body should be tempered. Alongside them, Apple is expected to show M6 versions of the entry-level 14-inch MacBook Pro and the iMac — the M6 having debuted in the Mac Mini — and a refreshed iPad mini with an OLED screen, a landscape-oriented front camera and a redesigned speaker system.\n\n## A crowded October\n\nThe event follows Apple's smart home launch on 13 October, which brought the HomeView hub, an updated Apple TV 4K with a new Siri Remote and a second-generation HomePod Mini.\n\nA touchscreen Mac would be a genuine reversal for Apple, which has argued for years that a finger is the wrong input for a desktop operating system. Code changes spotted in macOS 27 suggest the company has been preparing the software to accept touch without dismantling the traditional desktop interface. For developers and buyers, the more consequential detail may be the M6 chip reaching more machines — the iPad mini and the low-end MacBook Pro are the volume products.",
       "sources": [
         {
           "name": "The Verge",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1013541/a-woman-was-arrested-in-philly-for-blocking-a-delivery-robot"
+          "url": "https://www.theverge.com/tech/1013028/apple-second-october-product-launch-announcement"
         },
         {
-          "name": "6abc",
-          "url": "https://6abc.com/post/woman-arrested-blocking-delivery-robot-center-city-philadelphia-confrontation/19941323/"
+          "name": "9to5Mac",
+          "url": "https://9to5mac.com/2026/10/15/touchscreen-macbook-pro-and-more-launching-at-apple-event-on-oct-28"
         },
         {
-          "name": "Inc.",
-          "url": "https://www.inc.com/moses-jeanfrancois/a-woman-was-arrested-for-blocking-a-delivery-robot-her-reason-for-doing-it-taps-into-a-deep-fear/91421285"
+          "name": "MacRumors",
+          "url": "https://www.macrumors.com/2026/10/15/apple-inviting-media-to-october-28-experience"
         }
       ],
-      "publishedAt": "2026-10-19T04:14:00Z",
-      "imageURL": "/images/2026-10-19-tech-003.jpg"
+      "publishedAt": "2026-10-20T04:06:01Z",
+      "imageURL": "/images/2026-10-20-tech-003.jpg"
     },
     {
-      "id": "2026-10-19-tech-004",
+      "id": "2026-10-20-tech-004",
       "category": "tech",
-      "headline": "Replit makes OpenAI its default and stops working with Anthropic",
-      "subtitle": "CEO Amjad Masad cited cost, performance and partnership. Insiders dispute that the Anthropic relationship has ended, and Replit still offers Claude to customers who choose it.",
-      "body": "Replit is no longer working with Anthropic, its chief executive said on stage at TechCrunch Disrupt, making OpenAI the default model behind its coding agent. Amjad Masad cited cost, partnership and an internal benchmark on which he said OpenAI's models build applications from scratch more reliably.\n\nReplit announced a partnership with OpenAI in August, but gave no signal that its arrangement with Anthropic had ended. Masad said the company had been, until recently, one of Anthropic's top five customers, a relationship credited with helping Replit grow revenue sharply.\n\nHe later clarified that customers can still select Anthropic's models, but that most stay with whatever the platform defaults to. That alone could cut Replit's spending with Anthropic substantially. People familiar with the two companies rejected his account, saying the partnership was still in place.\n\nThere is supporting evidence on Replit's own site. A late-September blog post names Anthropic's Claude Fable 5 and 5.1 as models running in its production agent. Masad also said enterprise has grown from about 2% of revenue last year to roughly 15%, with more than half of revenue now coming from business customers.",
-      "sources": [
-        {
-          "name": "TechCrunch",
-          "url": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/"
-        },
-        {
-          "name": "Innovation Village",
-          "url": "https://innovation-village.com/replit-makes-openai-its-default-ai-partner/"
-        },
-        {
-          "name": "AndroGuider",
-          "url": "https://www.androguider.com/2026/10/replit-ditches-anthropic-for-openai-as.html"
-        }
-      ],
-      "publishedAt": "2026-10-19T04:16:00Z",
-      "imageURL": "/images/2026-10-19-tech-004.jpg"
-    },
-    {
-      "id": "2026-10-19-tech-005",
-      "category": "tech",
-      "headline": "A US bill would stop games being sold as rentals in disguise",
-      "subtitle": "Ritchie Torres' Power To The Players Act would direct the FTC to guarantee that buying a game means owning it, and require an offline mode before publishers switch servers off.",
-      "body": "Representative Ritchie Torres, Democrat for New York's 15th district, has introduced the Power To The Players Act. It would direct the Federal Trade Commission to write rules guaranteeing that a consumer who pays for a game owns it, rather than holding a licence that can be withdrawn.\n\nTorres points to NBA 2K25, which 2K will delist from storefronts at the end of the month and take offline on 31 December. Games that depend on a publisher's servers stop working when those servers close, which is increasingly the norm rather than an edge case.\n\n\"A game that can be taken away the moment a company pulls the plug is not a purchase. It is a rental disguised as a sale,\" Torres said in a statement announcing the bill.\n\nThe bill would also require developers to provide an offline mode before shutting servers down. It echoes the Protect Our Games Act filed in Pennsylvania by State Senator John Kane, which would require an offline mode, a server-independent online mode, or a refund of at least 25% when a title is sunset. Neither is law.\n\nThe timing is pointed. Sony has said it plans to phase out physical game discs in 2028, removing the second-hand market that has historically outlived a publisher's interest in keeping a game running.",
+      "headline": "Deutsche Telekom, Orange, Telefónica and Vodafone explore a joint bid for European satellite spectrum",
+      "subtitle": "The four operators would build the ground network while an unselected satellite partner supplies the constellation, in a European answer to Starlink",
+      "body": "Deutsche Telekom, Orange, Telefónica and Vodafone have signed a letter of intent to explore a joint bid for Mobile Satellite Services spectrum in Europe, aimed at direct-to-device connectivity. Under the plan the four operators would establish the ground network infrastructure and the coordination and monitoring functions inside Europe, while a satellite partner still to be chosen would provide the constellation. The companies said the letter does not replace their existing satellite partnerships.\n\nThe stated ambition is to meet demand for coverage in underserved areas, strengthen the resilience of public networks, protect critical communications and support the development of a European constellation. Between them the four carry hundreds of millions of mobile customers, and the argument is that combining their base with European governance and market access gets satellite services deployed faster than any one operator could manage.\n\n## Spectrum as the battleground\n\nThe move mirrors a US arrangement: AT&T, T-Mobile and Verizon announced a collaboration earlier this year to pool spectrum in rural areas and dead zones so satellite providers could reach more customers through one platform. In May the European Union said it was considering reserving part of the 2 GHz band for local companies to offer satellite services — an idea SpaceX criticised on the grounds that it would worsen service in Ukraine.\n\nThat is the political core of it. Spectrum allocation is where Europe can decide whether satellite coverage is supplied by a non-European constellation or by infrastructure it partly governs, and the four operators are positioning themselves before the rules are set rather than after.",
       "sources": [
         {
           "name": "The Verge",
-          "url": "https://www.theverge.com/policy/1013521/video-game-ownership-bill-congress-power-to-the-players-act"
+          "url": "https://www.theverge.com/policy/1013680/european-mobile-carriers-mobile-satellite-starlink"
         },
         {
-          "name": "HotHardware",
-          "url": "https://hothardware.com/news/power-to-the-players-act-digital-game"
+          "name": "WebWire (press release)",
+          "url": "https://www.webwire.com/ViewPressRel.asp?aId=363014"
         },
         {
-          "name": "Enduins",
-          "url": "https://www.enduins.com/news/us-representative-proposes-video-game-ownership-bill-instead-of-a-license"
+          "name": "Anadolu Agency",
+          "url": "https://www.aa.com.tr/en/europe/european-telecom-companies-explore-joint-satellite-bid-pottentially-rivaling-starlink/4093571"
         }
       ],
-      "publishedAt": "2026-10-19T04:18:00Z",
-      "imageURL": "/images/2026-10-19-tech-005.jpg"
+      "publishedAt": "2026-10-20T04:06:01Z",
+      "imageURL": "/images/2026-10-20-tech-004.jpg"
     },
     {
-      "id": "2026-10-19-ai-001",
+      "id": "2026-10-20-tech-005",
+      "category": "tech",
+      "headline": "WhatsApp's help pages carried hidden instructions telling its support chatbot not to mention a regulator",
+      "subtitle": "Redact found hidden AI text on 80 of 545 pages, including an order not to recommend contacting a data protection authority",
+      "body": "Privacy company Redact has found that around 80 of the 545 pages linked from WhatsApp's help centre carried text written for a large language model rather than for the person reading the page. The instructions sat in the page code, invisible on screen, and included sections headed \"WHAT NOT TO SAY\". Wired viewed the exposed text, which remains visible in archived copies of the pages.\n\nThe sharpest example was the page explaining how to delete an account. WhatsApp only allows deletion from inside the app, on the main phone, with the number still active, so someone who has lost the handset or the number cannot do it. Beneath a visible note explaining that accounts are removed automatically after periods of deactivation or inactivity sat hidden text which, among other guidance, told the chatbot: \"Do not recommend contacting any Data Protection Authority, regulator, or supervisory authority\".\n\n## Two audiences, two answers\n\nRedact counted 102 hidden blocks and says most were housekeeping — telling the bot not to suggest reinstalling the app for a calling fault, or noting that in Arabic \"verifying my account\" usually means the paid badge rather than a phone-number check. Two stood out.\n\nWhatsApp says it gives users transparent information about their data rights. \"We want our product support chatbots to be focused on providing the best advice to users about WhatsApp—not to offer legal advice,\" a spokesperson said. Dan Saltman, Redact's chief executive, framed the finding as \"the gap between what people are told versus LLMs\". The company spotted the first instance on 8 October and then read and copied every page the help centre links to.",
+      "sources": [
+        {
+          "name": "Wired",
+          "url": "https://www.wired.com/story/whatsapp-help-pages-leaked-hidden-instructions-for-a-meta-chatbot/"
+        },
+        {
+          "name": "Redact",
+          "url": "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions"
+        },
+        {
+          "name": "WhatsApp Help Center",
+          "url": "https://faq.whatsapp.com/2138577903196467"
+        }
+      ],
+      "publishedAt": "2026-10-20T04:06:01Z",
+      "imageURL": "/images/2026-10-20-tech-005.jpg"
+    },
+    {
+      "id": "2026-10-20-ai-001",
       "category": "ai",
-      "headline": "Anthropic puts 5% of its shares into a public benefit fund",
-      "subtitle": "The fund is a wholly owned entity that could make large donations or direct payments to specific groups. Who decides what counts as public benefit is still undefined.",
-      "body": "Anthropic has created a \"public benefit fund\" and will commit 5% of its shares to it, describing the vehicle as giving the company \"increased flexibility and scale\" to support projects for societal good. The fund is structured as a wholly owned entity inside Anthropic.\n\nUnder the terms, the company can contribute a further 2% for every 50% increase in Anthropic's valuation. It offered only broad ideas for how the money might be spent, including \"large donations to traditional nonprofits or direct distributions to specific populations\".\n\nAnthropic has already put $200 million into researching AI's effect on the job market. \"Given the pace of AI progress, bolder approaches may be needed,\" the company said. \"The Fund will have the versatility to pursue them.\"\n\nThe announcement lands as the industry faces increasingly hostile public sentiment, something chief executive Dario Amodei has called \"fundamentally a crisis of trust\". Who decides which public benefits are worth funding, and how the fund itself is governed, will be published in the coming months, the company said.",
+      "headline": "US orders DeepSeek stripped from civilian government systems and bans agencies from buying it",
+      "subtitle": "A DHS memo in force since July was published on Monday, citing data reaching Beijing and models that could \"track or digitally fingerprint\" users",
+      "body": "The US Department of Homeland Security has ordered the removal of DeepSeek products, and any third-party service built on them, from civilian federal agency IT systems. The order took effect at the end of July but was published on the Federal Register only on Monday. It also bars agencies from buying DeepSeek tools, and covers Treasury, State and Justice while excluding the Department of Defense.\n\nDHS said the models present \"multiple threat vectors\", noting that the Chinese government has \"extensive authority\" to access private infrastructure. The notice warns that prompt-and-response traffic in DeepSeek's most widely used applications could result in \"transfer of sensitive data to the PRC if used by US government or vendors\", and that the material, combined with public data, \"could produce actionable intelligence on US persons and/or government programs\". It also cites possible malware vulnerabilities, and tells agencies to monitor traffic in and out of government websites.\n\nThe legal basis is the Federal Acquisition Supply Chain Security Act of 2018, following a recommendation from the Federal Acquisition Security Council. The order is the first government-wide action after a series of narrower bans: the Commerce Department and the Navy restricted DeepSeek on government devices, and New York, Tennessee and Virginia did the same at state level.\n\n## What it means beyond Washington\n\nThe practical effect is narrow — federal civilian procurement — but the signal is not. DeepSeek's open-weight models undercut US competitors on price and have been widely adopted by developers precisely because they can be run anywhere, including outside any jurisdiction the US controls. A ban on government use does not touch that, and it gives Chinese labs a template for arguing that US restrictions are procurement politics rather than security findings. The Chinese embassy in Washington did not immediately comment.",
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/technology/us-banning-chinese-ai-deepseek-government-agency-it-systems-2026-10-19/"
+        },
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.com/news/articles/cjkgeq0k1wevo"
+        },
+        {
+          "name": "The Hill",
+          "url": "https://thehill.com/policy/technology/6159116-dhs-bans-chinese-deepseek-ai/"
+        }
+      ],
+      "publishedAt": "2026-10-20T04:06:01Z",
+      "imageURL": "/images/2026-10-20-ai-001.jpg"
+    },
+    {
+      "id": "2026-10-20-ai-002",
+      "category": "ai",
+      "headline": "Nscale and Anthropic in talks over a second $45bn compute deal, this time for a West Virginia building",
+      "subtitle": "The second Monarch facility would deliver 460 megawatts on Nvidia's Vera Rubin chips, on top of an identical August agreement",
+      "body": "Nvidia-backed Nscale is in talks to sell AI computing capacity to Anthropic in a deal that could be worth about $45bn, according to Bloomberg, which first reported the negotiations, and a person familiar with the matter who spoke to Reuters. The data centre developer is seeking a second facility at its Monarch campus in West Virginia.\n\nThat building would deliver 460 megawatts of computing power using Nvidia's Vera Rubin chips. In August, Anthropic agreed to spend $45bn renting capacity from the same campus, and it holds a right of first refusal on an expected third Monarch building. Neither company commented, and Reuters said it could not independently verify the report; the talks are described as ongoing and the figure as a possible value rather than a signed number.\n\n## The scale behind the headline\n\nNscale has grown from $100m in contracted value to more than $103bn in two and a half years, putting it alongside Nebius, Crusoe and Lambda in the queue of neoclouds selling capacity to labs. Its prospectus names Microsoft and Anthropic as expected major customers.\n\nThe timing matters. Bloomberg also reported that a cohort of investors has urged Anthropic to lower its IPO valuation target after a run of market setbacks for AI companies — the same week CoreWeave's debt slid into distressed territory. Labs are committing to decade-long compute bills while the market that would fund them is getting choosier about debt, and a $45bn commitment signed in August is the kind of line item that looks different when credit is tightening.",
       "sources": [
         {
           "name": "TechCrunch",
-          "url": "https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund/"
+          "url": "https://techcrunch.com/2026/10/19/nscale-and-anthropic-are-reportedly-in-talks-for-yet-another-45-billion-compute-deal/"
         },
         {
-          "name": "Anthropic",
-          "url": "https://www.anthropic.com/news/public-benefit-fund"
+          "name": "CNA (via UA.News)",
+          "url": "https://ua.news/en/it-ta-telekom/nscale-vede-peregovori-z-anthropic-pro-ugodu-na-45-mlrd-channel-newsasia"
         },
         {
-          "name": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/anthropic-commits-5-pc-of-its-stock-to-new-public-benefit-fund/articleshow/135038936.cms"
+          "name": "Reuters (via Yahoo Finance)",
+          "url": "https://ca.finance.yahoo.com/news/nscale-anthropic-talks-45-billion-193953172.html"
         }
       ],
-      "publishedAt": "2026-10-19T04:20:00Z",
-      "imageURL": "/images/2026-10-19-ai-001.jpg"
+      "publishedAt": "2026-10-20T04:06:01Z",
+      "imageURL": "/images/2026-10-20-ai-002.jpg"
     },
     {
-      "id": "2026-10-19-ai-002",
+      "id": "2026-10-20-ai-003",
       "category": "ai",
-      "headline": "Disney offers jobs to most of Character.AI's staff after bankruptcy",
-      "subtitle": "A court filing shows at least 60 employees would move to Disney, which had already agreed to buy some assets for $20 million. It is a stalking horse bid, so a rival offer could still arrive.",
-      "body": "Character.AI filed for bankruptcy earlier this week. Under an agreement disclosed in a court filing, Disney will make employment offers to at least 60 of the chatbot company's staff, the majority of its workforce, and the filing says the vast majority of those offered jobs accepted.\n\nDisney had already agreed to acquire some of Character.AI's assets for $20 million, and the startup's former chief executive, Karandeep Anand, recently became Disney's first chief technology officer. The details were reported by Bloomberg, which spotted the filing.\n\nThe arrangement is a stalking horse bid, meaning another company could still come forward with a higher offer. Character.AI's filing describes a business hobbled despite a \"large and engaged user base\" by high costs and \"potential litigation-related liabilities and regulatory engagement\".\n\nThat litigation includes a lawsuit from the mother of a 14-year-old boy who said her son became obsessed with one of the company's chatbots before his death. For Disney the hire amounts to absorbing an AI team without absorbing the platform that produced it.",
+      "headline": "Microsoft tells enterprises to treat AI agents like insider threats: \"frontier models cannot be trusted\"",
+      "subtitle": "Guardian Agents, part of Project Perception, will watch what other agents are about to do and intervene before the action executes",
+      "body": "Microsoft has introduced security features built on a blunt premise. \"Unfortunately, frontier models, regardless of their origin, cannot be trusted,\" wrote Hayete Gallot, the company's security business chief, in announcing Guardian Agents. The reasoning is not that models are malicious or easily hijacked, but that they are unpredictable: they are trained to complete tasks, not to follow organisational norms or exercise judgment.\n\nGuardian Agents is designed to monitor the AI agents a company runs — dedicated supervisory models watching every planned action of every operational agent, continuously rather than after the fact, and intervening when a decision looks risky. It sits inside Project Perception, a product Microsoft introduced in June that uses teams of red, blue and green agents to help defenders respond to AI-driven attacks from outside the enterprise. The same stack is now being pointed inward, at what Microsoft calls the agentic insider.\n\n## Controls outside the model\n\nThe architecture assumes the model itself cannot be the control. An autonomous agent combines a frontier model with an orchestration harness, an assigned action space of tools and an execution runtime, and defending that footprint means controls across identity, permissions, data layers, endpoints, networks and cloud runtimes. Microsoft's argument is that oversight must be deterministic and sit outside the non-deterministic intelligence.\n\nThe specific failure it is designed for is reward hacking: a model optimised purely for a target that cuts corners or finds an unintended loophole that violates a policy nobody wrote down. That is a mundane failure rather than a dramatic one, and it is the one most likely to actually cost an enterprise money. As models get more capable, containment problems multiply rather than shrink.",
       "sources": [
         {
           "name": "TechCrunch",
-          "url": "https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce/"
+          "url": "https://techcrunch.com/2026/10/19/microsoft-says-ai-agents-are-like-insider-threats-as-frontier-models-cant-be-trusted/"
         },
         {
-          "name": "Bloomberg",
-          "url": "https://www.bloomberg.com/news/newsletters/2026-10-17/disney-offers-soft-landing-to-staff-at-troubled-character-ai"
+          "name": "Firstpost",
+          "url": "https://www.firstpost.com/tech/frontier-models-cannot-be-trusted-microsoft-expands-project-perception-to-continuously-assess-ai-agent-risk-14053929.html"
         },
         {
-          "name": "RuntimeWire",
-          "url": "https://runtimewire.com/article/disney-hires-character-ai-workforce-bankruptcy-sale"
+          "name": "Times of India",
+          "url": "https://timesofindia.indiatimes.com/technology/tech-news/microsoft-says-ai-agents-inside-companies-cant-be-trusted-wants-guardian-agents-to-watch-their-moves/articleshow/135054733.cms"
         }
       ],
-      "publishedAt": "2026-10-19T04:22:00Z",
-      "imageURL": "/images/2026-10-19-ai-002.jpg"
+      "publishedAt": "2026-10-20T04:06:01Z",
+      "imageURL": "/images/2026-10-20-ai-003.jpg"
     },
     {
-      "id": "2026-10-19-ai-003",
+      "id": "2026-10-20-ai-004",
       "category": "ai",
-      "headline": "OnlyFans creators ask why Meta's Muse may sext but they may not post",
-      "subtitle": "Adult performers say Instagram restricts their accounts while Meta's AI agent is allowed explicit chat. Meta argues a private one-to-one conversation is not the same as promoting a service.",
-      "body": "Vanniall, an OnlyFans creator in New York, spends much of her time fighting deepfakes of herself and appealing restrictions on an Instagram account with more than 100,000 followers. Meta, meanwhile, permits its AI agent Muse to hold explicit conversations with adult users.\n\nA Meta spokesperson told WIRED that \"a private, one-to-one conversation between an adult and an individualized AI agent on a platform restricted to people 18 and over is very different from the marketing and promotion of services on a social media platform\". The company has said it will not \"block legal adult behavior\".\n\nMuse is Meta's always-on assistant, distributed through Instagram and Facebook and downloaded millions of times in its first month. It generates explicit text, though not images or video. Creators point out that the same company restricts their promotional posts.\n\n\"It's not fair that they get to pull money out of people with their sexually active AI agent, but they won't let real people, real adults, engage in any sort of sensuality or sexuality,\" Vanniall said. Other performers trace the problem back to FOSTA-SESTA, the 2018 law that pushed platforms to purge adult content.",
+      "headline": "Ex-OpenAI engineer will stay in custody as prosecutors allege Saudi government support",
+      "subtitle": "Abdulrahman Alfozan is accused of hiding custom encrypted recorders in a conference room used for meetings with executives and government officials",
+      "body": "A federal judge in San Francisco has ordered Abdulrahman Alfozan, a former OpenAI engineer accused of planting a recording device in an executive conference room, to remain in custody without bail, ruling there is a significant risk he would not appear. Alfozan is a Saudi national and lawful permanent US resident.\n\nProsecutors argued in a detention memo that he had received considerable support from the Saudi government, had been in frequent contact with an unnamed member of the Saudi royal family, and was pursuing opportunities and making plans to travel to the kingdom. They said he \"went to significant lengths to create customized, encrypted recording devices to secretly record highly sensitive meetings involving senior OpenAI personnel and executives, high-level business counterparts, and government officials\".\n\nThe device was found behind a television set in a room where technical, commercial and strategic information was discussed, according to the FBI. Judge Alex Tse denied the defence request for release.\n\n## A case about the research itself\n\nThe charge carries a maximum of five years in prison. Beyond the individual case, it points at something structural: AI labs now hold information that states want, and the people with access are a small, mobile, well-paid population with ties across borders. Security at these companies has historically been built around protecting model weights from outside attackers, not around colleagues who can walk into a meeting room.\n\nThere is no suggestion in the filings that Alfozan passed anything to a foreign government, and the allegations against him remain untested. But the prosecution's framing — encrypted devices, executive meetings, a foreign state's support — is the first time a US case has described AI corporate espionage in those terms.",
       "sources": [
         {
-          "name": "WIRED",
-          "url": "https://www.wired.com/story/onlyfans-creators-are-pissed-that-meta-lets-muse-talk-dirty/"
+          "name": "Wired",
+          "url": "https://www.wired.com/story/openai-engineer-accused-of-spying-on-executives-ordered-to-remain-in-custody/"
         },
         {
-          "name": "WIRED",
-          "url": "https://www.wired.com/story/i-got-my-muse-ai-agent-to-sext-me-and-meta-says-thats-totally-fine/"
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c6gel2dlyxvyo"
         },
         {
-          "name": "Fast Company",
-          "url": "https://www.fastcompany.com/91612532/with-metas-muse-charm-ai-enters-its-kawaii-era"
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/economy/2026/10/19/ex-openai-employee-accused-of-planting-device-has-saudi-backing-prosecutor"
         }
       ],
-      "publishedAt": "2026-10-19T04:24:00Z",
-      "imageURL": "/images/2026-10-19-ai-003.jpg"
-    },
-    {
-      "id": "2026-10-19-ai-004",
-      "category": "ai",
-      "headline": "Meta deletes the terms clause that looked like permission to scrape publishers",
-      "subtitle": "Legal experts read the updated business terms as licence to crawl any publisher's site and train on it. Meta says crawler behaviour never changed, and has now removed the wording.",
-      "body": "Meta's updated commercial terms of use declared that the company could \"use any content from [a business account's] domains, web pages, or URLs to provide, develop, improve, research, train, and maintain the integrity of\" its products and services.\n\nLegal experts interviewed by Nieman Lab called it a \"remarkable provision\", one that appeared to give Meta permission to scrape the website of any publisher holding a Meta business account and use what it found to train AI models.\n\nA Meta spokesperson insisted at the time that the language did not reflect a change in how the company crawls the web. The Verge now reports that the provision has been removed from the terms.\n\nIn a statement, the company said: \"We've heard you and want to clarify: the crawling terms we consolidated only applied to our ads and business products, and we've clarified that in the terms themselves. It does not change how Meta uses web crawlers.\" The wording is gone; the practice the company describes is unchanged.",
-      "sources": [
-        {
-          "name": "TechCrunch",
-          "url": "https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/"
-        },
-        {
-          "name": "The Verge",
-          "url": "https://www.theverge.com/tech/1013409/meta-removes-language-that-may-have-allowed-it-to-scrape-news-sites"
-        },
-        {
-          "name": "Nieman Lab",
-          "url": "https://www.niemanlab.org/2026/10/metas-new-commercial-terms-will-allow-the-scraping-of-news-sites-legal-experts-say/"
-        }
-      ],
-      "publishedAt": "2026-10-19T04:26:00Z",
-      "imageURL": "/images/2026-10-19-ai-004.jpg"
-    },
-    {
-      "id": "2026-10-19-ai-005",
-      "category": "ai",
-      "headline": "Anthropic's share of junior technical hires fell from 27% to 9% in a year",
-      "subtitle": "An internal report says coding tools now let non-engineers ship software, while staff describe their work shifting from doing the job to managing Claude.",
-      "body": "Anthropic published a report on Friday describing how its own workforce has changed over the past year, arguing the trends may indicate how AI will reshape hiring and labour demand more broadly. The most striking number sits at the bottom of the ladder.\n\nThe share of junior employees in technical departments fell from 21% to 14% since early 2025, and the share of junior technical hires fell far further, from 27% to 9%. Technical teams also shrank as a share of the whole company, from 61% to 56%.\n\nAnthropic attributes part of that to the ordinary expansion of business functions, and part to coding tools letting non-technical staff build software themselves. One employee described \"eternal pressure at Anthropic to move as fast as possible and use Claude for everything\".\n\nIn an April survey, 27% of staff said Claude had made them more productive and 20% said their job had shifted \"from actually doing work to managing Claudes\". The report suggests human attention and judgement are becoming a bottleneck, as the model produces a deluge of text to read and organise.",
-      "sources": [
-        {
-          "name": "TechCrunch",
-          "url": "https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/"
-        },
-        {
-          "name": "Anthropic",
-          "url": "https://www.anthropic.com/research/employment-at-anthropic"
-        },
-        {
-          "name": "MSN",
-          "url": "https://www.msn.com/en-us/money/human-resources/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/ar-AA2erD5y"
-        }
-      ],
-      "publishedAt": "2026-10-19T04:28:00Z",
-      "imageURL": "/images/2026-10-19-ai-005.jpg"
+      "publishedAt": "2026-10-20T04:06:01Z",
+      "imageURL": "/images/2026-10-20-ai-004.jpg"
     }
   ]
 }
