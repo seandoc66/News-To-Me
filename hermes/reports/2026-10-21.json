@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-21",
+  "published": true,
+  "publishedAt": "2026-10-21T04:07:40Z",
+  "sections": {
+    "present": ["local", "national", "northernIreland", "global", "tech", "ai"],
+    "missing": []
+  },
+  "storiesWithoutPhoto": [],
+  "validatorWarnings": [],
+  "validatorErrors": [],
+  "workarounds": [
+    "elcorreogallego.es/lugo/ returned only ~500 characters of extractable text (JS-rendered) and its RSS carried no usable Lugo feed, so it was dropped from the local aggregation entirely rather than cited blind.",
+    "Only one Lugo story today was covered by two genuinely different outlets, so the local section shipped as a single story with El Progreso plus La Voz de Galicia in both its Castilian and galego editions as the third source.",
+    "lavozdegalicia.es/elecciones/ and poligono.com returned thin extracts (502 and empty), so Spanish election-candidacy coverage was verified through Google News RSS and El Progreso instead.",
+    "scbench.ai was rejected by validate.mjs as a section/home page, so the third source for the SlopCodeBench story was replaced with the arXiv paper it reports on (2603.24755).",
+    "venturebeat.com/feed/ returned zero items and was unusable for AI discovery; the-decoder.com/feed/ was substituted and produced the Voxtral 3 and DeepSeek inference-engine stories.",
+    "A Hacker News item id used for the TorchTPU story was wrong (resolved to an unrelated thread); replaced with the correct item 50169053 after an Algolia lookup.",
+    "newsletter.co.uk returns 403 to scripted fetches, so its two Troubles-bill pages were verified via web_extract only; BBC supplied the article photo."
+  ],
+  "needsHumanAttention": false,
+  "humanAttentionReason": null,
+  "notes": "19 stories, 19 photos, all six sections present. Local is deliberately thin: Lugo had one story with real cross-outlet coverage (Norvento/CTAG/Universidade de Vigo's Fisterra port-electrification prototype); the HULA thyroid-surgery equipment piece and the Vox/Podemos Lugo candidacy story each appeared in only one outlet with a usable URL, so they were held back rather than shipped with padded or duplicate sources. Northern Ireland is the 330-178 third reading of the Troubles legacy bill. Commit 3851787."
+}
