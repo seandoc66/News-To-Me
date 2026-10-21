@@ -1,0 +1,562 @@
+{
+  "generatedAt": "2026-10-21T04:07:40Z",
+  "config": {
+    "sections": {
+      "local": {
+        "min": 1,
+        "max": 3,
+        "sources": [
+          {
+            "name": "El Progreso",
+            "url": "https://www.elprogreso.es/lugo/"
+          },
+          {
+            "name": "La Voz de Galicia",
+            "url": "https://www.lavozdegalicia.es/lugo/"
+          }
+        ]
+      },
+      "national": {
+        "min": 3,
+        "max": 5,
+        "sources": [
+          {
+            "name": "Europa Press",
+            "url": "https://www.europapress.es"
+          },
+          {
+            "name": "elDiario.es",
+            "url": "https://www.eldiario.es"
+          },
+          {
+            "name": "La Vanguardia",
+            "url": "https://www.lavanguardia.com"
+          }
+        ]
+      },
+      "northernIreland": {
+        "min": 1,
+        "max": 1,
+        "sources": [
+          {
+            "name": "BBC News NI",
+            "url": "https://www.bbc.co.uk/news/northern_ireland"
+          },
+          {
+            "name": "News Letter",
+            "url": "https://www.newsletter.co.uk"
+          }
+        ]
+      },
+      "global": {
+        "min": 4,
+        "max": 8,
+        "sources": [
+          {
+            "name": "The Guardian",
+            "url": "https://www.theguardian.com/world"
+          },
+          {
+            "name": "BBC News",
+            "url": "https://www.bbc.co.uk/news/world"
+          },
+          {
+            "name": "France 24",
+            "url": "https://www.france24.com/en/"
+          },
+          {
+            "name": "DW",
+            "url": "https://www.dw.com/en/"
+          },
+          {
+            "name": "CBC News",
+            "url": "https://www.cbc.ca/news/world"
+          }
+        ]
+      },
+      "tech": {
+        "min": 5,
+        "max": 5,
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com"
+          },
+          {
+            "name": "Ars Technica",
+            "url": "https://arstechnica.com"
+          },
+          {
+            "name": "The Verge",
+            "url": "https://www.theverge.com"
+          },
+          {
+            "name": "BBC News",
+            "url": "https://www.bbc.co.uk/news/technology"
+          }
+        ]
+      },
+      "ai": {
+        "min": 4,
+        "max": 7,
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/category/artificial-intelligence/"
+          },
+          {
+            "name": "The Decoder",
+            "url": "https://the-decoder.com"
+          },
+          {
+            "name": "Hacker News",
+            "url": "https://news.ycombinator.com"
+          }
+        ]
+      }
+    }
+  },
+  "articles": [
+    {
+      "id": "2026-10-21-local-001",
+      "category": "local",
+      "headline": "Norvento y la Universidade de Vigo prueban un convertidor que enchufa los barcos a la red del puerto",
+      "subtitle": "El proyecto Fisterra, con 2,66 millones de presupuesto, presenta en Lugo un prototipo multimegavatio que permite apagar los motores durante el atraque y cubrir la demanda eléctrica del buque desde tierra.",
+      "body": "Los barcos podrán apagar los motores mientras están atracados y tomar la electricidad de la red del puerto. Norvento TECHnPower, el Centro Tecnolóxico de Automoción de Galicia (CTAG) y el grupo APET de la Universidade de Vigo presentaron este martes en Lugo el prototipo de un convertidor multimegavatio en el que han trabajado tres años.\n\nEl proyecto Fisterra, con un presupuesto de 2,66 millones de euros y un 60% de fondos públicos de la Xunta y la Unión Europea, busca que la escala deje de depender de los generadores de a bordo. Según los promotores, eso rebaja el consumo de combustibles fósiles y las emisiones asociadas a la llegada, el atraque y la salida del buque.\n\nEl reto técnico estaba en la variedad de embarcaciones que comparten muelle, desde barcos pequeños hasta portacontenedores o cruceros de miles de pasajeros, y en un ambiente de humedad y sal que favorece la corrosión. El convertidor superó los ensayos en banco a baja potencia y a la potencia nominal para la que fue diseñado.\n\nLa presentación se hizo en el polígono de As Gándaras, el mismo recinto donde se usaron dos herramientas propias para fabricarlo: un gemelo digital de la planta para simular la producción y una aplicación de realidad aumentada que guía a los operarios en el montaje.",
+      "sources": [
+        {
+          "name": "El Progreso",
+          "url": "https://www.elprogreso.es/articulo/lugo/tecnologia-cien-cien-gallega-permite-reducir-emisiones-barcos/202610201819082007726.html"
+        },
+        {
+          "name": "La Voz de Galicia",
+          "url": "https://www.lavozdegalicia.es/noticia/somosmar/2026/10/20/proyecto-fisterra-norvento-desarrolla-prototipo-suministro-electrico-buques-puerto/00031792494310698358548.htm"
+        },
+        {
+          "name": "La Voz de Galicia (edición en galego)",
+          "url": "https://galego.lavozdegalicia.es/noticia/somosmar/2026/10/20/proyecto-fisterra-norvento-desarrolla-prototipo-suministro-electrico-buques-puerto/00031792494310698358548.htm"
+        }
+      ],
+      "publishedAt": "2026-10-21T04:05:00Z",
+      "imageURL": "/images/2026-10-21-local-001.jpg"
+    },
+    {
+      "id": "2026-10-21-national-001",
+      "category": "national",
+      "headline": "El Supremo amnistía la malversación de Junqueras, Romeva, Turull y Bassa",
+      "subtitle": "La sala aplica el amparo del Constitucional y reprocha al tribunal de garantías su «injerencia»; el Gobierno lo celebra y el independentismo habla del final de una injusticia.",
+      "body": "El Tribunal Supremo ha amnistiado la malversación a los dirigentes del procés condenados por ese delito: Oriol Junqueras, Raül Romeva, Jordi Turull y Dolors Bassa. La sala aplica así el amparo del Constitucional, que anuló los autos en los que el alto tribunal había excluido el perdón penal al apreciar un beneficio personal de carácter patrimonial.\n\nEl auto no esconde el malestar de los magistrados, que reprochan al tribunal de garantías su injerencia en la interpretación de la ley y sostienen que su lectura inicial era defendible. La resolución llega después de meses de discrepancia pública entre ambos tribunales sobre a quién corresponde fijar el alcance de la norma.\n\nEl Gobierno dio la bienvenida a la decisión y la presentó como un motivo de celebración, mientras las formaciones independentistas la leían como el final de una injusticia que arrastraban desde la sentencia de 2019. La amnistía de la malversación era el último tramo del caso que seguía pendiente en la sala penal.",
+      "sources": [
+        {
+          "name": "elDiario.es",
+          "url": "https://www.eldiario.es/catalunya/supremo-amnistia-malversacion-lideres-proces-carga-grandilocuencia-constitucional_1_13599766.html"
+        },
+        {
+          "name": "Europa Press",
+          "url": "https://www.europapress.es/nacional/noticia-supremo-amnistia-junqueras-romeva-turull-bassa-dirigentes-proces-condenados-malversacion-20261020125615.html"
+        },
+        {
+          "name": "La Vanguardia",
+          "url": "https://www.lavanguardia.com/politica/20261020/11663593/junqueras-resto-lideres-proces-condenados-quedan-amnistiados.html"
+        }
+      ],
+      "publishedAt": "2026-10-21T04:12:00Z",
+      "imageURL": "/images/2026-10-21-national-001.jpg"
+    },
+    {
+      "id": "2026-10-21-national-002",
+      "category": "national",
+      "headline": "El Gobierno garantiza a los sindicatos una subida del 4,5% para los funcionarios",
+      "subtitle": "El incremento se aplicará desde el 1 de enero, según el Ejecutivo, que no concreta la fecha en que aprobará la norma ni el detalle de cómo se abonará a tres millones de empleados públicos.",
+      "body": "El Gobierno ha trasladado a los sindicatos que la retribución de los empleados públicos subirá un 4,5% con efectos desde el 1 de enero. El compromiso se produjo en la mesa general de negociación, donde las centrales venían reclamando certidumbre sobre el alza antes del cierre del ejercicio.\n\nLa cifra queda por encima de las subidas pactadas en los últimos años y se aplicará, según el Ministerio, en cuanto se apruebe la norma correspondiente. Las organizaciones sindicales han pedido que la subida llegue cuanto antes al BOE y que no se fragmente en pagos aplazados, para que los trabajadores la cobren íntegra en la nómina de enero.\n\nEl anuncio llega en plena precampaña del 29-N y con el Ejecutivo buscando apoyos para sacar adelante sus cuentas. El colectivo afectado supera los tres millones de personas entre funcionarios de la Administración General del Estado, docentes, sanitarios y personal de justicia.",
+      "sources": [
+        {
+          "name": "Europa Press",
+          "url": "https://www.europapress.es/economia/laboral-00346/noticia-gobierno-garantiza-sindicatos-sueldo-funcionarios-subira-45-enero-20261020194527.html"
+        },
+        {
+          "name": "elDiario.es",
+          "url": "https://www.eldiario.es/economia/gobierno-confirma-sindicatos-aprobara-subida-salarial-funcionarios-4-5_1_13601462.html"
+        },
+        {
+          "name": "La Vanguardia",
+          "url": "https://www.lavanguardia.com/economia/20261020/11663963/gobierno-asegura-subira-sueldo-funcionarios-4-5-fecha.html"
+        }
+      ],
+      "publishedAt": "2026-10-21T04:18:00Z",
+      "imageURL": "/images/2026-10-21-national-002.jpg"
+    },
+    {
+      "id": "2026-10-21-national-003",
+      "category": "national",
+      "headline": "La Audiencia de Madrid ordena a la UCO analizar los datos fiscales de González Amador",
+      "subtitle": "La sala corrige al juez que había restringido el acceso de la unidad policial a la información financiera del empresario, pareja de Isabel Díaz Ayuso, y avala el cotejo con la Seguridad Social.",
+      "body": "La Audiencia Provincial de Madrid ha ordenado que la Unidad Central Operativa (UCO) de la Guardia Civil pueda acceder a todos los datos financieros y tributarios de Alberto González Amador, pareja de la presidenta madrileña, Isabel Díaz Ayuso. La decisión corrige al juez instructor, que había limitado el alcance de la información que podía manejar la unidad policial.\n\nEl tribunal estima así los recursos de la Fiscalía y de la acusación, que consideraban injustificada la restricción, y avala que los agentes cotejen los datos fiscales con los de la Seguridad Social para comprobar si las declaraciones del empresario se corresponden con su actividad real.\n\nLa causa se centra en presuntas irregularidades en la gestión de su empresa, entre ellas el uso de facturas y sociedades para rebajar la factura fiscal. El entorno del empresario sostiene que la investigación responde a un intento de desgastar políticamente a Ayuso, mientras la acusación defiende que las diligencias siguen su curso ordinario.",
+      "sources": [
+        {
+          "name": "elDiario.es",
+          "url": "https://www.eldiario.es/politica/audiencia-provincial-corrige-juez-autoriza-uco-obtener-datos-financieros-pareja-ayuso_1_13600506.html"
+        },
+        {
+          "name": "La Vanguardia",
+          "url": "https://www.lavanguardia.com/politica/20261020/11663715/audiencia-madrid-ordena-uco-analice-datos-tributarios-gonzalez-amador.html"
+        },
+        {
+          "name": "Europa Press",
+          "url": "https://www.europapress.es/madrid/noticia-justicia-ordena-uco-cotejar-datos-fiscales-seguridad-social-gonzalez-amador-20261020151446.html"
+        }
+      ],
+      "publishedAt": "2026-10-21T04:24:00Z",
+      "imageURL": "/images/2026-10-21-national-003.jpg"
+    },
+    {
+      "id": "2026-10-21-northernIreland-001",
+      "category": "northernIreland",
+      "headline": "MPs back the Troubles legacy bill as it clears the Commons",
+      "subtitle": "The Northern Ireland Troubles Bill passed its third reading by 330 votes to 178 after two days of debate on hundreds of amendments, and now goes to the Lords, where scrutiny is expected to run into next year.",
+      "body": "Legislation to deal with the legacy of the Troubles has cleared the House of Commons, backed by 330 MPs against 178 at third reading after two days of debate on hundreds of amendments. The bill now moves to the House of Lords, where further scrutiny is expected to continue into next year.\n\nThe Northern Ireland Secretary, Sir Chris Bryant, said the legislation was about \"honesty, candour, the pursuit of justice and most importantly truth\", and rejected the charge that it amounts to an amnesty for former soldiers. He argued that while much of the debate had focused on veterans, the bill was primarily about families who never got answers.\n\nIt replaces the 2023 Legacy Act, whose ban on inquests and civil actions drew widespread opposition and whose immunity provision was disapplied after courts found it unlawful. Labour's plan sets up a legacy commission to investigate killings, a separate information recovery body and a legacy unit inside An Garda Síochána.\n\nAmendments published last week require the attorney general's consent for any serious prosecution, which the government says significantly reduces the prospect of veterans facing repeated investigations. Sinn Féin has called the changes a \"veterans' charter\", and the DUP has complained that MPs were not given enough time to examine them.",
+      "sources": [
+        {
+          "name": "BBC News NI",
+          "url": "https://www.bbc.co.uk/news/articles/cm5ynq7z2qy7o"
+        },
+        {
+          "name": "News Letter",
+          "url": "https://www.newsletter.co.uk/news/politics/troubles-legacy-bill-passes-those-who-lost-loved-ones-deserve-answers-says-secretary-of-state-9299959"
+        },
+        {
+          "name": "News Letter",
+          "url": "https://www.newsletter.co.uk/news/politics/chris-bryant-rejects-claims-uk-pandering-to-irish-government-in-troubles-law-9299489"
+        }
+      ],
+      "publishedAt": "2026-10-21T04:30:00Z",
+      "imageURL": "/images/2026-10-21-northernIreland-001.jpg"
+    },
+    {
+      "id": "2026-10-21-global-001",
+      "category": "global",
+      "headline": "Nigeria confirms its first Ebola case as the outbreak reaches western Africa",
+      "subtitle": "The case was recorded in Abuja, the federal capital, days after Kenya reported a rising toll, and health authorities across the continent are tracing contacts in a region that had never seen the virus.",
+      "body": "Nigeria has confirmed its first case of Ebola, detected in Abuja, the country's federal capital. The confirmation marks the arrival of the outbreak in western Africa, after weeks in which cases spread from Kenya into neighbouring countries and health systems across the region were put on alert.\n\nThe case is the first recorded in Nigeria during this outbreak. Officials have not said publicly how the patient is thought to have been infected, and contact tracing is under way in the capital, a city of several million people and the hub of the country's air and road networks.\n\nThe reaction from neighbouring Uganda was immediate and angry. Ugandan officials have spent weeks arguing that their own surveillance and treatment capacity has been undercut by cuts in external health funding, and they said the detection of cases elsewhere confirmed that the response had been left to individual governments.\n\nThe outbreak has now been confirmed in several countries since the first cases were identified in Kenya, where a strain of the virus has been spreading through communities that had little access to laboratory testing.",
+      "sources": [
+        {
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/oct/21/nigeria-first-ebola-case-africa-outbreak-latest"
+        },
+        {
+          "name": "CBC News",
+          "url": "https://www.cbc.ca/news/health/nigeria-ebola-case-confirmed-abuja-9.7389261"
+        },
+        {
+          "name": "DW",
+          "url": "https://www.dw.com/en/nigeria-records-its-first-ebola-case-in-capital-abuja/a-79717377"
+        },
+        {
+          "name": "France 24",
+          "url": "https://www.france24.com/en/africa/20261020-nigeria-records-first-ebola-case-as-outbreak-spreads-across-africa"
+        }
+      ],
+      "publishedAt": "2026-10-21T04:34:00Z",
+      "imageURL": "/images/2026-10-21-global-001.jpg"
+    },
+    {
+      "id": "2026-10-21-global-002",
+      "category": "global",
+      "headline": "Alberta votes decisively to stay in Canada, strengthening Carney against Trump",
+      "subtitle": "The referendum result is described as an overwhelming rejection of separation and a heavy setback for the province's separatist movement, handing the prime minister a firmer footing in Washington.",
+      "body": "Alberta has voted to remain part of Canada, rejecting a proposal to begin the process of separation in a referendum that the province's premier had framed as a test of its relationship with Ottawa. Projections and early results pointed to a decisive margin, and the separatist camp conceded the defeat within hours.\n\nThe result removes an immediate constitutional crisis from the desk of Mark Carney, who has spent his first year in office arguing that Canada's leverage in Washington depends on the country holding together. Alberta's oil and gas industry is directly exposed to US tariffs and to the legal challenges that have followed them.\n\nFor the separatist movement, the scale of the loss is a serious setback. Support for a vote had been built over years of grievance about federal climate policy, equalisation payments and the perceived indifference of central Canada, and the campaign had drawn money and organisers from abroad.\n\nThe premier has said the grievances behind the vote are real and will not disappear with the ballot. Federal and provincial officials now face the harder question of what, if anything, either side is prepared to change.",
+      "sources": [
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cr62ylj832vxo"
+        },
+        {
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/oct/20/canada-alberta-rejects-independence-succession-referendum"
+        },
+        {
+          "name": "DW",
+          "url": "https://www.dw.com/en/canada-alberta-rejects-separation-bid-cbc-projects/a-79708520"
+        }
+      ],
+      "publishedAt": "2026-10-21T04:38:00Z",
+      "imageURL": "/images/2026-10-21-global-002.jpg"
+    },
+    {
+      "id": "2026-10-21-global-003",
+      "category": "global",
+      "headline": "Drone strikes in Sudan kill more than 300 at a market and about 150 near Abyei",
+      "subtitle": "The army's drones hit mourners and a fuel market in Kordofan in one of the deadliest attacks of the war, while a separate strike hit a market in the disputed border region with South Sudan.",
+      "body": "Sudanese army drones struck a market in Kordofan where mourners had gathered at a funeral, killing more than 300 people according to medical and local sources quoted by the BBC. Fuel tanks in the market caught fire, and the dead included people who had come from surrounding villages for the burial.\n\nThe same area had already been hit on Sunday, when an attack on the market at al-Dibab in West Kordofan killed about 80 people. The toll has been rising since as bodies were recovered from damaged buildings, and hospitals in the region say they cannot absorb the number of wounded.\n\nA separate drone strike destroyed a market in Abyei, the disputed region on the border with South Sudan, killing around 150 people according to local officials. Abyei is administered under a special arrangement between Khartoum and Juba, and both sides have accused the other of responsibility for the attack.\n\nCivilians in Kordofan and the border areas have borne the brunt of a war that has displaced millions of people and driven parts of the country into famine.",
+      "sources": [
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cr3el70jz1nqo"
+        },
+        {
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/oct/19/drone-attack-market-al-dibab-west-kordofan-sudan"
+        },
+        {
+          "name": "DW",
+          "url": "https://www.dw.com/en/sudan-drone-strike-kills-around-150-in-abyei-market/a-79716587"
+        }
+      ],
+      "publishedAt": "2026-10-21T04:42:00Z",
+      "imageURL": "/images/2026-10-21-global-003.jpg"
+    },
+    {
+      "id": "2026-10-21-global-004",
+      "category": "global",
+      "headline": "Man charged over vehicle attack on an Australian MP who may lose a leg",
+      "subtitle": "The suspect, whose father says the politician was a family friend, appeared in court after allegedly driving into her; police are treating the case as an attack on an elected representative.",
+      "body": "A man has been charged over the vehicle attack on an Australian MP, who was seriously injured when a car struck her in what police are treating as a deliberate assault on an elected representative. He was charged and was due to face court.\n\nThe MP, identified in local reports as Haines, suffered severe leg injuries, with Australian media reporting that the limb has been amputated. Colleagues from across the political spectrum described her as a hard-working local member and called for calm while the investigation continues.\n\nThe suspect's father told reporters that the MP had been a family friend and that he could not explain what had happened. Police have not set out a suspected motive, and the case has revived a debate about the security arrangements provided to MPs outside Canberra.\n\nAustralia has seen a series of threats and attacks on politicians in recent years, and reviews have repeatedly found that local members are the most exposed and the least protected part of the system.",
+      "sources": [
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/c678pnn9mpgno"
+        },
+        {
+          "name": "CBC News",
+          "url": "https://www.cbc.ca/news/world/australia-haines-attack-charges-nugent-9.7387976"
+        },
+        {
+          "name": "DW",
+          "url": "https://www.dw.com/en/australian-mp-seriously-hurt-in-suspected-car-attack/a-79697660"
+        }
+      ],
+      "publishedAt": "2026-10-21T04:46:00Z",
+      "imageURL": "/images/2026-10-21-global-004.jpg"
+    },
+    {
+      "id": "2026-10-21-global-005",
+      "category": "global",
+      "headline": "France argues over who is to blame for the riots as Lecornu prepares to meet unions",
+      "subtitle": "The prime minister is due to sit down with union leaders before a new round of protests, while the government has summoned social platforms to emergency meetings over the unrest online.",
+      "body": "France is divided over who is responsible for the riots that shook several cities at the weekend, as the prime minister, Sébastien Lecornu, prepared to meet union leaders ahead of a fresh round of protests. The meetings are intended to keep the unrest from merging with the wider dispute over pay and public spending.\n\nThe interior ministry has blamed organised groups for the worst of the violence, while unions and local officials point to years of underinvestment in working-class suburbs and to policing tactics that they say escalate confrontations. Both sides agree on the number of arrests and little else.\n\nThe government has also called social platforms to emergency meetings, arguing that the speed with which clashes were organised and amplified online demands a response from the companies. Ministers have stopped short of saying what measures they want, and the platforms have resisted being cast as the cause.\n\nProtesters across the country have already tested the limits of the new powers granted to mayors after the weekend, which allow local curfews to be imposed without going through the interior ministry.",
+      "sources": [
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cq0me4g9p970o"
+        },
+        {
+          "name": "France 24",
+          "url": "https://www.france24.com/en/europe/20261021-live-french-pm-lecornu-to-meet-with-unions-ahead-of-new-protests"
+        },
+        {
+          "name": "WIRED",
+          "url": "https://www.wired.com/story/french-government-calls-emergency-meetings-with-platforms-over-protests/"
+        }
+      ],
+      "publishedAt": "2026-10-21T04:50:00Z",
+      "imageURL": "/images/2026-10-21-global-005.jpg"
+    },
+    {
+      "id": "2026-10-21-tech-001",
+      "category": "tech",
+      "headline": "Musk says a Tesla-SpaceX merger is being discussed as both boards set up committees",
+      "subtitle": "The two companies have formed special committees to weigh a combination, with the Tesla chief saying the idea would have merit and that he expects shareholders would be asked to approve it.",
+      "body": "Tesla and SpaceX have each set up special committees to examine a possible merger, after Elon Musk said the two companies are discussing a combination and that he believes it would make sense. Musk, who runs both, said the idea had merit and described the talks as serious.\n\nA merger would fold the world's most valuable carmaker into a rocket and satellite company that operates Starlink and has become the largest launch provider in the world. The two businesses already overlap on materials, manufacturing and Musk's own capital, and investors have argued for years that the companies should be combined or more clearly separated.\n\nThe committees are expected to review valuation, governance and how the combined entity would be controlled, given that Musk's stake and voting arrangements would determine who runs it. Analysts have warned that the deal would concentrate an unusual amount of power in one person across transport, communications and defence contracting.\n\nNo timetable has been set, and any transaction would need shareholder votes at Tesla.",
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/20/spacex-and-tesla-boards-form-special-committees-to-review-merger/"
+        },
+        {
+          "name": "Ars Technica",
+          "url": "https://arstechnica.com/space/2026/10/spacex-and-tesla-into-a-single-company-has-a-lot-of-merit-musk-says/"
+        },
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cmlyl09xjke4o"
+        }
+      ],
+      "publishedAt": "2026-10-21T04:54:00Z",
+      "imageURL": "/images/2026-10-21-tech-001.jpg"
+    },
+    {
+      "id": "2026-10-21-tech-002",
+      "category": "tech",
+      "headline": "Eight compromised TLS certificates put the web's trust system on high alert",
+      "subtitle": "The certificates chain to an intermediate authority whose keys were compromised, and an intermediate is enough to mint trusted credentials for any server on the internet.",
+      "body": "Certificate authorities and browser makers spent Tuesday coordinating a response to eight TLS certificates whose private keys were compromised badly enough that anyone holding them could mint trusted credentials for any site on the internet. Security teams were put on alert as the scale of the problem became clear.\n\nThe certificates were issued under an intermediate authority rather than a root, which limits the blast radius but does not make it small: an intermediate that is trusted by browsers can be used to sign certificates for any domain, and those certificates will be accepted without a warning. The affected authority has been working with the major browser vendors on the response.\n\nMozilla moved quickly to protect Firefox users, publishing an explanation of what it had done and why, and opening the technical discussion in its public policy forum where the company debates trust decisions. The usual remedy is to distrust the intermediate in browser stores and to require the authority to reissue affected certificates through a new hierarchy.\n\nUsers have nothing to install or configure. The fix is being applied at the level of browser trust stores and certificate revocation, and it reaches everyone who updates their browser.",
+      "sources": [
+        {
+          "name": "Ars Technica",
+          "url": "https://arstechnica.com/security/2026/10/the-internet-goes-on-high-alert-after-discovery-of-8-compromised-tls-certs/"
+        },
+        {
+          "name": "Mozilla Security Blog",
+          "url": "https://blog.mozilla.org/security/2026/10/20/protecting-firefox-users-following-the-compromise-of-emudhra-intermediate-certificates/"
+        },
+        {
+          "name": "Mozilla dev-security-policy",
+          "url": "https://groups.google.com/a/mozilla.org/g/dev-security-policy/c/0R3XLJL6FuE/m/0XofdebrAAAJ"
+        }
+      ],
+      "publishedAt": "2026-10-21T04:58:00Z",
+      "imageURL": "/images/2026-10-21-tech-002.jpg"
+    },
+    {
+      "id": "2026-10-21-tech-003",
+      "category": "tech",
+      "headline": "PHP warns two emergency patches are imminent, both rated 9.2 out of 10",
+      "subtitle": "Maintainers told administrators to prepare to upgrade as soon as the fixes land, after a leaked report claimed a tool could run code on sites built with WordPress, Drupal, Joomla and Laravel.",
+      "body": "PHP maintainers have said they will release patches for two vulnerabilities, both carrying a severity rating of 9.2 out of 10, within roughly twelve hours of the advisory. The message to administrators was blunt: prepare now so you can upgrade the moment the release appears.\n\nThe advisory followed the leak of purported details that have not been confirmed, including a video of a tool called PHP2Shell executing code against web servers running WordPress, MediaWiki, phpBB, Magento, Joomla, Laravel, Symfony, Drupal and WHMCS, all of which run on PHP. The maintainers reserved the right to ship earlier if the details became public or evidence of exploitation appeared.\n\nThe security firm watchTowr said the leaked report claimed to affect every version of PHP from PHP 5, released in 2004, onwards, and that it had confirmed the vulnerabilities, tracked as CVE-2026-109618 and CVE-2026-109619, are real. It did not publish details.\n\nPHP underpins a large share of the public web, and a remote code execution flaw that reaches back two decades of versions would be among the most consequential disclosed this year.",
+      "sources": [
+        {
+          "name": "Ars Technica",
+          "url": "https://arstechnica.com/security/2026/10/php-maintainers-tell-web-devs-to-prepare-themselves-for-critical-security-patches/"
+        },
+        {
+          "name": "PHP.net",
+          "url": "https://news-web.php.net/php.announce/509"
+        },
+        {
+          "name": "Externals.io",
+          "url": "https://externals.io/message/132883"
+        }
+      ],
+      "publishedAt": "2026-10-21T05:02:00Z",
+      "imageURL": "/images/2026-10-21-tech-003.jpg"
+    },
+    {
+      "id": "2026-10-21-tech-004",
+      "category": "tech",
+      "headline": "Google open-sources TorchTPU so PyTorch code runs natively on its AI chips",
+      "subtitle": "The release gives developers a supported path from the framework most models are written in to Tensor Processing Units, a direct challenge to Nvidia's software advantage.",
+      "body": "Google has open-sourced TorchTPU, a backend that lets PyTorch workloads run natively on its Tensor Processing Units without being rewritten for a different framework. The code is on GitHub and the company explained the reasoning on its cloud blog.\n\nThe strategic point is software, not silicon. Nearly all frontier models are trained and served through PyTorch, and Nvidia's CUDA stack has been the practical reason teams stay on its GPUs: moving to another chip has meant porting code, losing library support and accepting that the tooling will lag. Google's TPUs have been competitive on price per unit of compute for years, but the friction of the move kept most teams away.\n\nA supported PyTorch backend removes part of that friction, at least on paper. Whether teams switch will depend on library coverage, debugging tools and whether training runs reproduce cleanly at scale, all of which are where CUDA's decade of investment still shows.\n\nThe release also matters for Google's own model teams, which now share a public code path with outside developers rather than maintaining a private one.",
+      "sources": [
+        {
+          "name": "GitHub",
+          "url": "https://github.com/google-pytorch/torch_tpu"
+        },
+        {
+          "name": "Google Cloud Blog",
+          "url": "https://cloud.google.com/blog/topics/ai-infrastructure/torchtpu-is-now-open-source-run-native-pytorch-on-tpus"
+        },
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50169053"
+        }
+      ],
+      "publishedAt": "2026-10-21T05:06:00Z",
+      "imageURL": "/images/2026-10-21-tech-004.jpg"
+    },
+    {
+      "id": "2026-10-21-tech-005",
+      "category": "tech",
+      "headline": "Google brings its more personal Gemini assistant into cars",
+      "subtitle": "The company is extending the Personal Intelligence features built for phones to vehicles with Google built in, so the assistant can answer questions that depend on a driver's own data.",
+      "body": "Google is bringing a more personal version of its Gemini assistant to cars, extending features that until now have been tied to phones and the home to vehicles running Google's built-in software. The assistant can draw on a user's own Google apps to answer questions and carry out tasks while driving.\n\nThe pitch is that the car becomes another surface for the same assistant rather than a separate product with its own limits. Ask about a message, a calendar entry or a route that depends on something you saved earlier, and the answer can come from your own account rather than from a generic search.\n\nThat is also the part that will attract scrutiny. Personal Intelligence works by giving the assistant access to a person's Gmail, calendar and other data, and doing it in a vehicle raises questions about attention, privacy and what happens when the assistant is wrong while someone is driving. Google's existing safeguards for the feature carry over, and the company says the car version follows the same data rules as the phone.\n\nThe rollout is limited and staged, and Google has not said when the feature will reach every car with its software installed.",
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/20/google-is-bringing-a-more-personal-version-of-its-gemini-ai-assistant-to-your-car/"
+        },
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/tech/1014999/google-gemini-ai-cars-android-auto"
+        },
+        {
+          "name": "Ars Technica",
+          "url": "https://arstechnica.com/google/2026/10/geminis-personal-intelligence-is-coming-to-cars/"
+        }
+      ],
+      "publishedAt": "2026-10-21T05:10:00Z",
+      "imageURL": "/images/2026-10-21-tech-005.jpg"
+    },
+    {
+      "id": "2026-10-21-ai-001",
+      "category": "ai",
+      "headline": "Anthropic pitches a federal AI safety law that only bites at 50 deaths",
+      "subtitle": "The company's proposal would let the commerce department block a model when it could plausibly kill 50 people or cause a billion dollars in damage, and leave other regulators on the sidelines.",
+      "body": "Anthropic has circulated a proposal for federal AI safety legislation whose obligations would only apply once a model is capable of catastrophic harm, defined in the draft as 50 or more deaths or a billion dollars in damages. TechCrunch reports that the bill would allow a model to be blocked before release on that basis.\n\nTom's Hardware, which read the proposal, argues the effect would be to make the commerce department the only agency capable of stopping an AI model, concentrating authority that is currently spread across several regulators and, in practice, exercised by none of them. Politico first reported the proposal last week.\n\nThe threshold is the interesting part. Fifty deaths is a number a regulator can test against a scenario, in the way that financial regulators test against losses, and it deliberately excludes the diffuse harms that AI safety arguments usually describe: bias, misinformation, gradual erosion of trust in what people read and see.\n\nAnthropic has not said whether it has found a sponsor for the bill, and no member has introduced it. A company writing its own safety statute is unusual, though not unprecedented, and rivals will be asked whether they support the same threshold.",
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/20/anthropic-pitches-ai-safety-bill-that-may-block-a-model-if-50-people-could-be-killed/"
+        },
+        {
+          "name": "Tom's Hardware",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-proposed-ai-safety-bill-only-kicks-in-if-50-deaths-or-usd1-billion-in-damages-are-on-the-line-proposal-would-effectively-make-the-commerce-department-the-only-agency-capable-of-stopping-an-ai-model"
+        },
+        {
+          "name": "Politico",
+          "url": "https://www.politico.com/news/2026/10/16/anthropic-ai-safety-01124654"
+        }
+      ],
+      "publishedAt": "2026-10-21T05:14:00Z",
+      "imageURL": "/images/2026-10-21-ai-001.jpg"
+    },
+    {
+      "id": "2026-10-21-ai-002",
+      "category": "ai",
+      "headline": "Mistral launches Voxtral 3, a voice stack that listens, reasons and speaks in real time",
+      "subtitle": "The French lab has bundled a transcription model, a text-to-speech model and an agent SDK into one streaming pipeline that can call tools in the middle of a conversation.",
+      "body": "Mistral has released Voxtral 3, a family of models built for real-time voice agents rather than for transcription on its own. The package includes Voxtral Small Transcribe 3 for speech-to-text, Voxtral Mini TTS 3 for speech output, and a voice agent SDK built on LiveKit.\n\nThe design goal is a single streaming pipeline in which the system listens, thinks, uses tools and speaks without the handoffs between separate services that make most voice assistants feel slow. Mistral says agents can reach into external systems mid-conversation, for example to book an appointment or check an invoice.\n\nTranscription covers more than 50 languages. Speech output supports over 35 languages and 50 dialects, with adaptation for emotional tone, which matters more than it sounds: a flat synthetic voice is the difference between an agent people tolerate and one they hang up on.\n\nMistral says the system can run on a customer's own infrastructure or through EU-hosted APIs, a pitch aimed at European companies that cannot send audio to US clouds. Pricing starts at $0.0035 per minute for transcription, and the models are documented in Mistral's studio.",
+      "sources": [
+        {
+          "name": "Mistral AI",
+          "url": "https://mistral.ai/news/voxtral-3/"
+        },
+        {
+          "name": "The Decoder",
+          "url": "https://the-decoder.com/mistral-ai-launches-voxtral-3-a-full-voice-agent-stack-that-listens-thinks-and-talks-in-real-time/"
+        },
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50168396"
+        }
+      ],
+      "publishedAt": "2026-10-21T05:18:00Z",
+      "imageURL": "/images/2026-10-21-ai-002.jpg"
+    },
+    {
+      "id": "2026-10-21-ai-003",
+      "category": "ai",
+      "headline": "SlopCodeBench finds frontier models still fail most messy-code tasks, and that more reasoning can hurt",
+      "subtitle": "The October round put GPT-6 Astra on top at a 16.3% strict pass rate, and found that the highest reasoning setting cost two to four times as much while sometimes scoring worse than medium.",
+      "body": "The October edition of SlopCodeBench, the benchmark that gives a coding agent a problem in stages and then changes the requirements underneath it, put the frontier models in a narrow band: strict pass rates of 12.2% to 16.3%, with GPT-6 Astra highest at 16.3% and Opus 5.5 among the leaders. In May, GPT-5.5 scored 14.8% on the same measure.\n\nStrict pass rate means the model passed every test case at a checkpoint while still passing all the regression tests that came before it. The less demanding core pass rate for the same models lands between 65.8% and 74.0%, which is the gap between writing code that works and writing code that keeps working once the requirements move.\n\nThe most practical finding concerns reasoning effort. Across the three model pairs tested at both settings, the highest setting cost 2.11 to 4.22 times as much as medium, and Opus 5.5 did better on medium than on the highest setting. The author, Dex Horthy, titles that section \"xhigh considered harmful\".\n\nThe run used 36 problems and 196 checkpoints per setting, each model tested once, with a pinned catalogue and a single seed.",
+      "sources": [
+        {
+          "name": "GitHub",
+          "url": "https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/benchmarking-new-models-on-slop-code-bench.md"
+        },
+        {
+          "name": "SlopCodeBench (arXiv)",
+          "url": "https://arxiv.org/abs/2603.24755"
+        },
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50108717"
+        }
+      ],
+      "publishedAt": "2026-10-21T05:22:00Z",
+      "imageURL": "/images/2026-10-21-ai-003.jpg"
+    },
+    {
+      "id": "2026-10-21-ai-004",
+      "category": "ai",
+      "headline": "OpenAI buys Orchestra Bio to push its life sciences tools into drug development",
+      "subtitle": "The startup's agents track study timelines and flag delays for pharmaceutical teams, and will be folded into Rosalind, OpenAI's suite of models and tools for biological research.",
+      "body": "OpenAI has acquired Orchestra Bio, a startup that builds software for biopharmaceutical teams to coordinate drug development programmes. The company announced the deal on 20 October and did not disclose the terms.\n\nOrchestra's platform lets scientists hand off work to AI agents: monitoring studies, tracking development timelines and identifying where a programme is slipping. OpenAI plans to combine that with Rosalind, its suite of models and tools for life sciences research, so that a finding in the lab connects to the decisions and next steps needed to turn it into a treatment.\n\nThe strategic logic is that drug development is a coordination problem as much as a scientific one, and much of the delay happens in the paperwork and handoffs between stages rather than in the experiment. Axios, which broke the news, notes that AI labs increasingly want to claim they are not just improving productivity but changing regulated industries outright, and that Anthropic bought the biotech startup Coefficient Bio for about $400 million in April.\n\nOpenAI has not said how Orchestra's existing customers will be served or whether the product will keep its own name.",
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/20/openai-acquires-startup-orchestra-bio%e2%81%a0-to-beef-up-its-biotech-business/"
+        },
+        {
+          "name": "Axios",
+          "url": "https://finance.yahoo.com/technology/ai/articles/exclusive-openai-acquired-orchestra-bio-175504169.html"
+        },
+        {
+          "name": "Pharmaceutical Technology",
+          "url": "https://www.pharmtech.com/view/openai-bets-on-accelerating-drug-development-timelines-with-orchestra-bio"
+        }
+      ],
+      "publishedAt": "2026-10-21T05:26:00Z",
+      "imageURL": "/images/2026-10-21-ai-004.jpg"
+    }
+  ]
+}
