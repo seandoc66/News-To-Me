@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-22",
+  "published": true,
+  "publishedAt": "2026-10-22T04:05:18Z",
+  "sections": {
+    "present": ["local", "national", "northernIreland", "global", "tech", "ai"],
+    "missing": []
+  },
+  "storiesWithoutPhoto": [],
+  "validatorWarnings": [],
+  "validatorErrors": [],
+  "workarounds": [
+    "RSS discovery used throughout instead of searches; only 4 web_search calls total (Esade study third source, plus three earlier verification searches).",
+    "newsletter.co.uk returns 403 to scripted requests, so its two source URLs were verified from the live feed entry rather than by HTTP status — treated as bot-block, not dead links.",
+    "Local section carries one story: the other Lugo candidates (Fernández Liñares third grade, Ancares biosphere anniversary, chairego councils, overturned 4x4) each had a single outlet covering them, so they could not meet the three-source rule.",
+    "First publish passed with one paragraph-length warning on the northernIreland story; trimmed and re-published so latest.json ships warning-free."
+  ],
+  "needsHumanAttention": false,
+  "humanAttentionReason": null,
+  "notes": "Six sections, 19 stories, 19 photos. Tech leads with the PHP critical-vulnerability patches (CVE-2026-109618 and CVE-2026-109619, affecting all versions back to PHP 5, only 8.2+ patched). AI covers Gemini 4 Argon's general availability, the Meta/Reflection open-weight releases, Meta's new non-voting share class, and Recursive's Flint. All body word counts inside 100-300 with the 30-80 paragraph cap."
+}
