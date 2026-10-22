@@ -1,0 +1,578 @@
+{
+  "generatedAt": "2026-10-22T04:04:35Z",
+  "config": {
+    "sections": {
+      "local": {
+        "min": 1,
+        "max": 3,
+        "sources": [
+          {
+            "name": "El Progreso",
+            "url": "https://www.elprogreso.es/lugo/"
+          },
+          {
+            "name": "El Confidencial",
+            "url": "https://www.elconfidencial.com/espana/galicia/"
+          }
+        ]
+      },
+      "national": {
+        "min": 3,
+        "max": 5,
+        "sources": [
+          {
+            "name": "El Mundo",
+            "url": "https://www.elmundo.es"
+          },
+          {
+            "name": "20minutos",
+            "url": "https://www.20minutos.es"
+          },
+          {
+            "name": "Europa Press",
+            "url": "https://www.europapress.es"
+          },
+          {
+            "name": "El Correo Gallego",
+            "url": "https://www.elcorreogallego.es"
+          },
+          {
+            "name": "ABC",
+            "url": "https://www.abc.es"
+          }
+        ]
+      },
+      "northernIreland": {
+        "min": 1,
+        "max": 1,
+        "sources": [
+          {
+            "name": "BBC News NI",
+            "url": "https://www.bbc.co.uk/news/northern_ireland"
+          },
+          {
+            "name": "News Letter",
+            "url": "https://www.newsletter.co.uk"
+          }
+        ]
+      },
+      "global": {
+        "min": 4,
+        "max": 8,
+        "sources": [
+          {
+            "name": "BBC News",
+            "url": "https://www.bbc.co.uk/news/world"
+          },
+          {
+            "name": "The Guardian",
+            "url": "https://www.theguardian.com/world"
+          },
+          {
+            "name": "El Correo Gallego",
+            "url": "https://www.elcorreogallego.es"
+          },
+          {
+            "name": "El Mundo",
+            "url": "https://www.elmundo.es"
+          }
+        ]
+      },
+      "tech": {
+        "min": 5,
+        "max": 5,
+        "sources": [
+          {
+            "name": "Wired",
+            "url": "https://www.wired.com"
+          },
+          {
+            "name": "The Verge",
+            "url": "https://www.theverge.com"
+          },
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com"
+          },
+          {
+            "name": "Ars Technica",
+            "url": "https://arstechnica.com"
+          },
+          {
+            "name": "PHP Foundation",
+            "url": "https://thephp.foundation"
+          },
+          {
+            "name": "BBC News",
+            "url": "https://www.bbc.co.uk/news"
+          }
+        ]
+      },
+      "ai": {
+        "min": 4,
+        "max": 7,
+        "sources": [
+          {
+            "name": "Google",
+            "url": "https://blog.google"
+          },
+          {
+            "name": "Hugging Face",
+            "url": "https://huggingface.co/blog"
+          },
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com"
+          },
+          {
+            "name": "The Verge",
+            "url": "https://www.theverge.com"
+          }
+        ]
+      }
+    }
+  },
+  "articles": [
+    {
+      "id": "2026-10-22-local-001",
+      "category": "local",
+      "headline": "«Fue más el susto»: un incendio en un desguace de O Ceao moviliza a los servicios de emergencia",
+      "subtitle": "Las llamas, que al parecer originó una chispa en un vehículo, solo afectaron a un turismo y una carretilla; el dueño de la nave destaca la rapidez de los bomberos para sofocarlas.",
+      "body": "Un incendio declarado este miércoles en la nave de Herbón Desguaces, en la Rúa da Industria del polígono de O Ceao, en Lugo, obligó a activar un amplio dispositivo de emergencias. Hasta el lugar se desplazaron bomberos, una ambulancia del 061 y efectivos de la Policía Local y Nacional, que trabajaron en la zona durante buena parte de la mañana.\n\nEl propietario de la empresa, Jorge Herbón, resumió el balance con una frase: \"Fue más el susto\". \"El humo fue muy alarmante\", admitió, antes de explicar que los daños no fueron cuantiosos porque las llamas solo afectaron a un turismo y una carretilla, gracias a la celeridad con la que se realizaron las labores de extinción.\n\nSobre el origen, el dueño del desguace apuntó que el fuego pudo declararse al saltar una chispa del primer vehículo. La prontitud de los bomberos en sofocarlo es, a su juicio, la mejor prueba de que el incidente no revistió gravedad.\n\nEl despliegue no es casual. El incendio de Semana Santa de 2021 calcinó varias naves de O Ceao con pérdidas millonarias y no se dio por extinguido del todo hasta doce días después, y en el último lustro se registraron al menos otros dos fuegos graves en el polígono. Cada vez que se activa la alarma por fuego en el principal pulmón industrial de la capital lucense, los servicios de emergencia se movilizan en bloque.",
+      "sources": [
+        {
+          "name": "El Progreso",
+          "url": "https://www.elprogreso.es/articulo/lugo/fue-mas-susto-porque-humo-fue-muy-alarmante-dice-dueno-nave-ceao-que-hubo-incnduio/202610220500002008137.html"
+        },
+        {
+          "name": "El Progreso",
+          "url": "https://www.elprogreso.es/articulo/lugo/amplio-despliegue-servicios-emergencias-incendio-desguace-ceao/202610211207352007899.html"
+        },
+        {
+          "name": "El Confidencial",
+          "url": "https://www.elconfidencial.com/espana/galicia/2026-10-21/incendio-desguaces-lugo-1tna-1tps_4449710"
+        }
+      ],
+      "publishedAt": "2026-10-22T04:20:00Z",
+      "imageURL": "/images/2026-10-22-local-001.jpg"
+    },
+    {
+      "id": "2026-10-22-national-001",
+      "category": "national",
+      "headline": "El Constitucional rechaza por prematuro el recurso para que los nacionalizados por la ley de nietos voten el 29N",
+      "subtitle": "Diez de los doce magistrados inadmiten el amparo del Defensor del Pueblo contra la suspensión del Supremo, en la primera vez que el tribunal de Conde-Pumpido se desmarca del Gobierno.",
+      "body": "El Pleno del Tribunal Constitucional acordó este miércoles no admitir a trámite el recurso de amparo que el Defensor del Pueblo presentó contra la decisión del Tribunal Supremo de suspender de forma cautelar el voto de los nacionalizados por la ley de nietos que no acrediten ser descendientes de exiliados. Diez de los doce magistrados respaldaron la inadmisión; votaron en contra Ramón Sáez y Juan Carlos Campo.\n\nEl tribunal considera que la impugnación era prematura porque la vía judicial previa sigue abierta: el Supremo aún debe escuchar a los afectados que presenten alegaciones y resolver sobre el fondo. La ponencia correspondió al magistrado conservador Enrique Arnaldo, que propuso inadmitir.\n\nLa votación rompe el reparto habitual entre bloques. Por primera vez desde que Cándido Conde-Pumpido preside el órgano de garantías, una mayoría de magistrados progresistas y conservadores coincide en un asunto de alto voltaje político para rechazar una pretensión del Ejecutivo, y lo hace a 39 días de las elecciones del 29N.\n\nEl Gobierno insistió tras conocerse la decisión en que defiende el \"derecho sagrado al voto\" y que \"no puede haber ciudadanos de segunda\". El PP, por su parte, acusó a Exteriores de \"desobediencia efectiva\" a lo ordenado por el Supremo en el burofax que remitió al Ministerio. La suspensión afecta a los nacionalizados que no hayan demostrado su vínculo con el exilio, un colectivo que el Defensor del Pueblo cifra en unas 163.000 personas.",
+      "sources": [
+        {
+          "name": "El Mundo",
+          "url": "https://www.elmundo.es/elecciones/elecciones-generales/2026/10/21/6ad8f83fe85ece1c148b4590.html"
+        },
+        {
+          "name": "20minutos",
+          "url": "https://www.20minutos.es/nacional/giro-conde-pumpido-presidente-constitucional-se-desmarca-por-primera-vez-gobierno-con-ley-nietos_7051716_0.html"
+        },
+        {
+          "name": "Europa Press",
+          "url": "https://www.europapress.es/nacional/noticia-tc-rechaza-recurso-defensor-pueblo-contra-suspension-voto-ley-nietos-20261021130730.html"
+        }
+      ],
+      "publishedAt": "2026-10-22T04:30:00Z",
+      "imageURL": "/images/2026-10-22-national-001.jpg"
+    },
+    {
+      "id": "2026-10-22-national-002",
+      "category": "national",
+      "headline": "Exteriores tilda de «indigno» el ataque de Milei a Sánchez y lo enmarca en la campaña del 29N",
+      "subtitle": "El presidente argentino llamó «dictador», «corrupto» y «ladrón» a Sánchez y animó a «sacar a los socialistas a patadas»; después se reunió casi dos horas con Ayuso en Madrid.",
+      "body": "El Ministerio de Asuntos Exteriores calificó este miércoles de \"indigno\" que el presidente de Argentina, Javier Milei, haya viajado a España para insultar al jefe del Ejecutivo y \"fomentar un clima de polarización entre españoles\" en vísperas de las elecciones del 29 de noviembre. En un comunicado, el departamento que dirige José Manuel Albares expresó su \"más enérgica condena\" por los insultos y por el \"llamamiento al uso de la violencia\".\n\nMilei había calificado horas antes a Pedro Sánchez de \"dictador\", \"corrupto\" y \"ladrón\" durante un desayuno informativo en Madrid, y animó a \"sacar a los socialistas a patadas\" del poder. El mandatario argentino defendió que sus \"amigos\" Santiago Abascal e Isabel Díaz Ayuso tienen las ideas necesarias para acabar con la \"decadencia\" española y pidió a los votantes que no \"se suiciden votando socialista\".\n\nPor la tarde, Ayuso recibió a Milei durante cerca de dos horas en la sede del Canal de Isabel II. Según el Gobierno madrileño, abordaron la ley de nietos, la situación en Ceuta y el \"deterioro\" de las clases medias. La presidenta regional le agradeció la visita con un \"Madrid es y siempre será su casa\".\n\nSánchez respondió desde Argentina que si Feijóo y Abascal gobiernan tras el 29N harán en España lo mismo que Milei en su país. La visita se produce sin encuentro con Abascal, algo que no había ocurrido en las siete ocasiones anteriores en que el argentino pasó por Madrid.",
+      "sources": [
+        {
+          "name": "Europa Press",
+          "url": "https://www.europapress.es/nacional/noticia-exteriores-ve-indigno-milei-venga-espana-insultar-sanchez-fomentar-polarizacion-espanoles-20261021170604.html"
+        },
+        {
+          "name": "Europa Press",
+          "url": "https://www.europapress.es/nacional/noticia-milei-llama-dictador-sanchez-dice-fomento-invasion-ceuta-porque-cada-inmigrante-voto-20261021104649.html"
+        },
+        {
+          "name": "20minutos",
+          "url": "https://www.20minutos.es/madrid/ayuso-recibe-nuevo-milei-abordan-ley-nietos-deterioro-las-clases-medias-madrid-es-siempre-sera-su-casa_7051729_0.html"
+        }
+      ],
+      "publishedAt": "2026-10-22T04:35:00Z",
+      "imageURL": "/images/2026-10-22-national-002.jpg"
+    },
+    {
+      "id": "2026-10-22-national-003",
+      "category": "national",
+      "headline": "Los caseros con más pisos alquilan más caro, pero solo explican una quinta parte de la subida",
+      "subtitle": "Un estudio de EsadeEcPol cifra el sobreprecio entre el 4,5% y el 7% cuando el propietario acumula cinco o más viviendas, aunque las grandes carteras solo explican una quinta parte del encarecimiento.",
+      "body": "Los arrendadores que acumulan varias viviendas en alquiler cobran más que los que tienen una sola, y la diferencia crece con el tamaño de la cartera. Es la conclusión del informe sobre concentración de la propiedad y precios del alquiler que el centro de políticas económicas de Esade (EsadeEcPol) publicó este jueves, elaborado con microdatos del mercado del alquiler español.\n\nSegún el estudio, en 2019 los hogares con varios pisos arrendados cobraban prácticamente lo mismo que los monoarrendadores; en 2023 alquilaban un 3,5% por encima. El sobreprecio llega al 4,5% de media en el caso de quienes tienen cinco o más viviendas, una cifra que El Mundo eleva al 7% a partir de esa quinta propiedad.\n\nLos autores, sin embargo, acotan el alcance del fenómeno: las grandes carteras apenas explican el 18% del encarecimiento total de los precios, de modo que concentrar la mirada en los fondos deja fuera la mayor parte del problema. ABC resume el mismo hallazgo señalando que los grandes propietarios son responsables de cerca de una quinta parte de la subida.\n\nEl debate se produce en plena precampaña y con la vivienda como eje central. Fedea advirtió de que los decretos urgentes aprobados por el Gobierno agravan la situación de quien busca un piso, mientras el PP promete una Ley del Suelo y deducciones fiscales para arrendadores si llega a La Moncloa.",
+      "sources": [
+        {
+          "name": "El Mundo",
+          "url": "https://www.elmundo.es/economia/vivienda/2026/10/22/6ad8d32ce85ece21158b45b9.html"
+        },
+        {
+          "name": "20minutos",
+          "url": "https://www.20minutos.es/nacional/precio-alquiler-es-mas-alto-cuantas-mas-viviendas-tiene-casero-diferencia-llega-4-5-si-arrienda-cinco-mas_7051669_0.html"
+        },
+        {
+          "name": "ABC",
+          "url": "https://www.abc.es/economia/fondos-grandes-propietarios-solo-responsables-quinta-parte-20261022013202-nt_amp.html"
+        }
+      ],
+      "publishedAt": "2026-10-22T04:40:00Z",
+      "imageURL": "/images/2026-10-22-national-003.jpg"
+    },
+    {
+      "id": "2026-10-22-national-004",
+      "category": "national",
+      "headline": "Tres detenidos y varios heridos, dos de ellos agentes, en los disturbios tras el mitin de Vox en Avilés",
+      "subtitle": "La Policía Nacional separó durante más de dos horas a asistentes al acto de Abascal y a una manifestación antifascista en el centro de la ciudad; hubo cargas y una guerra de insultos.",
+      "body": "Tres personas fueron detenidas por desórdenes públicos y varias resultaron heridas, entre ellas dos agentes, en los altercados registrados este miércoles en el centro de Avilés tras el mitin de precampaña de Vox. El acto se celebró a las siete de la tarde en la plaza de Camposagrado y, a su término, asistentes y participantes en una manifestación antifascista convocada en El Parche confluyeron en la calle La Fruta.\n\nLa Policía Nacional y la Local desplegaron un cordón para encapsular a los dos grupos y evitar que llegaran a las manos. Durante más de dos horas, según el relato de los medios presentes, ambos frentes se limitaron a intercambiar gritos e insultos, con algunos empujones y cargas policiales que dejaron varios heridos leves.\n\nEl mitin forma parte de la ronda de actos de Vox de cara a las elecciones generales del 29 de noviembre. La formación de Santiago Abascal ha visto cómo las protestas frente a sus actos se repiten en distintas ciudades en las últimas semanas, con episodios de tensión también en A Coruña.\n\nLa Delegación del Gobierno en Asturias no había facilitado a primera hora una cifra definitiva de heridos. Los tres detenidos quedaron a disposición judicial por desórdenes públicos, mientras la investigación trata de identificar a los participantes en las refriegas más graves.",
+      "sources": [
+        {
+          "name": "El Correo Gallego",
+          "url": "https://www.elcorreogallego.es/espana/2026/10/21/tres-detenidos-heridos-disturbios-mitin-135606807.html"
+        },
+        {
+          "name": "El Mundo",
+          "url": "https://www.elmundo.es/espana/2026/10/21/6ad92318e9cf4ad24a8b4597.html"
+        },
+        {
+          "name": "El Periódico",
+          "url": "https://www.elperiodico.com/es/politica/20261021/tres-detenidos-heridos-disturbios-mitin-135606797"
+        }
+      ],
+      "publishedAt": "2026-10-22T04:45:00Z",
+      "imageURL": "/images/2026-10-22-national-004.jpg"
+    },
+    {
+      "id": "2026-10-22-northernIreland-001",
+      "category": "northernIreland",
+      "headline": "O'Neill and McDonald interviewed by police over the Garvaghy Road protest",
+      "subtitle": "The First Minister and the Sinn Féin president presented themselves at a Belfast police station over last month's blockade of an Orange Order parade, as unionist parties pressed for action.",
+      "body": "Michelle O'Neill and Mary Lou McDonald attended police interviews in Belfast on Wednesday over their part in protests that blocked an Orange Order parade on the Garvaghy Road last month. The First Minister and the Sinn Féin president presented themselves at Musgrave Police Station after being invited by the PSNI.\n\nSpeaking before going in, McDonald said they had stood on the road to protect a vulnerable community and that it had been the right thing to do. She and O'Neill would cooperate fully with the police and with any process arising from the decision they took, she added.\n\nO'Neill said it was always right to stand on the Garvaghy Road and that her party was proud of the choice. \"I am going nowhere, I am going to keep turning up for people, I am the first minister,\" she said. Unionist parties had called for action against her and others, arguing that nationalist politicians had acted unlawfully. The interviews do not mean charges have been brought, and O'Neill has already faced a no-confidence motion at Stormont over the Drumcree dispute.\n\nEarlier, O'Neill clashed with unionist MLAs at the Executive Office committee. TUV member Timothy Gaston alleged a \"whiff of illegality\" around her office and said her involvement breached the pledge of office; she replied that no member of the committee was her \"judge or jury\". The DUP's Deborah Erskine accused her of treating the committee with \"absolute contempt\" after she left while questions were still being put. Sinn Féin's Sinéad Ennis said O'Neill had told the committee of earlier commitments.",
+      "sources": [
+        {
+          "name": "BBC News NI",
+          "url": "https://www.bbc.co.uk/news/articles/cxr5ye3dlrz6o"
+        },
+        {
+          "name": "News Letter",
+          "url": "https://www.newsletter.co.uk/news/national/sinn-fein-leaders-attend-police-station-for-interview-over-protest-participation-9302472"
+        },
+        {
+          "name": "News Letter",
+          "url": "https://www.newsletter.co.uk/news/politics/sinn-fein-leaders-had-an-alternative-to-breaking-the-law-there-is-no-circumstance-in-which-it-is-right-9302656"
+        }
+      ],
+      "publishedAt": "2026-10-22T04:50:00Z",
+      "imageURL": "/images/2026-10-22-northernIreland-001.jpg"
+    },
+    {
+      "id": "2026-10-22-global-001",
+      "category": "global",
+      "headline": "Russia hits Kyiv with missiles hours after agreeing to resume peace talks",
+      "subtitle": "Six people were injured as houses were struck on Wednesday night, while Trump's envoy met Putin in St Petersburg and Moscow released a jailed American teacher.",
+      "body": "Russia struck Kyiv with missiles on Wednesday night, hours after saying it was \"ready in principle\" to resume peace talks and Donald Trump declared the world closer than ever to ending the war. Several houses were hit and six people were injured, according to the city's mayor, Vitaliy Klitschko.\n\nThe attack came during a new diplomatic push led by Trump's envoys Steve Witkoff and Jared Kushner. Witkoff met Vladimir Putin in St Petersburg on Wednesday, a day after meeting Ukraine's Volodymyr Zelensky and the leaders of Norway and Finland in Oslo. Three-way talks were suspended in February, after which Russia stepped up its attacks as Ukraine ran short of Western-supplied interceptors.\n\nTrump said he had discussed \"settling his war with Ukraine\" with Putin and that they were now perhaps \"the closest we've been\". He has repeatedly promised to end the fighting without managing it, and the renewed diplomacy has produced no ceasefire.\n\nMoscow also released Stephen Hubbard, a 74-year-old former teacher held for more than four years on charges of fighting as a mercenary for Ukraine, after Trump asked Putin to free him. Witkoff described Putin, who is wanted by the International Criminal Court as a war criminal, as a \"humanitarian\" over the release, which critics read as a gesture designed to pull Washington towards the Kremlin's terms.",
+      "sources": [
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cq3djn5nxx12o"
+        },
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cm98zn5j89kdo"
+        },
+        {
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/oct/21/putin-witkoff-russia-ukraine-trump-stephen-hubbard-release"
+        }
+      ],
+      "publishedAt": "2026-10-22T04:55:00Z",
+      "imageURL": "/images/2026-10-22-global-001.jpg"
+    },
+    {
+      "id": "2026-10-22-global-002",
+      "category": "global",
+      "headline": "Macron accuses foreign leaders of using France's riots for electoral gain",
+      "subtitle": "Speaking on a Middle East visit, the French president blamed unnamed leaders in \"campaign mode\" — an apparent reference to Trump and Netanyahu — and said AI-generated fakes fed the unrest.",
+      "body": "Emmanuel Macron accused foreign leaders of exploiting the riots that erupted across France on Saturday for electoral purposes, saying they were campaigning \"at France's expense\" with their comments on the violence. He did not name them, referring instead to \"leaders who are in campaign mode, whether here in the region or on the other side of the Atlantic\".\n\nThe remark, made during a visit to the Middle East, was an apparent swipe at Benjamin Netanyahu, whose parliamentary elections fall next week, and at Donald Trump, whose midterm polls are next month.\n\nMacron said the unnamed leaders had been influenced by fake videos generated by AI about the riots. The unrest broke out on the fringe of cost-of-living protests, and French authorities say nearly 150 people have been jailed and more than 800 brought before the courts since Saturday.\n\nWho is to blame remains contested inside France. The prime minister has pointed at far-left groups for planning part of the violence. In Paris, residents told the BBC that foreign coverage dwelling on smashed shopfronts misrepresented the country, while others argued the destruction could not be waved away as the work of outsiders.",
+      "sources": [
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/ckjrw044ggxgo"
+        },
+        {
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/oct/21/macron-trump-foreign-leaders-stupid-comments-france-unrest"
+        },
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cq0me4g9p970o"
+        }
+      ],
+      "publishedAt": "2026-10-22T05:00:00Z",
+      "imageURL": "/images/2026-10-22-global-002.jpg"
+    },
+    {
+      "id": "2026-10-22-global-003",
+      "category": "global",
+      "headline": "Pope Leo XIV needs no further treatment after lung cancer surgery, Vatican says",
+      "subtitle": "Tests on tissue removed during the 90-minute operation confirmed a localised adenocarcinoma, and the 71-year-old returned to St Peter's Square for his weekly audience.",
+      "body": "Pope Leo XIV does not need any further treatment after surgery to remove a cancerous growth from his lung, his doctors have said. Tests on the tissue taken during the operation confirmed a lung adenocarcinoma, as first diagnosed, and showed the disease was localised, according to a statement issued by the Vatican.\n\n\"A subsequent oncological assessment has confirmed that no further treatment is necessary,\" the statement said. The 71-year-old was discharged from Rome's Gemelli Hospital over the weekend, four days after the procedure, stopping to speak to well-wishers as he left the grounds.\n\nThe surgery took place on 13 October and lasted 90 minutes. It included the removal of the lower lobe of the Pope's right lung. Leo had announced the operation himself during his Sunday prayers, telling the crowd in St Peter's Square that doctors had found a nodule and that it had been caught at an early stage.\n\nOn Wednesday he held his first weekly general audience since leaving hospital, appearing in St Peter's Square. The medical update closes the most uncertain stretch of his pontificate so far, though his schedule is expected to remain lighter than before the operation.",
+      "sources": [
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cqrly2dg5xzzo"
+        },
+        {
+          "name": "El Mundo",
+          "url": "https://www.elmundo.es/internacional/2026/10/21/6ad91010e85ece826d8b45b3.html"
+        },
+        {
+          "name": "El Correo Gallego",
+          "url": "https://www.elcorreogallego.es/mundo/2026/10/21/nuevo-parte-medico-papa-confirma-135604033.html"
+        }
+      ],
+      "publishedAt": "2026-10-22T05:05:00Z",
+      "imageURL": "/images/2026-10-22-global-003.jpg"
+    },
+    {
+      "id": "2026-10-22-global-004",
+      "category": "global",
+      "headline": "Australian MPs review their own security after the attack on Helen Haines",
+      "subtitle": "The independent MP had both legs amputated after being struck by a car outside her office; colleagues across parties say they are paying thousands of dollars for protection.",
+      "body": "Helen Haines, the independent federal MP for Indi, had both legs amputated after being struck by a car outside her office in Wangaratta on Monday afternoon. Police describe the incident as a targeted and deliberate attack, and she was airlifted for treatment.\n\nThe town of nearly 30,000 people in rural Victoria has been left in shock. \"People are simply dumbfounded and finding it very hard to fathom the scale of this tragedy,\" the governor-general, Sam Mostyn, said at a press conference on Wednesday. Residents told the BBC they had spent the week explaining to strangers what the attack meant for their community.\n\nThe assault has pushed security to the top of the political agenda. MPs from Labor, the Coalition and the crossbench say they are paying thousands of dollars out of their own pockets for alarms, cameras and personal protection as threats against politicians rise. Several described being afraid both at home and at work.\n\nIt follows a series of incidents aimed at elected representatives. On Wednesday, police arrested a man accused of making threats at the electorate office of Hannah Beazley, a Western Australian MP, while armed with nunchucks.",
+      "sources": [
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cmgr8q88r5eqo"
+        },
+        {
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/australia-news/2026/oct/22/politicians-say-they-are-paying-thousands-for-own-security-upgrades-amid-rising-threats-ntwnfb"
+        },
+        {
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/australia-news/2026/oct/22/man-with-nunchucks-arrested-wa-mp-hannah-beazley-ntwnfb"
+        }
+      ],
+      "publishedAt": "2026-10-22T05:10:00Z",
+      "imageURL": "/images/2026-10-22-global-004.jpg"
+    },
+    {
+      "id": "2026-10-22-tech-001",
+      "category": "tech",
+      "headline": "PHP rushes out emergency patches for two critical flaws reaching back to 2004",
+      "subtitle": "The PHP Foundation says unauthenticated attackers can run code on affected servers, only versions 8.2 and newer get fixes, and exploitation began before the patches landed.",
+      "body": "The developers behind PHP released emergency security updates on Wednesday for two critical vulnerabilities that could give attackers remote control of servers running the language. The PHP Foundation said the flaws affect \"all PHP installations serving web requests\" back to PHP 5, released in July 2004, though only 8.2 and newer still receive official patches.\n\nThe fixes shipped as PHP 8.5.12, 8.4.27, 8.3.36 and 8.2.35. Both bugs sit in memory management and error handling — code nearly every request touches, which made them serious and also hard to repair without breaking compatibility or third-party extensions. \"There are no complete mitigations, updating is the only safe choice,\" the foundation said.\n\nWired reported that the flaws had already been exploited in the wild days before the public patch. The foundation's own account sets out how the bugs were found and fixed, notes that PHP underwent its first external security audit in years in 2024, and argues that the work depends on the organisations that build on the language paying for it.\n\nThe practical risk sits with old infrastructure. Unsupported branches are past end of life, leaving anyone running long-forgotten PHP installs dependent on third-party legacy builds or a migration they have been putting off. Web administrators were advised to patch immediately rather than attempt workarounds.",
+      "sources": [
+        {
+          "name": "Wired",
+          "url": "https://www.wired.com/story/this-is-not-a-drill-2-php-vulnerabilities-are-setting-the-internet-on-fire/"
+        },
+        {
+          "name": "Wired",
+          "url": "https://www.wired.com/story/hackers-exploited-the-php-vulnerabilities-days-before-they-were-patched/"
+        },
+        {
+          "name": "PHP Foundation",
+          "url": "https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/"
+        },
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/tech/1015906/php2shell-vulnerability-october-2026"
+        }
+      ],
+      "publishedAt": "2026-10-22T05:15:00Z",
+      "imageURL": "/images/2026-10-22-tech-001.jpg"
+    },
+    {
+      "id": "2026-10-22-tech-002",
+      "category": "tech",
+      "headline": "Meta ordered to pay $25bn in New Mexico over years of privacy \"lies\"",
+      "subtitle": "A state judge imposed the largest penalty yet on the company after a two-week trial over how it described its handling of Facebook user data; Meta says it will appeal.",
+      "body": "A judge in New Mexico ordered Meta to pay $25bn on Wednesday, the largest penalty the company has faced, after a two-week trial found it had spent years misleading the public about how it handled Facebook user data. The fine is roughly £18.6bn at current rates.\n\n\"The lies extend beyond Facebook's data practices as well,\" the judge said, adding that they went \"to the heart of Facebook's core business practices\". The case grew out of the state's investigation into Meta's role in the Cambridge Analytica affair, in which a political consultancy obtained data on millions of users through a personality quiz app.\n\nMeta's chief lawyer, CJ Mahoney, said the ruling made it \"all but impossible to do business in the state of New Mexico\" and confirmed the company intends to appeal, a step he predicted would succeed. Meta has argued the state was not entitled to pursue penalties on this scale.\n\nThe order lands in a costly year for the company's legal department. It recently agreed an $18bn settlement with California over child safety claims, and has been fined or settled several other cases. Whether the New Mexico figure survives appeal will decide how far US states can use consumer protection law against platform data practices.",
+      "sources": [
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cqdr8zxrr3dxo"
+        },
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/21/meta-ordered-to-pay-25-billion-in-case-related-to-cambridge-analytica-scandal/"
+        },
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/10/21/meta-new-mexico-cambridge-analytica-penalty.html"
+        }
+      ],
+      "publishedAt": "2026-10-22T05:20:00Z",
+      "imageURL": "/images/2026-10-22-tech-002.jpg"
+    },
+    {
+      "id": "2026-10-22-tech-003",
+      "category": "tech",
+      "headline": "Tesla profit falls 43% as Optimus production starts and Cybercab sales are promised",
+      "subtitle": "Revenue was flat at $28bn and the energy business shrank, while the company began building humanoid robots at Fremont and said buyers can sell Cybercabs by the end of the year.",
+      "body": "Tesla reported a 43% fall in third-quarter profit on Wednesday, with revenue essentially flat at $28bn. Automotive revenue slipped 3% year on year to $20.6bn, and the energy storage and solar business — which had been growing — fell 16%.\n\nThe results were published alongside a set of manufacturing claims. Tesla said it has started production of its Optimus humanoid robot at the Fremont plant in California, on a line previously used for electric vehicles, describing the units coming off it as \"the first production-quality bots\" it has built.\n\nElon Musk called the effort \"early production\" and warned the ramp would be slow and \"somewhat bumpy because it is such a radically new product\". He nonetheless said Tesla expects to be making 20,000 robots a week by the end of 2027, a target far beyond anything the company has demonstrated.\n\nOn autonomy, Tesla said customers will be able to add their own vehicles to its robotaxi fleet next year, and that it will begin selling Cybercabs — the two-seat vehicle designed without a steering wheel — before the end of this year. Both promises land with investors already impatient about timelines that have slipped before.",
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/21/tesla-stars-optimus-robot-production-in-california-as-profit-falls-43/"
+        },
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/transportation/1015790/tesla-q3-2026-earnings-revenue-profit-roadster-spacex-merger"
+        },
+        {
+          "name": "Ars Technica",
+          "url": "https://arstechnica.com/cars/2026/10/tesla-profits-drop-43-in-q3/"
+        }
+      ],
+      "publishedAt": "2026-10-22T05:25:00Z",
+      "imageURL": "/images/2026-10-22-tech-003.jpg"
+    },
+    {
+      "id": "2026-10-22-tech-004",
+      "category": "tech",
+      "headline": "Airbnb bans checkout chores, and some hosts are threatening to strike",
+      "subtitle": "From bookings made on or after 20 November, guests cannot be made to strip beds, wash dishes or take out the rubbish, a change hosts have met with fury online.",
+      "body": "Airbnb will stop hosts requiring guests to perform chores before checkout, under a policy change applying to reservations made on or after 20 November. Hosts can no longer ask guests to strip beds, start laundry, wash and put away dishes, or remove rubbish from the property.\n\nThe rule bars tasks that \"require significant effort or time, or would typically be performed by a cleaner\". Cleaning fees are not addressed by the change, and hosts may still set reasonable requests, such as leaving dirty dishes in the sink.\n\nThe company framed the update as a response to years of complaints about checkout lists that had turned a paid stay into an unpaid shift. Guests had long argued that being charged a cleaning fee while being handed a chore list was the worst of both arrangements.\n\nThe reaction from hosts was immediate. In Airbnb's own host forum and across social media, some complained they were losing the ability to protect their homes, others threatened to stop listing, and a few discussed ways to work around the restriction. The dispute lands on a familiar fault line: whether a short-let platform sells hospitality or rents out a property with conditions attached.",
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/21/airbnb-limits-chores-for-guests-sparking-backlash-from-hosts/"
+        },
+        {
+          "name": "Wired",
+          "url": "https://www.wired.com/story/airbnb-hosts-are-furious-they-can-no-longer-make-guests-do-their-chores/"
+        },
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/tech/1015844/airbnb-chores-house-rules-update"
+        }
+      ],
+      "publishedAt": "2026-10-22T05:30:00Z",
+      "imageURL": "/images/2026-10-22-tech-004.jpg"
+    },
+    {
+      "id": "2026-10-22-tech-005",
+      "category": "tech",
+      "headline": "GM turns the car into an assistant, starting with OnStar in the 2027 Lyriq",
+      "subtitle": "At its GM Forward event the automaker outlined an AI concierge, a fourth-generation EV platform and an autonomous errand-runner, betting software can win buyers from Chinese rivals.",
+      "body": "General Motors used its annual GM Forward event in New York on Wednesday to recast the car as a personal assistant rather than a product defined by horsepower figures. The centrepiece is a rebuilt OnStar, the connected-car service the company launched 30 years ago, which gains an AI assistant debuting in the 2027 Cadillac Lyriq.\n\nGM also unveiled a fourth-generation electric vehicle platform. Notably, the announcement skipped the usual engineering detail — suspension geometry, torsional rigidity — and talked instead about computing power, software and what the car can do for its owner.\n\nThat shift is deliberate. Chief product officer Sterling Anderson told Wired the goal is to make time in the car \"more productive, more relaxing, more engaging\", describing a vehicle that acts as assistant, tool and in some respects companion. Executives conceded the ambition is a tall order.\n\nThe strategy is aimed squarely at Chinese manufacturers, whose cars are increasingly sold on software and in-cabin intelligence. GM's bet is that compute and AI, rather than badge loyalty, will decide the next round of buyer preference — a claim the Lyriq's reception will begin to test.",
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/21/gm-is-giving-onstar-an-ai-makeover/"
+        },
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/21/gm-is-betting-compute-and-ai-will-help-it-compete-with-chinese-automakers/"
+        },
+        {
+          "name": "Wired",
+          "url": "https://www.wired.com/story/gm-wants-your-car-to-do-your-chores/"
+        }
+      ],
+      "publishedAt": "2026-10-22T05:35:00Z",
+      "imageURL": "/images/2026-10-22-tech-005.jpg"
+    },
+    {
+      "id": "2026-10-22-ai-001",
+      "category": "ai",
+      "headline": "Google opens Gemini 4 Argon to everyone after weeks behind a cyber-defender gate",
+      "subtitle": "The model tops Google's own cross-sector index and arrives at $2 per million input tokens, following a September release limited to vetted security partners.",
+      "body": "Google made Gemini 4 Argon generally available on Wednesday, ending a staged rollout that began on 30 September with access restricted to trusted cyber defenders in its Fairwind programme. The model is now offered through the API in AI Studio and the Gemini platform, in the Antigravity coding tool for AI Ultra subscribers, and in the Gemini app and AI Mode in Search for Pro and Ultra users.\n\nArgon is pitched at long, multi-step work in coding, finance, legal and scientific tasks rather than chat. Google says it ranks first on the Vals Index, its own measure across economic sectors, and that internal engineers have been using it on hard production problems.\n\nPricing is introductory: $2 per million input tokens and $10 per million output tokens, with cached input discounted by 95%, until 30 November. Standard rates of $4 and $20 apply afterwards. Google Cloud made the same model available to enterprise customers on the same terms.\n\nThe launch lands in a crowded month. Anthropic shipped Claude Opus 5.5, OpenAI released GPT-6 Astra, and Meta's consumer assistant Muse Wonder followed — leaving buyers to weigh benchmark claims that each vendor publishes on its own terms.",
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/"
+        },
+        {
+          "name": "Google Cloud",
+          "url": "https://cloud.google.com/blog/products/ai-machine-learning/gemini-4-argon-available-on-google-cloud"
+        },
+        {
+          "name": "Mashable",
+          "url": "https://mashable.com/tech/google-launches-gemini-4-argon"
+        }
+      ],
+      "publishedAt": "2026-10-22T05:40:00Z",
+      "imageURL": "/images/2026-10-22-ai-001.jpg"
+    },
+    {
+      "id": "2026-10-22-ai-002",
+      "category": "ai",
+      "headline": "Two frontier-scale open models land in one week as Meta and Reflection publish weights",
+      "subtitle": "Meta's Muse Spark Open carries 816bn parameters and reads video, while startup Reflection's Beam offers 501bn under Apache 2.0 for teams running coding models on their own hardware.",
+      "body": "Two unusually large open-weight models appeared within days of each other this week, both aimed at teams that want frontier capability on hardware they control. Meta published Muse Spark Open, a mixture-of-experts model with roughly 816 billion parameters and about 42 billion active per token, and a context window of up to one million tokens.\n\nMuse Spark Open takes text, images, audio and video as input and returns text, giving developers one interface for asking about different kinds of material — a screenshot, a voice note or a screen recording. Meta trained it for agentic coding: reading a codebase, writing and debugging code, and calling tools. Hugging Face describes it as the most capable US open-weights model to date.\n\nReflection, a new US lab, released Beam, its first model: 501 billion parameters with 23 billion active, a one-million-token context, and an Apache 2.0 licence. Beam targets coding and agentic use, ships with its own Rust-based harness, and supports vLLM and SGLang, so it can be served without building an inference stack from scratch.\n\nOpen weights still cost money to run, and neither release comes with the safety scaffolding of a hosted API. The practical effect is that the gap between what a well-funded lab can deploy and what a smaller team can self-host has narrowed again.",
+      "sources": [
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/blog/meta-muse-spark-open"
+        },
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/blog/reflection-beam"
+        },
+        {
+          "name": "Alex Mercer's AI Weekly",
+          "url": "https://dev.to/alexmercedcoder/ai-weekly-open-weights-surge-and-a-breaking-claude-api-52cc"
+        }
+      ],
+      "publishedAt": "2026-10-22T05:45:00Z",
+      "imageURL": "/images/2026-10-22-ai-002.jpg"
+    },
+    {
+      "id": "2026-10-22-ai-003",
+      "category": "ai",
+      "headline": "Meta creates a non-voting share class to bankroll its AI buildout",
+      "subtitle": "The company confirmed the plan on its third-quarter earnings call, saying the stock goes to existing shareholders and can fund capital raising, pay and acquisitions.",
+      "body": "Meta confirmed on Wednesday that it will create a new class of non-voting stock, structured to raise money for its artificial intelligence spending without diluting founder control. The plan surfaced in reporting before the company's third-quarter earnings call, and chief financial officer Susan Li confirmed it during the call.\n\nLi said the class will be \"distributed to all existing shareholders through a stock dividend\" and created with the purpose of providing \"a publicly traded non-voting stock usable for capital raising, employee compensation, acquisitions, and other general corporate purposes\".\n\nThe manoeuvre matters because Meta's AI infrastructure bill is now large enough to shape its capital structure. A non-voting class lets the company issue equity, or pay staff in stock, while leaving voting power concentrated where it has been since the company's 2012 IPO.\n\nThe call also produced a usage figure for Meta's consumer assistant: Muse has passed 10 million users, the company said. Executives added that shopping is among the most common activities, an early signal of how the assistant is being used commercially.",
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/21/meta-wants-to-pay-for-its-broad-ai-buildout-with-a-newly-created-class-of-stock/"
+        },
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/tech/1015799/meta-shares-class-ai-q3-2026-earnings"
+        },
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/21/meta-says-muse-has-over-10m-users-with-shopping-a-top-activity/"
+        }
+      ],
+      "publishedAt": "2026-10-22T05:50:00Z",
+      "imageURL": "/images/2026-10-22-ai-003.jpg"
+    },
+    {
+      "id": "2026-10-22-ai-004",
+      "category": "ai",
+      "headline": "Recursive ships Flint, a laptop coding model it says its own AI built in four months",
+      "subtitle": "The free, Apache-licensed model is an early public test of recursive self-improvement, an idea some researchers fear could slip out of human control if it accelerates.",
+      "body": "The startup Recursive released Flint on Wednesday, a free coding model small enough to run on a laptop and, by the company's account, built largely by its own AI research system. Recursive's automated pipeline, which it calls the Eureka Machine, handled nearly every step of development — including a new training approach, new architectures and code tuned for specific chips — and a handful of researchers took the model from scratch in under four months.\n\nThat is the practical case for recursive self-improvement, the idea that AI can be used to build better AI. The concept is among the most contested in the field: some researchers warn that a system able to redesign itself could outpace human oversight, a concern amplified in September when an Anthropic researcher resigned with a public warning about extinction risk. Several bills in the US Congress now propose to ban the practice outright.\n\nRecursive's version is more modest than the debate implies. Its humans set the direction and the research assistant works under their supervision. Flint itself runs on local hardware rather than a vendor's servers, so developers can work offline, keep code private and avoid per-token fees. It is free on Hugging Face under Apache 2.0.\n\nRecursive, led by former Salesforce chief scientist Richard Socher, left stealth in May with $650m at a $4.65bn valuation from backers including GV, Nvidia and AMD Ventures. The company has shared benchmark scores suggesting Flint beats models of similar size on coding tasks — vendor figures, not independent ones. Wired's Will Knight, who spent days testing it, called it impressive for its size.",
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/21/recursive-launches-flint-a-laptop-coding-model-it-says-was-largely-built-by-ai/"
+        },
+        {
+          "name": "Wired",
+          "url": "https://www.wired.com/story/recursive-self-improvement-flint-latest-model-scary-good/"
+        },
+        {
+          "name": "Hugging Face (model card)",
+          "url": "https://huggingface.co/RecursiveSI/flint"
+        }
+      ],
+      "publishedAt": "2026-10-22T05:55:00Z",
+      "imageURL": "/images/2026-10-22-ai-004.jpg"
+    }
+  ]
+}
