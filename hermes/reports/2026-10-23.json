@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-23",
+  "published": true,
+  "publishedAt": "2026-10-23T06:22:00Z",
+  "sections": {
+    "present": ["local", "national", "northernIreland", "global", "tech", "ai"],
+    "missing": []
+  },
+  "storiesWithoutPhoto": [],
+  "validatorWarnings": [
+    "articles[1].headline (2026-10-23-local-002) is 124 chars — may wrap awkwardly on a phone"
+  ],
+  "validatorErrors": [],
+  "workarounds": [
+    "Bash parallel curl RSS fetcher (f.sh) exited -1; replaced with a Python urllib + ThreadPool fetcher for the rest of the run.",
+    "20minutos' RSS linked a cara-a-cara story that 404s on their own site; used El País plus the broadcasters' original debate offer piece as the third source instead.",
+    "El Correo Gallego's Brazil runoff URL from RSS 404s; swapped for France 24's report on the same Meta complaint as the third source on global-005.",
+    "Guardian og:image returns 401 without its signature query string; used the full signed URL (with &s=) rather than stripping parameters.",
+    "Amnesty, News Letter, Reuters, Bloomberg, Sky, Techzine, Android Authority, OpenAI and El País all return 401/403 to curl — treated as bot-blocks, inconclusive, per brief.",
+    "tech shipped 4 stories rather than the pinned 5: the remaining candidates (PC shipment data, Etsy's AI listing rules, Meta's European ad slowdown) were single-outlet scoops with no defensible third source, and padding was worse than a short section."
+  ],
+  "needsHumanAttention": false,
+  "humanAttentionReason": null,
+  "notes": "Two-source stories avoided throughout: every article cites three real, story-specific URLs. Local section is two stories (matadero de Sarria closure; heating diesel at 1.53 EUR/litre) because the renta-media and ronda-works leads were weaker than these. Global covers Sudan (BBC investigation into RSF attacks on el-Fasher hospitals), Starlink in Ukraine, France's first human Shamonda case, French protest bans, and Brazil's runoff. Tech leads on the ConnectWise breach attributed to Storm-0940 and its use of the ARTEX AI framework. AI covers OpenAI's $30bn round at a $1.25tn valuation, DeepSeek's $15bn raise, Uber's 30,000-seat ChatGPT Work rollout, and Claude Duet. Web searches used: 9 of 15."
+}
