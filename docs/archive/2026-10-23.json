@@ -1,0 +1,562 @@
+{
+  "generatedAt": "2026-10-23T04:06:51Z",
+  "config": {
+    "sections": {
+      "local": {
+        "min": 1,
+        "max": 3,
+        "sources": [
+          {
+            "name": "El Progreso",
+            "url": "https://www.elprogreso.es"
+          },
+          {
+            "name": "Preciogas",
+            "url": "https://preciogas.com/instalaciones/calefaccion/gasoleo"
+          }
+        ]
+      },
+      "national": {
+        "min": 3,
+        "max": 5,
+        "sources": [
+          {
+            "name": "El País",
+            "url": "https://elpais.com"
+          },
+          {
+            "name": "Europa Press",
+            "url": "https://www.europapress.es"
+          },
+          {
+            "name": "RTVE",
+            "url": "https://www.rtve.es"
+          },
+          {
+            "name": "20minutos",
+            "url": "https://www.20minutos.es"
+          }
+        ]
+      },
+      "northernIreland": {
+        "min": 1,
+        "max": 1,
+        "sources": [
+          {
+            "name": "BBC News NI",
+            "url": "https://www.bbc.co.uk/news/northern_ireland"
+          },
+          {
+            "name": "News Letter",
+            "url": "https://www.newsletter.co.uk"
+          }
+        ]
+      },
+      "global": {
+        "min": 4,
+        "max": 8,
+        "sources": [
+          {
+            "name": "BBC",
+            "url": "https://www.bbc.com/news/world"
+          },
+          {
+            "name": "The Guardian",
+            "url": "https://www.theguardian.com/world"
+          },
+          {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com"
+          },
+          {
+            "name": "CBS News",
+            "url": "https://www.cbsnews.com"
+          }
+        ]
+      },
+      "tech": {
+        "min": 5,
+        "max": 5,
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com"
+          },
+          {
+            "name": "The Verge",
+            "url": "https://www.theverge.com"
+          },
+          {
+            "name": "The Record",
+            "url": "https://therecord.media"
+          },
+          {
+            "name": "BBC News",
+            "url": "https://www.bbc.co.uk/news/technology"
+          }
+        ]
+      },
+      "ai": {
+        "min": 4,
+        "max": 7,
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/category/artificial-intelligence/"
+          },
+          {
+            "name": "CNBC",
+            "url": "https://www.cnbc.com/technology/"
+          },
+          {
+            "name": "OpenAI",
+            "url": "https://openai.com/news/"
+          },
+          {
+            "name": "Bloomberg",
+            "url": "https://www.bloomberg.com/technology"
+          }
+        ]
+      }
+    }
+  },
+  "articles": [
+    {
+      "id": "2026-10-23-local-001",
+      "category": "local",
+      "headline": "Carniceros y ganaderos de Sarria exigen plazos para reabrir el matadero, cerrado desde hace seis meses",
+      "subtitle": "El sector se reúne el lunes con el gobierno local, a las 20.30 horas, para conocer los pasos dados; el pleno aprobó las reparaciones en mayo, pero la reapertura sigue sin fecha y la campaña de matanzas está encima",
+      "body": "El matadero de Sarria lleva seis meses cerrado por averías pendientes de reparación y la preocupación crece entre carniceros y ganaderos a medida que se acerca la temporada de matanzas domiciliarias. Representantes de ambos sectores han pedido una reunión con el gobierno local, que se celebrará el lunes a las 20.30 horas, para conocer qué pasos se han dado y reclamar un calendario con plazos concretos de reapertura.\n\nEl pleno de la corporación aprobó en mayo las reparaciones necesarias, pero la reapertura continúa sin fecha. Los afectados advierten de que la incertidumbre sobre la disponibilidad del servicio afecta ya a numerosos vecinos, a pequeños ganaderos y a carnicerías, y también a las familias que cada otoño sacrifican en casa el cerdo y alguna res de vacuno para consumo propio.\n\nLa temporada de matanzas de porcino y las necesidades de sacrificio de vacuno para consumo familiar son el motivo de la urgencia. Los convocantes sostienen que la inquietud crece conforme se acerca esa campaña y que solo un calendario con fechas concretas permitirá a profesionales y familias organizarse. La cita del lunes servirá para contrastar la información municipal con la que maneja el sector.",
+      "imageURL": "/images/2026-10-23-local-001.jpg",
+      "sources": [
+        {
+          "name": "El Progreso",
+          "url": "https://www.elprogreso.es/articulo/sarria/aumenta-preocupacion-cierre-matadero-sarria-proximidad-temporada-matanzas/202610230500002008349.html"
+        },
+        {
+          "name": "El Progreso",
+          "url": "https://www.elprogreso.es/articulo/sarria/pleno-sarria-aprueba-hacer-reparaciones-matadero-reapertura-continua-fecha/202605290500001973814.html"
+        },
+        {
+          "name": "El Progreso",
+          "url": "https://www.elprogreso.es/articulo/sarria/matadero-sarria-cerrado-hace-tres-semanas-nuevas-averias/202605072244511968463.html"
+        }
+      ],
+      "publishedAt": "2026-10-23T04:12:00Z"
+    },
+    {
+      "id": "2026-10-23-local-002",
+      "category": "local",
+      "headline": "El frío llena los escaparates de Lugo y vacía los depósitos de gasóleo: el litro de calefacción casi se ha doblado en un año",
+      "subtitle": "Los distribuidores lucenses confirman que los clientes ya no llenan el depósito sino la mitad, y que muchos retrasan el encendido pese a la bajada de temperaturas; el precio ha pasado de 86 céntimos a 1,53 euros",
+      "body": "La llegada del frío ha animado el comercio de abrigos y complementos de invierno en el centro de Lugo, pero en el bolsillo de las casas el efecto es el contrario: llenar el depósito de la calefacción se ha convertido este otoño en un ejercicio de cálculo. El encarecimiento del gasóleo obliga a ajustar pedidos, a renunciar a llenar los depósitos por completo y, en algunos casos, a retrasar el encendido pese al descenso térmico.\n\nLos distribuidores lo notan en el mostrador. Cosme Méndez, gerente de Corchao Oil, en Santa María de Muxa, explica que con el frío reciben más llamadas, pero que la gente, en lugar de llenar el depósito, echa la mitad o menos. Sitúa el precio de 500 litros en 1,53 euros por litro con IVA incluido, frente a los 86 céntimos de una venta de hace un año.\n\nEn Gasóleos Verín, en el polígono de A Louzaneta, Jesús López describe la misma tendencia: la demanda se ha reactivado con las primeras mañanas frías, pero sigue por debajo de otros años. Para un pedido de 1.000 litros, el litro ha pasado de 0,88 euros a 1,50. Los comparadores de precios consultados manejan referencias más bajas, entre 1,16 y 1,74 euros, según la fuente y el formato de entrega.",
+      "imageURL": "/images/2026-10-23-local-002.jpg",
+      "sources": [
+        {
+          "name": "El Progreso",
+          "url": "https://www.elprogreso.es/articulo/lugo/lugo-abriga-frio-tirita-precio-gasoleo-calefaccion/202610222028512008302.html"
+        },
+        {
+          "name": "Preciogas",
+          "url": "https://preciogas.com/instalaciones/calefaccion/gasoleo"
+        },
+        {
+          "name": "Roams",
+          "url": "https://roams.es/energia/gas/precio-gasoil"
+        }
+      ],
+      "publishedAt": "2026-10-23T04:18:00Z"
+    },
+    {
+      "id": "2026-10-23-national-001",
+      "category": "national",
+      "headline": "El PSOE acepta el cara a cara con Feijóo el 16 de noviembre y el PP cierra la puerta a un debate a cuatro en TVE",
+      "subtitle": "Los socialistas aceptan el duelo en una cadena privada pero reclaman que la cita con Vox y Frente Amplio se emita en RTVE; los populares lo rechazan y hablan de un «intento de boicot» a Atresmedia",
+      "body": "El PSOE ha aceptado un cara a cara entre Pedro Sánchez y Alberto Núñez Feijóo el 16 de noviembre en una cadena privada, pero quiere que el debate a cuatro, con los líderes de Vox y Frente Amplio, se celebre el 26 de noviembre en TVE y no en Atresmedia, como pretendía el PP.\n\nLos populares han rechazado la propuesta y han acusado a los socialistas de un «intento de boicot» a Atresmedia. «No habrá debate a cuatro en RTVE», han zanjado fuentes del partido, que recuerdan que hace tres años Sánchez sí aceptó debatir en esa cadena. El reparto que estaba sobre la mesa incluía tres citas: el cara a cara en Mediaset, un debate entre portavoces parlamentarios en RTVE el 23 de noviembre y el debate a cuatro en Atresmedia.\n\nEl desencuentro deja en el aire el formato de la campaña del 29-N a menos de cuatro semanas de los comicios. Las tres grandes cadenas habían ofrecido desde principios de octubre organizar el duelo entre los dos candidatos, y el reparto de platós se ha convertido en un pulso político más de la precampaña. Ninguno de los dos partidos ha planteado por ahora una alternativa al debate a cuatro.",
+      "imageURL": "/images/2026-10-23-national-001.jpg",
+      "sources": [
+        {
+          "name": "El País",
+          "url": "https://elpais.com/espana/elecciones-generales/2026-10-22/el-psoe-acepta-un-cara-a-cara-con-feijoo-el-16-de-noviembre.html"
+        },
+        {
+          "name": "Europa Press",
+          "url": "https://www.europapress.es/nacional/noticia-sanchez-acepta-cara-cara-feijoo-quiere-debate-cuatro-26-noviembre-sea-tve-20261022175207.html"
+        },
+        {
+          "name": "El País",
+          "url": "https://elpais.com/espana/elecciones-generales/2026-10-05/rtve-atresmedia-y-mediaset-ofrecen-un-debate-cara-a-cara-entre-sanchez-y-feijoo.html"
+        }
+      ],
+      "publishedAt": "2026-10-23T04:26:00Z"
+    },
+    {
+      "id": "2026-10-23-national-002",
+      "category": "national",
+      "headline": "Sánchez admite que la crisis de Ceuta «se podía haber gestionado mejor» y sitúa la corrupción entre sus mayores errores",
+      "subtitle": "En su primera entrevista de precampaña, en La Revuelta, el presidente repasa la entrada masiva de julio, la «decepción» de Ábalos y las causas contra Begoña Gómez, y se muestra convencido de revalidar el cargo el 29-N",
+      "body": "A punto de cumplirse tres meses de la entrada masiva de personas en Ceuta, los días 30 y 31 de julio, Pedro Sánchez ha admitido que aquella crisis «se podía haber gestionado mejor». Lo ha hecho en su primera entrevista de precampaña, una conversación de más de hora y media en La Revuelta, donde ha reconocido errores del Gobierno aunque ha defendido la actuación de las autoridades.\n\nEl presidente ha argumentado que una respuesta más agresiva habría causado seguramente «una cifra mayor» de víctimas. Preguntado por sus fallos en el cargo, ha señalado la corrupción vinculada al caso Koldo y la figura de José Luis Ábalos, cuya imputación, procesamiento y condena calificó de «decepción». «Crees conocer a la gente y de repente se desvela una cara que te quedas helado», ha dicho sobre quien fuera su mano derecha.\n\nSobre la amnistía ha admitido que pudo incomodar a parte de la judicatura y que puede haber «discrepancias», pero sostiene que se han traspasado «líneas rojas» en las causas contra Begoña Gómez y David Sánchez. En la entrevista también ha abordado el problema de la vivienda y el auge de la ultraderecha, y se ha mostrado convencido de que puede revalidar el cargo: «Yo aspiro a estar cuatro años más».",
+      "imageURL": "/images/2026-10-23-national-002.jpg",
+      "sources": [
+        {
+          "name": "20minutos",
+          "url": "https://www.20minutos.es/nacional/sanchez-admite-tres-meses-despues-que-crisis-ceuta-se-pudo-gestionar-mejor-que-corrupcion-es-su-mayor-error_7052363_0.html"
+        },
+        {
+          "name": "RTVE",
+          "url": "https://www.rtve.es/noticias/20261023/pedro-sanchez-revuelta-frases-entrevista/17279243.shtml"
+        },
+        {
+          "name": "Europa Press",
+          "url": "https://www.europapress.es/nacional/noticia-sanchez-defiende-begona-gomez-dejo-trabajo-cuando-llego-moncloa-niega-pueda-ejercer-influencia-20261022232056.html"
+        }
+      ],
+      "publishedAt": "2026-10-23T04:34:00Z"
+    },
+    {
+      "id": "2026-10-23-national-003",
+      "category": "national",
+      "headline": "La CEOE rectifica y no impugnará la huelga general por la vivienda del 11 de noviembre",
+      "subtitle": "Garamendi había anunciado el lunes un recurso judicial contra un paro que consideraba «electoral»; la patronal dice ahora que hará seguimiento y decidirá después, y confía en que la jornada sea «pacífica y cívica»",
+      "body": "La CEOE no impugnará finalmente la huelga general por la vivienda convocada para el 11 de noviembre. La patronal había anticipado esta semana que recurriría judicialmente el paro, con el argumento de que no era una huelga laboral sino «electoral», pero ha rectificado y no descarta tomar medidas después de que se celebre.\n\n«Nuestra visión es que somos los paganos o damnificados de una huelga que va contra algo que no es nuestra responsabilidad», han señalado fuentes de la organización a RTVE. La asociación que preside Antonio Garamendi recuerda que existe «un derecho al trabajo» con unos servicios mínimos garantizados y confía en que la jornada transcurra de forma pacífica y cívica. «Haremos un seguimiento y en función de lo que ocurra adoptaremos las medidas que correspondan», añaden.\n\nEl cambio de posición se produce en plena cuenta atrás electoral y con los sindicatos movilizados por el precio de la vivienda. Garamendi había acusado a los convocantes de haber «trufado» la convocatoria con temas laborales para hacerla legal. La marcha atrás deja la huelga sin el frente judicial que la patronal había anunciado y traslada el pulso al terreno político, a menos de tres semanas del 29-N.",
+      "imageURL": "/images/2026-10-23-national-003.jpg",
+      "sources": [
+        {
+          "name": "El País",
+          "url": "https://elpais.com/economia/2026-10-22/ceoe-rectifica-y-no-impugnara-finalmente-la-huelga-general-por-la-vivienda-antes-del-11-de-noviembre.html"
+        },
+        {
+          "name": "RTVE",
+          "url": "https://www.rtve.es/noticias/20261022/ceoe-renuncia-recurrir-convocatoria-huelga-general-11-noviembre/17279386.shtml"
+        },
+        {
+          "name": "Europa Press",
+          "url": "https://www.europapress.es/economia/laboral-00346/noticia-ceoe-descarta-impugnar-convocatoria-huelga-general-20261022234547.html"
+        }
+      ],
+      "publishedAt": "2026-10-23T04:40:00Z"
+    },
+    {
+      "id": "2026-10-23-northernIreland-001",
+      "category": "northernIreland",
+      "headline": "Sinn Féin and the DUP give opposite readings of the budget talks, as Bryant holds to his £1.5bn offer",
+      "subtitle": "McDonald accuses the government of trying to «shortchange» people in Northern Ireland, while Robinson calls the meeting with the secretary of state «uncharacteristically» constructive and says the funding gap may be closing",
+      "body": "Northern Ireland's two largest parties came out of Thursday's talks with the secretary of state giving opposite accounts of the same meeting. Sinn Féin leader Mary Lou McDonald said the government was \"attempting to shortchange\" people in Northern Ireland, while DUP leader Gavin Robinson described the discussion with Sir Chris Bryant as \"uncharacteristically\" constructive and said there was hope the funding gap could be closed.\n\nThe substance has not moved. Bryant has insisted there is no more money beyond the £1.5bn already offered, and has accused executive ministers of being financially \"irresponsible\". The executive maintains it cannot balance its books without further support from London. The current package would be paid in three tranches, with £525m available this year, which the Stormont parties say still falls short of what they need.\n\nWithout an agreed budget the executive cannot settle its spending plans, and the standoff has already delayed decisions across public services. The DUP has said it hopes the gap is \"potentially closing\" enough to allow an agreement, but neither side has put a figure on what would close it, and the two parties remain at odds over how the next round of meetings should be arranged.",
+      "imageURL": "/images/2026-10-23-northernIreland-001.jpg",
+      "sources": [
+        {
+          "name": "BBC News NI",
+          "url": "https://www.bbc.co.uk/news/articles/cq98znln7l8po"
+        },
+        {
+          "name": "News Letter",
+          "url": "https://www.newsletter.co.uk/news/politics/dup-voices-hope-of-funding-gap-potentially-closing-to-allow-budget-agreement-9304711"
+        },
+        {
+          "name": "News Letter",
+          "url": "https://www.newsletter.co.uk/news/politics/sf-and-dup-at-odds-on-budget-meeting-plan-ahead-of-talks-with-ni-secretary-9303603"
+        }
+      ],
+      "publishedAt": "2026-10-23T04:48:00Z"
+    },
+    {
+      "id": "2026-10-23-global-001",
+      "category": "global",
+      "headline": "BBC investigation finds Sudan's RSF systematically destroyed el-Fasher's hospitals during the siege",
+      "subtitle": "Sources on the ground describe at least 43 attacks on health facilities between May 2024 and October 2025; the UN human rights chief says the strikes may amount to war crimes, which the RSF dismisses as propaganda",
+      "body": "Sudanese paramilitary fighters systematically destroyed el-Fasher's healthcare system during their long siege and the takeover of the city in Darfur a year ago, according to a BBC investigation published on Thursday. Sources who were on the ground describe at least 43 separate attacks on hospitals and health sites between May 2024 and October 2025, some of them hit more than once.\n\nMedics at the city's Saudi Hospital carried out a Caesarean section by phone light on the day the building was bombed, the BBC reports. Attacking health facilities or their staff is illegal under international law. The UN human rights chief, Volker Türk, called the findings deeply disturbing and said multiple RSF attacks on civilian infrastructure were serious violations of humanitarian law that may amount to war crimes.\n\nThe RSF's health minister rejected the allegations as propaganda and a deliberate attempt by the national army and its allies to smear the group's reputation. Independent reporting points the same way: Amnesty International concluded in July that the RSF committed crimes against humanity and ethnic cleansing in its campaign for the city, and medics said an attack on an el-Fasher hospital in October last year killed 12 people, the second strike on the site in 24 hours.",
+      "imageURL": "/images/2026-10-23-global-001.jpg",
+      "sources": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c54g1kxw4nvvo"
+        },
+        {
+          "name": "Amnesty International",
+          "url": "https://www.amnesty.org/en/latest/news/2026/07/sudan-rsf-atrocities-in-el-fasher-a-stain-on-the-conscience-of-humanity-new-report"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2025/10/8/rsf-attack-on-hospital-in-sudans-el-fasher-kills-12-medics-say"
+        }
+      ],
+      "publishedAt": "2026-10-23T04:58:00Z"
+    },
+    {
+      "id": "2026-10-23-global-002",
+      "category": "global",
+      "headline": "Trump says Musk has restored Ukraine's Starlink access, but Kyiv says connectivity is still patchy",
+      "subtitle": "The US president refused to say whether he called SpaceX's owner to lift the restrictions, which began around 13 October and left Ukrainian drone crews losing their connection in mid-flight",
+      "body": "Elon Musk has restored Ukraine's access to Starlink, Donald Trump said, hours after Volodymyr Zelensky complained that connectivity to the military-grade Starshield network had still not been fully restored. \"Bottom line, he put it back,\" the US president told reporters.\n\nTrump declined to say whether he had called Musk to ask him to lift the restrictions, after the Wall Street Journal reported that he had. The White House and the Pentagon have both insisted they did not order any change, and Musk has said the US government ultimately controls access to Starshield, which was built for the Pentagon.\n\nThe throttling began around 13 October, when Ukrainian drone operators found their aircraft losing their connection at speed, hobbling strikes on Russian targets and air defence. Zelensky said the maximum speed was still capped this week and that Marco Rubio had promised to help unblock it; US officials said the system was working normally on Wednesday. The row has run alongside Trump's pressure on Kyiv to stop attacking Russian oil refineries, which he argues have pushed fuel prices up.",
+      "imageURL": "/images/2026-10-23-global-002.jpg",
+      "sources": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cq74pjpmx0e8o"
+        },
+        {
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/oct/23/ukraine-war-briefing-uncertainty-over-kyivs-starlink-access-after-trump-claims-musk-restored-service"
+        },
+        {
+          "name": "CBS News",
+          "url": "https://www.cbsnews.com/news/elon-musk-starlink-starshield-ukraine-russia"
+        }
+      ],
+      "publishedAt": "2026-10-23T05:04:00Z"
+    },
+    {
+      "id": "2026-10-23-global-003",
+      "category": "global",
+      "headline": "France records the first human case of Shamonda virus, in a patient who has died",
+      "subtitle": "Officials describe it as an exceptional case in a severely immunocompromised patient and say there is no current risk to the public; the virus normally circulates in cattle and is spread by midges",
+      "body": "French authorities have confirmed the first known human case of Shamonda virus, in a patient who died in early October. Officials described it as an exceptional case in a severely immunocompromised patient and said there was currently no risk to the public.\n\nShamonda is a bunyavirus that mainly affects cattle and is spread by the bites of infected midges. It has also been found in sheep, goats, alpacas and horses, where it can cause diarrhoea, loss of appetite, a fall in milk yield and abortions or deformities in newborn animals. Human infections had not been recorded before.\n\nThe patient is thought to have been infected by a midge bite in eastern France, where the virus was first identified in animals in the spring. The World Health Organization and the European Centre for Disease Prevention and Control are monitoring the case, and investigations are continuing into whether the virus contributed to the death. Spain's agriculture ministry said the country was on alert but called for calm.",
+      "imageURL": "/images/2026-10-23-global-003.jpg",
+      "sources": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c6reyx1d9ge9o"
+        },
+        {
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/oct/22/shamonda-virus-detected-in-human-first-time-france"
+        },
+        {
+          "name": "20minutos",
+          "url": "https://www.20minutos.es/nacional/agricultura-asegura-que-espana-esta-alerta-por-virus-shamonda-pero-pide-calma_7052212_0.html"
+        }
+      ],
+      "publishedAt": "2026-10-23T05:09:00Z"
+    },
+    {
+      "id": "2026-10-23-global-004",
+      "category": "global",
+      "headline": "Paris extends its curfew and Marseille and Lyon ban protests outright as France braces for another weekend",
+      "subtitle": "The Louvre, the Orsay and the Picasso will close on Saturday, police deployments are up a fifth and 217 people have already been jailed over last weekend's riots and looting",
+      "body": "Paris is extending a partial curfew in parts of the city until Monday, while Marseille and Lyon have banned protests outright for the weekend, as France tries to head off a repeat of last Saturday's rioting. The Louvre, the Orsay and the Picasso museums will stay closed on Saturday.\n\nLarge demonstrations against the cost of living and school conditions were overshadowed at the weekend by riots and looting that destroyed businesses and historic buildings. Emmanuel Macron said \"illegitimate\" demonstrations would be banned in the coming days; where protests are still allowed, only those organised by recognised unions may go ahead.\n\nInterior minister Jean-Didier Berger said police deployments would be 20% higher than last weekend, after the government was accused of being blindsided by the scale of the unrest. The justice minister said 217 people had been jailed over the disorder, and lawyers have criticised the speed with which riot cases are being pushed through the courts.",
+      "imageURL": "/images/2026-10-23-global-004.jpg",
+      "sources": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cvde8g40xx42o"
+        },
+        {
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/oct/22/macron-ban-illegitimate-demonstrations-france-unrest"
+        },
+        {
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/world/live/2026/oct/21/france-riots-protests-reader-questions-rokhaya-dallio-alexander-hurst"
+        }
+      ],
+      "publishedAt": "2026-10-23T05:14:00Z"
+    },
+    {
+      "id": "2026-10-23-global-005",
+      "category": "global",
+      "headline": "Lula asks Brazil's electoral court to disqualify Bolsonaro over alleged Meta interference, two days before the runoff",
+      "subtitle": "The governing party accuses the company behind WhatsApp, Instagram and Facebook of suppressing its content to help Flávio Bolsonaro, who has filed a mirror complaint against Lula",
+      "body": "Brazil's governing party has asked the country's top electoral court to disqualify Flávio Bolsonaro from Sunday's presidential runoff, accusing Meta of suppressing Luiz Inácio Lula da Silva's content to favour his rival.\n\nThe petition, filed on Wednesday, claims the company behind WhatsApp, Instagram and Facebook has treated the two campaigns unequally. Meta denies it. Bolsonaro's campaign responded with its own filing seeking Lula's disqualification over what it calls the mass dissemination of government material on WhatsApp.\n\nThe dispute has drawn in the United Nations, whose experts said on Wednesday they were concerned by reports that the campaigns differ in their ability to reach voters on Meta's platforms. The row caps a bitter campaign: a stunt by Flávio Bolsonaro, who shouted \"corrupto\" at his opponent, became a viral meme in the final week, and the two candidates go into the vote effectively level in the polls.",
+      "imageURL": "/images/2026-10-23-global-005.jpg",
+      "sources": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c6pwgve2lk5go"
+        },
+        {
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/oct/20/flavio-bolsonaro-corrupto-viral-meme-brazil-election-runoff"
+        },
+        {
+          "name": "France 24",
+          "url": "https://www.france24.com/en/americas/20261014-lula-party-meta-election-interference-brazil-runoff"
+        }
+      ],
+      "publishedAt": "2026-10-23T05:19:00Z"
+    },
+    {
+      "id": "2026-10-23-tech-001",
+      "category": "tech",
+      "headline": "Microsoft blames Chinese hackers for the ConnectWise breach, and says AI agents did the breaking in",
+      "subtitle": "Storm-0940 stole the credentials that link ConnectWise's backup service to its customers, then signed in to around 2,250 of them as if it were them — at nearly 3,000 attempts a minute",
+      "body": "Microsoft has blamed a China state-aligned group for breaking into the cloud backup service of ConnectWise, the IT management and remote access giant, and then using the stolen keys to spy on about 2,250 of its customers.\n\nAccording to Microsoft, the intruders — tracked as Storm-0940, a group it says has operated since 2021 — stole application credentials that ConnectWise uses to link the backup service to corporate customers. With those, they signed in to customers' Microsoft-hosted environments as if they were authorised users, reaching email and files. Targets included government, defence, energy, financial services and technology organisations.\n\nWhat made the campaign unusual was speed. Microsoft recorded almost 3,000 attempted sign-ins per minute, with more than 111,000 failed logons on 11 October alone and 48 accounts taking over 1,000 failures each. In several cases the attackers went from first contact to privileged access in under three hours, which Microsoft attributes to ARTEX, an open-source framework that plugs AI models into penetration-testing work. The same tooling has been linked to a compromise of South Korea's financial systems.\n\nConnectWise says the original exposure is still under investigation and that it has not established whether a product vulnerability was involved, and has told customers to keep affected connections disabled until it issues reconnection instructions. China's embassy in Washington rejected the allegations.",
+      "imageURL": "/images/2026-10-23-tech-001.jpg",
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/22/chinese-hackers-spied-on-thousands-of-companies-after-breaching-it-giant-connectwise/"
+        },
+        {
+          "name": "The Record",
+          "url": "https://therecord.media/china-cyber-connectwise-ai"
+        },
+        {
+          "name": "Anadolu Agency",
+          "url": "https://www.aa.com.tr/en/science-technology/chinese-linked-hackers-used-ai-in-connectwise-breach-microsoft/4097217"
+        }
+      ],
+      "publishedAt": "2026-10-23T05:26:00Z"
+    },
+    {
+      "id": "2026-10-23-tech-002",
+      "category": "tech",
+      "headline": "Barclays will cut 5,000 jobs, and its bosses are crediting AI for the savings",
+      "subtitle": "That is 5% of the bank's 93,000 global staff, on top of 1,000 already gone this year, as it chases more than £1.1bn of savings in 2027 and reports a jump in quarterly profit",
+      "body": "Barclays will cut about 5,000 jobs — roughly 5% of its 93,000 global workforce — as part of a cost-cutting programme its executives say is being driven by advances in AI. The bank has already shed 1,000 staff since the start of the year.\n\nChief financial officer Anna Cross told reporters the reductions form part of plans to save more than £1.1bn in 2027. The announcement came alongside quarterly results showing a jump in profit, including a 6% rise in net interest income at the UK retail bank, to £2bn.\n\nBarclays is not alone in framing automation as a productivity story rather than a response to weak demand. UK lenders are bracing for a tax rise in the budget while trying to hold down costs, and the bank's own numbers show why the pitch lands with shareholders. For staff, the pattern is familiar: the cuts fall first on back-office and support roles where AI tools can absorb routine processing, while the bank keeps hiring in areas it considers core.",
+      "imageURL": "/images/2026-10-23-tech-002.jpg",
+      "sources": [
+        {
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/business/2026/oct/22/barclays-profits-up-as-uk-banks-brace-for-tax-increase-in-budget"
+        },
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.com/news/articles/cm4g1p347qgxo"
+        },
+        {
+          "name": "Sky News",
+          "url": "https://news.sky.com/story/barclays-cutting-5-000-jobs-in-ai-led-efficiency-drive-13602151"
+        }
+      ],
+      "publishedAt": "2026-10-23T05:31:00Z"
+    },
+    {
+      "id": "2026-10-23-tech-003",
+      "category": "tech",
+      "headline": "1Password lets AI agents sign in for you without ever holding your password",
+      "subtitle": "The agent proves who it is with a digital key, you approve the request on your device, and the credential is wiped again as soon as the site accepts the login",
+      "body": "1Password has launched a way for AI agents to sign into your accounts without ever holding your password. With 1Password for Agents, an agent that reaches a login form presents a unique digital key to prove its identity; you see which credential it wants and why, and approve or refuse on your own device.\n\nIf you approve, 1Password fills the username, password and one-time code straight into the page and submits it while the agent is paused. Once the site accepts the login, the credential is removed again so the agent cannot read it or reuse it later in the task, and the rest of the vault stays out of reach.\n\nThe launch partners are Meta's Muse and Grok Bot, with support for more agents in progress. It is a bet that people will hand agents real logins as long as the secret never leaves the vault, and an admission that the alternative — pasting a password into a chat window — is already happening in a lot of households.",
+      "imageURL": "/images/2026-10-23-tech-003.jpg",
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/22/1password-launches-a-way-for-ai-agents-to-log-in-on-your-behalf-without-seeing-your-password/"
+        },
+        {
+          "name": "9to5Google",
+          "url": "https://9to5google.com/2026/10/22/1password-will-let-ai-agents-use-your-passwords-without-seeing-them"
+        },
+        {
+          "name": "Techzine",
+          "url": "https://www.techzine.eu/news/security/145201/1password-lets-ai-agents-log-in-without-a-password"
+        }
+      ],
+      "publishedAt": "2026-10-23T05:36:00Z"
+    },
+    {
+      "id": "2026-10-23-tech-004",
+      "category": "tech",
+      "headline": "Arc is being switched off on 22 December, and The Browser Company is putting everything into Dia",
+      "subtitle": "New accounts already can't be created, AI features and tab syncing stop on 23 November, and accounts and their data are deleted within 30 days of the shutdown",
+      "body": "The Browser Company is shutting down Arc, the browser that made its name, on 22 December. New accounts already cannot be created; on 23 November the AI features on iOS and Android, including Browse for Me, switch off and signing in or syncing tabs stops working; on 22 December the desktop apps stop working entirely, accounts are deactivated and personal data is deleted within 30 days.\n\nThe company says keeping a browser secure is constant work that only grows in the age of AI, and that Dia, its AI-first replacement, was built to current security standards — so that is where its engineering and security teams will now sit. Arc Search for Android will be pulled from the Play Store.\n\nArc was loved by a vocal minority and never became the mass-market Chrome alternative its makers promised; many of its ideas have since turned up in other browsers, and Zen is now the usual recommendation for people who want that shape of thing. The Browser Company was acquired by Atlassian for $610m in 2025, and the shutdown notice points users at an FAQ for importing their data into Dia.",
+      "imageURL": "/images/2026-10-23-tech-004.jpg",
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/22/arc-browser-sunsets-december-22-as-the-browser-company-doubles-down-on-dia/"
+        },
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/tech/1016832/arc-browser-shutting-down"
+        },
+        {
+          "name": "Android Authority",
+          "url": "https://www.androidauthority.com/arc-browser-shutting-down-december-2026-3726900"
+        }
+      ],
+      "publishedAt": "2026-10-23T05:41:00Z"
+    },
+    {
+      "id": "2026-10-23-ai-001",
+      "category": "ai",
+      "headline": "OpenAI is raising up to $30bn at a $1.25tn valuation, and telling investors to sign by next week",
+      "subtitle": "The round is led by Coatue and investors from the UAE and is being pitched as an «opportunistic» bridge to an IPO in 2027, which would make OpenAI the most valuable private company ever",
+      "body": "OpenAI is closing in on a private round of up to $30bn at a $1.25tn pre-money valuation, led by Coatue and investors from the United Arab Emirates, according to CNBC. The company told investors on Thursday that it aims to have signatures by the end of next week, with the final size still being worked out.\n\nThe financing is being described as an \"opportunistic\" bridge rather than a step towards an imminent listing. OpenAI filed confidential paperwork for an IPO in June, and chief financial officer Sarah Friar has told staff a float is likely in 2027. The UAE money may also come with a commercial deal to secure more computing capacity from the country.\n\nThe number has moved down, not up: Bloomberg reported a month ago that OpenAI was seeking $30bn at a $1.4tn valuation, so this is roughly $150bn lower. It is still a big step from the $852bn post-money valuation of its March raise, and above $1tn would break the record for a private company.\n\nThe timing is awkward. Tech markets have been choppy, with CoreWeave's debt worrying investors and questions about financing conditions as interest rates rise. Anthropic, meanwhile, is reportedly seeking $1.5tn to $2tn for its own listing, after raising $65bn at a $965bn valuation in May.",
+      "imageURL": "/images/2026-10-23-ai-001.jpg",
+      "sources": [
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/10/22/openai-funding-round-uae-investors.html"
+        },
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/"
+        },
+        {
+          "name": "AI Weekly",
+          "url": "https://aiweekly.co/alerts/openai-nears-30b-uae-and-coatue-round-at-125t-valuation"
+        }
+      ],
+      "publishedAt": "2026-10-23T05:48:00Z"
+    },
+    {
+      "id": "2026-10-23-ai-002",
+      "category": "ai",
+      "headline": "DeepSeek raises about $15bn two days after Washington ordered agencies to strip its technology out",
+      "subtitle": "CATL and Tencent are among the biggest investors in one of China's largest ever rounds, which the company raised its target for twice while talking to backers",
+      "body": "DeepSeek has raised about 100bn yuan — roughly $15bn — in one of China's largest ever funding rounds, Bloomberg reported, two days after the US ordered federal civilian agencies to remove the company's AI technology from their systems over security concerns.\n\nThe Hangzhou-based lab pushed its target up at least twice during the process, from 50bn yuan to 80bn and then to the final figure, according to people familiar with the matter. Battery maker CATL and Tencent, the company behind WeChat, were among the biggest investors.\n\nIt follows a June round in which DeepSeek raised more than $7bn at a $50bn valuation, and a reported attempt in July to add $1.5bn at around $71bn, with plans for a potential listing in China as early as next year. Founder Liang Wenfeng, who previously co-founded the quantitative hedge fund High-Flyer, still holds an estimated 81.6% of the Chinese operating entity.\n\nThe contrast with the US position is the story. Washington has been pushing its own agencies off the model on national security grounds while Chinese state-adjacent capital has been pushing money in, and the round gives DeepSeek the resources to keep training frontier-scale models and to keep undercutting US labs on price.",
+      "imageURL": "/images/2026-10-23-ai-002.jpg",
+      "sources": [
+        {
+          "name": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-22/deepseek-raises-15-billion-in-challenge-to-leading-us-labs"
+        },
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/22/deepseek-reportedly-raises-15b-days-after-us-restrictions/"
+        },
+        {
+          "name": "Reuters",
+          "url": "https://wtvbam.com/2026/10/21/deepseek-raises-15-billion-in-challenge-to-leading-us-labs-bloomberg-news-reports"
+        }
+      ],
+      "publishedAt": "2026-10-23T05:53:00Z"
+    },
+    {
+      "id": "2026-10-23-ai-003",
+      "category": "ai",
+      "headline": "Uber puts ChatGPT Work in front of all 30,000 employees after a 1,000-person pilot",
+      "subtitle": "The agent connects to Gmail, Drive, Calendar and Slack and is Uber's first company-wide deployment of an agentic platform for knowledge work; engineers stay on Codex",
+      "body": "Uber is rolling OpenAI's ChatGPT Work out to its entire global workforce, more than 30,000 people, expanding a pilot that began with about 1,000 employees across finance, operations and product. The companies announced the move on Thursday.\n\nChatGPT Work, launched in July, runs inside ChatGPT Enterprise and is built to take on multi-step projects rather than answer single questions. At Uber it connects to the tools staff already use — Gmail, Google Drive, Google Calendar and Slack — for research, meeting briefs, presentations and data analysis that spans several applications.\n\nUber is pairing the rollout with an internal AI skills library, a set of approved integrations and training, and says it will track how people actually use the agent before deciding what comes next. The company did not disclose what the deployment costs. Engineers continue to use Codex for development work.\n\nIt is a useful test case for the enterprise agent pitch: a large company with messy real workflows, a measurable pilot, and a stated intent to judge the rollout on built workflows rather than seat count. Earlier this year Uber paired 30 AI engineers with internal teams for two weeks to see what could be automated.",
+      "imageURL": "/images/2026-10-23-ai-003.jpg",
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/uber-chatgpt-work-rollout"
+        },
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/22/uber-puts-all-30000-employees-on-chatgpt-work/"
+        },
+        {
+          "name": "Unite.AI",
+          "url": "https://www.unite.ai/uber-rolls-out-chatgpt-work-to-more-than-30-000-employees"
+        }
+      ],
+      "publishedAt": "2026-10-23T05:58:00Z"
+    },
+    {
+      "id": "2026-10-23-ai-004",
+      "category": "ai",
+      "headline": "Anthropic opens Claude Duet to a waitlist, an agent for professionals that buys things with your approval",
+      "subtitle": "Built on Claude Opus 5.5 and wired into more than 6,000 connectors, Duet runs tasks on its own virtual machine — but it won't move money between accounts or trade securities",
+      "body": "Anthropic has put Claude Duet into a research preview for Pro and Max subscribers, on iOS, Android and the web through Claude.ai. It is aimed at professionals and small businesses rather than at personal errands: Anthropic says Duet is not good at booking tickets and cannot show you its browser work as it happens.\n\nWhat it does instead is build daily briefings, assemble dashboards and suggest actions from the user's data. Tasks run in the background on its own virtual machine, and Duet comes back for approval when it needs one. It is built on the Claude Opus 5.5 model and connects to more than 6,000 connectors and plug-ins in the Claude Marketplace.\n\nIt can also buy things online through Stripe's Link wallet or Shopify's Shop Pay, with approval required for sensitive steps — though it will not trade securities or move money between accounts. Anthropic has added a classifier that checks each message for sensitive data, and by default the agent refuses requests for credit card numbers or government identification.\n\nThe launch lands in a crowded field of agent apps: Meta's Muse, OpenAI's Dots, Grok Bot, Hark, Instinct and Fo are all chasing the same professional buyer, and the differentiator Anthropic is selling is restraint.",
+      "imageURL": "/images/2026-10-23-ai-004.jpg",
+      "sources": [
+        {
+          "name": "Anthropic",
+          "url": "https://claude.com/resources/articles/claude-duet"
+        },
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/22/claude-duet-app-is-anthropics-bet-on-agents/"
+        },
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/technology/anthropic-unveils-claude-duet-ai-agent-app-2026-10-21/"
+        }
+      ],
+      "publishedAt": "2026-10-23T06:03:00Z"
+    }
+  ]
+}
