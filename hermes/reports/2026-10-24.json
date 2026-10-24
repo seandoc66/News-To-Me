@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-24",
+  "published": true,
+  "publishedAt": "2026-10-24T04:07:09Z",
+  "sections": {
+    "present": ["local", "national", "northernIreland", "global", "tech", "ai"],
+    "missing": []
+  },
+  "storiesWithoutPhoto": [],
+  "validatorWarnings": [
+    "articles[18].headline (2026-10-24-ai-004) is 121 chars — may wrap awkwardly on a phone"
+  ],
+  "validatorErrors": [],
+  "workarounds": [
+    "block.xyz/dessa was rejected by validate.mjs as a section/home page, so the Dessa story cites AI Chat Daily's write-up instead of Block's own product page.",
+    "local has one story: two other Lugo pieces (a Monforte public-housing stoppage and an A Fonsagrada animal-cruelty sentencing) could only be sourced to El Progreso, and cross-outlet searches for corroboration returned irrelevant results, so they were dropped rather than shipped single-sourced.",
+    "A fourth national story (Interior warning of a jihadist call to attack police at demonstrations) was dropped for the same reason — only Europa Press and 20minutos carried it.",
+    "Four source URLs return 403 to curl and were treated as bot-blocks, not dead links: openai.com, elpais.com, newsletter.co.uk and the5krunner.com."
+  ],
+  "needsHumanAttention": false,
+  "humanAttentionReason": null,
+  "notes": "19 articles across all six sections. 19/19 photos. Two over-long paragraphs flagged in the first publish were split and the edition was re-run. Tech and ai sections were built with three extra feeds fetched ad hoc (Ars Technica, The Register, Engadget) because the configured feeds alone rarely yield three independent outlets per story, which the validator requires. Total web_search calls this run: 8 of 15."
+}
