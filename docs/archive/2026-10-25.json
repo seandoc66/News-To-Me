@@ -1,0 +1,628 @@
+{
+  "generatedAt": "2026-10-25T05:05:30Z",
+  "config": {
+    "sections": {
+      "local": {
+        "min": 1,
+        "max": 3,
+        "sources": [
+          {
+            "name": "El Progreso",
+            "url": "https://www.elprogreso.es"
+          },
+          {
+            "name": "La Voz de Galicia",
+            "url": "https://www.lavozdegalicia.es"
+          },
+          {
+            "name": "Galicia Xa",
+            "url": "https://galiciaxa.com"
+          },
+          {
+            "name": "AquiLugo",
+            "url": "https://www.aquilugo.com"
+          }
+        ]
+      },
+      "national": {
+        "min": 3,
+        "max": 5,
+        "sources": [
+          {
+            "name": "El Mundo",
+            "url": "https://www.elmundo.es"
+          },
+          {
+            "name": "El País",
+            "url": "https://elpais.com"
+          },
+          {
+            "name": "20minutos",
+            "url": "https://www.20minutos.es"
+          },
+          {
+            "name": "Europa Press",
+            "url": "https://www.europapress.es"
+          }
+        ]
+      },
+      "northernIreland": {
+        "min": 1,
+        "max": 1,
+        "sources": [
+          {
+            "name": "BBC News NI",
+            "url": "https://www.bbc.co.uk/news/northern_ireland"
+          },
+          {
+            "name": "Derry Journal",
+            "url": "https://www.derryjournal.com"
+          },
+          {
+            "name": "News Letter",
+            "url": "https://www.newsletter.co.uk"
+          }
+        ]
+      },
+      "global": {
+        "min": 4,
+        "max": 8,
+        "sources": [
+          {
+            "name": "BBC",
+            "url": "https://www.bbc.co.uk/news/world"
+          },
+          {
+            "name": "The Guardian",
+            "url": "https://www.theguardian.com/world"
+          },
+          {
+            "name": "El País",
+            "url": "https://elpais.com"
+          },
+          {
+            "name": "El Mundo",
+            "url": "https://www.elmundo.es"
+          }
+        ]
+      },
+      "tech": {
+        "min": 5,
+        "max": 5,
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com"
+          },
+          {
+            "name": "Wired",
+            "url": "https://www.wired.com"
+          },
+          {
+            "name": "The Register",
+            "url": "https://www.theregister.com"
+          },
+          {
+            "name": "The Verge",
+            "url": "https://www.theverge.com"
+          }
+        ]
+      },
+      "ai": {
+        "min": 4,
+        "max": 7,
+        "sources": [
+          {
+            "name": "BBC",
+            "url": "https://www.bbc.co.uk/news/technology"
+          },
+          {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/technology"
+          },
+          {
+            "name": "The Verge",
+            "url": "https://www.theverge.com"
+          },
+          {
+            "name": "CNBC",
+            "url": "https://www.cnbc.com/technology"
+          }
+        ]
+      }
+    }
+  },
+  "articles": [
+    {
+      "id": "2026-10-25-local-001",
+      "category": "local",
+      "headline": "El Festival de Jazz de Lugo celebra el centenario de Miles Davis y Coltrane con dos conciertos",
+      "subtitle": "James Carter y Erik Truffaz con Antonio Lizana protagonizan dos citas en el Círculo das Artes los días 5 y 13 de noviembre, con entradas a la venta el 27 de octubre.",
+      "body": "El Festival Internacional de Jazz de Lugo se suma a la conmemoración del centenario de Miles Davis y John Coltrane, ambos nacidos en 1926, con dos conciertos en el Círculo das Artes. El primero llegará el 5 de noviembre con James Carter Organ Trío y su espectáculo *Trane: A Centennial Supreme*, centrado en la figura de Coltrane.\n\nEl segundo será el 13 de noviembre y reunirá al trompetista francés Erik Truffaz con el saxofonista y cantaor Antonio Lizana en *New Sketches of Spain*, una relectura contemporánea del disco que Davis publicó en 1960. Truffaz aporta un sonido lírico abierto a la electrónica; Lizana suma el cante, el saxofón y los ritmos flamencos.\n\nLas entradas para ambas citas se ponen a la venta el 27 de octubre. La organización ha añadido tres actuaciones más en el mismo escenario, entre ellas el Takuya Kuroda Quintet el 7 de noviembre, además de la vibrafonista Patricia Brennan y el cantante Clarence Bekker.\n\nLa trigésimo sexta edición del certamen se celebrará del 4 al 14 de noviembre y repartirá su programación entre el Círculo das Artes y el Auditorio Fuxan. El festival llega así a un año en el que el jazz conmemora por partida doble a dos músicos que transformaron el lenguaje del género y abrieron vías de experimentación que todavía se recorren.",
+      "sources": [
+        {
+          "name": "El Progreso",
+          "url": "https://www.elprogreso.es/articulo/lugo/festival-jazz-lugo-homenajeara-miles-davis-john-coltrane-centenario-nacimiento/202610250500002008910.html"
+        },
+        {
+          "name": "Galicia Xa",
+          "url": "https://galiciaxa.com/es/news/el-festival-de-jazz-de-lugo-celebra-el-centenario-de-miles-davis-y-john-coltrane-con-dos-concertos/138670"
+        },
+        {
+          "name": "AquiLugo",
+          "url": "https://www.aquilugo.com/lugo-comarca/lugo/festival-jazz-lugo-amplia-cartel-james-carter-takuya-kuroda-patricia-brennan/20261016143823110796.html"
+        }
+      ],
+      "publishedAt": "2026-10-25T05:40:00Z",
+      "imageURL": "/images/2026-10-25-local-001.jpg"
+    },
+    {
+      "id": "2026-10-25-local-002",
+      "category": "local",
+      "headline": "El alquiler de larga duración en A Mariña se queda sin oferta: quince interesados por cada piso",
+      "subtitle": "Las inmobiliarias de la comarca constatan que la mayoría de los inmuebles se alquilan el mismo día y que los seguros de impago imponen entrevistas y tres nóminas a los inquilinos.",
+      "body": "La oferta de vivienda en alquiler durante todo el año escasea en A Mariña, según las inmobiliarias de la comarca dedicadas al arriendo de larga duración. Los pisos de dos habitaciones se sitúan entre 500 y 600 euros al mes, con garaje o sin él, mientras que los de tres habitaciones rondan los 700.\n\nLas condiciones para entrar se han endurecido. En Inmobiliaria Viveiro explican que los seguros de impago exigen destinar como máximo el 30% del salario al alquiler. Desde Inmoriba, en Ribadeo, piden tres nóminas, un mes de fianza y otro por adelantado. «Hay 15 interesados por cada piso y te lo quitan de las manos en el día», señala Néstor Sordo, que no tiene ningún inmueble disponible.\n\nFincas Mónica, en Burela, atribuye la escasez a que «está de moda el alquiler turístico» y añade que los inquilinos aceptan cualquier sitio porque no encuentran nada. En Cisbar constatan que algunos propietarios dejaron la temporada y otros suspendieron el alquiler ante los decretos del Gobierno sobre la vivienda.\n\nEn BFL, en Foz, reconocen que la oferta «no es suficiente» y que el precio depende de la zona. Desde Inmoriba apuntan además que parte de los dueños espera al resultado de las elecciones del 29N antes de volver a poner sus pisos en el mercado.",
+      "sources": [
+        {
+          "name": "El Progreso",
+          "url": "https://www.elprogreso.es/articulo/a-marina/alquiler-larga-duracion-marina-poco-oferta-precios-500-euros/202610250500002008869.html"
+        },
+        {
+          "name": "La Voz de Galicia",
+          "url": "https://www.lavozdegalicia.es/noticia/amarina/2026/10/22/ofertas-pisos-alquiler-siguen-congeladas-salen-mercado-endurecen-clausulas/00031792686462658940632.htm"
+        },
+        {
+          "name": "La Voz de Galicia",
+          "url": "https://www.lavozdegalicia.es/noticia/amarina/2026/08/28/span-langglalugar-ano-e-servizo-vez-hai-mais-turismo-supermercadospan/0003_202608X28C3991.htm"
+        }
+      ],
+      "publishedAt": "2026-10-25T05:45:00Z",
+      "imageURL": "/images/2026-10-25-local-002.jpg"
+    },
+    {
+      "id": "2026-10-25-national-001",
+      "category": "national",
+      "headline": "Cien detenidos en Barcelona tras una protesta juvenil que derivó en disturbios y saqueos",
+      "subtitle": "Encapuchados convocados por redes sociales levantaron barricadas e incendiaron contenedores en el centro, en una jornada que siguió la estela de las protestas francesas.",
+      "body": "Un centenar de personas fueron detenidas este sábado en el centro de Barcelona después de que una concentración juvenil convocada por redes sociales, sin organizador identificado, derivara en disturbios, saqueos y enfrentamientos con los Mossos d'Esquadra.\n\nLos incidentes comenzaron poco después de las 18.30 en la plaza de Catalunya, donde se congregaron grupos de jóvenes, muchos menores y vestidos de negro, bajo el lema «Instituts Indignats», una traducción del movimiento «Lycées Indignés» que impulsa las protestas estudiantiles en Francia. Los participantes incendiaron papeleras, tumbaron motos aparcadas y levantaron barricadas con contenedores en el cruce de la calle Bergara, que después prendieron fuego. También ardieron sombrillas de terrazas, entre ellas las del bar Zúrich, y quedaron destrozados los cristales de dos marquesinas de autobús y un semáforo.\n\nLa Guardia Urbana cerró los accesos a la plaza entre Urquinaona y Universitat y los comercios echaron las persianas, aunque algunos sufrieron saqueos. Los disturbios se extendieron a Las Ramblas.\n\n## Condena institucional\n\nEl president de la Generalitat, Salvador Illa, condenó «de forma rotunda» los hechos: «La violencia no tiene cabida en Catalunya». Añadió que protestar es un derecho democrático pero que agredir, intimidar o causar destrozos no lo es, y aseguró que se encargará de que «quien lo haga, lo pague». La acampada por la vivienda instalada en el centro de la plaza no se había visto afectada por las cargas.",
+      "sources": [
+        {
+          "name": "El Mundo",
+          "url": "https://www.elmundo.es/cataluna/2026/10/24/6adcf26cfdddff1e2a8b4599.html"
+        },
+        {
+          "name": "El País",
+          "url": "https://elpais.com/espana/catalunya/2026-10-24/centenares-de-jovenes-violentos-destrozan-el-centro-de-barcelona.html"
+        },
+        {
+          "name": "20minutos",
+          "url": "https://www.20minutos.es/cataluna/barcelona/protesta-estudiantes-desemboca-incidentes-policia-centro-barcelona_7053010_0.html"
+        }
+      ],
+      "publishedAt": "2026-10-25T05:55:00Z",
+      "imageURL": "/images/2026-10-25-national-001.jpg"
+    },
+    {
+      "id": "2026-10-25-national-002",
+      "category": "national",
+      "headline": "Feijóo promete rebajar impuestos a jóvenes, familias y autónomos y avisa contra «lo de Francia»",
+      "subtitle": "En un mitin en Vigo exigió a Zapatero que explique el origen de las joyas y prometió no indultar a corruptos si gobierna, a cinco días de las elecciones del 29N.",
+      "body": "El líder del PP, Alberto Núñez Feijóo, se comprometió este sábado en Vigo a una rebaja fiscal dirigida a jóvenes, familias y autónomos, y utilizó el estallido social francés como advertencia contra quienes, a su juicio, alimentan la protesta callejera. «¿Queremos lo de Francia?», preguntó durante el mitin.\n\nFeijóo presentó su oferta como parte de una «reconstrucción nacional» y cargó contra el PSOE por los casos de corrupción que salpican al Gobierno. Exigió a José Luis Rodríguez Zapatero que explique «de dónde salieron las joyas» que guarda en su despacho y que «pida perdón a los españoles», y advirtió de que si llega a La Moncloa no va a «indultar corruptos»: «Me encargaré de que paguen por todo».\n\nEl PP afronta la recta final de la campaña reforzando sus listas con consejeros y alcaldes, aprovechando la excepción que permiten los estatutos autonómicos. En el otro lado, Pedro Sánchez apeló al voto progresista para evitar la «involución» que atribuye a PP y Vox y su «lista interminable de recortes», y prometió blindar el derecho al aborto en la Constitución.\n\nLos comicios se celebran el próximo 29 de noviembre, con las encuestas todavía abiertas y el debate a dos entre Sánchez y Feijóo fijado para el 16 de noviembre.",
+      "sources": [
+        {
+          "name": "20minutos",
+          "url": "https://www.20minutos.es/nacional/feijoo-promete-rebaja-fiscal-jovenes-familias-autonomos-critica-quien-agita-calle-queremos-francia_7052963_0.html"
+        },
+        {
+          "name": "El País",
+          "url": "https://elpais.com/espana/2026-10-24/feijoo-advierte-al-psoe-de-que-no-va-a-indultar-corruptos-si-gobierna-me-encargare-de-que-paguen-por-todo.html"
+        },
+        {
+          "name": "Europa Press",
+          "url": "https://www.europapress.es/galicia/noticia-feijoo-llama-reconstruccion-nacional-frente-quien-agita-calle-queremos-disturbios-francia-20261024142041.html"
+        }
+      ],
+      "publishedAt": "2026-10-25T06:00:00Z",
+      "imageURL": "/images/2026-10-25-national-002.jpg"
+    },
+    {
+      "id": "2026-10-25-national-003",
+      "category": "national",
+      "headline": "El Rey, operado de una catarata en el ojo izquierdo en Oviedo",
+      "subtitle": "La intervención estaba prevista y Felipe VI pasará la noche en la clínica asturiana, después de presidir con la Reina y sus hijas los actos del Pueblo Ejemplar en Llanes.",
+      "body": "Felipe VI fue operado este sábado de una catarata en el ojo izquierdo en una clínica de Oviedo. La intervención estaba prevista y el monarca pasará la noche en el centro sanitario asturiano, según confirmaron fuentes de la Casa Real.\n\nLa operación se produjo el mismo día en que los Reyes, acompañados de la princesa Leonor y la infanta Sofía, asistieron en Llanes a los actos del Pueblo Ejemplar de Asturias, que este año reconocía seis siglos de tradición marinera en la villa costera. La jornada había dejado además otra imagen: la reina Letizia sufrió una aparatosa caída al resbalar en una embarcación en el puerto llanisco.\n\nLa catarata es una opacidad del cristalino que se corrige con una intervención ambulatoria de unos minutos y que, en la sanidad pública española, es una de las operaciones más frecuentes. La Casa Real no ha precisado cuándo retomará el Rey su agenda, aunque no hay actos oficiales previstos para los próximos días.",
+      "sources": [
+        {
+          "name": "El País",
+          "url": "https://elpais.com/espana/2026-10-24/felipe-vi-operado-de-cataratas-del-ojo-izquierdo-en-oviedo.html"
+        },
+        {
+          "name": "El Mundo",
+          "url": "https://www.elmundo.es/espana/2026/10/24/6add1778fdddff48738b457b.html"
+        },
+        {
+          "name": "20minutos",
+          "url": "https://www.20minutos.es/nacional/rey-felipe-vi-es-operado-cataratas-ojo-izquierdo-oviedo_7053032_0.html"
+        }
+      ],
+      "publishedAt": "2026-10-25T06:05:00Z",
+      "imageURL": "/images/2026-10-25-national-003.jpg"
+    },
+    {
+      "id": "2026-10-25-national-004",
+      "category": "national",
+      "headline": "La primera vacuna personalizada contra el melanoma reduce un 42% el riesgo de recaída",
+      "subtitle": "Los resultados del ensayo INTerpath-001, presentados en el congreso de oncología médica celebrado en Madrid, confirman el beneficio y también delimitan su alcance.",
+      "body": "El congreso de la Sociedad Europea de Oncología Médica (ESMO) reunió este sábado en Madrid a más de 7.000 personas para escuchar los resultados detallados del ensayo INTerpath-001, la primera vacuna personalizada de ARN mensajero contra el melanoma que llega a fase III con datos maduros.\n\nEn el estudio participaron 1.137 pacientes con melanoma cutáneo de alto riesgo completamente extirpado mediante cirugía. Añadir la vacuna —intismeran autógene— al tratamiento con el anticuerpo pembrolizumab redujo un 42% el riesgo de recaída o muerte frente a administrar solo este último fármaco. A los dos años, el 82,2% de quienes recibieron la combinación seguía libre de recurrencia, frente al 70% del grupo de control.\n\n## Lo que todavía no se sabe\n\nLa presentación corrió a cargo de Georgina Long, directora médica del Melanoma Institute Australia. La mejora es clínicamente relevante en una enfermedad que puede reaparecer tras la cirugía y extenderse a otros órganos, pero los datos de supervivencia global aún no son maduros y el ensayo continúa, de modo que no es posible saber cuántos años de vida adicionales aporta el tratamiento.\n\nMerck y Moderna anunciaron en agosto reducciones significativas en la recurrencia, lo que disparó el valor en bolsa de ambas compañías. Los resultados completos confirman el beneficio y, al mismo tiempo, enfrían parte de las expectativas que generó el anuncio.",
+      "sources": [
+        {
+          "name": "El País",
+          "url": "https://elpais.com/salud-y-bienestar/2026-10-24/la-primera-vacuna-contra-el-melanoma-abre-una-nueva-via-para-tratamientos-personalizados-contra-el-cancer.html"
+        },
+        {
+          "name": "Wired",
+          "url": "https://www.wired.com/story/new-melanoma-vaccine-reduces-risk-of-tumor-reoccurrence-by-over-40-percent/"
+        },
+        {
+          "name": "El Mundo",
+          "url": "https://www.elmundo.es/salud/2026/10/24/6adba5a5e4d4d882258b45a2.html"
+        }
+      ],
+      "publishedAt": "2026-10-25T06:10:00Z",
+      "imageURL": "/images/2026-10-25-national-004.jpg"
+    },
+    {
+      "id": "2026-10-25-northernIreland-001",
+      "category": "northernIreland",
+      "headline": "Storm Boelo closes the Foyle Bridge and shuts down events across Northern Ireland",
+      "subtitle": "Gusts above 70mph hit the east coast on Saturday, an amber warning covers Antrim and Derry until Sunday morning, and forecasters say the worst is still to come.",
+      "body": "Storm Boelo brought gusts of more than 70mph (113kph) to the east coast of Northern Ireland on Saturday, closing the Foyle Bridge in Derry in both directions and forcing councils to shut parks, leisure centres and sports facilities across the north west.\n\nAn amber warning for parts of counties Antrim and Derry took effect at 21:00 on Saturday and runs until 10:00 on Sunday, with gusts of about 80mph or more forecast in exposed areas. The Met Office says power cuts are likely within that zone. A yellow warning covers the rest of Northern Ireland until midday on Sunday.\n\nFlights to and from Belfast City and Dublin airports were cancelled, along with several StenaLine sailings between Belfast and Cairnryan and between Dublin and Holyhead. Speed restrictions were imposed on all railway lines after a fallen branch at Lambeg affected services.\n\n## What has been called off\n\nDerry City and Strabane District Council closed parks, play parks, greenways and outdoor sports facilities for both days, with cemeteries and recycling centres shut on Sunday except for funerals. Several Parkrun events were cancelled, as were Halloween fireworks displays in Ballymoney and Cookstown.\n\nSport took the heaviest schedule hit. The Antrim Senior Hurling Championship final was postponed to 1 November, Glentoran's Irish Premiership match against Ballymena United was called off for a waterlogged pitch, the Women's Challenge Cup final at Windsor Park moved to 27 October and the Sunflower Trophy motorcycle meeting at Bishopscourt was cancelled outright.\n\nIn the Republic, more than 18,000 homes were without power by late afternoon, an orange wind warning covers Donegal, Galway, Leitrim, Mayo and Sligo until 09:00 on Sunday, and a car became stuck in soft sand at Rossnowlagh beach in Donegal.",
+      "sources": [
+        {
+          "name": "BBC News NI",
+          "url": "https://www.bbc.co.uk/news/articles/cr9dz9qdnndxo"
+        },
+        {
+          "name": "Derry Journal",
+          "url": "https://www.derryjournal.com/news/weather/storm-boelo-foyle-bridge-in-derry-closed-as-weather-warning-upgraded-9307651"
+        },
+        {
+          "name": "News Letter",
+          "url": "https://www.newsletter.co.uk/sport/football/northern-ireland/storm-boelo-games-off-including-high-profile-duncan-ferguson-debut-as-weather-hits-irish-league-fixtures-with-pitch-inspections-called-across-premiership-and-championship-9307385"
+        }
+      ],
+      "publishedAt": "2026-10-25T05:50:00Z",
+      "imageURL": "/images/2026-10-25-northernIreland-001.jpg"
+    },
+    {
+      "id": "2026-10-25-global-001",
+      "category": "global",
+      "headline": "Nearly 1,000 arrested as France's protests end in clashes for a second weekend",
+      "subtitle": "Officials counted 410,000 demonstrators and unions 800,000, with 70,000 police deployed; tear gas and water cannon followed largely peaceful marches in Paris, Lyon and Marseille.",
+      "body": "Almost 1,000 people were arrested across France on Saturday as hundreds of thousands joined another day of protests over the cost of living and conditions in schools, with skirmishes breaking out after nightfall in Paris, Marseille, Lyon and Bordeaux.\n\nAfter a day of mostly peaceful demonstrations, police fired tear gas and water cannon at the end of a march from Porte d'Italie to Porte de Vincennes in the capital. Interior Minister Laurent Nuñez said several thousand radical activists had gathered at the rear of the procession, including around 500 people identified as rioters, and that the arrest total would rise. Two people were seriously injured, in Toulouse and Clermont-Ferrand.\n\n## How the day was policed\n\nSome 70,000 officers were deployed and restrictions imposed in several cities to avoid a repeat of last weekend, when hundreds of businesses were looted and buildings torched in some of the worst disorder in modern French history. President Emmanuel Macron had decreed that only demonstrations organised by recognised trade unions would be permitted, and fast-track courts have jailed hundreds of people for vandalism, arson and looting.\n\nThe interior ministry put the national turnout at 410,000, while unions said about 800,000 marched. In Marseille, young people set rubbish bins alight and blocked streets with metal sheets; in Bordeaux, protesters pulled boards from a building to build a barricade; in Lyon, police used tear gas on a gathering the local prefecture had banned.\n\nFrench commentators and Spanish outlets alike read the day as a test of whether the state could contain a movement that has already outgrown its organisers.",
+      "sources": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c95ynd587ynzo"
+        },
+        {
+          "name": "El País",
+          "url": "https://elpais.com/internacional/2026-10-24/francia-contiene-el-aliento-ante-una-nueva-jornada-de-protestas.html"
+        },
+        {
+          "name": "El Mundo",
+          "url": "https://www.elmundo.es/internacional/2026/10/24/6adcf5e4fc6c8337488b4580.html"
+        },
+        {
+          "name": "20minutos",
+          "url": "https://www.20minutos.es/internacional/protestas-disturbios-francia-directo-cargas-policiales-varias-ciudades-mas-un-centenar-detenidos-todo-pais_7052983_6.html"
+        }
+      ],
+      "publishedAt": "2026-10-25T06:15:00Z",
+      "imageURL": "/images/2026-10-25-global-001.jpg"
+    },
+    {
+      "id": "2026-10-25-global-002",
+      "category": "global",
+      "headline": "Israeli bulldozers raze Hebron neighbourhoods and drive out hundreds of Palestinian families",
+      "subtitle": "The operation, announced by Netanyahu after two soldiers were killed at a checkpoint, has sealed off a city of 200,000 four days before Israel's election.",
+      "body": "The Israeli military has demolished homes and businesses in Hebron, cordoned off the occupied West Bank city and displaced hundreds of Palestinian families, according to local officials, in an operation announced by Prime Minister Benjamin Netanyahu on Friday.\n\nIt followed the killing of two Israeli soldiers by two Palestinian gunmen at a checkpoint. Three other soldiers were injured and both gunmen were killed. Netanyahu said buildings around the site of the attack and the neighbourhoods the gunmen came from would be destroyed, and the military said it had dozens of targets across the West Bank with operations lasting several days.\n\nHebron's mayor, Youssef al-Jaabari, said the demolitions centred on the Ein Deir Baha and Farsh al-Hawa neighbourhoods and hit homes, businesses, industrial sites and infrastructure. Dozens of families spent the night outside, some told to leave without their vehicles, with houses marked for demolition in spray paint. He believes the military intends to displace 2,500 people from roughly 0.35 square kilometres; the city's governor and deputy mayor said at least 200 families had already been displaced.\n\nIsrael routinely demolishes the homes of Palestinians suspected of attacking Israelis, a practice Israeli rights groups criticise as collective punishment. Netanyahu compared this operation to those in northern refugee camps in 2025 and said he had reviewed plans for the largest West Bank operation since 1967.\n\nThe timing is pointed: Israel votes in four days, and Netanyahu has built his campaign on security.",
+      "sources": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cqd09k1k7532o"
+        },
+        {
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/oct/24/israel-soldiers-raze-west-bank-neighbourhood-hebron-families-from-homes"
+        },
+        {
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/oct/23/netanyahu-orders-very-extensive-operation-west-bank-two-israeli-soldiers-killed"
+        }
+      ],
+      "publishedAt": "2026-10-25T06:20:00Z",
+      "imageURL": "/images/2026-10-25-global-002.jpg"
+    },
+    {
+      "id": "2026-10-25-global-003",
+      "category": "global",
+      "headline": "Lula rallies a million supporters on the eve of Brazil's knife-edge runoff",
+      "subtitle": "The president trails Flávio Bolsonaro in the polls, and El País's model gives him only three wins in ten, as both camps make their final case before Sunday's vote.",
+      "body": "More than a million people turned out for Luiz Inácio Lula da Silva in Brazil on the eve of a presidential runoff that polls suggest he is on course to lose, with Flávio Bolsonaro positioned as the favourite of both the surveys and the markets.\n\nThe runoff caps an election that both camps have framed as a referendum on two competing ideas of the country, and one that will shape Latin America's largest economy for years. The two candidates met in a televised debate in São Paulo on 18 October.\n\nThe polling picture is tight but not even. A statistical model built by El País gives Bolsonaro victory in roughly seven simulations out of ten, leaving Lula the other three, and finds no sign that the gap is closing fast enough for the president to overtake before polls open.\n\nTurnout and the last-minute transfer of votes from eliminated candidates are the variables that could still move the result. Lula's campaign has concentrated on turnout among poorer and younger voters who are less likely to vote in a runoff, while Bolsonaro has sought to consolidate the right behind a single candidacy.\n\nThe campaign has also played out unusually heavily online, with memes, algorithmic amplification and AI-made jingles doing work that rallies once did, and with questions raised about how platforms treated the two candidates' accounts. Counting begins on Sunday evening.",
+      "sources": [
+        {
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/oct/24/lula-da-silva-supporters-rally-eve-brazil-election-runoff-bolsonaro"
+        },
+        {
+          "name": "El País",
+          "url": "https://elpais.com/america/2026-10-24/puede-lula-remontar-a-flavio-bolsonaro-esto-es-lo-que-dicen-las-encuestas.html"
+        },
+        {
+          "name": "El Mundo",
+          "url": "https://www.elmundo.es/internacional/2026/10/25/6adcd212e9cf4a41288b456f.html"
+        }
+      ],
+      "publishedAt": "2026-10-25T06:25:00Z",
+      "imageURL": "/images/2026-10-25-global-003.jpg"
+    },
+    {
+      "id": "2026-10-25-global-004",
+      "category": "global",
+      "headline": "Ukraine says Starlink is stable again after days of capped drone connections",
+      "subtitle": "Defence minister Yevhenii Khmara said speeds above 400km/h are now possible, after Kyiv accused Trump of telling Musk to limit the network at 100mph.",
+      "body": "Ukraine's defence minister says the country again has a stable Starlink connection, after its military spent days operating with restricted satellite connectivity that it blamed on a political intervention from Washington.\n\nKyiv relies on Starlink and its military-grade counterpart, Starshield, to pilot drones, run logistics and communicate in areas without other infrastructure, drawing on a constellation of about 10,000 low Earth orbit satellites. Last week it said drones lost connection when travelling at 161km/h (100mph) or faster, and accused US President Donald Trump of instructing the network's owner, Elon Musk, to impose the limit.\n\nTrump denied doing so, then said Musk had \"put it back\". On Saturday, Defence Minister Yevhenii Khmara said speeds above 400km/h were now possible, indicating full capability had returned. \"This result is above all important for our front, for our soldiers, for the operation of drones, for logistics and for communications,\" he said.\n\nThe row unfolded alongside a wider dispute between Trump and Volodymyr Zelensky over Ukrainian strikes on Russian oil infrastructure. With midterm elections approaching, Trump has waived some sanctions on Russia and agreed to import Russian diesel for the US market, a move criticised by Ukraine and European allies; he has argued the refinery strikes pushed global prices higher. Russia is not authorised to use Starlink, so Ukrainian long-range drones and missiles lose the network over Russian territory.",
+      "sources": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cwkg5md14j8go"
+        },
+        {
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/oct/24/ukraine-zelenskyy-military-starlink-satellite-connection-stable-after-restrictions"
+        },
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/24/starlink-seems-to-be-working-normally-again-in-ukraine/"
+        }
+      ],
+      "publishedAt": "2026-10-25T06:30:00Z",
+      "imageURL": "/images/2026-10-25-global-004.jpg"
+    },
+    {
+      "id": "2026-10-25-global-005",
+      "category": "global",
+      "headline": "Kenya records its second Ebola death as the outbreak reaches western Africa",
+      "subtitle": "A 65-year-old relative of the first victim died in quarantine, seven patients remain in isolation and Nigeria says its single case is genetically linked to Kenya's strain.",
+      "body": "Kenya has recorded its second death from Ebola while handling its first outbreak of the disease, and Nigeria's health minister says the single case confirmed there appears genetically related to the strain identified in Kenya.\n\nThe Kenyan victim, a 65-year-old woman, was a close family member of the first patient — a man who travelled from the Democratic Republic of Congo, was treated in several Congolese hospitals and died in Nairobi on 5 October, days after arriving. She developed symptoms on 13 October while under quarantine and died after being isolated. Seven other patients are being treated at two isolation facilities: three more relatives of the first victim, three health workers and a hospital cleaner.\n\nThe health ministry says all cases sit within one cluster with no evidence of community spread. More than 4,000 people have died in Africa since Ebola was confirmed in DR Congo in May, making this the second deadliest outbreak on record, with more than 9,500 cases recorded in Congo alone. Kenya faces a steady risk of imported cases, according to the International Rescue Committee.\n\nThe Bundibugyo species involved is relatively rare and has no approved vaccine or treatment, though trials are under way. Kenya has added screening for travellers from Congo and nine other high-risk countries, and the US has warned its citizens against travelling there.",
+      "sources": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c6x2355448eyo"
+        },
+        {
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/oct/23/ebola-swiss-patient-nigeria-dr-congo-concerns-virus-spread"
+        },
+        {
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/oct/21/nigeria-first-ebola-case-africa-outbreak-latest"
+        }
+      ],
+      "publishedAt": "2026-10-25T06:35:00Z",
+      "imageURL": "/images/2026-10-25-global-005.jpg"
+    },
+    {
+      "id": "2026-10-25-tech-001",
+      "category": "tech",
+      "headline": "A third PHP2Shell bug will wait for a normal release, days after two flaws nearly broke the web",
+      "subtitle": "Developers spent the week patching two critical bugs in the language that runs most of the internet; a third, disclosed this weekend, will not get an emergency fix.",
+      "body": "PHP, the server-side language behind most of the web's sites, is still absorbing the fallout from two critical bugs tracked as PHP2Shell — flaws that were present in every release dating back to 2004 and let attackers run code on unpatched servers. Emergency releases went out last week, and the effects were not theoretical: dozens of UK government services went offline, and AWS disclosed that attacks began before the bugs were publicly revealed.\n\nThe Register reports that a third PHP2Shell bug, disclosed this weekend, will not receive an out-of-band fix. It is being held for the next scheduled release rather than triggering another emergency cycle, a judgement call about severity that puts the patch weeks away for anyone who cannot upgrade on demand. The same reporting has PHP's maintainers pointing at the supply-chain security firm Chainguard for putting large parts of the web at risk.\n\nThe more uncomfortable lesson is about speed. Wired argues the episode shows how AI has compressed the distance between a vulnerability becoming public and a working exploit appearing: models can read a patch, infer the flaw and write a weapon in hours rather than weeks, which leaves the traditional patch-then-worry window much thinner than it used to be.\n\nMost of the exposure sits in shared hosting, ageing content-management installations and appliances nobody remembers owning. Those are the machines that will still be unpatched when the next flaw lands.",
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/24/php-ocalypse-how-two-critical-web-bugs-almost-broke-the-internet/"
+        },
+        {
+          "name": "Wired",
+          "url": "https://www.wired.com/story/kernel-panic-the-php-meltdown-shows-how-ai-makes-bugs-more-exploitable/"
+        },
+        {
+          "name": "The Register",
+          "url": "https://www.theregister.com/security/2026/10/23/theres-a-third-php2shell-bug-but-it-wont-get-an-emergency-fix/5305208"
+        }
+      ],
+      "publishedAt": "2026-10-25T06:40:00Z",
+      "imageURL": "/images/2026-10-25-tech-001.jpg"
+    },
+    {
+      "id": "2026-10-25-tech-002",
+      "category": "tech",
+      "headline": "Apple's 'Pro and tell' event is expected to bring a touchscreen MacBook",
+      "subtitle": "Invitations point to redesigned MacBook Pro models with touch input and Apple Pencil support, a first for the company's laptops and a reversal of a long-held position.",
+      "body": "Apple holds its \"Pro and tell\" event next week, and the expectation across the trade press is a MacBook Pro refresh that finally puts a touchscreen on a laptop — a category Apple spent fifteen years arguing did not need one.\n\nThe Verge's preview pulls together the case: a redesigned MacBook Pro, a touch layer rather than a convertible hinge, and support for the Apple Pencil. The company has never shipped a Mac with touch input, and Steve Jobs dismissed the idea in 2010 on the grounds that a laptop screen is the wrong shape for fingers.\n\nThe harder problem is software. In a companion piece, the Verge argues Apple should study Lenovo's convertible laptops, which have iterated on stylus support and hinge design for a decade, and warns that bolting touch onto macOS without rethinking hit targets and window behaviour produces a machine that is awkward at both jobs.\n\n9to5Mac frames the refresh as a substantial upgrade with one significant catch, and notes the timing lands while Apple has just overtaken Nvidia as the most valuable company in the world on the back of iPhone Duo launch demand. An event built around professional Macs is a useful reminder that the company still sells them.",
+      "sources": [
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/tech/1018169/what-to-expect-apple-pro-and-tell-event-touchscreen-macbook-pro"
+        },
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/report/1018131/apple-macbook-touchscreen-stylus-pencil-lenovo-laptop-analysis"
+        },
+        {
+          "name": "9to5Mac",
+          "url": "https://9to5mac.com/2026/10/23/next-weeks-macbook-pro-could-be-huge-upgrade-but-with-one-problem/"
+        }
+      ],
+      "publishedAt": "2026-10-25T06:45:00Z",
+      "imageURL": "/images/2026-10-25-tech-002.jpg"
+    },
+    {
+      "id": "2026-10-25-tech-003",
+      "category": "tech",
+      "headline": "The apps that actually justify the iPhone Duo's folding screen",
+      "subtitle": "Reviewers spent launch week hunting for software that uses both halves of the display and found a short list of apps that rework their interface rather than stretch it.",
+      "body": "The iPhone Duo has been on sale for a week, and the reviews have converged on a familiar finding: the hardware is not the hard part. The interesting question is which apps do something with the extra screen that a normal phone cannot.\n\nTechCrunch's round-up and Wired's list of nine apps land on the same theme. The winners are the ones that renegotiate their layout — a control surface on one half and content on the other, a camera app that puts the shutter under a thumb and the preview above it, reading and note-taking apps that keep a document and a keyboard visible at once. The losers are apps that simply scale up, which produces a lot of empty space and a worse version of the phone experience.\n\nThat gap is a launch-price problem as much as a design one. Foldable owners pay a premium for a capability that only a fraction of their software uses, and developers have little incentive to rework layouts for a slice of the market that is still small.\n\nWired's \"eight things to know\" piece makes the same point from the other direction: the Duo is genuinely good at the handful of tasks it was designed around, and merely fine at everything else. Early adopters are effectively buying the roadmap.",
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/24/these-clever-apps-show-off-the-iphone-duos-potential/"
+        },
+        {
+          "name": "Wired",
+          "url": "https://www.wired.com/story/unique-apps-to-try-on-the-iphone-duo/"
+        },
+        {
+          "name": "Wired",
+          "url": "https://www.wired.com/story/8-things-to-know-about-the-apple-iphone-duo/"
+        }
+      ],
+      "publishedAt": "2026-10-25T06:50:00Z",
+      "imageURL": "/images/2026-10-25-tech-003.jpg"
+    },
+    {
+      "id": "2026-10-25-tech-004",
+      "category": "tech",
+      "headline": "Capcom confirms a breach exposing 11.7 million CAPCOM ID accounts",
+      "subtitle": "Attackers took email addresses and login metadata, changed passwords on 196 accounts and reached 43 records that also held dates of birth and nicknames.",
+      "body": "Capcom has confirmed that a third party gained access to customer data tied to CAPCOM ID, the account system used to sign in to its web services and play some of its games online. The company puts the number of affected records at 11,774,247 worldwide.\n\nThe exposed data is mostly account metadata rather than payment details: email addresses, the date and time an account was created, the number of logins, the timestamp of the last login and the IP address used for it. For 43 records the attackers also reached date of birth, gender, country or region and nickname. Passwords were changed without authorisation on 196 accounts, and Capcom says it has reset them.\n\nThe timeline is quick by industry standards. Capcom spotted suspicious activity on 19 October, set up an internal incident response headquarters the next day and informed its external security oversight committee, then notified Osaka Prefectural Police and Japan's Personal Information Protection Commission on 21 October. Public disclosure and user notification followed on 22 October.\n\nThe company says its emergency response is complete and that it has identified and addressed the attack method, which it has not described. CAPCOM ID services and its games remain available, and it says the investigation into the full impact continues.",
+      "sources": [
+        {
+          "name": "Engadget",
+          "url": "https://www.engadget.com/2296218/capcom-confirms-data-breach-that-affected-117-million-users/"
+        },
+        {
+          "name": "Mashable",
+          "url": "https://mashable.com/tech/capcom-data-breach-millions-id-accounts-impacted"
+        },
+        {
+          "name": "Help Net Security",
+          "url": "https://www.helpnetsecurity.com/2026/10/23/capcom-id-data-breach-11-million-records-exposed"
+        }
+      ],
+      "publishedAt": "2026-10-25T06:55:00Z",
+      "imageURL": "/images/2026-10-25-tech-004.jpg"
+    },
+    {
+      "id": "2026-10-25-tech-005",
+      "category": "tech",
+      "headline": "How Cerebras fits trillion-parameter models onto racks of single wafers",
+      "subtitle": "With 44GB of on-chip memory per wafer and terabytes needed for frontier weights alone, the company splits models across chips and pipelines them together.",
+      "body": "Cerebras has published an explanation of how it serves trillion-parameter frontier models on hardware that was not designed around the assumption of many small chips talking to each other over a network.\n\nA single WSE-3T wafer carries 44GB of on-chip memory. A trillion-parameter model needs terabytes for its weights alone, so the model cannot fit on one wafer however fast that wafer is. The company's answer is to work out the memory each slice of the model needs for its weights and its request state, distribute the model across wafers, and connect the wafers into a pipeline. Each additional wafer contributes both compute and on-chip memory, so the same design scales past the capacity of any single chip.\n\nCerebras has done this before at this scale. It served Moonshot AI's Kimi K2.6, the first trillion-parameter open-weight model it hosted, at approaching 1,000 tokens per second as measured by Artificial Analysis — roughly 6.7 times faster than the next-fastest GPU cloud at the time. Fast inference matters most for agentic coding, where the model is called repeatedly inside a loop.\n\nThe catch is availability. Cerebras inference remains an enterprise proposition rather than a consumer one, and the company's own blog notes that a smarter model will not rescue a badly built harness around it — the speed only pays off if the surrounding software is designed for it.",
+      "sources": [
+        {
+          "name": "Cerebras",
+          "url": "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras"
+        },
+        {
+          "name": "Cerebras",
+          "url": "https://www.cerebras.ai/blog/cerebras-kimi-k2-Enterprise"
+        },
+        {
+          "name": "Reddit r/Cerebras",
+          "url": "https://www.reddit.com/r/Cerebras/comments/1xcudu7/how_cerebras_deploys_trillionparameter_ai_models"
+        }
+      ],
+      "publishedAt": "2026-10-25T07:00:00Z",
+      "imageURL": "/images/2026-10-25-tech-005.jpg"
+    },
+    {
+      "id": "2026-10-25-ai-001",
+      "category": "ai",
+      "headline": "Britain commits £100m to a 'world first' AI Biosecurity Lab",
+      "subtitle": "OpenAI and Anthropic add up to £200m in model credits, Google DeepMind and Basecamp Research partner the non-profit, and the package totals around £600m.",
+      "body": "The UK government will put £100m into a new AI Biosecurity Lab, which it describes as the world's first dedicated AI biosecurity organisation, with OpenAI and Anthropic together contributing up to £200m in model credits and support.\n\nThe lab will be an independent non-profit working with Google DeepMind and the London-based life sciences startup Basecamp Research. Its stated purpose is to use frontier AI to help the country understand, prevent, detect and respond to biological threats. The announcement does not name a site or an opening date, and the operating detail — how the lab will actually be run and who answers for its models — is still to be published.\n\nThe funding sits inside a wider package of roughly £600m announced on Saturday, ahead of Wednesday's Budget, and set out by the Treasury. A further £65m goes to developing medical countermeasures against pathogens, £120m to expand the existing AI Security Institute's work on guarding against the risks of increasingly capable systems, and £130m to cyber defences including the National Cyber Shield and a National Exposure and Real-Time Vulnerability Centre.\n\nAI minister Kanishka Narayan said the aim is for the lab to become a major global institution bringing together scientific expertise to protect people from emerging biological threats. Matt Clifford, who leads international affairs at Anthropic and was the prime minister's AI adviser until last June, welcomed what he called the government's foresight.",
+      "sources": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cqdjv8xllvyyo"
+        },
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/world/uk/uk-government-sets-out-800-million-ai-security-funding-2026-10-23"
+        },
+        {
+          "name": "The Independent",
+          "url": "https://www.the-independent.com/news/uk/politics/ai-uk-government-john-healey-pandemic-biosecurity-b3072601.html"
+        },
+        {
+          "name": "Bloomberg",
+          "url": "https://uk.finance.yahoo.com/news/uk-vows-100-million-biosecurity-230100738.html"
+        }
+      ],
+      "publishedAt": "2026-10-25T07:05:00Z",
+      "imageURL": "/images/2026-10-25-ai-001.jpg"
+    },
+    {
+      "id": "2026-10-25-ai-002",
+      "category": "ai",
+      "headline": "Nvidia's role as AI financier faces its first big test as the neoclouds slide",
+      "subtitle": "Credit worries are hitting the rented-GPU companies that buy Nvidia chips with borrowed money, and Solidigm shelved its IPO as investors reassessed the buildout.",
+      "body": "The companies that rent out GPU capacity — the neoclouds — took a market hit this week, and with them the assumption that has quietly underpinned the AI boom: that demand for compute is deep enough to justify any amount of borrowed money spent building it.\n\nNvidia's position is unusual. It sells the chips, and it has also become a financier of the customers buying them, through equity stakes and backstops that keep orders flowing. CNBC reports that this dual role now faces its first serious test, as neocloud shares fall and credit markets begin pricing the risk of the debt they carry. The same reporting covers mounting credit risk across the buildout and SK Hynix scrapping the IPO of its memory subsidiary Solidigm.\n\nThe week's own rhetoric is the tell. Jensen Huang told Nvidia's GTC showpiece that demand from neoclouds was \"off the charts\" — but that capital was scarce. A supplier that finances its customers books revenue when it ships, not when the customer earns the money to pay for it, and the gap between those two events is exactly where trouble lives.\n\nWhat happens next depends on whether this is a repricing of a crowded trade or the start of a genuine funding squeeze. AI funding fears rattled Wall Street on the same day, which suggests investors have stopped treating the buildout as a one-way bet.",
+      "sources": [
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/10/24/nvidias-role-as-ai-financier-faces-first-big-test-as-neoclouds-take-market-hit.html"
+        },
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/10/23/ai-turmoil-neoclouds-struggle-credit-risks-jump-solidigm-pulls-ipo.html"
+        },
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/investingclub/2026/10/24/ai-funding-fears-rattle-wall-street-heres-how-were-adjusting-our-portfolio.html"
+        }
+      ],
+      "publishedAt": "2026-10-25T07:10:00Z",
+      "imageURL": "/images/2026-10-25-ai-002.jpg"
+    },
+    {
+      "id": "2026-10-25-ai-003",
+      "category": "ai",
+      "headline": "Pennsylvania now requires labels on AI-generated advertisements",
+      "subtitle": "Governor Josh Shapiro signed the Artificial Intelligence Deceptive Advertising Act on Thursday; it takes effect in 60 days and leaves political ads untouched.",
+      "body": "Pennsylvania has become one of the first US states to put an AI labelling requirement on advertising. Governor Josh Shapiro signed the Artificial Intelligence Deceptive Advertising Act, Senate Bill 806, on Thursday, and the law takes effect in 60 days.\n\nAny ad that has been \"significantly modified or generated by artificial intelligence\" and creates a false consumer perception must carry a label in the same format as the ad itself — text for text, and an audible disclaimer for audio, on screen long enough to read for video. The rule applies regardless of where an ad was made, so a national campaign expected to air in Pennsylvania has to label for Pennsylvania.\n\nThe bill cleared the Senate 48-2 in June and the House 163-40 on 7 October, with Senator Nick Pisciottano, a Democrat from Allegheny County, as sponsor. Pisciottano said Pennsylvania moved fast and predicted that either the federal government or a large number of states would follow. Consumer and privacy groups have objected that the thresholds are vague and the exemptions broad.\n\nThe obvious gap is politics. The law does not cover political advertising, which is where AI fakery has been most visible in the state: a Republican gubernatorial campaign ad this week ran a deepfake of Shapiro speaking for a full minute before disclosing that it was synthetic.",
+      "sources": [
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1018187/pennsylvania-ai-deceptive-advertising-act"
+        },
+        {
+          "name": "CBS Pittsburgh",
+          "url": "https://www.cbsnews.com/pittsburgh/news/pennsylvania-disclosures-ai-generated-ads"
+        },
+        {
+          "name": "KingSpry",
+          "url": "https://kingspry.com/new-law-requires-disclosure-of-ai-generated-ad-content"
+        }
+      ],
+      "publishedAt": "2026-10-25T07:15:00Z",
+      "imageURL": "/images/2026-10-25-ai-003.jpg"
+    },
+    {
+      "id": "2026-10-25-ai-004",
+      "category": "ai",
+      "headline": "Anthropic's pre-IPO maths: $16.8bn a quarter and a $200bn prize for Big Tech",
+      "subtitle": "Revenue rose nearly 50% quarter on quarter ahead of a listing, with early backers Google and Amazon holding stakes that could be worth about $200bn.",
+      "body": "Anthropic has told investors that quarterly revenue rose nearly 50% to $16.8bn ahead of its planned initial public offering, according to figures reported by Simon Willison. If that run rate holds, the company is on course for annual revenue of a scale that would have seemed implausible for an enterprise software business three years ago.\n\nThe gains are not evenly distributed. TechCrunch reports that early backers are looking at stakes worth extraordinary sums, and La Información puts the prize for Google and Amazon at around $200bn between them — a return that reframes their cloud deals with Anthropic as the most valuable venture investments either company has made.\n\nThat is the awkward part of the story. A large share of Anthropic's revenue is spent on compute bought from the same companies that own it, so the growth and the returns are partly the same money moving in a circle. Public-market investors will have to decide how much they care about that, and at what valuation the circle stops looking like a virtuous one.\n\nAnthropic is not alone in testing the appetite. Rivals have raised at valuations that assume continued exponential growth, and the reception for the first of these listings will set the price for everyone behind it.",
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/23/what-some-of-anthropics-backers-are-reportedly-worth-before-its-ipo/"
+        },
+        {
+          "name": "Simon Willison",
+          "url": "https://simonwillison.net/2026/Oct/15/anthropic-tells-investors/"
+        },
+        {
+          "name": "La Información",
+          "url": "https://www.20minutos.es/lainformacion/empresas/google-amazon-botin-200-000-millones-que-esconde-salida-bolsa-anthropic_7052658_0.html"
+        }
+      ],
+      "publishedAt": "2026-10-25T07:20:00Z",
+      "imageURL": "/images/2026-10-25-ai-004.jpg"
+    }
+  ]
+}
