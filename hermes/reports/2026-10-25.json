@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-25",
+  "published": true,
+  "publishedAt": "2026-10-25T05:06:00Z",
+  "sections": {
+    "present": ["local", "national", "northernIreland", "global", "tech", "ai"],
+    "missing": []
+  },
+  "storiesWithoutPhoto": [],
+  "validatorWarnings": [],
+  "validatorErrors": [],
+  "workarounds": [
+    "El País's legacy portada RSS and both RTVE feeds served 2020/2022 items. Swapped El País to https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/portada and dropped RTVE entirely.",
+    "Nine drafted source URLs 404'd on first check (Wired and Register PHP2Shell slugs, three CNBC neocloud links, TechCrunch and Simon Willison Anthropic links, one 20minutos slug spelled 'cientenar' instead of 'centenar'). A single batch URL checker caught all of them and each was replaced with the real permalink recovered from the RSS index before publishing.",
+    "Cron mode blocks shell heredocs, so the feed harvesters (six Spanish/Galician outlets, BBC, Guardian, and eight tech outlets) were written as Python files under ~/.hermes/cache/scratch and run directly, producing an 844-item local index that could be grepped for free instead of spending web_search calls.",
+    "merge-sections.mjs strips imageURL on re-merge, so the corrected edition had to go back through publish-and-push.mjs (which re-runs photo fetch) rather than being validated and pushed directly."
+  ],
+  "needsHumanAttention": false,
+  "humanAttentionReason": null,
+  "notes": "Two publish passes: the 05:05 edition validated with three paragraph-length warnings (90, 86 and 86 words); paragraphs were split and the 05:06 edition passed with zero warnings. Story counts: local 2, national 4, northernIreland 1, global 5, tech 5, ai 4 — tech hit its pinned 5, global ran 5 of a 4-8 range, ai 4 of 4-7. Most tech and AI stories on the day were single-outlet, so third sources came from genuine same-story cross-coverage (PHP2Shell across TechCrunch/Wired/Register, Capcom across Engadget/Mashable/Help Net Security) rather than padding. Reuters returns 401 to curl — bot-block, inconclusive, left in place. All 21 articles carry a photo pulled from the primary source's og:image."
+}
