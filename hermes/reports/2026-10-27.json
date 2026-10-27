@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-27",
+  "published": true,
+  "publishedAt": "2026-10-27T05:08:01Z",
+  "sections": {
+    "present": ["local", "national", "northernIreland", "global", "tech", "ai"],
+    "missing": []
+  },
+  "storiesWithoutPhoto": [],
+  "validatorWarnings": [],
+  "validatorErrors": [],
+  "workarounds": [
+    "El País and RTVE RSS feeds were serving 2020-dated items; used El Mundo and Europa Press as the primary national sources instead.",
+    "Belfast Telegraph RSS failed to fetch across three endpoint variants; northernIreland was sourced from BBC News NI and the News Letter.",
+    "Only two local stories cleared the three-citable-sources bar (metal strike settlement, Congress candidatures for Lugo). Shipped two rather than padding to three.",
+    "openai.com, thelogic.co and notebookcheck.org return 403 to curl and aireleasetracker.com returned 429; all four resolve in a browser and were kept as sources rather than swapped for worse ones.",
+    "First publish attempt passed with one warning (ai-001 paragraph 3 at 81 words); re-merged with the paragraph split and republished clean."
+  ],
+  "needsHumanAttention": false,
+  "humanAttentionReason": null,
+  "notes": "Yesterday's edition (2026-10-26) never shipped and there was no archive for it, so dedupe was done against 2026-10-24 and 2026-10-25. All six sections shipped on the first merge that passed validation; 21 articles, 21 photos. Commit 6b564c4."
+}
