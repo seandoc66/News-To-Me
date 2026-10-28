@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-28T05:08:42Z",
+  "generatedAt": "2026-10-28T05:09:41Z",
   "config": {
     "sections": {
       "local": {
@@ -204,13 +204,12 @@
       "category": "national",
       "headline": "Medio millar de tractores cerca Madrid para exigir un plan de choque para el campo",
       "subtitle": "Asaja, COAG y Unión de Uniones, sin UPA, avanzan desde cinco puntos hasta el Ministerio de Agricultura bajo el lema «Por un campo con futuro», el mismo día en que la EPA destruye 58.300 empleos agrarios.",
-      "body": "Cinco columnas formadas por medio millar de tractores confluyeron este miércoles en la plaza de Colón para marchar después hacia la sede del Ministerio de Agricultura, Pesca y Alimentación. Las marchas partieron de El Espinar, Buitrago de Lozoya, Guadalajara, Torrejón de la Calzada y Arganda del Rey.\n\nBajo el lema «Por un campo con futuro», Asaja, COAG y Unión de Uniones, con la ausencia de UPA, reclaman un plan de choque frente a la escalada de costes y exigen participar en el diseño de la futura PAC. Los productores cifran en 200 millones de euros el sobrecoste de la sementera y denuncian que casi la mitad del sector se ha quedado sin las ayudas a los fertilizantes.\n\nLa protesta coincidió con la publicación de la EPA del tercer trimestre, que refleja un castigo severo para el sector primario: la agricultura perdió 58.300 ocupados y sumó 18.000 parados, justo cuando arranca la campaña de siembra. Las organizaciones sostienen que el encarecimiento de los insumos y la falta de ayudas dejan sin margen a las explotaciones más pequeñas.",
-      "photoCandidate": {
-        "url": "https://images.ecestaticos.com/Yg5bJowjt7t5B1q4Tkz8Z1nUcEY=/0x188:2272x1381/600x315/filters:fill(white):format(jpg):quality(99):watermark(f.elconfidencial.com/file/65c/43d/0ca/65c43d0ca5dbd5ff8f19b44167343db9.png,0,275,1)/f.elconfidencial.com/original/dbd/33a/c6a/dbd33ac6a667b450d90a9a1e15babdd6.jpg",
-        "description": "og:image from El Confidencial",
-        "license": "fair-use"
-      },
+      "body": "Cinco columnas formadas por medio millar de tractores confluyeron este miércoles en la plaza de Colón para marchar después hacia la sede del Ministerio de Agricultura, Pesca y Alimentación. Las marchas partieron de El Espinar, Buitrago de Lozoya, Guadalajara, Torrejón de la Calzada y Arganda del Rey.\n\nLos vehículos empezaron a llegar a la ciudad a primera hora, con entrada prevista a las 11.00; a las 13.00 se concentraban en Colón para subir a pie hacia Atocha, y la movilización autorizada debía terminar a las 18.00. La protesta obligó a cortar el acceso a varias calles del centro.\n\nBajo el lema «Por un campo con futuro», Asaja, COAG y Unión de Uniones, con la ausencia de UPA, reclaman un plan de choque frente a la escalada de costes, un gasóleo profesional bonificado y participar en el diseño de la futura PAC. Los productores cifran en 200 millones de euros el sobrecoste de la sementera y denuncian que casi la mitad del sector se ha quedado sin las ayudas a los fertilizantes.\n\nLa protesta coincidió con la publicación de la EPA del tercer trimestre, que refleja un castigo severo para el sector primario: la agricultura perdió 58.300 ocupados y sumó 18.000 parados, justo cuando arranca la campaña de siembra. Las organizaciones sostienen que el encarecimiento de los insumos y la falta de ayudas dejan sin margen a las explotaciones más pequeñas.",
       "sources": [
+        {
+          "name": "El Mundo",
+          "url": "https://www.elmundo.es/como/2026/10/27/6ae0c8d4fdddff0b088b459d.html"
+        },
         {
           "name": "El Confidencial",
           "url": "https://www.elconfidencial.com/espana/2026-10-28/tractorada-madrid-costes-paro-agrario_4453760/"
@@ -224,7 +223,8 @@
           "url": "https://www.elcorreogallego.es/galicia/2026/10/27/medio-siglo-tractoradas-campo-colapsa-ciudad-santiago-135823597.html"
         }
       ],
-      "publishedAt": "2026-10-28T06:02:00Z"
+      "publishedAt": "2026-10-28T06:02:00Z",
+      "imageURL": "/images/2026-10-28-national-002.jpg"
     },
     {
       "id": "2026-10-28-national-003",
