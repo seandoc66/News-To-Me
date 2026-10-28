@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-28",
+  "published": true,
+  "publishedAt": "2026-10-28T05:09:41Z",
+  "sections": {
+    "present": ["local", "national", "northernIreland", "global", "tech", "ai"],
+    "missing": []
+  },
+  "storiesWithoutPhoto": [],
+  "validatorWarnings": [],
+  "validatorErrors": [],
+  "workarounds": [
+    "Derry Journal, Sky News, Reuters, PBS NewsHour and The Hacker News all return 401/403 to curl but resolve normally in a browser; kept as sources rather than swapped for worse ones.",
+    "The first publish shipped 2026-10-28-national-002 without a photo: El Confidencial's og:image is a 600x315 variant, below fetch-photos' 640x360 floor, and merge-sections rebuilds the archive from the drafts rather than re-reading photoCandidate on a re-merge. Fixed by adding an El Mundo piece on the tractorada as the first source (a large og:image and a third independent outlet), deleting the archive and re-merging from drafts — 19/19 photos on the third publish.",
+    "Two publishes were needed beyond the first for that photo fix; each re-publish re-validated cleanly, so nothing partial ever reached latest.json.",
+    "Guardian article pages refuse web_extract (fetch failure, not 404); Flávio Bolsonaro and the Trump/Venezuela story were written from El Mundo, Al Jazeera and 20minutos detail plus the Guardian headline, rather than quoting Guardian body copy.",
+    "Tech section researched via RSS cache plus three targeted web_search calls; the paid search budget was untouched beyond seven calls total across the run."
+  ],
+  "needsHumanAttention": false,
+  "humanAttentionReason": null,
+  "notes": "19 articles, all six sections, 19/19 photos. Commit 4740268. The ai section shipped 4 against a 4-7 target: only four AI stories cleared the three-citable-sources bar today (Genie 4, Anthropic's S-1 risk factors, the OpenAI gatekeeping row, the Home Office asylum-tools inquiry); the GPT-6.1 Terra safety angle and the parents' lawsuit against OpenAI were dropped as repeats of 27-Oct coverage or single-source stories."
+}
