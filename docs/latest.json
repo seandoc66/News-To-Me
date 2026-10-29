@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-28T05:09:41Z",
+  "generatedAt": "2026-10-29T05:08:41Z",
   "config": {
     "sections": {
       "local": {
@@ -15,8 +15,8 @@
             "url": "https://www.aquilugo.com"
           },
           {
-            "name": "SarriaXa",
-            "url": "https://sarriaxa.com"
+            "name": "GC Diario",
+            "url": "https://gcdiario.com"
           }
         ]
       },
@@ -25,24 +25,24 @@
         "max": 5,
         "sources": [
           {
-            "name": "La Vanguardia",
-            "url": "https://www.lavanguardia.com"
+            "name": "Europa Press",
+            "url": "https://www.europapress.es"
+          },
+          {
+            "name": "El Mundo",
+            "url": "https://www.elmundo.es"
           },
           {
             "name": "elDiario.es",
             "url": "https://www.eldiario.es"
           },
           {
-            "name": "Europa Press",
-            "url": "https://www.europapress.es"
+            "name": "El Correo Gallego",
+            "url": "https://www.elcorreogallego.es"
           },
           {
             "name": "20minutos",
             "url": "https://www.20minutos.es"
-          },
-          {
-            "name": "El Confidencial",
-            "url": "https://www.elconfidencial.com"
           }
         ]
       },
@@ -57,6 +57,10 @@
           {
             "name": "Derry Journal",
             "url": "https://www.derryjournal.com"
+          },
+          {
+            "name": "Belfast Telegraph",
+            "url": "https://www.belfasttelegraph.co.uk"
           }
         ]
       },
@@ -65,7 +69,7 @@
         "max": 8,
         "sources": [
           {
-            "name": "BBC",
+            "name": "BBC News",
             "url": "https://www.bbc.co.uk/news/world"
           },
           {
@@ -73,20 +77,20 @@
             "url": "https://www.theguardian.com/world"
           },
           {
+            "name": "France 24",
+            "url": "https://www.france24.com"
+          },
+          {
             "name": "Al Jazeera",
             "url": "https://www.aljazeera.com"
           },
           {
-            "name": "Euronews",
-            "url": "https://www.euronews.com"
+            "name": "DW",
+            "url": "https://www.dw.com"
           },
           {
-            "name": "El Mundo",
-            "url": "https://www.elmundo.es"
-          },
-          {
-            "name": "RTE",
-            "url": "https://www.rte.ie/news"
+            "name": "Sky News",
+            "url": "https://news.sky.com"
           }
         ]
       },
@@ -99,40 +103,6 @@
             "url": "https://techcrunch.com"
           },
           {
-            "name": "Ars Technica",
-            "url": "https://arstechnica.com"
-          },
-          {
-            "name": "The Verge",
-            "url": "https://www.theverge.com"
-          },
-          {
-            "name": "The Register",
-            "url": "https://www.theregister.com"
-          },
-          {
-            "name": "BleepingComputer",
-            "url": "https://www.bleepingcomputer.com"
-          },
-          {
-            "name": "9to5Mac",
-            "url": "https://9to5mac.com"
-          }
-        ]
-      },
-      "ai": {
-        "min": 4,
-        "max": 7,
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com"
-          },
-          {
-            "name": "Ars Technica",
-            "url": "https://arstechnica.com"
-          },
-          {
             "name": "The Verge",
             "url": "https://www.theverge.com"
           },
@@ -141,12 +111,46 @@
             "url": "https://www.wired.com"
           },
           {
+            "name": "Ars Technica",
+            "url": "https://arstechnica.com"
+          },
+          {
+            "name": "The Register",
+            "url": "https://www.theregister.com"
+          },
+          {
+            "name": "Reuters",
+            "url": "https://www.reuters.com"
+          }
+        ]
+      },
+      "ai": {
+        "min": 4,
+        "max": 7,
+        "sources": [
+          {
+            "name": "Ars Technica",
+            "url": "https://arstechnica.com"
+          },
+          {
             "name": "The Decoder",
             "url": "https://the-decoder.com"
           },
           {
-            "name": "The Guardian",
-            "url": "https://www.theguardian.com/technology"
+            "name": "The Verge",
+            "url": "https://www.theverge.com"
+          },
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com"
+          },
+          {
+            "name": "Hugging Face",
+            "url": "https://huggingface.co"
+          },
+          {
+            "name": "The Register",
+            "url": "https://www.theregister.com"
           }
         ]
       }
@@ -154,445 +158,426 @@
   },
   "articles": [
     {
-      "id": "2026-10-28-local-001",
+      "id": "2026-10-29-local-001",
       "category": "local",
-      "headline": "La reunión por el matadero de Sarria acaba sin fecha ni compromisos",
-      "subtitle": "Carniceros y ganaderos propusieron reactivar de inmediato las líneas de vacuno y porcino antes del grueso de la campaña de matanzas; el gobierno local no fijó calendario ni partidas.",
-      "body": "El Concello de Sarria y los profesionales del sector celebraron este martes una reunión sobre el matadero municipal que concluyó sin fecha ni compromisos para su reapertura. El alcalde, Claudio Garrido, y la concejala responsable del servicio, Geni Valcárcel, escucharon las demandas de carniceros y ganaderos.\n\nEl matadero lleva seis meses cerrado por varias averías, una situación que el sector considera especialmente preocupante por la llegada de las matanzas tradicionales. Los profesionales propusieron al gobierno local reactivar inmediatamente la línea de sacrificio de vacuno y la de porcino antes del grueso de la campaña, y reclamaron una respuesta urgente.\n\nLos ganaderos llevan semanas pidiendo explicaciones al Concello y el pleno ya aprobó por unanimidad reparar la instalación para impulsar su reapertura. Sin calendario ni partidas confirmadas tras el encuentro, el sector advierte de que la campaña de invierno depende de que las líneas vuelvan a funcionar.",
+      "headline": "La ola de robos de cable de cobre paraliza aserraderos de A Mariña",
+      "subtitle": "Fearmaga alerta de una «ola de robos» en instalaciones de toda Galicia: dos detenidos por el golpe de Alfoz y Lourenzá y cuatro más en Lugo por sacar cobre del alcantarillado, con paradas de producción de hasta dos semanas.",
+      "body": "La Federación Empresarial de Aserraderos y Rematantes de Maderas de Galicia (Fearmaga) ha alertado de una «ola de robos» de cable de cobre en instalaciones de sus asociados, después del asalto registrado el sábado por la noche en las naves de Maderas José Saiz en Alfoz y Lourenzá, que se saldó con dos detenidos que ingresaron en prisión.\n\nLa Guardia Civil localizó al menos una tonelada del cable sustraído escondida en un monte, lo que apunta a que los autores pensaban volver a recogerlo. El sector advierte de que el problema trasciende el valor del metal: sin cableado se detienen líneas de producción completas y algunas empresas han tenido que parar dos semanas o más. Fearmaga ha pedido una reunión con el delegado del Gobierno para analizar la situación.\n\nEl mismo patrón —cuadrillas que simulan trabajos de mantenimiento— aparece en la detención de cuatro personas en Lugo por la Policía Nacional. Un agente fuera de servicio observó a varias personas levantando tapas de alcantarillado y avisó; junto a una furgoneta, dos de los sospechosos dijeron primero que reparaban postes de luz y los otros dos, que salían de una alcantarilla, que atendían una avería de fibra óptica.\n\nEn el registro del vehículo aparecieron herramientas y maquinaria para cortar y extraer cableado, además de equipos de radiotransmisión. La Policía sostiene que estos grupos actúan a plena luz del día, con ropa de trabajo y elementos de señalización, y se reparten las tareas entre quienes bajan al subsuelo y quienes vigilan el entorno.",
       "sources": [
         {
           "name": "El Progreso",
-          "url": "https://www.elprogreso.es/articulo/sarria/reunion-entre-carniceros-ganaderos-gobierno-matadero-sarria-acaba-fecha-ni-compromisos-reabrirlo/202610280500002009813.html"
+          "url": "https://www.elprogreso.es/articulo/a-marina/temor-entre-empresas-mas-robos-cable-cobre/202610290500002010027.html"
         },
         {
           "name": "AquiLugo",
-          "url": "https://www.aquilugo.com/ribeira-sacra-sarria/sarria/ganaderos-sarria-piden-explicaciones-concello-reapertura-matadero/20261023162446111118.html"
+          "url": "https://www.aquilugo.com/lugo-comarca/lugo/cuatro-detenidos-robo-cobre-alcantarillado/20261028140727111332.html"
         },
         {
-          "name": "SarriaXa",
-          "url": "https://sarriaxa.com/es/news/sarria-aprueba-por-unanimidad-reparar-el-matadero-para-impulsar-su-reapertura/124546/"
+          "name": "GC Diario",
+          "url": "https://gcdiario.com/sucesos/611353-sucesos-detenidas-cuatro-personas-en-lugo-por-robar-cobre-a-traves-del-alcantarillado/"
         }
       ],
-      "publishedAt": "2026-10-28T06:00:00Z",
-      "imageURL": "/images/2026-10-28-local-001.jpg"
+      "publishedAt": "2026-10-29T05:20:00Z",
+      "imageURL": "/images/2026-10-29-local-001.jpg"
     },
     {
-      "id": "2026-10-28-national-001",
-      "category": "national",
-      "headline": "El paro sube en 95.900 personas pese al récord de 22,8 millones de ocupados",
-      "subtitle": "La agricultura perdió 58.300 empleos y la población activa creció en 169.500 personas; Economía se apoya en el dato desestacionalizado, con 70.000 ocupados más y 25 trimestres de avances.",
-      "body": "La Encuesta de Población Activa del tercer trimestre deja un balance flojo: el paro aumentó en 95.900 personas mientras el empleo alcanzó un nuevo récord de 22,8 millones de ocupados, con 73.600 puestos más que en el trimestre anterior. La población activa subió en 169.500 personas hasta 25,4 millones, el máximo de la serie.\n\nEl Ministerio de Economía destaca la creación de empleo en términos desestacionalizados, que considera la medida más fiable: 70.000 ocupados más y 25 trimestres consecutivos de avances. El departamento insiste además en que la ocupación marca máximos históricos y en que el aumento de la población activa explica buena parte del repunte del paro.\n\nEl campo es el sector más castigado. La agricultura destruyó 58.300 puestos de trabajo y sumó 18.000 parados más, un desplome que coincide con la protesta de Asaja, COAG y Unión de Uniones en Madrid. Los servicios, en cambio, sostuvieron la creación de empleo durante el trimestre y compensaron la atonía del resto de ramas.",
+      "id": "2026-10-29-local-002",
+      "category": "local",
+      "headline": "Lugo dona sangre y guarda silencio por las víctimas del siniestro de Urda",
+      "subtitle": "Vecinos llenaron el autobús de donación instalado en la Praza Maior tras el llamamiento urgente, y el Concello secundó el minuto de silencio de la FEMP con Galicia aún en duelo por Angrois.",
+      "body": "Los lucenses respondieron este miércoles al llamamiento urgente de donación de sangre lanzado tras el choque de dos trenes en Urda (Toledo), que dejó al menos 68 muertos y decenas de heridos. El vehículo de la agencia gallega de donación, estacionado en la Praza Maior ante el Círculo de las Artes, recibió a vecinos durante toda la tarde.\n\nLa convocatoria no respondía a ninguna necesidad de los hospitales de Lugo, sino a la idea de reforzar las reservas ante las necesidades derivadas del siniestro. A la solidaridad ciudadana se sumó el Concello, que secundó el minuto de silencio convocado por la Federación Española de Municipios y Provincias y celebrado con el recuerdo del Alvia de Angrois, en el que murieron 80 personas.\n\nEn Lugo el acto contó con la presencia del secretario xeral del PSdeG, José Ramón Gómez Besteiro. Otros ayuntamientos gallegos repitieron la concentración, con el presidente de la Xunta, Alfonso Rueda, en la de Pontevedra. Para este jueves están previstos un homenaje en el Parlamento de Galicia, en la sede de la Xunta en San Caetano y en la Delegación del Gobierno, además de cinco minutos de silencio en las estaciones convocados por el comité de empresa de Renfe.",
       "sources": [
         {
-          "name": "La Vanguardia",
-          "url": "https://www.lavanguardia.com/economia/20261027/11669087/flojo-tercer-trimestre-registra-aumento-paro-95-900-personas.html"
+          "name": "El Progreso",
+          "url": "https://www.elprogreso.es/articulo/lugo/lucenses-vuelcan-victimas-accidente-ferroviario-donan-sangre/202610282046432010064.html"
         },
         {
-          "name": "elDiario.es",
-          "url": "https://www.eldiario.es/economia/empleo-marco-nuevo-record-22-8-millones-trabajadores-paro-subio-95-900-personas-verano_1_13617404.html"
+          "name": "AquiLugo",
+          "url": "https://www.aquilugo.com/lugo-comarca/lugo/concello-convoca-minuto-silencio-memoria-victimas-accidente-ferroviario/20261028131046111329.html"
         },
         {
-          "name": "La Vanguardia",
-          "url": "https://www.lavanguardia.com/economia/20261027/11669094/epa-catalunya-tercer-trimestre-empleo-paro.html"
+          "name": "GC Diario",
+          "url": "https://gcdiario.com/sociedad/611531-accidente-ayuntamientos-gallegos-se-suman-al-pesar-por-las-victimas-del-siniestro-de-toledo-con-un-minuto-de-silencio/"
         }
       ],
-      "publishedAt": "2026-10-28T06:01:00Z",
-      "imageURL": "/images/2026-10-28-national-001.jpg"
+      "publishedAt": "2026-10-29T05:25:00Z",
+      "imageURL": "/images/2026-10-29-local-002.jpg"
     },
     {
-      "id": "2026-10-28-national-002",
+      "id": "2026-10-29-national-001",
       "category": "national",
-      "headline": "Medio millar de tractores cerca Madrid para exigir un plan de choque para el campo",
-      "subtitle": "Asaja, COAG y Unión de Uniones, sin UPA, avanzan desde cinco puntos hasta el Ministerio de Agricultura bajo el lema «Por un campo con futuro», el mismo día en que la EPA destruye 58.300 empleos agrarios.",
-      "body": "Cinco columnas formadas por medio millar de tractores confluyeron este miércoles en la plaza de Colón para marchar después hacia la sede del Ministerio de Agricultura, Pesca y Alimentación. Las marchas partieron de El Espinar, Buitrago de Lozoya, Guadalajara, Torrejón de la Calzada y Arganda del Rey.\n\nLos vehículos empezaron a llegar a la ciudad a primera hora, con entrada prevista a las 11.00; a las 13.00 se concentraban en Colón para subir a pie hacia Atocha, y la movilización autorizada debía terminar a las 18.00. La protesta obligó a cortar el acceso a varias calles del centro.\n\nBajo el lema «Por un campo con futuro», Asaja, COAG y Unión de Uniones, con la ausencia de UPA, reclaman un plan de choque frente a la escalada de costes, un gasóleo profesional bonificado y participar en el diseño de la futura PAC. Los productores cifran en 200 millones de euros el sobrecoste de la sementera y denuncian que casi la mitad del sector se ha quedado sin las ayudas a los fertilizantes.\n\nLa protesta coincidió con la publicación de la EPA del tercer trimestre, que refleja un castigo severo para el sector primario: la agricultura perdió 58.300 ocupados y sumó 18.000 parados, justo cuando arranca la campaña de siembra. Las organizaciones sostienen que el encarecimiento de los insumos y la falta de ayudas dejan sin margen a las explotaciones más pequeñas.",
-      "sources": [
-        {
-          "name": "El Mundo",
-          "url": "https://www.elmundo.es/como/2026/10/27/6ae0c8d4fdddff0b088b459d.html"
-        },
-        {
-          "name": "El Confidencial",
-          "url": "https://www.elconfidencial.com/espana/2026-10-28/tractorada-madrid-costes-paro-agrario_4453760/"
-        },
-        {
-          "name": "El Confidencial",
-          "url": "https://www.elconfidencial.com/espana/madrid/2026-10-28/cortes-trafico-madrid-28-octubre-tractorada-horario-calles-afectadas-1qrt_4454245/"
-        },
-        {
-          "name": "El Correo Gallego",
-          "url": "https://www.elcorreogallego.es/galicia/2026/10/27/medio-siglo-tractoradas-campo-colapsa-ciudad-santiago-135823597.html"
-        }
-      ],
-      "publishedAt": "2026-10-28T06:02:00Z",
-      "imageURL": "/images/2026-10-28-national-002.jpg"
-    },
-    {
-      "id": "2026-10-28-national-003",
-      "category": "national",
-      "headline": "La jueza del caso Ceuta reprocha al CNI una colaboración «escueta»",
-      "subtitle": "El juzgado considera «esencial» interrogar a dos agentes del centro; Interior sostiene que no hubo aviso de un «riesgo real» y que la entrada masiva «no era previsible».",
-      "body": "La jueza que instruye el caso de la entrada masiva de migrantes en Ceuta reprochó al Centro Nacional de Inteligencia una colaboración «escueta» y consideró «esencial» interrogar a dos de sus agentes, según las diligencias conocidas este martes. El juzgado quiere precisar qué información manejaba el servicio secreto sobre la concentración previa en la frontera.\n\nEn paralelo, el Ministerio del Interior trasladó a la instructora que no recibió avisos de un «riesgo real» y que la entrada «no era previsible». Los consejeros ceutíes que declararon como testigos describieron en cambio una entrada organizada y una cierta pasividad de los gendarmes marroquíes, una versión que matiza la del departamento.\n\nLa petición se suma a la declaración de los dos mandos que comparecieron la semana pasada y que, según sus propios relatos, no recibieron orden de cerrar la valla. El interrogatorio de los agentes del CNI determinará ahora si la causa se amplía hacia el ámbito de la inteligencia o se queda en la cadena de mando policial.",
+      "headline": "El choque de dos trenes en Urda deja al menos 68 muertos y abre una crisis política",
+      "subtitle": "Un AVE de Renfe y un Iryo detenido colisionaron tras una orden del centro de control de Adif para «reanudar la marcha normal»; Sánchez habla de dos siniestros «inasumibles» en un año y Feijóo exige una auditoría de la red.",
+      "body": "El choque de dos trenes de alta velocidad en la estación de Urda (Toledo) ha dejado al menos 68 muertos y 107 heridos, una veintena de ellos en la UCI, según el balance de los servicios de emergencia. Es el siniestro ferroviario más grave en España desde el descarrilamiento del Alvia en Angrois, en 2013, que costó 80 vidas.\n\nEl accidente se produjo cuando un AVE de Renfe que cubría la línea Madrid-Sevilla impactó contra un Iryo que estaba detenido ante la señal de entrada a la estación. La maquinista del Iryo había advertido por radio de que no podía reiniciar el sistema LZB. Minutos después, el centro de control de Adif autorizó al AVE a seguir: «Desconecte y vuelva a conectar el LZB. Y reanude la marcha. Al amparo del BSL. Con marcha normal».\n\n## Una orden «inexplicable»\n\nEl ministro de Transportes, Óscar Puente, calificó esa instrucción de «inexplicable» y situó la responsabilidad en el operario del centro de control, al que la Guardia Civil ya ha interrogado. La jueza ha abierto diligencias y los drones del instituto armado sobrevuelan la zona para levantar un mapa en 3D de la colisión y de los vagones.\n\nSánchez, que decretó tres días de duelo oficial y dejó en suspenso la precampaña del 29-N, aseguró que «no es asumible para España dos accidentes de tren en un mismo año» y prometió contundencia cuando se conozcan las causas. Feijóo reclama una revisión independiente de toda la red ferroviaria.",
       "sources": [
         {
           "name": "Europa Press",
-          "url": "https://www.europapress.es/nacional/noticia-interior-traslada-jueza-no-tuvo-avisos-riesgo-real-entrada-masiva-ceuta-no-era-previsible-20261027221221.html"
+          "url": "https://www.europapress.es/castilla-lamancha/noticia-dos-trenes-colisionan-estacion-urda-20261028092433.html"
         },
         {
-          "name": "20minutos",
-          "url": "https://www.20minutos.es/nacional/jueza-caso-ceuta-reprocha-escueta-colaboracion-cni-ve-esencial-interrogar-dos-sus-agentes_7054179_0.html"
+          "name": "El Mundo",
+          "url": "https://www.elmundo.es/economia/2026/10/29/6ae2548ce85ece492d8b4577.html"
         },
         {
           "name": "elDiario.es",
-          "url": "https://www.eldiario.es/politica/consejeros-ceuties-afirman-jueza-vieron-organizacion-entrada-migrantes-pasividad-gendarmes-marroquies_1_13618355.html"
+          "url": "https://www.eldiario.es/castilla-la-mancha/centro-control-adif-maquinista-iryo-reanude-marcha-normal_1_13623014.html"
+        },
+        {
+          "name": "El Correo Gallego",
+          "url": "https://www.elcorreogallego.es/espana/2026/10/28/orden-adif-maquinista-ave-desconecte-135868501.html"
         }
       ],
-      "publishedAt": "2026-10-28T06:03:00Z",
-      "imageURL": "/images/2026-10-28-national-003.jpg"
+      "publishedAt": "2026-10-29T05:35:00Z",
+      "imageURL": "/images/2026-10-29-national-001.jpg"
     },
     {
-      "id": "2026-10-28-northernIreland-001",
+      "id": "2026-10-29-national-002",
+      "category": "national",
+      "headline": "La pericia judicial tasa las joyas de Zapatero en más de un millón de euros",
+      "subtitle": "La Joyería Yanes cifra el lote en 1.023.000 euros y sostiene que las piezas pudieron fabricarse en India, Tailandia o China después de 2007, lo que contradice la versión del expresidente sobre un regalo saudí anterior.",
+      "body": "El juez de la Audiencia Nacional José Luis Calama ya dispone del informe pericial encargado a la Joyería Yanes sobre las piezas halladas en la caja fuerte del despacho de José Luis Rodríguez Zapatero. El documento tasa el lote en 1.023.000 euros, una cifra próxima a la estimación inicial que hizo la Joyería Ansorena al comienzo de las pesquisas.\n\nEl peritaje sostiene que las joyas «pudieran haber sido fabricadas en India, Tailandia, China o países de Asia central». Los diamantes y las esmeraldas son naturales, aunque de calidad «muy comercial», y las gemas rojas no pueden denominarse rubíes porque llevan relleno de vidrio de plomo. Los zafiros podrían proceder de Tailandia.\n\nSobre la antigüedad, los joyeros concluyen que los tres lotes que Zapatero habría recibido como obsequio de Arabia Saudí se fabricaron simultáneamente y, por el contenido de níquel, después de junio de 2007, cuando entró en vigor una normativa que limitaba ese metal por motivos de salud. El expresidente sostiene que las piezas son anteriores y de origen próximo oriental.\n\nLos peritos añaden que resulta «incoherente» que joyas de ese valor carezcan de sus estuches originales y de la documentación de calidad e identidad que suele acompañarlas.",
+      "sources": [
+        {
+          "name": "El Mundo",
+          "url": "https://www.elmundo.es/espana/2026/10/28/6ae24cc3e9cf4a5a638b4571.html"
+        },
+        {
+          "name": "elDiario.es",
+          "url": "https://www.eldiario.es/politica/nueva-tasacion-joyas-encontradas-zapatero-valora-millon-euros_1_13622092.html"
+        },
+        {
+          "name": "20minutos",
+          "url": "https://www.20minutos.es/nacional/joyeria-yanes-tasa-un-millon-euros-las-joyas-halladas-oficina-zapatero_7054565_0.html"
+        }
+      ],
+      "publishedAt": "2026-10-29T05:40:00Z",
+      "imageURL": "/images/2026-10-29-national-002.jpg"
+    },
+    {
+      "id": "2026-10-29-northernIreland-001",
       "category": "northernIreland",
-      "headline": "Suspicious package at Derry's Ebrington Square prompts security alert",
-      "subtitle": "Police were called at about 15:20 on Tuesday after the package was found at the Waterside site, where a Halloween funfair is running; a business premises was evacuated and no roads were closed.",
-      "body": "Police are dealing with a security alert at Ebrington Square in the Waterside area of Londonderry after a suspicious package was discovered at about 15:20 on Tuesday. A nearby business premises has been evacuated. No roads are closed, and the Peace Bridge linking Ebrington to the city centre remains open.\n\nA Halloween funfair at the site is operating as normal. DUP MLA Julie Middleton said on social media that it was not yet known whether the package was \"a legitimate threat, a hoax, a mistaken item or otherwise\", adding: \"Very worrying nonetheless.\"\n\nWaterside Ulster Unionist councillor Darren Guy told BBC News NI that he hoped the alert would end soon, saying it was causing disruption for the businesses affected and for the many families attending the funfair, and that it was not what the city should be dealing with in the week of its Halloween festival.\n\nThe Executive Office, which owns the Ebrington site, said it was aware of the ongoing situation and asked the public to follow police advice. The PSNI said an update would be provided in due course.",
+      "headline": "Police suspect dissident republicans sent the viable device to a Derry hotel",
+      "subtitle": "The package was delivered to The Ebrington hotel in the Waterside on Tuesday afternoon and destroyed in a controlled explosion; a local policing chair believes it may be linked to a Ministry of Defence stall at a careers fair there last month.",
+      "body": "Police in Derry believe dissident republicans may be responsible for a viable postal device delivered to a hotel at Ebrington Square in the Waterside. The package was discovered at about 15:20 on Tuesday and Army Technical Officers carried out a controlled explosion before taking it away for forensic examination.\n\nThe Ebrington hotel was evacuated along with staff from neighbouring premises, and a Halloween funfair was running a short distance away at the time. Chief Superintendent Gillian Kearney condemned the attack as \"shameful and utterly abhorrent\", saying those responsible \"clearly do not care who or what they harm\".\n\nShe said the investigation was at an early stage and that police were keeping an open mind, with dissident republicans one line of enquiry. The chair of the local policing and community safety partnership said he believed the device may be linked to the Ministry of Defence having a stall at a careers fair held at the same hotel last month.\n\nThe Mayor of Derry and Strabane expressed solidarity with hotel staff and guests in the wake of what she called a traumatic alert, and the policing partnership condemned the delivery of the device during the city's Halloween festivities.",
       "sources": [
         {
           "name": "BBC News NI",
           "url": "https://www.bbc.co.uk/news/articles/c6lykg0nkll0o"
         },
         {
-          "name": "BBC News NI",
-          "url": "https://www.bbc.co.uk/news/articles/c6ewejy51zz7o"
-        },
-        {
           "name": "Derry Journal",
-          "url": "https://www.derryjournal.com/news/emergency-incident/security-alert-in-derry-following-report-of-suspicious-package-business-premises-evacuated-9312871"
+          "url": "https://www.derryjournal.com/news/people/derry-police-say-dissident-republicans-may-be-responsible-for-ebrington-viable-device-9315477"
+        },
+        {
+          "name": "Belfast Telegraph",
+          "url": "https://www.belfasttelegraph.co.uk/area/derry-londonderry-city/hotel-targeted-because-it-opens-its-doors-to-everyone-letter-bomb-found-at-ni-hotel-amid-raf-event-controversy/a/163720076.html"
         }
       ],
-      "publishedAt": "2026-10-28T06:04:00Z",
-      "imageURL": "/images/2026-10-28-northernIreland-001.jpg"
+      "publishedAt": "2026-10-29T05:45:00Z",
+      "imageURL": "/images/2026-10-29-northernIreland-001.jpg"
     },
     {
-      "id": "2026-10-28-global-001",
+      "id": "2026-10-29-global-001",
       "category": "global",
-      "headline": "Finland and Norway hold a rare joint call with Putin on ending the war",
-      "subtitle": "The 90-minute call from Helsinki was «frank and substantive», Alexander Stubb said, and the Kremlin said Putin blamed «confrontational» EU and NATO policy for prolonging the war in Ukraine.",
-      "body": "The leaders of Finland and Norway held a joint call with Vladimir Putin on Tuesday, a rare direct contact between the Russian president and European leaders. The aim, their offices said, was to look at future negotiations to help end the war in Ukraine, and they stressed the initiative was not taken on behalf of Europe as a whole.\n\nThe 90-minute call was made from Helsinki and showed \"big differences in views\", according to Norway's prime minister, Jonas Gahr Støre. President Alexander Stubb said the conversation was \"frank and substantive\" and argued that the outcome of the war will have a direct impact on Finnish, Nordic and wider European security.\n\nThe Kremlin said Putin told the two leaders that a \"just and lasting peace\" would only be possible if Russia's interests were considered, and that he blamed confrontational EU and NATO policies for prolonging the war. All three agreed to continue their direct phone communication.\n\nVolodymyr Zelensky spoke to both leaders afterwards and thanked them for their \"active support\", having met them and the US special envoy Steve Witkoff in Oslo last week. Last weekend the Kremlin spokesman, Dmitry Peskov, said having a European negotiator at the peace table would be \"good\".",
+      "headline": "Israel's election leaves Netanyahu short of a majority as Arab-led parties surge",
+      "subtitle": "With 85% of ballots counted, Likud and its allies are on course for 53 seats against 48 for Eisenkot's bloc, while Arab-led parties are set for an unprecedented 19 — and almost no Jewish party will work with them.",
+      "body": "Partial results from Israel's general election leave Benjamin Netanyahu leading his rival, former military chief Gadi Eisenkot, but short of a majority in the 120-seat Knesset.\n\nWith 85% of ballots counted, Netanyahu's Likud and its far-right and ultra-Orthodox allies were on track for 53 seats. Eisenkot's Yashar party and three other Jewish opposition parties in his bloc were set for 48. Between 430,000 and 480,000 absentee ballots — from soldiers, diplomats and hospital patients — are still to be counted, so final results may take another day or two.\n\nArab-led parties are on course for an unprecedented 19 seats and could emerge as kingmakers, but all but one of the Jewish parties have pledged not to sit with them. Turnout was 77.7%, the highest in more than two decades; President Isaac Herzog called it \"a badge of honour for Israeli society\" and a sign of how deep the desire for democracy runs.\n\nBoth leaders say they will try to build a coalition. Once results are confirmed, Herzog will consult all the factions and invite whoever he believes has the best chance of succeeding, a process that could take weeks. If that fails, the country returns to the polls.",
       "sources": [
         {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c6vgj813mlelo"
+          "name": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cmdx3knq1xexo"
+        },
+        {
+          "name": "France 24",
+          "url": "https://www.france24.com/en/historic-gains-for-arab-majority-parties-in-israeli-election"
+        },
+        {
+          "name": "DW",
+          "url": "https://www.dw.com/en/what-would-a-new-israeli-government-mean-for-arab-neighbors-more-of-the-same-is-expected-with-some-small-positives-predicted/a-79788174"
+        }
+      ],
+      "publishedAt": "2026-10-29T06:10:00Z",
+      "imageURL": "/images/2026-10-29-global-001.jpg"
+    },
+    {
+      "id": "2026-10-29-global-002",
+      "category": "global",
+      "headline": "Flávio Bolsonaro, in Miami, calls himself 'the leader of Brazil' and denies fleeing",
+      "subtitle": "The senator declared himself the country's \"true president\" in a letter hours after landing in Florida, deleted it in the face of ridicule, and now insists it was never his intention to leave his homeland.",
+      "body": "Brazilian senator Flávio Bolsonaro, who landed in Miami after losing Sunday's presidential run-off to Luiz Inácio Lula da Silva, has said it was never his intention to \"leave my homeland\".\n\nHours after arriving on a private jet with his wife and two teenage daughters, the far-right senator published a letter declaring himself Brazil's \"true president\" — even though his own party and every Brazilian institution have recognised Lula's victory. The country's three main newspapers, Folha de S.Paulo, O Globo and O Estado de S.Paulo, described the claim as \"coup-mongering\". He deleted the letter and reissued it describing himself as \"the leader of Brazil\".\n\nHe had vanished for more than 24 hours after the result, reappearing when Argentina's migration service said he had entered the country by land on Tuesday night. From there he boarded a Gulfstream IV, reportedly routing through Ecuador to avoid Brazilian airspace, and walked out into a sunny Miami morning wearing a black bulletproof vest, met by no supporters and about two dozen journalists.\n\nIn the letter he thanked Argentina's president, Javier Milei, and Donald Trump for welcoming him, and repeated without evidence his claim of \"electoral fraud\", which Brazil's electoral court, supreme court and both chambers of congress have rejected.",
+      "sources": [
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/c6kglwe4lxwzo"
         },
         {
           "name": "The Guardian",
-          "url": "https://www.theguardian.com/world/2026/oct/27/oleshky-truce-ukraine-russia-putin"
-        },
-        {
-          "name": "20minutos",
-          "url": "https://www.20minutos.es/internacional/los-lideres-finlandia-noruega-hablan-con-putin-rompen-tabu-europeo-frenar-guerra-implica-conversaciones-directas_7053883_0.html"
-        }
-      ],
-      "publishedAt": "2026-10-28T06:05:00Z",
-      "imageURL": "/images/2026-10-28-global-001.jpg"
-    },
-    {
-      "id": "2026-10-28-global-002",
-      "category": "global",
-      "headline": "Jordan strikes targets in Syria over the church funeral attack, then the border reopens",
-      "subtitle": "Syrian health officials said five people, including women and children, were killed in a Daraa village; Damascus shut the Nassib crossing in response and reopened it on Wednesday.",
-      "body": "Jordanian fighter jets struck what the kingdom's military called \"terrorist organisations\" in southern Syria on Monday, in retaliation for the shooting at a Greek Orthodox church funeral in Karak on Friday that killed nine people and wounded 34. Jordan said its aircraft killed and wounded \"several terrorists\" without giving further details.\n\nSyrian health officials told state media that five people, including women, children and an elderly man, were killed in a village in Daraa province; Al Jazeera put the toll at seven. Jordan said the strikes had been co-ordinated with the Syrian government, while Damascus said it had not been notified.\n\nSyria closed the Nassib crossing, the only passenger and commercial link between the two countries, then announced it would reopen on Wednesday morning with traffic resuming in both directions. The two foreign ministries formed a security committee to share intelligence and follow up on the impact of the strikes.\n\nJordanian security forces arrested two brothers and their brother-in-law on suspicion of carrying out the church attack, which ISIL claimed. Damascus said it had opened direct channels of communication with Amman and launched \"comprehensive investigations\" into the targeting.",
-      "sources": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cq8ezg6dy6xlo"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/10/28/syria-jordan-border-reopens-amid-probe-into-deadly-airstrikes"
-        },
-        {
-          "name": "Euronews",
-          "url": "https://www.euronews.com/2026/10/27/unacceptable-violation-syria-condemns-jordan-airstrikes"
-        }
-      ],
-      "publishedAt": "2026-10-28T06:06:00Z",
-      "imageURL": "/images/2026-10-28-global-002.jpg"
-    },
-    {
-      "id": "2026-10-28-global-003",
-      "category": "global",
-      "headline": "Trump showcases a tanker of Venezuelan oil at a Texas rally",
-      "subtitle": "Speaking in Corpus Christi on his fourth trip to Texas this campaign season, the president pointed to the Angerona and said it held a million barrels, with two rallies staged to defend a Senate seat.",
-      "body": "Donald Trump used a campaign stop in Corpus Christi, Texas, on Tuesday to draw attention to a crude oil tanker docked nearby, the Angerona, which he said was carrying a million barrels of Venezuelan oil. He held two rallies in the state in a single day, his fourth visit there this campaign season.\n\nThe visit was intended to underscore the administration's military operation in Latin America at a moment when the war with Iran has turned affordability into the dominant issue of the midterms. Texas hosts one of the races that will decide control of the Senate.\n\nTrump and his allies have attacked the Democratic candidate, the state representative James Talarico, as too \"radical\" for Texas, with the attorney general, Ken Paxton, seeking to portray his policies as hostile to a state built on business. Trump urged supporters to vote as if he were on the ballot.\n\n\"If you go out, and if you all vote, we win in a landslide,\" he told the crowd. The administration has made Latin America a centrepiece of its foreign policy, and the Venezuelan oil shipment has become its most visible prop on the campaign trail.",
-      "sources": [
-        {
-          "name": "The Guardian",
-          "url": "https://www.theguardian.com/us-news/2026/oct/27/trump-oil-tanker-venezuela"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/10/27/trump-showcases-venezuelan-oil-as-he-seeks-to-rally-voters-in-texas"
-        },
-        {
-          "name": "20minutos",
-          "url": "https://www.20minutos.es/internacional/trump-afirma-que-eeuu-ha-recibido-un-millon-barriles-petroleo-venezuela_7054109_0.html"
-        }
-      ],
-      "publishedAt": "2026-10-28T06:07:00Z",
-      "imageURL": "/images/2026-10-28-global-003.jpg"
-    },
-    {
-      "id": "2026-10-28-global-004",
-      "category": "global",
-      "headline": "Flávio Bolsonaro flees to the US to seek asylum after his election defeat",
-      "subtitle": "The defeated candidate left Brazil on a private jet with his family instead of surrendering his passports to the supreme court, hours after Lula turned 81 with a warning about those who «flee in secret».",
-      "body": "Flávio Bolsonaro left Brazil for the United States with his family on Tuesday and intends to request political asylum, two days after losing the presidential runoff to Luiz Inácio Lula da Silva by 51.78% to 48.22%. He had promised to lead the opposition to the Workers' Party government.\n\nRather than hand over his passports as a supreme court judge had ordered, the senator boarded a private jet, avoiding what appeared to be an imminent arrest in two investigations against him. The Trump administration granted the visas needed to enter the country.\n\nSimon Levy, a Mexican lawyer with influence in Trump's circle, attributed the operation's design to the secretary of state, Marco Rubio: \"He is the brain behind this operation.\" Much of Bolsonaro's own camp was said to be unaware of the plan until he was already in the air.\n\nLula marked his 81st birthday with a blunt message for his former rival. \"The citizen who flees his country in secret does so because he owes something or is afraid of something,\" he said. \"I regret the lack of respect he has shown towards his voters and towards democracy.\"",
-      "sources": [
-        {
-          "name": "The Guardian",
-          "url": "https://www.theguardian.com/world/2026/oct/27/flavio-bolsonaro-brazil-argentina-fled"
-        },
-        {
-          "name": "El Mundo",
-          "url": "https://www.elmundo.es/internacional/2026/10/28/6ae11c6fe9cf4a4c578b4598.html"
-        },
-        {
-          "name": "El Correo Gallego",
-          "url": "https://www.elcorreogallego.es/mundo/2026/10/27/anuncia-acogera-flavio-bolsonaro-familia-estados-unidos-135825754.html"
-        }
-      ],
-      "publishedAt": "2026-10-28T06:08:00Z",
-      "imageURL": "/images/2026-10-28-global-004.jpg"
-    },
-    {
-      "id": "2026-10-28-global-005",
-      "category": "global",
-      "headline": "Mbappé loses his Chinese sponsors over a Mao Zedong joke",
-      "subtitle": "Dongpeng and Mengniu ended all cooperation with the Real Madrid forward within hours of a video circulating online, as the row topped Weibo a day after he missed out on the Ballon d'Or.",
-      "body": "Kylian Mbappé was dropped by two major brands in China on Tuesday after a video circulated online in which the France and Real Madrid forward appeared to joke about the former Chinese leader Mao Zedong. The drinks group Dongpeng said it was terminating all cooperation with immediate effect.\n\n\"Our company firmly opposes and has a zero-tolerance policy towards any behaviour that offends national sentiments,\" Dongpeng said in a statement. Mengniu, China's largest dairy producer, also cut ties, using near-identical language to announce that it was ending all cooperation with the player at once.\n\n\"Dongpeng Beverage ends cooperation with Mbappe\" was the top trending topic on the social media platform Weibo. The 27-year-old had lost out to Harry Kane for the Ballon d'Or a day earlier, and apologised for the remark in a message in which he said he had hurt many people.\n\nCommercial deals in China carry political risk for European footballers, and brands there move quickly when a campaign threatens to become a nationalist row. Neither Dongpeng nor Mengniu indicated whether the rupture was temporary, and Mbappé's club has not commented.",
-      "sources": [
-        {
-          "name": "RTE",
-          "url": "https://www.rte.ie/sport/soccer/2026/1027/1596912-mbappe-dropped-by-chinese-brands-after-mao-zedong-joke/"
+          "url": "https://www.theguardian.com/world/2026/oct/28/flavio-bolsonaro-miami-us-fleeing-brazilian-election-defeat"
         },
         {
           "name": "Sky News",
-          "url": "https://news.sky.com/story/french-football-star-kylian-mbappe-dropped-by-chinese-brands-after-dictator-remark-13604279"
-        },
-        {
-          "name": "The Irish Times",
-          "url": "https://www.irishtimes.com/sport/soccer/2026/10/27/kylian-mbappe-apologises-after-being-dropped-by-chinese-brands-for-mao-zedong-comment/"
+          "url": "https://news.sky.com/story/flavio-bolsonaro-insists-he-is-leader-of-brazil-despite-losing-election-run-off-13605006"
         }
       ],
-      "publishedAt": "2026-10-28T06:09:00Z",
-      "imageURL": "/images/2026-10-28-global-005.jpg"
+      "publishedAt": "2026-10-29T06:12:00Z",
+      "imageURL": "/images/2026-10-29-global-002.jpg"
     },
     {
-      "id": "2026-10-28-tech-001",
+      "id": "2026-10-29-global-003",
+      "category": "global",
+      "headline": "Serbian police shoot dead a knife attacker outside the Israeli embassy in Belgrade",
+      "subtitle": "The interior minister says the assailant, a Serbian minor known to security services as an Islamic State supporter, rushed an officer shouting \"Allahu Akbar\"; Serbia has raised its terrorism threat level to red alert.",
+      "body": "Serbian police shot dead a young man outside the Israeli embassy in Belgrade in the early hours of Wednesday after what the authorities called a \"terrorist attack\".\n\nInterior minister Ivica Dacic said the attacker rushed at a police officer with two knives while shouting \"Allahu Akbar\". The officer suffered a minor knife wound to the face and shot him. The suspect has not been publicly identified, but Dacic said he was a minor and a Serbian citizen who had been monitored by security services as a \"known supporter of the Islamic State\"; they said he had posted an image of the Islamic State flag on Instagram.\n\nDacic raised the country's terrorism threat level to \"red alert\", the highest, meaning stricter security checks and more police at infrastructure sites and places where crowds gather. He visited the wounded officer, who was reported to be doing well and did not need hospital treatment. Israel's foreign ministry said no embassy personnel were hurt and the mission was closed at the time of the attack.\n\nIt is the second attack on the embassy in less than three years: in June 2024 a man shot a Serbian police officer in the neck with a crossbow and was killed by the wounded officer. Wednesday's attack came a day after Israel's election.",
+      "sources": [
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/ck5ynj4eeyj2o"
+        },
+        {
+          "name": "Sky News",
+          "url": "https://news.sky.com/story/serbia-knife-attacker-shot-dead-by-police-outside-israeli-embassy-in-belgrade-13604683"
+        },
+        {
+          "name": "DW",
+          "url": "https://www.dw.com/en/serbian-police-shoot-dead-assailant-at-israeli-embassy/a-79782905"
+        }
+      ],
+      "publishedAt": "2026-10-29T06:14:00Z",
+      "imageURL": "/images/2026-10-29-global-003.jpg"
+    },
+    {
+      "id": "2026-10-29-global-004",
+      "category": "global",
+      "headline": "Putin courts African leaders in Moscow, casting Russia as the anti-colonial partner",
+      "subtitle": "The Kremlin is using the summit to widen a footprint built on security deals, grain and energy, presenting Russia as the continent's \"best partner\" rather than a colonial power.",
+      "body": "Vladimir Putin is hosting African heads of state in Moscow, using the summit to present Russia as the continent's \"best partner\" and to draw a contrast with the former colonial powers.\n\nThe framing is deliberate. Moscow has rebuilt influence in Africa largely through security arrangements, grain supplies and energy projects, often with governments that Western capitals have distanced themselves from, and it is using gatherings like this one to convert those relationships into diplomatic weight.\n\nThe summit also serves a domestic purpose. With Russia under heavy sanctions and cut off from much Western finance and technology, African governments are among the few major buyers and partners still willing to sign deals publicly and appear alongside Putin.\n\nThe question analysts keep returning to is what, beyond arms and grain, Russia can actually deliver. Investment pledges have often outrun the money that arrives, and African governments increasingly weigh Russian offers against rival packages from China, the Gulf and the West.",
+      "sources": [
+        {
+          "name": "France 24",
+          "url": "https://www.france24.com/en/russia-woos-african-leaders-at-moscow-summit"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/28/putin-russia-is-african-continents-best-partner-not-colonial-west"
+        },
+        {
+          "name": "DW",
+          "url": "https://www.dw.com/en/russia-in-africa-what-is-putin-hoping-to-achieve/a-79781858"
+        }
+      ],
+      "publishedAt": "2026-10-29T06:16:00Z",
+      "imageURL": "/images/2026-10-29-global-004.jpg"
+    },
+    {
+      "id": "2026-10-29-tech-001",
       "category": "tech",
-      "headline": "Apple puts the M6 in the MacBook Pro and the iMac, a day before its Pro and Tell event",
-      "subtitle": "The 14-inch MacBook Pro starts at $1,999 with 24 hours of battery life, Wi-Fi 7 and Bluetooth 6; Apple claims the chip is up to 30% faster at graphics and 25% faster on AI workloads than the M5.",
-      "body": "Apple refreshed the 14-inch MacBook Pro and the iMac with its new M6 chip on Tuesday, a day before a \"Pro and Tell\" event at which further hardware is expected. The laptop starts at $1,999 in space black and silver, and the iMac at $1,499 in seven colours.\n\nThe M6 pairs a 12-core CPU, which Apple calls the world's fastest CPU core, with a 12-core GPU that it says is up to 30% faster at graphics and up to 25% faster on AI workloads than the M5. Apple also claims up to 13 times the prompt-processing speed of an M1 MacBook Pro.\n\nThe laptop ships with 16GB of unified memory, configurable to 32GB, and memory bandwidth rises to 170GB/s from 153GB/s on the M5. Ports are unchanged: HDMI, MagSafe 3, three Thunderbolt 4 ports, an SDXC slot and a headphone jack. Fast charging reaches 50% in 30 minutes.\n\nThe iMac's M6 adds Neural Accelerators to every core, which Apple says helps with multitasking, photo editing and video work. The iPad mini was updated on Monday, and the company has been clearing space in the line-up ahead of Wednesday's event.",
+      "headline": "Microsoft finally puts a dollar figure on Azure: $33.2bn in a single quarter",
+      "subtitle": "The disclosure lets investors compare Azure directly with AWS and Google Cloud for the first time; Azure came in slightly ahead of Google's $30.7bn and grew 48%, beating Microsoft's own guidance.",
+      "body": "Microsoft has reported Azure's quarterly revenue in dollars for the first time, disclosing $33.2 billion for the quarter to the end of September. The company had previously shared only growth percentages or described revenue milestones in vague terms, making a like-for-like comparison with rivals impossible.\n\nThe figure puts Azure slightly ahead of Google Cloud's $30.7 billion in the same period, although Google's cloud unit — which also includes Workspace subscriptions — roughly doubled its revenue year on year, about twice Azure's growth rate. Amazon reports on Thursday, and AWS remains substantially larger.\n\nAzure came in about $850 million above the $32.3 billion analysts had expected, and its 48% growth beat the 44% to 45% that chief financial officer Amy Hood forecast in July. It is now Microsoft's largest and fastest-growing product line, at roughly 36% of the group's $92.3 billion quarterly revenue.\n\nAzure sits inside Agents and Infra, one of two new reporting segments that replace Microsoft's old three, grouping Azure with the Microsoft 365 cloud business; that segment brought in $76.8 billion, up 25%. A filing also showed Microsoft recorded $10 billion of revenue from OpenAI in the quarter — nearly 11% of total revenue — with $7.2 billion outstanding in receivables. Xbox hardware revenue fell 14%.",
       "sources": [
         {
           "name": "TechCrunch",
-          "url": "https://techcrunch.com/2026/10/27/apple-unveils-new-14-inch-macbook-pro-with-m6-chip/"
+          "url": "https://techcrunch.com/2026/10/28/microsoft-just-shared-azures-actual-revenue-in-dollars-33-2-billion/"
+        },
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/28/microsoft-recorded-10-billion-in-revenue-from-openai/"
+        },
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/tech/1020785/microsoft-earnings-revenue-q1-2027"
+        }
+      ],
+      "publishedAt": "2026-10-29T05:50:00Z",
+      "imageURL": "/images/2026-10-29-tech-001.jpg"
+    },
+    {
+      "id": "2026-10-29-tech-002",
+      "category": "tech",
+      "headline": "Apple's first touchscreen MacBook Pro starts at $2,899 and tops out at $14,549",
+      "subtitle": "The 14- and 16-inch Pros pair a 2,000-nit PROLED XDR touch display with M5 Pro or M5 Max chips and a hinge designed to stop the panel rocking when tapped; pre-orders open Friday.",
+      "body": "Apple has launched a MacBook Pro with a touchscreen, the first time it has put touch on a laptop since the Touch Bar, which it later removed. The 14-inch model starts at $2,899 and the 16-inch at $3,399, and a fully specced 16-inch comes to $14,549 once memory and storage are maxed out.\n\nThe display is a new PROLED XDR panel rated at up to 2,000 nits of peak brightness in both HDR and SDR, with a 10,000,000:1 contrast ratio and a Dynamic Island-style cutout in place of the notch. Buyers can choose between M5 Pro and M5 Max chips, up to 128GB of unified memory and up to 16TB of storage.\n\nApple designed a hinge that stabilises the screen when it is touched, which also steadies the camera during video calls. The 14-inch weighs 1.38kg and the 16-inch 1.82kg, both lighter than their non-touch predecessors, with three Thunderbolt 5 ports, HDMI, an SDXC slot, MagSafe and a headphone jack.\n\nPre-orders open on 30 October and the machines ship from 6 November. Steve Jobs once dismissed touch on a laptop as \"ergonomically terrible\"; the launch is the second marquee product under new chief executive John Ternus, after the foldable iPhone Duo in September.",
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/28/apple-launches-its-new-touchscreen-macbook-pro/"
+        },
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/tech/1021308/apple-touchscreen-macbook-pro-proled-xdr-fully-specced"
         },
         {
           "name": "Ars Technica",
-          "url": "https://arstechnica.com/apple/2026/10/apple-refreshes-the-imac-entry-level-macbook-pro-with-the-m6-chip/"
+          "url": "https://arstechnica.com/apple/2026/10/touchscreen-macbook-pro-hands-on-oled-looks-great-on-a-mac/"
+        }
+      ],
+      "publishedAt": "2026-10-29T05:52:00Z",
+      "imageURL": "/images/2026-10-29-tech-002.jpg"
+    },
+    {
+      "id": "2026-10-29-tech-003",
+      "category": "tech",
+      "headline": "Records on 41,000 Homeland Security staff published after breach of its Okta login",
+      "subtitle": "Names, job titles, work emails, mobile numbers and office locations of CBP, ICE and CISA employees appeared online after a hacker claimed to have taken them from the department's single sign-on system.",
+      "body": "Personal data belonging to more than 40,000 US Department of Homeland Security employees and contractors has been published online, after a hacker claimed to have taken it from an Okta single sign-on system used across the department's agencies.\n\nThe records include names, job titles, work email addresses, mobile numbers and office locations. More than half — about 21,000 — relate to Customs and Border Protection staff who work at airports and ports of entry. Around 10,000 belong to Immigration and Customs Enforcement and its Homeland Security Investigations unit, and just under 1,000 to the cybersecurity agency CISA.\n\nThe Okta system also holds IT and login records, including which systems each account can reach. The hacker, who uses the handle Department of Peace, left a note with the files saying: \"They have our information, so it's only fair that we have theirs.\"\n\nIt is the second breach at Homeland Security this year, following the theft of personnel records from thousands of FBI agents and data on millions of serving and former military personnel from the Pentagon's human resources unit. Bluesky began blocking links to the leaked files after they circulated on the platform.",
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/28/hacker-stole-personnel-data-about-thousands-of-homeland-security-employees-including-cbp-and-ice-agents/"
+        },
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/tech/1021528/ice-cbp-data-leak"
+        },
+        {
+          "name": "Wired",
+          "url": "https://www.wired.com/story/massive-leak-exposes-41000-homeland-security-workers-including-undercover-ice-agents/"
+        }
+      ],
+      "publishedAt": "2026-10-29T05:54:00Z",
+      "imageURL": "/images/2026-10-29-tech-003.jpg"
+    },
+    {
+      "id": "2026-10-29-tech-004",
+      "category": "tech",
+      "headline": "Google's AI spending is driving more searches — but AI Mode is still hard to monetise",
+      "subtitle": "Alphabet reported negative free cash flow of $9.07bn and $51.36bn of capital spending for the quarter, while it works out how to make AI-generated answers pay as growth in its core ad business slows.",
+      "body": "Alphabet's quarterly results show a company spending heavily to defend its search business while still working out how to earn from the AI reshaping it. Google says its investments in AI are driving more searches, but its AI Mode answers remain difficult to turn into revenue, and the company is expanding AI search advertising globally as growth in its traditional ad business slows.\n\nThe group reported negative free cash flow of $9.07 billion and capital expenditure of $51.36 billion, below the $55.09 billion analysts expected, and kept its full-year capex forecast at $195 billion to $205 billion. It also said it still needs to rent compute from other providers to run parts of its cloud.\n\nGoogle Cloud brought in $30.7 billion in the quarter, roughly double the year before and growing about twice as fast as Microsoft's Azure, which reported $33.2 billion. Both companies now disclose cloud revenue in dollars, making the comparison direct for the first time.\n\nThe results land as investors press every large technology company on whether the enormous sums going into data centres are producing returns. Alphabet's shares have swung on capex guidance all year, and the negative free cash flow figure is the clearest sign yet of how much of the search business's cash is being redirected into infrastructure.",
+      "sources": [
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/tech/1020811/alphabet-google-earnings-q3-2026"
         },
         {
           "name": "The Register",
-          "url": "https://www.theregister.com/personal-tech/2026/10/27/apple-takes-powerful-m6-chip-to-the-macbook-pro-imac/5305797"
-        }
-      ],
-      "publishedAt": "2026-10-28T06:10:00Z",
-      "imageURL": "/images/2026-10-28-tech-001.jpg"
-    },
-    {
-      "id": "2026-10-28-tech-002",
-      "category": "tech",
-      "headline": "iFixit says the iPhone Duo's hinge is pressing into its inner screen",
-      "subtitle": "Owners began posting photos of cracks and black spots above the fold within hours of Friday's launch; Apple has acknowledged an \"issue\" and is replacing damaged units without saying how many.",
-      "body": "Within hours of the iPhone Duo going on sale on Friday, owners reported that the inner screen on some brand new foldables was already broken. The damage looked similar across the photos shared online: a crack or defect in the middle of the display above the hinge, with lines running down the right side.\n\nShahram Mokhtari, the lead teardown technician at iFixit, told The Verge that the cause appears to lie in the hinge, where gears, springs and joints let the device close flat while giving the screen room to bend gently. At the trouble spot, the flexible inner screen is pushing up against part of the hinge.\n\nThat panel is \"extremely sensitive\", he said: poke at its edges with a pick or a sharp tool and \"you're going to break that screen\". In the damaged units the black spot tends to sit exactly where the metal is meeting the display, which fits the theory better than simple user error.\n\nApple acknowledged the issue on Monday and said it is replacing affected phones, without saying how many have been reported. A repair programme on a device this new is expensive, and the cause matters: if the hinge is at fault, replacing screens alone may not settle it.",
-      "sources": [
-        {
-          "name": "The Verge",
-          "url": "https://www.theverge.com/tech/1020145/iphone-duo-crackgate-broken-screen-hinge"
+          "url": "https://www.theregister.com/ai-and-ml/2026/10/29/google-struggling-to-make-ai-mode-searches-pay/5306181"
         },
-        {
-          "name": "9to5Mac",
-          "url": "https://9to5mac.com/2026/10/25/ifixit-tears-down-iphone-duo-finds-possible-causes-of-early-screen-failures/"
-        },
-        {
-          "name": "9to5Mac",
-          "url": "https://9to5mac.com/2026/10/26/apple-responds-to-reports-of-iphone-duos-inner-display-cracking/"
-        }
-      ],
-      "publishedAt": "2026-10-28T06:11:00Z",
-      "imageURL": "/images/2026-10-28-tech-002.jpg"
-    },
-    {
-      "id": "2026-10-28-tech-003",
-      "category": "tech",
-      "headline": "Tailscale races out patches for 11 flaws in its SSH server and connectors",
-      "subtitle": "Cyberdione Labs found the bugs, collectively called Tailworm, while auditing Tailscale 1.104.2 and the headscale control server; the worst can give an already-authorised user root on a host.",
-      "body": "Tailscale is patching almost a dozen vulnerabilities that could be used to steal credentials, crash servers and gain root privileges, after a security audit of its mesh VPN software. Cyberdione Labs found the 11 flaws, collectively named Tailworm, in Tailscale 1.104.2 and the self-hosted headscale 0.29.5 control server.\n\nThe most serious sits in Tailscale SSH, the SSH server embedded in tailscaled, which runs as root. Unix-socket forwarding performs path checks and file operations with root privileges, and races plus a missing privilege drop let an ordinary session replace, dial or delete privileged resources.\n\nExploiting it needs one approved device and one SSH policy rule, and on headscale forwarding is granted automatically. Other findings cover the experimental app connectors, which can reach cloud metadata and internal networks without consulting access rules, an unauthenticated resource-exhaustion bug in headscale, and the DERP relay client.\n\nErica Windisch, who founded Cyberdione Labs, said all findings were reproduced against unmodified released software and that the flaws were found \"with low effort\". Tailscale said it received the report on Monday and was working on patches, and that it does not recommend everyone disable Tailscale SSH.",
-      "sources": [
-        {
-          "name": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/tailscale-warns-of-serious-ssh-flaws-allowing-root-privilege-escalation/"
-        },
-        {
-          "name": "The Hacker News",
-          "url": "https://thehackernews.com/2026/10/unpatched-tailscale-ssh-flaws-could-let.html"
-        },
-        {
-          "name": "Tailscale",
-          "url": "https://tailscale.com/ssh-investigation-update"
-        }
-      ],
-      "publishedAt": "2026-10-28T06:12:00Z",
-      "imageURL": "/images/2026-10-28-tech-003.jpg"
-    },
-    {
-      "id": "2026-10-28-tech-004",
-      "category": "tech",
-      "headline": "Discord will make messages from its public servers searchable on the web",
-      "subtitle": "From 16 November every Discoverable Server gets its own page, and from mid-December selected public messages may surface in search results; members can opt out and usernames are not shown.",
-      "body": "Discord said on Tuesday that conversations in some of its public servers will become searchable and easier to find on the open web. The change covers \"Discoverable Servers\", the public communities whose administrators have made them eligible to appear in Discord's Server Discovery feature.\n\nMore than 63,000 such servers host discussions on gaming strategies, fandoms, language learning and niche interests. Discord argues that making some of it searchable extends the reach of those communities, and borrows the appeal of traditional forums, where answers stay findable years later.\n\nFrom 16 November each Discoverable Server gets its own web page, which may carry automated summaries of activity in public channels. From mid-December, selected messages from public channels may appear in search engine results.\n\nAdministrators choose which channels are included, and individual members can opt out of having their messages published. Published messages will not display usernames or avatars, and private servers, direct messages and group direct messages are excluded from the scheme entirely.",
-      "sources": [
         {
           "name": "TechCrunch",
-          "url": "https://techcrunch.com/2026/10/27/discord-is-making-its-public-communities-more-searchable-and-people-have-concerns/"
-        },
-        {
-          "name": "Engadget",
-          "url": "https://www.engadget.com/2299126/discord-server-messages-google-searchable-opt-out/"
-        },
-        {
-          "name": "Mashable",
-          "url": "https://mashable.com/tech/discord-public-server-web-pages-messages-discoverable-in-google-search"
+          "url": "https://techcrunch.com/2026/10/28/google-expands-ai-search-ads-globally-as-core-ad-growth-slows/"
         }
       ],
-      "publishedAt": "2026-10-28T06:13:00Z",
-      "imageURL": "/images/2026-10-28-tech-004.jpg"
+      "publishedAt": "2026-10-29T05:56:00Z",
+      "imageURL": "/images/2026-10-29-tech-004.jpg"
     },
     {
-      "id": "2026-10-28-tech-005",
+      "id": "2026-10-29-tech-005",
       "category": "tech",
-      "headline": "New Mexico's $25bn Meta verdict resets the terms of the child-safety fight",
-      "subtitle": "A jury found Meta misled users about Facebook's privacy and about the risks its products pose to young people; the state calls it the largest penalty of its kind, and Meta will appeal.",
-      "body": "Meta has been ordered to pay New Mexico $25bn after a jury found the company misled consumers about Facebook's privacy and about the risks its products pose to children. The penalty, reported by Reuters and PBS NewsHour, is the largest of its kind against the company and was set by a judge after the verdict.\n\nThe case grew out of the Cambridge Analytica disclosures. New Mexico's attorney general has described the outcome as the biggest fine ever imposed for deceiving users about Facebook's privacy, and argued that the company's public assurances never matched how the platform actually worked.\n\nMeta has said it will appeal. The Verge argued this week that the loss leaves \"blood in the water\", handing plaintiffs in other states a template for arguing that the company's own statements about safety and privacy were the misconduct, rather than any single leak, outage or moderation failure.\n\nWhat matters for regulators elsewhere is the route rather than the number: a single state's consumer-protection statute, a jury, and a penalty fixed by a judge, with no new federal legislation involved and no settlement negotiated behind closed doors.",
+      "headline": "Samsung's operating profit jumps 783% as AI memory demand outruns supply",
+      "subtitle": "The chipmaker reported operating profit of about 107 trillion won and revenue of 195 trillion won, the first time any technology company has cleared 100 trillion won in a single quarter.",
+      "body": "Samsung Electronics has confirmed record quarterly results, with operating profit of 107.4 trillion won — about $80.5 billion — and revenue of 195 trillion won, roughly $146.3 billion. That is an increase of 783% and 127% respectively on the same quarter a year earlier, and the first time any technology company has reported quarterly operating profit above 100 trillion won.\n\nThe figures were first flagged in preliminary guidance on 7 October and are driven almost entirely by memory. AI data-centre demand for high-bandwidth memory, DRAM and NAND has tightened supply across the industry and pushed prices up, and the operating margin climbed to more than 50% from 14% a year earlier.\n\nSamsung and Micron have both said they expect the gap between memory supply and demand to persist through 2028, and Samsung has warned that shortages will worsen in 2027. Analysts at KB Securities expect the most advanced HBM4 products to account for about 80% of Samsung's memory revenue next year, up from 40% this year.\n\nThe result underlines how completely the AI build-out has transferred pricing power from device makers to component suppliers. Rising memory costs are already feeding into PC and smartphone prices, and Apple's new MacBook Pro launch lands in the same week that flash memory pricing has become a board-level problem for hardware firms.",
       "sources": [
-        {
-          "name": "The Verge",
-          "url": "https://www.theverge.com/policy/1019604/new-mexico-meta-cambridge-analytica-kids-safety-settlement"
-        },
         {
           "name": "Reuters",
-          "url": "https://www.reuters.com/business/meta-ordered-pay-25-billion-new-mexico-after-jury-finds-company-misled-consumers-2026-10-21"
+          "url": "https://www.reuters.com/business/samsung-q3-profit-jumps-783-ai-memory-boom-lifts-chip-earnings-2026-10-07"
         },
         {
-          "name": "PBS NewsHour",
-          "url": "https://www.pbs.org/newshour/nation/meta-must-pay-new-mexico-25-billion-its-biggest-fine-ever-for-deceiving-users-about-facebook-privacy"
+          "name": "Morningstar / Dow Jones",
+          "url": "https://www.morningstar.com/news/dow-jones/202610079015/samsung-sees-operating-profit-topping-80-billion-amid-ai-boom-update"
+        },
+        {
+          "name": "Yahoo Finance / Quartz",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/samsung-q3-2026-earnings-80-113016465.html"
         }
       ],
-      "publishedAt": "2026-10-28T06:14:00Z",
-      "imageURL": "/images/2026-10-28-tech-005.jpg"
+      "publishedAt": "2026-10-29T05:58:00Z",
+      "imageURL": "/images/2026-10-29-tech-005.jpg"
     },
     {
-      "id": "2026-10-28-ai-001",
+      "id": "2026-10-29-ai-001",
       "category": "ai",
-      "headline": "Google's Genie 4 builds worlds you can steer mid-scene, with sound to match",
-      "subtitle": "DeepMind released the model as a research preview on Tuesday: photorealistic scenes that hold together for two minutes, freeform edits while they run, and audio generated to fit the action.",
-      "body": "Google DeepMind released Genie 4, its newest world model, as a research preview on Tuesday. It generates the most photorealistic and interactive environments the lab has produced, lets users type prompts mid-simulation to change the scene, and adds real-time audio: music, ambient noise and dialogue.\n\nScenes stay consistent for up to two minutes, double its predecessor's limit, and the model offers better physics and more human-like characters. Users can change the weather or the camera angle while the simulation runs, or drop in people and objects that were not there when it started.\n\nGemini acts as director, planning steps and checking frames while Genie renders. In one experiment tied to Gemini Robotics, a Gemini 4 Argon model broke a task into steps that Genie 4 then simulated in real time, suggesting a way to test robot behaviour before it happens in the physical world.\n\nThe release lands in a consolidating market. Runway shipped its second world model, GWM Worlds 2, a few months ago; Fei-Fei Li's World Labs is being acquired by AMD, Amazon is in talks to buy Decart, and Rivian has bought Third Dimension to bring simulation in-house for self-driving tests.",
-      "sources": [
-        {
-          "name": "TechCrunch",
-          "url": "https://techcrunch.com/2026/10/27/googles-genie-4-world-model-adds-audio-more-realistic-worlds-and-real-time-steering/"
-        },
-        {
-          "name": "Ars Technica",
-          "url": "https://arstechnica.com/google/2026/10/deepminds-genie-4-world-model-adds-audio-and-more-realistic-people-to-simulations/"
-        },
-        {
-          "name": "Google DeepMind",
-          "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/"
-        }
-      ],
-      "publishedAt": "2026-10-28T06:15:00Z",
-      "imageURL": "/images/2026-10-28-ai-001.jpg"
-    },
-    {
-      "id": "2026-10-28-ai-002",
-      "category": "ai",
-      "headline": "Anthropic's IPO filing lists blackmail, sentience and the end of humanity as risks",
-      "subtitle": "The S-1 published on Monday runs to 93 pages and more than 70,000 words of risk factors, from model misbehaviour to $125bn of data-centre commitments that could be left stranded.",
-      "body": "The Securities and Exchange Commission published Anthropic's S-1 on Monday, opening the way for a heavily anticipated initial public offering. Alongside numbers that show revenue ballooning against even larger costs, the filing carries a 93-page risk section of more than 70,000 words.\n\nAmong hundreds of risks, Ars Technica picked out seven of the more arresting: models that could blackmail people, become sentient, or contribute to humanity's end, sitting beside the ordinary worry about competitors, customers and regulators. The company frames AI as transforming the economy beyond the impact of industrialisation, electricity and the internet.\n\nThe financial risk is concrete. Anthropic has committed $125bn to data-centre capacity, and is seeking direct leases rather than buying on-demand compute from its competitors, while acknowledging that if its needs or methods change it could be left with infrastructure poorly suited to the work.\n\nWired noted that the filing identifies gas supply as a near-term constraint on that build-out, and The Verge read the document as an attempt to keep investor pressure from pushing the company into cutting safety corners. Both point at the same tension: the costs of the plan are certain, and the pay-off is not.",
+      "headline": "Google releases Gemini 4 Carbon, a frontier model most people will never get to use",
+      "subtitle": "DeepMind's second flagship in a fortnight leads cyber-defence benchmarks and is handed only to vetted security defenders through a programme called Fairwind, priced at $2 per million input tokens to begin with.",
+      "body": "Google DeepMind has released Gemini 4 Carbon, its latest frontier model, two weeks after Argon. The company reports gains across the board and frames the launch mainly as a step forward in cybersecurity rather than a general upgrade for consumers and developers.\n\nMost people will not get to try it. Carbon is being rolled out to selected cybersecurity defenders through a programme called Fairwind, at $2 per million input tokens and $10 per million output tokens, with pricing due to rise later to $4 and $20. Ars Technica's summary is blunt: Google has announced a frontier model you cannot use.\n\nGating a flagship behind vetted access reflects how labs now handle cyber-capable models. The same abilities that make a model useful for finding flaws in code can be aimed at real infrastructure, so access is restricted and monitored instead of published.\n\nThe cadence is as much the story as the model. Two flagship releases in a fortnight suggest DeepMind is shipping faster and in narrower slices, and that whatever benchmark lead it holds is measured in weeks rather than quarters. Google has not said when or whether Carbon's capabilities will reach its general models.",
       "sources": [
         {
           "name": "Ars Technica",
-          "url": "https://arstechnica.com/ai/2026/10/anthropic-ipo-warns-its-ai-could-blackmail-people-become-sentient-end-humanity/"
-        },
-        {
-          "name": "Wired",
-          "url": "https://www.wired.com/story/anthropic-ipo-identifies-gas-supply-as-big-near-term-risks/"
-        },
-        {
-          "name": "The Verge",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1019470/anthropic-ipo-resist-investor-pressure-cut-corners-safety"
-        }
-      ],
-      "publishedAt": "2026-10-28T06:16:00Z",
-      "imageURL": "/images/2026-10-28-ai-002.jpg"
-    },
-    {
-      "id": "2026-10-28-ai-003",
-      "category": "ai",
-      "headline": "Researchers tire of OpenAI deciding how its science results reach the world",
-      "subtitle": "The company announced breakthroughs in mathematics, computer science and physics on Monday, and let hand-picked \"shepherds\" choose how each would be published, holding the physics result back entirely.",
-      "body": "OpenAI announced results it described as breakthroughs in mathematics, computer science and physics on Monday, alongside what it called an evolving approach to communicating its findings. Each of the three concerns an unsolved problem, and each was released under a different strategy.\n\nFor the mathematics result, OpenAI published the model's output and left researchers to organise their own efforts to explain it. For computer science it will assemble an external group to explain the work. The physics result has not been released at all; OpenAI said it will defer to outside experts on how to do so.\n\nThe company says it is working with expert \"shepherds\" to decide the best route for each. Researchers who spoke to The Verge were unimpressed, still angry about the hundreds of preprints dumped on mathematicians at the start of October, and described the approach as an attempt to control how its claims are tested.\n\nThe dispute is about more than manners. A result nobody can check is not yet a result, and the labs producing them now sit between academic norms and commercial interest. The researchers The Verge spoke to said the pattern was becoming a reason to distrust announcements until the work itself appears.",
-      "sources": [
-        {
-          "name": "The Verge",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1019921/openai-breakthrough-math-computer-science-physics"
-        },
-        {
-          "name": "TechCrunch",
-          "url": "https://techcrunch.com/2026/10/27/frontier-ai-labs-say-their-models-refuted-the-exponential-time-hypothesis-what-does-that-mean/"
+          "url": "https://arstechnica.com/ai/2026/10/google-announces-gemini-4-carbon-its-latest-frontier-ai-model-that-you-cant-use/"
         },
         {
           "name": "The Decoder",
-          "url": "https://the-decoder.com/openai-asks-outside-experts-including-a-nobel-laureate-to-check-proofs-its-ai-produced-in-math-computer-science-and-physics/"
+          "url": "https://the-decoder.com/google-deepmind-releases-gemini-4-carbon-just-two-weeks-after-argon-with-gains-across-the-board/"
+        },
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/tech/1021339/google-gemini-4-carbon-cybersecurity-frontier"
+        },
+        {
+          "name": "Google",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/"
         }
       ],
-      "publishedAt": "2026-10-28T06:17:00Z",
-      "imageURL": "/images/2026-10-28-ai-003.jpg"
+      "publishedAt": "2026-10-29T06:00:00Z",
+      "imageURL": "/images/2026-10-29-ai-001.jpg"
     },
     {
-      "id": "2026-10-28-ai-004",
+      "id": "2026-10-29-ai-002",
       "category": "ai",
-      "headline": "Border watchdog weighs an inquiry into AI tools used on asylum claims",
-      "subtitle": "The Independent Chief Inspector of Borders and Immigration has asked the Open Rights Group for material from a six-month investigation that needed 11 parliamentary questions and 10 records requests to get answers.",
-      "body": "The Independent Chief Inspector of Borders and Immigration is considering an investigation into the Home Office's use of generative AI to process asylum applications, Wired reported. It has asked the digital rights group Open Rights Group to share material as it plans next year's inspection topics.\n\nOpen Rights Group's findings come from a six-month investigation involving 11 parliamentary questions, two ministerial letters and 10 public records requests, after the department withheld details of the tools. The inspectorate said it cannot confirm what is under active consideration before it publishes its annual priorities.\n\nIt added that it is aware of concerns about the use of AI and pointed to its finding last year that one tool's \"effectiveness and reliability were varied\". The Independent reported that campaigners and MPs have urged ministers to come clean about how AI is used at the border and in asylum cases.\n\nThe Public Law Project's Caroline Selman told Wired that two of the systems, ACS and APS, are among 11 high-risk AI tools her team has found in use across government but missing from the public repository. \"Other tools are being used but not being publicised at all,\" she said.\n\nThe Home Office said it regularly monitors the performance of the tools through established quality-assurance processes and has committed to publishing updated evaluations as they are rolled out, a response that leaves open who tests these systems and on whom.",
+      "headline": "Nvidia's open speech model transcribes, translates and tells you who is talking",
+      "subtitle": "Nemotron 3.5 Transcribe handles 40 languages, attributes speakers in 13 and answers questions about a recording, in a 30-billion-parameter model that activates about 4 billion at a time and runs on one chip.",
+      "body": "Nvidia has released Nemotron 3.5 Transcribe, a free, open-weight speech model that follows text prompts and folds transcription, translation and speaker attribution into a single checkpoint.\n\nIt transcribes 40 languages, translates 31 of them to or from English and identifies speakers in 13, handling recordings up to an hour long with as many as eight speakers. The design is a mixture of experts with 30 billion parameters, of which roughly 4 billion are active per step, so it runs on a single chip — from the Jetson AGX Thor robotics board and the DGX Spark used in new laptops up to Blackwell data-centre systems.\n\nNvidia claims top placings on Hugging Face's Open ASR leaderboard for English among open-weight models, the lowest error rate on David AI's 21-language diarization leaderboard and first place in VoiceArena's 14-system comparison. It shipped alongside version 2 of Granary, Nvidia's open speech dataset, and fine-tuning recipes.\n\nThe appeal for anyone building meeting notes, call analytics or subtitles is that diarization and translation no longer need separate services, and the weights can run locally rather than being rented by the minute. It lands in a crowded month for voice models, with Mistral's Voxtral 3, ElevenLabs Realtime and Salesforce's Launa-Omni all arriving recently.",
       "sources": [
         {
-          "name": "The Guardian",
-          "url": "https://www.theguardian.com/politics/2026/oct/27/digital-hostile-environment-ai-secretly-embedded-home-office-report"
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/28/voice-ai-in-vogue-nvidia-releases-new-open-transcription-model/"
         },
         {
-          "name": "Wired",
-          "url": "https://www.wired.com/story/uk-home-office-may-face-investigation-over-use-of-openai-tools/"
+          "name": "The Decoder",
+          "url": "https://the-decoder.com/nvidias-open-nemotron-3-5-transcribe-combines-transcription-translation-and-speaker-recognition"
         },
         {
-          "name": "The Independent",
-          "url": "https://www.the-independent.com/news/uk/home-news/ai-use-home-office-asylum-border-uk-b3073323.html"
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary"
         }
       ],
-      "publishedAt": "2026-10-28T06:18:00Z",
-      "imageURL": "/images/2026-10-28-ai-004.jpg"
+      "publishedAt": "2026-10-29T06:02:00Z",
+      "imageURL": "/images/2026-10-29-ai-002.jpg"
+    },
+    {
+      "id": "2026-10-29-ai-003",
+      "category": "ai",
+      "headline": "OpenAI lets US Pro users text their Dot agent over iMessage and RCS",
+      "subtitle": "The preview lets people send tasks, photos and voice notes to an always-on agent and get unprompted updates back in the same thread, without opening ChatGPT.",
+      "body": "OpenAI has given its Dot agents a phone number, of sorts. ChatGPT Pro subscribers in the US can now message a Dot through iMessage or RCS — the same channels they use for ordinary texting — and receive updates in the same thread.\n\nUsers can send text, photos and voice notes and hand over a task without opening the app. OpenAI says it partnered with Linq for messaging support and ran \"extensive\" penetration testing; only the account holder can text their Dot, and the Dot can only text them. Anything the agent writes to its memory is shared across its conversations.\n\nDots launched at DevDay on 29 September as always-on agents running on GPT-6 Astra, each with its own cloud computer and browser and connections to thousands of apps. Moving them into the default messaging inbox is a bid to make them part of everyday habit rather than a destination app people have to remember to open.\n\nThe feature is a preview, limited to Pro users in the US for now, and arrives as the personal-agent market heats up: Anthropic launched Claude Duet last week, and reviewers have found OpenAI's Dots the more polished of the two so far.",
+      "sources": [
+        {
+          "name": "Engadget",
+          "url": "https://www.engadget.com/2300235/openai-now-lets-you-text-your-dot-agent"
+        },
+        {
+          "name": "Digital Trends",
+          "url": "https://www.digitaltrends.com/computing/openai-now-lets-you-text-your-chatgpt-dot-agent-to-get-things-done"
+        },
+        {
+          "name": "Crypto Briefing",
+          "url": "https://cryptobriefing.com/openai-dots-imessage-rcs-pro-users"
+        }
+      ],
+      "publishedAt": "2026-10-29T06:04:00Z",
+      "imageURL": "/images/2026-10-29-ai-003.jpg"
+    },
+    {
+      "id": "2026-10-29-ai-004",
+      "category": "ai",
+      "headline": "An Anthropic manager has stopped giving coding interviews, saying Claude does them better",
+      "subtitle": "Felix Rieseberg removed the coding test from his team's hiring loops this month, arguing it no longer predicts who will succeed now that AI writes most of the code; he is scouting portfolios for prototypes instead.",
+      "body": "A hiring manager at Anthropic has dropped the coding interview from his team's recruitment, arguing that AI models now outperform candidates on the small challenges the test was built around.\n\n\"The coding interview is dead, at least for my team at Anthropic,\" Felix Rieseberg wrote. \"I've seen enough to know that it no longer provides signal. I removed it from loops this month.\" In a blog post he said the old test now measures what the model can do rather than what the candidate will do in the job, and that he looks instead for small prototypes that show taste, empathy and principled thinking.\n\nHe also argued the shift creates an opening for junior engineers: \"I'm seeing engineers who are comparatively new fly past people who are probably better coders and have been around much longer. Hunger beats tenure.\"\n\nThe change is one manager's call rather than company policy, and the wider market has not followed. ZipRecruiter's October survey of 1,500 employers found the information sector the most likely to require formal skills tests, at 62.5%. Google, by contrast, is expanding pilots of software-engineering interviews that let candidates use Gemini to test their AI fluency.",
+      "sources": [
+        {
+          "name": "The Register",
+          "url": "https://www.theregister.com/ai-and-ml/2026/10/28/anthropic-engineer-declares-the-coding-interview-dead/5306115"
+        },
+        {
+          "name": "Business Insider",
+          "url": "https://www.businessinsider.com/coding-interview-dead-ai-junior-developer-hiring-tips-anthropic-claude-2026-10"
+        },
+        {
+          "name": "Slashdot",
+          "url": "https://slashdot.org/story/26/10/28/2222217/anthropic-engineer-declares-the-coding-interview-dead"
+        }
+      ],
+      "publishedAt": "2026-10-29T06:06:00Z",
+      "imageURL": "/images/2026-10-29-ai-004.jpg"
     }
   ]
 }
