@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-29",
+  "published": true,
+  "publishedAt": "2026-10-29T05:08:41Z",
+  "sections": {
+    "present": ["local", "national", "northernIreland", "global", "tech", "ai"],
+    "missing": []
+  },
+  "storiesWithoutPhoto": [],
+  "validatorWarnings": [],
+  "validatorErrors": [],
+  "workarounds": [
+    "fearmaga.com (the sawmill federation quoted in the A Marina copper-theft lead) does not resolve via DNS; its 'oleada de robos' warning was sourced from El Progreso's coverage instead of the federation's own site",
+    "concellodelugo.gal/es/noticias returns 404 on pagination; the Concello's minute of silence was sourced via AquiLugo and GC Diario",
+    "Google News RSS links resolve to news.google.com/home rather than article URLs, so it was dropped in favour of direct outlet feeds",
+    "Belfast Telegraph and France 24 return 403/401 to curl (bot-block, inconclusive) on otherwise valid article URLs; both pages were confirmed to exist and were kept"
+  ],
+  "needsHumanAttention": false,
+  "humanAttentionReason": null,
+  "notes": "All 18 stories sourced from at least 3 outlets and shipped with the outlet's own lead image. national carries 2 stories against a 3-5 target: research was concentrated on the Urda train collision and the Zapatero jewels appraisal, and no third national story cleared the three-source bar before publish."
+}
