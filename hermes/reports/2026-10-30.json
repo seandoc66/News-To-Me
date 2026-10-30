@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-30",
+  "published": true,
+  "publishedAt": "2026-10-30T05:06:35Z",
+  "sections": {
+    "present": ["local", "national", "northernIreland", "global", "tech", "ai"],
+    "missing": []
+  },
+  "storiesWithoutPhoto": [],
+  "validatorWarnings": [],
+  "validatorErrors": [],
+  "workarounds": [
+    "Intel's PC-chip plunge (The Register) was dropped from the tech section: only The Register and CNBC had the story, and article-level sources must reach three. The Register's Ofcom under-16 age-check piece had the same problem, so both were replaced with stories carrying three or more verifiable sources.",
+    "national-004's first source (GC Diario) serves a generic 2019 site banner as og:image, which fetch-photos accepted on size but which is not a picture of the story. It was replaced with the og:image from 20minutos' report on the same Ouigo cancellations.",
+    "The Blocus/Lleida arrests story had only two outlets covering it and was left out of national rather than padded with a weak third source.",
+    "Belfast Telegraph, News Letter, Derry Journal, SCMP, Sky News, France 24 and DoorDash's newsroom all return 403 to scripted requests; all were kept as sources after the RSS items confirmed the URLs exist (403 is a bot-block, not a dead link)."
+  ],
+  "needsHumanAttention": false,
+  "humanAttentionReason": null,
+  "notes": "Heavy day: the Urda rail crash aftermath dominates Spanish coverage with four national stories (investigation speed, Adif's deferred ERTMS upgrade, Puente's survival, strike calendar). Northern Ireland is a single story by config: the DUP's block on Michelle O'Neill's joint engagements and Carla Lockhart's reported readiness to quit. No section was padded to hit a target."
+}
