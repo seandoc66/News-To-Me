@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-31",
+  "published": true,
+  "publishedAt": "2026-10-31T05:05:16Z",
+  "sections": {
+    "present": ["local", "national", "northernIreland", "global", "tech", "ai"],
+    "missing": []
+  },
+  "storiesWithoutPhoto": [],
+  "validatorWarnings": [],
+  "validatorErrors": [],
+  "workarounds": [
+    "First publish passed with one warning: the northernIreland body had a 91-word paragraph. Split it, re-merged, re-fetched photos and republished as a second commit (f6a5fa7), which validated clean.",
+    "wsj.com returns 401 and newsletter.co.uk returns 403 to scripted fetches. Treated as bot-blocks rather than dead links, per the brief, and kept as sources.",
+    "Europa Press reported the LZB system failed 170 times this year, 20minutos reported 160. Both figures are attributed in the story rather than picking one.",
+    "khq.com (AP syndication) returned 451 for the GM settlement story; replaced with the Oregon attorney general's release, which co-led the case, as the third source."
+  ],
+  "needsHumanAttention": false,
+  "humanAttentionReason": null,
+  "notes": "Research ran on RSS feeds plus 10 web searches, under the 15-search cap. Every source URL and photoCandidate was status-checked in two batched script calls. 21/21 photos verified by fetch-photos.mjs. Edition was merged and published in one pass after that."
+}
