@@ -1,0 +1,644 @@
+{
+  "generatedAt": "2026-10-31T05:04:21Z",
+  "config": {
+    "sections": {
+      "local": {
+        "min": 1,
+        "max": 3,
+        "sources": [
+          {
+            "name": "El Progreso",
+            "url": "https://www.elprogreso.es"
+          },
+          {
+            "name": "La Voz de Galicia",
+            "url": "https://www.lavozdegalicia.es"
+          },
+          {
+            "name": "Faro de Vigo",
+            "url": "https://www.farodevigo.es"
+          },
+          {
+            "name": "CITENI (Universidade da Coruña)",
+            "url": "https://citeni.udc.es"
+          }
+        ]
+      },
+      "national": {
+        "min": 3,
+        "max": 5,
+        "sources": [
+          {
+            "name": "Europa Press",
+            "url": "https://www.europapress.es"
+          },
+          {
+            "name": "20minutos",
+            "url": "https://www.20minutos.es"
+          },
+          {
+            "name": "El Mundo",
+            "url": "https://www.elmundo.es"
+          },
+          {
+            "name": "El Correo Gallego",
+            "url": "https://www.elcorreogallego.es"
+          }
+        ]
+      },
+      "northernIreland": {
+        "min": 1,
+        "max": 1,
+        "sources": [
+          {
+            "name": "RTÉ News",
+            "url": "https://www.rte.ie/news/"
+          },
+          {
+            "name": "BBC News NI",
+            "url": "https://www.bbc.co.uk/news/northern_ireland"
+          },
+          {
+            "name": "News Letter",
+            "url": "https://www.newsletter.co.uk"
+          },
+          {
+            "name": "Derry Journal",
+            "url": "https://www.derryjournal.com"
+          }
+        ]
+      },
+      "global": {
+        "min": 4,
+        "max": 8,
+        "sources": [
+          {
+            "name": "BBC News",
+            "url": "https://www.bbc.co.uk/news/world"
+          },
+          {
+            "name": "The Guardian",
+            "url": "https://www.theguardian.com/world"
+          },
+          {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com"
+          },
+          {
+            "name": "El Mundo",
+            "url": "https://www.elmundo.es"
+          },
+          {
+            "name": "RTÉ News",
+            "url": "https://www.rte.ie/news/"
+          }
+        ]
+      },
+      "tech": {
+        "min": 5,
+        "max": 5,
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com"
+          },
+          {
+            "name": "The Register",
+            "url": "https://www.theregister.com"
+          },
+          {
+            "name": "The Verge",
+            "url": "https://www.theverge.com"
+          },
+          {
+            "name": "Ars Technica",
+            "url": "https://arstechnica.com"
+          },
+          {
+            "name": "BBC News",
+            "url": "https://www.bbc.co.uk/news/technology"
+          }
+        ]
+      },
+      "ai": {
+        "min": 4,
+        "max": 7,
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com"
+          },
+          {
+            "name": "WIRED",
+            "url": "https://www.wired.com"
+          },
+          {
+            "name": "Ars Technica",
+            "url": "https://arstechnica.com"
+          },
+          {
+            "name": "The Verge",
+            "url": "https://www.theverge.com"
+          },
+          {
+            "name": "The Register",
+            "url": "https://www.theregister.com"
+          }
+        ]
+      }
+    }
+  },
+  "articles": [
+    {
+      "id": "2026-10-31-local-001",
+      "category": "local",
+      "headline": "Lugo tendrá su primera unidad de atención temprana con 440.265 euros de la Xunta",
+      "subtitle": "La resolución del DOG confirma un equipo de cinco profesionales y 15.235 horas de servicio hasta octubre de 2028 para atender a unos 400 niños de 0 a 6 años, aunque el arranque podría demorarse a enero.",
+      "body": "El Concello de Lugo pondrá en marcha su primera unidad municipal de atención temprana después de que la Consellería de Política Social e Igualdade confirmase una subvención de 440.265,60 euros. La resolución definitiva se publicó este viernes en el Diario Oficial de Galicia y aprueba la solicitud que el gobierno local, presidido por Elena Candia, había tramitado a finales del verano.\n\nLa ayuda corresponde al Programa II de la convocatoria autonómica, la línea reservada a la creación de servicios que no contaban con financiación previa. La Xunta financiará un equipo interdisciplinar de cinco profesionales dedicados a la intervención directa, la estimulación y el diagnóstico precoz, dos más de los tres especialistas que el Ayuntamiento había previsto inicialmente cuando anunció el proyecto en septiembre.\n\nEl servicio prestará 15.235 horas de atención y seguimiento familiar entre el 1 de noviembre de 2026 y el 31 de octubre de 2028, con el presupuesto repartido en tres anualidades: 36.688,80 euros este año como anticipo, 183.444 euros en 2027 y el resto en 2028. La unidad atenderá a menores de 0 a 6 años con trastornos del desarrollo o riesgo de padecerlos, un colectivo que el Concello calcula en unos 400 niños y niñas.\n\nEl equipamiento se ubicará en el centro municipal Paco Martín. La fecha de la resolución deja poco margen para arrancar este año, por lo que el inicio efectivo del servicio podría quedar pospuesto hasta enero. La creación de la unidad era una reclamación sostenida por familias y por la Plataforma En Loita, que lleva meses pidiendo recursos públicos para estas terapias.",
+      "publishedAt": "2026-10-31T05:10:00Z",
+      "sources": [
+        {
+          "name": "El Progreso",
+          "url": "https://www.elprogreso.es/articulo/lugo/lugo-loga-440000-euros-activar-plan-atencion-temprana-infantil/202610310500002010532.html"
+        },
+        {
+          "name": "La Voz de Galicia",
+          "url": "https://www.lavozdegalicia.es/noticia/lugo/lugo/2026/10/30/xunta-concede-440000-euros-lugo-crear-primera-unidad-atencion-temprana-atender-400-menores/00031793376506942773114.htm"
+        },
+        {
+          "name": "LugoXa",
+          "url": "https://lugoxa.com/es/news/lugo-tendra-una-unidad-municipal-de-atencion-temprana-a-partir-de-enero-de-2027/133926"
+        }
+      ],
+      "imageURL": "/images/2026-10-31-local-001.jpg"
+    },
+    {
+      "id": "2026-10-31-local-002",
+      "category": "local",
+      "headline": "El Hula impulsa el primer exoesqueleto pensado para prevenir las lesiones de los cuidadores",
+      "subtitle": "El proyecto ExoCare, nacido de una idea del técnico de prevención Alberto Villarroya, ha fabricado ya ocho unidades para atajar el sobreesfuerzo que causa el 60% de las bajas del personal sociosanitario.",
+      "body": "El técnico de prevención de riesgos del Hula Alberto Villarroya llevaba veinte años viendo el mismo problema: mover a un paciente de la camilla a la cama, asearlo o incorporarlo para comer son gestos repetidos miles de veces que acaban dañando la espalda de quien los hace. En los hospitales, el sobreesfuerzo en la movilización es la primera causa de baja y explica en torno al 60% de las incapacidades temporales del personal sociosanitario.\n\nCon el respaldo de la subdirectora asistencial Pilar Rodríguez Ledo, su idea se convirtió en ExoCare, un consorcio gallego-portugués que reúne a Erlac, la Universidade da Coruña —a través del CITENI en Ferrol—, la Axencia Galega de Coñecemento en Saúde, el Sergas, la Unidade Local de Saúde do Alto Ave, la Santa Casa da Misericórdia de Riba de Ave, el Cluster Saúde de Galicia, la Consellería de Política Social e Igualdade y la Universidade do Minho.\n\nEl proyecto obtuvo 1,3 millones de euros del programa europeo Poctep Interreg para diseñar, desarrollar y probar un exoesqueleto destinado a prevenir lesiones, no a rehabilitar pacientes, que es el uso habitual de estos armazones en los hospitales. Los socios han fabricado ya ocho unidades y el prototipo se presentó el 23 de octubre en el Hospital Álvaro Cunqueiro de A Coruña. La fase de pruebas con profesionales arrancará en enero de 2027.\n\nEl perfil del personal afectado refuerza el argumento del proyecto: el 82% de la plantilla del Hula son mujeres y, en las categorías que más movilizaciones realizan —celadoras y técnicas auxiliares de cuidados de Enfermería—, la media de edad se sitúa entre los 45 y los 60 años.",
+      "publishedAt": "2026-10-31T05:14:00Z",
+      "sources": [
+        {
+          "name": "El Progreso",
+          "url": "https://www.elprogreso.es/articulo/lugo/hula-promueve-primer-exoesqueleto-evitar-lesiones-cuidadores/202610310500002010485.html"
+        },
+        {
+          "name": "Faro de Vigo",
+          "url": "https://www.farodevigo.es/gran-vigo/2026/10/23/exoesqueleto-cuidar-lesionarse-galicia-portugal-135623141.html"
+        },
+        {
+          "name": "CITENI (Universidade da Coruña)",
+          "url": "https://citeni.udc.es/exoesqueletos-para-cuidar-a-quien-cuida-la-investigacion-del-citeni-en-un-proyecto-europeo-de-salud-laboral"
+        }
+      ],
+      "imageURL": "/images/2026-10-31-local-002.jpg"
+    },
+    {
+      "id": "2026-10-31-national-001",
+      "category": "national",
+      "headline": "El sistema de señalización LZB se cayó hasta 170 veces este año y Puente lo ve «dentro de la normalidad»",
+      "subtitle": "El ministro defiende que la instalación es «muy fiable y robusta», atribuye el choque de Urda a decisiones «inexplicables» en el centro de control de Atocha y anuncia una revisión de los protocolos de circulación.",
+      "body": "El ministro de Transportes, Óscar Puente, cifró este viernes en 170 las caídas del sistema de señalización LZB registradas en lo que va de año, una cifra que consideró «dentro de la normalidad» del funcionamiento ferroviario europeo. La crónica de 20minutos de esa misma comparecencia recoge 160 incidencias; Europa Press, las 170. En ambos casos el ministro las presentó como un dato estable en los últimos seis o siete años y por debajo de la media del entorno.\n\nPuente sostuvo que el LZB es «muy fiable y robusto» y que funcionó como estaba previsto hasta que fallaron los tres ordenadores de la estación de Urda, un tipo de avería que, dijo, está contemplada en el reglamento y para la que el sistema está diseñado. Aun así, admitió que no se conoce todavía el motivo del fallo.\n\nLa comparecencia mantuvo la tesis del Gobierno sobre el centro de regulación de la circulación de Adif en Atocha: el ministro calificó de «inexplicables» las decisiones que se tomaron allí, aunque negó haber hablado de «error humano», la expresión que usó el Ejecutivo horas después del siniestro, y anunció una revisión de los protocolos y de las condiciones de trabajo de los profesionales de circulación.\n\nEl accidente del miércoles, en el que murieron al menos 69 personas, es el segundo grave en una línea en renovación en menos de diez meses: entre Urda y el de Adamuz, ambos en el corredor Madrid-Sevilla, suman 115 víctimas mortales.",
+      "publishedAt": "2026-10-31T05:18:00Z",
+      "sources": [
+        {
+          "name": "Europa Press",
+          "url": "https://www.europapress.es/economia/transportes-00343/noticia-puente-dice-sistema-senalizacion-lzb-cayo-170-veces-ano-cifra-dentro-normalidad-20261030122216.html"
+        },
+        {
+          "name": "20minutos",
+          "url": "https://www.20minutos.es/nacional/puente-dice-que-lzb-es-muy-fiable-pese-que-ha-caido-170-veces-insiste-apuntar-los-controladores-pero-revisara-su-protocolo_7055503_0.html"
+        },
+        {
+          "name": "El Correo Gallego",
+          "url": "https://www.elcorreogallego.es/economia/2026/10/30/pudo-fallar-preguntas-respuestas-puente-135942219.html"
+        }
+      ],
+      "imageURL": "/images/2026-10-31-national-001.jpg"
+    },
+    {
+      "id": "2026-10-31-national-002",
+      "category": "national",
+      "headline": "Puente puso su cargo a disposición de Sánchez y el presidente rechazó la dimisión por «injusta»",
+      "subtitle": "El ministro revela la conversación mantenida tras el siniestro de Urda y sostiene que su forma de asumir responsabilidades es seguir al frente de la crisis, mientras valora no participar en la campaña electoral.",
+      "body": "El ministro de Transportes, Óscar Puente, puso su cargo a disposición de Pedro Sánchez después del accidente ferroviario de Urda y el presidente rechazó la dimisión por considerarla «injusta». Lo desveló el propio ministro en conversación informal con periodistas tras la rueda de prensa del viernes en la sede del Ministerio, en la que confirmó que no se va.\n\nPuente sostiene que su manera de asumir responsabilidades es continuar al frente de la gestión del siniestro y «dar la cara», y añadió que no era su deber estar en el centro de mando el día del accidente, pero sí estarlo ahora. También se planteó no participar en la campaña electoral que arranca en dos semanas.\n\nLa decisión de mantenerlo deja al Ejecutivo defendiendo a su ministro en plena crisis, una fórmula que El Mundo describe como el «escudo protector» aplicado antes con Fernando Grande-Marlaska, y que el PP trata de rentabilizar. Feijóo ha acusado a Sánchez de abandonar la cultura de la seguridad y ha advertido de que la responsabilidad se dirimirá en las urnas. Frente Amplio ha reclamado por escrito la dimisión.\n\nSánchez había admitido horas antes que la confianza en la alta velocidad está «quebrada» y se comprometió a aportar soluciones. El siniestro suma 69 fallecidos y Adif afronta la peor crisis de su historia.",
+      "publishedAt": "2026-10-31T05:22:00Z",
+      "sources": [
+        {
+          "name": "20minutos",
+          "url": "https://www.20minutos.es/nacional/puente-puso-su-cargo-disposicion-sanchez-pero-este-rechazo-que-dimitiera-porque-le-parecia-injusto_7055566_0.html"
+        },
+        {
+          "name": "Europa Press",
+          "url": "https://www.europapress.es/nacional/noticia-puente-puso-cargo-disposicion-sanchez-rechazo-dimision-considerarla-injusta-20261030150144.html"
+        },
+        {
+          "name": "El Mundo",
+          "url": "https://www.elmundo.es/espana/2026/10/30/6ae4f23be85ecea06a8b45b2.html"
+        }
+      ],
+      "imageURL": "/images/2026-10-31-national-002.jpg"
+    },
+    {
+      "id": "2026-10-31-national-003",
+      "category": "national",
+      "headline": "Transportes estudia cerrar del todo la línea Madrid-Barcelona entre uno y dos años para renovarla",
+      "subtitle": "Puente abandona su defensa de compaginar obras y servicio, como en Madrid-Sevilla, y calcula que un corte total podría rebajar de cinco años a año y medio los trabajos, al estilo del corredor Berlín-Hamburgo.",
+      "body": "El Ministerio de Transportes se replantea su modelo de renovación de la alta velocidad. Óscar Puente admitió este jueves que estudia interrumpir por completo el tráfico en la línea Madrid-Barcelona durante doce o veinticuatro meses para ejecutar las obras previstas, en lugar de mantener los trenes circulando mientras se trabaja, como se ha hecho hasta ahora en el corredor Madrid-Sevilla.\n\n«Es una de las cosas que estamos valorando, no solo por cuestiones de seguridad. Tenemos que tomar decisiones», dijo el ministro en la rueda de prensa sobre el siniestro de Urda. Fuentes de su departamento sitúan el corte entre doce y veinticuatro meses, en función de si se cierra la línea entera o por tramos.\n\nPuente presumía hasta esta semana de haber sostenido el servicio durante las obras. Los dos accidentes graves del corredor Madrid-Sevilla en menos de un año —Adamuz, por una soldadura de la vía, y Urda, tras la instalación de nuevos sistemas de seguridad— han cambiado el criterio. Según sus cálculos, suspender la circulación reduciría la duración de la renovación de cinco años a uno y medio.\n\nEl ministro puso como referencia el corredor alemán entre Berlín y Hamburgo, interrumpido por completo durante su renovación. La decisión afecta a la primera línea de alta velocidad de España por tráfico y a los operadores Renfe, Ouigo e Iryo, que ya han cancelado servicios por los paros convocados los días 10 y 12 de noviembre.",
+      "publishedAt": "2026-10-31T05:26:00Z",
+      "sources": [
+        {
+          "name": "Europa Press",
+          "url": "https://www.europapress.es/economia/transportes-00343/noticia-gobierno-valora-cerrar-linea-tren-madrid-barcelona-dos-anos-ejecutar-obras-programadas-20261030130203.html"
+        },
+        {
+          "name": "20minutos",
+          "url": "https://www.20minutos.es/nacional/puente-valora-ahora-cerrar-todo-trafico-linea-ave-madrid-barcelona-durante-las-obras-remodelacion_7055487_0.html"
+        },
+        {
+          "name": "El Progreso",
+          "url": "https://www.elprogreso.es/articulo/espana/oscar-puente-descarta-dimitir-accidente-urda-plantea-corte-alta-velocidad-entre-madrid-barcelona/202610301750262010494.html"
+        }
+      ],
+      "imageURL": "/images/2026-10-31-national-003.jpg"
+    },
+    {
+      "id": "2026-10-31-national-004",
+      "category": "national",
+      "headline": "Diez detenidos de los Blocus mientras la milla de Oro de Madrid tapiaba sus escaparates por miedo",
+      "subtitle": "La Policía arresta al fundador del movimiento violento, un hispanopakistaní que operaba desde un pueblo de Valencia, y una empresa de seguridad confirma haber protegido una veintena de vitrinas de firmas de lujo.",
+      "body": "La Policía Nacional ha detenido al menos a diez personas vinculadas a los Blocus, el movimiento violento que ha extendido el miedo entre los comercios de lujo de Madrid, entre ellas su líder y fundador. El arresto se produjo el mismo día en que se supo que una empresa de seguridad había tapiado entre quince y veinte escaparates de la llamada milla de Oro —entre ellos los de Gucci y Celine— ante el temor a actos de vandalismo y saqueo.\n\nEl diario El Mundo publicó una investigación tras pasar una semana infiltrado en el grupo, que según ese relato lideraba un empresario de origen hispanopakistaní, Alfayez, desde una localidad valenciana. La banda se dio a conocer por asaltos a tiendas de marcas de lujo en varias ciudades y por la exhibición de la violencia en redes sociales.\n\nLos detenidos están acusados de integración en organización criminal y de delitos de daños, amenazas y extorsión, según fuentes policiales citadas por los medios que siguieron la operación. La investigación sigue abierta y no se descartan más arrestos en las próximas semanas.\n\nEl episodio ha dejado una imagen poco habitual en el centro de Madrid: escaparates cubiertos con paneles de madera en plena temporada de compras, con el comercio de lujo reclamando más presencia policial en el distrito de Salamanca.",
+      "publishedAt": "2026-10-31T05:30:00Z",
+      "sources": [
+        {
+          "name": "El Mundo",
+          "url": "https://www.elmundo.es/cronica/2026/10/30/6ae506b7e9cf4a72368b4585.html"
+        },
+        {
+          "name": "20minutos",
+          "url": "https://www.20minutos.es/nacional/varios-detenidos-espana-por-su-vinculacion-movimiento-violento-blocus-entre-ellos-su-lider-fundador_7055527_0.html"
+        },
+        {
+          "name": "El Correo Gallego",
+          "url": "https://www.elcorreogallego.es/sociedad/2026/10/30/empresa-tapiado-comercios-lujo-madrid-vandalismo-saqueos-blocus-135943317.html"
+        }
+      ],
+      "imageURL": "/images/2026-10-31-national-004.jpg"
+    },
+    {
+      "id": "2026-10-31-northernIreland-001",
+      "category": "northernIreland",
+      "headline": "Carla Lockhart to set out her future «early next week» as the DUP waits on its Upper Bann MP",
+      "subtitle": "The MP wants Emma Little-Pengelly pulled from office to force Michelle O'Neill out, and Gavin Robinson says he hopes she stays. Reports differ on whether her exit has already been decided.",
+      "body": "Carla Lockhart has said she will \"set out the path ahead early next week\", after days of speculation that the Upper Bann MP will walk away from the DUP over its handling of the Drumcree parading dispute. Party leader Gavin Robinson said he hopes she will not leave.\n\nLockhart has called on the DUP to withdraw deputy First Minister Emma Little-Pengelly from her post, a move that would automatically end Sinn Féin's Michelle O'Neill's tenure as First Minister. She argues O'Neill cannot continue in the role because of her part in what is alleged to have been an unlawful protest against the Orange Order parade on the Garvaghy Road in Portadown last month. O'Neill and several party colleagues are being investigated by police over the demonstration, which was staged to stop the parade passing through the mainly nationalist area.\n\nThe party stopped short of pulling Little-Pengelly out. On Thursday it said she would no longer take part in joint engagements with O'Neill, and would not give permission for the First Minister to act alone. Sinn Féin's John Finucane described the move as \"economic sabotage\" and \"self-harm\" by the DUP.\n\nThe accounts of where Lockhart now stands diverge. The News Letter reported that she is expected to stand down next week, and that Robinson had said the party's position \"has been decided\". The BBC's report on the same day led instead on Robinson saying he \"hopes\" she will not leave the party. RTÉ reported only that she would clarify her intentions early next week, and that Robinson was hoping she would stay.",
+      "publishedAt": "2026-10-31T05:34:00Z",
+      "sources": [
+        {
+          "name": "RTÉ News",
+          "url": "https://www.rte.ie/news/ireland/2026/1030/1597441-lockhart-future/"
+        },
+        {
+          "name": "BBC News NI",
+          "url": "https://www.bbc.co.uk/news/articles/cm20w2xlj2y4o"
+        },
+        {
+          "name": "News Letter",
+          "url": "https://www.newsletter.co.uk/news/politics/carla-lockhart-expected-to-stand-down-next-week-as-gavin-robinson-says-dups-position-has-been-decided-9321204"
+        },
+        {
+          "name": "RTÉ News",
+          "url": "https://www.rte.ie/news/2026/1030/1597353-robinson-hoping-lockhart-quit-dup/"
+        }
+      ],
+      "imageURL": "/images/2026-10-31-northernIreland-001.jpg"
+    },
+    {
+      "id": "2026-10-31-global-001",
+      "category": "global",
+      "headline": "US approves $2.1bn sale of 500 Patriot interceptors to Ukraine, paid for by European allies",
+      "subtitle": "Washington cleared the PAC-3 package funded through the JUMPSTART programme and EU loans, with Lockheed Martin as contractor and no US money involved. Zelenskyy warns delivery could still take years.",
+      "body": "The US State Department has approved the possible sale of 500 Patriot PAC-3 interceptor missiles to Ukraine for an estimated $2.1bn, the biggest package of air-defence munitions cleared for Kyiv in more than a year.\n\nThe department said the deal would be funded entirely by Ukraine's allies — Canada, Germany and Norway through the JUMPSTART programme, plus national funds financed by the EU's Ukraine Support Loan — with Lockheed Martin as principal contractor and no American money involved. The package includes spare parts for PAC-3 Missile Segment Enhancement rounds as well as logistics and software support.\n\nPatriots are the only system in Ukraine's inventory capable of reliably intercepting Russian ballistic missiles, and Kyiv has spent months complaining that deliveries had stalled. President Volodymyr Zelenskyy said this week that his country had waited almost a month for Washington to sign off on critical supplies.\n\nHe welcomed Friday's decision as a strong signal but warned that the interceptors could take years to arrive. Al Jazeera described the approval as one of the most significant steps to supply defensive weapons to Kyiv since Donald Trump took office, following weeks of friction between the two presidents.",
+      "publishedAt": "2026-10-31T05:40:00Z",
+      "sources": [
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/c3vgxznlx7jzo"
+        },
+        {
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/oct/31/ukraines-zelenskyy-praises-us-over-21bn-patriot-missile-deal-but-warns-it-could-take-years"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/31/us-greenlights-2-1bn-patriot-missile-sale-to-ukraine"
+        }
+      ],
+      "imageURL": "/images/2026-10-31-global-001.jpg"
+    },
+    {
+      "id": "2026-10-31-global-002",
+      "category": "global",
+      "headline": "Riot police surround Poland's constitutional court after ministers move to charge its top two judges",
+      "subtitle": "Warsaw's justice minister asked to strip the tribunal's president and vice-president of immunity. Donald Tusk calls it depoliticising the judiciary; Law and Justice calls it an assault on the court.",
+      "body": "Riot police were deployed around Poland's Constitutional Tribunal in Warsaw on Friday night after the justice minister said he had asked for the court's president and vice-president to be stripped of immunity so they can face criminal charges.\n\nJustice Minister Waldemar Żurek named Bogdan Święczkowski, the tribunal's president, and his deputy Bartłomiej Sochański. The stand-off pits the government of Prime Minister Donald Tusk against the right-wing Law and Justice (PiS) party that appointed most of the court's bench, and it escalated sharply once the suspension of the tribunal's president was announced.\n\nTusk has promised to depoliticise the judiciary and defended Friday's move as PiS supporters gathered outside the building. President Karol Nawrocki, a PiS ally, was seen struggling to gain entry to the court during the evening, according to the Guardian. El Mundo reported that officers faced down critics of the government's action at the entrance.\n\nThe tribunal has been at the centre of a legitimacy dispute since the previous government's judicial overhaul. Brussels spent nearly a decade in conflict with Warsaw over the rule of law before Tusk took office, and the current attempt to reset the court is being watched closely in other EU capitals.",
+      "publishedAt": "2026-10-31T05:44:00Z",
+      "sources": [
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/crz9824d5e88o"
+        },
+        {
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/oct/31/riot-police-deployed-to-polands-constitutional-court-after-judge-suspended"
+        },
+        {
+          "name": "El Mundo",
+          "url": "https://www.elmundo.es/internacional/2026/10/30/6ae4f89c21efa0d3758b45a7.html"
+        }
+      ],
+      "imageURL": "/images/2026-10-31-global-002.jpg"
+    },
+    {
+      "id": "2026-10-31-global-003",
+      "category": "global",
+      "headline": "US cancels the G20 «family photo» after European ministers refuse to stand with Lavrov",
+      "subtitle": "About a third of delegations threatened to boycott the traditional picture in Atlanta. Ed Miliband told Russia's foreign minister to his face that «we all know who the aggressor in this war is».",
+      "body": "The United States cancelled the traditional G20 \"family photo\" on Friday after European delegations refused to line up alongside Russia's foreign minister, Sergei Lavrov, at the foreign ministers' meeting in Atlanta.\n\nTwo officials confirmed the cancellation to the BBC. About one-third of the countries present had threatened to boycott the picture, according to the Guardian, which reported that US Secretary of State Marco Rubio pulled the plug rather than stage a photograph that would have exposed the split.\n\nBritain's foreign secretary, Ed Miliband, confronted Lavrov directly at the meeting. \"Let me say this directly to the Russian foreign minister: we all know who the aggressor in this war is,\" he said, accusing Moscow's government of killing innocent civilians in Ukraine.\n\nIt is the first time since the full-scale invasion of Ukraine that Washington has invited a Russian representative to the forum, 20minutos notes, a decision that had unsettled several European capitals before the photo protest. The episode leaves the American presidency of the group managing an event built to project unity among its members.",
+      "publishedAt": "2026-10-31T05:48:00Z",
+      "sources": [
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cmd6dp2y576do"
+        },
+        {
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/oct/31/us-cancels-g20-family-photo-after-australia-uk-and-others-refuse-to-appear-with-russia"
+        },
+        {
+          "name": "20minutos",
+          "url": "https://www.20minutos.es/internacional/sin-foto-familia-g20-eeuu-cancela-tras-las-quejas-europeas-por-presencia-rusia_7055651_0.html"
+        }
+      ],
+      "imageURL": "/images/2026-10-31-global-003.jpg"
+    },
+    {
+      "id": "2026-10-31-global-004",
+      "category": "global",
+      "headline": "Hundreds evacuated from occupied Oleshky under a rare humanitarian ceasefire",
+      "subtitle": "The truce, brokered by US First Lady Melania Trump, held for more than 80 hours and allowed demining and aid convoys to reach the Russian-held town. Evacuees are travelling to Ukraine via Russia and Belarus.",
+      "body": "Hundreds of residents have been evacuated from Oleshky, the devastated Russian-occupied town in southern Ukraine, under a humanitarian ceasefire brokered by the US first lady, Melania Trump, according to Russian and Ukrainian authorities.\n\nRussia's human rights ombudsman, Yana Lantratova, said the operation had passed without incident and that both sides had noted \"the high level of organisation\" behind it. Ukrainian authorities confirmed that the evacuees were on their way to southern Russia and would travel on to Ukraine through Belarus.\n\nMelania Trump said every element of the convoy, including the safe corridor in and out of Oleshky, had been agreed by both sides. Demining around the town was completed before the aid convoy and the evacuation got under way, RTÉ reported.\n\n20minutos reported that the ceasefire held for more than 80 hours without either side breaking it, and that hundreds of people chose to stay in the front-line town despite the danger. Oleshky lies on the left bank of the Dnipro opposite Kherson and has been shelled repeatedly since the destruction of the Kakhovka dam in 2023.",
+      "publishedAt": "2026-10-31T05:52:00Z",
+      "sources": [
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/c60me298k1yeo"
+        },
+        {
+          "name": "RTÉ News",
+          "url": "https://www.rte.ie/news/ukraine/2026/1029/1597186-ukraine-russia/"
+        },
+        {
+          "name": "20minutos",
+          "url": "https://www.20minutos.es/internacional/rusia-ucrania-completan-mision-humanitaria-olekshi-medio-una-tregua-inedita_7055710_0.html"
+        }
+      ],
+      "imageURL": "/images/2026-10-31-global-004.jpg"
+    },
+    {
+      "id": "2026-10-31-global-005",
+      "category": "global",
+      "headline": "Canada and the EU launch an «Alliance for the Future» but shelve the idea of associate membership",
+      "subtitle": "The pact, unveiled at a summit in Montreal, deepens economic, technological and strategic cooperation and stays open to like-minded countries. German resistance buried any «associated state» status until 2027.",
+      "body": "Canada and the European Union used a summit in Montreal to launch an \"Alliance for the Future\", a framework for deeper economic, technological and strategic cooperation that its authors say is open to other like-minded countries.\n\nThe Guardian reported that the alliance was presented as a response to a world \"shaken by new storms\". European Council President António Costa took part in the meeting alongside the Canadian government.\n\nThe wording stopped well short of the relationship Ursula von der Leyen floated in September, when the European Commission president suggested Canada could become an \"associated state\" of the bloc. El Mundo reported that Berlin resisted the idea and that the summit text drops the concept of associated membership altogether.\n\nEl Progreso reported that the two sides postponed until 2027 any definition of how the alliance will be organised, while agreeing to press ahead on trade, research and defence-industrial cooperation. The declaration leaves the alliance's structures and the terms for joining it to be settled later.",
+      "publishedAt": "2026-10-31T05:56:00Z",
+      "sources": [
+        {
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/oct/30/canada-european-union-alliance"
+        },
+        {
+          "name": "El Mundo",
+          "url": "https://www.elmundo.es/internacional/2026/10/30/6ae4cac1fdddff87478b45a1.html"
+        },
+        {
+          "name": "El Progreso",
+          "url": "https://www.elprogreso.es/articulo/mundo/canada-ue-sientan-bases-nueva-alianza-estrategica-posponen-2027-definicion/202610302140012010565.html"
+        }
+      ],
+      "imageURL": "/images/2026-10-31-global-005.jpg"
+    },
+    {
+      "id": "2026-10-31-tech-001",
+      "category": "tech",
+      "headline": "Intel's worst day since the 1970s wipes a quarter off its value and $12bn off the US government's stake",
+      "subtitle": "Shares fell about 28% after a weak fourth-quarter outlook. The chipmaker is being squeezed from both sides as AI demand drives up memory prices and PC sales continue to slide.",
+      "body": "Intel's stock fell about 28% on Friday, one of its worst days on record, after the chipmaker guided to a weaker-than-expected fourth quarter. The rout cut the value of the US government's holding by $12bn, according to CNBC, a little over a year after the Trump administration bought a 10% stake in the company.\n\nNvidia, which also took a large position in Intel in 2025, slipped on the day, and much of the semiconductor sector was caught in the sell-off. Even after the fall, Intel remains a profitable investment for both the government and Nvidia, with the shares still up more than 70% this year.\n\nThe Register reports that Intel's chief executive is still predicting a big coming boom in data-centre processors, but that production problems mean the company may not be able to cash in on it. 20minutos notes Intel has lost $11,441m in the first nine months of the year, and that chief financial officer David Zinsner expects the PC market slowdown to last at least through the first half of next year.\n\nThe pressure is partly a side effect of the AI build-out: demand for memory and other components from data-centre customers has pushed up the cost of building ordinary PCs, at the moment when consumers are buying fewer of them.",
+      "publishedAt": "2026-10-31T06:00:00Z",
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/30/intels-stock-crashes-knocking-12b-from-governments-stake/"
+        },
+        {
+          "name": "The Register",
+          "url": "https://www.theregister.com/systems/2026/10/30/pc-chip-plunge-wipes-out-a-quarter-of-intels-value/5306531"
+        },
+        {
+          "name": "20minutos",
+          "url": "https://www.20minutos.es/lainformacion/empresas/intel-se-desploma-hasta-un-30-tras-perder-11-441-millones-dolares-nueve-meses_7055683_0.html"
+        }
+      ],
+      "imageURL": "/images/2026-10-31-tech-001.jpg"
+    },
+    {
+      "id": "2026-10-31-tech-002",
+      "category": "tech",
+      "headline": "Google's data-centre satellite answers back: a TPU in orbit ran a Gemma model and sent home a poem",
+      "subtitle": "The Project Suncatcher prototype, launched on 1 October, has transmitted its first response to Earth. It is the first working demonstration of the idea that AI compute could one day leave the ground.",
+      "body": "Google's first data-centre satellite is online. The Project Suncatcher prototype, launched on 1 October, has transmitted its first response to Earth, running a Google DeepMind Gemma 4 model on a tensor processing unit (TPU) in orbit, according to TechCrunch.\n\nThe Verge reports that the payload's first output was a haiku about being in space. Google has pitched Suncatcher as a long-term research programme rather than a product: the aim is to learn whether AI accelerators can survive and work in low Earth orbit, where solar power is plentiful and cooling is easier than the industry's terrestrial data centres.\n\nThat question matters increasingly to the economics of the AI boom, with power and land for conventional data centres becoming scarce and expensive. Radiation tolerance, thermal cycling and the cost of launching hardware are the immediate obstacles.\n\nThe test is a long way from a commercial service. Techmeme notes the satellite came online only after its October launch and has returned one transmission, and Google has not said when it expects to fly a larger constellation or what such a network would cost.",
+      "publishedAt": "2026-10-31T06:04:00Z",
+      "sources": [
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/tech/1023528/google-project-suncatcher-ai-satellite-transmission"
+        },
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/30/googles-first-data-center-satellite-is-online-and-writing-poetry/"
+        },
+        {
+          "name": "Techmeme",
+          "url": "https://www.techmeme.com/261030/p18#a261030p18"
+        }
+      ],
+      "imageURL": "/images/2026-10-31-tech-002.jpg"
+    },
+    {
+      "id": "2026-10-31-tech-003",
+      "category": "tech",
+      "headline": "GM pays $220m to 36 states after selling drivers' Smart Driver data to insurers",
+      "subtitle": "The settlement, co-led by Washington and Oregon, covers 35 states and DC and forces GM to obtain express consent before collecting or sharing driving data. Drivers get no cash; a federal class action continues.",
+      "body": "General Motors has agreed to pay $220m to a coalition of 36 state attorneys general to settle allegations that it collected driving data through its OnStar Smart Driver programme and sold it to data brokers, who passed it on to insurers.\n\nThe programme was marketed as a way for parents to keep an eye on teenage drivers, or for adults to review their own habits. In 2024 it emerged that the data was being shared far more widely, and that GM had earned roughly $20m nationwide from the sales.\n\nWashington state's attorney general, which co-led the investigation with Oregon, said it found that GM had collected data on about 370,000 drivers whose OnStar app told them they were not enrolled, and later quietly unenrolled them without telling them their information had already reached brokers. Washington will receive $12.3m of the settlement.\n\nThe agreement requires GM to obtain affirmative express consent before collecting or disclosing driving and location data, to limit what it collects and to honour deletion and data-copy requests. It does not provide consumer restitution and explicitly does not block private lawsuits, so the separate federal class action over the same conduct is unaffected.",
+      "publishedAt": "2026-10-31T06:08:00Z",
+      "sources": [
+        {
+          "name": "Ars Technica",
+          "url": "https://arstechnica.com/cars/2026/10/gm-to-pay-220-million-after-selling-customer-smart-driver-data/"
+        },
+        {
+          "name": "Washington State Attorney General",
+          "url": "https://www.atg.wa.gov/news/news-releases/gm-pay-220m-sharing-drivers-private-data-case-co-led-washington"
+        },
+        {
+          "name": "Oregon Department of Justice",
+          "url": "https://www.doj.state.or.us/media-home/news-media-releases/ag-rayfield-leads-states-in-220m-settlement-w-gm-over-drivers-private-data"
+        }
+      ],
+      "imageURL": "/images/2026-10-31-tech-003.jpg"
+    },
+    {
+      "id": "2026-10-31-tech-004",
+      "category": "tech",
+      "headline": "NASA asks industry for ideas to lift, service or steer the Hubble telescope to a controlled end by 2032",
+      "subtitle": "A request for information published on 29 October sets out three options: raise the telescope above 600km, fly a servicing mission, or bring it down deliberately. Replies are due on 30 November.",
+      "body": "NASA has formally asked the space industry for ways to deal with the Hubble Space Telescope, publishing a request for information on 29 October with responses due by 3pm Eastern on 30 November.\n\nThe agency set out three routes: capture Hubble and boost it to an altitude of at least 600km, fly a servicing mission that would improve its performance and extend its life, or capture it and steer it into a controlled re-entry. Any mission would have to happen by 2032 and must not damage the telescope, which has been in orbit for 36 years.\n\n\"Hubble still has important science ahead of it, and we should be looking at every reasonable opportunity to keep it delivering for as long as possible,\" NASA administrator Jared Isaacman said in the announcement. Under the arrangement described, a company would provide the launch vehicle, the spacecraft, any crew and the servicing operations, while Goddard Space Flight Center would supply technical data and coordinate the rendezvous.\n\nArs Technica notes that NASA solicited similar ideas four years ago and they went nowhere. The Register points out that no budget has been indicated and that this is a request for information rather than proposals. Without intervention, Hubble will make an uncontrolled re-entry in the coming years.",
+      "publishedAt": "2026-10-31T06:12:00Z",
+      "sources": [
+        {
+          "name": "NASA Science",
+          "url": "https://science.nasa.gov/missions/hubble/nasa-explores-potential-commercial-servicing-for-hubble-telescope"
+        },
+        {
+          "name": "Ars Technica",
+          "url": "https://arstechnica.com/space/2026/10/think-you-can-save-the-hubble-space-telescope-nasa-wants-to-know/"
+        },
+        {
+          "name": "The Register",
+          "url": "https://www.theregister.com/science/2026/10/30/nasa-ponders-a-hubble-servicing-mission-or-a-controlled-deorbit/5306622"
+        }
+      ],
+      "imageURL": "/images/2026-10-31-tech-004.jpg"
+    },
+    {
+      "id": "2026-10-31-tech-005",
+      "category": "tech",
+      "headline": "Big Tech has $3tn of AI commitments and is returning the least cash to shareholders in 15 years",
+      "subtitle": "Alphabet, Meta, Microsoft, Amazon and Oracle have pledged more than $3tn of AI spending while handing back just 9.3% of cash in the first three quarters, as the Nasdaq opened at a two-month low.",
+      "body": "Five of the largest American technology companies have committed more than $3tn to AI spending over the coming years, according to figures compiled by Bloomberg, including Alphabet's $1tn of planned outlay. Over the first three quarters of 2026 the same group — Alphabet, Meta, Microsoft, Amazon and Oracle — returned just 9.3% of its cash to shareholders, a 15-year low.\n\nThe gap between promises and payouts is what investors have started to price. The tech-heavy Nasdaq opened on Friday at its lowest level in more than two months, the BBC reported, with Intel's 28% slide continuing a sell-off that began with Alphabet's weaker advertising numbers a day earlier. Total AI spending by the industry is now approaching $1tn.\n\nTechCrunch argues that cracks are appearing in the boom: mounting debt raised against future compute, negative free cash flow at several of the biggest players, and growing scepticism about how quickly the spending will turn into revenue.\n\nThe companies dispute the framing, pointing to demand they say still outstrips supply. But the combination of record capital commitments and the lowest shareholder returns in a decade and a half leaves them with little room if the revenue curve bends.",
+      "publishedAt": "2026-10-31T06:16:00Z",
+      "sources": [
+        {
+          "name": "Techmeme (Bloomberg)",
+          "url": "https://www.techmeme.com/261030/p22#a261030p22"
+        },
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cvwy72e0n72yo"
+        },
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/30/cracks-are-emerging-in-the-ai-spending-boom/"
+        }
+      ],
+      "imageURL": "/images/2026-10-31-tech-005.jpg"
+    },
+    {
+      "id": "2026-10-31-ai-001",
+      "category": "ai",
+      "headline": "OpenAI has commitments for about $11bn of the $30bn it set out to raise",
+      "subtitle": "The round now values the company at $1.25tn rather than the $1.4tn it had hoped for, after large investors cooled on the AI trade. The money is being sold as a bridge to a listing in 2027.",
+      "body": "OpenAI has so far secured roughly $11bn in commitments for its latest funding round, less than half of the $30bn it had initially targeted, the Wall Street Journal reported. The deal values the company at $1.25tn, below the $1.4tn it had hoped to achieve, after tepid interest from several large investors.\n\nThe shortfall is the clearest sign yet that the market's appetite for AI has limits. It follows a difficult week for the sector in which Alphabet lost a quarter of a trillion dollars of market value in a day and Intel's shares fell 28%. Techmeme summarised the reporting as OpenAI's round shrinking in both size and price.\n\nCNBC reported earlier in the week that the financing was being positioned as an \"opportunistic\" bridge ahead of a potential initial public offering, with investors from the United Arab Emirates leading alongside Coatue. OpenAI had told investors it aimed to have signatures by the end of next week, and chief financial officer Sarah Friar has said a listing will likely come in 2027.\n\nOpenAI has not commented on the reported figures. A smaller round at a lower valuation still ranks among the largest private financings ever raised, and leaves the company with a substantial runway for the computing commitments it has already made.",
+      "publishedAt": "2026-10-31T06:20:00Z",
+      "sources": [
+        {
+          "name": "The Wall Street Journal",
+          "url": "https://www.wsj.com/tech/ai/openai-raises-less-than-half-of-30-billion-target-in-latest-round-91aecdc5"
+        },
+        {
+          "name": "Techmeme",
+          "url": "https://www.techmeme.com/261030/p31#a261030p31"
+        },
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/10/22/openai-funding-round-uae-investors.html"
+        }
+      ],
+      "imageURL": "/images/2026-10-31-ai-001.jpg"
+    },
+    {
+      "id": "2026-10-31-ai-002",
+      "category": "ai",
+      "headline": "A tampered Claude Code extension sat on Cursor's marketplace for 11 hours, dropping backdoors on up to 5,000 machines",
+      "subtitle": "Anthropic says the malicious build was published through access to Cursor's marketplace rather than its own systems, and that its official channels were unaffected. Cursor briefly shut the store.",
+      "body": "A malicious version of the official Claude Code extension for Visual Studio Code was live on Cursor's extension marketplace for roughly 11 hours on Thursday, carrying a persistent SSH backdoor written for Windows, macOS and Linux. Cursor, which is owned by SpaceX, says the rogue build was downloaded by \"at most 5,000 users\".\n\nWIRED reports that flawed code in the tainted extension prevented the attacker from fully worming through the developer machines it reached, a lucky break rather than a design feature. The security vendor Phorion spotted the backdoor first and published an advisory describing how the payload established persistence across all three operating systems.\n\nAnthropic denied that the incident began with a breach of its own systems. \"A malicious actor used access to Cursor's marketplace to publish a tampered copy of the Claude Code extension, which we didn't build or publish,\" said Felix Rieseberg, a member of its technical staff. Ars Technica notes it is still unknown how the attackers obtained access to Anthropic's verified Cursor account.\n\nThe incident shifts attention to the marketplaces that distribute AI coding tools. Developers install extensions under a publisher's verified name and rarely inspect updates, so a single compromised publishing account can reach thousands of machines inside a working day — and the tooling itself often holds credentials to source code and cloud infrastructure.",
+      "publishedAt": "2026-10-31T06:24:00Z",
+      "sources": [
+        {
+          "name": "WIRED",
+          "url": "https://www.wired.com/story/trojan-malware-targets-thousands-of-anthropic-claude-developer-systems/"
+        },
+        {
+          "name": "Ars Technica",
+          "url": "https://arstechnica.com/security/2026/10/anthropic-vs-code-extension-on-cursor-backdoored-for-nearly-12-hours/"
+        },
+        {
+          "name": "The Register",
+          "url": "https://www.theregister.com/cyber-crime/2026/10/30/anthropic-that-claude-code-extension-compromise-couldnt-be-us/5306682"
+        },
+        {
+          "name": "Phorion",
+          "url": "https://phorion.io/blog/offical-claude-code-vsx-compromise/"
+        }
+      ],
+      "imageURL": "/images/2026-10-31-ai-002.jpg"
+    },
+    {
+      "id": "2026-10-31-ai-003",
+      "category": "ai",
+      "headline": "Anthropic's only published credit rating is a BB+ from a small agency — the top of the junk tier",
+      "subtitle": "Kroll gave the Claude maker that issuer rating in June, one notch below investment grade, on a $35bn chip financing whose $4.4bn of junior debt carries Anthropic's credit risk at a yield near 8.5%.",
+      "body": "Anthropic's creditworthiness has been assessed exactly once in public, and the answer was a speculative grade. Kroll Bond Rating Agency (KBRA) assigned the company an issuer rating of BB+ in June, the highest junk score and one notch below investment grade, according to documents reviewed by the Financial Times and reported this week.\n\nThe rating supported a $35bn financing for Broadcom-made AI chips led by Apollo. About $4.4bn of junior debt in that package exposes lenders directly to Anthropic's credit risk and was sold with a yield of about 8.5%, while the senior tranche, guaranteed by Broadcom, carried 5.75%.\n\nKBRA is a smaller agency than Moody's, S&P and Fitch, which will determine Anthropic's post-IPO status. Its assessment rested on limited disclosure: Anthropic did not provide free cash flow or EBITDA, so analysts built a risk score from selected figures instead of a full model. The company declined to comment.\n\nTechCrunch reports that bankers are pushing for investment-grade ratings soon after listing, which would open the door to pension funds and insurers. Anthropic told investors at a pre-IPO presentation that third-quarter revenue rose nearly 50% to $16.8bn and that it had been profitable on an adjusted basis for two consecutive quarters.",
+      "publishedAt": "2026-10-31T06:28:00Z",
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says/"
+        },
+        {
+          "name": "Yahoo Finance (Financial Times)",
+          "url": "https://finance.yahoo.com/technology/ai/articles/anthropic-secured-highest-junk-credit-040018773.html"
+        },
+        {
+          "name": "Lumien AI",
+          "url": "https://lumienai.com/news/anthropic-junk-credit-rating-bb-plus-ai-chip-debt"
+        }
+      ],
+      "imageURL": "/images/2026-10-31-ai-003.jpg"
+    },
+    {
+      "id": "2026-10-31-ai-004",
+      "category": "ai",
+      "headline": "OpenAI, Google, Microsoft and Anthropic back one token that lets publishers opt out of AI training",
+      "subtitle": "The signal lets a site set a single preference across all four crawlers. Anthropic has adopted it, Microsoft is aiming for February 2027 and Google for next year, but it is an IETF draft, not a standard.",
+      "body": "OpenAI, Google, Microsoft and Anthropic have said they will honour a single shared signal that lets website owners opt out of having their content used to train AI models, the first coordinated move by the largest labs on a question publishers have been pressing for three years.\n\nThe proposal was drafted by an Anthropic engineer and submitted to the Internet Engineering Task Force on 30 October as an individual contribution, titled Machine-Readable Training Preference Signal. Rather than negotiating separately with each company, a site would set one preference that all four crawlers read when they visit.\n\nThe rollout is staggered. Anthropic is already honouring it. Microsoft has said it will do so from 1 February 2027 and plans to let sites distinguish between blocking training and blocking the retrieval that grounds answers, adding that opted-out sites will still appear in Bing search results. Google has committed to support it next year and OpenAI within months.\n\nThe limits matter. It is an Internet-Draft that expires on 3 May 2027, not an adopted standard, and it has no effect on material already scraped: the training data that prompted the New York Times' 2023 lawsuit with OpenAI is untouched. Opting out may also reduce a publisher's visibility inside AI answers, a trade-off the announcement does not address.",
+      "publishedAt": "2026-10-31T06:32:00Z",
+      "sources": [
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/tech/1023763/openai-google-microsoft-ai-scraping-standard-opt-out"
+        },
+        {
+          "name": "AI Weekly",
+          "url": "https://aiweekly.co/alerts/openai-google-microsoft-anthropic-back-one-ai-opt-out-token"
+        },
+        {
+          "name": "The Straits Times",
+          "url": "https://www.straitstimes.com/world/ai-giants-promise-publishers-new-way-to-block-some-scraping"
+        }
+      ],
+      "imageURL": "/images/2026-10-31-ai-004.jpg"
+    }
+  ]
+}
