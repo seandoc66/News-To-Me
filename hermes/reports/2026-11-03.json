@@ -1,0 +1,26 @@
+{
+  "date": "2026-11-03",
+  "published": true,
+  "publishedAt": "2026-11-03T05:05:12Z",
+  "sections": {
+    "present": ["local", "national", "northernIreland", "global", "tech", "ai"],
+    "missing": []
+  },
+  "storiesWithoutPhoto": [],
+  "validatorWarnings": [
+    "23 paragraph-length warnings across the edition: body paragraphs over 80 words (worst 108 in 2026-11-03-local-001, 105 in local-002, 104 in tech-001). Non-blocking; the edition published Valid.",
+    "All warnings are of the form 'articles[N].body (id) paragraph N is X words — over 80, which reads as a wall of text on a phone. Aim for 30–80'."
+  ],
+  "validatorErrors": [],
+  "workarounds": [
+    "national: only three stories shipped. A fourth and fifth angle on the Urda crash existed (victim identification, Moroccan industry) but every candidate needed a source URL already cited by another article in the same section, which the duplicate-source rule flags. Dropped rather than duplicated.",
+    "local-002 (Sarria cultural centre) is sourced from three pages on elprogreso.es because no second outlet has covered the story; the two older pieces carry the 2010/2020/Cine Cissa history and the TSXG setback.",
+    "local-001 (Monforte school cleaners) is the one story this run could not confirm on a second outlet's live page: La Voz de Galicia 403s to non-browser clients, so its €195,000/year contract figure is cited from the search index, not from a fetch.",
+    "Northern Ireland and part of tech are single-outlet stories under the hood: newsletter.co.uk and derryjournal.com both 403 to scripted requests and were verified only by HTTP status, not by reading content. The Lockhart facts come from the BBC article.",
+    "Al Jazeera article and live-blog URLs returned 404 (not 403) when fetched, so Al Jazeera was excluded from global sourcing even though its RSS listed the midterms and Iran live coverage.",
+    "tech-005 (NYT v Brave) facts come from TechCrunch plus The Verge and Search Engine Journal headlines; the Verge and SEJ pages were status-checked only."
+  ],
+  "needsHumanAttention": false,
+  "humanAttentionReason": null,
+  "notes": "19 articles, all six sections present, 19/19 photos. Lead is local (Monforte school cleaners unpaid for two months). National was reshaped late: rather than a fourth day of pure Urda-collision coverage, it leads on the Diputación Permanente arithmetic before Puente's appearance, then the Iryo control-centre transcript and the 36-year low in infrastructure investment. Global leads on the US strikes on Qeshm Island hours before the midterms. AI carries two Anthropic S-1A stories on deliberately different axes (a capability warning in the risk factors; $895bn of spending commitments and the case for blocking the listing) with disjoint source sets — the one borderline call of the run."
+}
