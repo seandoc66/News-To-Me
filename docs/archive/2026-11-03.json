@@ -1,0 +1,574 @@
+{
+  "generatedAt": "2026-11-03T05:05:12Z",
+  "config": {
+    "sections": {
+      "local": {
+        "min": 1,
+        "max": 3,
+        "sources": [
+          {
+            "name": "El Progreso",
+            "url": "https://www.elprogreso.es"
+          },
+          {
+            "name": "RibeiraSacraXa",
+            "url": "https://ribeirasacraxa.com"
+          },
+          {
+            "name": "La Voz de Galicia",
+            "url": "https://www.lavozdegalicia.es"
+          }
+        ]
+      },
+      "national": {
+        "min": 3,
+        "max": 5,
+        "sources": [
+          {
+            "name": "El Mundo",
+            "url": "https://www.elmundo.es"
+          },
+          {
+            "name": "20minutos",
+            "url": "https://www.20minutos.es"
+          },
+          {
+            "name": "Europa Press",
+            "url": "https://www.europapress.es"
+          }
+        ]
+      },
+      "northernIreland": {
+        "min": 1,
+        "max": 1,
+        "sources": [
+          {
+            "name": "BBC News NI",
+            "url": "https://www.bbc.co.uk/news/northern_ireland"
+          },
+          {
+            "name": "News Letter",
+            "url": "https://www.newsletter.co.uk"
+          },
+          {
+            "name": "Derry Journal",
+            "url": "https://www.derryjournal.com"
+          }
+        ]
+      },
+      "global": {
+        "min": 4,
+        "max": 8,
+        "sources": [
+          {
+            "name": "BBC News",
+            "url": "https://www.bbc.co.uk/news"
+          },
+          {
+            "name": "RTÉ News",
+            "url": "https://www.rte.ie/news"
+          },
+          {
+            "name": "The Guardian",
+            "url": "https://www.theguardian.com"
+          },
+          {
+            "name": "NBC News",
+            "url": "https://www.nbcnews.com"
+          }
+        ]
+      },
+      "tech": {
+        "min": 5,
+        "max": 5,
+        "sources": [
+          {
+            "name": "BBC News",
+            "url": "https://www.bbc.co.uk/news"
+          },
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com"
+          },
+          {
+            "name": "The Verge",
+            "url": "https://www.theverge.com"
+          },
+          {
+            "name": "The Guardian",
+            "url": "https://www.theguardian.com"
+          }
+        ]
+      },
+      "ai": {
+        "min": 4,
+        "max": 7,
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com"
+          },
+          {
+            "name": "The Verge",
+            "url": "https://www.theverge.com"
+          },
+          {
+            "name": "TechPolicy.Press",
+            "url": "https://www.techpolicy.press"
+          },
+          {
+            "name": "The Guardian",
+            "url": "https://www.theguardian.com"
+          }
+        ]
+      }
+    }
+  },
+  "articles": [
+    {
+      "id": "2026-11-03-local-001",
+      "category": "local",
+      "headline": "Cinco limpiadoras de los colegios de Monforte llevan dos meses sin cobrar",
+      "subtitle": "La concesionaria Dondore's Management acumula impagos desde septiembre y no reparte material suficiente; el Concello dice que estudia el contrato y la oposición exige explicaciones",
+      "body": "Las cinco trabajadoras del servicio de limpieza de los tres colegios públicos de Monforte —Ceip Plurilingüe, A Gándara e Infanta Elena— no han cobrado ni la nómina de septiembre ni la de octubre. A la deuda se suman atrasos del curso pasado, de modo que cada empleada acumula entre 800 y 6.000 euros pendientes, según su jornada y su contrato.\n\nEl servicio es una concesión municipal adjudicada en junio de 2025 a Dondore's Management, con sedes en Madrid y Canarias, por 149.100 euros al año durante dos ejercicios prorrogables a cuatro. Las primeras nóminas llegaron a tiempo; después los pagos se fueron retrasando semanas y el suministro se redujo. En algún centro se han pasado más de diez días sin papel de manos y las reservas de papel higiénico van contadas. El Concello asegura que está «estudando e recollendo» información y que tomará «a decisión que corresponda», como ya hizo años atrás con el contrato de la piscina municipal. La empresa no respondió al correo de este diario.\n\n## Los avisos previos\n\nCCOO calificó a la adjudicataria de «empresa fantasma de Sevilla» y anunció denuncia ante la Inspección de Trabajo y demanda en el Juzgado de lo Social. Esperta Monforte sostiene que el BORME recogía ocho declaraciones de insolvencia de la empresa entre mayo de 2024 y abril de 2026, seis de ellas en 2024, antes de la adjudicación, y que las direcciones de los centros habían alertado al Ayuntamiento durante el curso pasado. El grupo llevará el caso al próximo pleno y pedirá crear el Consejo Escolar Municipal, que Monforte aún no ha constituido.",
+      "imageURL": "/images/2026-11-03-local-001.jpg",
+      "sources": [
+        {
+          "name": "El Progreso",
+          "url": "https://www.elprogreso.es/articulo/ribeira-sacra/trabajadores-servicio-limpieza-colegios-monforte-cobrar-productos/202611030500002011336.html"
+        },
+        {
+          "name": "RibeiraSacraXa",
+          "url": "https://ribeirasacraxa.com/es/news/espertamonforte-acusa-al-ayuntamiento-de-mirar-hacia-otro-lado-mientras-el-personal-de-limpieza-de-los-colegios-lleva-meses-sin-cobrar/138021"
+        },
+        {
+          "name": "La Voz de Galicia",
+          "url": "https://www.lavozdegalicia.es/noticia/lemos/monforte-de-lemos/2025/04/17/limpieza-colegios-publicos-monforte-cuesta-195000-euros-ano/0003_202504M17C2992.htm"
+        }
+      ],
+      "publishedAt": "2026-11-03T05:10:00Z"
+    },
+    {
+      "id": "2026-11-03-local-002",
+      "category": "local",
+      "headline": "Sarria proyecta un centro cultural con un auditorio soterrado de 305 butacas",
+      "subtitle": "El estudio previo, que se presenta este jueves, conecta la casa da cultura y la escuela de música con seis salas de ensayo y una plaza que rodeará el edificio",
+      "body": "El Concello de Sarria presentará este jueves un estudio previo para convertir la casa da cultura y la escuela de música en un único centro cultural municipal. La propuesta, que el concejal de Cultura, César No, viene trabajando desde octubre de 2025 con un estudio de arquitectura, prevé llevar el nuevo auditorio a una planta sótano bajo la plaza, con un escenario de 10 por 11 metros —frente a los 5 por 8 actuales— y 305 butacas en lugar de las 126 instaladas hoy.\n\nEl plan elimina el muro de la fachada y el aparcamiento trasero para habilitar una plaza que rodee el edificio y semipeatonalice Marqués de Ugena. La conexión con la escuela de música se resolvería con unas gradas en la zona verde actual, que funcionarían como escenario al aire libre para 190 personas. Dentro, desaparece la escalera interior para ganar espacio para seis salas de ensayo —ahora hay una—, ocho almacenes para asociaciones y tres aulas con paneles móviles; el actual salón de actos quedaría como sala diáfana para exposiciones. El complejo acogería además la biblioteca Camilo Gonsar, el aula Cemit y el aula de estudio.\n\nLa demanda viene de lejos: en 2010 cinco estudiantes de Arquitectura plantearon una reforma integral que se paró al cambiar el gobierno, en 2020 el Concello compró la fábrica Feculera en una operación anulada por el juzgado y en 2024 tanteó el antiguo Cine Cissa sin éxito. Tras la presentación se redactará el proyecto técnico y se buscará financiación.",
+      "imageURL": "/images/2026-11-03-local-002.jpg",
+      "sources": [
+        {
+          "name": "El Progreso",
+          "url": "https://www.elprogreso.es/articulo/sarria/concello-sarria-disena-plan-dotar-localidad-amplio-centro-cultural/202611030500002011518.html"
+        },
+        {
+          "name": "El Progreso",
+          "url": "https://www.elprogreso.es/articulo/sarria/unanimidad-pleno-sarria-gestionar-proyecto-auditorio-villa/202501310841471826072.html"
+        },
+        {
+          "name": "El Progreso",
+          "url": "https://www.elprogreso.es/articulo/sarria/concello-paraliza-anteproyecto-auditorio-fallo-tsxg/202402091529241729648.html"
+        }
+      ],
+      "publishedAt": "2026-11-03T05:20:00Z"
+    },
+    {
+      "id": "2026-11-03-national-001",
+      "category": "national",
+      "headline": "Dos de cada tres diputados permanentes piden la dimisión de Puente antes de su comparecencia",
+      "subtitle": "El ministro de Transportes comparece este martes en el Congreso con el PP, Vox, Sumar, Junts, PNV y Podemos exigiendo su salida y el Gobierno aprobando el decreto de ayudas a las víctimas",
+      "body": "La Diputación Permanente del Congreso escenifica este martes el giro político que ha provocado el accidente de Urda. Más del 61% de sus miembros —prácticamente dos de cada tres— consideran imprescindible que se asuman responsabilidades políticas por el siniestro del 28 de octubre, que ha dejado 69 muertos y 41 heridos todavía hospitalizados. La exigencia de dimisión es explícita en PP, Vox, Sumar, Junts, PNV y Podemos; ERC reclama responsabilidades pero no ha pedido abiertamente la salida del ministro, y EH Bildu es la formación más clara en respaldo al Ejecutivo.\n\nEl PP va más allá y pide la dimisión de Pedro Sánchez: «Si no dimiten ellos, los haremos dimitir nosotros», ha dicho Alberto Núñez Feijóo, que acusa al presidente de estar pendiente de las encuestas. Los populares llevan a la sesión el déficit de 20.000 millones acumulado en mantenimiento de la red y el gasto de 45,5 millones anuales por cada mil kilómetros de vía, casi la mitad de la media europea. También la filtración de los audios entre maquinistas y el control de Atocha horas después del accidente.\n\n## El paquete de ayudas\n\nEl Consejo de Ministros prevé aprobar este martes un real decreto con indemnizaciones que doblan la cuantía del seguro obligatorio de pasajeros, anticipos y medidas específicas de protección para las víctimas, según anunció Sánchez. El Instituto de Medicina Legal de Toledo y Ciudad Real ha identificado a los 69 fallecidos, 54 españoles y 15 extranjeros, entre ellos cuatro estadounidenses, dos australianos y dos japoneses. Los equipos de emergencia han retirado ya todos los vagones de la vía y los restos quedan a disposición judicial mientras continúa la búsqueda de restos biológicos.",
+      "imageURL": "/images/2026-11-03-national-001.jpg",
+      "sources": [
+        {
+          "name": "El Mundo",
+          "url": "https://www.elmundo.es/espana/2026/11/03/6ae8cec2e4d4d892638b457d.html"
+        },
+        {
+          "name": "20minutos",
+          "url": "https://www.20minutos.es/nacional/accidente-tren-toledo-urda-directo-ultima-hora-noticias-fallecidos-heridos-reacciones_7055912_6.html"
+        },
+        {
+          "name": "Europa Press",
+          "url": "https://www.europapress.es/nacional/noticia-feijoo-acusa-sanchez-estar-pendiente-encuestas-tragedia-urda-ofrece-gestion-yo-si-hacerlo-20261102130655.html"
+        }
+      ],
+      "publishedAt": "2026-11-03T05:25:00Z"
+    },
+    {
+      "id": "2026-11-03-national-002",
+      "category": "national",
+      "headline": "Una orden errónea del centro de control y un maquinista que la detectó a tiempo",
+      "subtitle": "Los informes internos del Iryo 6011 muestran cómo el responsable de circulación de Atocha autorizó marcha normal en un cantón ocupado y tuvo que rectificar y disculparse",
+      "body": "El tren Iryo 6011 salió de Puertollano a las 8.38 del 28 de octubre y se detuvo en el kilómetro 209,2 al detectar un fallo de transmisión en bloqueo parcial. Su maquinista llamó a la sala de control sin obtener respuesta, insistió por el teléfono corporativo y a las 8.44 recibió una instrucción: continuar la marcha «al amparo del BSL con marcha normal». Respondió que, ante ese tipo de avería, el texto correcto debía ser «marcha a la vista» hasta la señal de entrada de Calatrava, porque entre su tren y esa señal había otro ocupando el cantón. El responsable de circulación le dio la razón, le pidió disculpas y corrigió el telefonema.\n\nNueve minutos después, el AVE 2080 embistió al Iryo 6076 a más de 160 kilómetros por hora. El apagón del LZB había afectado a un perímetro de 63 kilómetros y dejado al menos seis trenes sin señalización.\n\n## Peticiones de nuevos límites\n\nEl fallo es recurrente: el sistema ha caído al menos 170 veces este año en esa línea y solo Iryo detectó 104, según los datos que maneja la compañía. Iryo ha escrito a la Agencia Estatal de Seguridad Ferroviaria para pedir que, cuando falle el LZB, se limite la velocidad a 40 kilómetros por hora bajo BSL y con protección ASFA, además de supervisar automáticamente la velocidad cuando se pierde la conexión. Renfe ya aplica esa medida de forma interna y el sindicato Semaf había planteado una petición similar.",
+      "imageURL": "/images/2026-11-03-national-002.jpg",
+      "sources": [
+        {
+          "name": "El Mundo",
+          "url": "https://www.elmundo.es/economia/2026/11/03/6ae873c6e9cf4a43058b4588.html"
+        },
+        {
+          "name": "Europa Press",
+          "url": "https://www.europapress.es/economia/transportes-00343/noticia-iryo-pide-agencia-seguridad-ferroviaria-limitar-40-km-velocidad-cuando-falle-sistema-lzb-20261102120750.html"
+        },
+        {
+          "name": "El Mundo",
+          "url": "https://www.elmundo.es/espana/2026/10/28/6ae236b621efa012638b4600.html"
+        }
+      ],
+      "publishedAt": "2026-11-03T05:35:00Z"
+    },
+    {
+      "id": "2026-11-03-national-003",
+      "category": "national",
+      "headline": "La inversión en infraestructuras se queda en niveles de hace 36 años",
+      "subtitle": "Los datos de la Fundación BBVA y el Ivie sitúan el gasto real de 2025 por debajo del de 1989, con el patrimonio público un 2,3% por debajo del máximo de 2012",
+      "body": "El debate abierto por el accidente de Urda ha llevado a mirar la serie histórica de inversión pública. Descontando la inflación y con precios de 2020, España destinó el año pasado 12.993 millones de euros a carreteras, ferrocarriles, puertos o presas, por debajo de los 13.566 millones de 1989. La serie que elaboran cada año la Fundación BBVA y el Ivie confirma que el país gasta hoy en sus infraestructuras lo mismo que hace 36 años.\n\nEl desplome arranca en la crisis financiera: de los 34.800 millones de 2009, muy influidos por el Plan E, se pasó a 9.076 en solo ocho años, un recorte del 75% que no se ha recuperado. Por tipos, la inversión viaria está en niveles de 1988 y la hidráulica en los de 1986; la ferroviaria, en los de 2001, con 3.700 millones frente a 4.591 entonces, dos tercios por debajo del máximo de 2009.\n\nLa consecuencia no es solo menos obra nueva. El stock de capital neto en infraestructuras se redujo entre 2016 y 2022, es decir, la inversión no cubrió ni el desgaste de lo ya construido, y el patrimonio público se sitúa en 470.362 millones, un 2,3% por debajo del pico de 2012. La Airef ya advirtió en 2019 de que, a ese ritmo, el 80% de las infraestructuras de transporte tendría más de diez años en 2030.",
+      "imageURL": "/images/2026-11-03-national-003.jpg",
+      "sources": [
+        {
+          "name": "20minutos",
+          "url": "https://www.20minutos.es/lainformacion/economia-y-finanzas/inversion-infraestructuras-se-situa-niveles-hace-36-anos-pese-repunte-tras-crisis-2008_7056277_0.html"
+        },
+        {
+          "name": "El Mundo",
+          "url": "https://www.elmundo.es/economia/empresas/2026/11/02/6ae8c3f021efa0631a8b4597.html"
+        },
+        {
+          "name": "Europa Press",
+          "url": "https://www.europapress.es/catalunya/noticia-illa-apuesta-mantener-alta-velocidad-barcelona-madrid-remodelacion-20261102094201.html"
+        }
+      ],
+      "publishedAt": "2026-11-03T05:40:00Z"
+    },
+    {
+      "id": "2026-11-03-northernIreland-001",
+      "category": "northernIreland",
+      "headline": "Carla Lockhart quits the DUP over its refusal to move against Michelle O'Neill",
+      "subtitle": "The Upper Bann MP will sit as an independent unionist, leaving Gavin Robinson with four Commons seats and a party split seven months before the Assembly election",
+      "body": "Carla Lockhart resigned from the DUP on Monday, saying she was leaving on a \"point of principle\" and would continue at Westminster as an independent unionist. The Upper Bann MP had spent weeks pressing Gavin Robinson to withdraw the deputy first minister from Stormont's joint office, a move that would have forced Michelle O'Neill out as First Minister.\n\nThe row follows unionist anger at Sinn Féin's involvement in protests on the Garvaghy Road in Portadown, which blocked an Orange Order parade from passing along the mainly nationalist street. O'Neill and several other senior Sinn Féin figures have been interviewed by police investigating the demonstrations. The party has defended her involvement, saying it was \"the right thing to do\", while the DUP announced last week that it would block official engagements involving her.\n\nLockhart had called removing O'Neill \"the only one credible option\" and said a \"graduated response\" would be \"insulting to those who have trusted us\". In her statement she said she could not \"stand idly by whilst Sinn Féin wilfully ignores the rule of law and the promised profound consequences fail to materialise\".\n\nThe DUP said it regretted her decision but that \"the only winner out of further divisions within unionism is Sinn Féin\". TUV leader Jim Allister, who quit the party himself almost 20 years ago, welcomed it, saying the DUP had chosen O'Neill over Lockhart. Robinson now has four MPs where the party once had ten.",
+      "imageURL": "/images/2026-11-03-northernIreland-001.jpg",
+      "sources": [
+        {
+          "name": "BBC News NI",
+          "url": "https://www.bbc.co.uk/news/articles/cm87zn1vy28zo"
+        },
+        {
+          "name": "News Letter",
+          "url": "https://www.newsletter.co.uk/news/politics/carla-lockhart-quits-dup-over-its-refusal-to-remove-michelle-oneill-as-first-minister-over-drumcree-actions-9325763"
+        },
+        {
+          "name": "Derry Journal",
+          "url": "https://www.derryjournal.com/news/politics/carla-lockhart-quits-dup-with-immediate-effect-9325873"
+        }
+      ],
+      "publishedAt": "2026-11-03T05:45:00Z"
+    },
+    {
+      "id": "2026-11-03-global-001",
+      "category": "global",
+      "headline": "US strikes Iran's Qeshm Island hours before the midterm elections",
+      "subtitle": "American officials describe the attacks in the Strait of Hormuz as limited and defensive, saying they answered Revolutionary Guard fire on a US aircraft",
+      "body": "The United States carried out strikes on Qeshm Island in the Strait of Hormuz on Monday, hours before polls opened in the midterm elections. US officials told CBS, the BBC's American partner, that the attacks were limited and came in response to Iran's Islamic Revolutionary Guard Corps firing on a US aircraft. Iran's state news agency IRNA reported several explosions on the island. Centcom, the US military command for the Middle East, did not immediately comment.\n\nThe timing put a war that began in February, when the US and Israel attacked Iran, directly into the final hours of an election campaign in which anger over the conflict has weighed on Republican prospects. Donald Trump told reporters earlier on Monday that he was in \"no rush\" to escalate. \"We crippled them financially,\" he told Axios. In a Fox News interview he said the US \"might need to go after Pickaxe\", a site linked to Iran's nuclear programme, adding it would be \"not a big deal\" and could be done in \"one hour\". Asked whether significant strikes would resume after the vote, he said no.\n\nIran's foreign minister, Abbas Araghchi, said \"very intensive\" talks to end the war were under way through mediators, and that Tehran was ready for both a diplomatic and a military path. It was for Washington, he said, to choose between negotiation and \"the mistake of military aggression\".",
+      "imageURL": "/images/2026-11-03-global-001.jpg",
+      "sources": [
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cx240mrm3g8vo"
+        },
+        {
+          "name": "RTÉ News",
+          "url": "https://www.rte.ie/news/middle-east/2026/1103/1597716-iran-us-world/"
+        },
+        {
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/nov/03/us-strikes-irans-qeshm-island"
+        },
+        {
+          "name": "20minutos",
+          "url": "https://www.20minutos.es/internacional/eeuu-ataca-una-isla-irani-pocas-horas-las-elecciones-segun-the-wall-street-journal_7056363_0.html"
+        }
+      ],
+      "publishedAt": "2026-11-03T05:50:00Z"
+    },
+    {
+      "id": "2026-11-03-global-002",
+      "category": "global",
+      "headline": "Americans vote in midterms that will decide control of Congress",
+      "subtitle": "Democrats need three House seats and a net four in the Senate; Trump's approval has hovered near the low 30s as prices and the Iran war dominate the campaign",
+      "body": "Polling stations opened across the United States on Tuesday with all 435 House seats, 35 Senate seats and 36 governorships at stake. Democrats need a net gain of three in the House and four in the Senate to take both chambers, which would let them stall Donald Trump's legislative programme and open investigations into his administration. Decision Desk HQ's final forecast put the House at 241 seats for the Democrats against 194 for the Republicans, and the Senate at a narrower 52-48 Democratic majority.\n\nThe election has become a referendum on Trump's second term. Inflation, tariffs and fuel costs pushed up by the Middle East conflict have squeezed households, and his approval rating has hovered near the low 30s. In his final rally he spent much of the speech on the renovation of Washington's Reflecting Pool rather than the economy, a closing message the Democratic leader Chuck Schumer called \"pathetic\". More than 57 million people voted early, and political advertising passed $11 billion.\n\nThe result is also a test of whether it will be accepted. Trump has repeatedly alleged voter fraud without evidence, and his justice department has already gone to court over ballot and certification questions in several states. \"I veto everything,\" he told a podcast when asked how he would govern if he lost Congress.",
+      "imageURL": "/images/2026-11-03-global-002.jpg",
+      "sources": [
+        {
+          "name": "RTÉ News",
+          "url": "https://www.rte.ie/news/us/2026/1103/1597714-us-midterms-trump/"
+        },
+        {
+          "name": "20minutos",
+          "url": "https://www.20minutos.es/internacional/que-son-las-midterm-eeuu-que-hay-juego-que-dicen-las-ultimas-encuestas-por-que-pueden-suponer-un-autentico-mazazo-para-trump_7049218_0.html"
+        },
+        {
+          "name": "El Mundo",
+          "url": "https://www.elmundo.es/internacional/2026/11/03/6ae85eb9e85ecef6698b4598.html"
+        }
+      ],
+      "publishedAt": "2026-11-03T05:52:00Z"
+    },
+    {
+      "id": "2026-11-03-global-003",
+      "category": "global",
+      "headline": "Russian guided bombs kill 26 at an aid centre in southern Ukraine",
+      "subtitle": "Ten bombs hit a school used to distribute humanitarian aid and a nearby shelter in Komyshuvakha, as a rare local ceasefire in Kherson expired the same day",
+      "body": "Russian aircraft dropped about ten guided bombs on the village of Komyshuvakha in Ukraine's Zaporizhzhia region on Monday, killing 26 people and injuring at least five, according to Ukraine's emergency services. The target was a local school used to hand out humanitarian aid, and a shelter where people had gathered after the first explosions. About 20 people were still listed as missing as night fell and rescuers searched the rubble with torches; Russian drones attacked the area again while they worked, said Mykhailo Semikin, a Zaporizhzhia military official.\n\nPresident Volodymyr Zelensky called the attack \"utterly horrific\" and said Russia could not have been unaware that residents collected aid there every week. \"With these killings, Russia is sending an entirely opposite signal: Russia is counting on more killings,\" he said in his nightly address, warning that Ukraine expects further escalation while it runs short of interceptor missiles.\n\nThe strikes came as a limited ceasefire expired in the Kherson region, where a six-day pause had allowed aid and evacuation convoys into Russian-occupied Oleshky. Ukraine's general staff said Moscow had used the lull to replenish ammunition and bolster drone defences. Elsewhere, drone attacks injured 12 people in the Kharkiv region and five in Odesa, and Russia said it downed 212 Ukrainian drones overnight.",
+      "imageURL": "/images/2026-11-03-global-003.jpg",
+      "sources": [
+        {
+          "name": "RTÉ News",
+          "url": "https://www.rte.ie/news/ukraine/2026/1102/1597579-ukraine-russia/"
+        },
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cjy56dndlyz0o"
+        },
+        {
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/nov/03/russia-bombs-ukrainian-aid-centre-komyshuvakha"
+        },
+        {
+          "name": "DW",
+          "url": "https://www.dw.com/en/ukraine-at-least-26-killed-in-russian-strikes-on-aid-center/live-79825079"
+        }
+      ],
+      "publishedAt": "2026-11-03T05:55:00Z"
+    },
+    {
+      "id": "2026-11-03-global-004",
+      "category": "global",
+      "headline": "Supreme Court rejects Trump's bid to set aside 20,000 California ballots",
+      "subtitle": "The justices issued a one-line order on the eve of the midterms without even asking California for its view, after two lower courts had already refused the justice department",
+      "body": "The US Supreme Court on Monday refused an emergency request from the Trump administration to make California separate out up to 20,000 mail-in ballots that the justice department claims may have been cast by non-citizens. The justices issued a one-line order without explanation, and acted so quickly that they did not ask California for its views first, as is usual in such cases.\n\nTwo lower courts had already rejected the request. A district judge warned that setting the ballots aside could disfranchise citizens in Tuesday's elections, and the 9th Circuit found no evidence that Congress intended federal law barring non-citizens from voting to override state election rules. California officials argue the federal list is inaccurate and note that non-citizens are already barred from voting under state law. Because identifying details are stripped from mail ballots before counting, election officials say it would be impossible to work out retrospectively which votes the administration was challenging.\n\nThe ruling was one of a flurry of last-minute election cases. A federal judge also ordered the justice department to stop warning California officials they could face prosecution, and separately rejected an administration attempt that could have blocked certification of Alaska's Senate race. California's attorney general, Rob Bonta, said the decision should end the administration's effort to \"disrupt California's elections through emergency court orders\".",
+      "imageURL": "/images/2026-11-03-global-004.jpg",
+      "sources": [
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cm5ynekkn5qko"
+        },
+        {
+          "name": "NBC News",
+          "url": "https://www.nbcnews.com/politics/supreme-court/rejects-trump-effort-target-alleged-noncitizen-voters-california-midte-rcna606607"
+        },
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/02/supreme-court-california-mail-ballots-election.html"
+        }
+      ],
+      "publishedAt": "2026-11-03T05:57:00Z"
+    },
+    {
+      "id": "2026-11-03-tech-001",
+      "category": "tech",
+      "headline": "Hackers turned supermarket fridges up to 50C across seven European countries",
+      "subtitle": "Around 40 Delhaize stores in Belgium and Luxembourg were hit, along with shops in Ireland, Sweden, the Netherlands, Finland, Estonia and Denmark-linked chains",
+      "body": "Dozens of supermarkets in seven European countries had their refrigerators and freezers attacked overnight, with temperatures in some shops reported to have risen as high as 50C. Around 40 Delhaize stores in Belgium and Luxembourg were affected, along with a smaller number of shops in Sweden, Ireland, the Netherlands, Estonia and Finland.\n\nSabcobel, the Belgian manufacturer behind some of the units, said the evaporators had been switched into defrost mode — the same technique used in an attack on hundreds of French supermarkets last month, when millions of euros of food were thrown away. Its chief executive, Stephan Moelans, said staff had worked through the night to disconnect affected fridges from the network, and that the units needed physical modifications rather than software updates. Most European supermarkets are connected to the internet so maintenance can be done remotely, and Moelans said most customers had moved to managing fridges over a secure connection after the French incident.\n\nThe scale of the losses is becoming clear. A Delhaize branch in Hoeilaart, Flanders, told Het Laatste Nieuws it had lost €100,000 of produce, a figure that excludes the cost of closing the shop. Carrefour said 15 Belgian stores were affected, Colruyt five, and 13 SuperValu supermarkets were hit in Ireland. Swedish ICA and Coop stores, some Kesko shops in Finland and a Selver store in Estonia also reported problems. Nobody has claimed responsibility; Belgian and Swedish cyber-security agencies are monitoring the incident, and the US is examining whether malfunctions at several military bases in August are linked.",
+      "imageURL": "/images/2026-11-03-tech-001.jpg",
+      "sources": [
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cq1kd1nee80eo"
+        },
+        {
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/technology/2026/nov/02/europe-supermarket-fridges-freezers-who-hacking-why"
+        },
+        {
+          "name": "El Progreso",
+          "url": "https://www.elprogreso.es/articulo/mundo/nuevos-ciberataques-supermercados/202611030027182011522.html"
+        }
+      ],
+      "publishedAt": "2026-11-03T05:58:00Z"
+    },
+    {
+      "id": "2026-11-03-tech-002",
+      "category": "tech",
+      "headline": "Marvell buys Lumentum for $115bn in one of the largest tech deals ever",
+      "subtitle": "The all-stock purchase of the optical components maker is a bet that AI data centres will need light, not just silicon, to keep scaling",
+      "body": "Marvell Technology has agreed to buy optical components maker Lumentum in an all-stock deal with an enterprise value of $115bn including debt, one of the biggest acquisitions in the industry's history. It dwarfs Microsoft's $68.7bn purchase of Activision Blizzard and Dell's $67bn takeover of EMC.\n\nMarvell will pay $1,132 a share, a 23.9% premium to Lumentum's closing price before talks were first reported, and will issue 4.5 of its own shares for each Lumentum share. Reuters calculates that values Lumentum at about 33 times projected operating profit over the next year, more than double the roughly 16 times median for peers. The companies expect more than $1bn in annual cost savings and say the deal will add to Marvell's earnings in the first year after closing, expected in the first half of 2028, subject to shareholder and regulatory approval.\n\nThe logic is connectivity. As AI clusters grow, the bottleneck is increasingly moving data between chips rather than computing it, and optical links carry more of it with less power. Marvell, which makes custom AI silicon, says the combination makes it a \"category leader in AI connectivity\" against Broadcom. Both companies count Nvidia as an investor: the chip giant put $2bn into Lumentum in March for laser components and a similar sum into Marvell's optical portfolio. Lumentum's chief executive, Michael Hurlston, will join Marvell's board.",
+      "imageURL": "/images/2026-11-03-tech-002.jpg",
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/02/in-one-of-the-largest-deals-in-tech-history-marvell-buys-lumentum-for-115b/"
+        },
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/legal/transactional/marvell-buy-lumentum-115-billion-deal-ai-data-center-bet-2026-11-02"
+        },
+        {
+          "name": "CBS News",
+          "url": "https://www.cbsnews.com/news/marvell-lumentum-acquisition-ai-connectivity"
+        }
+      ],
+      "publishedAt": "2026-11-03T05:59:00Z"
+    },
+    {
+      "id": "2026-11-03-tech-003",
+      "category": "tech",
+      "headline": "Apple's $2,000 foldable sold out, and it can't say when more will arrive",
+      "subtitle": "New chief executive John Ternus called the early reaction to the iPhone Duo thrilling, but Apple's operating chief said supply and demand are far from balance",
+      "body": "Apple's first foldable, the $1,999 iPhone Duo, sold out within days of going on sale in late October, and the company cannot say when stock will return. \"At this time, it's really hard to predict when supply and demand will be in balance,\" said Sabhi Kahn, Apple's new chief operating officer, on a call with analysts discussing the company's results.\n\nJohn Ternus, who took over as chief executive from Tim Cook in September, said he was \"thrilled\" at the reception. Executives did not raise the cracking screens some buyers have reported along the inside fold, though Apple said last week it would replace affected handsets. The quarter to 26 September did not include Duo sales, but iPhone revenue still rose 17% to $57bn, and Apple sold more iPhones over the past year than ever before. Mac sales climbed 27% to $10.7bn, another record, while iPad and wearables revenue fell 10% and 7%. Group sales rose 15% to $479bn.\n\nUnderneath the records is a supply problem that AI is making worse. Apple says most of its devices are constrained, partly because advanced-node microprocessors from TSMC are hard to get, and Ternus described increases in memory costs as \"unprecedented\" as data centres soak up storage capacity. Tim Cook had called the surge a \"thousand-year flood\"; Apple has responded by raising hardware prices by around 20%.",
+      "imageURL": "/images/2026-11-03-tech-003.jpg",
+      "sources": [
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/c6n8dn457ypko"
+        },
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/02/apple-says-its-hard-to-predict-when-iphone-duo-constraints-will-improve/"
+        },
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/tech/1024915/apple-iphone-duo-supply-chain-constraints"
+        }
+      ],
+      "publishedAt": "2026-11-03T06:00:00Z"
+    },
+    {
+      "id": "2026-11-03-tech-004",
+      "category": "tech",
+      "headline": "A TV box maker put a backdoor in 1.3 million devices, Google says",
+      "subtitle": "The X.CPE botnet shipped inside firmware in more than 200 countries; taking down its control servers also cut off 10 million other compromised devices",
+      "body": "Google says one of its Android manufacturing partners secretly built a backdoor into 1.3 million devices and turned them into a botnet. The company has dismantled the backdoor and cut ties with Videostrong Technology, a Shenzhen-based manufacturer that has been banned from making or selling certified Android devices or supplying their software.\n\nThe malware, tracked as X.CPE, was embedded in firmware before the boxes ever reached shops, and was built to evade pre-release security checks. Infected devices were used without their owners' knowledge for ad fraud, quietly enrolling them in residential proxy networks, exfiltrating data and loading further malware. Google says Videostrong sold access to criminal affiliates and that the operation was run \"for financial gain\". Because those affiliates also distribute their modules through other channels, Google assesses that shutting their command-and-control domains severed access to at least 10 million additional compromised devices.\n\nThe takedown, announced on Monday, was coordinated with Japan's National Police Agency and the security firms Lumen, HUMAN Security, Plume, Synthient and TrendAI. Google has since changed how it reviews device manufacturers. One caveat that matters for anyone who owns a cheap streaming box: the control servers are down, but the backdoor remains in the firmware and can reinstall itself after a restart, so owners cannot remove it themselves. Set-top boxes, karaoke machines, digital signage and even telehealth hardware were affected.",
+      "imageURL": "/images/2026-11-03-tech-004.jpg",
+      "sources": [
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/1024807/google-botnet-android-tv-shut-down"
+        },
+        {
+          "name": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/google-disrupts-million-device-xcpe-android-malware-botnet-bans-tv-box-maker"
+        },
+        {
+          "name": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/technology/ai/articles/industry-takedown-botnet-hidden-more-130100056.html"
+        }
+      ],
+      "publishedAt": "2026-11-03T06:02:00Z"
+    },
+    {
+      "id": "2026-11-03-tech-005",
+      "category": "tech",
+      "headline": "The New York Times sues Brave, calling it a fence for stolen journalism",
+      "subtitle": "The suit says the browser's crawler built an index of 30 billion pages and sells access to AI companies including Anthropic, Perplexity, Mistral, xAI and Cohere",
+      "body": "The New York Times sued Brave, the privacy-focused browser company, on Monday, alleging that it scraped the paper's copyrighted journalism and sold access to AI developers. The complaint, filed in federal court in Manhattan, compares Brave to \"a supplier, dealer, and distributor of stolen copyrighted content\", and calls it \"both like a burglar that misappropriates the content of publishers, and an AI 'fence' that sells stolen content to third parties\".\n\nThe Times says Brave built an index of more than 30 billion web pages using a crawler it does not identify, leaving publishers unable to block it, and that it distributed the material to Anthropic, Perplexity, Mistral, xAI and Cohere — none of which is a defendant. The suit also targets a Brave feature that bypasses paywalls, and the company's practice of stripping publishers' advertising while selling its own.\n\n\"Brave has flouted established copyright law and ignored repeated requests by The Times to stop its infringing conduct,\" said a newspaper spokesperson, Graham James. In a separate filing the same day, the Daily News, the Chicago Tribune and the Orlando Sentinel brought similar claims. The Times has already sued OpenAI and Perplexity over comparable allegations, and the case fits a wider pattern: publishers have tried blocking crawlers, paywalls and licensing deals, and are now treating litigation as the main lever.",
+      "imageURL": "/images/2026-11-03-tech-005.jpg",
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/02/new-york-times-and-other-outlets-sue-web-browser-brave-over-alleged-content-scraping/"
+        },
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/tech/1024588/brave-lawsuit-ai-scraping-new-york-times"
+        },
+        {
+          "name": "Search Engine Journal",
+          "url": "https://www.searchenginejournal.com/ny-times-accuses-brave-of-scraping-and-exploiting-content/595679"
+        }
+      ],
+      "publishedAt": "2026-11-03T06:04:00Z"
+    },
+    {
+      "id": "2026-11-03-ai-001",
+      "category": "ai",
+      "headline": "Anthropic tells investors it may be close to AI that can improve itself",
+      "subtitle": "New risk factors in the company's amended IPO filing say it may soon meet its own definition of dramatically accelerated progress attributable to AI",
+      "body": "Buried in the amended registration statement Anthropic filed on Monday is a warning that reframes the company's listing. The filing says the lab's growing use of AI to speed its own research could let its models' capabilities outrun its ability to develop the corresponding safety measures, and that it has in the past failed to notice such an acceleration until after it happened.\n\nThe key sentence concerns recursive self-improvement, the point at which a model becomes good enough at building AI that progress compounds. Anthropic says its internal estimates and expectations for future models, rather than its current ones, indicate it \"may imminently meet our Responsible Scaling Policy's definition of 'dramatically accelerated progress attributable to AI'\". No model has yet been designated as crossing that threshold, and the company says it is considering updating the policy to keep humans in control of frontier development.\n\nSceptics will note that a registration statement is marketing as well as disclosure. Gary Marcus argues the underlying evidence is mostly faster coding assistance under human control, not an autonomous system designing its successor. But Anthropic is not alone: OpenAI has made similar arguments to policymakers about monitoring progress towards RSI, and the concept has moved from forum argument into securities filings and regulatory proposals within a year.",
+      "imageURL": "/images/2026-11-03-ai-001.jpg",
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/"
+        },
+        {
+          "name": "Invezz",
+          "url": "https://www.tradingview.com/news/invezz:77d617f2e094b:0-recursive-self-improvement-why-anthropic-wants-ai-development-slowed"
+        },
+        {
+          "name": "Gary Marcus",
+          "url": "https://garymarcus.substack.com/p/no-need-to-panic-about-anthropics"
+        }
+      ],
+      "publishedAt": "2026-11-03T06:06:00Z"
+    },
+    {
+      "id": "2026-11-03-ai-002",
+      "category": "ai",
+      "headline": "Grok Bot users hit their caps as Musk admits the maths doesn't work",
+      "subtitle": "Usage limits were cut over Halloween weekend, with some users jumping from 50% to 100% of their allowance days before it was due to reset",
+      "body": "Users of Grok Bot found their weekly allowances burning far faster than usual over the Halloween weekend, some jumping from 50% to 100% of their limit days before the reset date. It was not a glitch. \"The cost of serving Grok Bot was unsustainably high relative to revenue,\" Elon Musk wrote on X after a user asked for a reset, confirming the limits had been deliberately tightened.\n\nThe reaction was hostile. TechRadar reported users describing the change as a \"rug pull\", and Musk has not said what the limits will look like going forward. The episode exposes a question that hangs over the whole sector: whether demand for agentic AI tools can be served profitably at current prices. As Yahoo Finance put it, demand isn't the problem — the cost is. The same week, ChatGPT users were complaining about OpenAI's own tightened limits.\n\nGrok Bot is the agentic product attached to xAI's consumer platform, and its economics are unusual: users can run long, multi-step tasks that consume far more compute than a chat message. When unit costs exceed what a subscription covers, the only levers are price, throttling or subsidy, and throttling is the one that can be done overnight. For anyone budgeting around an AI assistant's usage caps, that is now a variable to watch rather than a fixed assumption.",
+      "imageURL": "/images/2026-11-03-ai-002.jpg",
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/02/elon-musk-throttles-grok-bot-limits-due-to-unsustainably-high-costs/"
+        },
+        {
+          "name": "TechRadar",
+          "url": "https://www.techradar.com/ai-platforms-assistants/elon-musk-says-grok-bot-was-throttled-because-costs-were-unsustainably-high-as-users-call-the-move-a-rug-pull"
+        },
+        {
+          "name": "Yahoo Finance",
+          "url": "https://tech.yahoo.com/ai/deals/articles/elon-musk-throttled-grok-bot-132252105.html"
+        }
+      ],
+      "publishedAt": "2026-11-03T06:08:00Z"
+    },
+    {
+      "id": "2026-11-03-ai-003",
+      "category": "ai",
+      "headline": "OpenAI says its data centres can give power back to the grid in an emergency",
+      "subtitle": "A pilot at its Georgia campus promises up to 1GW for the grid during extreme weather — the output of the air conditioning in roughly 700,000 homes",
+      "body": "OpenAI announced a \"Grid Protectors Program\" on Monday, starting at its data centre campus in Effingham County, Georgia, where it says it will free up to 1,000 megawatts of power during extreme weather or grid emergencies. That is enough electricity to run air conditioning in around 700,000 homes. The campus is expected to need about 3.2GW at full buildout and to start operating in 2028.\n\nThe pitch is that AI campuses are unusually steady customers, drawing power round the clock, which helps utilities spread fixed costs, and that their demand can be dialled down when the system is most stretched. \"With the right agreements, that steady demand can help spread the grid's fixed costs across more electricity sales, while flexibility lets us reduce demand when the system is busiest,\" the company said. OpenAI also says it will pay the costs it creates, and that flexibility cannot substitute for building new generation and transmission.\n\nThe timing is not accidental. Opposition to data centres has spread across the United States as projects have been approved with little local input, and residents in Effingham County protested the campus over the summer. Regulators and neighbours now want to know what a 3GW load does to bills and reliability — and a promise to switch off in a crisis is a cheaper answer than new power stations.",
+      "imageURL": "/images/2026-11-03-ai-003.jpg",
+      "sources": [
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1024604/openai-data-center-grid-protection-program"
+        },
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/grid-protectors-program"
+        },
+        {
+          "name": "New York Post",
+          "url": "https://nypost.com/2026/11/02/business/openai-plans-to-use-less-electricity-when-grid-is-strained-at-this-new-facility"
+        }
+      ],
+      "publishedAt": "2026-11-03T06:10:00Z"
+    },
+    {
+      "id": "2026-11-03-ai-004",
+      "category": "ai",
+      "headline": "Anthropic's amended filing reveals about $895bn in spending commitments",
+      "subtitle": "With $96bn in cash, the lab has at least $582bn of non-cancellable obligations to five suppliers, most stretching into the 2030s and none of it on the balance sheet",
+      "body": "The amended registration statement Anthropic filed this week adds detail that changes the shape of its listing. Footnotes reveal roughly $895bn in contractual commitments, most of them stretching into the 2030s. At least $582bn of that is non-cancellable spending owed to just five companies — Amazon, AMD, Broadcom, Google and Microsoft — for the compute needed to train and run its models.\n\nThose obligations do not appear on the balance sheet, but in practice they function as debt: payments the company must make whether or not it can afford them. Against them sits $96bn in cash. Anthropic has committed to 15 gigawatts of data centre capacity and expects to need 20 to 25GW, at an estimated $31bn per gigawatt. To meet the bill it must sustain extraordinary revenue growth, and its third-quarter figures suggest growth slowed over the summer — numbers that have not been formally audited.\n\nMatt Scherer, of the Open Markets Institute, argues in Tech Policy Press that the Securities and Exchange Commission should block the listing, on the grounds that workers and retail investors would be left holding the bag. The Guardian's Naomi Klein and Ilana Glazer make a similar case from a different direction. The counter-argument is simple: public markets are where large capital-intensive companies are supposed to raise money, and the same compute contracts look like a moat while demand holds.",
+      "imageURL": "/images/2026-11-03-ai-004.jpg",
+      "sources": [
+        {
+          "name": "TechPolicy.Press",
+          "url": "https://www.techpolicy.press/the-sec-should-block-anthropics-ipo-to-protect-the-public/"
+        },
+        {
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/commentisfree/2026/nov/02/ai-ipos-tax-billionaires"
+        },
+        {
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/global/video/2026/oct/30/anthropic-92-page-risk-factor-document-ipo-filing-video-explainer"
+        }
+      ],
+      "publishedAt": "2026-11-03T06:12:00Z"
+    }
+  ]
+}
