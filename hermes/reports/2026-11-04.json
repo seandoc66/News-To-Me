@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-04",
+  "published": true,
+  "publishedAt": "2026-11-04T05:06:54Z",
+  "sections": {
+    "present": ["local", "national", "northernIreland", "global", "tech", "ai"],
+    "missing": []
+  },
+  "storiesWithoutPhoto": [],
+  "validatorWarnings": [],
+  "validatorErrors": [],
+  "workarounds": [
+    "Two pre-generated Europa Press photoCandidates for national-001 and national-003 returned 404 (the fotonoticia timestamp tails were wrong). Both were replaced with the og:image of the article's own source page, which is what the photo policy calls for; national-001 now uses the 1200px Europa Press image, national-003 the 20minutos og:image.",
+    "The Ars Technica URL guessed for the 'Google turns off Search for schools that reject AI' story 404'd because the slug could not be recovered from the aggregator feed. The story was sourced instead from CNBC (extracted in full), SiliconANGLE and Slashdot, all three verified 200.",
+    "Every remaining photoCandidate was filled programmatically from the og:image of a source already cited for that article, then downloaded and dimension-checked with sips (>=640px long edge) before being written back into the draft. No image URL was constructed or re-signed by hand."
+  ],
+  "needsHumanAttention": false,
+  "humanAttentionReason": null,
+  "notes": "Full six-section edition, 20 stories. 62 source URLs checked in one batch: 55 returned 200, 7 returned 403 (Bloomberg, Business Insider, IT Pro, The Decoder and similar bot-blocks — inconclusive, not dead), zero 404 or non-resolving hosts. 6 web_search calls used against the cap of 15. Research was completed before merge, so the run did not come near the budget failure mode; local and national were already on disk from an earlier attempt and were not re-researched. Lead stories: the Ministry of Housing excluding Lugo's Museo da Romanización from 2% Cultural funding (local); Óscar Puente resigning as transport minister and renouncing his PSOE candidacy (national); Micheál Martin's Futures Study Initiative on Irish unity (northernIreland); Democrats taking both chambers of Congress (global); the memory shortage pushing up iPhone, PC and GPU prices (tech); Google tying school Search access to its AI tools (ai)."
+}
