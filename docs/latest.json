@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-04T05:06:54Z",
+  "generatedAt": "2026-11-05T05:07:58Z",
   "config": {
     "sections": {
       "local": {
@@ -8,23 +8,31 @@
         "sources": [
           {
             "name": "El Progreso",
-            "url": "https://www.elprogreso.es/lugo/"
+            "url": "https://www.elprogreso.es"
+          },
+          {
+            "name": "ABC",
+            "url": "https://www.abc.es"
+          },
+          {
+            "name": "COPE Lugo",
+            "url": "https://www.cope.es/emisoras/galicia/lugo-provincia/lugo/"
           },
           {
             "name": "La Voz de Galicia",
-            "url": "https://www.lavozdegalicia.es/lugo"
+            "url": "https://www.lavozdegalicia.es/lugo/"
           },
           {
-            "name": "Onda Cero Lugo",
-            "url": "https://www.ondacero.es/emisoras/galicia/lugo/"
+            "name": "Gaceta de Galicia",
+            "url": "https://gcdiario.com"
           },
           {
-            "name": "MITECO",
-            "url": "https://www.miteco.gob.es/es/prensa/ultimas-noticias/"
+            "name": "Animal's Health",
+            "url": "https://www.animalshealth.es"
           },
           {
-            "name": "Concello de Lugo",
-            "url": "https://concellodelugo.gal/es/actualidad"
+            "name": "Diario Veterinario",
+            "url": "https://www.diarioveterinario.com"
           }
         ]
       },
@@ -33,24 +41,32 @@
         "max": 5,
         "sources": [
           {
+            "name": "El País",
+            "url": "https://elpais.com"
+          },
+          {
+            "name": "El Mundo",
+            "url": "https://www.elmundo.es"
+          },
+          {
+            "name": "RTVE",
+            "url": "https://www.rtve.es"
+          },
+          {
+            "name": "Cadena SER",
+            "url": "https://cadenaser.com"
+          },
+          {
+            "name": "La Vanguardia",
+            "url": "https://www.lavanguardia.com"
+          },
+          {
             "name": "Europa Press",
-            "url": "https://www.europapress.es/rss/rss.aspx"
+            "url": "https://www.europapress.es"
           },
           {
             "name": "20minutos",
-            "url": "https://www.20minutos.es/"
-          },
-          {
-            "name": "La Voz de Galicia",
-            "url": "https://www.lavozdegalicia.es/"
-          },
-          {
-            "name": "Demócrata",
-            "url": "https://www.democrata.es/"
-          },
-          {
-            "name": "RTPA",
-            "url": "https://www.rtpa.es/"
+            "url": "https://www.20minutos.es"
           }
         ]
       },
@@ -63,12 +79,16 @@
             "url": "https://www.bbc.co.uk/news/northern_ireland"
           },
           {
-            "name": "News Letter",
-            "url": "https://www.newsletter.co.uk/"
+            "name": "Belfast Telegraph",
+            "url": "https://www.belfasttelegraph.co.uk"
           },
           {
-            "name": "The Irish Times",
-            "url": "https://www.irishtimes.com/"
+            "name": "The Irish News",
+            "url": "https://www.irishnews.com"
+          },
+          {
+            "name": "News Letter",
+            "url": "https://www.newsletter.co.uk"
           }
         ]
       },
@@ -77,40 +97,40 @@
         "max": 8,
         "sources": [
           {
-            "name": "RTÉ",
-            "url": "https://www.rte.ie/news/"
-          },
-          {
             "name": "BBC News",
-            "url": "https://www.bbc.co.uk/news/world"
+            "url": "https://www.bbc.com/news/world"
           },
           {
-            "name": "CBS News",
-            "url": "https://www.cbsnews.com/world/"
+            "name": "The Guardian",
+            "url": "https://www.theguardian.com/world"
           },
           {
-            "name": "NBC News",
-            "url": "https://www.nbcnews.com/world"
+            "name": "El Mundo",
+            "url": "https://www.elmundo.es/internacional"
           },
           {
-            "name": "Euronews",
-            "url": "https://www.euronews.com/"
+            "name": "ABC",
+            "url": "https://www.abc.es/internacional"
           },
           {
-            "name": "South China Morning Post",
-            "url": "https://www.scmp.com/"
+            "name": "La Vanguardia",
+            "url": "https://www.lavanguardia.com/internacional"
           },
           {
-            "name": "Sky News",
-            "url": "https://news.sky.com/world"
+            "name": "Europa Press",
+            "url": "https://www.europapress.es/internacional"
           },
           {
-            "name": "France 24",
-            "url": "https://www.france24.com/en/"
+            "name": "DW",
+            "url": "https://www.dw.com/es"
           },
           {
-            "name": "Al Jazeera",
-            "url": "https://www.aljazeera.com/"
+            "name": "EFE",
+            "url": "https://efe.com/mundo"
+          },
+          {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world"
           }
         ]
       },
@@ -119,44 +139,32 @@
         "max": 5,
         "sources": [
           {
-            "name": "The Verge",
-            "url": "https://www.theverge.com/tech"
-          },
-          {
-            "name": "CNBC Technology",
-            "url": "https://www.cnbc.com/technology/"
-          },
-          {
-            "name": "The Register",
-            "url": "https://www.theregister.com/"
-          },
-          {
-            "name": "Ars Technica",
-            "url": "https://arstechnica.com/"
-          },
-          {
-            "name": "Tom's Hardware",
-            "url": "https://www.tomshardware.com/"
-          },
-          {
-            "name": "ZDNET",
-            "url": "https://www.zdnet.com/"
-          },
-          {
-            "name": "MacRumors",
-            "url": "https://www.macrumors.com/"
+            "name": "WIRED",
+            "url": "https://www.wired.com"
           },
           {
             "name": "TechCrunch",
-            "url": "https://techcrunch.com/"
+            "url": "https://techcrunch.com"
           },
           {
-            "name": "SiliconANGLE",
-            "url": "https://siliconangle.com/"
+            "name": "The Verge",
+            "url": "https://www.theverge.com"
           },
           {
-            "name": "BBC News",
-            "url": "https://www.bbc.co.uk/news/technology"
+            "name": "Ars Technica",
+            "url": "https://arstechnica.com"
+          },
+          {
+            "name": "Xataka",
+            "url": "https://www.xataka.com"
+          },
+          {
+            "name": "The Go Blog",
+            "url": "https://go.dev/blog"
+          },
+          {
+            "name": "Hacker News",
+            "url": "https://news.ycombinator.com"
           }
         ]
       },
@@ -165,36 +173,32 @@
         "max": 7,
         "sources": [
           {
-            "name": "CNBC Technology",
-            "url": "https://www.cnbc.com/technology/"
+            "name": "WIRED",
+            "url": "https://www.wired.com"
           },
           {
-            "name": "The Register",
-            "url": "https://www.theregister.com/ai-and-ml/"
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com"
           },
           {
-            "name": "The Decoder",
-            "url": "https://the-decoder.com/"
+            "name": "OpenAI",
+            "url": "https://openai.com"
           },
           {
-            "name": "ZDNET",
-            "url": "https://www.zdnet.com/"
+            "name": "Hugging Face",
+            "url": "https://huggingface.co"
           },
           {
-            "name": "IT Pro",
-            "url": "https://www.itpro.com/"
+            "name": "Moonshot AI",
+            "url": "https://www.kimi.ai"
           },
           {
-            "name": "Tom's Hardware",
-            "url": "https://www.tomshardware.com/"
+            "name": "Citation Needed",
+            "url": "https://www.citationneeded.news"
           },
           {
-            "name": "SiliconANGLE",
-            "url": "https://siliconangle.com/"
-          },
-          {
-            "name": "Slashdot",
-            "url": "https://slashdot.org/"
+            "name": "Hacker News",
+            "url": "https://news.ycombinator.com"
           }
         ]
       }
@@ -202,472 +206,469 @@
   },
   "articles": [
     {
-      "id": "2026-11-04-local-001",
+      "id": "2026-11-05-local-001",
       "category": "local",
-      "headline": "El Gobierno deja a Lugo sin el 2% Cultural para el Museo da Romanización",
-      "subtitle": "La propuesta de resolución excluye el proyecto lucense, de 15,2 millones, de las 78 actuaciones financiadas en toda España. El Concello había reservado 3,8 millones propios y tenía el aval de Patrimonio.",
-      "body": "El Ministerio de Vivienda y Agenda Urbana no incluirá el proyecto lucense entre las 78 actuaciones que recibirán financiación del 2% Cultural. La propuesta de resolución provisional de la convocatoria, firmada este martes por la directora general de Agenda Urbana y Arquitectura, deja fuera la conversión del antiguo cuartel de San Fernando en Museo da Romanización, un plan valorado en 15,2 millones de euros.\n\nEl Concello había pedido 11,4 millones al programa estatal y había comprometido 3.800.308 euros de fondos propios, ya reservados en el crédito de los últimos presupuestos municipales. El expediente parecía encaminado: Patrimonio Cultural de la Xunta emitió un informe favorable y el Ministerio cerró a finales de julio la preevaluación documental.\n\n## El coste, la hipótesis más probable\n\nNi la resolución ni su anexo explican por qué no figura Lugo, de modo que no consta si fue descartado por motivos formales o por quedarse por debajo de la puntuación de corte. Las solicitudes admitidas suman 133 millones frente a los 80 que reparte el programa.\n\nLa comparación apunta al tamaño de la petición. La actuación más beneficiada, el monasterio de las Madres Dominicas de Santa Catalina de Siena de Valladolid, recibe 4,22 millones, casi un tercio de lo que solicitaba la ciudad. El Concello sostiene que dio los pasos correctos y reclamará explicaciones al Ministerio.",
+      "headline": "La Guardia Civil desarticula en Sarria una de las redes de cocaína más activas de Lugo",
+      "subtitle": "Seis detenidos en Sarria, Madrid y Ponferrada, un kilo de cocaína, una pistola del 9 sin número de serie y unos 9.000 euros intervenidos. Los dos presuntos cabecillas han ingresado en prisión.",
+      "body": "La Guardia Civil da por desarticulada una de las redes de distribución de cocaína más activas de la provincia de Lugo. La operación se cierra con seis detenidos, dos de ellos vecinos de Sarria de 44 y 33 años, señalados como los distribuidores finales de la droga en la comarca y en los municipios limítrofes.\n\nEl operativo, bautizado como Rubber Duck, culminó en Sarria después de que los agentes detuvieran a otras dos personas en Madrid, donde la organización se abastecía, y a dos más en Ponferrada. La investigación arrancó en el verano de 2025 por la creciente preocupación vecinal ante la venta de estupefacientes en la villa y su entorno.\n\nEn los registros se intervinieron un kilo de cocaína, una pistola del calibre 9 milímetros sin número de serie y lista para disparar, unos 9.000 euros en efectivo, teléfonos móviles y varios vehículos con compartimentos ocultos, las llamadas caletas, habilitadas para transportar droga y armas.\n\nLos dos presuntos cabecillas de la organización han ingresado en prisión por orden judicial. A uno de los detenidos en Madrid se le atribuyen además delitos de falsedad documental y contra la seguridad vial, porque llevaba un carné de conducir falsificado a nombre de otra persona. Las diligencias han pasado al juzgado de instrucción de Lugo.",
       "sources": [
         {
           "name": "El Progreso",
-          "url": "https://www.elprogreso.es/articulo/lugo/ministerio-vivienda-deja-lugo-2-cultural-hacer-museo-cuartel-san-feranando/202611031428182011626.html"
+          "url": "https://www.elprogreso.es/articulo/sarria/cae-red-distribucion-cocaina-provincia-lugo-seis-detenidos-dos-ellos-sarria/202611041308382011783.html"
         },
         {
-          "name": "La Voz de Galicia",
-          "url": "https://www.lavozdegalicia.es/noticia/lugo/2026/11/03/gobierno-concede-2-cultural-concello-lugo-convertir-cuartel-san-fernando-museo-da-romanizacion/00031793714699245275309.htm"
+          "name": "ABC",
+          "url": "https://www.abc.es/espana/galicia/cae-mayores-redes-trafico-cocaina-lugo-20261104125626-nt.html"
         },
         {
-          "name": "Onda Cero Lugo",
-          "url": "https://amp.ondacero.es/emisoras/galicia/lugo/audios-podcast/mas-de-uno/concello-pendiente-2-cultural-gobierno-que-museo-romanizacion-sea-realidad_202611036ae9c3ba6973466c29e7789d.html"
+          "name": "COPE Lugo",
+          "url": "https://www.cope.es/emisoras/galicia/lugo-provincia/lugo/noticias/guardia-civil-desarticula-redes-trafico-cocaina-activas-provincia-lugo-20261104_3468277.html"
+        },
+        {
+          "name": "Gaceta de Galicia",
+          "url": "https://gcdiario.com/sucesos/613716-cae-una-banda-de-trafico-de-drogas-en-la-provincia-de-lugo-en-una-operacion-con-seis-detenidos"
         }
       ],
-      "publishedAt": "2026-11-04T05:42:00Z",
-      "imageURL": "/images/2026-11-04-local-001.jpg"
+      "publishedAt": "2026-11-05T05:40:00Z",
+      "imageURL": "/images/2026-11-05-local-001.jpg"
     },
     {
-      "id": "2026-11-04-local-002",
+      "id": "2026-11-05-local-002",
       "category": "local",
-      "headline": "Lugo mantendrá su ZBE sin multas hasta 2027 pese al endurecimiento del decreto",
-      "subtitle": "El decreto suprime las moratorias y exige sanciones reales, mientras la ciudad conserva su periodo de gracia hasta septiembre de 2027 con 28 cámaras ya instaladas.",
-      "body": "El Consejo de Ministros aprobó este martes la modificación del Real Decreto 1052/2022 para garantizar que las Zonas de Bajas Emisiones funcionen de verdad. La norma obliga a las entidades locales a acreditar documentalmente el cumplimiento de los requisitos, a comunicar la entrada en vigor de las prohibiciones de acceso y estacionamiento y a aplicar un régimen sancionador efectivo, sin periodos transitorios.\n\nEl Ministerio para la Transición Ecológica justifica el cambio en las deficiencias detectadas desde 2023: moratorias prolongadas, zonas declaradas sin restricciones reales de acceso y perímetros que coincidían con espacios ya limitados al tráfico.\n\n## Lugo, en periodo de prueba\n\nLugo activó su Zona de Bajas Emisiones el 17 de septiembre dentro de un periodo de adaptación de doce meses, que se extiende hasta el 18 de septiembre de 2027 y durante el cual no se impondrán sanciones. La ordenanza reorganiza la circulación en el casco histórico.\n\nLos residentes, los comerciantes y los propietarios de plazas de garaje acceden al recinto con un registro previo, sin límite de vehículos por persona y con renovación solo si cambia el coche. También pueden entrar quienes van a un aparcamiento y la seguridad privada en servicio.\n\nLas personas con movilidad reducida o con acompañamiento acreditado, los profesionales, las mudanzas y los vehículos hoteleros necesitan una comunicación previa. Si no la presentaron y reciben una multa, disponen de cinco días para justificarla. El Concello instaló 18 equipos de lectura de matrículas y diez cámaras de vigilancia de peatones y ciclistas en los accesos al recinto.",
+      "headline": "El TSXG obliga a recalcular la deuda del Rof Codina con la Seguridad Social por sus 41 becarios",
+      "subtitle": "La sala estima en parte el recurso de la fundación lucense: las cotizaciones debían calcularse con el convenio veterinario estatal y no con el de la Xunta, lo que puede rebajar la liquidación en unos 180.000 euros.",
+      "body": "El Tribunal Superior de Xustiza de Galicia ha estimado parcialmente el recurso de la Fundación Rof Codina contra la liquidación de 558.127,42 euros que le reclamó la Seguridad Social por las cotizaciones de 41 personas que trabajaron como becarias en el hospital veterinario universitario de Lugo.\n\nLa sala no entra a discutir que la relación fuera laboral, algo que ya habían declarado los juzgados de lo Social. Lo que corrige es el convenio usado para calcular las cuotas: la Seguridad Social aplicó el del personal laboral de la Xunta y el tribunal concluye que debía regirse por el Convenio Colectivo Estatal de Centros y Servicios Veterinarios.\n\nEl fallo anula la liquidación en ese punto y ordena a la Tesorería emitir un nuevo cálculo. Según la propia fundación, la corrección puede rebajar la deuda en unos 180.000 euros. La sentencia no impone costas y puede recurrirse en casación si se acredita interés casacional.\n\nLa reclamación arrastra desde hace años y afecta a profesionales que estuvieron contratados como becarios y cuya relación fue declarada laboral. El TSXG no revisa ese fondo: se limita a decir que la base de cálculo estaba mal puesta y que debe rehacerse conforme al convenio del sector.",
       "sources": [
-        {
-          "name": "El Progreso",
-          "url": "https://www.elprogreso.es/articulo/lugo/gobierno-endurece-decreto-garantizar-zonas-bajas-emisiones/202611031833532011668.html"
-        },
-        {
-          "name": "MITECO",
-          "url": "https://www.miteco.gob.es/es/prensa/ultimas-noticias/2026/noviembre/las-zonas-de-bajas-emisiones-deberan-aplicar-un-regimen-sanciona.html"
-        },
-        {
-          "name": "Última Hora",
-          "url": "https://www.ultimahora.es/noticias/nacional/2026/11/03/2742231/gobierno-aprueba-modificar-decreto-zonas-bajas-emisiones-para-implantacion.html"
-        }
-      ],
-      "publishedAt": "2026-11-04T05:46:00Z",
-      "imageURL": "/images/2026-11-04-local-002.jpg"
-    },
-    {
-      "id": "2026-11-04-national-001",
-      "category": "national",
-      "headline": "Óscar Puente dimite como ministro y renuncia a ser candidato del PSOE el 29-N",
-      "subtitle": "El ministro deja el cargo y también su escaño y la candidatura socialista, seis días después del siniestro de Urda y tras una semana de presiones internas.",
-      "body": "Óscar Puente dimitió este martes como ministro de Transportes casi a las diez de la noche, al término de una comparecencia de casi cinco horas ante la Diputación Permanente del Congreso. También renunció a ser candidato del PSOE y diputado por la lista del 29-N, seis días después del accidente ferroviario de Urda, que ha dejado 69 muertos.\n\nEl ya exministro aseguró, visiblemente emocionado, que la decisión estaba tomada desde la mañana del propio siniestro, el 28 de octubre, cuando se dirigía al centro de control de Adif. «Un ministro de transportes de un país como España no puede continuar en su cargo con dos accidentes de esta gravedad en un año», dijo.\n\n## Una semana de presiones\n\nSu salida cierra siete días en los que Moncloa alternó respaldos públicos y presiones internas para que dejara el cargo antes del miércoles. Pedro Sánchez había calificado el siniestro de «inasumible» nueve meses después del de Adamuz, donde murieron 46 personas, y prometió actuar «con contundencia».\n\nEl presidente del Gobierno reaccionó a la dimisión con un mensaje de agradecimiento: «Ha dado la cara. Por voluntad propia. Gracias por tanto, compañero». El mismo Consejo de Ministros aprobó ayudas de 30 millones para los afectados por el accidente.\n\nLa renuncia deja al PSOE sin uno de sus perfiles más reconocibles a cuatro semanas de las elecciones generales y traslada la gestión de la crisis ferroviaria a quien ocupe la cartera en un Gobierno en funciones.",
-      "sources": [
-        {
-          "name": "Europa Press",
-          "url": "https://www.europapress.es/economia/transportes-00343/noticia-puente-avanza-dimision-tragedia-urda-decision-empatia-victimas-20261103211310.html"
-        },
-        {
-          "name": "20minutos",
-          "url": "https://www.20minutos.es/nacional/puente-dimite-sede-parlamentaria-despues-dias-dudas-certezas-division-moncloa-sobre-su-continuidad_7056768_0.html"
-        },
         {
           "name": "La Voz de Galicia",
-          "url": "https://www.lavozdegalicia.es/noticia/espana/2026/11/04/oscar-puente-asume-fin-responsabilidad-politica/0003_202611G4P2991.htm"
+          "url": "https://www.lavozdegalicia.es/noticia/lugo/2026/11/04/tsxg-abre-puerta-rof-codina-reduzca-180000-euros-pago-impusieron-irregularidades-contratacion-41-becarios/00031793804382121707507.htm"
+        },
+        {
+          "name": "Animal's Health",
+          "url": "https://www.animalshealth.es/profesionales/la-justicia-corrige-calculo-deuda-mas-558000-euros-con-seguridad-social-por-becarios-hospital-veterinario"
+        },
+        {
+          "name": "Diario Veterinario",
+          "url": "https://www.diarioveterinario.com/t/6076718/justicia-obliga-aplicar-convenio-veterinario-recalcular-liquidacion-euros-becarios-rof-codina"
         }
       ],
-      "publishedAt": "2026-11-04T05:50:00Z",
-      "imageURL": "/images/2026-11-04-national-001.jpg"
+      "publishedAt": "2026-11-05T05:45:00Z",
+      "imageURL": "/images/2026-11-05-local-002.jpg"
     },
     {
-      "id": "2026-11-04-national-002",
+      "id": "2026-11-05-national-001",
       "category": "national",
-      "headline": "El Gobierno exige un segundo controlador y recorta trenes mientras llega el ERTMS",
-      "subtitle": "El paquete aprobado tras Urda introduce inteligencia artificial en la supervisión y reduce frecuencias en Madrid-Sevilla hasta que se complete la nueva señalización.",
-      "body": "El Consejo de Ministros aprobó este martes un plan para reforzar la seguridad de la alta velocidad, seis días después del choque de Urda. Las decisiones que se tomen en los centros de control cuando no funcionen los sistemas automáticos de bloqueo deberán ser supervisadas y validadas por un segundo controlador humano.\n\nEl plan añade un nuevo software para los centros de control, con alertas automáticas, registro electrónico de telefonemas, listas de verificación y una ergonomía visual que permita localizar mejor los trenes y el estado de las vías. También se usará inteligencia artificial para vigilar el funcionamiento del sistema y anticipar escenarios anómalos.\n\n## Menos trenes mientras se instala el ERTMS\n\nSe completará el despliegue del ERTMS nivel 2 en la línea Madrid-Sevilla y la Agencia Estatal de Seguridad Ferroviaria hará una auditoría «extraordinaria e inmediata» de sus sistemas, que actualizará la de noviembre de 2025. Hasta que ambos trabajos terminen, algo previsto para comienzos de 2027, se reducirá la frecuencia de trenes en ese corredor.\n\nUn estudio con expertos independientes evaluará además medidas de seguridad pasiva en los vagones, como convertir los espacios de equipajes en compartimentos cerrados que eviten proyecciones en frenazos bruscos o impactos.\n\nPuente defendió la seguridad del sistema español, que los organismos internacionales sitúan entre los mejores del mundo, pero admitió la «imperiosa necesidad de reforzar» un modelo que acumula 115 muertos en menos de un año: 69 en Urda y 46 en Adamuz.",
+      "headline": "Dimite el presidente de Adif un día después de Puente y con Urda todavía en el centro de la crisis",
+      "subtitle": "Luis Pedro Marco de la Peña presenta su renuncia ante Carlos Cuerpo tras una reunión de urgencia. El vicepresidente califica la salida de «decisión acertada» y asume Transportes hasta después del 29-N.",
+      "body": "El presidente de Adif, Luis Pedro Marco de la Peña, presentó este miércoles su renuncia ante el vicepresidente primero y ministro de Economía, Carlos Cuerpo, un día después de que Óscar Puente abandonara la cartera de Transportes. La salida llega una semana después del accidente de Urda, en el que murieron 69 personas y más de 200 resultaron heridas.\n\nMarco de la Peña dirigía el gestor de infraestructuras desde septiembre de 2024. Según fuentes conocedoras de la decisión, ya había trasladado a Puente su intención de marcharse antes incluso de la reunión con Cuerpo, y esa misma mañana presidió el consejo de administración de la empresa sin anunciar ningún paso en ese sentido.\n\nCuerpo calificó la dimisión como una «decisión acertada» y confirmó que asume las competencias de Transportes de forma transitoria hasta la formación del Gobierno que salga de las elecciones del 29 de noviembre. Antes del encuentro, el consejo de Adif aprobó un marco de financiación de 20.000 millones hasta 2030 para obra y mantenimiento.\n\nEl cese lo venían reclamando la oposición, socios del PSOE en el Congreso y organizaciones sindicales como CSIF. Marco de la Peña es el segundo alto cargo que cae por la crisis ferroviaria en 24 horas y deja vacante la presidencia del organismo que debe ejecutar el despliegue del ERTMS en la red española.",
+      "sources": [
+        {
+          "name": "El País",
+          "url": "https://elpais.com/espana/2026-11-04/el-presidente-de-adif-se-reune-con-cuerpo-para-explicar-el-suceso-de-urda-y-poner-el-cargo-a-disposicion.html"
+        },
+        {
+          "name": "RTVE",
+          "url": "https://www.rtve.es/noticias/20261104/presidente-adif-presenta-renuncia/17300382.shtml"
+        },
+        {
+          "name": "Cadena SER",
+          "url": "https://cadenaser.com/nacional/2026/11/04/dimite-el-presidente-de-adif-luis-pedro-marco-tras-su-reunion-con-el-vicepresidente-carlos-cuerpo-cadena-ser"
+        },
+        {
+          "name": "La Vanguardia",
+          "url": "https://www.lavanguardia.com/vida/20261104/11676159/cuerpo-dimite-presidente-adif-asumir-cartera-transportes-presidente-adif-luis-pedro-marco-pena-reunirse-ministro-cuerpo.html"
+        }
+      ],
+      "publishedAt": "2026-11-05T05:50:00Z",
+      "imageURL": "/images/2026-11-05-national-001.jpg"
+    },
+    {
+      "id": "2026-11-05-national-002",
+      "category": "national",
+      "headline": "Bruselas ve «muy preocupante» el doble accidente y pide acelerar el ERTMS en toda la UE",
+      "subtitle": "El comisario Tzitzikostas admite su inquietud tras Urda, la Agencia Ferroviaria Europea enviará apoyo técnico a la investigación y Adif reconoce en un informe interno un deterioro de la fiabilidad hasta 2030.",
+      "body": "El comisario europeo de Transportes y Turismo, Apostolos Tzitzikostas, calificó este miércoles de «muy preocupante» que en nueve meses se hayan producido dos accidentes graves en la red española, e instó a acelerar el despliegue del sistema ERTMS en toda la Unión Europea.\n\nLa Agencia Ferroviaria de la UE confirmó por su parte que prestará apoyo técnico a la investigación del siniestro de Urda, ocurrido el 28 de octubre en la línea de alta velocidad Madrid-Sevilla, con 69 muertos y más de 200 heridos. El organismo europeo actúa como respaldo técnico de la comisión de investigación que ya trabaja sobre el terreno.\n\nEn paralelo, un informe interno de Adif al que ha tenido acceso El Mundo advierte de un deterioro grave de la fiabilidad de los trenes hasta 2030: menos puntualidad, incumplimiento de los objetivos de mantenimiento y más probabilidad de que se produzcan incidentes si no se corrige el calendario de conservación de la red.\n\nLa presión europea llega en plena crisis política. En 24 horas han dimitido el ministro de Transportes y el presidente de Adif, y el comisario vinculó expresamente su preocupación a los dos siniestros registrados este año. Bruselas lleva tiempo señalando que la sustitución de los sistemas nacionales de señalización por el ERTMS avanza demasiado despacio.",
       "sources": [
         {
           "name": "Europa Press",
-          "url": "https://www.europapress.es/economia/transportes-00343/noticia-gobierno-aprueba-plan-mejorar-seguridad-alta-velocidad-accidente-urda-20261103132507.html"
-        },
-        {
-          "name": "Demócrata",
-          "url": "https://www.democrata.es/economia/el-gobierno-lanza-un-plan-para-reforzar-la-seguridad-de-la-alta-velocidad-tras-el-accidente-de-urda"
-        },
-        {
-          "name": "RTPA",
-          "url": "https://www.rtpa.es/noticias-nacional/2026-11-03/Puente-defiende-su-gestion-tras-el-accidente-de-Urda-y-anuncia-nuevas-medidas-de-seguridad-ferroviaria_111793733539.html"
-        }
-      ],
-      "publishedAt": "2026-11-04T05:53:00Z",
-      "imageURL": "/images/2026-11-04-national-002.jpg"
-    },
-    {
-      "id": "2026-11-04-national-003",
-      "category": "national",
-      "headline": "Los sindicatos rechazan la petición de Feijóo de aplazar la huelga del 11-N",
-      "subtitle": "UGT y CCOO responden que la tragedia de Urda añade motivos a la protesta por la vivienda, mientras la patronal respalda al líder del PP.",
-      "body": "UGT y CCOO rechazaron este lunes la petición de Alberto Núñez Feijóo de desconvocar la huelga general del 11 de noviembre por la vivienda. El líder del PP había afirmado en un desayuno informativo que, tras la tragedia de Urda, mantener los paros era «un grave error» y un «problema reputacional» para los sindicatos.\n\n«Uno de los motivos de la huelga es precisamente reivindicar la inversión en los servicios públicos y el sostenimiento de las grandes infraestructuras», respondió el secretario general de CCOO, Unai Sordo. A su juicio, el accidente añade razones a la protesta en lugar de restarlas.\n\n## «No es contra la oposición»\n\nSordo negó que la convocatoria vaya dirigida contra el PP, aunque recordó que los populares votaron en contra de convalidar los decretos de vivienda, de modo que «podrá ser apelado como poder legislativo». El Sindicato de Inquilinas confirmó que mantiene los paros.\n\nLa Confederación Española de Organizaciones Empresariales respaldó a Feijóo. Su presidente, Antonio Garamendi, valoró «muy positivamente» la petición de desconvocatoria y sostuvo que lo urgente es «ponerse a trabajar para arreglar los trenes».\n\nEl pulso llega a cuatro semanas de las elecciones del 29-N y convierte la huelga en un test de fuerza entre sindicatos, Gobierno y oposición sobre quién capitaliza el malestar por el precio de la vivienda.",
-      "sources": [
-        {
-          "name": "20minutos",
-          "url": "https://www.20minutos.es/lainformacion/economia-y-finanzas/los-sindicatos-rechazan-desconvocar-huelga-tras-pedirselo-feijoo-no-es-contra-oposicion_7056517_0.html"
+          "url": "https://www.europapress.es/economia/transportes-00343/noticia-bruselas-ve-muy-preocupante-dos-accidentes-meses-insta-rapido-despliegue-ertms-toda-ue-20261104133232.html"
         },
         {
           "name": "Europa Press",
-          "url": "https://www.europapress.es/nacional/noticia-feijoo-pide-sindicatos-reconsiderar-huelga-general-porque-tragedia-urda-grave-error-20261103093804.html"
+          "url": "https://www.europapress.es/economia/transportes-00343/noticia-agencia-ferroviaria-ue-dara-apoyo-tecnico-investigacion-accidente-urda-20261104124019.html"
         },
         {
-          "name": "20minutos",
-          "url": "https://www.20minutos.es/nacional/feijoo-pide-los-sindicatos-que-reconsideren-huelga-11n-tras-accidente-ferroviario-urda_7056415_0.html"
+          "name": "El Mundo",
+          "url": "https://www.elmundo.es/espana/2026/11/04/6aeb8622e4d4d84d628b45a2.html"
         }
       ],
-      "publishedAt": "2026-11-04T05:56:00Z",
-      "imageURL": "/images/2026-11-04-national-003.jpg"
+      "publishedAt": "2026-11-05T05:55:00Z",
+      "imageURL": "/images/2026-11-05-national-002.jpg"
     },
     {
-      "id": "2026-11-04-northernIreland-001",
+      "id": "2026-11-05-national-003",
+      "category": "national",
+      "headline": "El PSOE convierte la dimisión de Puente en bandera electoral y deja a Cuerpo el frente ferroviario",
+      "subtitle": "La dirección socialista reajusta su estrategia con el «no todos somos iguales» como argumento, mientras el vicepresidente asume Transportes y afronta la comparecencia por Urda y la huelga del 11-N.",
+      "body": "La dirección del PSOE se reunió este miércoles para reajustar su estrategia electoral después de que Óscar Puente presentara su dimisión como ministro de Transportes, y decidió convertir ese gesto en uno de los ejes de la campaña hacia el 29-N.\n\nEl argumento que la dirección ha trasladado a sus cuadros es el de que «no todos somos iguales»: el partido presenta la salida de Puente como una muestra de responsabilidad política, en contraste con lo que considera falta de consecuencias para cargos del PP en otras crisis. La vuelta a los mítines llega este viernes en Valencia.\n\nLa carga del frente ferroviario pasa ahora a Carlos Cuerpo, vicepresidente primero y ministro de Economía, que asume las competencias de Transportes hasta la formación del nuevo Gobierno. Tendrá que responder por el accidente de Urda y por la huelga convocada para el 11 de noviembre, que los sindicatos mantienen pese a la petición de Alberto Núñez Feijóo de aplazarla.\n\nEn el PP el cálculo es distinto: Feijóo ha animado a Sánchez a seguir los pasos de Puente y a presentar su dimisión, y su partido quiere que el desgaste ferroviario se instale en la campaña. El PSOE confía en que el gesto neutralice ese ataque antes de que los trenes vuelvan a ser noticia.",
+      "sources": [
+        {
+          "name": "20minutos",
+          "url": "https://www.20minutos.es/nacional/psoe-utiliza-dimision-puente-como-bandera-con-no-todos-somos-iguales-carga-cuerpo-con-frente-ferroviario_7057313_0.html"
+        },
+        {
+          "name": "El Mundo",
+          "url": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/04/6aeb8641e4d4d8fb618b458f.html"
+        },
+        {
+          "name": "Europa Press",
+          "url": "https://www.europapress.es/economia/transportes-00343/noticia-cuerpo-asumira-cartera-transportes-nombramiento-nuevo-gobierno-29n-20261104095935.html"
+        }
+      ],
+      "publishedAt": "2026-11-05T05:58:00Z",
+      "imageURL": "/images/2026-11-05-national-003.jpg"
+    },
+    {
+      "id": "2026-11-05-northernIreland-001",
       "category": "northernIreland",
-      "headline": "Martin sets up State study of a united Ireland's three possible shapes",
-      "subtitle": "The Taoiseach's Futures Study Initiative will test a unitary republic, a devolved all-island state and the status quo, and invites unionists to take part.",
-      "body": "The Taoiseach, Micheál Martin, is to establish a State-funded study of what a united Ireland would actually involve, telling his parliamentary party on Tuesday that the debate has to move from assertion to evidence.\n\nThe Futures Study Initiative will examine three scenarios: a single unitary republic run from Dublin and fully in place within five years of a border poll, with no devolved administration in Belfast; an all-island state that keeps a devolved government along the lines of the current one; and the continuation of the Good Friday Agreement settlement without constitutional change.\n\nIt will not recommend any of them. Instead a chairperson and at least five members, advised by specialists, will map what each would require across constitutional and legal change, the economy, health, education, security, and symbols and culture, then publish a report for the Irish government.\n\n## An invitation to unionists\n\nThe policy paper says the process offers a \"good faith opportunity for those outside the nationalist tradition to participate\" and would \"challenge all traditions to move from making general assertions about the future to engaging with hard evidence\". Every party and campaign group will be invited to make submissions.\n\nMartin has been careful to say the work does not interfere with or seek to replace existing North-South and British-Irish commitments. A dedicated secretariat would sit in his own department.\n\nThe move comes days before Fine Gael, his coalition partner, publishes its own unity blueprint at its conference in Cork this weekend, and with opposition parties pressing Dublin to prepare for a border poll.",
+      "headline": "PSNI pays undisclosed damages to families of four killed by the UVF in Moy in 1992",
+      "subtitle": "Charles and Teresa Fox and Kevin and Jack McKearney were shot in two attacks in the Co Tyrone village. Relatives sued over the alleged involvement of state agents; a judge said he hoped it brought some closure.",
+      "body": "The PSNI has settled civil actions brought by the families of four Catholics murdered by the UVF in the village of Moy, County Tyrone, in 1992, agreeing to pay undisclosed damages. The settlement was confirmed at the High Court in Belfast on Wednesday.\n\nKevin McKearney, 32, and his uncle Jack, 69, were shot while working in the family butcher's shop on 3 January 1992. Charles Fox, 63, and his wife Teresa, 54, were shot at their home in the same area on 6 September that year.\n\nThe relatives, among them Kevin McKearney's widow Bernie and the Foxes' children, sued the police over the alleged involvement of state agents in the killings. Inquests into the four deaths had heard evidence pointing to loyalist commanders and alleged state agents among the suspects, and the families argued the security forces failed to stop the attacks.\n\nMr Justice Rooney told the court he hoped the settlement would provide \"some closure\", saying four innocent victims had been brutally murdered and that he could not imagine the pain the families had endured. Outside court, Bernie McKearney said nobody would ever be held accountable. The families also sued the Ministry of Defence, but that action has been discontinued.",
       "sources": [
         {
           "name": "BBC News NI",
-          "url": "https://www.bbc.co.uk/news/articles/c5kgl97zey34o"
+          "url": "https://www.bbc.co.uk/news/articles/cmjrwx7pznypo"
         },
         {
-          "name": "News Letter",
-          "url": "https://www.newsletter.co.uk/news/politics/taoiseach-expands-on-initiative-to-examine-irish-unity-options-9328754"
+          "name": "Belfast Telegraph",
+          "url": "https://www.belfasttelegraph.co.uk/news/courts/psni-to-pay-damages-in-civil-actions-over-alleged-collusion-in-mid-ulster-uvf-murders-of-four-catholics/a/164083659.html"
         },
         {
-          "name": "The Irish Times",
-          "url": "https://www.irishtimes.com/politics/2026/10/30/lots-of-deep-thought-has-to-go-into-this-taoiseach-steps-up-research-on-irish-unity"
+          "name": "The Irish News",
+          "url": "https://www.irishnews.com/news/northern-ireland/belfast-high-court-judge-gets-emotional-at-conclusion-of-troubles-cases-close-to-his-heart-LXZXM7RMB5G73ADURGUEIQRQEI"
+        },
+        {
+          "name": "Judiciary NI",
+          "url": "https://www.judiciaryni.uk/mckearney-fox-inquest"
         }
       ],
-      "publishedAt": "2026-11-04T06:04:00Z",
-      "imageURL": "/images/2026-11-04-northernIreland-001.jpg"
+      "publishedAt": "2026-11-05T06:02:00Z",
+      "imageURL": "/images/2026-11-05-northernIreland-001.jpg"
     },
     {
-      "id": "2026-11-04-global-001",
+      "id": "2026-11-05-global-001",
       "category": "global",
-      "headline": "Democrats take both chambers of Congress as Trump's candidates fall",
-      "subtitle": "Annie Andrews, a paediatrician, unseated the president's hand-picked candidate in a state he won by 18 points, as Democrats flipped four Senate seats and held Georgia.",
-      "body": "Democrats won control of both chambers of Congress, turning a midterm election fought over the cost of living and the war with Iran into a broad repudiation of Donald Trump. The party flipped Senate seats in South Carolina, North Carolina, Texas and Iowa, and held Georgia and New Hampshire.\n\nThe most striking result came in South Carolina, where Annie Andrews, a paediatrician, beat Darline Graham, the president's hand-picked candidate, in a state he carried by almost 18 points two years ago. She is the first Democrat to win a Senate seat there in 28 years.\n\n## A wave that reached deep Republican ground\n\nGraham, the sister of the late senator Lindsey Graham, had been appointed to the seat and was encouraged by Trump to run for a full term. Her inexperience proved a liability. In Florida, Republican senator Ashley Moody held on against Angie Nixon but by only about three points, in a state Trump won by 13 in 2024.\n\nJon Ossoff, who held his Georgia seat, told supporters the result was a rebuke of the president's \"depravity, corruption and incompetence\". In Ohio, Sherrod Brown won a return to the Senate, while Amy Acton defeated Vivek Ramaswamy in the governor's race.\n\nControl of the chamber hands Democrats subpoena power over the administration and the ability to block appointments. Trump attributed the losses to his absence from the ballot, saying Republicans would have swept had he been running.",
-      "sources": [
-        {
-          "name": "RTÉ",
-          "url": "https://www.rte.ie/news/us/2026/1104/1597894-us-midterms-wrap/"
-        },
-        {
-          "name": "South China Morning Post",
-          "url": "https://www.scmp.com/news/us/us-elections/article/3373188/trumps-fate-balance-us-midterm-elections-put-house-senate-grabs"
-        },
-        {
-          "name": "France 24",
-          "url": "https://www.france24.com/en/americas/20261104-key-us-senate-results-democrats-wrest-north-and-south-carolina-from-the-republicans"
-        }
-      ],
-      "publishedAt": "2026-11-04T05:58:00Z",
-      "imageURL": "/images/2026-11-04-global-001.jpg"
-    },
-    {
-      "id": "2026-11-04-global-002",
-      "category": "global",
-      "headline": "Bomb threats force emergency landings on flights across Europe",
-      "subtitle": "A Heathrow flight diverted to Warsaw and a Ryanair service from Manchester was searched in Murcia, after a week of hoaxes that has unsettled European aviation.",
-      "body": "Three passenger aircraft were searched after landing in Poland and Spain on Tuesday following bomb threats, the latest in a series of alerts that have disrupted European aviation over the past week.\n\nA flight from London Heathrow to Warsaw made an unscheduled landing at Modlin airport, north of the Polish capital, with 181 people on board. The Boeing 737 Max touched down shortly after 10:00 local time and passengers were taken off while specialists inspected the aircraft. A second flight, from Copenhagen to Warsaw's Chopin airport, also received a threat but landed normally.\n\nIn Spain, a Ryanair flight from Manchester to Murcia was inspected on arrival, with 121 passengers and crew aboard, according to Francisco Lucas, the central government's delegate in the region. Fire crews were mobilised at Murcia-Corvera airport as a precaution.\n\n## How many flights, and who is behind it\n\nAccounts of the scale differed. Al Jazeera and Sky News reported seven flights affected across Europe, while Ireland's RTÉ said two Ryanair flights from Dublin had also been searched. No device has been found in any of the aircraft checked so far.\n\nThe alerts follow Monday's emergency landing in Budapest of a Wizz Air flight from London Luton, which was escorted by a Hungarian fighter jet. The airline said afterwards that checks had found nothing. Polish authorities said normal operations at Modlin had resumed.",
+      "headline": "Joshua Wong sentenced to 10 years in Hong Kong's second national security prosecution",
+      "subtitle": "The 30-year-old, detained since 2020, was convicted of colluding with foreign forces after pleading guilty in September. His lawyers had asked the court to count the time he has already served.",
+      "body": "Joshua Wong, the best-known face of Hong Kong's pro-democracy movement, has been sentenced to 10 years in prison after pleading guilty to colluding with foreign forces under the territory's national security law, a charge that carries a maximum of life.\n\nWong, 30, has been held since late 2020 and had been due for release next year from an earlier sentence of four years and eight months for subversion. He pleaded guilty to the collusion charge in September, and his defence argued that time already served should be taken into account.\n\nHe is the only activist in Hong Kong prosecuted twice under the national security law imposed by Beijing in 2020, and his case has become the benchmark for how far the authorities will go against people who led the mass protests of 2019.\n\nHundreds of Hongkongers have been detained under the law since then. Western governments that have called for Wong's release are likely to cite the sentence in their periodic reports on the territory's autonomy, while Hong Kong's judiciary maintains that it acts independently of political pressure.",
       "sources": [
         {
           "name": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/c6x2wd4v04eeo"
+          "url": "https://www.bbc.co.uk/news/articles/cwp9g3rlp8jlo"
         },
         {
-          "name": "Sky News",
-          "url": "https://news.sky.com/story/bomb-threats-reported-on-multiple-flights-13607460"
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/nov/05/hong-kong-joshua-wong-sentenced-national-security-case"
         },
         {
-          "name": "RTÉ",
-          "url": "https://www.rte.ie/news/europe/2026/1103/1597826-bomb-threats-flights/"
+          "name": "Reuters",
+          "url": "https://www.reuters.com/world/hong-kong-activist-joshua-wong-pleads-guilty-collusion-with-foreign-entities-2026-09-02"
         }
       ],
-      "publishedAt": "2026-11-04T06:00:00Z",
-      "imageURL": "/images/2026-11-04-global-002.jpg"
+      "publishedAt": "2026-11-05T06:05:00Z",
+      "imageURL": "/images/2026-11-05-global-001.jpg"
     },
     {
-      "id": "2026-11-04-global-003",
+      "id": "2026-11-05-global-002",
       "category": "global",
-      "headline": "Iran warns nobody gains from war as Trump confirms new strikes",
-      "subtitle": "The US president confirmed an attack on Qeshm Island and called it minor, while Tehran said it was ready for battle and Qatar kept pushing for an interim deal.",
-      "body": "Iran warned on Wednesday that no one would benefit from a return to war, hours after Donald Trump confirmed that American aircraft had struck a target on Qeshm Island in the Strait of Hormuz. The president described the raid as a minor attack on an anti-aircraft facility that had just been completed.\n\nTrump told Fox News that the United States was \"locked and loaded if we need to go, but there may be no reason for it\", and told the Financial Times that Washington seemed to be \"getting everything we want\". Iran's chief negotiator, Mohammad Bagher Ghalibaf, said the republic was \"ready for battle with its finger on the trigger\", while the deputy foreign minister, Kazem Gharibabadi, insisted Tehran retained the right to self-defence.\n\n## Mediators still talking\n\nPresident Masoud Pezeshkian struck a softer note, saying his government was still pursuing a settlement \"through dialogue\" and that nobody would gain if the war reignited. He noted that the supreme leader had recently given the government powers to negotiate matters previously considered off-limits.\n\nQatar, which has been shuttling proposals between the two sides, said both were reviewing them and that it remained hopeful of an interim deal. Israel's military said it was not involved in the latest strikes.\n\nThe Revolutionary Guards said four oil tankers had been destroyed by mines in the strait and two other vessels halted, a claim that could not be independently verified. Brent crude fell more than 3% to about $101 a barrel as traders bet against a wider escalation.",
+      "headline": "Bavaria's deputy premier Hubert Aiwanger found dead in a Berlin hotel at 55",
+      "subtitle": "Police and prosecutors have opened an investigation into the death of the Free Voters leader, who had travelled to Berlin for the opening of a party office but did not attend after feeling unwell.",
+      "body": "Hubert Aiwanger, deputy premier and economy minister of Bavaria and leader of the Free Voters, was found dead on Wednesday in a hotel room in Berlin. He was 55. Police and prosecutors in the German capital said they had opened an investigation into the circumstances.\n\nAiwanger had travelled to Berlin for the inauguration of an office for the party he led, but did not attend the event after feeling unwell, according to the Bavarian state government and German media reports.\n\nHe had led the Free Voters since 2018 and served as deputy to Bavaria's premier Markus Söder, a partnership that made the party a fixture of state politics and a potential kingmaker in national coalitions. The pair's relationship survived a serious test in 2023.\n\nThat year Aiwanger faced a scandal over an antisemitic leaflet from his school days, which he denied writing. Söder declined to dismiss him, judging that a sacking would be a disproportionate response, and the episode ended up strengthening rather than weakening the Free Voters at the polls.",
       "sources": [
         {
-          "name": "RTÉ",
-          "url": "https://www.rte.ie/news/world/2026/1104/1597895-iran-us/"
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/nov/05/hubert-aiwanger-dead-german-politician-berlin-hotel"
         },
         {
-          "name": "CBS News",
-          "url": "https://www.cbsnews.com/news/u-s-strikes-iran-targets/"
+          "name": "La Vanguardia",
+          "url": "https://www.lavanguardia.com/internacional/20261104/11676315/hallan-muerto-hotel-berlin-viceprimer-ministro-baviera.html"
         },
         {
-          "name": "Euronews",
-          "url": "https://www.euronews.com/2026/11/03/qatar-sees-hope-for-us-iran-deal-despite-fresh-us-strikes-as-mediators-exchange-proposals-"
+          "name": "Europa Press",
+          "url": "https://www.europapress.es/internacional/noticia-hallan-muerto-hotel-berlin-viceprimer-ministro-baviera-hubert-aiwanger-20261105025710.html"
+        },
+        {
+          "name": "20minutos",
+          "url": "https://www.20minutos.es/internacional/hallan-muerto-un-hotel-berlin-viceprimer-ministro-baviera_7057400_0.html"
         }
       ],
-      "publishedAt": "2026-11-04T06:01:00Z",
-      "imageURL": "/images/2026-11-04-global-003.jpg"
+      "publishedAt": "2026-11-05T06:08:00Z",
+      "imageURL": "/images/2026-11-05-global-002.jpg"
     },
     {
-      "id": "2026-11-04-global-004",
+      "id": "2026-11-05-global-003",
       "category": "global",
-      "headline": "Trump says US will cut off $4bn a year in military aid to Israel",
-      "subtitle": "The president said the annual package would stop at the end of the year without giving details, and Israeli officials said they had not been told of any such agreement.",
-      "body": "Donald Trump said on Tuesday that he had agreed with Benjamin Netanyahu to end the roughly $4bn in military aid the United States sends Israel each year, telling Fox News the money would be \"cut off at the end of the year\".\n\n\"Bibi Netanyahu and I have made a deal that we give Israel $4 billion a year, and we made a deal months ago that we're stopping,\" the president said in a phone interview. He gave no details, and a spokesman for the Israeli prime minister said he knew nothing of the remark but would check.\n\nTrump argued that Israel was fine with it because it had \"become a very successful country\", adding: \"We won't be paying any more Israel.\" He called the arrangement \"a wasted thing\".\n\n## Two numbers, one announcement\n\nThe exact figure is disputed. NBC News reported $4bn, while Al Jazeera put the annual package at $3.8bn, the sum set out in the ten-year aid memorandum signed in 2016. Neither the State Department nor the Israeli government confirmed any change.\n\nOil prices slid on the comments, with Brent crude down more than 3% to around $101 a barrel, its lowest in more than three weeks. Traders read the remark, alongside the president's suggestion that he would not attack Iran again, as a sign the war might be winding down.\n\nUS aid to Israel and the war in Gaza were among the most contentious issues of the midterm campaign, and the announcement came as results were still being counted.",
-      "sources": [
-        {
-          "name": "NBC News",
-          "url": "https://www.nbcnews.com/politics/2026-election/trump-says-us-will-stop-4b-military-aid-israel-end-2026-rcna607210"
-        },
-        {
-          "name": "Euronews",
-          "url": "https://www.euronews.com/2026/11/03/trump-says-us-will-end-military-aid-to-israel-as-americans-vote-in-midterms"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/4/scepticism-as-trump-says-hes-ending-israels-3-8-bn-military-aid-deal"
-        }
-      ],
-      "publishedAt": "2026-11-04T06:02:00Z",
-      "imageURL": "/images/2026-11-04-global-004.jpg"
-    },
-    {
-      "id": "2026-11-04-global-005",
-      "category": "global",
-      "headline": "Two helicopters collide near Everest base camp, killing Indian trekker",
-      "subtitle": "The aircraft came down at Pheriche while ferrying hikers off the mountain, in the second emergency on the Everest route this week.",
-      "body": "Two helicopters collided while trying to land near Everest base camp on Tuesday, killing an Indian trekker and injuring two other people in the latest accident on Nepal's busiest mountain route.\n\nThe aircraft came down at Pheriche, a village at 13,780 feet where trekkers acclimatise, according to Bhupendra Thapa of the Solukhumbu district administration. The dead man was 47. A passenger from New Zealand was flown to Kathmandu for treatment, and the Nepali pilot was treated locally.\n\nBoth helicopters were ferrying hikers down from the base camp trek during Nepal's autumn season, the window between the monsoon and the hard winter. There are no roads on the approach, so helicopters are the only way to evacuate people who fall ill or are exhausted by the altitude.\n\n## A bad week on the trail\n\nIt was the second emergency on the route in days. On Friday a fire broke out at a hotel in Dingboche, about two miles from Pheriche, possibly started by a cooking gas cylinder. Guests and staff were evacuated and nobody was hurt.\n\nHeavy snow had closed the trail earlier in the week before the weather cleared on Sunday, releasing thousands of trekkers who had been waiting for the route to reopen. The number of people aboard the two helicopters has not been confirmed.",
-      "sources": [
-        {
-          "name": "CBS News",
-          "url": "https://www.cbsnews.com/news/mount-everest-helicopter-crash-base-camp-nepal/"
-        },
-        {
-          "name": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cmqlnx7z1549o"
-        },
-        {
-          "name": "Euronews",
-          "url": "https://www.euronews.com/video/2026/11/03/video-shows-two-helicopters-colliding-in-nepals-everest-region"
-        }
-      ],
-      "publishedAt": "2026-11-04T06:03:00Z",
-      "imageURL": "/images/2026-11-04-global-005.jpg"
-    },
-    {
-      "id": "2026-11-04-tech-001",
-      "category": "tech",
-      "headline": "The memory crunch reaches the shelf: iPhones, PCs and graphics cards all cost more",
-      "subtitle": "Apple's margin forecast missed as its component bill rose $33bn in a quarter, and Nvidia is raising RTX prices again. The cause is data centres buying up every chip.",
-      "body": "Apple's first earnings report under John Ternus ended with the number investors cared about most: a forecast gross margin of 45% to 46% for the December quarter, below the 46.3% analysts expected. The cause was memory. \"What we're seeing with memory pricing right now is unprecedented,\" Ternus told analysts on Monday.\n\nApple's purchase obligations rose $33bn between the June and September quarters as it raced to lock in supply, and the company said it expects shortages of iPhones and Macs through Christmas. It has already raised prices on Macs and iPads at the end of June and added $100 to every iPhone in September.\n\n## Everyone is paying\n\nNvidia is passing the cost on too. This week it told buyers that RTX 50-series graphics cards are going up again, with the RTX 5090 rising by $500 and the RTX 5050 by $30 to $50. AMD and Intel have not moved yet.\n\nThe root cause is data centres. Nvidia and the hyperscalers are buying every DRAM and NAND chip they can find and paying a premium for it, leaving consumer manufacturers to compete for whatever is left. SK Hynix has said the shortage could last until 2030, and Intel does not expect relief next year.\n\nMicrosoft's answer is software: it says Windows 11 is now about 20% more responsive and 40% faster at multitasking on machines with only 8GB of RAM, which is what many buyers will be able to afford. AMD chief executive Lisa Su was blunter, saying she is planning on \"a down year for 2027\" in PCs.",
-      "sources": [
-        {
-          "name": "CNBC",
-          "url": "https://www.cnbc.com/2026/11/03/apple-earnings-john-ternus-faces-first-test-amid-high-memory-costs.html"
-        },
-        {
-          "name": "Tom's Hardware",
-          "url": "https://www.tomshardware.com/pc-components/dram/apple-faces-unprecedented-memory-cost-increases-as-ram-prices-continue-to-surge-manufacturing-bill-climbs-by-usd33-billion-rising-component-expenses-threaten-margins-through-the-holiday-quarter-and-into-2027"
-        },
-        {
-          "name": "ZDNET",
-          "url": "https://www.zdnet.com/tech/nvidia-rtx-50-cards-gpus-more-price-increases/"
-        },
-        {
-          "name": "The Register",
-          "url": "https://www.theregister.com/software/2026/11/03/microsoft-improves-windows-11-performance-on-8-gb-pcs-as-ram-prices-keep-climbing/5307382"
-        }
-      ],
-      "publishedAt": "2026-11-04T06:05:00Z",
-      "imageURL": "/images/2026-11-04-tech-001.jpg"
-    },
-    {
-      "id": "2026-11-04-tech-002",
-      "category": "tech",
-      "headline": "Binance says fake job interviews and a poisoned AI tool let hackers take $6.3bn",
-      "subtitle": "An engineer was groomed through a fake recruitment process, then the intruders used the exchange's own internal AI tool to reach two more laptops.",
-      "body": "Hackers who stole a record $6.3bn from Binance got in through a fake recruitment process and then used one of the company's own AI tools against it, the exchange said in its first detailed account of the breach.\n\nAn engineer was approached on a legitimate jobs platform and invited to interviews with people posing as representatives of a real company. To build trust the attackers shared social media profiles carrying personal photographs. At a second interview the engineer was asked to download an \"assignment\" that was malware, wrapped in obfuscation that got it past security tooling.\n\n## One laptop became three\n\nFrom that machine the intruders took control of an internal AI tool in October and used it to reach the laptops of two more engineers, giving them the access they needed to drain wallets. Binance suspended withdrawals worldwide while it worked out what had happened; customers pulled billions of dollars out once the service reopened on Sunday.\n\nThe company has apologised, says it has set aside more than 100% of the funds needed to cover the loss and that 98% of affected tokens had been replenished by Saturday. About half of the stolen assets have been frozen, with the FBI and Secret Service helping to trace the rest.\n\nUS agencies and private analysts say the attack carries the hallmarks of North Korea. Pyongyang denies it; Kim Yo Jong called the accusation a \"sinister attempt\" to damage the country's image.",
+      "headline": "Vance blames the Iran war for the Republican defeat and breaks with Trump",
+      "subtitle": "In the sharpest split with a sitting president in years, the vice-president said 'the reason we lost these elections is the war in Iran', a remark read in both capitals as an early move towards 2028.",
+      "body": "JD Vance has blamed the war with Iran for the Republican defeat in Tuesday's midterms, in a blunt assessment that amounted to the sharpest break with a sitting president in recent memory and an early move in the race to succeed him.\n\n\"The reason we lost these elections is the war in Iran,\" the vice-president said, arguing that voters had punished an unpopular conflict. Donald Trump has rejected that reading, defending the campaign and insisting the strikes were necessary.\n\nThe remark lands as Democrats take both chambers of Congress and Republican recriminations begin. Vance and Marco Rubio are now the two names most discussed for 2028, and the vice-president's distance from the war is being read as an attempt to protect his own position.\n\nTehran has taken the result as a rejection of the war: its chief negotiator said Americans had voted \"no to war\", while Trump has confirmed further strikes. European diplomats expect a Congress with subpoena power to constrain the White House's room for manoeuvre over the coming months.",
       "sources": [
         {
           "name": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/ck5ynwz9gy67o"
+          "url": "https://www.bbc.co.uk/news/articles/crz98zqkz7z0o"
         },
         {
-          "name": "The Register",
-          "url": "https://www.theregister.com/security/2026/11/03/north-korean-fake-job-interview-led-to-63b-binance-heist/5307398"
+          "name": "El Mundo",
+          "url": "https://www.elmundo.es/internacional/2026/11/04/6aeb6094e4d4d8d1318b45a0.html"
         },
         {
-          "name": "IT Pro",
-          "url": "https://www.itpro.com/security/cyber-attacks/the-binance-hack-explained-how-much-cryptocurrency-was-stolen-whos-behind-the-attack-and-was-a-single-compromised-laptop-to-blame"
-        },
-        {
-          "name": "CNBC",
-          "url": "https://www.cnbc.com/2026/11/03/binance-co-ceo-teng-says-hackers-used-fake-job-interviews-to-steal-6point3-billion-in-crypto.html"
+          "name": "ABC",
+          "url": "https://www.abc.es/internacional/vance-culpa-guerra-iran-derrota-republicana-elecciones-20261104173908-nt.html"
         }
       ],
-      "publishedAt": "2026-11-04T06:06:00Z",
-      "imageURL": "/images/2026-11-04-tech-002.jpg"
+      "publishedAt": "2026-11-05T06:12:00Z",
+      "imageURL": "/images/2026-11-05-global-003.jpg"
     },
     {
-      "id": "2026-11-04-tech-003",
-      "category": "tech",
-      "headline": "AMD posts the biggest quarter in its history as data centres take over",
-      "subtitle": "Revenue hit a record $13.4bn on $8.5bn of data centre sales, but gaming fell 40% and Lisa Su is planning for a shrinking PC market next year.",
-      "body": "AMD reported record quarterly revenue of $13.4bn for the three months to September, including $8.5bn of data centre sales, and told investors to expect $17bn in the current quarter against a $16.2bn consensus. The shares rose about 7% after hours.\n\nChief executive Lisa Su called it \"the largest and most profitable\" quarter in the company's history and said revenue would grow more than 80% in 2027. Chief financial officer Jean Hu went further: beyond 2027, she expects data centres to account for more than 80% of everything AMD sells. They were 63% of revenue last quarter, up from 47% a year earlier.\n\nThe driver is not only GPUs. Agentic AI workloads, which run for hours without a human in the loop, lean heavily on server CPUs, and AMD's Epyc line has taken share. Its Helios rack-scale systems now compete directly with Nvidia's, and Meta, Microsoft, Oracle, Anthropic and OpenAI have begun installing them.\n\n## The other half of the business is shrinking\n\nClient and gaming revenue fell 8% to $3.7bn, with gaming down 40% to $773m as memory prices pushed up console and graphics card costs. Su conceded that component costs are slowing consumer sell-through and said AMD is planning for a down PC year in 2027.\n\nThe company has also been spending: $8.2bn in stock for World Labs in September, $1bn into Meta's equity offering and a commitment of up to $5bn in Anthropic.",
+      "id": "2026-11-05-global-004",
+      "category": "global",
+      "headline": "South Korea moves its anti-piracy flotilla closer to the Strait of Hormuz",
+      "subtitle": "Seoul will ask parliament to extend the Cheonghae unit's operating area to about 650km from the strait, after US pressure over its limited support. It insists the mission remains non-combat.",
+      "body": "South Korea plans to widen the operating area of its anti-piracy Cheonghae unit so that it covers waters about 650km from the Strait of Hormuz, and will seek parliamentary approval for the change, the defence ministry said on Thursday.\n\nSeoul framed the move as a response to the security of shipping and its own energy supply rather than as participation in the US-Israeli campaign against Iran. Officials said the reinforcement has strictly non-combat purposes and that the unit will operate independently of allied forces.\n\nThe decision follows repeated criticism from Donald Trump, who has accused allies of doing too little while Washington carries the cost of keeping the strait open. Additional patrol aircraft and an explosive ordnance disposal team are to be deployed with the unit.\n\nAbout a fifth of the world's oil passes through Hormuz, and shipping has been disrupted since the strikes began. Seoul's caution reflects its exposure: it buys most of its crude from the Gulf and avoids any step that could be read in Tehran as military alignment.",
       "sources": [
+        {
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/nov/05/south-korea-to-expand-anti-piracy-unit-strait-of-hormuz"
+        },
+        {
+          "name": "DW",
+          "url": "https://www.dw.com/es/corea-del-sur-apoyar%C3%A1-a-mantener-abierto-ormuz-con-misi%C3%B3n-militar/a-79859771"
+        },
+        {
+          "name": "ABC",
+          "url": "https://www.abc.es/internacional/corea-sur-desplegara-mision-naval-mantener-abierto-20261105024807-nt.html"
+        },
+        {
+          "name": "EFE",
+          "url": "https://efe.com/mundo/2026-11-05/corea-del-sur-mision-naval-estrecho-ormuz-presiones-estados-unidos"
+        }
+      ],
+      "publishedAt": "2026-11-05T06:15:00Z",
+      "imageURL": "/images/2026-11-05-global-004.jpg"
+    },
+    {
+      "id": "2026-11-05-tech-001",
+      "category": "tech",
+      "headline": "Data centres lost on the ballot, and the industry is only starting to count the cost",
+      "subtitle": "From Senate races to local rezoning votes, data centres and the politicians backing them did badly across the US midterms. The argument now is whether voters rejected the technology or the party.",
+      "body": "Data centres had a bad night. From high-profile Senate races to municipal rezoning referendums, data centres and their supporters did miserably on the ballot in the 2026 midterms, according to tallies by WIRED and The Verge, with defeats cutting across the usual partisan map.\n\nIt is the first electoral evidence that the physical footprint of AI has become a campaign issue. Land, water and electricity use turned projects that were pitched as a local tax windfall into a liability, and in Texas voters in several areas backed measures aimed at controlling the build-out.\n\nIndustry groups are pushing back with a political argument rather than an engineering one: that the vote was a rejection of Trump and his party, not of the technology itself. TechCrunch reports that the fight is moving to Congress, where energy and permitting rules will decide how quickly projects can proceed.\n\nThe practical consequence is delay. Developers and utilities had assumed permitting would get easier as federal pressure to build mounted. A Congress controlled by Democrats and a planning system that is increasingly contested at county level point the other way.",
+      "sources": [
+        {
+          "name": "WIRED",
+          "url": "https://www.wired.com/story/the-results-are-in-voters-hate-data-centers/"
+        },
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/04/after-the-midterms-a-bigger-clash-over-data-centers-could-be-coming/"
+        },
         {
           "name": "The Verge",
-          "url": "https://www.theverge.com/tech/1026148/amd-earnings-q3-2026-data-center-pc"
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1018676/data-center-midterm-election-energy-water-texas"
         },
         {
-          "name": "CNBC",
-          "url": "https://www.cnbc.com/2026/11/03/amd-amd-q3-earnings-report-2026-.html"
-        },
-        {
-          "name": "SiliconANGLE",
-          "url": "https://siliconangle.com/2026/11/03/amd-beats-expectations-as-agentic-ai-sparks-its-data-center-revenue-growth-engines/"
+          "name": "Xataka",
+          "url": "https://www.xataka.com/robotica-e-ia/centros-datos-tambien-se-presentaban-a-elecciones-eeuu-han-perdido-estrepitosamente"
         }
       ],
-      "publishedAt": "2026-11-04T06:07:00Z",
-      "imageURL": "/images/2026-11-04-tech-003.jpg"
+      "publishedAt": "2026-11-05T06:20:00Z",
+      "imageURL": "/images/2026-11-05-tech-001.jpg"
     },
     {
-      "id": "2026-11-04-tech-004",
+      "id": "2026-11-05-tech-002",
       "category": "tech",
-      "headline": "Canva cuts 22% of its staff as growth stalls for the first time in a decade",
-      "subtitle": "Some 1,271 roles are affected, with some staff losing jobs and others asked to relocate, after the company halved its revenue growth forecast in August.",
-      "body": "Canva will shed 1,271 jobs, roughly 22% of its workforce, after the Sydney design-software company's growth slowed for the first time in ten years.\n\nChief executive Melanie Perkins told staff on Tuesday that some of those affected will lose their roles, others will be asked to relocate to central hubs and others will see their jobs change. She called it \"without doubt the hardest moment in our thirteen-year history\" and said this had been the company's hardest year yet.\n\nThe restructuring folds the product, growth and platform divisions into a single product organisation to cut coordination overhead, concentrates staff in fewer locations, and offers departing employees a US$10,000 grant.\n\n## Growth forecast cut, valuation marked down\n\nThe warning signs were already public. In August Canva cut its 2026 revenue growth forecast from 30% to 20%. Its largest institutional backer, Blackbird, marked the company's valuation down 17% to US$34.9bn, citing concern that AI could displace software businesses.\n\nCanva also faces direct competition from image and design models built by OpenAI and Google, which can produce marketing assets that once required a designer and a template library.\n\nThe company has not said how many of the 1,271 will actually leave, and the mix matters: a role change or a relocation is a softer outcome than a redundancy, but all of it counts against the headline figure.",
+      "headline": "A 5.3-inch phone is being sold as the antidote to ever-larger flagships",
+      "subtitle": "The Enough Phone offers a handset that fits in one hand, a choice between stock Android and an anti-distraction system, and no pretence of competing with flagship cameras or chips.",
+      "body": "A startup is betting that the disappearance of small phones was a decision by manufacturers rather than a change in what buyers wanted. The Enough Phone has a 5.3-inch screen, a size flagships abandoned years ago as they pushed past six inches.\n\nThe device is unusual in what it lets buyers choose: stock Android, or an operating system built to discourage endless scrolling. Ars Technica notes that it makes no attempt to match flagship cameras or processors, and that the pitch rests on a phone that fits in a hand and does less.\n\nThe market has heard this before. Small phones have been tried and withdrawn, and the standard explanation is battery life: a smaller body cannot hold the cells that large screens and modern software demand. Enough Phone's answer is that its software needs less.\n\nThe real test is whether irritation with screen time has become a purchasing motive rather than a topic for op-eds. Pre-orders and early reviews, not the specification sheet, will decide whether other manufacturers follow, and the phone's own community has been arguing about exactly that.",
       "sources": [
         {
-          "name": "Bloomberg",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-03/canva-announces-layoffs-job-changes-for-about-22-of-workforce"
+          "name": "WIRED",
+          "url": "https://www.wired.com/story/big-tech-abandoned-the-small-phone-the-enough-phone-wants-to-save-it/"
         },
         {
-          "name": "Business Insider",
-          "url": "https://www.businessinsider.com/canva-reorganization-layoffs-ceo-memo-2026-11"
+          "name": "Ars Technica",
+          "url": "https://arstechnica.com/gadgets/2026/11/people-say-they-want-small-smartphones-the-enough-phone-will-put-that-to-the-test/"
         },
         {
-          "name": "The Register",
-          "url": "https://www.theregister.com/saas/2026/11/04/aussie-adobe-assailant-canva-announces-layoffs-in-re-org-affecting-22-of-staff/5307422"
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50370084"
         }
       ],
-      "publishedAt": "2026-11-04T06:08:00Z",
-      "imageURL": "/images/2026-11-04-tech-004.jpg"
+      "publishedAt": "2026-11-05T06:24:00Z",
+      "imageURL": "/images/2026-11-05-tech-002.jpg"
     },
     {
-      "id": "2026-11-04-tech-005",
+      "id": "2026-11-05-tech-003",
       "category": "tech",
-      "headline": "Safari gets vertical tabs and a dark mode that fixes websites for you",
-      "subtitle": "The iOS 27.3 beta moves tabs to a left-hand rail and offers to repaint pages that have no dark design of their own. Developers can opt out.",
-      "body": "Apple's iOS 27.3, iPadOS 27.3 and macOS 27.3 betas add a Vertical Tabs layout to Safari, placing the tab strip down the left side of the window. Tabs show as icons by default to save space, with an option to widen the bar so titles appear, and the layout works with Tab Groups and the Topics that Apple Intelligence creates when it sorts tabs automatically.\n\nIt is switched on from Safari's settings, or from the View menu on Mac and iPad.\n\nThe more interesting addition is Adaptive Dark Mode. If you use Dark Mode and open a site with a bright background, Safari offers a \"Try\" button. Accept it and the browser renders its own dark version of the page: the background darkens, text contrast is adjusted, logos and graphics are inverted, vector artwork is recoloured, raised surfaces are lifted and layered shadows are rebalanced.\n\n## Not every site, not every tweak\n\nThe changes are applied selectively. Apple says each site is adapted according to what it needs to stay readable, so not every adjustment is used everywhere. If a site already has a native dark design, Adaptive Dark Mode does not engage, and developers can add a tag telling Safari to leave their pages as they intended.\n\nUsers can turn it on for all sites or keep it per-site after trying it. The same beta round adds native Markdown rendering to Quick Look, brings GitHub Copilot into Xcode's built-in coding assistant, and extends Siri's AI features to more languages.\n\nSafari's tab design has been contentious since Apple moved the address bar to the bottom of the iPhone screen. A left-hand tab rail is a bigger change for iPad and Mac than it is for the phone.",
+      "headline": "Go replaces its JSON library, 15 years after the first version",
+      "subtitle": "The new encoding/json/v2 and jsontext packages split parsing from meaning, and the old API keeps working on top of them. The proposal behind the rewrite listed years of complaints.",
+      "body": "Go 1.27 ships new packages for reading and writing JSON, replacing an API that has been in the standard library since before Go 1.0. The team describes the change as the product of more than a year of experimental releases and feedback from users who adopted them early.\n\nThe new encoding/json/v2 package separates the streaming layer, jsontext, from the semantic one. That split lets callers work token by token where they need to, and gives the decoder room to report where a document went wrong instead of pointing at an offset.\n\nThe proposal that led to the rewrite listed long-standing complaints: field matching that ignores case, error messages that do not say what failed, and awkward handling of unknown fields. Those are behaviour changes, which is why the old package stays.\n\nFor most codebases the migration is optional and gradual, and that is deliberate. The standard library is used by essentially every Go program that talks to a network, so a hard break would be felt everywhere at once; instead the old encoding/json now runs on the new code underneath.",
       "sources": [
         {
-          "name": "MacRumors",
-          "url": "https://www.macrumors.com/2026/11/03/ios-27-3-safari/"
+          "name": "The Go Blog",
+          "url": "https://go.dev/blog/jsonv2"
         },
         {
-          "name": "Slashdot",
-          "url": "https://tech.slashdot.org/story/26/11/03/2347212/ios-273-adds-vertical-tabs-adaptive-dark-mode-to-safari"
+          "name": "Go Packages",
+          "url": "https://pkg.go.dev/encoding/json/v2"
         },
         {
-          "name": "9to5Mac",
-          "url": "https://9to5mac.com/2026/11/03/ios-27-3-expands-siri-ai-to-these-new-languages/"
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49151451"
         }
       ],
-      "publishedAt": "2026-11-04T06:09:00Z",
-      "imageURL": "/images/2026-11-04-tech-005.jpg"
+      "publishedAt": "2026-11-05T06:28:00Z",
+      "imageURL": "/images/2026-11-05-tech-003.jpg"
     },
     {
-      "id": "2026-11-04-ai-001",
-      "category": "ai",
-      "headline": "Google will switch off Search for schools that refuse its AI tools",
-      "subtitle": "The policy, reported by the New York Times, drew accusations of extortion from Bernie Sanders and Zohran Mamdani. Google says schools remain in control.",
-      "body": "Google is defending a policy that would turn off Search for schools which reject artificial intelligence tools, after a New York Times report on the arrangement triggered a political backlash.\n\nThe company's education vice-president, Chris Phillips, told the Times that \"Search and AI are deeply integrated\", and Google's own statement did not dispute that search access now depends on accepting AI features. In a blog post titled Designing responsible AI for learning, the company said it is bringing a product called Guided Learning into Classroom.\n\nResponding on X, Google said the policy was about giving schools choice: Gemini, Gemini Notebook and Search are all off by default, schools stay in control, and AI Mode and AI Overviews will now walk students through problems step by step rather than handing over answers.\n\n## \"Extortion\"\n\nCritics were not mollified. New York mayor Zohran Mamdani said Google was \"trying to use its monopoly power to force AI into our public schools\". Senator Bernie Sanders called the policy \"extortion\", saying the company was \"threatening schools\". Lina Khan, former chair of the Federal Trade Commission, said the episode showed \"the danger of allowing an unregulated monopolist to control an essential service\".\n\nThe fight lands in the middle of a wider argument about technology in classrooms. Common Sense Media has rated Google's AI overviews an \"unacceptable risk\" for children, and senators Richard Blumenthal and Josh Hawley opened an inquiry last month into the company's push of AI into schools. Google has already lost antitrust cases over search and advertising.\n\nFor schools the practical question is narrow and awkward: search is how students and teachers find material, and Google is now tying it to a product many of them do not want.",
+      "id": "2026-11-05-tech-004",
+      "category": "tech",
+      "headline": "Meta buys Conductor, the app for running a team of coding agents side by side",
+      "subtitle": "Conductor spins up parallel workspaces so several agents can work on one project at once. Existing users keep the app, but cloud workspaces go read-only and new sign-ups have closed.",
+      "body": "Meta has acquired Conductor, a startup whose Mac app lets developers run several coding agents in parallel, each in its own workspace, rather than one at a time in a terminal. The news was first reported by Axios and confirmed by Conductor's own announcement.\n\nConductor launched in July 2025, when writing most of your code with agents still looked eccentric. Its timeline changed the day the deal closed: new users can no longer sign up or download the app, and free users cannot upgrade, while existing paid subscribers keep pro features at no cost.\n\nConductor Cloud is being wound down. Workspaces go read-only on 13 November and the company has built a transfer path to move them to a local machine. The team says it has big plans for the next interface and will ship something new early next year.\n\nFor Meta the purchase is another step into developer tooling around agents, an area where Anthropic's Claude Code and OpenAI's Codex have defined the shape of the market. Buying the interface layer is cheaper than building one, and it brings a small, committed user base with opinions.",
       "sources": [
         {
-          "name": "CNBC",
-          "url": "https://www.cnbc.com/2026/11/03/google-responds-to-outrage-over-removing-search-in-schools-that-ban-ai.html"
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/04/meta-acquires-ai-coding-startup-conductor/"
         },
         {
-          "name": "SiliconANGLE",
-          "url": "https://siliconangle.com/2026/11/03/google-offers-tepid-response-to-accusations-it-would-hold-search-hostage-if-schools-restrict-ai-tools/"
+          "name": "Axios",
+          "url": "https://www.axios.com/2026/11/04/meta-acquires-ai-coding-startup-conductor"
         },
         {
-          "name": "Slashdot",
-          "url": "https://news.slashdot.org/story/26/11/03/1711242/google-will-turn-off-search-for-schools-that-reject-ai"
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50369503"
         }
       ],
-      "publishedAt": "2026-11-04T06:10:00Z",
-      "imageURL": "/images/2026-11-04-ai-001.jpg"
+      "publishedAt": "2026-11-05T06:32:00Z",
+      "imageURL": "/images/2026-11-05-tech-004.jpg"
     },
     {
-      "id": "2026-11-04-ai-002",
-      "category": "ai",
-      "headline": "Nvidia tells cloud customers to take less Chinese business — and shrugs at open models",
-      "subtitle": "Cloud providers are being asked to keep Chinese customers under 49% of their book, closing a gap in export controls that let labs rent chips abroad.",
-      "body": "Nvidia has begun telling data centre customers to reduce the share of their business that comes from Chinese companies, closing a gap in US export controls that let Chinese AI developers rent American chips abroad without importing them.\n\nThe guidance asks cloud providers, including Nvidia-backed start-ups known as neoclouds, to keep Chinese customers to no more than 49% of their book and to disclose who is using the hardware. It is not mandatory, applies only to future contracts, and according to the Financial Times was passed on verbally by sales staff rather than published in a document. Tom's Hardware reports that it applies to data centres worldwide, not just those in Asia.\n\nThe target is remote access. Export rules restrict the shipment of chips but say little about renting compute in a data centre in another country, which is how Chinese labs have been reaching top-end Nvidia hardware. US authorities began looking into the practice after allegations involving Moonshot AI, the developer behind the Kimi chatbot.\n\n## Unbothered about who wins the models\n\nSpeaking at Fireworks AI's Forge event in San Francisco, Jensen Huang made clear where Nvidia's loyalties lie. \"We love closed models,\" he said, but added that \"the idea that all of us would be based on general intelligence is not logical\", arguing that most of the world's value sits in specialised models tuned to a particular domain.\n\nHis host had a sharper message. Fireworks chief executive Lin Qiao put up a slide of ten headlines about token costs and said: \"Cost is out of control. Business cannot scale without borrowing a lot of money.\"",
+      "id": "2026-11-05-tech-005",
+      "category": "tech",
+      "headline": "DreamHost says hackers spent months inside its file manager and took customer email",
+      "subtitle": "The web host disclosed the breach after an outage that lasted several days, and has reset passwords and ended sessions. Some customers had mailbox contents viewed before the attack was found.",
+      "body": "DreamHost has confirmed that hackers stole customer emails and credentials during a months-long attack on its systems. The company disclosed the breach last Thursday, after it caused an outage that ran for several days and forced password resets.\n\nIn a breach notice filed with California's attorney general, DreamHost said the intrusion ran from August until it was detected on 23 October and involved its web-based File Manager, which customers use to store and edit files. Session tokens and FTP credentials were among the data taken.\n\nA limited number of webmail users had credentials stolen as well. The company reset those passwords and ended active sessions the same day, and says it believes that in a small number of cases the credentials were used to view mailbox contents; those customers are being contacted individually.\n\nWhat DreamHost has not explained is why the activity went unnoticed for so long, a question now circulating among customers and in a law firm investigation notice. The company says its inquiry is continuing and has not put a number on how many accounts were affected.",
       "sources": [
         {
-          "name": "The Decoder",
-          "url": "https://the-decoder.com/nvidia-pushes-cloud-customers-to-cut-back-on-china-business/"
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/04/hackers-stole-dreamhost-customer-files-and-inboxes-during-months-long-attack/"
         },
         {
-          "name": "Tom's Hardware",
-          "url": "https://www.tomshardware.com/tech-industry/data-centers/nvidia-tells-data-center-operators-to-limit-business-from-chinese-customers-with-new-global-restrictions-report-claims-allegedly-restricted-to-49-percent-of-the-total-ensuring-51-percent-are-non-chinese-outfits"
+          "name": "DreamHost",
+          "url": "https://www.dreamhost.com/news/announcements/october-security-incident"
         },
         {
-          "name": "The Register",
-          "url": "https://www.theregister.com/ai-and-ml/2026/11/03/nvidia-is-happy-to-take-your-money-whether-youre-using-open-or-closed-models-says-jensen-huang/5307368"
+          "name": "Strauss Borrelli",
+          "url": "https://straussborrelli.com/2026/11/04/dreamhost-data-breach-investigation/"
         }
       ],
-      "publishedAt": "2026-11-04T06:11:00Z",
-      "imageURL": "/images/2026-11-04-ai-002.jpg"
+      "publishedAt": "2026-11-05T06:36:00Z",
+      "imageURL": "/images/2026-11-05-tech-005.jpg"
     },
     {
-      "id": "2026-11-04-ai-003",
+      "id": "2026-11-05-ai-001",
       "category": "ai",
-      "headline": "SUSE cuts one job in ten as Gartner warns the AI redundancies will be reversed",
-      "subtitle": "The enterprise Linux vendor blamed automation and AI for the losses. Analysts expect 30% of the roles cut for that reason to be rehired by 2029, at a higher cost.",
-      "body": "SUSE will cut about one in ten of its nearly 2,000 staff, chief executive Dirk-Peter van Leeuwen told employees, attributing the reduction to automation and AI.\n\n\"AI capabilities are advancing exponentially, forcing us to radically reimagine our work,\" he wrote. \"The organizational design and cost base that SUSE is built on today will not carry us forward successfully.\" The enterprise Linux vendor's decision, first reported by The Register, makes it one of the few European software firms to name AI explicitly as the reason for redundancies. Squarespace also announced job cuts this week, though it has not tied them so directly to AI.\n\n## The bill arrives later\n\nAnalyst firm Gartner argues that many of these reductions will be undone. It predicts that 30% of employees laid off because of AI will have been rehired by 2029, typically at a higher cost than before, because companies are cutting roles on the strength of automation business cases that do not survive contact with real workflows.\n\nThat warning is appearing in more places. Forrester has said the rush to automate will come back to haunt enterprises, and other analysts argue that some firms are using AI as cover for layoffs they would have made anyway after over-hiring during the boom.\n\nFor SUSE's remaining staff the immediate question is what the reorganisation leaves behind. The company has spent years repositioning itself around subscription revenue and containers, and cutting a tenth of the workforce is the largest signal yet of how much slack it believes AI has taken out of the business.",
+      "headline": "Google puts AI Overviews inside school search, and schools start looking elsewhere",
+      "subtitle": "Administrators can switch off Gemini, but not the summaries that now sit above ordinary results. TechCrunch reports Google has threatened to turn off Search entirely for schools that restrict AI features.",
+      "body": "Google has told schools they can switch off Gemini, but the AI Overviews that now appear above ordinary search results come with search itself. That distinction has set off a fight with the schools that buy its education software.\n\nAccording to WIRED, administrators say the problem is not a chatbot they can disable but a change to what a search result is: an answer generated before a student reaches a source. Teachers argue that machine-written summaries leave pupils less able to find and judge material themselves.\n\nTechCrunch reports that Google's response has hardened the dispute, with the company warning it would turn off Search for schools that restrict AI features, prompting a public backlash. For schools already committed to filtering, losing search is not a neutral outcome.\n\nRival DuckDuckGo is pitching itself to those districts, pointing to a search engine without generated answers and to settings that let administrators switch AI features off. It is a small company, but the argument has moved from features to contracts, and schools are one of the few buyers able to refuse a default.",
       "sources": [
         {
-          "name": "ZDNET",
-          "url": "https://www.zdnet.com/business/suse-lay-offs-workforce-ai-cited/"
+          "name": "WIRED",
+          "url": "https://www.wired.com/story/google-is-forcing-ai-overviews-in-classrooms-schools-are-searching-for-a-way-out/"
         },
         {
-          "name": "The Register",
-          "url": "https://www.theregister.com/software/2026/11/02/suse-to-cut-one-in-ten-employees-because-of-ai/5306950"
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/04/duckduckgo-pitches-itself-to-schools-amid-backlash-over-googles-ai-policy/"
         },
         {
-          "name": "IT Pro",
-          "url": "https://www.itpro.com/business/careers-and-training/replacing-workers-with-ai-you-may-come-to-regret-it-gartner-warns-30-percent-of-employees-whove-been-laid-off-because-of-the-technology-will-be-rehired-by-2029-and-at-a-far-higher-cost-to-the-business"
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/04/google-faces-backlash-for-plan-that-would-turn-off-search-for-schools-that-restrict-ai"
         }
       ],
-      "publishedAt": "2026-11-04T06:12:00Z",
-      "imageURL": "/images/2026-11-04-ai-003.jpg"
+      "publishedAt": "2026-11-05T06:40:00Z",
+      "imageURL": "/images/2026-11-05-ai-001.jpg"
     },
     {
-      "id": "2026-11-04-ai-004",
+      "id": "2026-11-05-ai-002",
       "category": "ai",
-      "headline": "CrowdStrike adds an off switch for AI agents and buys two firms to police them",
-      "subtitle": "The kill switch terminates a misbehaving agent and cuts its network access. Two acquisitions worth a reported $495m test agents before and after deployment.",
-      "body": "CrowdStrike has shipped an AI Kill Switch that lets security teams terminate a misbehaving AI agent, strip its network access and stop it restarting, as companies look for ways to keep autonomous software on a leash.\n\nThe feature was announced at the company's Fal.Con Europe conference and sits inside Falcon Guardian, which catalogues the AI agents running inside an organisation and checks them against policy. \"Everyone is building AI agents, but they never had the off button, and now they do,\" chief executive George Kurtz said.\n\n## Half a billion dollars of insurance\n\nAlongside the launch, CrowdStrike said it will acquire two start-ups that secure AI agents, for a reported $495m according to the Wall Street Journal. Fiddler AI, believed to be about four-fifths of that sum, tests agents before deployment by trying model and configuration combinations to find the least risky one, then screens live traffic with a set of custom models called Centor that add under 80 milliseconds of latency.\n\nDreadnode attacks agents on purpose, running more than 100 breach techniques against them and against the MCP servers they use.\n\nKurtz compared the kill switch to an airbag: a safeguard that matters precisely because designers cannot guarantee correct behaviour at runtime. He also pointed to CrowdStrike's partnership with Anthropic, claiming enterprise customers told Anthropic they would not deploy its Claude Cowork product without CrowdStrike's protection in place.\n\nThe market is responding to a real gap. Agents are being handed credentials, file access and the ability to spend money, and most organisations have no inventory of what is running, let alone a way to stop it.",
+      "headline": "Moonshot releases the weights of Kimi K3.1 Pro, a trillion-scale open model",
+      "subtitle": "The Chinese lab put the model on Hugging Face with a million-token context and a custom licence rather than an open-source one, and the release drew hundreds of comments within hours.",
+      "body": "Moonshot AI has released the weights of Kimi K3.1 Pro, the model it bills as its advance in open intelligence, publishing them on Hugging Face alongside a technical blog. The listing runs to 2.8 trillion parameters.\n\nPublishing weights lets other labs and companies run a model on their own hardware instead of paying per token through an API, which is why open releases from Chinese labs have reshaped assumptions about how far behind or ahead the frontier sits.\n\nThe licence is the part developers read first. Moonshot has published a custom agreement rather than an OSI-approved open-source licence, so the weights are downloadable but the terms still constrain commercial use and redistribution.\n\nThe release was one of the most discussed items on Hacker News on Wednesday, with hundreds of upvotes and an argument that quickly turned from capability to serving costs: a model of that size needs a great deal of memory, and most teams will meet it through a provider rather than a rack of their own.",
       "sources": [
         {
-          "name": "CNBC",
-          "url": "https://www.cnbc.com/2026/11/03/crowdstrikes-new-kill-switch-can-stop-rogue-ai-agents-in-their-tracks-ceo-says.html"
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro"
         },
         {
-          "name": "SiliconANGLE",
-          "url": "https://siliconangle.com/2026/11/03/crowdstrike-to-acquire-cybersecurity-startups-fiddler-ai-dreadnode-for-reported-495m/"
+          "name": "Moonshot AI",
+          "url": "https://www.kimi.ai/blog/kimi-k3-1-pro"
         },
         {
-          "name": "CNBC",
-          "url": "https://www.cnbc.com/2026/11/03/crowdstrike-ai-kill-switch-rogue-agents.html"
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50366999"
         }
       ],
-      "publishedAt": "2026-11-04T06:13:00Z",
-      "imageURL": "/images/2026-11-04-ai-004.jpg"
+      "publishedAt": "2026-11-05T06:44:00Z",
+      "imageURL": "/images/2026-11-05-ai-002.jpg"
+    },
+    {
+      "id": "2026-11-05-ai-003",
+      "category": "ai",
+      "headline": "OpenAI's Images 2.6 adds GIFs, reusable reference images and two faster API models",
+      "subtitle": "ChatGPT can now turn a prompt or a photo into an animated GIF and keep reference images on file. In the API, Flare and Sunburst generate about 50% faster than the previous generation.",
+      "body": "OpenAI has released Images 2.6 across ChatGPT and Codex on web, desktop and mobile, adding animated GIF output with adjustable speed and frame-by-frame editing, plus reference images that can be kept on file and reused without uploading them again.\n\nDevelopers get two new API models. GPT-Image-2.6 Flare is tuned for speed and can produce an image in as little as six seconds at low quality. Sunburst trades that for detail and consistency across repeated edits at medium or high quality. Both are roughly 50% faster than the previous generation.\n\nThe controls matter as much as the models. Image markup lets you send a marked-up picture to show exactly where an edit should land, SVG export gives a vector file for logos and print, and a new complexity parameter sets how much planning the model does before it draws.\n\nThe guidance from OpenAI's developers is to start at low complexity for simple edits and raise it when a scene has several elements to juggle, with image quality set separately. Codex also moves image editing into the overlay rather than a side panel, a small change that speeds up iteration.",
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/introducing-images-2-6"
+        },
+        {
+          "name": "OpenAI",
+          "url": "https://x.com/OpenAI/status/2118124964197114039"
+        },
+        {
+          "name": "The Times of India",
+          "url": "https://timesofindia.indiatimes.com/technology/tech-news/openai-launches-images-2-6-in-chatgpt-codex-and-api-adds-gif-creation-feature/articleshow/135558059.cms"
+        },
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50372945"
+        }
+      ],
+      "publishedAt": "2026-11-05T06:48:00Z",
+      "imageURL": "/images/2026-11-05-ai-003.jpg"
+    },
+    {
+      "id": "2026-11-05-ai-004",
+      "category": "ai",
+      "headline": "AI's biggest super PAC network spent $100m on the midterms and changed very little",
+      "subtitle": "Leading the Future put about $26m into primaries, much of it against AI-safety candidates, then retreated to safe seats. It finished with more than $20m unspent and little to show for it.",
+      "body": "Leading the Future, the network of super PACs funded by Silicon Valley donors to fight AI regulation, went into the midterms with roughly $100 million and came out of them with little to show, according to post-election tallies by TechCrunch, WIRED and Citation Needed.\n\nIts American Mission arm backed Republicans and its Think Big arm backed Democrats. The network spent about $26 million on primaries, including more than $8 million against New York assembly member Alex Bores, a co-author of a state AI safety law. He lost his primary.\n\nBy the general election the money had slowed to a trickle, mostly on candidates in comfortably safe districts. More than $20 million of the original pledge was never spent, and the network reported no donations in the second and third quarters of the year.\n\nThe lesson drawn by groups on the other side is that money aimed at a diffuse technology argument does not move voters who are worried about electricity bills and water. Where the industry spends next, and whether it spends on candidates rather than advertising, is now an open question for 2028.",
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/04/ai-pacs-spent-millions-trying-to-shape-congress-heres-how-they-fared/"
+        },
+        {
+          "name": "WIRED",
+          "url": "https://www.wired.com/story/the-biggest-pro-ai-super-pac-network-didnt-really-impact-the-midterms/"
+        },
+        {
+          "name": "Citation Needed",
+          "url": "https://www.citationneeded.news/2026-election-results"
+        }
+      ],
+      "publishedAt": "2026-11-05T06:52:00Z",
+      "imageURL": "/images/2026-11-05-ai-004.jpg"
     }
   ]
 }
