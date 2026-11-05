@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-05",
+  "published": true,
+  "publishedAt": "2026-11-05T05:07:58Z",
+  "sections": {
+    "present": ["local", "national", "northernIreland", "global", "tech", "ai"],
+    "missing": []
+  },
+  "storiesWithoutPhoto": [],
+  "validatorWarnings": [],
+  "validatorErrors": [],
+  "workarounds": [
+    "Bing's RSS search endpoint returns locale-appropriate filler rather than the queried story, so it was abandoned after one batch. Cross-coverage was instead found by fetching 14 further native outlet feeds (El Mundo, ABC, El Confidencial, La Vanguardia, El Periódico, Xataka, The Verge, VentureBeat, Ars Technica, Irish Times, TechCrunch AI, BBC Tech, BBC UK, Europa Press internacional), which is free and gave the Spanish-language second and third sources for the global stories.",
+    "Several article URLs were initially written from memory rather than copied from a harvested feed; all were replaced with the canonical URLs returned by the RSS/Atom fetch or the search result before merging. Nothing invented reached the archive.",
+    "validate.mjs rejected https://www.conductor.build/announcement on tech-004 as a section/home page. It was replaced with Axios's exclusive report on the same acquisition, giving TechCrunch + Axios + Hacker News.",
+    "fetch-photos auto-discovered a ctfassets.net og:image for ai-003 (OpenAI Images 2.6) which returned HTTP 400. Replaced with the artwork published with the Times of India report on the same release.",
+    "openai.com, dreamhost.com and a number of UK outlets return 403/401/308 to a scripted fetch (openai.com 403, Reuters 401, newsletter.co.uk 403, dreamhost.com 308). Treated as bot-blocks and redirects, not dead links, per the brief."
+  ],
+  "needsHumanAttention": false,
+  "humanAttentionReason": null,
+  "notes": "Full six-section edition, 19 stories, all 19 with photos. 13 web_search calls used against the cap of 15; the rest of the research came from ~25 free RSS/Atom feeds and batched page fetches. Rail crisis dominates national: the Adif president resigned a day after Óscar Puente, Brussels called two Spanish accidents in nine months 'muy preocupante' and the ERA is sending technical support to the Urda investigation, and the PSOE has turned the resignation into a campaign banner. Local carries the Sarria cocaine network (Operación Rubber Duck, six detained) and the TSXG ruling that forces the Rof Codina veterinary hospital's Social Security debt to be recalculated under the national veterinary agreement. Global leads on Joshua Wong's 10-year sentence, with Aiwanger's death, Vance breaking with Trump over Iran and South Korea's Hormuz move. Tech is the data-centre ballot wipeout, Meta buying Conductor, the Go json/v2 rewrite, DreamHost's breach and the Enough Phone. AI is Google forcing AI Overviews into school search, Kimi K3.1 Pro's weights release, OpenAI Images 2.6 and the $100m pro-AI super PAC network that moved very little."
+}
