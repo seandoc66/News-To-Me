@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-06",
+  "published": true,
+  "publishedAt": "2026-11-06T05:06:11Z",
+  "sections": {
+    "present": ["local", "national", "northernIreland", "global", "tech", "ai"],
+    "missing": []
+  },
+  "storiesWithoutPhoto": [],
+  "validatorWarnings": [],
+  "validatorErrors": [],
+  "workarounds": [
+    "Drafts were written without articles[].publishedAt; validate.mjs failed the first publish attempt (19 errors) before anything was written to latest.json. Added 2026-11-06T05:40:00Z to all 19 articles, re-merged, republished — commit 3d60aed, superseded by d87baf3.",
+    "The Guardian og:image for the European bomb-hoax story returned 401 invalid-signature when probed directly; replaced the photoCandidate with the BBC's og:image for the same story. fetch-photos.mjs later auto-discovered the Guardian image successfully anyway.",
+    "Belfast Telegraph returns 403 to curl (bot-block, inconclusive) for the Stormont budget story; BBC and The Irish News were read in full and supply the sourced detail.",
+    "Six paragraph-length warnings (81-95 words) on the first publish were fixed by splitting at sentence boundaries and republishing, so the shipped edition carries no validator warnings."
+  ],
+  "needsHumanAttention": false,
+  "humanAttentionReason": null,
+  "notes": "Two publish-and-push runs were needed to land the clean edition (d87baf3). Content day dominated by the US midterm aftermath: tech sell-off in the Nasdaq's worst session in 18 months, and democratic socialists now leading both New York and Los Angeles. National section led on the UCO operation in the Koldo case; northernIreland on the unresolved Stormont budget."
+}
