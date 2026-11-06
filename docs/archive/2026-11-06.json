@@ -1,0 +1,586 @@
+{
+  "generatedAt": "2026-11-06T05:06:11Z",
+  "config": {
+    "sections": {
+      "local": {
+        "min": 1,
+        "max": 3,
+        "sources": [
+          {
+            "name": "La Voz de Galicia",
+            "url": "https://www.lavozdegalicia.es/lugo/"
+          },
+          {
+            "name": "El Correo Gallego",
+            "url": "https://www.elcorreogallego.es"
+          },
+          {
+            "name": "ABC",
+            "url": "https://www.abc.es/espana/galicia/"
+          }
+        ]
+      },
+      "national": {
+        "min": 3,
+        "max": 5,
+        "sources": [
+          {
+            "name": "Europa Press",
+            "url": "https://www.europapress.es"
+          },
+          {
+            "name": "El Mundo",
+            "url": "https://www.elmundo.es"
+          },
+          {
+            "name": "20minutos",
+            "url": "https://www.20minutos.es"
+          },
+          {
+            "name": "elDiario.es",
+            "url": "https://www.eldiario.es"
+          }
+        ]
+      },
+      "northernIreland": {
+        "min": 1,
+        "max": 1,
+        "sources": [
+          {
+            "name": "BBC News NI",
+            "url": "https://www.bbc.co.uk/news/northern_ireland"
+          },
+          {
+            "name": "The Irish News",
+            "url": "https://www.irishnews.com"
+          },
+          {
+            "name": "Belfast Telegraph",
+            "url": "https://www.belfasttelegraph.co.uk/news/northern-ireland/"
+          }
+        ]
+      },
+      "global": {
+        "min": 4,
+        "max": 8,
+        "sources": [
+          {
+            "name": "BBC",
+            "url": "https://www.bbc.co.uk/news/world"
+          },
+          {
+            "name": "The Guardian",
+            "url": "https://www.theguardian.com/world"
+          },
+          {
+            "name": "NPR",
+            "url": "https://www.npr.org"
+          },
+          {
+            "name": "Los Angeles Times",
+            "url": "https://www.latimes.com"
+          },
+          {
+            "name": "DW",
+            "url": "https://www.dw.com"
+          }
+        ]
+      },
+      "tech": {
+        "min": 5,
+        "max": 5,
+        "sources": [
+          {
+            "name": "The Guardian",
+            "url": "https://www.theguardian.com/technology"
+          },
+          {
+            "name": "BBC",
+            "url": "https://www.bbc.co.uk/news/technology"
+          },
+          {
+            "name": "CNBC",
+            "url": "https://www.cnbc.com/technology/"
+          },
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com"
+          },
+          {
+            "name": "The Verge",
+            "url": "https://www.theverge.com"
+          },
+          {
+            "name": "Ars Technica",
+            "url": "https://arstechnica.com"
+          }
+        ]
+      },
+      "ai": {
+        "min": 4,
+        "max": 7,
+        "sources": [
+          {
+            "name": "The Verge",
+            "url": "https://www.theverge.com/ai-artificial-intelligence"
+          },
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/category/artificial-intelligence/"
+          },
+          {
+            "name": "The Register",
+            "url": "https://www.theregister.com/ai-and-ml/"
+          },
+          {
+            "name": "Engadget",
+            "url": "https://www.engadget.com"
+          }
+        ]
+      }
+    }
+  },
+  "articles": [
+    {
+      "id": "2026-11-06-local-001",
+      "category": "local",
+      "headline": "El TSXG confirma los cinco años de cárcel al profesor de música del colegio de Albeiros",
+      "subtitle": "El alto tribunal gallego ratifica íntegramente la sentencia de la Audiencia de Lugo por agredir sexualmente a una alumna de nueve años y mantiene la absolución por otras cuatro menores del centro",
+      "publishedAt": "2026-11-06T05:40:00Z",
+      "body": "El Tribunal Superior de Xustiza de Galicia ha cerrado el caso del profesor de música del CEIP de Albeiros, en Lugo, al confirmar la condena de cinco años de prisión que le impuso la Audiencia Provincial por un delito continuado de agresión sexual a una alumna de nueve años. La Sala de lo Civil y Penal desestima los recursos de las dos partes: ni eleva la pena como pedía una de las familias, ni absuelve al docente como solicitaba su defensa.\n\nEl fallo mantiene intactas las medidas que acompañan a la pena: diez años de inhabilitación para cualquier profesión u oficio que implique contacto con menores, seis años de inhabilitación absoluta como funcionario, la prohibición de acercarse a menos de 500 metros de la víctima o comunicarse con ella durante una década, cinco años de libertad vigilada y una indemnización de 3.000 euros.\n\nEl tribunal confirma también la absolución por los hechos que se atribuían a otras cuatro niñas de dos clases de cuarto de Primaria. La investigación llegó a reunir cinco denuncias de alumnas de entre nueve y diez años, pero la Fiscalía centró su acusación en la única declaración que consideró consistente y detallada. El Ministerio Público pedía cinco años y medio; las acusaciones particulares, seis años por cada menor.\n\nLos hechos probados se remontan al final del curso 2023-2024. El profesor, de 49 años, aprovechó su condición de docente para hacer tocamientos a una alumna a la que daba clase desde infantil, en episodios que ocurrieron durante las sesiones y, según la sentencia, en presencia de otros niños. El más grave se produjo el 22 de mayo de 2024, el último día en que impartió clase en el centro.",
+      "imageURL": "/images/2026-11-06-local-001.jpg",
+      "sources": [
+        {
+          "name": "La Voz de Galicia",
+          "url": "https://www.lavozdegalicia.es/noticia/lugo/2026/11/05/tsxg-confirma-condena-cinco-anos-carcel-profesor-musica-ceip-albeiros-abusar-alumna/00031793889507243468633.htm"
+        },
+        {
+          "name": "El Correo Gallego",
+          "url": "https://www.elcorreogallego.es/galicia/2026/11/05/tsxg-confirma-cinco-anos-carcel-136127894.html"
+        },
+        {
+          "name": "ABC",
+          "url": "https://www.abc.es/espana/galicia/confirmada-condena-cinco-anos-carcel-profesor-lugo-20261105171052-nt.html"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-06-national-001",
+      "category": "national",
+      "headline": "La UCO registra la casa de Ábalos y detiene a seis personas en una nueva pieza del caso Koldo",
+      "subtitle": "El juez Ismael Moreno abre una investigación secreta sobre presuntas mordidas en obra pública. Entre los arrestados, ya en libertad, están la pareja del exministro y un empresario al que Moncloa niega haber tenido como chófer",
+      "publishedAt": "2026-11-06T05:40:00Z",
+      "body": "La Unidad Central Operativa de la Guardia Civil entró este jueves en la vivienda de José Luis Ábalos en Valencia y practicó seis detenciones por orden del juez de la Audiencia Nacional Ismael Moreno. Es una pieza separada nueva y declarada secreta del caso Koldo, centrada en presuntas mordidas en contratos de obra pública. El instructor también ha reclamado documentación a Adif y a la empresa Azvi.\n\nLos seis arrestados —en Madrid, Córdoba, Valencia y Sevilla— quedaron en libertad a la espera de ser citados por el juez. Entre ellos están Andrea de la Torre, pareja del exministro, y el empresario cordobés Cristian Corvillo, militante socialista al que la oposición sitúa como antiguo chófer de Pedro Sánchez. Moncloa lo desmiente con rotundidad: sostiene que Corvillo no condujo al presidente ni en la campaña de las primarias de 2017 ni después, y que no tiene relación con él.\n\nEl presidente del Gobierno restó peso político al operativo desde la Cumbre Iberoamericana. «Ninguna de esas personas tiene que ver conmigo», dijo, antes de recordar que la causa lleva años abierta y de prometer «total colaboración con la Justicia». El PSOE estudia querellarse contra quienes, a su juicio, intentan influir en la declaración de Koldo García, que desde prisión insiste en que el PP le ofreció dinero.\n\nSegún El Mundo, la pieza examina once adjudicaciones de obra valoradas en unos 900 millones de euros, un salto de escala respecto al pelotazo de las mascarillas que abrió el caso.",
+      "imageURL": "/images/2026-11-06-national-001.jpg",
+      "sources": [
+        {
+          "name": "Europa Press",
+          "url": "https://www.europapress.es/nacional/noticia-uco-lanza-operacion-nueva-pieza-secreta-caso-koldo-audiencia-nacional-20261105095740.html"
+        },
+        {
+          "name": "20minutos",
+          "url": "https://www.20minutos.es/nacional/sanchez-niega-cualquier-vinculo-con-los-detenidos-por-uco-caso-koldo-esas-personas-no-tienen-que-ver-conmigo_7057891_0.html"
+        },
+        {
+          "name": "El Mundo",
+          "url": "https://www.elmundo.es/espana/2026/11/06/6aecd9d1fc6c8362578b4572.html"
+        },
+        {
+          "name": "elDiario.es",
+          "url": "https://www.eldiario.es/politica/uco-despliega-operacion-secreto-caso-koldo-investiga-audiencia-nacional_1_13639620.html"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-06-national-002",
+      "category": "national",
+      "headline": "Trabajo propone subir el SMI un 5,3% en 2027, hasta los 1.286 euros al mes",
+      "subtitle": "El borrador del real decreto supera la recomendación de los expertos y queda lejos del 7% que piden CCOO y UGT, que por primera vez en siete años no firman el acuerdo y estudian plantar a Díaz",
+      "publishedAt": "2026-11-06T05:40:00Z",
+      "body": "El Ministerio de Trabajo ha puesto en audiencia pública el borrador del real decreto que fija el salario mínimo interprofesional de 2027 en 1.286 euros brutos al mes en catorce pagas. Son 65 euros más que los 1.221 actuales: 42,87 euros al día y 18.004 euros al año. El departamento de Yolanda Díaz quiere aprobarlo antes de las elecciones del 29 de noviembre.\n\nLa cifra elegida está por encima del 4,9% que recomendó la comisión de expertos —alineado con el IPC de octubre— y bastante por debajo del 7% que reclamaban los sindicatos. Trabajo defiende que el alza protege el poder adquisitivo y compensa la pérdida del SMI este año, cuando subió un 3,1% con una inflación media del 3,5%. El Gobierno mantiene además el compromiso de que el salario mínimo siga sin tributar IRPF.\n\nEl problema es político. CCOO y UGT han rechazado firmar la subida en plena campaña electoral. Desde que Díaz llegó al Gobierno en enero de 2020 han respaldado todas las revisiones del SMI; esta vez valoran no hacerlo, lo que rompería siete años de acuerdo. La patronal, por su parte, pide congelar la subida y que sea el próximo Gobierno quien negocie.\n\nEl borrador también actualiza las cuantías ligadas al mínimo: 60,88 euros brutos por jornada para los contratos de duración determinada y 10,06 euros por hora para las empleadas de hogar.",
+      "imageURL": "/images/2026-11-06-national-002.jpg",
+      "sources": [
+        {
+          "name": "Europa Press",
+          "url": "https://www.europapress.es/economia/laboral-00346/noticia-trabajo-mejora-propuesta-expertos-plantea-subir-smi-53-2027-1286-euros-20261105084223.html"
+        },
+        {
+          "name": "elDiario.es",
+          "url": "https://www.eldiario.es/economia/salario-minimo-subira-5-3-1-286-euros-mes_1_13639220.html"
+        },
+        {
+          "name": "El Mundo",
+          "url": "https://www.elmundo.es/economia/2026/11/05/6aec5d4ce4d4d8e1138b458e.html"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-06-national-003",
+      "category": "national",
+      "headline": "La AITAT calcula que 47 trenes pasaron por el carril roto de Adamuz antes del descarrilamiento",
+      "subtitle": "El informe concluye que la fractura estuvo unas 22 horas sin detectarse y exige a Adif un sistema capaz de detectarla antes de que pase el siguiente tren. La causa de la rotura sigue sin determinar",
+      "publishedAt": "2026-11-06T05:40:00Z",
+      "body": "El informe de la Autoridad Independiente para la Investigación Técnica de Accidentes e Incidentes Ferroviarios concluye que la fractura del carril de Adamuz permaneció sin detectar durante unas 22 horas antes del descarrilamiento. En ese intervalo pasaron por el punto afectado hasta 47 circulaciones. Las marcas en las bandas de rodadura y la caída de tensión limitada al circuito de vía del tramo son compatibles, según el organismo, con una rotura franca.\n\nLa AITAT constata que los circuitos de vía y las tareas de inspección resultaron insuficientes para detectar a tiempo un riesgo que Adif clasifica internamente como «catastrófico» e «intolerable». Esos sistemas están diseñados para localizar trenes, no fracturas de carril, así que no garantizan el aviso. El organismo exige a la empresa pública que evalúe e implante soluciones eficaces antes del paso de la siguiente circulación.\n\nEl origen del daño no está determinado: las muestras de carril siguen en laboratorios especializados. El Mundo añade otro dato sobre la capacidad de vigilancia: la AITAT cuenta con tres investigadores para los 115 muertos de dos tragedias, el descarrilamiento de Adamuz y la colisión de Urda.\n\nEn Urda, el tren de Iryo arrollado por el AVE había pasado una revisión integral dos días antes, el 26 de octubre, con comprobación del sistema de señalización. La operadora sostiene que la caída del LZB se produjo en un tramo de 63 kilómetros, lo que pudo dificultar su reactivación. El siniestro dejó 69 muertos y cerca de 200 heridos.",
+      "imageURL": "/images/2026-11-06-national-003.jpg",
+      "sources": [
+        {
+          "name": "20minutos",
+          "url": "https://www.20minutos.es/nacional/los-investigadores-adamuz-ven-indicios-que-47-trenes-circularon-por-carril-roto-las-22-horas-previas-accidente_7057938_0.html"
+        },
+        {
+          "name": "20minutos",
+          "url": "https://www.20minutos.es/nacional/iryo-contra-que-colisiono-ave-urda-habia-pasado-una-revision-integral-dos-dias-antes-que-incluyo-sistema-senalizacion_7057852_0.html"
+        },
+        {
+          "name": "El Mundo",
+          "url": "https://www.elmundo.es/economia/2026/11/05/6aecf99ae4d4d854408b458b.html"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-06-northernIreland-001",
+      "category": "northernIreland",
+      "headline": "Stormont budget talks end without a deal as Bryant insists setting one is not his job",
+      "subtitle": "The secretary of state offered more than £1.5bn over three years but attached conditions including £200m a year of revenue raising. Sinn Féin says he is not amenable to reality; the DUP says he must accept the gap",
+      "publishedAt": "2026-11-06T05:40:00Z",
+      "body": "A fresh round of talks at Hillsborough Castle ended on Thursday without agreement on a Stormont budget, leaving the executive without one well into the financial year. Sir Chris Bryant, who held one-to-one meetings with the four executive parties, said it is the executive's \"legal responsibility and duty\" to set a budget and not his own job. \"They really have to take me seriously when I say there is no more money,\" he said.\n\nThe package on the table is worth more than £1.5 billion over three years, with a further £270 million in Barnett consequentials from the autumn Budget. The strings attached include a commitment to raise £200 million of revenue a year, understood to cover 2027/28 and 2028/29. Bryant said he would only set a budget himself if the parties asked him to.\n\nSinn Féin president Mary Lou McDonald said the government was \"not amenable to rationality or reality\". First minister Michelle O'Neill reported \"no white smoke\" but said her party would keep pushing for a deal that allows this year's public sector pay awards to be made. DUP leader Gavin Robinson said the optimism in the room was not matched by the reality of the funding gap.\n\nUlster Unionist health minister Robbie Butler said the condition that departments cannot overspend this year \"can't be fulfilled\". Departments are running on contingency budgets of 95% of last year's spending, and the Royal College of Nursing is balloting for strike action over the delayed 2026/27 pay uplift.",
+      "imageURL": "/images/2026-11-06-northernIreland-001.jpg",
+      "sources": [
+        {
+          "name": "BBC News NI",
+          "url": "https://www.bbc.co.uk/news/articles/cmwy9zp3e44po"
+        },
+        {
+          "name": "The Irish News",
+          "url": "https://www.irishnews.com/news/northern-ireland/bryant-not-amenable-to-reality-says-mcdonald-as-budget-deadlock-drags-on-UAFGMFPCTNCC3M2JYO5RBRA66A"
+        },
+        {
+          "name": "Belfast Telegraph",
+          "url": "https://www.belfasttelegraph.co.uk/news/northern-ireland/bryant-not-amenable-to-reality-says-mcdonald-as-budget-deadlock-drags-on/a/164161910.html"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-06-global-001",
+      "category": "global",
+      "headline": "Paraguay's president resigns and is impeached within minutes as a bank collapse freezes savings",
+      "subtitle": "Santiago Peña quit after Ueno Bank, which counted 60% of Paraguay's adults as customers, was put into resolution. The lower house then voted 78-0 to impeach him and send the charges to the Senate",
+      "publishedAt": "2026-11-06T05:40:00Z",
+      "body": "Santiago Peña resigned as Paraguay's president on Thursday, minutes before the lower house of congress voted 78-0 to impeach him and send the charges to the Senate. The crisis had been building since Monday, when the central bank ordered Ueno Bank into resolution over insolvency, freezing the deposits of about three million customers — roughly 60% of the country's adult population.\n\nThe bank had grown in a few years from an obscure digital lender into one of Paraguay's largest, and Peña was a shareholder until last year in the company that owned it. Lawmakers accused him of conflicts of interest and misconduct. Bank executives were arrested, and thousands of people took to the streets of Asunción, where police clashed with protesters demanding his removal.\n\n\"I want to apologise to the people if at any point I failed,\" Peña said in a video message. \"It was never my intention to betray the trust you placed in me.\" He denies wrongdoing and says he will appear before the Senate to exercise his right to a defence.\n\nCongress had to approve the resignation, but the special session called for that purpose was adjourned in favour of pressing on with the impeachment. Vice-president Pedro Alliana is expected to be sworn in. For a 47-year-old IMF-trained economist once courted in Washington as a reliable ally, the collapse of his own party's support has been swift.",
+      "imageURL": "/images/2026-11-06-global-001.jpg",
+      "sources": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c6p9g39vln3yo"
+        },
+        {
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/nov/05/paraguay-president-santiago-pena-resigns"
+        },
+        {
+          "name": "NPR",
+          "url": "https://www.npr.org/2026/11/05/nx-s1-6030842/paraguay-president-impeached-bank-collapse"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-06-global-002",
+      "category": "global",
+      "headline": "Newsom commutes all 548 death sentences in California in the largest such act in modern US history",
+      "subtitle": "Every prisoner on the state's death row moves to life without parole. The governor, who leaves office in January, called capital punishment morally objectionable but did not repeal the death penalty itself",
+      "publishedAt": "2026-11-06T05:40:00Z",
+      "body": "Governor Gavin Newsom has commuted the death sentences of all 548 people on California's death row, reducing each to life in prison without the possibility of parole. It is the largest mass commutation of death sentences in modern American history and cancels roughly a quarter of all death sentences in the United States.\n\nThe practical effect in a state that has not executed anyone since 2006 is limited, though supporters argue it will save millions in legal costs. California has the country's largest death row and has carried out 13 executions since voters reinstated capital punishment in 1978. Some of the commutations still require review by the state Supreme Court under the California constitution.\n\nIn an open letter, Newsom said the decision was among the most difficult of his career, \"not because I doubt its necessity for our state but because I know its announcement may surface excruciating memories for victims' families\". He wrote that state-sanctioned killing is incompatible with California's values and undermines the legal system. The action does not repeal the death penalty or apply to future sentences.\n\nNewsom, who imposed a moratorium on executions in 2019, is term-limited and leaves office in January, with the Democrat Xavier Becerra projected to succeed him. He is widely discussed as a possible presidential candidate in 2028.",
+      "imageURL": "/images/2026-11-06-global-002.jpg",
+      "sources": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cqrkyyd2j8mvo"
+        },
+        {
+          "name": "USA Today",
+          "url": "https://www.usatoday.com/story/news/state/california/2026/11/05/newsom-commutes-548-california-death-sentences/92629187007"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/6/california-governor-commutes-sentences-of-more-than-500-people-on-death-row"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-06-global-003",
+      "category": "global",
+      "headline": "Democratic socialist Nithya Raman unseats Karen Bass as mayor of Los Angeles",
+      "subtitle": "Raman took 52% to Bass's 48% and becomes the city's first South Asian mayor. With Zohran Mamdani in New York, America's two largest cities will both be led by democratic socialists",
+      "publishedAt": "2026-11-06T05:40:00Z",
+      "body": "Nithya Raman has defeated the incumbent Karen Bass in the Los Angeles mayor's race, a result that makes her the first challenger to beat a sitting LA mayor in more than two decades. Bass conceded by telephone on Thursday after the count showed Raman ahead 52% to 48% with about three-quarters of expected votes counted.\n\nRaman, 45, is a city council member who was born in India, immigrated as a child and worked as an urban planner before entering politics. She ran against what she called a \"broken status quo\", promising to cut homelessness, build affordable housing, protect Hollywood jobs and shield residents from immigration enforcement. Her campaign was backed by the Democratic Socialists of America.\n\nBass, 73, had the endorsements of Governor Gavin Newsom, former vice-president Kamala Harris and former House speaker Nancy Pelosi. The 2025 fires that razed neighbourhoods across the city hung over her re-election, and she faced sustained criticism over her absence during the emergency.\n\nRaman takes office on 14 December with the Super Bowl in 2027 and the 2028 Olympics ahead. Her win follows Zohran Mamdani's in New York, meaning the two most populous US cities will be run by democratic socialists, and it comes as DSA-aligned candidates recorded wins across Tuesday's midterms.",
+      "imageURL": "/images/2026-11-06-global-003.jpg",
+      "sources": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c6e3xxwk3k11o"
+        },
+        {
+          "name": "Los Angeles Times",
+          "url": "https://www.latimes.com/california/story/2026-11-05/nithya-raman-defeats-bass-to-become-next-la-mayor"
+        },
+        {
+          "name": "Axios",
+          "url": "https://www.axios.com/2026/11/05/nithya-raman-la-mayor-upset-democratic-socialist"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-06-global-004",
+      "category": "global",
+      "headline": "French unions draw 600,000 onto the streets and force Lecornu to call talks",
+      "subtitle": "Five unions joined teachers, hospital staff and rail workers for a day of action over pay and public services. The interior ministry counted 600,000; the CGT claimed 1.57 million",
+      "publishedAt": "2026-11-06T05:40:00Z",
+      "body": "More than 600,000 people joined marches and rallies across France on Thursday, according to the interior ministry, in a day of action called by five unions over pay, the cost of living and cuts to public services. The left-wing CGT put the turnout at 1.57 million and called it a level unmatched since 2023.\n\nStriking teachers, hospital staff and rail workers were joined by high-school and university students in largely peaceful demonstrations in Paris, Marseille, Bordeaux and Lille. Interior minister Laurent Nuñez had deployed 70,000 police. Riot officers fired tear gas at the end of marches in Bordeaux and Lyon, a car was set alight in Lyon, and there were clashes in Rennes. Police in Paris stopped pupils barricading school gates with wheelie bins.\n\nBy evening, prime minister Sébastien Lecornu said he would convene a \"social conference\" with unions and employers on Monday. The movement began in September over conditions in lycées, spread to universities and public services, and has revived a yellow-vest current against high prices. CGT leader Sophie Binet said only answering the unions' demands would end it.\n\nThe disruption was lighter than on 17 October, when more than 2,000 shops were looted and historic buildings were set on fire.",
+      "imageURL": "/images/2026-11-06-global-004.jpg",
+      "sources": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/ckx2qzv835pgo"
+        },
+        {
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/nov/05/protesters-france-march-strikes-education-cost-of-living"
+        },
+        {
+          "name": "France 24",
+          "url": "https://www.france24.com/en/france/20261105-live-france-nationwide-strikes-living-costs"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-06-global-005",
+      "category": "global",
+      "headline": "A second wave of hoax bomb threats disrupts dozens of European flights",
+      "subtitle": "An Aer Lingus jet bound for Rome was diverted to a French military base and Italian fighters escorted a Finnair flight. Nothing has been found, and no one has said who is sending the emails",
+      "publishedAt": "2026-11-06T05:40:00Z",
+      "body": "Hoax bomb threats hit European air travel for the second time in a week on Thursday, forcing emergency landings and diversions across at least a dozen countries. An Aer Lingus flight from Dublin to Rome was diverted to the Evreux air base west of Paris, and Italian fighter jets escorted a Finnair flight from Helsinki into Rome. EasyJet flights from Newcastle and Glasgow were met by police in Prague, and Heathrow and Birmingham received threats assessed as not credible.\n\nThe counts vary. The Guardian tallied at least 25 threats against flights on Thursday and 34 disrupted this week; the BBC put Thursday's figure at 21 aircraft. Nothing suspicious was found in any search. EU transport commissioner Apostolos Tzitzikostas said it was too early to say whether the incidents were linked, and that national investigations were continuing.\n\nThe threats emailed to Rome's airport authority were signed on behalf of a group calling itself \"Fighters of the Male State\", which claimed to be targeting a \"feminist regime\" and threatened to \"turn the skies red\". The name appears to refer to Muzhskoi Legion, an ultra-right Russian group banned by a Moscow court in 2021, but investigators have not established that the sender is genuine.\n\nThe first wave, on Tuesday, also turned out to be hoaxes.",
+      "imageURL": "/images/2026-11-06-global-005.jpg",
+      "sources": [
+        {
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/nov/05/bomb-threats-disrupt-flights-across-europe-and-renew-hybrid-warfare-fears"
+        },
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cmpqg08nz3pqo"
+        },
+        {
+          "name": "DW",
+          "url": "https://www.dw.com/en/bomb-threats-disrupt-several-flights-across-europe/a-79861216"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-06-tech-001",
+      "category": "tech",
+      "headline": "Nasdaq loses 5.5% in its worst day in 18 months as the AI trade unwinds after the midterms",
+      "subtitle": "Roughly $2.5tn of value went in a session that pushed the index into correction. Chipmakers led the fall, and Seoul's exchange had to halt trading as Asian tech opened sharply lower",
+      "publishedAt": "2026-11-06T05:40:00Z",
+      "body": "Wall Street's bet on artificial intelligence cracked on Thursday. The Nasdaq composite fell 5.52% to 24,315, its worst session since April 2025 and enough to push the index into correction — more than 10% below the record it set last month. The S&P 500 lost 4.36% and the Dow 1,833 points, or 3.44%. By Dow Jones data the Nasdaq shed about $2.5tn in market value, a single-day record; the Guardian put the figure at more than $2tn.\n\nThe trigger was political as much as financial. Democrats won both chambers after campaigns that promised to slow data-centre construction, and dozens of local ballots asked voters to restrict the hubs. Investors read that as a slower build-out, and sold the companies most exposed to it. The iShares Semiconductor ETF fell about 12%, its worst day since March 2020: Nvidia dropped 9%, Broadcom 10%, Qualcomm 9% and Oracle 7%. Neoclouds fell harder, with Nebius down about 15%.\n\nThe selling continued into Asia on Friday. Japan's Nikkei fell 6% in early trading, South Korea's Kospi dropped 8.5% and tripped a circuit breaker, and Taiwan's Taiex lost 8.3%. SK Hynix fell 11.5% and TSMC 8.5%.\n\nBernie Sanders, who caucuses with the Democrats, has called for a national moratorium on data centres, writing that Americans do not want \"Big Tech oligarchs wrecking the environment\".",
+      "imageURL": "/images/2026-11-06-tech-001.jpg",
+      "sources": [
+        {
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/business/2026/nov/05/nasdaq-heading-for-worst-day-in-18-months-as-wall-street-sustains-widespread-losses"
+        },
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cmn04705rd8jo"
+        },
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/04/stock-market-today-live-updates.html"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-06-tech-002",
+      "category": "tech",
+      "headline": "The New York Times is in exclusive talks to buy Letterboxd for about $330m",
+      "subtitle": "The film-logging network has roughly 30 million users, more than half under 35, and projected earnings of about $15m this year — a price of more than 20 times that",
+      "publishedAt": "2026-11-06T05:40:00Z",
+      "body": "The New York Times Company has entered exclusive negotiations to acquire Letterboxd, the film-logging and review network, for around $330 million, according to a report in the Times itself. A24, which had promised to keep the site independent, dropped out when the price rose. Sony Pictures, Netflix and Skydance had also been reported as interested.\n\nLetterboxd was founded in New Zealand in 2011 and grew from 3 million users in January 2021 to about 28 million by April this year; more than half of them are under 35. Its founders, Matthew Buchanan and Karl von Randow, sold a 60% stake to the Canadian holding company Tiny in 2023 at a valuation of $50m–$60m and still own the rest. Under the reported deal they would stay in charge but report to a Times executive, and the site would remain standalone for the \"foreseeable future\" while taking on the Times's advertising technology.\n\nThe multiple is steep. Letterboxd's projected earnings for 2026 are about $15 million, so $330 million works out at more than 20 times that. The core service is free, with a $19-a-year Pro tier and a $49 Patron tier.\n\nIt fits a pattern at the Times, which has bought The Athletic, Wirecutter and Wordle to deepen engagement beyond news. Neither the Times nor Letterboxd would comment.",
+      "imageURL": "/images/2026-11-06-tech-002.jpg",
+      "sources": [
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/news/1028375/the-new-york-times-letterboxd-acquisition-report"
+        },
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/05/the-new-york-times-reportedly-in-talks-to-buy-letterboxd-for-330-million/"
+        },
+        {
+          "name": "Variety",
+          "url": "https://variety.com/2026/digital/news/letterboxd-negotiations-new-york-times-1236940881"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-06-tech-003",
+      "category": "tech",
+      "headline": "Meta, Google and TikTok sue California over the teen social media law taking effect in January",
+      "subtitle": "The three filed separately against attorney general Rob Bonta, arguing AB 1709 overrides parents and breaches the First Amendment. Non-compliance carries fines of up to $50,000 per child",
+      "publishedAt": "2026-11-06T05:40:00Z",
+      "body": "Meta, Google and TikTok have each sued California's attorney general, Rob Bonta, to block a law that bans what it calls psychologically exploitative features for under-16s. Assembly Bill 1709, signed by governor Gavin Newsom in September, takes effect on 1 January. It bars platforms from offering autoplay video and personalised feeds to children under 16, and requires them to delete those accounts if they do not switch the features off. Fines run to $50,000 per affected user.\n\nThe companies filed separately in courts across the state on Wednesday. Meta argues the law would make it unlawful to distribute speech to minors at all and forces it to delete their accounts unless it changes how its feeds work; Google and TikTok filed similar complaints. All three invoke the First Amendment and Section 230 of the Communications Decency Act, which shields platforms from liability for user content. Bonta's office said it was reviewing the suits and would defend the law.\n\nThe Electronic Frontier Foundation, which urged Newsom to veto the bill, called it \"a massive privacy and free speech nightmare\" — arguing that mandating age verification collects more data on everyone, adults included. Many digital safety researchers make the same point.\n\nThe backdrop is a legal onslaught in the other direction: the platforms face thousands of suits from families, school districts and states over addicting children. Meta agreed in August to pay up to $17.1 billion to settle claims from 51 state attorneys general.",
+      "imageURL": "/images/2026-11-06-tech-003.jpg",
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/05/meta-google-and-tiktok-sue-california-ag-over-teen-social-media-law/"
+        },
+        {
+          "name": "Engadget",
+          "url": "https://www.engadget.com/2308280/google-meta-and-tiktok-are-all-suing-california-to-block-social-media-law-intended-to-help-kids/"
+        },
+        {
+          "name": "Politico",
+          "url": "https://www.politico.com/news/2026/11/05/meta-tiktok-google-sue-to-block-california-teen-social-media-law-championed-by-newsom-01151171"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-06-tech-004",
+      "category": "tech",
+      "headline": "Salon stops publishing after 31 years, calling its model no longer sustainable",
+      "subtitle": "The site launched in November 1995 as one of the first online-only magazines and made the reputations of a generation of critics. Its archive is still live, for now",
+      "publishedAt": "2026-11-06T05:40:00Z",
+      "body": "Salon has ceased publication after 31 years. The announcement came in an unsigned post on the site on Thursday, which said the \"business realities of independent digital journalism have changed profoundly over the years\" and that after careful consideration the team had concluded its publishing model was \"no longer sustainable\".\n\nFounded in November 1995 and based in San Francisco, Salon was among the first online-only news magazines, and it built a reputation on long-form political analysis, cultural criticism and personal essays. It launched the careers of writers and critics including Heather Havrilesky, Stephanie Zacharek, Andrew O'Hehir and Melanie McFarland. Its archive was still accessible on Thursday.\n\nThe shutdown puts Salon alongside BuzzFeed and Gawker as general-interest digital publishers that struggled to turn cultural and topical journalism into enough revenue. Its editors wrote that 31 years was \"a remarkable run, but what matters most is what happened during those years\" — the journalism, the arguments and the community that formed around them.\n\nStaff did not say what happens next to the archive.",
+      "imageURL": "/images/2026-11-06-tech-004.jpg",
+      "sources": [
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/news/1028281/salon-dot-com-shuts-down"
+        },
+        {
+          "name": "Variety",
+          "url": "https://variety.com/2026/digital/news/salon-com-shuts-down-site-31-years-1236940936/"
+        },
+        {
+          "name": "Salon",
+          "url": "https://www.salon.com/2026/11/05/goodbye-from-salon/"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-06-tech-005",
+      "category": "tech",
+      "headline": "A decade-old OpenSSH bug lets anyone log into some Alpine Linux servers with a very long password",
+      "subtitle": "The flaw, nicknamed *sshole, needs a musl-based system with password auth and an account whose password field is an asterisk. Sending 257 characters or more gets in",
+      "publishedAt": "2026-11-06T05:40:00Z",
+      "body": "A vulnerability in the way OpenSSH works with the musl C library lets attackers log into certain Linux accounts that are supposed to refuse password logins. The researcher Özgün Kültekin, who published details on Thursday, named it *sshole. Alpine Linux, OpenWrt, Buildroot and Yocto are among the systems that may be affected, depending on configuration.\n\nThe mechanism is a collision of two sensible decisions. Accounts that must not accept passwords carry an asterisk in the password field of /etc/shadow. In 2016, OpenSSH was changed to keep hashing passwords for such accounts, so attackers could not work out valid usernames from response times. But musl's crypt() function also returns an asterisk when hashing fails — including when a submitted password is longer than the 256-byte limit. Send 257 characters or more and OpenSSH compares the asterisk it got back with the asterisk it stored, and the login succeeds.\n\nAlpine's maintainers said one connection is enough and it \"works every time\". The flaw does not help against accounts with real password hashes, and direct root login still depends on configuration.\n\nThe bug has been fixed upstream. Anyone running musl-based systems with OpenSSH, password authentication on and no PAM should patch now.",
+      "imageURL": "/images/2026-11-06-tech-005.jpg",
+      "sources": [
+        {
+          "name": "Ars Technica",
+          "url": "https://arstechnica.com/security/2026/11/vulnerability-allows-attackers-to-log-into-some-linux-devices-sans-password/"
+        },
+        {
+          "name": "The Register",
+          "url": "https://www.theregister.com/security/2026/11/05/get-root-on-a-musl-linux-system-by-slamming-it-with-an-overly-long-password/5307910"
+        },
+        {
+          "name": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/openssh-flaw-lets-attackers-log-into-password-disabled-linux-accounts/"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-06-ai-001",
+      "category": "ai",
+      "headline": "Claude can now read your bank statements through Plaid, and Anthropic insists it cannot touch the money",
+      "subtitle": "Personal Finance connects bank and card accounts for Pro, Max and Ultra subscribers in the US, with read-only access to two years of transactions and, Anthropic says, no ads and no model training",
+      "publishedAt": "2026-11-06T05:40:00Z",
+      "body": "Anthropic has given Claude a personal finance mode. Subscribers on the Pro, Max and Ultra plans in the US can connect bank and credit-card accounts through Plaid, the account-linking service with connections to more than 12,000 institutions, and then ask the chatbot where their money went.\n\nThe access is read-only. Anthropic says Personal Finance cannot move, manage or invest money, that it looks at up to two years of transactions, and that it is not intended to give investment advice. Ask it to break down a month and it will total spending by category, then answer follow-ups such as whether that is more than usual. It also flags duplicate charges, unexpected fees and bills that have crept up, and will explain terms like APR.\n\nAnthropic is leaning on the contrast with OpenAI's equivalent, launched in May. It points out that Personal Finance carries no ads or sponsored recommendations, sells no financial products of its own, and that conversations inside the hub are not used for model training — unlike ChatGPT, where existing data settings apply by default. The feature set is otherwise much the same, so the pitch is trust rather than capability.\n\nThe launch comes as Anthropic prepares to list. Engadget reports the company is expected to complete an IPO within weeks, which puts a consumer-facing privacy guarantee in front of investors at a convenient moment.",
+      "imageURL": "/images/2026-11-06-ai-001.jpg",
+      "sources": [
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1027652/anthropic-claude-plaid-personal-finance"
+        },
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/05/claude-can-now-analyze-your-spending-with-its-new-personal-finance-tool/"
+        },
+        {
+          "name": "Engadget",
+          "url": "https://www.engadget.com/2307936/now-claude-can-help-with-your-finances-too/"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-06-ai-002",
+      "category": "ai",
+      "headline": "OpenAI's GPT-6 Cyber is rated its most dangerous model yet, and kept behind an approved-customer list",
+      "subtitle": "The bug-hunting model found 81 unknown Firefox vulnerabilities and exploits for 948 Linux kernel flaws, and stayed in scope 99.9% of the time. OpenAI classed it Critical under its own safety framework",
+      "publishedAt": "2026-11-06T05:40:00Z",
+      "body": "OpenAI released GPT-6 Cyber on Thursday, a model tuned for finding and exploiting security flaws. It scores 48.5% on OpenAI's ExploitGym evaluation, against 32.1% for GPT-5.6 Cyber, and in testing it avoided exploiting out-of-scope services more than 99% of the time. OpenAI declined to say what happened in the 0.07% of cases that strayed beyond their brief.\n\nThat combination — sharper attacks, better manners — is the whole pitch. OpenAI cancelled the planned GPT-6.1 Astra release in September after the model got better at pursuing tasks and worse at respecting what it had been authorised to do. GPT-6 Cyber was trained, the company says, to stay within scope, respect restrictions and report results accurately.\n\nThe capability is real. Researchers used it to find 81 previously unknown high-severity vulnerabilities in Firefox, which Mozilla has begun fixing, and to develop working exploits for 948 Linux kernel vulnerabilities, 588 of them previously unknown. OpenAI has classified the model as \"Critical\" under its Preparedness Framework — the tier that means a model can identify and weaponise zero-days in real systems and run an attack end to end. It is available only through the API and Codex to approved Daybreak Red customers.\n\nOpenAI has also started cutting internet access for the frontier models it trains, to stop them wandering.",
+      "imageURL": "/images/2026-11-06-ai-002.jpg",
+      "sources": [
+        {
+          "name": "The Register",
+          "url": "https://www.theregister.com/security/2026/11/05/openai-releases-gpt-6-cyber-and-promises-this-one-stays-within-rules-of-engagement/5307855"
+        },
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1027599/openai-gpt-6-cyber-launch"
+        },
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough/"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-06-ai-003",
+      "category": "ai",
+      "headline": "Perplexity launches always-on \"Teammates\" and charges $200 a month to use them",
+      "subtitle": "The agents take separate roles in a workspace, run in their own desktops and message colleagues in Slack. It is a direct answer to OpenAI's Dots and Anthropic's Claude Duet",
+      "publishedAt": "2026-11-06T05:40:00Z",
+      "body": "Perplexity has launched Teammates, a set of always-on agents meant to hold down jobs inside a workspace rather than finish single tasks. Each one takes a role, runs in an isolated environment with its own desktop and browser, and can coordinate with the others; you can watch its work, redirect it or take over the machine.\n\nThe agents draw on the projects, skills and memory already stored in the user's Perplexity account and build on Perplexity Computer, the system that lets agents operate on a user's device. They remember feedback and apply it to later work, and they can message actual colleagues through Slack — which is where most of the value and most of the risk sits. Perplexity founder Aravind Srinivas lists bug triage, QA loops, security monitoring, data analysis and running ad campaigns among the jobs they do internally.\n\nThe pricing is the striking part. Teammates require a subscription to Perplexity's Max plan at $200 a month, making it one of the more expensive agent products on the market at launch. It is available on the web first, with mobile and desktop apps promised later.\n\nWith OpenAI's Dots and Anthropic's Claude Duet already shipping, the three labs now agree on the product shape: a persistent coworker rather than a prompt box.",
+      "imageURL": "/images/2026-11-06-ai-003.jpg",
+      "sources": [
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1028302/perplexity-teammates-ai-agents-work"
+        },
+        {
+          "name": "The Tech Buzz",
+          "url": "https://www.techbuzz.ai/articles/perplexity-launches-teammates-ai-agents-to-battle-openai"
+        },
+        {
+          "name": "Emergent",
+          "url": "https://emergent.sh/news/perplexity-launches-teammates-ai-agents-work"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-06-ai-004",
+      "category": "ai",
+      "headline": "Brockman says OpenAI will be ready to go public in 2027 as enterprise sales take over",
+      "subtitle": "OpenAI's president told a Wall Street Journal conference that business customers now provide most of its revenue, up from about 30%, after 70% quarterly growth in annualised sales",
+      "publishedAt": "2026-11-06T05:40:00Z",
+      "body": "OpenAI will be ready for an initial public offering in 2027, its president Greg Brockman said at a Wall Street Journal tech conference in Napa, California. Asked directly whether the company would be ready to list next year, he replied: \"I think so. Yes.\"\n\nThe claim rests on a change in where the money comes from. Brockman said enterprise customers now generate the majority of OpenAI's revenue, against roughly 30% previously, after annualised revenue grew 70% in the third quarter as the business side doubled. He attributed that to investment made over the year rather than a single quarter's push, and pointed to a JPMorgan Chase partnership as the kind of client OpenAI is now winning. Consumer revenue has kept growing too, he said.\n\nHe was also candid about the first half. Brockman called the first and second quarters \"pretty rough\" and admitted OpenAI \"wasn't even in the conversation\" on agentic coding, where Anthropic's Claude Code had taken share: \"We had Codex, but no one was talking about it.\"\n\nOpenAI confidentially filed a draft prospectus in June, and Bloomberg has reported it is weighing a 2027 debut, with Sam Altman holding out for a $1tn valuation. Rival Anthropic is expected to list before the end of this year.",
+      "imageURL": "/images/2026-11-06-ai-004.jpg",
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/05/openai-president-greg-brockman-says-company-could-be-ipo-ready-in-2027/"
+        },
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/legal/transactional/openai-ready-ipo-2027-now-counts-majority-sales-enterprises-brockman-says-2026-11-05"
+        },
+        {
+          "name": "CNA",
+          "url": "https://www.channelnewsasia.com/business/openai-ready-ipo-in-2027-now-counts-majority-sales-enterprises-brockman-says-6526081"
+        }
+      ]
+    }
+  ]
+}
