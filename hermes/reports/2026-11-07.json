@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-07",
+  "published": true,
+  "publishedAt": "2026-11-07T07:03:36Z",
+  "sections": {
+    "present": ["local", "national", "northernIreland", "global", "tech", "ai"],
+    "missing": []
+  },
+  "storiesWithoutPhoto": [],
+  "validatorWarnings": [],
+  "validatorErrors": [],
+  "workarounds": [
+    "The 06:00 scheduled run died on a provider stream stall before writing any section; this catch-up run re-used the RSS files it had already fetched in drafts/2026-11-07/_feeds/ and researched from scratch.",
+    "El País, Cadena SER, elEconomista, Belfast Telegraph and AP all returned 403 to the fetcher (bot-block, inconclusive). Those URLs were verified via search results and cited without full-page extraction; the Belfast Telegraph poll figures are therefore reported as that paper's characterisation rather than quoted.",
+    "Belfast Telegraph and The Irish News both refuse their resizer/og image to the photo fetcher (HTTP 400), so northernIreland-001 would have shipped as a plain gradient card. Replaced it manually with RTÉ's own 1600x900 og:image from the same Drumcree poll story, resized to 1600px JPEG and written to docs/images/ directly.",
+    "Two different pollsters published Drumcree polling within days and disagree on the DUP (More in Common via The Irish News/RTÉ: DUP up one point to 18%; Belfast Telegraph's poll: a five-year low). Both are attributed in the story rather than reconciled."
+  ],
+  "needsHumanAttention": false,
+  "humanAttentionReason": null,
+  "notes": "17 articles. Counts against config targets: local 1 (floor of 1–3 — only one Lugo story today had three-outlet coverage, the San Fernando barracks rehabilitation), national 3, northernIreland 1, global 4, tech 4 of 5 (a fifth tech story with three real sources did not exist today; padded reporting was avoided), ai 4. Research used the full 15 web_search allowance; discovery came from the 26 RSS files already on disk. Yesterday's edition covered the start of the Paraguay crisis, the second wave of European hoax bomb threats and the Nasdaq sell-off — Paraguay and the markets both reappear here only where there was a genuine development (impeachment plus arrest and house arrest; a rebound the next session), and the bomb threats were deliberately dropped as repetition rather than reworked."
+}
