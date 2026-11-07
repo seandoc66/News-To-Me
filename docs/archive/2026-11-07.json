@@ -274,11 +274,7 @@
           "url": "https://www.rte.ie/news/regional/2026/1028/1597003-drumcree-poll"
         }
       ],
-      "photoCandidate": {
-        "url": "https://www.irishnews.com/resizer/v2/P7FTWC35MBOLNLN5V7LEPJKT3A.jpg?smart=true&amp;auth=6d73d19d2631ef139b99b26670d3ef4913981ab3ee84758dd3fd2da26b732715&amp;width=1200&amp;height=630",
-        "description": "og:image from The Irish News",
-        "license": "fair-use"
-      }
+      "imageURL": "/images/2026-11-07-northernIreland-001.jpg"
     },
     {
       "id": "2026-11-07-global-001",
