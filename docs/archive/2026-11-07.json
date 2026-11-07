@@ -1,0 +1,564 @@
+{
+  "generatedAt": "2026-11-07T07:02:51Z",
+  "config": {
+    "sections": {
+      "local": {
+        "min": 1,
+        "max": 3,
+        "sources": [
+          {
+            "name": "El Progreso",
+            "url": "https://www.elprogreso.es"
+          },
+          {
+            "name": "La Voz de Galicia",
+            "url": "https://www.lavozdegalicia.es/lugo/"
+          },
+          {
+            "name": "COPE Lugo",
+            "url": "https://www.cope.es/emisoras/galicia/lugo-provincia/lugo/"
+          },
+          {
+            "name": "GaliciaPress",
+            "url": "https://www.galiciapress.es"
+          }
+        ]
+      },
+      "national": {
+        "min": 3,
+        "max": 5,
+        "sources": [
+          {
+            "name": "Europa Press",
+            "url": "https://www.europapress.es"
+          },
+          {
+            "name": "El País",
+            "url": "https://elpais.com"
+          },
+          {
+            "name": "Cadena SER",
+            "url": "https://cadenaser.com"
+          },
+          {
+            "name": "El Mundo",
+            "url": "https://www.elmundo.es"
+          },
+          {
+            "name": "El Pueblo de Ceuta",
+            "url": "https://www.elpueblodeceuta.es"
+          },
+          {
+            "name": "The Objective",
+            "url": "https://theobjective.com"
+          },
+          {
+            "name": "El Debate",
+            "url": "https://www.eldebate.com"
+          }
+        ]
+      },
+      "northernIreland": {
+        "min": 1,
+        "max": 1,
+        "sources": [
+          {
+            "name": "Belfast Telegraph",
+            "url": "https://www.belfasttelegraph.co.uk/news/northern-ireland/"
+          },
+          {
+            "name": "The Irish News",
+            "url": "https://www.irishnews.com/news/northern-ireland/"
+          },
+          {
+            "name": "RTÉ",
+            "url": "https://www.rte.ie/news/"
+          }
+        ]
+      },
+      "global": {
+        "min": 4,
+        "max": 8,
+        "sources": [
+          {
+            "name": "BBC",
+            "url": "https://www.bbc.co.uk/news/world"
+          },
+          {
+            "name": "The Guardian",
+            "url": "https://www.theguardian.com/world"
+          },
+          {
+            "name": "Europa Press",
+            "url": "https://www.europapress.es/internacional/"
+          },
+          {
+            "name": "AP",
+            "url": "https://apnews.com"
+          },
+          {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com"
+          }
+        ]
+      },
+      "tech": {
+        "min": 5,
+        "max": 5,
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com"
+          },
+          {
+            "name": "The Verge",
+            "url": "https://www.theverge.com"
+          },
+          {
+            "name": "Wired",
+            "url": "https://www.wired.com"
+          },
+          {
+            "name": "Reuters",
+            "url": "https://www.reuters.com"
+          },
+          {
+            "name": "Deadline",
+            "url": "https://deadline.com"
+          }
+        ]
+      },
+      "ai": {
+        "min": 4,
+        "max": 7,
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com"
+          },
+          {
+            "name": "The Verge",
+            "url": "https://www.theverge.com"
+          },
+          {
+            "name": "Wired",
+            "url": "https://www.wired.com"
+          },
+          {
+            "name": "Humanity Redefined",
+            "url": "https://www.humanityredefined.com"
+          }
+        ]
+      }
+    }
+  },
+  "articles": [
+    {
+      "id": "2026-11-07-local-001",
+      "category": "local",
+      "headline": "Lugo arranca en solitario la rehabilitación del cuartel de San Fernando",
+      "subtitle": "El Concello inicia la primera fase con fondos propios después de quedarse fuera del 2% Cultural del Estado; el edificio acogerá el futuro Museo da Romanización tras tres décadas de abandono",
+      "publishedAt": "2026-11-07T07:10:00Z",
+      "body": "El Concello de Lugo ha puesto en marcha la primera fase de la rehabilitación del antiguo cuartel de San Fernando, el edificio militar que llevaba tres décadas sin uso y que está llamado a albergar el futuro Museo da Romanización de Galicia. Las obras comienzan con financiación municipal, después de que el proyecto se quedara fuera de la convocatoria del 2% Cultural que concede el Estado.\n\nEl gobierno local había consignado 3,8 millones de euros en sus cuentas y contaba con el informe favorable de Patrimonio de la Xunta, dos de las condiciones que se exigían para optar a la subvención estatal. El Concello ha decidido no esperar a la resolución definitiva y ejecutar por su cuenta esta primera intervención, según las mismas fuentes municipales.\n\nEl proyecto arquitectónico reserva un patio cubierto como corazón del edificio y abre una entrada independiente por Quiroga Ballesteros, de manera que el museo tenga acceso propio sin depender del resto del complejo. La actuación también libera suelo para una plaza pública en una parcela de gran valor en el centro de la ciudad.\n\nEl Progreso resume el anuncio como el final de tres décadas de intentos fallidos y de abandono del inmueble, que en los últimos años solo ha tenido usos puntuales. GaliciaPress subraya, en cambio, que la rehabilitación arranca mientras el Ayuntamiento sigue a la espera de financiación para el resto del proyecto, de modo que lo que empieza ahora es una parte del plan y no la reforma completa.",
+      "sources": [
+        {
+          "name": "El Progreso",
+          "url": "https://www.elprogreso.es/articulo/lugo/rehabilitacion-san-fernando-pone-fin-30-anos-fracasos-abandono/20261107050751201"
+        },
+        {
+          "name": "La Voz de Galicia",
+          "url": "https://www.lavozdegalicia.es/noticia/lugo/lugo/2026/10/30/reforma-cuartel-san-fernando-lugo-museo-romanizacion-patio-cubierto-corazon-edificio-entrada-quiroga-ballesteros/00031793373262364700154.htm"
+        },
+        {
+          "name": "COPE Lugo",
+          "url": "https://www.cope.es/emisoras/galicia/lugo-provincia/lugo/noticias/concello-lugo-arranca-solitario-rehabilitacion-cuartel-san-fernando-quedarse-ayuda-20261105_3469331.html"
+        },
+        {
+          "name": "GaliciaPress",
+          "url": "https://www.galiciapress.es/articulo/ultima-hora/2026-11-05/6080281-lugo-iniciara-rehabilitacion-cuartel-san-fernando-mientras-espera-financiacion-proyecto"
+        }
+      ],
+      "imageURL": "/images/2026-11-07-local-001.jpg"
+    },
+    {
+      "id": "2026-11-07-national-001",
+      "category": "national",
+      "headline": "La Fiscalía Europea investiga un fraude de fondos de la UE en la línea Madrid-Sevilla tras Urda",
+      "subtitle": "Es su segunda investigación por el uso de dinero comunitario en el corredor, centrada ahora en señalización, comunicaciones y seguridad; la UCO ha registrado Adif, el Tribunal de Cuentas y la agencia ferroviaria",
+      "publishedAt": "2026-11-07T07:12:00Z",
+      "body": "La Fiscalía Europea ha abierto una investigación por un posible fraude en el uso de fondos de la Unión Europea destinados a las obras de renovación y mejora de la seguridad, la señalización y los sistemas de comunicaciones de la línea de alta velocidad entre Madrid y Sevilla. El ministerio público europeo actúa por iniciativa propia a raíz del accidente de Urda, ocurrido el 28 de octubre con 69 muertos.\n\nLa Unidad Central Operativa de la Guardia Civil ha recabado documentación en la sede de Adif, en el Tribunal de Cuentas y en la Agencia Estatal de Seguridad Ferroviaria, según han confirmado a Europa Press fuentes de la investigación. No es la primera vez: la Fiscalía ya abrió otra pesquisa por el mismo tipo de fondos tras el siniestro de Adamuz.\n\n## El dinero y el sistema\n\nEl foco está en si el dinero comunitario que debía financiar esos sistemas se empleó para lo que se comprometió. El corredor Madrid-Sevilla es la línea de alta velocidad más antigua de España, y sus equipos de señalización quedaron bajo sospecha desde el doble accidente de octubre.\n\nEn paralelo, El Mundo publica que Adif aprobó blindar el bonus de su cúpula directiva apenas unas horas antes de que dimitiera su presidenta, en plena crisis por la gestión del siniestro. La compañía no ha detallado el importe de esas retribuciones variables.\n\nLa investigación europea se suma a las que ya instruyen juzgados españoles y a la auditoría que reclama el Congreso.",
+      "sources": [
+        {
+          "name": "Europa Press",
+          "url": "https://www.europapress.es/nacional/noticia-fiscalia-europea-abre-investigacion-posible-fraude-fondos-comunitarios-ave-accidente-urda-20261106102906.html"
+        },
+        {
+          "name": "El País",
+          "url": "https://elpais.com/espana/2026-11-06/la-fiscalia-europea-investiga-un-presunto-fraude-en-las-obras-de-la-alta-velocidad-tras-el-accidente-de-urda.html"
+        },
+        {
+          "name": "Cadena SER",
+          "url": "https://cadenaser.com/nacional/2026/11/06/la-fiscalia-europea-abre-otra-investigacion-por-presunto-fraude-en-las-obras-de-la-alta-velocidad-la-uco-registra-la-sede-de-adif-cadena-ser"
+        },
+        {
+          "name": "El Mundo",
+          "url": "https://www.elmundo.es/economia/2026/11/06/6aee494321efa0477c8b45b8.html"
+        }
+      ],
+      "imageURL": "/images/2026-11-07-national-001.jpg"
+    },
+    {
+      "id": "2026-11-07-national-002",
+      "category": "national",
+      "headline": "La Guardia Civil eleva a 88.146 los retornos desde Ceuta y sitúa la entrada por encima de 100.000 personas",
+      "subtitle": "Un informe remitido a la Audiencia Nacional supera las 80.000 llegadas que admitió el Gobierno y, sumado a quienes siguen en la ciudad, dibuja una crisis mayor de la reconocida",
+      "publishedAt": "2026-11-07T07:14:00Z",
+      "body": "La Guardia Civil ha cifrado en 88.146 las personas que han regresado a Marruecos desde la entrada masiva registrada en Ceuta los días 30 y 31 de julio. La cifra aparece en un informe remitido a la Audiencia Nacional y supera las aproximadamente 80.000 llegadas que había reconocido el Gobierno central, según publica El Pueblo de Ceuta.\n\nSumados a las más de 12.000 personas que las estimaciones sitúan todavía en la ciudad, el total de entradas superaría las 100.000, una cifra superior a la población censada de Ceuta. El Mundo destaca precisamente esa comparación: la crisis habría superado en volumen a la propia ciudad autónoma.\n\nThe Objective añade que el informe incorpora 862 rescates y 90 fallecimientos vinculados al episodio, y subraya que la Guardia Civil corrige de este modo los datos oficiales del Ministerio del Interior.\n\nEl Ejecutivo sostiene que la mayoría de las personas que cruzaron fueron devueltas en menos de 48 horas y que no se produjeron traslados a la Península. La discrepancia sobre el número real de entradas alimenta ahora el debate político sobre el control de fronteras y sobre la fiabilidad de las cifras oficiales.",
+      "sources": [
+        {
+          "name": "El Pueblo de Ceuta",
+          "url": "https://www.elpueblodeceuta.es/sec/politica/inmigracion/guardia-civil-destapa-cifra-supera_1_1197781.html"
+        },
+        {
+          "name": "El Mundo",
+          "url": "https://www.elmundo.es/espana/2026/11/07/6aee1271e9cf4ae17b8b458e.html"
+        },
+        {
+          "name": "The Objective",
+          "url": "https://theobjective.com/espana/2026-11-06/guardia-civil-corrige-gobierno-88146-personas-ya-han-vuelto-ceuta-marruecos"
+        }
+      ],
+      "imageURL": "/images/2026-11-07-national-002.jpg"
+    },
+    {
+      "id": "2026-11-07-national-003",
+      "category": "national",
+      "headline": "La huelga general del 11-N llega con servicios mínimos en transporte, sanidad y comedores escolares",
+      "subtitle": "CCOO y UGT convocan el miércoles el primer paro estatal conjunto desde 2012 por la vivienda y los salarios, dos días antes de que arranque la campaña del 29-N",
+      "publishedAt": "2026-11-07T07:16:00Z",
+      "body": "España afronta el miércoles 11 de noviembre una huelga general de 24 horas convocada por CCOO, UGT, CGT, CNT, Co.bas, Intersindical, Solidaridad Obrera, la Unión de Actores y Actrices y el Sindicato de Inquilinas. Es el primer paro de ámbito estatal que CCOO y UGT secundan juntos desde el 14 de noviembre de 2012.\n\nLas reivindicaciones centrales son el acceso a la vivienda, la subida de salarios y el control de precios, además de la reanudación de la negociación del acuerdo de empleo y negociación colectiva. El origen de la convocatoria está en el movimiento por la vivienda, según recuerdan El Debate e Infobae, y en el desahucio de Maricarmen, el caso que dio nombre a los decretos de alquiler del Gobierno.\n\nLa resolución de servicios mínimos ya está publicada. En transporte se garantizan Cercanías, Media Distancia y AVE, metro y autobuses urbanos, aviación y carretera; en sanidad se mantienen urgencias, UCI, diálisis y oncología; y en educación se fijan mínimos en los centros públicos, los comedores y el transporte escolar.\n\nEl calendario político añade presión: el paro cae dos días antes de que comience la campaña de las elecciones generales del 29 de noviembre, y Feijóo ya pidió a los sindicatos que lo desconvocaran tras el accidente de Urda. Los convocantes han rechazado el aplazamiento.",
+      "sources": [
+        {
+          "name": "El Debate",
+          "url": "https://www.eldebate.com/economia/20261105/huelga-general-11-noviembre-2026-horarios-servicios-minimos-sectores-afectados-cns_477592.html"
+        },
+        {
+          "name": "Infobae",
+          "url": "https://www.infobae.com/espana/2026/11/05/huelga-general-del-11-de-noviembre-estos-son-los-horarios-servicios-minimos-y-sectores-afectados"
+        },
+        {
+          "name": "elEconomista",
+          "url": "https://www.eleconomista.es/economia/noticias/14023848/10/26/horario-de-la-huelga-general-del-11-de-noviembre-2026-estos-son-los-servicios-minimos-turnos-y-sectores-para-el-11n-5.html"
+        }
+      ],
+      "imageURL": "/images/2026-11-07-national-003.jpg"
+    },
+    {
+      "id": "2026-11-07-northernIreland-001",
+      "category": "northernIreland",
+      "headline": "Sinn Féin surges in new polling after Drumcree dispute as DUP slips",
+      "subtitle": "Two surveys published within days both show Sinn Féin gaining ground since the parade standoff, though they disagree on the DUP — one has it steady, the other at a five-year low",
+      "publishedAt": "2026-11-07T07:18:00Z",
+      "body": "The resurrection of the Drumcree parade dispute has pushed Sinn Féin's support higher in two separate polls, with the party gaining most among voters who backed the decision to block the march from the Garvaghy Road.\n\nA More in Common survey of 1,019 adults, reported by The Irish News and RTÉ, put Sinn Féin on 30 per cent, a rise of five points since July, and the DUP on 18 per cent, up one point on the same period. The same poll found 53 per cent thought the Secretary of State was right to block the parade, and the same share said the Parades Commission got it wrong when it allowed the march to proceed with restrictions.\n\n## Where the polls part company\n\nA separate poll published on Friday, reported by the Belfast Telegraph, described a record surge for Sinn Féin and put DUP support at a five-year low — a considerably gloomier reading for unionism than More in Common's one-point rise. The newspaper also reported that rival unionists had begun questioning Gavin Robinson's leadership, and that Jamie Bryson was rated more popular than the DUP leader among unionist voters.\n\nUnionist opinion in the More in Common findings was heavily against the decision on the parade: 85 per cent of TUV voters, 76 per cent of DUP voters and 55 per cent of UUP voters said it was wrong. Protestants as a whole were split, 54 per cent against and 28 per cent in favour.\n\nBoth polls point the same way on the broader trend: the standoff over Garvaghy Road has cost unionism more than it has cost nationalism.",
+      "sources": [
+        {
+          "name": "Belfast Telegraph",
+          "url": "https://www.belfasttelegraph.co.uk/news/politics/dup-support-slumps-as-record-surge-for-sinn-fein-revealed-in-new-poll-after-drumcree-dispute/a/164174334.html"
+        },
+        {
+          "name": "The Irish News",
+          "url": "https://www.irishnews.com/news/northern-ireland/new-polling-confirms-sinn-fein-surge-on-back-of-drumcree-dispute-EE4NYAHKQJEAVDNGCPK4RWCXL4"
+        },
+        {
+          "name": "RTÉ",
+          "url": "https://www.rte.ie/news/regional/2026/1028/1597003-drumcree-poll"
+        }
+      ],
+      "photoCandidate": {
+        "url": "https://www.irishnews.com/resizer/v2/P7FTWC35MBOLNLN5V7LEPJKT3A.jpg?smart=true&amp;auth=6d73d19d2631ef139b99b26670d3ef4913981ab3ee84758dd3fd2da26b732715&amp;width=1200&amp;height=630",
+        "description": "og:image from The Irish News",
+        "license": "fair-use"
+      }
+    },
+    {
+      "id": "2026-11-07-global-001",
+      "category": "global",
+      "headline": "Paraguay's Peña arrested and held under house arrest after bank collapse",
+      "subtitle": "Lawmakers voted unanimously to impeach him minutes before his detention, as the failure of a digital bank tied to his business interests left most of the country unable to reach its own money",
+      "publishedAt": "2026-11-07T07:20:00Z",
+      "body": "Paraguay's Santiago Peña has been impeached and arrested, then placed under house arrest, after the collapse of a digital bank linked to his private business interests triggered a nationwide banking crisis.\n\nLawmakers voted unanimously to remove him from office on Friday, including members of his own party, and he was detained minutes later. The Guardian reports that the crisis has left around 60 per cent of the country unable to access accounts, with millions of people's savings frozen since the bank failed.\n\nEuropa Press notes that the Chamber of Deputies approved the impeachment without a single dissenting vote, an outcome with few recent parallels in the region. The vote came at the end of a week in which the banking crisis had already emptied his authority.\n\nThe immediate problem for most Paraguayans is not who governs but whether they can withdraw money. The collapse began in a single institution with links to the president's business dealings and spread through a financial system with thin supervision, and the question now is how far deposit guarantees reach.\n\nRegional governments and creditors are watching how the new administration handles the bank's liabilities, and whether the deposit guarantee fund can cover claims at the scale now being discussed.",
+      "sources": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c68jzzvjgdy9o"
+        },
+        {
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/nov/07/ousted-paraguay-president-under-house-arrest-after-banking-crisis-leaves-60-of-country-unable-to-access-accounts"
+        },
+        {
+          "name": "Europa Press",
+          "url": "https://www.europapress.es/internacional/noticia-congreso-paraguay-destituye-unanimidad-presidente-santiago-pena-20261106232302.html"
+        }
+      ],
+      "imageURL": "/images/2026-11-07-global-001.jpg"
+    },
+    {
+      "id": "2026-11-07-global-002",
+      "category": "global",
+      "headline": "Kenyan cult leader sentenced to 200 years for the deaths of 191 followers",
+      "subtitle": "Paul Mackenzie was convicted of ordering members of his church to starve themselves and their children; more than 400 bodies have been exhumed from the forest where the sect lived",
+      "publishedAt": "2026-11-07T07:22:00Z",
+      "body": "A court in Mombasa has sentenced Paul Mackenzie, the leader of a Kenyan doomsday sect, to 200 years in prison for murdering 191 people, all but one of them children.\n\nMackenzie was convicted alongside 28 others for instructing members of his Good News International Church to starve themselves and their children to death so that they would \"meet Jesus\". The BBC reports the sentence was handed down as two consecutive 100-year terms. Prosecutors had argued for the death penalty given the scale of the crimes, though Kenya has not carried out an execution since 1987.\n\nThe case dates to 2023, when more than 400 bodies were found in shallow graves in Shakahola forest near the Kenyan coast. The convictions cover 191 of those deaths; the rest remain the subject of separate investigations, and Mackenzie and other leaders also face charges of terrorism, radicalisation and denying children an education.\n\nRelatives of victims followed the hearings for three years, many of them still searching for missing family members. Sentencing of the remaining accused is expected to continue, with the court treating each defendant individually.",
+      "sources": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cm5yne5984l0o"
+        },
+        {
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/nov/06/kenyan-doomsday-sect-leader-jailed-murders-paul-mackenzie"
+        },
+        {
+          "name": "AP",
+          "url": "https://apnews.com/article/kenya-starvation-cult-mackenzie-shakahola-b0ff199504ff668f44d0abefe1c47e44"
+        }
+      ],
+      "imageURL": "/images/2026-11-07-global-002.jpg"
+    },
+    {
+      "id": "2026-11-07-global-003",
+      "category": "global",
+      "headline": "ANC headed for its worst election result as South Africa counts municipal votes",
+      "subtitle": "With 80 per cent of ballots counted the party sits near 32 per cent, down sharply from 2021, as anger over water and power failures drives voters away in the cities",
+      "publishedAt": "2026-11-07T07:24:00Z",
+      "body": "South Africa's governing African National Congress is heading for its weakest result since the end of apartheid, with about 32 per cent of the vote after 80 per cent of ballots were counted in this week's municipal elections.\n\nThe party that has governed since 1994 was already below 50 per cent in the 2021 local polls, and it has lost support again this week, according to figures from the electoral commission reported by Al Jazeera and the Guardian. The Democratic Alliance sits second on roughly 25 per cent.\n\nIn Buffalo City, the ANC won 42 per cent and lost its majority for the first time, with the United Democratic Movement climbing to second place ahead of the DA. Results in the eight metropolitan municipalities are being counted metro by metro, and final national figures are expected on Sunday.\n\nDiscontent over failing water supplies, power cuts and unemployment dominated the campaign, and more than 500 parties contested nearly 300 municipalities. Analysts read the outcome as a verdict on service delivery ahead of the 2029 general election, and as a warning that coalition politics is now the norm rather than an exception.\n\nThe ANC remains the largest party nationally, but the question after Sunday will be which councils it can still control and on what terms.",
+      "sources": [
+        {
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/nov/06/anc-faces-defeat-south-african-local-elections"
+        },
+        {
+          "name": "AP",
+          "url": "https://apnews.com/article/south-africa-elections-anc-decline-voters-5de84cd9a66604fcb774b5a97335a6e8"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/5/south-africas-anc-on-track-for-new-lows-in-local-polls"
+        }
+      ],
+      "imageURL": "/images/2026-11-07-global-003.jpg"
+    },
+    {
+      "id": "2026-11-07-global-004",
+      "category": "global",
+      "headline": "AI stocks bounce back after trillions were wiped from market values",
+      "subtitle": "Shares in chipmakers and model builders recovered on Friday following the worst session in 18 months, with investors still arguing over whether the sell-off was a correction or the start of something longer",
+      "publishedAt": "2026-11-07T07:26:00Z",
+      "body": "Technology shares rallied on Friday, a day after a sell-off wiped trillions of dollars from the market value of companies tied to artificial intelligence.\n\nThe BBC reports that AI-related stocks climbed back as investors returned to the sector, following the Nasdaq's worst day in 18 months. The Guardian attributed the fall to \"big worries over AI\" that spread across global markets in the wake of the Democrats' midterm victories, with investors reassessing how quickly revenue from AI spending will arrive.\n\nThe turn came quickly. Selling had been concentrated in the companies that supply the data centres and chips underpinning the build-out, rather than across the market as a whole, which is why the index-level damage looked severe while other sectors held up.\n\nAnalysts at Kadoa, comparing the episode with 1987, 2008 and other sharp drawdowns, note that the fall differed from a classic crash: it was narrow, driven by a single theme, and reversed within a session once buyers stepped in.\n\nWhat has not been settled is the underlying question — whether the capital being committed to AI infrastructure is proportionate to the revenue it will generate, or whether valuations still price in a future that spending data no longer supports.",
+      "sources": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c35ynnpzdq51o"
+        },
+        {
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/business/2026/nov/06/global-stocks-plunge-amid-ai-slowdown-fears-after-democrats-midterm-triumph"
+        },
+        {
+          "name": "Kadoa",
+          "url": "https://www.kadoa.com/companies/insights/ai-selloff-perspective"
+        }
+      ],
+      "imageURL": "/images/2026-11-07-global-004.jpg"
+    },
+    {
+      "id": "2026-11-07-tech-001",
+      "category": "tech",
+      "headline": "Tesla will stop building the Cybertruck in 2027 after years of weak sales",
+      "subtitle": "The stainless-steel pickup, launched as Tesla's most distinctive product in a decade, ends production next year; it never sold in the volumes the company projected for it",
+      "publishedAt": "2026-11-07T07:30:00Z",
+      "body": "Tesla will end production of the Cybertruck next year, winding down a vehicle that was supposed to redefine the pickup market and instead became the clearest example of the company's overreach.\n\nTechCrunch reported the decision on Friday. NBC News describes a wind-down after years of poor sales in the relatively few markets where the truck was offered, and the BBC reads Elon Musk's own comments as signalling the end of the road for the model.\n\nThe Cybertruck arrived late and expensive, with a body built from stainless steel that made it difficult to manufacture at volume. What looked like a deliberate break with pickup convention turned into a production problem, and the polarising design did not convert into the fleet sales that sustain the segment.\n\nWired's obituary for the vehicle argues its death is good news for electric cars generally: the segment's credibility was being weighed down by a halo product that sold poorly and distracted from cheaper models.\n\nTesla has not said what replaces it at the factory or how many jobs are affected. The company's pickup customers are concentrated in North America, and its range has been shrinking rather than expanding since the model launched.",
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/06/tesla-will-stop-making-the-cybertruck-in-2027/"
+        },
+        {
+          "name": "Wired",
+          "url": "https://www.wired.com/story/rip-cybertruck-you-were-unloved-unwanted-and-utterly-absurd/"
+        },
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cq1j33w7d232o"
+        },
+        {
+          "name": "NBC News",
+          "url": "https://www.nbcnews.com/tech/tech-news/tesla-wind-cybertruck-production-years-poor-sales-markets-rcna607817"
+        }
+      ],
+      "imageURL": "/images/2026-11-07-tech-001.jpg"
+    },
+    {
+      "id": "2026-11-07-tech-002",
+      "category": "tech",
+      "headline": "Google buys Crusoe's Wyoming data centre site a day after announcing a $17bn build",
+      "subtitle": "Crusoe hands over the southeast Wyoming campus it had taken through site selection and permits, leaving Google to build the first of its data centres in the state",
+      "publishedAt": "2026-11-07T07:32:00Z",
+      "body": "Google has acquired the data centre site in southeast Wyoming that AI infrastructure developer Crusoe had been preparing, a day after the company announced a $17 billion investment in the project.\n\nReuters reports that Crusoe said it had completed its involvement in the pre-development phase — site selection, government approvals and power strategy — and that financial terms were not disclosed. The campus was initially developed by Crusoe with Tallgrass Energy.\n\nGoogle said on Thursday that it would build the facility with Tallgrass, Black Hills Energy, American Electric Power and Related Digital. Site development is due to start as early as the end of this year, with some data halls operating in the second half of 2028 and the full build finished around the end of 2031.\n\nTechCrunch describes the Wyoming project as troubled, coming as it does amid growing local opposition to large data centres in parts of the United States. Crusoe chief executive Chase Lochmiller said the company holds more than six gigawatts of contracted capacity and over 40 gigawatts in its development pipeline, and that it is building another Google campus in Armstrong.\n\nThe transaction shows how the roles have separated in the AI build-out: specialists like Crusoe find sites and secure power, then hand the construction to the company that will fill the halls with servers.",
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/"
+        },
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/business/google-acquires-wyoming-data-center-site-ai-infrastructure-firm-crusoe-2026-11-06"
+        },
+        {
+          "name": "Google",
+          "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/wyoming-data-center"
+        }
+      ],
+      "imageURL": "/images/2026-11-07-tech-002.jpg"
+    },
+    {
+      "id": "2026-11-07-tech-003",
+      "category": "tech",
+      "headline": "Fox closes its $22 billion purchase of Roku and folds it into its streaming arm",
+      "subtitle": "Roku stops trading on the Nasdaq as it joins Tubi and Fox One inside Fox Digital Platforms, giving Fox a connected-TV platform in more than 100 million households",
+      "publishedAt": "2026-11-07T07:34:00Z",
+      "body": "Fox has completed its $22 billion acquisition of Roku, and the streaming company's shares stopped trading on the Nasdaq on Friday, closing a deal announced in June.\n\nThe cash-and-stock transaction folds Roku into Fox Digital Platforms, which already houses Tubi, Fox One and Red Seat Ventures. Roku's founder Anthony Wood joins Fox's board and becomes co-chair of that unit alongside its chief executive, Paul Cheesbrough, according to Adweek.\n\nFox says the combination creates the third-largest entity in US television by share of viewing. Roku's platform reaches more than 100 million households, most of them in the United States, and gives Fox first-party data on what those households watch and an advertising business to sell against it. The company expects about $400 million in run-rate cost savings within two years.\n\nLachlan Murdoch called the closing the start of \"a new transformational era\" for Fox, and said the priority for the combined company would be serving audiences and partners while keeping Roku an open platform.\n\nThe strategic logic is scale in free, ad-supported streaming: Tubi already reaches around 110 million monthly active users, and Roku adds both a device footprint and a home screen that Fox now controls.",
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/06/fox-completes-its-22b-acquisition-of-roku/"
+        },
+        {
+          "name": "Deadline",
+          "url": "https://deadline.com/2026/11/fox-corp-closes-roku-acquisition-1237215436"
+        },
+        {
+          "name": "Adweek",
+          "url": "https://www.adweek.com/convergent-tv/fox-corp-completes-22-billion-deal-for-roku"
+        }
+      ],
+      "imageURL": "/images/2026-11-07-tech-003.jpg"
+    },
+    {
+      "id": "2026-11-07-tech-004",
+      "category": "tech",
+      "headline": "The FAA will retire floppy disks from 400 air traffic control sites by 2028",
+      "subtitle": "A new display system replaces four sets of 1980s equipment that controllers still use for weather and operational updates, and the agency is still buying spare parts on eBay",
+      "publishedAt": "2026-11-07T07:36:00Z",
+      "body": "The US Federal Aviation Administration says it will stop using floppy disks at more than 400 air traffic control facilities by the end of 2028, replacing equipment that dates to the 1980s.\n\nReuters reported on Thursday that the agency will install an Enterprise Information Display System, which consolidates into one place the operational information controllers currently pull from four separate legacy systems — weather updates among them.\n\nThe disclosure is an unusually concrete measure of how old the agency's infrastructure has become. Reuters has previously reported that the FAA relies on decades-old Compaq computers and buys replacement parts on eBay to keep systems running.\n\nCongress has approved $12.5 billion to modernise FAA technology, and Transportation Secretary Sean Duffy has asked for a further $30 billion. The agency is also moving away from paper flight strips: 27 of 49 major airports have switched to digital tracking, with full implementation targeted for 2028.\n\nFAA administrator Bryan Bedford has framed the work as replacing slow, manual processes with real-time sharing of alerts and reports. The timeline matters politically as well: the upgrades land after a year of high-profile air traffic disruptions in the United States, including a circuit failure in Philadelphia and a severed fibre cable in New Jersey that together delayed or cancelled thousands of flights in September.",
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/world/us/us-faa-says-it-will-phase-out-floppy-disks-air-traffic-control-by-2028-2026-11-05/"
+        },
+        {
+          "name": "The San Joaquin Valley Sun",
+          "url": "https://sjvsun.com/u-s/faa-to-eliminate-floppy-disks-from-air-traffic-control-by-2028"
+        },
+        {
+          "name": "LiveNOW from FOX",
+          "url": "https://www.livenowfox.com/news/faa-finally-phase-out-floppy-disks-from-air-traffic-control-systems-2028"
+        }
+      ],
+      "imageURL": "/images/2026-11-07-tech-004.jpg"
+    },
+    {
+      "id": "2026-11-07-ai-001",
+      "category": "ai",
+      "headline": "OpenAI closes $11 billion at a $1.25 trillion valuation, short of what it sought",
+      "subtitle": "The first tranche of a round that has not finished values the lab a little below the $1.4 trillion it had targeted, in a week when AI stocks were sold off hard",
+      "publishedAt": "2026-11-07T07:40:00Z",
+      "body": "OpenAI has taken in about $11 billion in the first part of a new funding round that values the company at $1.25 trillion, according to Bloomberg reporting carried by TechCrunch and Investing.com.\n\nThe money had reportedly been transferred by Friday. The round itself has not closed: TechCrunch reports it is expected to wrap up in the coming weeks and could reach roughly $20 billion in total. Benzinga put the raise at $11.5 billion and noted it fell well short of the $1.4 trillion valuation the company had been seeking.\n\nThe timing is awkward. The money landed at the end of a week in which AI-linked shares suffered their sharpest fall in 18 months before recovering, and in which rival Anthropic was moving toward its own listing. Benzinga reports that Anthropic is eyeing a valuation of up to $2 trillion in that IPO, against the $1.25 trillion OpenAI has just settled at.\n\nFor OpenAI the cash buys time for compute contracts already signed. What it does not settle is the question investors have started asking out loud: whether revenue growth justifies a valuation of this size when spending on infrastructure keeps rising faster than sales.",
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/"
+        },
+        {
+          "name": "Investing.com",
+          "url": "https://www.investing.com/news/stock-market-news/openai-closes-11-billion-funding-at-125-trillion-valuation--report-5009147"
+        },
+        {
+          "name": "Benzinga",
+          "url": "https://www.benzinga.com/news/26/10/62764054/openai-raises-just-11-billion-as-ai-bubble-fears-rise-valuation-hits-1-25-trillion"
+        }
+      ],
+      "imageURL": "/images/2026-11-07-ai-001.jpg"
+    },
+    {
+      "id": "2026-11-07-ai-002",
+      "category": "ai",
+      "headline": "Meta adds Spaces to Muse, turning its AI agent into a set of separate workspaces",
+      "subtitle": "Users can spin up topic-specific conversations where the agent works toward a single goal, the second Muse feature Meta has shipped in a week",
+      "publishedAt": "2026-11-07T07:42:00Z",
+      "body": "Meta has introduced Spaces, a way of organising work with Muse, the personal AI agent it launched in September, into separate topic-based conversations that sit in the app's sidebar.\n\nTechCrunch describes them as breakout conversations built around a particular subject, which Meta calls \"custom experiences\": opening one brings up a workspace where Muse pursues a specific goal on the user's behalf. The Verge notes the feature is aimed at people who need a version of the app shaped around one ongoing task rather than a single running chat.\n\nIt is the second Muse addition in a week. Meta brought out Muse Voice on Thursday, letting users talk to their agent by video call, and the company has been building out the product's surface area quickly since launch. On October's earnings call Mark Zuckerberg said Muse had reached 10 million users in the US and Canada less than two months after release, according to MarketScale.\n\nMeta is not alone in packaging agents this way. OpenAI's dots and SpaceXAI's Grokbot have been launched with similarly personable framing, and the competition has shifted from raw model quality toward how usable and how trustworthy the agent feels in daily use.",
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent"
+        },
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/tech/1028871/meta-muse-ai-spaces"
+        },
+        {
+          "name": "MarketScale",
+          "url": "https://www.marketscale.com/industries/software-and-technology/meta-muse-spaces-ai-agent-trackers-planners"
+        }
+      ],
+      "imageURL": "/images/2026-11-07-ai-002.jpg"
+    },
+    {
+      "id": "2026-11-07-ai-003",
+      "category": "ai",
+      "headline": "Corporate card data shows AI spending flattening just as Anthropic approaches its IPO",
+      "subtitle": "Ramp's transaction records suggest business adoption has stopped accelerating, a difficult signal for a listing that will be priced on expectations of continued growth",
+      "publishedAt": "2026-11-07T07:44:00Z",
+      "body": "Spending on AI tools by businesses appears to have stopped growing, according to transaction data from Ramp, the corporate card and expense platform, just as Anthropic prepares to list.\n\nTechCrunch reports that the firm's anonymised spending records show the growth curve flattening. That matters because corporate cards are one of the few places where AI adoption can be measured in money rather than surveys, and the trend has been one of the sector's more reliable arguments that demand is real.\n\nAnthropic, meanwhile, has opened its books. Humanity Redefined's weekly briefing describes the disclosure as coming in a bad week for Big Tech, with the company's S-1 arriving into a market that had just sold off AI shares and was rethinking what multiples the sector deserves. The Verge notes that Anthropic's listing now provides the first public valuation for a frontier lab.\n\nThe tension is straightforward: an IPO is priced on the assumption that enterprise spending keeps compounding, and the card data suggests it has levelled off at the customers who were quickest to adopt.\n\nNone of this says the market is shrinking. It says the easy phase — teams signing up, seats multiplying — may be over, and the next leg depends on selling deeper into the same accounts.",
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/"
+        },
+        {
+          "name": "Humanity Redefined",
+          "url": "https://www.humanityredefined.com/p/sync-595"
+        },
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation"
+        }
+      ],
+      "imageURL": "/images/2026-11-07-ai-003.jpg"
+    },
+    {
+      "id": "2026-11-07-ai-004",
+      "category": "ai",
+      "headline": "Open-weight Chinese models are nearly as good at hacking as the best closed ones",
+      "subtitle": "A test in which models were asked to break into simulated networks found DeepSeek and GLM close behind OpenAI's most capable cyber model, which the company does not release",
+      "publishedAt": "2026-11-07T07:46:00Z",
+      "body": "Open-weight artificial intelligence models are now almost as capable of breaking into computer networks as the best closed systems, according to research reported by Wired, narrowing a gap that had been one of the arguments for keeping frontier models behind an API.\n\nIn the experiment, models were asked to attack simulated networks. The hacking skills of DeepSeek and GLM came out not far behind OpenAI's most advanced cyber model, which the company does not make public. Because the weights are downloadable, anyone who wants that capability can run it without permission, monitoring or a usage limit.\n\nWired separately reports that Z.ai's new open-weight model, released in a limited form to trusted partners, shows how quickly these systems are gaining offensive security skills.\n\nThe surrounding ecosystem is growing too. TechCrunch reports that hundreds of tools built with Artex, a platform for AI-assisted hacking, were found publicly exposed on the web — work that once required specialist knowledge now assembled from shared components.\n\nDefenders are not standing still, and model makers argue that AI is also the best tool for finding flaws before attackers do. But the balance shifts when the capability is free, local and unrecallable: a model that can be downloaded cannot be patched out of existence by the company that trained it.",
+      "sources": [
+        {
+          "name": "Wired",
+          "url": "https://www.wired.com/story/free-chinese-ai-models-are-getting-scary-good-at-hacking/"
+        },
+        {
+          "name": "Wired",
+          "url": "https://www.wired.com/story/zai-open-weight-ai-models-release-cybersecurity-hacking"
+        },
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/"
+        }
+      ],
+      "imageURL": "/images/2026-11-07-ai-004.jpg"
+    }
+  ]
+}
