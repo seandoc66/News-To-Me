@@ -1,0 +1,32 @@
+{
+  "date": "2026-11-09",
+  "published": true,
+  "publishedAt": "2026-11-09T05:06:57Z",
+  "sections": {
+    "present": [
+      "local",
+      "national",
+      "northernIreland",
+      "global",
+      "tech",
+      "ai"
+    ],
+    "missing": []
+  },
+  "storiesWithoutPhoto": [],
+  "validatorWarnings": [
+    "articles[2].body (2026-11-09-national-002) paragraph 2 is 81 words — over 80, which reads as a wall of text on a phone. Aim for 30–80",
+    "articles[6].body (2026-11-09-global-001) has 1 subhead(s) in a 189-word story — below 200 words they divide a story too short to need dividing",
+    "articles[17].body (2026-11-09-ai-002) has 1 subhead(s) in a 194-word story — below 200 words they divide a story too short to need dividing"
+  ],
+  "validatorErrors": [],
+  "workarounds": [
+    "El Progreso's RSS/feed endpoints stayed blocked for local coverage; built local from HTML scraping of elprogreso.es/lugo plus Google News RSS, and the lead story is sourced to La Voz de Galicia, El Progreso and Minuto Noventa.",
+    "Guardian page extraction failed (empty responses) for three URLs; those articles are cited at headline/description level from the Guardian world RSS feed rather than full text.",
+    "sourcesPerArticle caps at 4, so stories with wider coverage (El Hierro had six outlets) were trimmed to the four strongest.",
+    "tech shipped 4 stories against the pinned 5 and ai shipped 3 against the 4–7 range: several otherwise strong candidates (Chainalysis customer-credential breach, Outlook.com DMARC rejection, Nvidia hardware theft) had only one outlet each, and padding with a single-source story would have failed the 3-source rule."
+  ],
+  "needsHumanAttention": false,
+  "humanAttentionReason": null,
+  "notes": "First pass failed validation on the northernIreland body at 311 words; trimmed to 296 and republished cleanly. One photo is weak: ai-002 (Siri) auto-discovered a header image from the cryptography blog cited as its third source rather than an Apple image — kept because it belongs to a cited source, but it is not a photo of Siri or Apple, worth replacing if the card looks off. Archive gap remains: docs/archive/2026-11-08.json is missing and no backfill was attempted this run — flagged for a separate pass."
+}
