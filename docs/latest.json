@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-07T07:03:36Z",
+  "generatedAt": "2026-11-09T05:06:57Z",
   "config": {
     "sections": {
       "local": {
@@ -7,20 +7,16 @@
         "max": 3,
         "sources": [
           {
+            "name": "La Voz de Galicia",
+            "url": "https://www.lavozdegalicia.es"
+          },
+          {
             "name": "El Progreso",
             "url": "https://www.elprogreso.es"
           },
           {
-            "name": "La Voz de Galicia",
-            "url": "https://www.lavozdegalicia.es/lugo/"
-          },
-          {
-            "name": "COPE Lugo",
-            "url": "https://www.cope.es/emisoras/galicia/lugo-provincia/lugo/"
-          },
-          {
-            "name": "GaliciaPress",
-            "url": "https://www.galiciapress.es"
+            "name": "Minuto Noventa",
+            "url": "https://minutonoventa.com"
           }
         ]
       },
@@ -29,32 +25,36 @@
         "max": 5,
         "sources": [
           {
-            "name": "Europa Press",
-            "url": "https://www.europapress.es"
-          },
-          {
-            "name": "El País",
-            "url": "https://elpais.com"
-          },
-          {
-            "name": "Cadena SER",
-            "url": "https://cadenaser.com"
-          },
-          {
             "name": "El Mundo",
             "url": "https://www.elmundo.es"
           },
           {
-            "name": "El Pueblo de Ceuta",
-            "url": "https://www.elpueblodeceuta.es"
+            "name": "20minutos",
+            "url": "https://www.20minutos.es"
           },
           {
-            "name": "The Objective",
-            "url": "https://theobjective.com"
+            "name": "Europa Press",
+            "url": "https://www.europapress.es"
           },
           {
-            "name": "El Debate",
-            "url": "https://www.eldebate.com"
+            "name": "La Voz de Galicia",
+            "url": "https://www.lavozdegalicia.es"
+          },
+          {
+            "name": "RTVE",
+            "url": "https://www.rtve.es"
+          },
+          {
+            "name": "Onda Cero",
+            "url": "https://www.ondacero.es"
+          },
+          {
+            "name": "Diario Sur",
+            "url": "https://www.diariosur.es"
+          },
+          {
+            "name": "Huelva24",
+            "url": "https://www.huelva24.com"
           }
         ]
       },
@@ -63,16 +63,16 @@
         "max": 1,
         "sources": [
           {
+            "name": "BBC News NI",
+            "url": "https://www.bbc.co.uk/news/northern_ireland"
+          },
+          {
             "name": "Belfast Telegraph",
-            "url": "https://www.belfasttelegraph.co.uk/news/northern-ireland/"
+            "url": "https://www.belfasttelegraph.co.uk"
           },
           {
-            "name": "The Irish News",
-            "url": "https://www.irishnews.com/news/northern-ireland/"
-          },
-          {
-            "name": "RTÉ",
-            "url": "https://www.rte.ie/news/"
+            "name": "News Letter",
+            "url": "https://www.newsletter.co.uk"
           }
         ]
       },
@@ -89,12 +89,16 @@
             "url": "https://www.theguardian.com/world"
           },
           {
-            "name": "Europa Press",
-            "url": "https://www.europapress.es/internacional/"
+            "name": "France 24",
+            "url": "https://www.france24.com"
           },
           {
-            "name": "AP",
-            "url": "https://apnews.com"
+            "name": "NPR",
+            "url": "https://www.npr.org"
+          },
+          {
+            "name": "DW",
+            "url": "https://www.dw.com"
           },
           {
             "name": "Al Jazeera",
@@ -107,24 +111,28 @@
         "max": 5,
         "sources": [
           {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com"
-          },
-          {
             "name": "The Verge",
             "url": "https://www.theverge.com"
           },
           {
-            "name": "Wired",
-            "url": "https://www.wired.com"
+            "name": "Ars Technica",
+            "url": "https://arstechnica.com"
           },
           {
-            "name": "Reuters",
-            "url": "https://www.reuters.com"
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com"
           },
           {
-            "name": "Deadline",
-            "url": "https://deadline.com"
+            "name": "BBC",
+            "url": "https://www.bbc.co.uk/news/technology"
+          },
+          {
+            "name": "CNN",
+            "url": "https://www.cnn.com"
+          },
+          {
+            "name": "Bloomberg",
+            "url": "https://www.bloomberg.com"
           }
         ]
       },
@@ -133,20 +141,20 @@
         "max": 7,
         "sources": [
           {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com"
-          },
-          {
             "name": "The Verge",
             "url": "https://www.theverge.com"
           },
           {
-            "name": "Wired",
-            "url": "https://www.wired.com"
+            "name": "Bloomberg",
+            "url": "https://www.bloomberg.com"
           },
           {
-            "name": "Humanity Redefined",
-            "url": "https://www.humanityredefined.com"
+            "name": "The New York Times",
+            "url": "https://www.nytimes.com"
+          },
+          {
+            "name": "MLQ",
+            "url": "https://mlq.ai"
           }
         ]
       }
@@ -154,407 +162,457 @@
   },
   "articles": [
     {
-      "id": "2026-11-07-local-001",
+      "id": "2026-11-09-local-001",
       "category": "local",
-      "headline": "Lugo arranca en solitario la rehabilitación del cuartel de San Fernando",
-      "subtitle": "El Concello inicia la primera fase con fondos propios después de quedarse fuera del 2% Cultural del Estado; el edificio acogerá el futuro Museo da Romanización tras tres décadas de abandono",
-      "publishedAt": "2026-11-07T07:10:00Z",
-      "body": "El Concello de Lugo ha puesto en marcha la primera fase de la rehabilitación del antiguo cuartel de San Fernando, el edificio militar que llevaba tres décadas sin uso y que está llamado a albergar el futuro Museo da Romanización de Galicia. Las obras comienzan con financiación municipal, después de que el proyecto se quedara fuera de la convocatoria del 2% Cultural que concede el Estado.\n\nEl gobierno local había consignado 3,8 millones de euros en sus cuentas y contaba con el informe favorable de Patrimonio de la Xunta, dos de las condiciones que se exigían para optar a la subvención estatal. El Concello ha decidido no esperar a la resolución definitiva y ejecutar por su cuenta esta primera intervención, según las mismas fuentes municipales.\n\nEl proyecto arquitectónico reserva un patio cubierto como corazón del edificio y abre una entrada independiente por Quiroga Ballesteros, de manera que el museo tenga acceso propio sin depender del resto del complejo. La actuación también libera suelo para una plaza pública en una parcela de gran valor en el centro de la ciudad.\n\nEl Progreso resume el anuncio como el final de tres décadas de intentos fallidos y de abandono del inmueble, que en los últimos años solo ha tenido usos puntuales. GaliciaPress subraya, en cambio, que la rehabilitación arranca mientras el Ayuntamiento sigue a la espera de financiación para el resto del proyecto, de modo que lo que empieza ahora es una parte del plan y no la reforma completa.",
+      "headline": "Un puñetazo por la espalda a un árbitro suspende el Residencia-Alianza en A Cheda",
+      "subtitle": "El colegiado, de más de 50 años, cayó al césped tras ser golpeado por un jugador del Alianza después de señalar un penalti; la Policía identificó al agresor y el partido quedó suspendido con 3-3.",
+      "body": "Un árbitro de más de 50 años fue agredido por la espalda en los últimos minutos del partido de la División de Honor de veteranos entre la S.D. Residencia y el Alianza F.C., disputado el sábado en el campo de A Cheda, en Lugo. El encuentro quedó suspendido con empate a tres.\n\nEl colegiado había señalado un penalti a favor del Residencia cuando un jugador del Alianza le propinó un puñetazo en la cara por sorpresa. Cayó sobre el césped y permaneció varios minutos mareado, con contusiones en el rostro. Acudieron al campo efectivos de la Policía Nacional y servicios sanitarios, y el agresor fue identificado en la zona de vestuarios.\n\nEl árbitro fue trasladado al Hospital Polusa, donde recibió atención de urgencias y pruebas médicas. Este domingo ya estaba en su domicilio, con magulladuras y dolores, según relataron los diarios locales.\n\n## Comunicado del club y expediente\n\nEl Alianza F.C. emitió un comunicado en el que reconoce el comportamiento de su jugador, rechaza sus acciones y pide disculpas al colectivo arbitral. El club asegura que ha abierto un expediente disciplinario interno al margen de lo que decida la federación. El presidente de la S.D. Residencia, Julio Pacios, calificó lo sucedido de incomprensible en una categoría pensada para divertirse.\n\nEl secretario xeral para o Deporte de la Xunta, Roberto García Fernández, se interesó personalmente por el estado del árbitro. El Comité Antiviolencia se reunirá en los próximos días para fijar la sanción deportiva, mientras el colegiado, con el respaldo del Comité Técnico de Árbitros, prevé emprender acciones legales cuando formalice la denuncia.",
+      "imageURL": "/images/2026-11-09-local-001.jpg",
       "sources": [
-        {
-          "name": "El Progreso",
-          "url": "https://www.elprogreso.es/articulo/lugo/rehabilitacion-san-fernando-pone-fin-30-anos-fracasos-abandono/20261107050751201"
-        },
         {
           "name": "La Voz de Galicia",
-          "url": "https://www.lavozdegalicia.es/noticia/lugo/lugo/2026/10/30/reforma-cuartel-san-fernando-lugo-museo-romanizacion-patio-cubierto-corazon-edificio-entrada-quiroga-ballesteros/00031793373262364700154.htm"
+          "url": "https://www.lavozdegalicia.es/noticia/deportes/2026/11/08/agreden-espalda-arbitro-partido-veteranos-lugo/00031794160242831310806.htm"
         },
         {
-          "name": "COPE Lugo",
-          "url": "https://www.cope.es/emisoras/galicia/lugo-provincia/lugo/noticias/concello-lugo-arranca-solitario-rehabilitacion-cuartel-san-fernando-quedarse-ayuda-20261105_3469331.html"
+          "name": "El Progreso",
+          "url": "https://www.elprogreso.es/articulo/deporte-local-lugo/gral-arbitro-suspende-residencia-alianza-cheda-sabado/202611081525522012689.html"
         },
         {
-          "name": "GaliciaPress",
-          "url": "https://www.galiciapress.es/articulo/ultima-hora/2026-11-05/6080281-lugo-iniciara-rehabilitacion-cuartel-san-fernando-mientras-espera-financiacion-proyecto"
+          "name": "Minuto Noventa",
+          "url": "https://minutonoventa.com/agresion-arbitro-residencia-alianza-lugo-a-cheda-7-noviembre-2026"
         }
       ],
-      "imageURL": "/images/2026-11-07-local-001.jpg"
+      "publishedAt": "2026-11-09T05:20:00Z"
     },
     {
-      "id": "2026-11-07-national-001",
+      "id": "2026-11-09-national-001",
       "category": "national",
-      "headline": "La Fiscalía Europea investiga un fraude de fondos de la UE en la línea Madrid-Sevilla tras Urda",
-      "subtitle": "Es su segunda investigación por el uso de dinero comunitario en el corredor, centrada ahora en señalización, comunicaciones y seguridad; la UCO ha registrado Adif, el Tribunal de Cuentas y la agencia ferroviaria",
-      "publishedAt": "2026-11-07T07:12:00Z",
-      "body": "La Fiscalía Europea ha abierto una investigación por un posible fraude en el uso de fondos de la Unión Europea destinados a las obras de renovación y mejora de la seguridad, la señalización y los sistemas de comunicaciones de la línea de alta velocidad entre Madrid y Sevilla. El ministerio público europeo actúa por iniciativa propia a raíz del accidente de Urda, ocurrido el 28 de octubre con 69 muertos.\n\nLa Unidad Central Operativa de la Guardia Civil ha recabado documentación en la sede de Adif, en el Tribunal de Cuentas y en la Agencia Estatal de Seguridad Ferroviaria, según han confirmado a Europa Press fuentes de la investigación. No es la primera vez: la Fiscalía ya abrió otra pesquisa por el mismo tipo de fondos tras el siniestro de Adamuz.\n\n## El dinero y el sistema\n\nEl foco está en si el dinero comunitario que debía financiar esos sistemas se empleó para lo que se comprometió. El corredor Madrid-Sevilla es la línea de alta velocidad más antigua de España, y sus equipos de señalización quedaron bajo sospecha desde el doble accidente de octubre.\n\nEn paralelo, El Mundo publica que Adif aprobó blindar el bonus de su cúpula directiva apenas unas horas antes de que dimitiera su presidenta, en plena crisis por la gestión del siniestro. La compañía no ha detallado el importe de esas retribuciones variables.\n\nLa investigación europea se suma a las que ya instruyen juzgados españoles y a la auditoría que reclama el Congreso.",
+      "headline": "PP y Vox llegan al arranque de campaña con 199 diputados y el 50,4% de los votos",
+      "subtitle": "El barómetro de Sigma Dos para El Mundo, que ya incorpora la dimisión de Óscar Puente, da al PSOE 105 escaños y deja a Sánchez a 28 de la mayoría incluso con todos sus aliados de 2023.",
+      "body": "El PP y Vox llegan al arranque formal de la campaña del 29-N con la mayoría absoluta que las encuestas les atribuyen desde hace meses. El último barómetro de Sigma Dos para El Mundo, elaborado entre el 30 de octubre y el 6 de noviembre con 4.172 entrevistas, asigna a los dos partidos 199 de los 350 escaños del Congreso y el 50,4% de los votos.\n\nEl sondeo ya incorpora el efecto de la dimisión de Óscar Puente como ministro de Transportes tras el accidente de Urda, que causó 69 muertos. Feijóo obtendría el 31% y entre 131 y 137 diputados, con 131 como resultado más probable. Vox subiría al 19,4% y hasta 70 asientos, 68 en la estimación central, más del doble de los 33 que tiene ahora.\n\nEl PSOE se quedaría en el 25,2% y 105 escaños, 16 menos que en 2023 y a casi seis puntos del PP. Aun sumando a todos los partidos que apoyaron la investidura de Pedro Sánchez hace tres años, el bloque se quedaría en 148 diputados, 28 por debajo de la mayoría necesaria para seguir en La Moncloa.\n\nFrente Amplio, la candidatura de Ada Colau, entraría con el 8,1% y 15 diputados, la mitad de los que logró Sumar. Podemos, que concurre en solitario, se quedaría sin representación once años después de debutar con 69 escaños.",
+      "imageURL": "/images/2026-11-09-national-001.jpg",
       "sources": [
+        {
+          "name": "El Mundo",
+          "url": "https://www.elmundo.es/espana/encuestas/2026/11/08/6af066bee85eceae5a8b4598.html"
+        },
+        {
+          "name": "20minutos",
+          "url": "https://www.20minutos.es/nacional/sanchez-deja-lado-accidente-urda-dice-que-blindara-pensiones-aborto-constitucion_7058690_0.html"
+        },
         {
           "name": "Europa Press",
-          "url": "https://www.europapress.es/nacional/noticia-fiscalia-europea-abre-investigacion-posible-fraude-fondos-comunitarios-ave-accidente-urda-20261106102906.html"
+          "url": "https://www.europapress.es/euskadi/noticia-sanchez-insiste-blindar-pensiones-subir-smi-pide-votar-masa-llegar-mucho-mas-lejos-20261108133745.html"
+        }
+      ],
+      "publishedAt": "2026-11-09T05:25:00Z"
+    },
+    {
+      "id": "2026-11-09-national-002",
+      "category": "national",
+      "headline": "El Tribunal de Cuentas abre la instrucción para recuperar el dinero de los contratos amañados de Adif",
+      "subtitle": "La sección de enjuiciamiento actúa tras un informe que detectó dos denuncias internas archivadas y adjudicaciones europeas por 85 millones a una constructora de la trama Koldo.",
+      "body": "El Tribunal de Cuentas ha abierto la instrucción para intentar recuperar el dinero público de contratos amañados de Adif, según fuentes conocedoras de la institución citadas por El Mundo. La presidenta de la sección de enjuiciamiento, Rebeca Laliga, ha puesto en marcha el proceso después de que la Fiscalía del Tribunal de Cuentas se posicionara a favor.\n\nLa base es un informe aprobado el pasado diciembre por el consejero José Manuel Otero Lastres, que detectó irregularidades en contratos financiados con fondos europeos. El documento recoge dos denuncias internas presentadas en 2022 en el canal ético de Adif sobre falsificación de puntuaciones en licitaciones para favorecer a una constructora, Obras Públicas y Regadíos (OPR), situada después en la trama Koldo. Adif las archivó sin el rigor exigible, según el informe. Los contratos señalados superan los 85 millones de euros.\n\nLa Unidad Central Operativa de la Guardia Civil acudió el viernes a la sede del tribunal con una solicitud de información. La instrucción corre en paralelo a la investigación penal de la Fiscalía Europea. El expresidente de Adif, Pedro Marco de la Peña, defendió por escrito las adjudicaciones y negó el amaño.\n\n## El bonus que Adif niega\n\nEl mismo domingo, Adif negó que hubiera blindado un bonus para su cúpula antes de la dimisión de Marco de la Peña. La empresa sostiene que lo aprobado el 4 de noviembre fue el convenio de financiación con el Estado para 2026-2030, dotado con unos 19.000 millones, que incluye objetivos que afectan a la retribución variable de parte de la plantilla. Feijóo había pedido en un mitin en Málaga que los directivos devolvieran las gratificaciones.",
+      "imageURL": "/images/2026-11-09-national-002.jpg",
+      "sources": [
+        {
+          "name": "El Mundo",
+          "url": "https://www.elmundo.es/espana/2026/11/09/6af0a574fc6c83f83b8b457c.html"
         },
         {
-          "name": "El País",
-          "url": "https://elpais.com/espana/2026-11-06/la-fiscalia-europea-investiga-un-presunto-fraude-en-las-obras-de-la-alta-velocidad-tras-el-accidente-de-urda.html"
+          "name": "20minutos",
+          "url": "https://www.20minutos.es/nacional/adif-niega-que-haya-aprobado-un-bonus-para-cupula-directiva-empresa_7058755_0.html"
         },
         {
-          "name": "Cadena SER",
-          "url": "https://cadenaser.com/nacional/2026/11/06/la-fiscalia-europea-abre-otra-investigacion-por-presunto-fraude-en-las-obras-de-la-alta-velocidad-la-uco-registra-la-sede-de-adif-cadena-ser"
+          "name": "Europa Press",
+          "url": "https://www.europapress.es/economia/transportes-00343/noticia-adif-niega-haya-blindado-cobro-bonus-cupula-empresa-20261108221852.html"
+        }
+      ],
+      "publishedAt": "2026-11-09T05:30:00Z"
+    },
+    {
+      "id": "2026-11-09-national-003",
+      "category": "national",
+      "headline": "El Hierro declara la emergencia social tras la llegada de 8.000 personas en cinco semanas",
+      "subtitle": "El Cabildo pide colaboración a las instituciones superiores ante el colapso de los recursos de acogida, mientras el sistema canario, con 6.000 plazas, recibe otras 797 personas en un fin de semana.",
+      "body": "El Cabildo de El Hierro declaró el viernes la emergencia social y pidió colaboración a las instituciones superiores para gestionar la crisis migratoria en la isla. En las últimas cinco semanas han llegado más de 8.000 personas, y solo en los últimos cinco días alrededor de 3.000, a bordo de una treintena de cayucos.\n\nEl presidente del Cabildo, Alpidio Armas, formalizó la petición por decreto ante una situación que \"se ha ido agravando\" y que presiona los recursos humanos y asistenciales del protocolo de acogida. Este fin de semana han desembarcado otras 797 personas. El sábado fueron 314 en tres cayucos en el muelle de La Restinga, y en la madrugada del domingo llegó uno con 215 ocupantes, entre ellos diez mujeres y cuatro menores.\n\nEl sistema de acogida canario está limitado a unas 6.000 plazas. La Jefatura Superior ha trasladado agentes de otras islas como refuerzo, una medida que los sindicatos policiales consideran un parche ante la falta de efectivos.\n\nArmas ha advertido de que entra más gente de la que la isla puede derivar a otras instalaciones. El Cabildo cifra la presión acumulada en más del 70% de la población habitual de la isla.",
+      "imageURL": "/images/2026-11-09-national-003.jpg",
+      "sources": [
+        {
+          "name": "La Voz de Galicia",
+          "url": "https://www.lavozdegalicia.es/noticia/espana/2026/11/07/hierro-declara-emergencia-migratoria-ante-llegada-8000-personas-cinco-semanas/00031794049322919322350.htm"
         },
         {
           "name": "El Mundo",
-          "url": "https://www.elmundo.es/economia/2026/11/06/6aee494321efa0477c8b45b8.html"
+          "url": "https://www.elmundo.es/espana/2026/11/07/6aeefc79fdddff540c8b4583.html"
+        },
+        {
+          "name": "RTVE",
+          "url": "https://www.rtve.es/noticias/20261107/hierro-emergencia-migratoria-cinco-semanas/17304466.shtml"
+        },
+        {
+          "name": "Onda Cero",
+          "url": "https://www.ondacero.es/noticias/sociedad/emergencia-migratoria-hierro-797-migrantes-llegan-cayucos-este-fin-semana-mas-8000-ultimas-cinco-semanas_202611086af0516103bbf30bb0445756.html"
         }
       ],
-      "imageURL": "/images/2026-11-07-national-001.jpg"
+      "publishedAt": "2026-11-09T05:35:00Z"
     },
     {
-      "id": "2026-11-07-national-002",
+      "id": "2026-11-09-national-004",
       "category": "national",
-      "headline": "La Guardia Civil eleva a 88.146 los retornos desde Ceuta y sitúa la entrada por encima de 100.000 personas",
-      "subtitle": "Un informe remitido a la Audiencia Nacional supera las 80.000 llegadas que admitió el Gobierno y, sumado a quienes siguen en la ciudad, dibuja una crisis mayor de la reconocida",
-      "publishedAt": "2026-11-07T07:14:00Z",
-      "body": "La Guardia Civil ha cifrado en 88.146 las personas que han regresado a Marruecos desde la entrada masiva registrada en Ceuta los días 30 y 31 de julio. La cifra aparece en un informe remitido a la Audiencia Nacional y supera las aproximadamente 80.000 llegadas que había reconocido el Gobierno central, según publica El Pueblo de Ceuta.\n\nSumados a las más de 12.000 personas que las estimaciones sitúan todavía en la ciudad, el total de entradas superaría las 100.000, una cifra superior a la población censada de Ceuta. El Mundo destaca precisamente esa comparación: la crisis habría superado en volumen a la propia ciudad autónoma.\n\nThe Objective añade que el informe incorpora 862 rescates y 90 fallecimientos vinculados al episodio, y subraya que la Guardia Civil corrige de este modo los datos oficiales del Ministerio del Interior.\n\nEl Ejecutivo sostiene que la mayoría de las personas que cruzaron fueron devueltas en menos de 48 horas y que no se produjeron traslados a la Península. La discrepancia sobre el número real de entradas alimenta ahora el debate político sobre el control de fronteras y sobre la fiabilidad de las cifras oficiales.",
+      "headline": "La borrasca Bruna mantiene el aviso naranja por lluvia en Huelva y Sevilla todo el lunes",
+      "subtitle": "AEMET espera precipitaciones fuertes y persistentes en el oeste peninsular y rachas muy fuertes de viento del sur, con Cáceres y Ávila en naranja durante las primeras horas.",
+      "body": "La borrasca Bruna mantiene este lunes en aviso naranja por lluvia a Huelva y a la Sierra Norte de Sevilla durante todo el día, mientras Cáceres y Ávila conservan la alerta naranja en las primeras horas. La Agencia Estatal de Meteorología espera precipitaciones fuertes y persistentes en el oeste de la Península y rachas muy fuertes de viento del sur.\n\nEn Andalucía, Huelva acumula además avisos por fenómenos costeros y viento, y hay alerta amarilla por lluvia y tormentas en Cádiz, en la comarca de Ronda (Málaga) y en la Sierra de Córdoba. La probabilidad de lluvia llega al 100% en siete capitales andaluzas para este lunes, según la predicción municipal de AEMET.\n\nLa inestabilidad se prolongará el martes y podría seguir el miércoles, con una disminución de la intensidad a partir del jueves.",
+      "imageURL": "/images/2026-11-09-national-004.jpg",
       "sources": [
         {
-          "name": "El Pueblo de Ceuta",
-          "url": "https://www.elpueblodeceuta.es/sec/politica/inmigracion/guardia-civil-destapa-cifra-supera_1_1197781.html"
+          "name": "20minutos",
+          "url": "https://www.20minutos.es/nacional/borrasca-bruna-trae-fuertes-lluvias-viento-las-proximas-horas-buena-parte-espana-estas-son-las-zonas-alerta_7058731_0.html"
         },
         {
-          "name": "El Mundo",
-          "url": "https://www.elmundo.es/espana/2026/11/07/6aee1271e9cf4ae17b8b458e.html"
+          "name": "Diario Sur",
+          "url": "https://www.diariosur.es/andalucia/aemet-activara-aviso-naranja-andalucia-partir-medianoche-noviembre-20261108131829-nt.html"
         },
         {
-          "name": "The Objective",
-          "url": "https://theobjective.com/espana/2026-11-06/guardia-civil-corrige-gobierno-88146-personas-ya-han-vuelto-ceuta-marruecos"
+          "name": "Huelva24",
+          "url": "https://www.huelva24.com/provincia/aemet-eleva-naranja-aviso-lluvias-huelva-lunes-20261108132742-nth.html"
         }
       ],
-      "imageURL": "/images/2026-11-07-national-002.jpg"
+      "publishedAt": "2026-11-09T05:40:00Z"
     },
     {
-      "id": "2026-11-07-national-003",
-      "category": "national",
-      "headline": "La huelga general del 11-N llega con servicios mínimos en transporte, sanidad y comedores escolares",
-      "subtitle": "CCOO y UGT convocan el miércoles el primer paro estatal conjunto desde 2012 por la vivienda y los salarios, dos días antes de que arranque la campaña del 29-N",
-      "publishedAt": "2026-11-07T07:16:00Z",
-      "body": "España afronta el miércoles 11 de noviembre una huelga general de 24 horas convocada por CCOO, UGT, CGT, CNT, Co.bas, Intersindical, Solidaridad Obrera, la Unión de Actores y Actrices y el Sindicato de Inquilinas. Es el primer paro de ámbito estatal que CCOO y UGT secundan juntos desde el 14 de noviembre de 2012.\n\nLas reivindicaciones centrales son el acceso a la vivienda, la subida de salarios y el control de precios, además de la reanudación de la negociación del acuerdo de empleo y negociación colectiva. El origen de la convocatoria está en el movimiento por la vivienda, según recuerdan El Debate e Infobae, y en el desahucio de Maricarmen, el caso que dio nombre a los decretos de alquiler del Gobierno.\n\nLa resolución de servicios mínimos ya está publicada. En transporte se garantizan Cercanías, Media Distancia y AVE, metro y autobuses urbanos, aviación y carretera; en sanidad se mantienen urgencias, UCI, diálisis y oncología; y en educación se fijan mínimos en los centros públicos, los comedores y el transporte escolar.\n\nEl calendario político añade presión: el paro cae dos días antes de que comience la campaña de las elecciones generales del 29 de noviembre, y Feijóo ya pidió a los sindicatos que lo desconvocaran tras el accidente de Urda. Los convocantes han rechazado el aplazamiento.",
-      "sources": [
-        {
-          "name": "El Debate",
-          "url": "https://www.eldebate.com/economia/20261105/huelga-general-11-noviembre-2026-horarios-servicios-minimos-sectores-afectados-cns_477592.html"
-        },
-        {
-          "name": "Infobae",
-          "url": "https://www.infobae.com/espana/2026/11/05/huelga-general-del-11-de-noviembre-estos-son-los-horarios-servicios-minimos-y-sectores-afectados"
-        },
-        {
-          "name": "elEconomista",
-          "url": "https://www.eleconomista.es/economia/noticias/14023848/10/26/horario-de-la-huelga-general-del-11-de-noviembre-2026-estos-son-los-servicios-minimos-turnos-y-sectores-para-el-11n-5.html"
-        }
-      ],
-      "imageURL": "/images/2026-11-07-national-003.jpg"
-    },
-    {
-      "id": "2026-11-07-northernIreland-001",
+      "id": "2026-11-09-northernIreland-001",
       "category": "northernIreland",
-      "headline": "Sinn Féin surges in new polling after Drumcree dispute as DUP slips",
-      "subtitle": "Two surveys published within days both show Sinn Féin gaining ground since the parade standoff, though they disagree on the DUP — one has it steady, the other at a five-year low",
-      "publishedAt": "2026-11-07T07:18:00Z",
-      "body": "The resurrection of the Drumcree parade dispute has pushed Sinn Féin's support higher in two separate polls, with the party gaining most among voters who backed the decision to block the march from the Garvaghy Road.\n\nA More in Common survey of 1,019 adults, reported by The Irish News and RTÉ, put Sinn Féin on 30 per cent, a rise of five points since July, and the DUP on 18 per cent, up one point on the same period.\n\nThe same poll found 53 per cent thought the Secretary of State was right to block the parade, and the same share said the Parades Commission got it wrong when it allowed the march to proceed with restrictions.\n\n## Where the polls part company\n\nA separate poll published on Friday, reported by the Belfast Telegraph, described a record surge for Sinn Féin and put DUP support at a five-year low — a considerably gloomier reading for unionism than More in Common's one-point rise. The newspaper also reported that rival unionists had begun questioning Gavin Robinson's leadership, and that Jamie Bryson was rated more popular than the DUP leader among unionist voters.\n\nUnionist opinion in the More in Common findings was heavily against the decision on the parade: 85 per cent of TUV voters, 76 per cent of DUP voters and 55 per cent of UUP voters said it was wrong. Protestants as a whole were split, 54 per cent against and 28 per cent in favour.\n\nBoth polls point the same way on the broader trend: the standoff over Garvaghy Road has cost unionism more than it has cost nationalism.",
+      "headline": "Fine Gael's unity blueprint says Northern Ireland's growth must double to make it work",
+      "subtitle": "The party's report puts a worst-case first-year cost at €25bn and says the economy would need 3–4.7% annual growth to service transition borrowing over 25 years.",
+      "body": "Irish unity would require Northern Ireland's growth rate to more than double, according to an analysis published with Fine Gael's blueprint on reunification.\n\nProf Stephen Kinsella, who wrote it, said Northern Ireland's economy has averaged about 1.3% growth since the early 2000s. Under what the report calls \"managed integration\" — gradually aligning public-sector pay and benefits, raising infrastructure spending and merging institutions — growth of 3% to 4.7% a year would be needed to service transition borrowing across 25 years.\n\n\"A plan for reunification has to start as a plan for faster growth in Northern Ireland,\" Kinsella said, calling the jump \"a high bar to meet, but it is possible\". At 2% a year, he said, no design repays its borrowing within 25 years.\n\n## What it would cost\n\nThe blueprint, launched at the Fine Gael ardfheis in Cork, puts the year-one cost to the Exchequer at €3.2bn to €25bn, depending on the design and the deal with the British government. Settling pensions and debt would be the largest early decision, ranging from €4bn to €24.8bn. Its most adverse scenario puts the year-25 bill at €41.2bn.\n\nIt also proposes a junior minister for North-South relations inside the Department of the Taoiseach and a sovereign wealth fund to absorb transition costs.\n\nTánaiste Simon Harris said he wants to see a united Ireland in his lifetime, but rejected the idea of a single figure for its price, calling the question \"unfair\" because \"it doesn't exist\". He said a €25bn first-year bill would only arise from immediate alignment and a bad settlement with Britain.\n\nIt follows a suggestion from Taoiseach Micheál Martin that a Future Studies Initiative be appointed to research unification scenarios. Deputy leader Helen McEntee said the party will not run candidates in Northern Ireland's next elections.",
+      "imageURL": "/images/2026-11-09-northernIreland-001.jpg",
       "sources": [
+        {
+          "name": "BBC News NI",
+          "url": "https://www.bbc.co.uk/news/articles/cw8rz73md08vo"
+        },
         {
           "name": "Belfast Telegraph",
-          "url": "https://www.belfasttelegraph.co.uk/news/politics/dup-support-slumps-as-record-surge-for-sinn-fein-revealed-in-new-poll-after-drumcree-dispute/a/164174334.html"
+          "url": "https://www.belfasttelegraph.co.uk/news/republic-of-ireland/no-one-figure-on-united-ireland-tanaiste-says/a/164261045.html"
         },
         {
-          "name": "The Irish News",
-          "url": "https://www.irishnews.com/news/northern-ireland/new-polling-confirms-sinn-fein-surge-on-back-of-drumcree-dispute-EE4NYAHKQJEAVDNGCPK4RWCXL4"
+          "name": "News Letter",
+          "url": "https://www.newsletter.co.uk/news/politics/there-is-no-one-figure-on-cost-of-irish-unification-says-tanaiste-say-9337680"
         },
         {
-          "name": "RTÉ",
-          "url": "https://www.rte.ie/news/regional/2026/1028/1597003-drumcree-poll"
+          "name": "Fine Gael report (PDF)",
+          "url": "https://www.finegael.ie/app/uploads/2026/11/SK_FINAL_REPORT.pdf"
         }
       ],
-      "imageURL": "/images/2026-11-07-northernIreland-001.jpg"
+      "publishedAt": "2026-11-09T05:45:00Z"
     },
     {
-      "id": "2026-11-07-global-001",
+      "id": "2026-11-09-global-001",
       "category": "global",
-      "headline": "Paraguay's Peña arrested and held under house arrest after bank collapse",
-      "subtitle": "Lawmakers voted unanimously to impeach him minutes before his detention, as the failure of a digital bank tied to his business interests left most of the country unable to reach its own money",
-      "publishedAt": "2026-11-07T07:20:00Z",
-      "body": "Paraguay's Santiago Peña has been impeached and arrested, then placed under house arrest, after the collapse of a digital bank linked to his private business interests triggered a nationwide banking crisis.\n\nLawmakers voted unanimously to remove him from office on Friday, including members of his own party, and he was detained minutes later. The Guardian reports that the crisis has left around 60 per cent of the country unable to access accounts, with millions of people's savings frozen since the bank failed.\n\nEuropa Press notes that the Chamber of Deputies approved the impeachment without a single dissenting vote, an outcome with few recent parallels in the region. The vote came at the end of a week in which the banking crisis had already emptied his authority.\n\nThe immediate problem for most Paraguayans is not who governs but whether they can withdraw money. The collapse began in a single institution with links to the president's business dealings and spread through a financial system with thin supervision, and the question now is how far deposit guarantees reach.\n\nRegional governments and creditors are watching how the new administration handles the bank's liabilities, and whether the deposit guarantee fund can cover claims at the scale now being discussed.",
+      "headline": "Poland opens terrorism inquiry into Kraków shooting that killed six",
+      "subtitle": "Prosecutors are treating the attack as terrorism after a 24-year-old with a semi-automatic rifle opened fire in the city; police say he was fascinated by far-right ideology and he remains in critical condition.",
+      "body": "Polish prosecutors have opened a terrorism investigation into Saturday's mass shooting in Kraków, in which six people were killed and many more wounded. The suspect, a 24-year-old who used a semi-automatic rifle, is in a critical condition in hospital. Authorities say he was \"fascinated by far-right ideologies\".\n\nThe attack has left the country in shock and prompted a day of mourning. Two police officers who confronted the gunman have been described as heroes, and a surgeon who was having lunch near the scene is credited by colleagues with undoubtedly saving an officer's life.\n\nPoland has not seen an attack of this scale in decades, and the case has immediately become political, with questions about how the suspect obtained the weapon and whether warnings were missed.\n\n## A city in mourning\n\nFloral tributes have been laid at the site, and vigils were held on Sunday evening. The investigation is now running on two tracks: the criminal case against the suspect, who has not yet been able to be questioned, and the terrorism inquiry into whether the attack was ideologically motivated.\n\nPoland's interior ministry has said it will review firearms licensing rules in the coming weeks.",
+      "imageURL": "/images/2026-11-09-global-001.jpg",
+      "sources": [
+        {
+          "name": "France 24",
+          "url": "https://www.france24.com/en/poland-in-shock-after-6-killed-in-krakow-far-right-shooting"
+        },
+        {
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/nov/08/krakow-shooting-poland-terrorism-investigation"
+        },
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c5x2vw4e1gx1o"
+        }
+      ],
+      "publishedAt": "2026-11-09T05:50:00Z"
+    },
+    {
+      "id": "2026-11-09-global-002",
+      "category": "global",
+      "headline": "Israel's Herzog tasks Gadi Eisenkot with forming a government after election deadlock",
+      "subtitle": "The former military chief and Yashar leader has no clear majority in the Knesset, leaving weeks of bargaining with small parties while Benjamin Netanyahu's bloc stays outside the mandate.",
+      "body": "Israel's president, Isaac Herzog, has asked the former military chief Gadi Eisenkot to try to form a government, handing the mandate to the opposition rather than to Benjamin Netanyahu after an election that left neither bloc with a working majority.\n\nEisenkot, who leads the Yashar party, received the task at the president's residence in Jerusalem on Sunday evening. His problem is arithmetic: without a clear majority in the Knesset, he must assemble a coalition from a set of small, divided parties whose demands are likely to harden as the talks go on.\n\nThe negotiations come as the war Israel launched alongside the United States against Iran shows no sign of ending, and as the domestic political system absorbs the result of an election that reshaped the balance between the main blocs and the smaller lists.\n\n## What happens next\n\nIsraeli coalition talks have historically run to the deadline and beyond, and this round is expected to be no different. If Eisenkot cannot assemble a majority, the mandate can pass to another candidate, and the country could be back at the polls.\n\nNetanyahu has not conceded the political fight, and his allies are expected to use the coming weeks to argue that a government without them would be unstable.",
+      "imageURL": "/images/2026-11-09-global-002.jpg",
+      "sources": [
+        {
+          "name": "France 24",
+          "url": "https://www.france24.com/en/middle-east/20261108-israeli-opposition-leader-eisenkot-begins-the-hard-work-of-forging-a-coalition-government"
+        },
+        {
+          "name": "DW",
+          "url": "https://www.dw.com/en/israeli-president-tasks-gadi-eisenkot-with-forming-government/a-79888288?maca=en-rss-en-world-4025-rdf"
+        },
+        {
+          "name": "NPR",
+          "url": "https://www.npr.org/2026/11/07/g-s1-152536/netanyahu-israel-government-eisenkot-herzog"
+        },
+        {
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/nov/08/gadi-eisenkot-netanyahu-allies-form-israel-government"
+        }
+      ],
+      "publishedAt": "2026-11-09T05:55:00Z"
+    },
+    {
+      "id": "2026-11-09-global-003",
+      "category": "global",
+      "headline": "Houthis hit Aramco Tower in central Riyadh as strikes on Saudi Arabia widen",
+      "subtitle": "Saudi Arabia says the skyscraper suffered only minor damage and no one was hurt, but footage verified by the BBC shows at least one floor badly hit and windows shattered on several levels.",
+      "body": "The Aramco Tower, a skyscraper in Riyadh's central financial district, has been hit by an air attack, the latest in a widening series of Houthi strikes deep inside Saudi Arabia.\n\nA statement carried by the Houthi-controlled Saba news agency confirmed the group had targeted the Saudi capital's business zone on Saturday, without naming the tower. The Saudi energy ministry said the building suffered only \"minor damage\" and that no one was killed or injured.\n\nFootage authenticated by BBC Verify shows more extensive damage, with at least one floor appearing to have been badly hit by a missile or drone and windows shattered on more than one level.\n\nThe Houthis said Riyadh's airport and Aramco oil storage facilities were also targeted in separate attacks. Saudi Arabia said its air defences intercepted and destroyed several missiles.\n\n## A ceasefire that unravelled\n\nThe strikes came a day after the Houthis accused a Saudi-led coalition of killing at least 33 people, including women and children, in an air strike on the town of al-Shariyah, east of Sanaa. Houthi-run television showed rescuers pulling bodies from rubble, and Saba said 39 people were injured. Saudi Arabia has not commented.\n\nAn informal ceasefire collapsed in July after the Houthis announced a \"maritime embargo\" and began attacking Saudi airports, oil facilities and tankers in the Red Sea.",
+      "imageURL": "/images/2026-11-09-global-003.jpg",
       "sources": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c68jzzvjgdy9o"
+          "url": "https://www.bbc.co.uk/news/articles/c6ly3mjx958eo"
         },
         {
-          "name": "The Guardian",
-          "url": "https://www.theguardian.com/world/2026/nov/07/ousted-paraguay-president-under-house-arrest-after-banking-crisis-leaves-60-of-country-unable-to-access-accounts"
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c65yn1v99ypmo"
         },
         {
-          "name": "Europa Press",
-          "url": "https://www.europapress.es/internacional/noticia-congreso-paraguay-destituye-unanimidad-presidente-santiago-pena-20261106232302.html"
+          "name": "France 24",
+          "url": "https://www.france24.com/en/middle-east/20261108-middle-east-live-riyadh-financial-district-targeted-deadly-strikes-yemen-israel-eisenkot-netanyahu-coalition-government-elections"
         }
       ],
-      "imageURL": "/images/2026-11-07-global-001.jpg"
+      "publishedAt": "2026-11-09T05:58:00Z"
     },
     {
-      "id": "2026-11-07-global-002",
+      "id": "2026-11-09-global-004",
       "category": "global",
-      "headline": "Kenyan cult leader sentenced to 200 years for the deaths of 191 followers",
-      "subtitle": "Paul Mackenzie was convicted of ordering members of his church to starve themselves and their children; more than 400 bodies have been exhumed from the forest where the sect lived",
-      "publishedAt": "2026-11-07T07:22:00Z",
-      "body": "A court in Mombasa has sentenced Paul Mackenzie, the leader of a Kenyan doomsday sect, to 200 years in prison for murdering 191 people, all but one of them children.\n\nMackenzie was convicted alongside 28 others for instructing members of his Good News International Church to starve themselves and their children to death so that they would \"meet Jesus\". The BBC reports the sentence was handed down as two consecutive 100-year terms. Prosecutors had argued for the death penalty given the scale of the crimes, though Kenya has not carried out an execution since 1987.\n\nThe case dates to 2023, when more than 400 bodies were found in shallow graves in Shakahola forest near the Kenyan coast. The convictions cover 191 of those deaths; the rest remain the subject of separate investigations, and Mackenzie and other leaders also face charges of terrorism, radicalisation and denying children an education.\n\nRelatives of victims followed the hearings for three years, many of them still searching for missing family members. Sentencing of the remaining accused is expected to continue, with the court treating each defendant individually.",
+      "headline": "Two trains collide near Giza, killing at least four and injuring dozens",
+      "subtitle": "A Giza-Fayoum service ran into the rear of a Cairo-Aswan train; the health ministry reported 88 injured and 72 ambulances sent, while other reports put the death toll at seven.",
+      "body": "Two passenger trains collided near the Egyptian city of Giza on Sunday, killing at least four people and injuring dozens, according to the health ministry. Other reports put the death toll at seven with more than 100 injured, and the figures were still moving on Sunday night.\n\nThe railway authority said a train travelling from Giza to Fayoum, south of Cairo, crashed into the rear of another service heading from Cairo to Aswan. Images from the scene showed several carriages derailed and fallen down an embankment.\n\nThe health ministry said at least 72 ambulances were sent, and local media reported that a train driver was among the dead. Hospitals in the area were put on heightened alert. The collision happened between Kafr Ammar and Al-Raqqa stations in Al-Ayyat.\n\nPresident Abdel Fattah al-Sisi said he was following the incident with \"great concern\" and had ordered state agencies to investigate and hold accountable anyone found negligent. Trains between Giza and Upper Egypt were suspended.\n\nAl-Ayyat is the site of Egypt's worst rail disaster, a fire on a train that killed more than 370 people in 2002.",
+      "imageURL": "/images/2026-11-09-global-004.jpg",
       "sources": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cm5yne5984l0o"
+          "url": "https://www.bbc.co.uk/news/articles/cwvgr20mmmevo"
         },
         {
           "name": "The Guardian",
-          "url": "https://www.theguardian.com/world/2026/nov/06/kenyan-doomsday-sect-leader-jailed-murders-paul-mackenzie"
+          "url": "https://www.theguardian.com/world/2026/nov/08/egypt-two-trains-deadly-collision"
         },
         {
-          "name": "AP",
-          "url": "https://apnews.com/article/kenya-starvation-cult-mackenzie-shakahola-b0ff199504ff668f44d0abefe1c47e44"
+          "name": "El Correo Gallego",
+          "url": "https://www.elcorreogallego.es/videos/mundo/2026/11/08/muertos-heridos-choque-trenes-egipto-136232187.html"
         }
       ],
-      "imageURL": "/images/2026-11-07-global-002.jpg"
+      "publishedAt": "2026-11-09T06:00:00Z"
     },
     {
-      "id": "2026-11-07-global-003",
+      "id": "2026-11-09-global-005",
       "category": "global",
-      "headline": "ANC headed for its worst election result as South Africa counts municipal votes",
-      "subtitle": "With 80 per cent of ballots counted the party sits near 32 per cent, down sharply from 2021, as anger over water and power failures drives voters away in the cities",
-      "publishedAt": "2026-11-07T07:24:00Z",
-      "body": "South Africa's governing African National Congress is heading for its weakest result since the end of apartheid, with about 32 per cent of the vote after 80 per cent of ballots were counted in this week's municipal elections.\n\nThe party that has governed since 1994 was already below 50 per cent in the 2021 local polls, and it has lost support again this week, according to figures from the electoral commission reported by Al Jazeera and the Guardian. The Democratic Alliance sits second on roughly 25 per cent.\n\nIn Buffalo City, the ANC won 42 per cent and lost its majority for the first time, with the United Democratic Movement climbing to second place ahead of the DA. Results in the eight metropolitan municipalities are being counted metro by metro, and final national figures are expected on Sunday.\n\nDiscontent over failing water supplies, power cuts and unemployment dominated the campaign, and more than 500 parties contested nearly 300 municipalities. Analysts read the outcome as a verdict on service delivery ahead of the 2029 general election, and as a warning that coalition politics is now the norm rather than an exception.\n\nThe ANC remains the largest party nationally, but the question after Sunday will be which councils it can still control and on what terms.",
+      "headline": "Pope Leo tells Argentina that growth must reach everyone as he meets Milei",
+      "subtitle": "On the first papal visit to the country since 1987, Leo XIV used his homily to criticise three years of austerity, urging leaders to bridge divisions that have deepened under Javier Milei.",
+      "body": "Pope Leo XIV arrived in Argentina on Sunday from Uruguay and immediately stepped into the country's deepest political divide, using his first public appearance to criticise the austerity imposed by President Javier Milei.\n\nIt is the first papal visit to the homeland of the late Pope Francis in nearly four decades. Milei greeted the pontiff at the airport, and the two appeared together before a crowd that had come with appeals for the Church to help mend a country split by three years of spending cuts.\n\nIn his homily, Leo said economic growth had to benefit everyone and not only those at the top. The Guardian described the address as a stinging rebuke of Milei's programme.\n\nMilei has cut public spending sharply to bring down inflation, which has won him a loyal following among voters who credit him with stabilising prices, but he has also been criticised for restricting democratic freedoms, including the right to protest.\n\nEarlier in the tour, in Uruguay, the Pope urged men to respect their wives, in a region where femicide rates remain among the highest in the world.\n\n## A Church that wants a seat at the table\n\nThe visit gives the Vatican a platform in a region where the Church has lost ground to evangelical movements. Leo is due to hold further meetings with Argentine bishops and social organisations before leaving the country later this week.",
+      "imageURL": "/images/2026-11-09-global-005.jpg",
       "sources": [
         {
-          "name": "The Guardian",
-          "url": "https://www.theguardian.com/world/2026/nov/06/anc-faces-defeat-south-african-local-elections"
+          "name": "France 24",
+          "url": "https://www.france24.com/en/americas/20261108-pope-leo-argentina-visit-milei"
         },
         {
-          "name": "AP",
-          "url": "https://apnews.com/article/south-africa-elections-anc-decline-voters-5de84cd9a66604fcb774b5a97335a6e8"
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/nov/09/pope-leo-argentina-visit-speech-javier-milei-austerity"
         },
         {
           "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/11/5/south-africas-anc-on-track-for-new-lows-in-local-polls"
+          "url": "https://www.aljazeera.com/news/2026/11/8/president-milei-welcomes-pope-leo-during-historic-visit-to-argentina"
         }
       ],
-      "imageURL": "/images/2026-11-07-global-003.jpg"
+      "publishedAt": "2026-11-09T06:02:00Z"
     },
     {
-      "id": "2026-11-07-global-004",
+      "id": "2026-11-09-global-006",
       "category": "global",
-      "headline": "AI stocks bounce back after trillions were wiped from market values",
-      "subtitle": "Shares in chipmakers and model builders recovered on Friday following the worst session in 18 months, with investors still arguing over whether the sell-off was a correction or the start of something longer",
-      "publishedAt": "2026-11-07T07:26:00Z",
-      "body": "Technology shares rallied on Friday, a day after a sell-off wiped trillions of dollars from the market value of companies tied to artificial intelligence.\n\nThe BBC reports that AI-related stocks climbed back as investors returned to the sector, following the Nasdaq's worst day in 18 months. The Guardian attributed the fall to \"big worries over AI\" that spread across global markets in the wake of the Democrats' midterm victories, with investors reassessing how quickly revenue from AI spending will arrive.\n\nThe turn came quickly. Selling had been concentrated in the companies that supply the data centres and chips underpinning the build-out, rather than across the market as a whole, which is why the index-level damage looked severe while other sectors held up.\n\nAnalysts at Kadoa, comparing the episode with 1987, 2008 and other sharp drawdowns, note that the fall differed from a classic crash: it was narrow, driven by a single theme, and reversed within a session once buyers stepped in.\n\nWhat has not been settled is the underlying question — whether the capital being committed to AI infrastructure is proportionate to the revenue it will generate, or whether valuations still price in a future that spending data no longer supports.",
+      "headline": "New Zealand faces weeks of coalition talks after election delivers no clear winner",
+      "subtitle": "National's bloc holds 67 seats and Labour's 57 before special votes are counted, leaving both major parties dependent on emboldened minor partners while Christopher Luxon stays on as caretaker.",
+      "body": "New Zealanders will wait weeks to learn who governs them after Saturday's election failed to produce a decisive win for either the centre-right National party or the centre-left Labour party.\n\nOn the preliminary count, Prime Minister Christopher Luxon's bloc holds 67 seats, a wafer-thin margin for a three-way government with two emboldened minor parties. Labour, led by Chris Hipkins, holds 57 before the traditionally left-leaning special votes are counted, and would apparently need the support of the newcomer Wong to govern.\n\nThe result is a rebuke to both parties that have long dominated New Zealand politics. Voters put more support than before behind minor parties on the ideological flanks, giving those parties leverage to extract deeper policy concessions in coalition talks.\n\nLuxon, who will lead a caretaker government during negotiations, played down the uncertainty. \"I think everyone's over politics so let's all have a bit of a break for the next three weeks,\" he said.\n\nHe repeatedly ruled out negotiating with Wong before the election and sidestepped questions on Sunday about whether his vanishingly slim lead had changed his mind.\n\nThe shape of the next government will not be known until the special votes are counted and the coalition arithmetic settles, a process that has taken weeks in previous cycles.",
+      "imageURL": "/images/2026-11-09-global-006.jpg",
       "sources": [
         {
+          "name": "NPR",
+          "url": "https://www.npr.org/2026/11/08/nx-s1-6033999/no-clear-winner-in-new-zealand-election-as-leaders-prepare-for-weeks-of-talks"
+        },
+        {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c35ynnpzdq51o"
+          "url": "https://www.bbc.co.uk/news/articles/cxr5yyg2nj9eo"
         },
         {
           "name": "The Guardian",
-          "url": "https://www.theguardian.com/business/2026/nov/06/global-stocks-plunge-amid-ai-slowdown-fears-after-democrats-midterm-triumph"
-        },
-        {
-          "name": "Kadoa",
-          "url": "https://www.kadoa.com/companies/insights/ai-selloff-perspective"
+          "url": "https://www.theguardian.com/world/2026/nov/07/new-zealand-election-too-close-to-call-vote-count"
         }
       ],
-      "imageURL": "/images/2026-11-07-global-004.jpg"
+      "publishedAt": "2026-11-09T06:04:00Z"
     },
     {
-      "id": "2026-11-07-tech-001",
+      "id": "2026-11-09-tech-001",
       "category": "tech",
-      "headline": "Tesla will stop building the Cybertruck in 2027 after years of weak sales",
-      "subtitle": "The stainless-steel pickup, launched as Tesla's most distinctive product in a decade, ends production next year; it never sold in the volumes the company projected for it",
-      "publishedAt": "2026-11-07T07:30:00Z",
-      "body": "Tesla will end production of the Cybertruck next year, winding down a vehicle that was supposed to redefine the pickup market and instead became the clearest example of the company's overreach.\n\nTechCrunch reported the decision on Friday. NBC News describes a wind-down after years of poor sales in the relatively few markets where the truck was offered, and the BBC reads Elon Musk's own comments as signalling the end of the road for the model.\n\nThe Cybertruck arrived late and expensive, with a body built from stainless steel that made it difficult to manufacture at volume. What looked like a deliberate break with pickup convention turned into a production problem, and the polarising design did not convert into the fleet sales that sustain the segment.\n\nWired's obituary for the vehicle argues its death is good news for electric cars generally: the segment's credibility was being weighed down by a halo product that sold poorly and distracted from cheaper models.\n\nTesla has not said what replaces it at the factory or how many jobs are affected. The company's pickup customers are concentrated in North America, and its range has been shrinking rather than expanding since the model launched.",
+      "headline": "Nvidia opens investigation into Jensen Huang's ties to an alleged Chinese spy",
+      "subtitle": "The board is examining how a woman linked to China's top spy agency got close to the chief executive, after he acknowledged an affair to staff and US lawmakers called him in.",
+      "body": "Nvidia has opened an investigation into how its chief executive, Jensen Huang, came to have a close relationship with a woman US officials believe was recruited by China's Ministry of State Security, according to the New York Times.\n\nThe story surfaced in late October and escalated this week. The Financial Times reported that Huang has acknowledged an affair with the woman. Axios reported that lawmakers called the Nvidia boss in to answer questions about the relationship, and Nvidia published a message to its own staff on Sunday in which Huang addressed it directly.\n\nThe case is awkward for a company at the centre of US export controls on AI chips. Nvidia's H200 processors are the most sensitive product the US allows to be sold to Chinese customers, and any suggestion that a foreign intelligence service had access to the chief executive is a national security problem as much as a corporate one.\n\n## Why it matters\n\nNvidia's board now has to establish what was discussed, who else was present and whether any commercially sensitive information moved. The company has not said how long the review will take.\n\nHuang remains chief executive and has kept a public schedule, including appearances tied to the company's data-centre business.",
+      "imageURL": "/images/2026-11-09-tech-001.jpg",
       "sources": [
         {
-          "name": "TechCrunch",
-          "url": "https://techcrunch.com/2026/11/06/tesla-will-stop-making-the-cybertruck-in-2027/"
+          "name": "The New York Times",
+          "url": "https://www.nytimes.com/2026/11/08/technology/nvidia-investigation-jensen-huang-china.html"
         },
         {
-          "name": "Wired",
-          "url": "https://www.wired.com/story/rip-cybertruck-you-were-unloved-unwanted-and-utterly-absurd/"
+          "name": "Financial Times",
+          "url": "https://www.ft.com/content/1397e2f4-d7f5-4cbb-a4d9-04ecf661d1aa"
         },
         {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cq1j33w7d232o"
+          "name": "Axios",
+          "url": "https://www.axios.com/2026/11/05/jensen-huang-nvidia-congress-china"
         },
         {
-          "name": "NBC News",
-          "url": "https://www.nbcnews.com/tech/tech-news/tesla-wind-cybertruck-production-years-poor-sales-markets-rcna607817"
+          "name": "Nvidia",
+          "url": "https://nvidianews.nvidia.com/news/a-message-to-our-company"
         }
       ],
-      "imageURL": "/images/2026-11-07-tech-001.jpg"
+      "publishedAt": "2026-11-09T06:05:00Z"
     },
     {
-      "id": "2026-11-07-tech-002",
+      "id": "2026-11-09-tech-002",
       "category": "tech",
-      "headline": "Google buys Crusoe's Wyoming data centre site a day after announcing a $17bn build",
-      "subtitle": "Crusoe hands over the southeast Wyoming campus it had taken through site selection and permits, leaving Google to build the first of its data centres in the state",
-      "publishedAt": "2026-11-07T07:32:00Z",
-      "body": "Google has acquired the data centre site in southeast Wyoming that AI infrastructure developer Crusoe had been preparing, a day after the company announced a $17 billion investment in the project.\n\nReuters reports that Crusoe said it had completed its involvement in the pre-development phase — site selection, government approvals and power strategy — and that financial terms were not disclosed. The campus was initially developed by Crusoe with Tallgrass Energy.\n\nGoogle said on Thursday that it would build the facility with Tallgrass, Black Hills Energy, American Electric Power and Related Digital. Site development is due to start as early as the end of this year, with some data halls operating in the second half of 2028 and the full build finished around the end of 2031.\n\nTechCrunch describes the Wyoming project as troubled, coming as it does amid growing local opposition to large data centres in parts of the United States. Crusoe chief executive Chase Lochmiller said the company holds more than six gigawatts of contracted capacity and over 40 gigawatts in its development pipeline, and that it is building another Google campus in Armstrong.\n\nThe transaction shows how the roles have separated in the AI build-out: specialists like Crusoe find sites and secure power, then hand the construction to the company that will fill the halls with servers.",
+      "headline": "Iran-linked tankers loitered over Gulf internet cables, maritime tracker says",
+      "subtitle": "Windward told the Financial Times that at least four vessels slowed, looped and went dark above cable corridors in the Gulf of Oman — behaviour consistent with mapping routes or placing charges.",
+      "body": "Several tankers linked to Iran have been loitering over undersea internet cables in the Gulf of Oman near the Strait of Hormuz, in what maritime intelligence firm Windward says could be preparation to attack the infrastructure.\n\nWindward used ship-tracking data and satellite imagery to follow the vessels. Three were US-sanctioned oil tankers, and one had been boarded by US Marines in May. According to the company, they travelled \"normally until they reached a specific cable corridor, and only then slowed, looped, turned back, loitered or went dark\" — switching off the AIS transponders that broadcast a ship's position.\n\nThat pattern is consistent with mapping cable routes, or with positioning charges or mines while unobserved, Windward told the FT. One of the corridors visited carries the 2Africa cable, owned by a consortium that includes Meta.\n\nThe reporting follows repeated Iranian warnings that it could target regional communications infrastructure if the US and Israel strike again, and a Wall Street Journal report in August that the Revolutionary Guard was planning further escalation in the strait, including sabotage of undersea cables.\n\nNot everyone is convinced. Masha Kotkin of the Center for Strategic and International Studies told Alhurra that the IRGC has not threatened subsea cable infrastructure since March, and that \"it seems that hostilities are centred around commercial vessels at this time\".",
+      "imageURL": "/images/2026-11-09-tech-002.jpg",
       "sources": [
         {
-          "name": "TechCrunch",
-          "url": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/"
+          "name": "Ars Technica",
+          "url": "https://arstechnica.com/gadgets/2026/11/ships-loiter-near-subsea-cables-amid-irans-warnings-to-trump/"
         },
         {
-          "name": "Reuters",
-          "url": "https://www.reuters.com/business/google-acquires-wyoming-data-center-site-ai-infrastructure-firm-crusoe-2026-11-06"
+          "name": "Iran International",
+          "url": "https://www.iranintl.com/en/202611067103"
         },
         {
-          "name": "Google",
-          "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/wyoming-data-center"
+          "name": "The Media Line",
+          "url": "https://srnnews.com/the-media-line-iranian-ships-suspected-of-mapping-undersea-cables-for-sabotage-following-tehrans-threats"
         }
       ],
-      "imageURL": "/images/2026-11-07-tech-002.jpg"
+      "publishedAt": "2026-11-09T06:08:00Z"
     },
     {
-      "id": "2026-11-07-tech-003",
+      "id": "2026-11-09-tech-003",
       "category": "tech",
-      "headline": "Fox closes its $22 billion purchase of Roku and folds it into its streaming arm",
-      "subtitle": "Roku stops trading on the Nasdaq as it joins Tubi and Fox One inside Fox Digital Platforms, giving Fox a connected-TV platform in more than 100 million households",
-      "publishedAt": "2026-11-07T07:34:00Z",
-      "body": "Fox has completed its $22 billion acquisition of Roku, and the streaming company's shares stopped trading on the Nasdaq on Friday, closing a deal announced in June.\n\nThe cash-and-stock transaction folds Roku into Fox Digital Platforms, which already houses Tubi, Fox One and Red Seat Ventures. Roku's founder Anthony Wood joins Fox's board and becomes co-chair of that unit alongside its chief executive, Paul Cheesbrough, according to Adweek.\n\nFox says the combination creates the third-largest entity in US television by share of viewing. Roku's platform reaches more than 100 million households, most of them in the United States, and gives Fox first-party data on what those households watch and an advertising business to sell against it. The company expects about $400 million in run-rate cost savings within two years.\n\nLachlan Murdoch called the closing the start of \"a new transformational era\" for Fox, and said the priority for the combined company would be serving audiences and partners while keeping Roku an open platform.\n\nThe strategic logic is scale in free, ad-supported streaming: Tubi already reaches around 110 million monthly active users, and Roku adds both a device footprint and a home screen that Fox now controls.",
+      "headline": "Epic's rebuilt games launcher arrives on SteamOS, and Epic says it is faster than Steam",
+      "subtitle": "The company's new client, largely written with AI coding tools, now runs on Valve's Linux-based system — a small crack in the wall around Steam's home turf.",
+      "body": "Epic Games is bringing its launcher to SteamOS, the Linux-based system that powers the Steam Deck, in a move that puts its store inside the environment Valve controls.\n\nThe launcher is a rebuild, and Epic has been unusually open that much of it was written with AI coding assistants — a decision Ars Technica covered under the headline that programming is hard. Epic's pitch is speed: its own testing, relayed by Neowin, puts the new client roughly 46% faster than Steam at comparable tasks.\n\nGetting onto SteamOS matters more than the benchmark. SteamOS users have historically been able to install competing stores only by dropping into desktop mode, and anything that smooths that path weakens the assumption that a Steam Deck is a Steam machine first.\n\nValve has not blocked third-party stores, and the Deck's desktop mode has always been an open Linux environment. Epic's move tests how far that openness extends when a rival makes itself comfortable.\n\nWhether players follow is a different question. Steam's advantage is the library and the friends list, not the launcher's frame rate.",
+      "imageURL": "/images/2026-11-09-tech-003.jpg",
       "sources": [
         {
-          "name": "TechCrunch",
-          "url": "https://techcrunch.com/2026/11/06/fox-completes-its-22b-acquisition-of-roku/"
+          "name": "The Verge",
+          "url": "https://www.theverge.com/games/819350/epic-games-launcher-steamos-linux"
         },
         {
-          "name": "Deadline",
-          "url": "https://deadline.com/2026/11/fox-corp-closes-roku-acquisition-1237215436"
+          "name": "Ars Technica",
+          "url": "https://arstechnica.com/gaming/2026/10/programming-is-hard-epic-games-leans-on-vibe-coding-for-its-new-launcher-app/"
         },
         {
-          "name": "Adweek",
-          "url": "https://www.adweek.com/convergent-tv/fox-corp-completes-22-billion-deal-for-roku"
+          "name": "Neowin",
+          "url": "https://www.neowin.net/news/epic-wants-you-to-ditch-steam-for-its-new-faster-vibe-coded-games-launcher/"
         }
       ],
-      "imageURL": "/images/2026-11-07-tech-003.jpg"
+      "publishedAt": "2026-11-09T06:10:00Z"
     },
     {
-      "id": "2026-11-07-tech-004",
+      "id": "2026-11-09-tech-004",
       "category": "tech",
-      "headline": "The FAA will retire floppy disks from 400 air traffic control sites by 2028",
-      "subtitle": "A new display system replaces four sets of 1980s equipment that controllers still use for weather and operational updates, and the agency is still buying spare parts on eBay",
-      "publishedAt": "2026-11-07T07:36:00Z",
-      "body": "The US Federal Aviation Administration says it will stop using floppy disks at more than 400 air traffic control facilities by the end of 2028, replacing equipment that dates to the 1980s.\n\nReuters reported on Thursday that the agency will install an Enterprise Information Display System, which consolidates into one place the operational information controllers currently pull from four separate legacy systems — weather updates among them.\n\nThe disclosure is an unusually concrete measure of how old the agency's infrastructure has become. Reuters has previously reported that the FAA relies on decades-old Compaq computers and buys replacement parts on eBay to keep systems running.\n\nCongress has approved $12.5 billion to modernise FAA technology, and Transportation Secretary Sean Duffy has asked for a further $30 billion. The agency is also moving away from paper flight strips: 27 of 49 major airports have switched to digital tracking, with full implementation targeted for 2028.\n\nFAA administrator Bryan Bedford has framed the work as replacing slow, manual processes with real-time sharing of alerts and reports. The timeline matters politically as well: the upgrades land after a year of high-profile air traffic disruptions in the United States, including a circuit failure in Philadelphia and a severed fibre cable in New Jersey that together delayed or cancelled thousands of flights in September.",
+      "headline": "The data-centre backlash became an election issue in the US midterms",
+      "subtitle": "Opposition to new AI campuses helped Democrats in races from Texas to Pennsylvania, and the argument is now being tested in Europe as well.",
+      "body": "Local fights over AI data centres turned into national politics in last week's US midterms, with candidates in several states campaigning against new campuses and the power lines and water supplies they need.\n\nCNN reported that the backlash fuelled Democratic gains, describing a \"historic blue wave\" in which data-centre opposition was one of the issues that moved voters. Bloomberg had tracked the same tension in Texas before the vote, where a construction boom collided with residents worried about electricity bills, noise and land use.\n\nThe companies are worried. Meta has warned that political pushback threatens its AI infrastructure plans, and the industry's argument — that the campuses bring tax revenue and jobs — has not travelled well in counties facing higher utility costs.\n\nThe question now is whether the fight exports. France 24 examined whether the US backlash could spread to France, where data-centre projects face their own planning battles and where electricity prices are a live political issue.\n\nFor the AI labs, the constraint is no longer only chips. It is permits, substations and the patience of local councils.",
+      "imageURL": "/images/2026-11-09-tech-004.jpg",
       "sources": [
         {
-          "name": "Reuters",
-          "url": "https://www.reuters.com/world/us/us-faa-says-it-will-phase-out-floppy-disks-air-traffic-control-by-2028-2026-11-05/"
+          "name": "CNN",
+          "url": "https://www.cnn.com/2026/11/07/politics/democrats-midterms-data-centers-ken-paxton-james-talarico"
         },
         {
-          "name": "The San Joaquin Valley Sun",
-          "url": "https://sjvsun.com/u-s/faa-to-eliminate-floppy-disks-from-air-traffic-control-by-2028"
+          "name": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-29/texas-data-center-boom-collides-with-backlash-ahead-of-midterms"
         },
         {
-          "name": "LiveNOW from FOX",
-          "url": "https://www.livenowfox.com/news/faa-finally-phase-out-floppy-disks-from-air-traffic-control-systems-2028"
+          "name": "France 24",
+          "url": "https://www.france24.com/en/tv-shows/tech/20261107-us-voters-reject-ai-data-centres-could-the-backlash-spread-to-france"
         }
       ],
-      "imageURL": "/images/2026-11-07-tech-004.jpg"
+      "publishedAt": "2026-11-09T06:12:00Z"
     },
     {
-      "id": "2026-11-07-ai-001",
+      "id": "2026-11-09-ai-001",
       "category": "ai",
-      "headline": "OpenAI closes $11 billion at a $1.25 trillion valuation, short of what it sought",
-      "subtitle": "The first tranche of a round that has not finished values the lab a little below the $1.4 trillion it had targeted, in a week when AI stocks were sold off hard",
-      "publishedAt": "2026-11-07T07:40:00Z",
-      "body": "OpenAI has taken in about $11 billion in the first part of a new funding round that values the company at $1.25 trillion, according to Bloomberg reporting carried by TechCrunch and Investing.com.\n\nThe money had reportedly been transferred by Friday. The round itself has not closed: TechCrunch reports it is expected to wrap up in the coming weeks and could reach roughly $20 billion in total. Benzinga put the raise at $11.5 billion and noted it fell well short of the $1.4 trillion valuation the company had been seeking.\n\nThe timing is awkward. The money landed at the end of a week in which AI-linked shares suffered their sharpest fall in 18 months before recovering, and in which rival Anthropic was moving toward its own listing. Benzinga reports that Anthropic is eyeing a valuation of up to $2 trillion in that IPO, against the $1.25 trillion OpenAI has just settled at.\n\nFor OpenAI the cash buys time for compute contracts already signed. What it does not settle is the question investors have started asking out loud: whether revenue growth justifies a valuation of this size when spending on infrastructure keeps rising faster than sales.",
+      "headline": "Elvis Presley's heirs and Eminem's publisher sue Suno over AI voice cloning",
+      "subtitle": "Two suits filed in California accuse the music generator of training on 859 Presley compositions and of letting users type Elvis's name and get his voice back.",
+      "body": "Elvis Presley Enterprises and Raleigh Music Publishing sued the AI music generator Suno on Friday, accusing it of copying Elvis's catalogue to train its models and of letting users produce songs built on his voice and likeness.\n\nThe 51-page complaint, filed in the Northern District of California, says Suno copied 859 Presley compositions into its training data without a licence. It also alleges that typing Presley's name into Suno's Create function produces music built on his likeness, and points to albums and playlists in Suno's library of AI-generated Elvis replicas, complete with cover art.\n\nThe suit is the first significant test of Tennessee's ELVIS Act, a 2024 law that protects a performer's voice from unauthorised AI cloning. The plaintiffs' lawyer, Richard Busch, argued that Suno is the reason the statute was needed at all.\n\nA second suit filed the same day by Eight Mile Style, Eminem's publisher, makes similar training and likeness claims.\n\nThe cases arrive after a year of settlements. Universal Music settled with Suno's rival Udio in October 2025, Warner Music settled with Suno in November 2025 in exchange for a licensing deal that includes a commitment to retire its current models, and Universal and Sony are still litigating.",
+      "imageURL": "/images/2026-11-09-ai-001.jpg",
       "sources": [
         {
-          "name": "TechCrunch",
-          "url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/"
+          "name": "The Verge",
+          "url": "https://www.theverge.com/news/818104/elvis-presley-enterprises-suno-lawsuit-ai-voice"
         },
         {
-          "name": "Investing.com",
-          "url": "https://www.investing.com/news/stock-market-news/openai-closes-11-billion-funding-at-125-trillion-valuation--report-5009147"
+          "name": "Local Memphis",
+          "url": "https://www.localmemphis.com/article/money/business/elvis-presley-suno-ai-music-lawsuit/522-bccfd6bd-405b-4935-b110-e91b5022e50f"
         },
         {
-          "name": "Benzinga",
-          "url": "https://www.benzinga.com/news/26/10/62764054/openai-raises-just-11-billion-as-ai-bubble-fears-rise-valuation-hits-1-25-trillion"
+          "name": "MLQ",
+          "url": "https://mlq.ai/news/elvis-presleys-rights-holders-and-eminems-publisher-sue-ai-music-generator-suno"
         }
       ],
-      "imageURL": "/images/2026-11-07-ai-001.jpg"
+      "publishedAt": "2026-11-09T06:14:00Z"
     },
     {
-      "id": "2026-11-07-ai-002",
+      "id": "2026-11-09-ai-002",
       "category": "ai",
-      "headline": "Meta adds Spaces to Muse, turning its AI agent into a set of separate workspaces",
-      "subtitle": "Users can spin up topic-specific conversations where the agent works toward a single goal, the second Muse feature Meta has shipped in a week",
-      "publishedAt": "2026-11-07T07:42:00Z",
-      "body": "Meta has introduced Spaces, a way of organising work with Muse, the personal AI agent it launched in September, into separate topic-based conversations that sit in the app's sidebar.\n\nTechCrunch describes them as breakout conversations built around a particular subject, which Meta calls \"custom experiences\": opening one brings up a workspace where Muse pursues a specific goal on the user's behalf. The Verge notes the feature is aimed at people who need a version of the app shaped around one ongoing task rather than a single running chat.\n\nIt is the second Muse addition in a week. Meta brought out Muse Voice on Thursday, letting users talk to their agent by video call, and the company has been building out the product's surface area quickly since launch. On October's earnings call Mark Zuckerberg said Muse had reached 10 million users in the US and Canada less than two months after release, according to MarketScale.\n\nMeta is not alone in packaging agents this way. OpenAI's dots and SpaceXAI's Grokbot have been launched with similarly personable framing, and the competition has shifted from raw model quality toward how usable and how trustworthy the agent feels in daily use.",
+      "headline": "Apple pushes Siri toward an agentic assistant as its AI gap widens",
+      "subtitle": "Bloomberg reports Tim Cook has pressed software chief Craig Federighi for a more ambitious strategy, with a Siri that acts across apps rather than answering one question at a time.",
+      "body": "Apple's chief executive, Tim Cook, has pressed the company's software chief, Craig Federighi, to pursue a more ambitious AI strategy, according to Bloomberg, with Siri at the centre of it.\n\nThe plan reported this weekend would turn Siri from a voice assistant that answers one question at a time into an agent that can carry out tasks across apps — the kind of multi-step behaviour that ChatGPT, Claude and Gemini have been shipping for a year. Bloomberg's reporting ties the work to a broader reorganisation expected to land in the iOS 28 cycle.\n\nThe pressure is real. Apple was first to put a mainstream assistant in a phone and has since been the slowest of the big platforms to make that assistant useful. Its private-cloud approach, in which sensitive requests are handled on dedicated Apple silicon rather than third-party servers, is a genuine differentiator, but security researchers have argued that \"private\" inference is not as private as the marketing implies.\n\n## The trust problem\n\nApple's pitch depends on users believing the processing stays theirs. That claim is now being tested by the same regulators and researchers who spent the past two years pulling apart other vendors' privacy language.",
+      "imageURL": "/images/2026-11-09-ai-002.jpg",
       "sources": [
         {
-          "name": "TechCrunch",
-          "url": "https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent"
+          "name": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/newsletters/2026-11-08/apple-explores-turning-siri-ai-into-chatgpt-dots-like-agent-ios-28-shake-up"
         },
         {
           "name": "The Verge",
-          "url": "https://www.theverge.com/tech/1028871/meta-muse-ai-spaces"
+          "url": "https://www.theverge.com/news/818650/apple-siri-agentic-ai-strategy"
         },
         {
-          "name": "MarketScale",
-          "url": "https://www.marketscale.com/industries/software-and-technology/meta-muse-spaces-ai-agent-trackers-planners"
+          "name": "A Few Thoughts on Cryptographic Engineering",
+          "url": "https://blog.cryptographyengineering.com/2026/06/09/apples-siri-ai-or-more-shouting-into-the-void-about-private-agents/"
         }
       ],
-      "imageURL": "/images/2026-11-07-ai-002.jpg"
+      "publishedAt": "2026-11-09T06:16:00Z"
     },
     {
-      "id": "2026-11-07-ai-003",
+      "id": "2026-11-09-ai-003",
       "category": "ai",
-      "headline": "Corporate card data shows AI spending flattening just as Anthropic approaches its IPO",
-      "subtitle": "Ramp's transaction records suggest business adoption has stopped accelerating, a difficult signal for a listing that will be priced on expectations of continued growth",
-      "publishedAt": "2026-11-07T07:44:00Z",
-      "body": "Spending on AI tools by businesses appears to have stopped growing, according to transaction data from Ramp, the corporate card and expense platform, just as Anthropic prepares to list.\n\nTechCrunch reports that the firm's anonymised spending records show the growth curve flattening. That matters because corporate cards are one of the few places where AI adoption can be measured in money rather than surveys, and the trend has been one of the sector's more reliable arguments that demand is real.\n\nAnthropic, meanwhile, has opened its books. Humanity Redefined's weekly briefing describes the disclosure as coming in a bad week for Big Tech, with the company's S-1 arriving into a market that had just sold off AI shares and was rethinking what multiples the sector deserves. The Verge notes that Anthropic's listing now provides the first public valuation for a frontier lab.\n\nThe tension is straightforward: an IPO is priced on the assumption that enterprise spending keeps compounding, and the card data suggests it has levelled off at the customers who were quickest to adopt.\n\nNone of this says the market is shrinking. It says the easy phase — teams signing up, seats multiplying — may be over, and the next leg depends on selling deeper into the same accounts.",
+      "headline": "The US cleared two dozen Chinese firms to handle Nvidia's H200 chips. Some had empty offices",
+      "subtitle": "Reporters who visited two approved licensees in Beijing found hollow buildings; one is 17 months old and its owners are tied to a fund on the US entity list.",
+      "body": "The US Commerce Department has cleared roughly two dozen Chinese companies to buy or handle Nvidia's H200 AI chips, and at least two of them appear to operate from empty buildings, according to a New York Times investigation.\n\nOne is New Matrix, a 17-month-old Beijing company approved to assemble H200s into AI servers. Times reporters found its listed address in a new industrial park on the city's northwest edge to be \"a hollow gray structure with wires hanging from the ceiling where light fixtures should be\" and nothing else inside. A second licensee, Maginfra, was also deserted when reporters visited; analysts say it looks linked to Inspur, which is on the US entity list over military work.\n\nNew Matrix's owners are reported to be tied to Wise Road Capital, a private equity fund placed on the entity list in 2024. Approvals also cover large customers including Baidu, BYD and Tesla's Shanghai unit.\n\nUnder the programme, each customer may take up to 75,000 chips; people familiar with the approvals told the Times that no company has reached its limit. In May, CNBC reported about ten Chinese firms had been cleared, including Alibaba, Tencent, ByteDance and JD.com, with Lenovo and Foxconn acting as distributors.\n\nThe Commerce Department has not confirmed the total, and the figures come from people briefed on the approvals rather than published documents.",
+      "imageURL": "/images/2026-11-09-ai-003.jpg",
       "sources": [
         {
-          "name": "TechCrunch",
-          "url": "https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/"
-        },
-        {
-          "name": "Humanity Redefined",
-          "url": "https://www.humanityredefined.com/p/sync-595"
+          "name": "The New York Times",
+          "url": "https://www.nytimes.com/2026/11/07/business/economy/nvidia-chips-chinese-firms.html"
         },
         {
           "name": "The Verge",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation"
-        }
-      ],
-      "imageURL": "/images/2026-11-07-ai-003.jpg"
-    },
-    {
-      "id": "2026-11-07-ai-004",
-      "category": "ai",
-      "headline": "Open-weight Chinese models are nearly as good at hacking as the best closed ones",
-      "subtitle": "A test in which models were asked to break into simulated networks found DeepSeek and GLM close behind OpenAI's most capable cyber model, which the company does not release",
-      "publishedAt": "2026-11-07T07:46:00Z",
-      "body": "Open-weight artificial intelligence models are now almost as capable of breaking into computer networks as the best closed systems, according to research reported by Wired, narrowing a gap that had been one of the arguments for keeping frontier models behind an API.\n\nIn the experiment, models were asked to attack simulated networks. The hacking skills of DeepSeek and GLM came out not far behind OpenAI's most advanced cyber model, which the company does not make public. Because the weights are downloadable, anyone who wants that capability can run it without permission, monitoring or a usage limit.\n\nWired separately reports that Z.ai's new open-weight model, released in a limited form to trusted partners, shows how quickly these systems are gaining offensive security skills.\n\nThe surrounding ecosystem is growing too. TechCrunch reports that hundreds of tools built with Artex, a platform for AI-assisted hacking, were found publicly exposed on the web — work that once required specialist knowledge now assembled from shared components.\n\nDefenders are not standing still, and model makers argue that AI is also the best tool for finding flaws before attackers do. But the balance shifts when the capability is free, local and unrecallable: a model that can be downloaded cannot be patched out of existence by the company that trained it.",
-      "sources": [
-        {
-          "name": "Wired",
-          "url": "https://www.wired.com/story/free-chinese-ai-models-are-getting-scary-good-at-hacking/"
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1029483/nvidia-ai-chips-china-blacklist-government"
         },
         {
-          "name": "Wired",
-          "url": "https://www.wired.com/story/zai-open-weight-ai-models-release-cybersecurity-hacking"
-        },
-        {
-          "name": "TechCrunch",
-          "url": "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/"
+          "name": "MLQ",
+          "url": "https://mlq.ai/news/us-cleared-a-chinese-firm-with-an-apparently-empty-office-to-assemble-nvidia-h200-servers-nyt-reports"
         }
       ],
-      "imageURL": "/images/2026-11-07-ai-004.jpg"
+      "publishedAt": "2026-11-09T06:18:00Z"
     }
   ]
 }
