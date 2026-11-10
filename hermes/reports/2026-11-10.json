@@ -1,0 +1,28 @@
+{
+  "date": "2026-11-10",
+  "published": true,
+  "publishedAt": "2026-11-10T05:06:50Z",
+  "sections": {
+    "present": [
+      "local",
+      "national",
+      "northernIreland",
+      "global",
+      "tech",
+      "ai"
+    ],
+    "missing": []
+  },
+  "storiesWithoutPhoto": [],
+  "validatorWarnings": [],
+  "validatorErrors": [],
+  "workarounds": [
+    "El Progreso and La Voz de Galicia carry almost no Lugo city items in their RSS feeds, so local was built from Google News RSS (when:2d, Lugo) plus the lavozdegalicia.es/lugo and elprogreso.es/lugo section pages, then the Google News redirects were resolved with curl -L to recover the real outlet URLs.",
+    "El País article pages return only the headline and standfirst to curl; national and global stories that rely on them are written from those plus corroborating Spanish outlets (20minutos, Europa Press, El Mundo) rather than from full El País text.",
+    "The Belfast Telegraph blocked extraction of its Waterside racist-attacks piece (bot wall, 403-class); it is cited at headline level and all detail in that story comes from the BBC and Derry Journal reports of the same incidents.",
+    "ai shipped 3 stories against the 4–7 target: apart from Anthropic's double model release, every AI candidate in the feeds (Apple Intelligence usage packs, the COP31 AI pledge, Google's TPU announcement, Gemini annotator reports) was carried by a single outlet, and padding with a one-source story would have failed the 3-source rule. Those stories are held for tomorrow rather than forced in."
+  ],
+  "needsHumanAttention": false,
+  "humanAttentionReason": null,
+  "notes": "Heavy news day: the eve of the 11-N general strike, the Urda train crash aftermath with an Iryo black-box revelation, and Abascal's La Revuelta interview all landed the same evening, so national ran to its 5-story ceiling. Turkey blast (16) and Senegal shipwreck (34/35/39) both had tolls that moved during the day; the articles state the discrepancy rather than picking one figure. Nvidia is a day-two follow-up rather than a fresh story — the new material is Trump confirming an FBI investigation and the wave of shareholder suits, not yesterday's internal review."
+}
