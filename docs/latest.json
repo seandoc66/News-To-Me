@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10T05:06:10Z",
+  "generatedAt": "2026-11-11T05:06:21Z",
   "config": {
     "sections": {
       "local": {
@@ -8,19 +8,15 @@
         "sources": [
           {
             "name": "El Progreso",
-            "url": "https://www.elprogreso.es"
+            "url": "https://www.elprogreso.es/lugo/"
           },
           {
-            "name": "La Voz de Galicia",
-            "url": "https://www.lavozdegalicia.es"
+            "name": "20minutos",
+            "url": "https://www.20minutos.es/"
           },
           {
-            "name": "El Correo Gallego",
-            "url": "https://www.elcorreogallego.es"
-          },
-          {
-            "name": "GaliciaPress",
-            "url": "https://www.galiciapress.es"
+            "name": "Europa Press",
+            "url": "https://www.europapress.es/"
           }
         ]
       },
@@ -29,20 +25,20 @@
         "max": 5,
         "sources": [
           {
-            "name": "El País",
-            "url": "https://elpais.com"
+            "name": "20minutos",
+            "url": "https://www.20minutos.es/"
           },
           {
             "name": "El Mundo",
-            "url": "https://www.elmundo.es"
-          },
-          {
-            "name": "20minutos",
-            "url": "https://www.20minutos.es"
+            "url": "https://www.elmundo.es/"
           },
           {
             "name": "Europa Press",
-            "url": "https://www.europapress.es"
+            "url": "https://www.europapress.es/"
+          },
+          {
+            "name": "El Correo Gallego",
+            "url": "https://www.elcorreogallego.es/"
           }
         ]
       },
@@ -55,12 +51,8 @@
             "url": "https://www.bbc.co.uk/news/northern_ireland"
           },
           {
-            "name": "Belfast Telegraph",
-            "url": "https://www.belfasttelegraph.co.uk/news/northern-ireland/"
-          },
-          {
-            "name": "Derry Journal",
-            "url": "https://www.derryjournal.com"
+            "name": "News Letter",
+            "url": "https://www.newsletter.co.uk/"
           }
         ]
       },
@@ -69,24 +61,20 @@
         "max": 8,
         "sources": [
           {
-            "name": "BBC News",
-            "url": "https://www.bbc.co.uk/news/world"
+            "name": "BBC",
+            "url": "https://www.bbc.com/news/world"
           },
           {
-            "name": "The Guardian",
-            "url": "https://www.theguardian.com/world"
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/"
           },
           {
-            "name": "El País",
-            "url": "https://elpais.com/internacional"
+            "name": "France 24",
+            "url": "https://www.france24.com/en/"
           },
           {
             "name": "El Mundo",
-            "url": "https://www.elmundo.es/internacional.html"
-          },
-          {
-            "name": "20minutos",
-            "url": "https://www.20minutos.es/internacional"
+            "url": "https://www.elmundo.es/"
           }
         ]
       },
@@ -95,24 +83,20 @@
         "max": 5,
         "sources": [
           {
-            "name": "BBC News",
-            "url": "https://www.bbc.co.uk/news/technology"
-          },
-          {
             "name": "TechCrunch",
-            "url": "https://techcrunch.com"
+            "url": "https://techcrunch.com/"
           },
           {
-            "name": "Wired",
-            "url": "https://www.wired.com"
+            "name": "The Verge",
+            "url": "https://www.theverge.com/"
           },
           {
-            "name": "El País",
-            "url": "https://elpais.com/tecnologia"
+            "name": "Hacker News",
+            "url": "https://news.ycombinator.com/"
           },
           {
-            "name": "20minutos",
-            "url": "https://www.20minutos.es"
+            "name": "Polygon",
+            "url": "https://www.polygon.com/"
           }
         ]
       },
@@ -121,20 +105,20 @@
         "max": 7,
         "sources": [
           {
-            "name": "The Verge",
-            "url": "https://www.theverge.com/ai-artificial-intelligence"
-          },
-          {
             "name": "TechCrunch",
-            "url": "https://techcrunch.com/category/artificial-intelligence/"
+            "url": "https://techcrunch.com/"
           },
           {
-            "name": "Anthropic",
-            "url": "https://www.anthropic.com/news"
+            "name": "Wired",
+            "url": "https://www.wired.com/"
           },
           {
-            "name": "Artificial Analysis",
-            "url": "https://artificialanalysis.ai"
+            "name": "Google DeepMind",
+            "url": "https://deepmind.google/"
+          },
+          {
+            "name": "Skift",
+            "url": "https://skift.com/"
           }
         ]
       }
@@ -142,495 +126,441 @@
   },
   "articles": [
     {
-      "id": "2026-11-10-local-001",
+      "id": "2026-11-11-local-001",
       "category": "local",
-      "headline": "El concurso para reparar el puente romano de Lugo queda desierto",
-      "subtitle": "Ninguna empresa se presentó a la licitación de 70.605 euros para sustituir los sillares dañados por la riada de 2023, y el Concello deberá revisar el pliego o buscar otra vía de contratación.",
-      "body": "La licitación que el Ayuntamiento de Lugo abrió hace unas semanas para reparar los daños que la riada de 2023 causó en el puente romano ha quedado desierta. Ninguna empresa presentó oferta para unos trabajos presupuestados en 70.605 euros, IVA incluido. El Concello deberá decidir ahora si revisa las condiciones económicas, convoca un nuevo concurso o recurre a otra fórmula de contratación.\n\nEl proyecto preveía retirar las chapas metálicas y los tableros colocados de urgencia tras la crecida y sustituirlos por doce bloques de granito labrados a medida en las pilas 3, 4 y 5. La combinación de un importe ajustado y una exigencia técnica alta —grúas desde la calzada superior, supervisión arqueológica continua y dependencia del caudal del Miño— habría dejado el concurso sin candidatos.\n\nEl retraso empuja los trabajos, como mínimo, hacia la primavera o el verano que viene, de modo que el paso seguirá mostrando los parches provisionales mientras lo cruzan caminantes y peregrinos del Camino Primitivo. El gobierno local había previsto iniciar la intervención en los primeros meses de 2027.\n\nNo es la primera vez que el viaducto se somete a una obra complicada. Entre 2011 y 2013 se rehabilitó con cargo al 1% Cultural y un presupuesto cercano al millón de euros, en unos trabajos que se retrasaron al aparecer restos arqueológicos en el puente. Desde entonces perdió el tráfico rodado, unos 12.000 vehículos diarios, y quedó reservado a peatones.",
+      "headline": "Ni un solo tren pasa por Lugo por el paro de maquinistas de Renfe",
+      "subtitle": "La estación lucense se queda sin servicio este martes y este miércoles: las dos frecuencias con Madrid se cubren en autobús hasta Monforte y Ourense",
+      "body": "La estación Intermodal de Lugo se quedó este martes sin ningún tren. La huelga de maquinistas de Renfe, sumada a la oferta ya mínima de frecuencias de la ciudad, anuló los media distancia que unen Lugo con A Coruña y Ourense y dejó las conexiones con Madrid reducidas a dos salidas cubiertas por autobús.\n\nLos servicios suprimidos fueron el que salía de Monforte a las 7.30 y pasaba por Lugo a las 8.23 camino de A Coruña, y el que llegaba a las 14.12 desde Ourense. Por la tarde tampoco circularon ni el enlace con el Ave a Madrid ni el Lugo-Ourense de las 21.28.\n\nLas dos frecuencias que se mantuvieron con la capital, hacia las 5.00 y las 18.30, obligaron a los viajeros a subir a autocares: en el primer caso hasta Monforte y en el segundo hasta Ourense, un trasbordo que ya es habitual y no responde al paro. En Monforte también se vieron afectados otros trenes, como el Ponferrada-Vigo.\n\nLa situación se repetirá este miércoles, con la huelga general convocada en todo el país, y el jueves, cuando los sindicatos de maquinistas han llamado a un nuevo paro. Fuentes internas de la compañía señalan además que algunos maquinistas asignados a los servicios mínimos han alegado enfermedad al incorporarse, lo que agrava las cancelaciones en varios puntos de la red.\n\nEl paro de maquinistas llega en un momento delicado para el ferrocarril gallego, pendiente todavía de la reapertura del corredor afectado por el accidente de Urda y con las conexiones lucenses entre las más frágiles del noroeste.",
       "sources": [
         {
-          "name": "La Voz de Galicia",
-          "url": "https://www.lavozdegalicia.es/noticia/lugo/lugo/2026/11/09/reparacion-puente-romano-lugo-atasca-tras-quedar-desierto-concurso/00031794238009416887938.htm"
+          "name": "El Progreso",
+          "url": "https://www.elprogreso.es/articulo/lugo/huelga-maquinistas-provoca-que-ni-solo-tren-pase-lugo/202611101345132013113.html"
+        },
+        {
+          "name": "20minutos",
+          "url": "https://www.20minutos.es/nacional/los-maquinistas-paralizan-cercanias-rodalies-su-primer-paro-por-seguridad-ferroviaria-un-dia-antes-huelga-general_7059413_0.html"
+        },
+        {
+          "name": "Europa Press",
+          "url": "https://www.europapress.es/economia/transportes-00343/noticia-huelga-general-11-noviembre-servicios-minimos-trenes-vuelos-transporte-20261110135358.html"
+        }
+      ],
+      "publishedAt": "2026-11-11T05:10:00Z",
+      "imageURL": "/images/2026-11-11-local-001.jpg"
+    },
+    {
+      "id": "2026-11-11-local-002",
+      "category": "local",
+      "headline": "A Mariña secunda el 11N con Alcoa, Ence, puerto y transporte entre los convocados",
+      "subtitle": "Burela y Viveiro acogen manifestaciones a mediodía; los convocantes describen el paro como una respuesta a la «avidez inmobiliaria» y reclaman bajar la jornada",
+      "body": "La comarca de A Mariña secundará este miércoles la huelga general convocada en toda España por CC.OO., UGT y la CIG para exigir medidas sobre vivienda, regulación de precios y salarios. El seguimiento incluye sectores industriales y portuarios, además del educativo y el del transporte.\n\nEl comité de empresa de Alcoa y el de Ence Navia han anunciado su apoyo a la convocatoria, junto a transportistas y trabajadores portuarios. También respaldan la jornada el BNG y la Plataforma en Defensa da Sanidade Pública da Mariña, que sostiene que «non pode haber xustiza social nin calidade de vida sen uns servizos públicos fortes e dignos».\n\nHabrá dos manifestaciones a las doce de la mañana: una en Burela convocada por la CIG y otra en Viveiro por Comisiones Obreras y UGT. Los sindicatos llamaron a participar en un comunicado en el que definen el paro como una respuesta a la «insaciable avaricia inmobiliaria» y una muestra de la indignación mayoritaria del país.\n\nEntre las reivindicaciones figuran la reducción de la jornada laboral y la erradicación de la precariedad. Montse Porteiro, coordinadora del colectivo sanitario, situó la sanidad pública como «a principal garantía de igualdade e benestar» y advirtió de que sin ella no hay calidad de vida posible en la comarca.",
+      "sources": [
+        {
+          "name": "El Progreso",
+          "url": "https://www.elprogreso.es/articulo/a-marina/marina-afronta-jornada-huelga-muchas-convocatorias/202611110500002013276.html"
         },
         {
           "name": "El Progreso",
-          "url": "https://www.elprogreso.es/articulo/lugo/puente-romano-lugo-sometera-obra-reparar-danos-causados-riadas/202611082104142012750.html"
+          "url": "https://www.elprogreso.es/articulo/espana/preguntas-respuestas-huelga-11-n-quien-puede-secundarla-cuanto-descuenta-que-derechos-tienes/202611091115532012795.html"
         },
         {
-          "name": "La Voz de Galicia",
-          "url": "https://www.lavozdegalicia.es/noticia/lugo/lugo/2026/10/21/lugo-reparara-2027-heridas-puente-romano-provocadas-gran-riada-rio-mino-2023/00031792567665163905867.htm"
+          "name": "20minutos",
+          "url": "https://www.20minutos.es/lainformacion/economia-y-finanzas/arranca-primera-gran-huelga-general-14-anos-con-vivienda-como-eje-las-protestas_7059446_0.html"
         }
       ],
-      "publishedAt": "2026-11-10T05:20:00Z",
-      "imageURL": "/images/2026-11-10-local-001.jpg"
+      "publishedAt": "2026-11-11T05:20:00Z",
+      "imageURL": "/images/2026-11-11-local-002.jpg"
     },
     {
-      "id": "2026-11-10-local-002",
-      "category": "local",
-      "headline": "La A-54 entre Lugo y Santiago cumple 30 años de obras sin fecha de apertura",
-      "subtitle": "Los 16 kilómetros entre Melide y Arzúa, último tramo pendiente, acumulan meses de retraso sobre el calendario que el Gobierno manejaba para este otoño.",
-      "body": "La autovía A-54, que debe unir Lugo y Santiago a lo largo de algo más de 93 kilómetros, sigue sin fecha de puesta en servicio. El tramo final, los 16 kilómetros entre Melide y Arzúa, acumulaba en agosto ocho meses de retraso sobre un calendario que lo daba por terminado en enero, y el delegado del Gobierno en Galicia llegó a situar la apertura en septiembre u octubre.\n\nEl último hito administrativo fue una tercera modificación del contrato de obras aprobada por el Consejo de Ministros en julio, por 242.722 euros. Las dos anteriores encarecieron la actuación en casi 1,9 millones, una de ellas para rediseñar 3,5 kilómetros en la Serra do Careón por motivos ambientales. La obra suma tres décadas y es una de las demoras más largas de la red viaria estatal.\n\nEl ministro de Transportes, Óscar Puente, anunció a comienzos de 2025 que la autovía estaría completa a finales de ese año. La promesa no se cumplió, y en septiembre el PPdeG se concentró en Nadela para denunciar un \"castigo\" del Gobierno central a la provincia de Lugo. La alcaldesa de la ciudad, Elena Candia, reprochó al ministro el incumplimiento de su propio plazo.\n\nLos populares citaron también el estado del firme en la A-6, la parálisis de la A-74 hacia A Mariña y de la A-56 con Ourense, y la falta de mantenimiento en la N-540 y la N-120. Mientras el último enlace siga en obras, el trayecto entre las dos capitales gallegas continúa haciéndose en buena parte por carretera convencional.",
+      "id": "2026-11-11-national-001",
+      "category": "national",
+      "headline": "La primera huelga general en 14 años arranca con piquetes y primeras incidencias",
+      "subtitle": "Vivienda y salarios centran el 11N: Interior pide impedir piquetes violentos, BBVA Research limita el impacto al 0,1% del PIB y Funcas lo eleva a 5.000 millones",
+      "body": "La huelga general convocada por CC.OO., UGT y la CIG arrancó este miércoles con piquetes informativos a las puertas de mercados centrales e industrias y con las primeras incidencias en el transporte, en la que es la primera convocatoria de este tipo en España en catorce años. La vivienda, la regulación de precios y los salarios son los ejes de la protesta.\n\nEn Mercavalencia los piquetes actuaron de madrugada, y los sindicatos han convocado manifestaciones en las principales ciudades. El Ministerio del Interior dictó una instrucción para que la Policía Nacional y la Guardia Civil garanticen el derecho a huelga pero impidan barricadas y «piquetes que utilicen la violencia», con protección reforzada de infraestructuras críticas, polígonos industriales y mercados de abastecimiento.\n\n## El pulso por el impacto económico\n\nLas cifras de seguimiento y de coste son objeto de disputa. BBVA Research calcula un impacto del 0,1% del PIB en un escenario de escasa participación, mientras Funcas sitúa la factura máxima en 5.000 millones si el seguimiento fuera total. El Mundo apunta a un «pinchazo» de participación en plena era del teletrabajo y en precampaña electoral, con la cita del 29N en el horizonte.\n\nLa patronal CEOE ha sostenido que la convocatoria es ilegal, acusación que los sindicatos rechazan de plano. A la jornada se suma el paro de maquinistas de Renfe, que este martes ya dejó sin trenes a varias ciudades y que los sindicatos ferroviarios han vuelto a convocar para el jueves.",
       "sources": [
         {
-          "name": "La Voz de Galicia",
-          "url": "https://www.lavozdegalicia.es/noticia/galicia/2026/08/17/final-obras-autovia-a-54-lugo-santiago-acumula-ocho-meses-retraso-fecha-apertura/00031786959144797264720.htm"
+          "name": "20minutos",
+          "url": "https://www.20minutos.es/nacional/huelga-general-11n-directo-ultima-hora-los-paros-manifestaciones-servicios-minimos-toda-espana_7059492_6.html"
+        },
+        {
+          "name": "El Mundo",
+          "url": "https://www.elmundo.es/economia/2026/11/10/6af3092efc6c8308488b4597.html"
+        },
+        {
+          "name": "Europa Press",
+          "url": "https://www.europapress.es/nacional/noticia-interior-ordena-actuar-contra-piquetes-violentos-huelga-11n-garantizar-seguridad-poligonos-mercados-20261110174507.html"
+        }
+      ],
+      "publishedAt": "2026-11-11T05:30:00Z",
+      "imageURL": "/images/2026-11-11-national-001.jpg"
+    },
+    {
+      "id": "2026-11-11-national-002",
+      "category": "national",
+      "headline": "Cien policías buscan en Oviedo a 'El Ruso', que mató a un agente con una bomba",
+      "subtitle": "El sospechoso, exlegionario con amplio historial, huyó tras disparar a una menor de 17 años; su pareja está detenida y el técnico del TEDAX sigue grave pero estable",
+      "body": "Más de cien agentes participan en la búsqueda de Manuel F. A., conocido como 'El Ruso', el hombre al que la Policía Nacional considera autor del tiroteo contra una menor de 17 años y de la colocación del artefacto que este martes mató a un subinspector de Guías Caninos en Oviedo. El sospechoso permanece huido y armado desde primera hora del martes.\n\nLa secuencia comenzó con una llamada a la sala CIMACC entre las 7.30 y las 7.45, que alertaba de disparos por un conflicto vecinal. Al llegar, los agentes encontraron restos de sangre y los vecinos les indicaron que una joven había sido tiroteada y trasladada a un hospital. Al inspeccionar el inmueble localizaron un paquete sospechoso en el rellano.\n\nLos especialistas de Guías Caninos y del TEDAX sacaron el artefacto al exterior del edificio para proteger al vecindario. Fue entonces cuando se produjo la explosión: murieron el subinspector y el perro detector de explosivos, y un técnico del TEDAX resultó herido de extrema gravedad. El portavoz policial, Pedro Aguado, precisó que el especialista está ingresado en el HUCA con pronóstico grave pero «estable», y pidió no dar crédito a los bulos sobre su fallecimiento.\n\n## Un conflicto vecinal de larga duración\n\nEl edificio fue desalojado y los agentes registran piso por piso garajes y trasteros. La Policía facilitó a los taxistas de la ciudad una descripción del fugitivo: complexión delgada, 1,80 metros, pelo rapado, gafas y ojos oscuros. Vecinos describen al matrimonio como conflictivo y aseguran que los enfrentamientos venían de lejos. Su pareja, Tatiana B. P., de nacionalidad rusa, fue detenida al mediodía y habría aportado pistas sobre el posible paradero del sospechoso sin que permitieran localizarlo.",
+      "sources": [
+        {
+          "name": "El Mundo",
+          "url": "https://www.elmundo.es/espana/2026/11/10/6af36b8de85ece64448b45bf.html"
+        },
+        {
+          "name": "Europa Press",
+          "url": "https://www.europapress.es/asturias/noticia-policia-tiene-identificado-autor-muerte-policia-oviedo-prosigue-busqueda-20261110132614.html"
         },
         {
           "name": "El Correo Gallego",
-          "url": "https://www.elcorreogallego.es/concellos/2026/07/22/gobierno-modificacion-obra-autovia-a-54-santiago-lugo-132711510.html"
-        },
-        {
-          "name": "GaliciaPress",
-          "url": "https://www.galiciapress.es/articulo/politica/2026-09-26/6029444-ppdeg-critica-54-sigue-terminar-denuncia-castigo-gobierno-lugo"
+          "url": "https://www.elcorreogallego.es/sucesos/2026/11/10/infierno-desatado-ruso-propio-portal-136309242.html"
         }
       ],
-      "publishedAt": "2026-11-10T05:26:00Z",
-      "imageURL": "/images/2026-11-10-local-002.jpg"
+      "publishedAt": "2026-11-11T05:40:00Z",
+      "imageURL": "/images/2026-11-11-national-002.jpg"
     },
     {
-      "id": "2026-11-10-national-001",
+      "id": "2026-11-11-national-003",
       "category": "national",
-      "headline": "La huelga general del 11-N llega con seguimiento incierto y la CEOE en pie de guerra",
-      "subtitle": "Los sondeos sitúan en torno al 19% quienes secundarán el paro y en el 58% quienes no lo harán, mientras la patronal coordina a sus organizaciones para vigilar la jornada y no descarta acciones legales.",
-      "body": "La huelga general convocada para este miércoles llega con el pulso abierto entre los convocantes y la patronal. Un sondeo de Sigma Dos para EL MUNDO, con 4.172 entrevistas entre el 30 de octubre y el 6 de noviembre, sitúa en el 19,1% los que tienen claro que la secundarán, frente al 58% que no la harán y un 6,7% que aún duda pero se inclina por trabajar.\n\nEl mismo estudio señala una paradoja: el 42,7% se declara de acuerdo con la convocatoria, pero una parte de ese grupo no piensa movilizarse. Y el 53,7% cree que el llamamiento responde a motivos políticos y busca influir en la campaña del 29-N, frente al 42,7% que lo atribuye a la situación del empleo y de la vivienda.\n\nEl origen de la protesta fue la muerte de Maricarmen Abascal, de 87 años, dos semanas después de ser desahuciada de su casa en el distrito madrileño de Retiro. CCOO, UGT y otras organizaciones han llamado a parar, y la CEOE ha movilizado a sus patronales para seguir la jornada sin descartar acciones legales.\n\nOtra encuesta, de 40dB para EL PAÍS, añade dos datos de clima político: el 30% dice que las elecciones no serán limpias y más de la mitad rechaza las acampadas por la vivienda que se han sucedido en varias ciudades, como la de la Puerta del Sol, desalojada la semana pasada. El 70% cree, erróneamente, que España crece menos que Europa.",
-      "sources": [
-        {
-          "name": "El Mundo",
-          "url": "https://www.elmundo.es/espana/encuestas/2026/11/09/6af1faaffdddff3b5b8b4580.html"
-        },
-        {
-          "name": "El País",
-          "url": "https://elpais.com/espana/elecciones-generales/2026-11-09/la-huelga-divide-a-los-espanoles-y-mas-de-la-mitad-rechaza-las-acampadas.html"
-        },
-        {
-          "name": "20minutos",
-          "url": "https://www.20minutos.es/lainformacion/economia-y-finanzas/las-dudas-sobre-huelga-general-resueltas-las-represalias-por-hacerla-son-nulas-empresa-tendria-que-indemnizarte_7058725_0.html"
-        }
-      ],
-      "publishedAt": "2026-11-10T05:34:00Z",
-      "imageURL": "/images/2026-11-10-national-001.jpg"
-    },
-    {
-      "id": "2026-11-10-national-002",
-      "category": "national",
-      "headline": "La caja negra del Iryo revela que su maquinista avisó del riesgo seis minutos después del choque",
-      "subtitle": "La conductora del tren 6076 pidió a los pasajeros que no bajaran por el cable de la catenaria caído sobre la vía, mientras Sevilla despedía a las víctimas en una misa funeral.",
-      "body": "Cuando el tren 6076 de Iryo fue embestido por un AVE de Renfe en la localidad toledana de Urda, su maquinista hizo dos cosas casi al mismo tiempo. A las 8.59 horas avisó al centro de control de que veía el cable de la catenaria caído sobre la vía y, a la vez, pidió a los viajeros que no abandonaran el tren. \"¡No salgan del tren!\", advirtió, según la caja negra del vehículo y el registro de comunicaciones.\n\nIryo solicitó entonces a Atocha que cortara la tensión y la circulación en la vía contigua de forma urgente, mientras los responsables del tráfico intentaban tranquilizar a la conductora y que siguiera las instrucciones desde Madrid. El siniestro, una colisión entre dos trenes de alta velocidad que cubrían el trayecto Madrid-Andalucía, ha dejado 69 muertos y más de un centenar de heridos.\n\nEste lunes, la catedral de Sevilla acogió una misa funeral por las víctimas, siete de ellas de la provincia. El arzobispo, José Ángel Saiz Meneses, pidió \"esclarecer las causas\" del accidente y \"asumir las responsabilidades que sean necesarias\", y defendió que las familias tienen \"derecho a conocer la verdad\". El presidente de la Junta, Juanma Moreno, deseó que \"nunca más\" se repita una tragedia así.\n\nEl acto llega en plena crisis del ferrocarril. Tras la dimisión de Óscar Puente y del presidente de Adif, el ministro Carlos Cuerpo ha pedido a los trabajadores que desescalen su indignación y ha prometido una nueva regulación de seguridad en semanas. Los maquinistas han convocado otra jornada de protesta para el jueves, un día después de la huelga general.",
-      "sources": [
-        {
-          "name": "El Mundo",
-          "url": "https://www.elmundo.es/economia/empresas/2026/11/09/6af2089321efa04e6a8b4595.html"
-        },
-        {
-          "name": "20minutos",
-          "url": "https://www.20minutos.es/andalucia/sevilla/arzobispo-pide-asumir-responsabilidades-esclarecer-las-causas-accidente-urda-durante-misa-funeral-celebrada-sevilla_7059035_0.html"
-        },
-        {
-          "name": "El País",
-          "url": "https://elpais.com/espana/2026-11-09/los-helicopteros-pioneros-que-salvaron-vidas-en-el-accidente-de-urda-perdimos-la-cuenta-de-la-gente-a-la-que-llegamos-a-atender.html"
-        }
-      ],
-      "publishedAt": "2026-11-10T05:39:00Z",
-      "imageURL": "/images/2026-11-10-national-002.jpg"
-    },
-    {
-      "id": "2026-11-10-national-003",
-      "category": "national",
-      "headline": "Abascal llama «dictador» a Sánchez en su entrevista en La Revuelta",
-      "subtitle": "El líder de Vox se estrenó en el programa de Broncano con un público elegido por casting, una bandera de Ceuta como regalo y un debate tenso sobre clima, vivienda, inmigración y violencia machista.",
-      "body": "Santiago Abascal se sentó este lunes en el plató de La Revuelta, en el Teatro Albéniz, y salió llamando \"dictador\" a Pedro Sánchez. La entrevista, la más esperada de la campaña en televisión, se celebró ante un público elegido por casting que recibió al líder de Vox con una ovación y gritos de \"presidente, presidente\", algo insólito en el programa.\n\nBroncano explicó al inicio que había \"cierto temor\" a que el público habitual dificultase la conversación y el ritmo de la entrevista. Abascal le regaló una bandera de Ceuta como gesto hacia la ciudad autónoma y, a partir de ahí, la charla derivó en un intercambio de posiciones opuestas sobre cambio climático, vivienda, inmigración y violencia contra las mujeres.\n\nEl momento más tenso llegó con el clima. Abascal criticó el \"fanatismo climático\" y la Agenda 2030 por dañar la competitividad; Broncano calificó sus planteamientos de \"peligrosos\" e \"irresponsables\" y defendió las evidencias científicas. El líder de Vox respondió preguntando cuándo había negado él el cambio climático y sostuvo que España no puede imponer restricciones mientras China sigue contaminando.\n\nEn vivienda reconoció que es uno de los grandes problemas del país, pero culpó al Gobierno, a la inmigración y a las restricciones al suelo, y admitió que deben vigilarse las prácticas especulativas de los fondos. Sobre la ley de violencia de género aseguró que \"tiene que ser revisada\", y planteó revisar las relaciones con Marruecos, incluida la organización conjunta del Mundial de 2030.",
-      "sources": [
-        {
-          "name": "El País",
-          "url": "https://elpais.com/espana/elecciones-generales/2026-11-09/abascal-califica-a-sanchez-de-dictador-en-el-el-programa-estrella-de-la-television-publica.html"
-        },
-        {
-          "name": "20minutos",
-          "url": "https://www.20minutos.es/nacional/abascal-broncano-protagonizan-un-intenso-debate-sobre-vivienda-clima-inmigracion-una-revuelta-sin-las-preguntas-clasicas_7059062_0.html"
-        },
-        {
-          "name": "El Mundo",
-          "url": "https://www.elmundo.es/espana/2026/11/09/6af2456bfc6c8308488b458a.html"
-        }
-      ],
-      "publishedAt": "2026-11-10T05:43:00Z",
-      "imageURL": "/images/2026-11-10-national-003.jpg"
-    },
-    {
-      "id": "2026-11-10-national-004",
-      "category": "national",
-      "headline": "El Supremo deja votar el 29-N a los 189.000 hijos de nacionalizados por la ley de nietos",
-      "subtitle": "La Sala de lo Contencioso rechaza las cautelares de Vox e Iustitia Europa y alega el «breve lapso temporal» que queda hasta los comicios, después de haber vetado el voto de los descendientes de exiliados.",
-      "body": "El Tribunal Supremo ha rechazado suspender el derecho al voto de los 189.000 hijos de personas nacionalizadas al amparo de la ley de nietos, de modo que podrán participar en las elecciones generales del 29 de noviembre. La Sala de lo Contencioso-Administrativo ha denegado las medidas cautelares que habían solicitado Vox e Iustitia Europa.\n\nEl fallo llega después de que el mismo tribunal sí suspendiera el voto de los descendientes de exiliados españoles, identificados por el Gobierno a partir de la documentación aportada. En esta ocasión, los magistrados justifican la negativa en el \"breve lapso temporal\" que queda hasta los comicios del 29-N, un argumento de calendario y no de fondo.\n\nEl debate tiene su origen en los datos que el Ejecutivo remitió al Supremo: de las 163.355 personas nacionalizadas por la ley de nietos, solo 901 acreditaron ser descendientes de exiliados. Vox y Iustitia Europa intentaron extender a todo el colectivo la suspensión ya aplicada a esos descendientes, algo que el tribunal ha rechazado.\n\nLa ley de nietos, en vigor desde 2022, permite recuperar la nacionalidad a hijos y nietos de españoles que la perdieron por el exilio. Su aplicación ha estado marcada por la saturación de los consulados, sobre todo en América Latina, y por las dudas sobre cuántos solicitantes podían demostrar el vínculo con un exiliado.",
-      "sources": [
-        {
-          "name": "El País",
-          "url": "https://elpais.com/espana/elecciones-generales/2026-11-09/el-supremo-rechaza-suspender-tambien-el-derecho-al-voto-de-los-hijos-de-los-nacionalizados-por-la-ley-de-nietos.html"
-        },
-        {
-          "name": "20minutos",
-          "url": "https://www.20minutos.es/nacional/supremo-rechaza-extender-prohibicion-derecho-voto-los-hijos-los-nacionalizados-por-ley-nietos_7058904_0.html"
-        },
-        {
-          "name": "Europa Press",
-          "url": "https://www.europapress.es/nacional/noticia-supremo-descarta-suspender-voto-hijos-nacionalizados-ley-nietos-20261109135924.html"
-        }
-      ],
-      "publishedAt": "2026-11-10T05:47:00Z",
-      "imageURL": "/images/2026-11-10-national-004.jpg"
-    },
-    {
-      "id": "2026-11-10-national-005",
-      "category": "national",
-      "headline": "El Gobierno pide a la Fiscalía cerrar TikTok y Sánchez no descarta suspenderlo",
-      "subtitle": "Una investigación española localizó miles de vídeos y perfiles pedófilos en la plataforma. El Ejecutivo reclama su cierre cautelar y estudia medidas mientras Bruselas amenaza con sanciones.",
-      "body": "El Gobierno ha pasado de la advertencia a la amenaza regulatoria con TikTok. Después de que una investigación española localizara miles de vídeos y perfiles pedófilos en la plataforma, el Ejecutivo pidió a la Fiscalía el cierre cautelar del servicio para poder investigar, y Pedro Sánchez afirmó este lunes que no descarta \"suspender\" la aplicación: \"Me parece un escándalo\".\n\nEl siguiente paso depende de la Fiscalía y de la Comisión Europea. Bruselas ya había exigido cambios en el sistema de recomendaciones de la red social para combatir la adicción, y advirtió de que su diseño puede infringir el reglamento europeo de servicios digitales. Cualquier bloqueo nacional tendría que encajar además con ese marco común, que atribuye a la Comisión la competencia sobre las grandes plataformas.\n\nTikTok, por su parte, ha pedido a Maldita.es su investigación para localizar y eliminar los vídeos detectados y sostiene que colabora con las autoridades españolas y europeas.\n\nEl asunto ha entrado de lleno en la campaña del 29-N. El PP ha presentado su propio paquete: prohibir las redes sociales a los menores de 14 años, limitar el scroll infinito y obligar a las plataformas a ofrecer un modo de descanso nocturno. El debate sobre la edad mínima digital ha dejado de ser una discusión de expertos.",
+      "headline": "Funeral de Estado en Toledo por las 69 víctimas de Urda, con Sánchez ausente",
+      "subtitle": "Los Reyes presiden la misa en la Catedral ante 1.500 personas y 150 familiares; don Felipe pide «dignidad y rigor» y Feijóo acusa al presidente de «no tener respeto por nada»",
+      "body": "La Catedral de Toledo acogió este martes el funeral de Estado por las 69 víctimas del accidente ferroviario de Urda, presidido por los Reyes y oficiado por el arzobispo toledano, Francisco Cerro Chaves. Unas 1.500 personas llenaron el templo, entre ellas 150 familiares de fallecidos y heridos. Sesenta y nueve velas ardían a los pies del Cristo de Vera Cruz, una por cada víctima.\n\nDon Felipe y Doña Letizia, de luto riguroso, fueron recibidos a las siete de la tarde en la puerta de los Reyes y correspondieron con un saludo serio a los aplausos de decenas de personas. El monarca había pedido días antes afrontar la tragedia con «dignidad y rigor» y advirtió de que «tendrán que adoptarse medidas para que esto no vuelva a suceder».\n\nEl presidente del Gobierno, Pedro Sánchez, no acudió. El Ejecutivo justificó su ausencia en que España es un Estado aconfesional y no asiste a homenajes religiosos; en su lugar estuvieron el vicepresidente primero, Carlos Cuerpo, y los ministros Milagros Tolón, Margarita Robles y Mónica García, junto a los presidentes del Congreso y del Senado y la del Tribunal Supremo.\n\n## La ausencia que marcó la jornada\n\nEl líder del PP, Alberto Núñez Feijóo, cargó contra esa ausencia: «Era un funeral de Estado por una tragedia sin precedentes en la alta velocidad y, estando el jefe del Estado, lo lógico y lo obligatorio es que esté el primer ministro del país, pero no estaba». «No tiene respeto por nada», añadió en una entrevista en 'Horizonte'.\n\nEl momento más emotivo llegó con la primera lectura, a cargo de Ana Benítez Domínguez, hermana de David, uno de los fallecidos, de 38 años y costalero en Chiclana. Concelebraron con el arzobispo el presidente de la Conferencia Episcopal, Luis Argüello, el cardenal de Madrid, José Cobo, y nueve prelados más.",
       "sources": [
         {
           "name": "Europa Press",
-          "url": "https://www.europapress.es/sociedad/noticia-sanchez-no-descarta-suspender-tiktok-posibles-videos-abuso-sexual-infantil-me-parece-escandalo-20261109232101.html"
+          "url": "https://www.europapress.es/castilla-lamancha/noticia-mas-mil-personas-arropan-familias-victimas-urda-funeral-toledo-sentimos-dolor-20261110212652.html"
         },
         {
-          "name": "El País",
-          "url": "https://elpais.com/tecnologia/2026-11-09/el-gobierno-se-plantea-paralizar-los-servicios-de-tiktok-en-espana-por-permitir-abuso-sexual-infantil.html"
+          "name": "El Mundo",
+          "url": "https://www.elmundo.es/espana/2026/11/10/6af34bbde9cf4aed4e8b4597.html"
         },
         {
-          "name": "20minutos",
-          "url": "https://www.20minutos.es/nacional/gobierno-pide-fiscalia-cerrar-tiktok-para-investigar-presuntos-casos-abuso-sexual-infantil-plataforma_7058845_0.html"
+          "name": "El Correo Gallego",
+          "url": "https://www.elcorreogallego.es/espana/2026/11/11/feijoo-carga-sanchez-acudir-funeral-136310071.html"
         }
       ],
-      "publishedAt": "2026-11-10T05:50:00Z",
-      "imageURL": "/images/2026-11-10-national-005.jpg"
+      "publishedAt": "2026-11-11T05:50:00Z",
+      "imageURL": "/images/2026-11-11-national-003.jpg"
     },
     {
-      "id": "2026-11-10-northernIreland-001",
+      "id": "2026-11-11-northernIreland-001",
       "category": "northernIreland",
-      "headline": "Three racist attacks in Derry's Waterside may be linked, police say",
-      "subtitle": "A care worker suffered a suspected broken leg and a woman had her windscreen smashed with a baton. The PSNI is treating Sunday night's incidents as racially motivated hate crimes.",
-      "body": "Police in Derry are investigating three assaults and an incident of criminal damage in the Waterside area of the city on Sunday night, and believe the attacks may be linked. All are being treated as racially motivated hate crimes.\n\nThe North West Migrants Forum said a 28-year-old male healthcare worker was attacked close to Clooney Terrace as he spoke to a female relative. He suffered a suspected broken tibia. The woman, also a care worker, had her windscreen smashed with a baton. In a separate incident, a man was chased along Bond Street before being beaten.\n\nThe man told the forum that he had just crossed at a set of traffic lights when a group of men approached. One called him a racist slur, he said, and asked where he was from. When he answered \"Derry\", the reply was \"it's Londonderry\", and the group began punching him. He escaped, but two of them followed him and kicked him again.\n\nThe sister of a brother and sister attacked in a further incident said the family had been left deeply shaken. She said the pair were racially abused after she parked her car, that her sister was punched and that a baton was used on the windscreen, sending glass into her mouth. Their brother was then set upon, and she said the attackers \"tried to break both his legs\".",
+      "headline": "Fivemiletown cattle cull was lawful but badly handled, review finds",
+      "subtitle": "An independent review by former chief vet Dr Martin Blake says the killing of 51 cattle was justified but criticises carcasses left overnight exposed in open fields",
+      "body": "A cull of 51 cattle near Fivemiletown in June was lawful and appropriate, but the operation had significant shortcomings, an independent review has concluded. The report was carried out by Dr Martin Blake, Ireland's former chief veterinary officer, and was ordered by Agriculture Minister Andrew Muir after complaints from farmers and politicians about how the slaughter was carried out.\n\nThe review found insufficient thought had been given during planning to the visual and emotional upset felt by people who saw carcasses lying overnight exposed in open fields. It also identified operational shortcomings in how the operation was conducted.\n\n## Minister accepts findings in full\n\nMuir said the findings were accepted in full, with regular reporting and independent oversight put in place to ensure improvements are driven and sustained at pace. He has insisted he neither authorised nor directed the operation, but maintained that the cull itself was necessary.\n\nThe DUP said the report confirmed what people already knew and that the Department of Agriculture, Environment and Rural Affairs had got it badly wrong. The cull followed a court finding that a farmer was guilty of animal welfare offences and an order to dispose of his livestock. It prompted an emergency committee meeting at Stormont, a protest at the site and a vote of no confidence in the minister from farming leaders.",
       "sources": [
         {
           "name": "BBC News NI",
-          "url": "https://www.bbc.co.uk/news/articles/c6j9k9wv3yp9o"
+          "url": "https://www.bbc.co.uk/news/articles/cmd7q1jj8e45o"
         },
         {
-          "name": "Derry Journal",
-          "url": "https://www.derryjournal.com/news/crime/health-care-worker-suffers-suspected-broken-leg-in-spate-of-appalling-racist-attacks-in-derrys-waterside-nwmf-9340354"
+          "name": "News Letter",
+          "url": "https://www.newsletter.co.uk/news/politics/fivemiletown-cull-report-minister-andrew-muir-says-i-neither-authorised-nor-directed-operation-but-it-was-necessary-9343171"
         },
         {
-          "name": "Belfast Telegraph",
-          "url": "https://www.belfasttelegraph.co.uk/news/northern-ireland/three-race-hate-assaults-may-be-linked-after-man-hit-with-iron-bar-and-woman-attacked-when-she-stopped-in-vehicle/a/164326894.html"
+          "name": "News Letter",
+          "url": "https://www.newsletter.co.uk/news/politics/dup-says-fivemiletown-cattle-cull-report-confirms-what-people-knew-and-daera-got-it-badly-wrong-9342859"
         }
       ],
-      "publishedAt": "2026-11-10T05:52:00Z",
-      "imageURL": "/images/2026-11-10-northernIreland-001.jpg"
+      "publishedAt": "2026-11-11T05:55:00Z",
+      "imageURL": "/images/2026-11-11-northernIreland-001.jpg"
     },
     {
-      "id": "2026-11-10-global-001",
+      "id": "2026-11-11-global-001",
       "category": "global",
-      "headline": "Russia and Ukraine resume peace talks in Abu Dhabi as US reports 'some flexibility'",
-      "subtitle": "It is the first trilateral meeting aimed at ending the war since February. Washington says both sides are softening over who would control Ukraine's east after a settlement.",
-      "body": "Russian and Ukrainian officials meet in Abu Dhabi on Tuesday for the first trilateral talks aimed at ending the war since February, with US officials saying privately that both sides are showing \"a little bit of flexibility\" over who would control Ukraine's eastern regions in a postwar settlement.\n\nJared Kushner, part of the US delegation alongside envoy Steve Witkoff, said the talks would focus on the \"postwar security concerns\" of both countries. \"An important part of this process is encouraging all parties to begin thinking seriously about what comes after the war,\" he wrote on X. The meeting comes as the fifth anniversary of the full-scale invasion approaches.\n\nThe gap remains wide on Donetsk. Moscow wants Kyiv to hand over the parts of the region it still holds, while Ukraine wants the contact line frozen, arguing those areas are vital to its future security. Ukrainian outlets reported that the talks had been unstuck with European participation and that Washington was promising \"a big deal\".\n\nSeparately, Spain and other allies began joint exercises aimed at preparing a possible deployment once peace arrives. The talks follow a Russian strike on a village in Zaporizhzhia last week in which at least 40 people were killed.",
+      "headline": "US House blocks bid to impeach defence chief Pete Hegseth",
+      "subtitle": "Republicans sent the articles to committee instead of allowing a full vote; Hegseth called the effort a farce in his first Pentagon briefing in six months",
+      "body": "An attempt to impeach US Defence Secretary Pete Hegseth over his conduct of the war with Iran has failed in the House of Representatives, after a majority voted to send the articles of impeachment to a committee rather than put them to a full vote.\n\nThe resolution was introduced by Thomas Massie, a dissident Republican from Kentucky, and accused Hegseth of waging war without congressional authorisation. Massie was the only Republican to vote against referring it to the Republican-led House Judiciary Committee, a manoeuvre that effectively kills the effort for now.\n\nSpeaking at his first Pentagon news briefing in six months, Hegseth dismissed the move as a \"farce\" and \"sabotage\".\n\n## Why it was a long shot\n\nRemoving a cabinet secretary would have required a number of other Republicans to defy President Donald Trump, and the numbers were never there. Coverage of the vote noted that eleven Democrats were absent from the chamber. The practical effect is that the war powers dispute moves into a committee process controlled by the defence secretary's own party, where it can be slowed indefinitely. El Mundo reported that Republicans stopped the attempt in Congress without any immediate political cost to the White House.",
       "sources": [
         {
-          "name": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cqpvgvrpjvv8o"
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cxly4y5jzl0qo"
         },
         {
-          "name": "20minutos",
-          "url": "https://www.20minutos.es/internacional/rusia-ucrania-desencallan-las-negociaciones-paz-con-presencia-europea-eeuu-prometiendo-un-gran-acuerdo_7058774_0.html"
-        },
-        {
-          "name": "20minutos",
-          "url": "https://www.20minutos.es/internacional/espana-otros-aliados-ucrania-inician-las-maniobras-conjuntas-para-preparar-un-posible-despliegue-cuando-llegue-paz_7058917_0.html"
-        }
-      ],
-      "publishedAt": "2026-11-10T05:58:00Z",
-      "imageURL": "/images/2026-11-10-global-001.jpg"
-    },
-    {
-      "id": "2026-11-10-global-002",
-      "category": "global",
-      "headline": "Trump says fresh US strikes on Iran are 'highly unlikely'",
-      "subtitle": "The president says 'Iran militarily is effectively over' and claims 'positive momentum' in negotiations, days after midterm losses his own party blamed on the war.",
-      "body": "Donald Trump said on Monday that renewed US attacks on Iran were \"highly unlikely\", declaring that \"Iran militarily is effectively over\" and that there was \"positive momentum\" behind negotiations to end the conflict. \"We're just keeping it the status quo,\" he told reporters at the White House. \"And we're doing that really at the behest of countries that are their neighbours.\"\n\nHe added that US forces were \"locked and loaded\" should circumstances change, and defended not formally ending the war by citing the risk to Gulf allies, suggesting the naval blockade of Iranian ports was making the region safer. Iranian officials have repeatedly expressed doubt about his earlier claims that the conflict was over.\n\nThe shift comes after a bruising midterm result for Republicans last week, which senior figures including Vice-President JD Vance blamed on the Iran war. Before the vote Trump said US forces had carried out \"minor strikes\" on an Iranian island in the Strait of Hormuz; in a 60 Minutes interview aired on Sunday he said he saw no reason to escalate.\n\nA diplomatic track is taking shape. The Guardian reported that Qatar has floated a plan under which the Strait of Hormuz could reopen as part of a package covering nuclear inspections, and El Mundo reported that Beijing is preparing to host a summit between Trump, Xi Jinping and Vladimir Putin.",
-      "sources": [
-        {
-          "name": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cq5yny4nl2d3o"
-        },
-        {
-          "name": "The Guardian",
-          "url": "https://www.theguardian.com/world/2026/nov/07/strait-of-hormuz-qatar-plan-iran-nuclear-inspections"
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/11/republicans-block-hegseth-impeachment-motion"
         },
         {
           "name": "El Mundo",
-          "url": "https://www.elmundo.es/internacional/2026/11/09/6af1997be9cf4a856b8b457f.html"
+          "url": "https://www.elmundo.es/internacional/2026/11/11/6af3ab53e4d4d851418b45b0.html"
         }
       ],
-      "publishedAt": "2026-11-10T06:02:00Z",
-      "imageURL": "/images/2026-11-10-global-002.jpg"
+      "publishedAt": "2026-11-11T05:58:00Z",
+      "imageURL": "/images/2026-11-11-global-001.jpg"
     },
     {
-      "id": "2026-11-10-global-003",
+      "id": "2026-11-11-global-002",
       "category": "global",
-      "headline": "Explosion at Turkish steel plant kills at least 16 workers",
-      "subtitle": "A crane carrying a replacement boiler collapsed at the Habas plant near Izmir and sent material into a furnace. At least five people have been arrested as rescue work continues.",
-      "body": "At least 16 people have died and 13 were injured in an explosion at an iron and steel factory near the port city of Izmir in western Turkey, authorities said. All the casualties were workers at the Habas plant, one of the country's leading steel producers. Footage showed a large fire inside the facility and a column of smoke rising over Aliaga.\n\nThe local governor said the blast happened around midday when a crane carrying a replacement boiler collapsed, causing material to fall into a furnace below. The company said the accident occurred during scheduled maintenance on one of its electric arc furnaces. Eyewitnesses said the explosion shook the ground, and one person initially believed an earthquake had struck.\n\nIzmir governor Süleyman Elban said some people were believed to still be under the rubble. President Recep Tayyip Erdoğan confirmed the deaths after a cabinet meeting on Monday and said investigations were under way, with two of the injured in a serious condition. At least five people have been arrested, according to local media cited by BBC Turkish.\n\nReports on the toll varied during the day, with some outlets putting it at 16 and others at 17 by Monday evening. Workplace accidents remain a chronic problem in Turkey, according to the independent Health and Safety Labour Watch.",
+      "headline": "US charges three men over alleged Iran-backed plot at RAF Fairford",
+      "subtitle": "The justice department links them to the Revolutionary Guard and Kataib Hezbollah and to nearly 20 attacks or attempted attacks in the US and Europe",
+      "body": "The US Department of Justice has charged three men it describes as Iranian-backed operatives over a string of alleged plots in the United States and Europe, including an incident at the RAF Fairford air base in England, where American forces are stationed.\n\nThe indictment names Mohsen Mohajeri, an Iranian; Mohammad Ali al-Hassani, an Iraqi national; and Mohammad Baqer Saad Dawood al-Saadi, who holds dual Iranian and Iraqi nationality. Prosecutors say they acted in support of Iran's Islamic Revolutionary Guard Corps and Iraq's Kataib Hezbollah, and allege involvement in close to 20 attacks and attempted attacks.\n\nAl-Saadi is already held in a New York prison awaiting trial on earlier charges and is accused of communicating with contacts in Britain from custody. The other two are accused of operating from Iran. Prosecutors did not disclose their whereabouts.\n\nThe UK incident came to light when suspicious vans were reported near the Gloucestershire base in September. Police described it as a major and suspicious event, seven men were arrested in Britain, and the US subsequently withdrew its bombers from Fairford. Iran has strongly denied any involvement. A BBC News NI report on the case was published as the charges were unsealed.",
       "sources": [
         {
-          "name": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cq2d6d5z9y5jo"
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c3rryrryk59zo"
         },
         {
-          "name": "El País",
-          "url": "https://elpais.com/internacional/2026-11-09/al-menos-16-muertos-y-13-heridos-en-una-explosion-en-una-aceria-en-turquia.html"
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/11/us-charges-3-iranian-backed-men-over-alleged-plot-at-uk-fairford-air-base"
         },
         {
-          "name": "20minutos",
-          "url": "https://www.20minutos.es/internacional/menos-diez-muertos-15-heridos-cuatro-desaparecidos-por-una-explosion-una-planta-metalurgica-turquia_7058929_0.html"
+          "name": "France 24",
+          "url": "https://www.france24.com/en/americas/20261110-us-iranian-operatives-raf-fairford-terror-plot"
         }
       ],
-      "publishedAt": "2026-11-10T06:06:00Z",
-      "imageURL": "/images/2026-11-10-global-003.jpg"
+      "publishedAt": "2026-11-11T06:00:00Z",
+      "imageURL": "/images/2026-11-11-global-002.jpg"
     },
     {
-      "id": "2026-11-10-global-004",
+      "id": "2026-11-11-global-003",
       "category": "global",
-      "headline": "At least 34 die as migrant boat sinks off Senegal on route to the Canaries",
-      "subtitle": "One person was rescued and the number missing is unknown. The wooden boat capsized between Dakar and Saint-Louis while heading for Spain's Canary Islands.",
-      "body": "At least 34 people have died after a boat carrying migrants sank off the coast of Senegal, the Senegalese Press Agency reported, citing an official source. The interior ministry said one person had been rescued, and that the number of people still missing had yet to be established.\n\nThe small wooden boat capsized between the capital, Dakar, and the northern city of Saint-Louis, as it headed towards Spain's Canary Islands. Spanish outlets put the toll at 35 dead with dozens missing, while other reports cited 39, with search operations continuing through Monday night.\n\nSaliou Diouf, founder of the Senegalese migrant aid group Boza Fii, told AFP that all the bodies recovered so far were Senegalese. The nationalities of others on board were yet to be established.\n\nPresident Bassirou Diomaye Faye expressed condolences and urged young Senegalese not to risk the crossing, pledging to step up the fight against the networks organising the journeys. Walking Borders, a Spanish migrant rights group, recorded 635 deaths on the Atlantic route to the Canaries between January and May 2026 — the highest toll among the routes it monitors.",
+      "headline": "El Salvador's military destroys Haitian gang headquarters, Bukele says",
+      "subtitle": "The ground and air attack on a 400 Mawozo complex outside Port-au-Prince is El Salvador's first strike on a Haitian target since deploying 2,000 troops",
+      "body": "El Salvador's military has destroyed the headquarters of one of Haiti's largest criminal gangs in a ground and air attack, according to President Nayib Bukele, who announced the operation on X with video of strikes on the complex.\n\nThe target was the 400 Mawozo gang, known for mass kidnappings and intimidation, at a site on the outskirts of Port-au-Prince. Bukele said most of the gang's members fled without attempting to fight.\n\nIt is El Salvador's first military action against a Haitian target since it deployed more than 2,000 soldiers to the country last month, as part of a mission to recover four Salvadoran technicians who went missing there. Haiti's prime minister has praised Bukele and the Salvadoran troops over the operation.\n\nHaiti has been ravaged by gang violence for years, with heavily armed groups controlling large parts of the capital and territory beyond it, despite the presence of a Kenyan-led multinational security mission. El Salvador's intervention is unusual in that it is not part of that UN-authorised force, and Bukele has presented it in his own security branding, built on the mass incarceration campaign that transformed his country's homicide figures.",
       "sources": [
         {
-          "name": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cv2d6dpge65go"
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cmvg2xdwnwezo"
         },
         {
-          "name": "El País",
-          "url": "https://elpais.com/espana/2026-11-09/al-menos-35-muertos-y-decenas-de-desaparecidos-tras-el-naufragio-de-un-cayuco-en-senegal.html"
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/11/el-salvador-fires-missiles-on-haitian-gang-hideout"
         },
         {
-          "name": "20minutos",
-          "url": "https://www.20minutos.es/internacional/menos-39-fallecidos-naufragio-un-cayuco-frente-las-costas-senegal_7058991_0.html"
+          "name": "France 24",
+          "url": "https://www.france24.com/en/americas/20261111-haiti-pm-bukele-salvadoran-troops-gang-headquarters"
         }
       ],
-      "publishedAt": "2026-11-10T06:09:00Z",
-      "imageURL": "/images/2026-11-10-global-004.jpg"
+      "publishedAt": "2026-11-11T06:02:00Z",
+      "imageURL": "/images/2026-11-11-global-003.jpg"
     },
     {
-      "id": "2026-11-10-global-005",
+      "id": "2026-11-11-global-004",
       "category": "global",
-      "headline": "Republican congressman forces impeachment vote on Hegseth over Iran war powers",
-      "subtitle": "Thomas Massie says the defence secretary broke the law by waging hostilities in Iran for more than 90 days without congressional authorisation. The vote is expected to fail.",
-      "body": "Republican congressman Thomas Massie formally introduced articles of impeachment against Defence Secretary Pete Hegseth on the House floor on Monday and plans to force a vote this week, alleging that he has violated the US Constitution.\n\n\"By engaging in hostilities in Iran for more than 90 days without congressional authorization, Secretary Hegseth is breaking the law and must be held accountable,\" Massie said. The effort will most likely fail while Republicans remain in control of Congress until January, but Massie says he wants to push Donald Trump to fire Hegseth before Democrats can launch their own process.\n\nHegseth, who has not held a news conference since May, said he was not concerned and will hold one on Tuesday morning \"on that very topic\". The Kentucky congressman, who lost his own re-election bid this year, first introduced impeachment articles in September and is pressing for a vote after Republicans lost both chambers in last week's midterms.\n\nTrump has doubled down in defence of Hegseth and attacked the fresh effort. The push underlines how the Iran war, now nearly nine months old, has become a fault line inside the Republican Party, with Massie among the few willing to criticise the president over it.",
+      "headline": "Thomas Markle back in federal custody after removing his ankle monitor",
+      "subtitle": "A Florida judge revoked house arrest and denied bond, ruling no conditions could assure public safety given his untenable housing situation",
+      "body": "Thomas Markle, the father of the Duchess of Sussex, is back in federal custody in Florida after allegedly removing his electronic ankle monitor, according to court documents.\n\nMarkle, who is 82, appeared before magistrate judge Lindsay S Griffin in Tampa on Tuesday and was denied bond. Prosecutors say he removed the device at about 01.45 local time, and federal agents arrested him later the same day. The judge found he had violated the conditions of his pretrial release.\n\nHe was arrested last Friday in Lakeland, Florida, where he had been living at a clinic specialising in dementia care, on suspicion of possessing material showing the sexual abuse of children, including images involving underage girls. He has denied the allegations.\n\n## No suitable housing\n\nIn her order revoking release, Griffin described Markle's housing situation as \"untenable\" and wrote that no condition or combination of conditions would reasonably assure the safety of the community or his appearance in court. The Justice Department said the conditions of release were court orders rather than suggestions, and that it would pursue the case to the full extent of the law. Markle has been estranged from his daughter for years and has given a series of interviews about the royal family.",
       "sources": [
         {
-          "name": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cwr5y58jjp8ro"
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c9j3433zy4vro"
         },
         {
-          "name": "El País",
-          "url": "https://elpais.com/us/2026-11-09/un-congresista-presenta-los-articulos-de-destitucion-contra-el-secretario-de-defensa-pete-hegseth.html"
+          "name": "El Correo Gallego",
+          "url": "https://www.elcorreogallego.es/mundo/2026/11/10/padre-meghan-markle-encarcelado-eeuu-136309640.html"
         },
         {
           "name": "20minutos",
-          "url": "https://www.20minutos.es/internacional/un-congresista-republicano-inicia-un-impeachment-para-destituir-hegseth-con-respaldo-los-democratas_7059031_0.html"
+          "url": "https://www.20minutos.es/gente/fiscalia-ee-uu-pide-encarcelar-padre-meghan-markle-por-quitarse-pulsera-telematica-durante-su-arresto-domiciliario_7059537_0.html"
         }
       ],
-      "publishedAt": "2026-11-10T06:12:00Z",
-      "imageURL": "/images/2026-11-10-global-005.jpg"
+      "publishedAt": "2026-11-11T06:04:00Z",
+      "imageURL": "/images/2026-11-11-global-004.jpg"
     },
     {
-      "id": "2026-11-10-tech-001",
+      "id": "2026-11-11-tech-001",
       "category": "tech",
-      "headline": "Nvidia's spy scandal deepens as Trump confirms an FBI investigation",
-      "subtitle": "The US president said the bureau is looking into Jensen Huang's relationship with a woman accused of being a Chinese spy, as shareholder lawyers circle and the chipmaker's shares slide.",
-      "body": "Donald Trump said on Monday that the FBI is investigating Nvidia chief executive Jensen Huang's relationship with a woman accused of being a Chinese spy, deepening a scandal that has knocked the chipmaker's shares and unsettled the wider AI industry.\n\nNvidia has confirmed it opened an internal review after the relationship became public. Since then a short seller has said he flagged Huang's ties to the woman six months before the story broke, and US law firms have begun competing to file shareholder suits, according to TechCrunch.\n\nEl País reported that the woman, identified as Alice Huang, reached the chief executive through what the paper described as a seduction operation run from China. Beijing has not confirmed that account, and Nvidia has said only that it is reviewing the matter.\n\nThe affair lands at a delicate moment. Nvidia is the bellwether of the AI trade, its China business is already constrained by export controls, and its stock has fallen sharply since the story broke. Wired reported that the fallout is being felt across the sector rather than contained to one company, as partners and investors wait to see what the FBI finds.",
-      "sources": [
-        {
-          "name": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cqg7x7dpvym8o"
-        },
-        {
-          "name": "TechCrunch",
-          "url": "https://techcrunch.com/2026/11/09/the-race-is-on-to-sue-nvidia/"
-        },
-        {
-          "name": "El País",
-          "url": "https://elpais.com/tecnologia/2026-11-10/asi-logro-china-enganar-al-empresario-mas-poderoso-de-la-ia-con-una-operacion-de-seduccion.html"
-        },
-        {
-          "name": "Wired",
-          "url": "https://www.wired.com/story/jensen-huangs-troubles-leaves-the-ai-industry-reeling/"
-        }
-      ],
-      "publishedAt": "2026-11-10T06:16:00Z",
-      "imageURL": "/images/2026-11-10-tech-001.jpg"
-    },
-    {
-      "id": "2026-11-10-tech-002",
-      "category": "tech",
-      "headline": "France blames Iran's Revolutionary Guard for hacking supermarket freezers and blood banks",
-      "subtitle": "Paris calls the campaign 'unprecedented in both its scale and its level of aggression' and will push for EU sanctions, after fridges were heated to spoil food worth millions of euros.",
-      "body": "France has formally accused Iran of carrying out cyber-attacks on internet-connected refrigeration units across the country and beyond. Foreign minister Jean-Noël Barrot told reporters in Paris on Monday that responsibility lay with the Islamic Revolutionary Guard Corps, calling the campaign \"unprecedented in both its scale and its level of aggression\".\n\nIn October, hackers remotely raised the temperature of fridges and freezers in hundreds of supermarkets in France, spoiling fresh and frozen food estimated to be worth millions of euros. Last week dozens of supermarkets in seven other European countries were hit in a similar wave; it is not yet known whether the incidents are linked.\n\nBlood banks were also targeted. The French Blood Establishment said the attacks were stopped before any blood was spoiled. Researchers had warned that the web-based controllers managing fleets of industrial chilling units were exposed, and that some of the affected Danfoss models no longer receive security fixes.\n\nBarrot said France would press for European sanctions against those responsible. Separately, the Paris prosecutor opened an investigation into the head of an offensive cyber unit linked to the Revolutionary Guard. Iran has not responded to the allegations.",
+      "headline": "Google's Pixel Tag goes on sale at $29.99 as Android's answer to the AirTag",
+      "subtitle": "The stainless-steel tracker uses Bluetooth, ultra-wideband and the Find Hub network, promises a year of battery life and works with Pixel Watch",
+      "body": "Google's first finder tag goes on sale on Tuesday, giving Android users a direct rival to Apple's AirTag. The Pixel Tag costs $29.99, was first announced in August, and works through Google's Find Hub network to locate keys, wallets, bags and luggage.\n\nLike the AirTag it pairs Bluetooth with ultra-wideband for precision finding, and it can be located from a phone or from a Pixel Watch. A built-in speaker plays a chime when the item is nearby, with three volume levels in settings, and pressing the tag's button twice rings a misplaced phone.\n\n## A different shape\n\nGoogle has gone for an oval rather than a disc. The tag is 1.1 inches wide, 1.8 inches tall and 0.2 inches thick, against 1.26 inches wide and 0.31 inches thick for the AirTag, and it weighs 0.4 ounces with the battery fitted.\n\nThe shell is stainless steel, rated IP67 for water and dust resistance, and Google says the battery lasts a year. In its own announcement Google positioned the device as secure as well as useful, leaning on the Find Hub network's crowd-sourced tracking. The launch puts pressure on a category Apple has owned since 2021, and it arrives as Google builds out Find Hub as a platform rather than a single accessory.",
       "sources": [
         {
           "name": "TechCrunch",
-          "url": "https://techcrunch.com/2026/11/09/france-blames-iran-for-mass-hacks-targeting-freezers-in-grocery-stores-and-blood-banks/"
+          "url": "https://techcrunch.com/2026/11/10/pixel-tag-googles-30-android-ready-answer-to-apples-airtag-is-now-available/"
         },
         {
-          "name": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cmg474vk6dyqo"
+          "name": "The Verge",
+          "url": "https://www.theverge.com/tech/1030766/google-pixel-tag-tracker-find-hub-uwb-bluetooth-sounding"
         },
         {
-          "name": "The Guardian",
-          "url": "https://www.theguardian.com/world/2026/nov/09/france-blames-irans-revolutionary-guards-for-cyber-attacks-on-supermarket-fridges"
+          "name": "Google",
+          "url": "https://blog.google/products-and-platforms/devices/pixel/google-pixel-tag/"
         }
       ],
-      "publishedAt": "2026-11-10T06:20:00Z",
-      "imageURL": "/images/2026-11-10-tech-002.jpg"
+      "publishedAt": "2026-11-11T06:05:00Z",
+      "imageURL": "/images/2026-11-11-tech-001.jpg"
     },
     {
-      "id": "2026-11-10-tech-003",
+      "id": "2026-11-11-tech-002",
       "category": "tech",
-      "headline": "AI's power bill comes due as CoreWeave yields spike and Anthropic buys $3.4bn of turbines",
-      "subtitle": "The data-centre landlord's bonds now yield more than 16%, while Anthropic has bought Caterpillar generators capable of 1.7 gigawatts — compute is becoming a credit and energy problem.",
-      "body": "Two numbers tell the story of AI's infrastructure squeeze. CoreWeave's bond yield has climbed above 16%, CNBC reported, a level that signals investors are pricing genuine credit risk into the data-centre landlord. And Anthropic has spent $3.4bn on Caterpillar natural gas generators able to produce up to 1.7 gigawatts, according to the Financial Times.\n\nAnthropic, which is preparing to go public, had preferred to rent rather than own its infrastructure: its S-1 filing in May disclosed payments of $1.25bn a month to xAI through May 2029 for computing power. Buying turbines outright looks like a last resort when the backlog for gas turbines stretches into the early 2030s and grid connections can take just as long.\n\nThe generators had originally been ordered by equipment supplier OnePWR, which could not secure financing, so Anthropic went straight to the manufacturer. TechCrunch also reported on Monday that the company is moving forward with plans for an initial public offering.\n\nThe pressure is visible in public markets. AI stocks have swung sharply since last week's US midterms, with trillions wiped from valuations before a partial rebound, as investors question whether the build-out can ever earn back what it costs.",
-      "sources": [
-        {
-          "name": "CNBC",
-          "url": "https://www.cnbc.com/2026/11/06/coreweave-bond-yield-tops-16percent-as-ai-credit-stress-rises.html"
-        },
-        {
-          "name": "TechCrunch",
-          "url": "https://techcrunch.com/2026/11/09/anthropic-joins-ais-natural-gas-frenzy-buys-3-4b-worth-of-turbines/"
-        },
-        {
-          "name": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/c35ynnpzdq51o"
-        }
-      ],
-      "publishedAt": "2026-11-10T06:24:00Z",
-      "imageURL": "/images/2026-11-10-tech-003.jpg"
-    },
-    {
-      "id": "2026-11-10-tech-004",
-      "category": "tech",
-      "headline": "US regulators question whether Waymo's school-bus software fix actually worked",
-      "subtitle": "NHTSA has opened a recall query covering 2,895 robotaxis after finding most illegal passings of stopped school buses happened after the update had been installed.",
-      "body": "America's road safety regulator has opened a recall query into Waymo, questioning whether the software fix the company issued for its robotaxis actually stopped them passing stopped school buses. The query covers 2,895 vehicles equipped with Waymo's fifth-generation automated driving system, Reuters reported.\n\nNHTSA said it had identified a large number of incidents in which Waymo vehicles passed school buses with red lights flashing or the stop arm extended. Most of them occurred after 17 November 2025, when the software update meant to prevent such violations had been completed across the fleet.\n\nThe agency said the query, opened on Friday, would assess the adequacy of the remedy and identify the cause of the continued violations. A recall query is the step regulators take when they suspect a completed recall did not fix the defect.\n\nWaymo says it identified the software issue behind the incidents and that the updates improved its vehicles' performance, and it plans a voluntary software recall. In Austin, Texas, where the problem first surfaced, the school district counted 20 citations in a single school year and asked the company to pause operations while pupils boarded buses; Waymo declined.",
-      "sources": [
-        {
-          "name": "TechCrunch",
-          "url": "https://techcrunch.com/2026/11/09/waymo-robotaxis-kept-illegally-passing-school-buses-after-software-fix-feds-say/"
-        },
-        {
-          "name": "Wired",
-          "url": "https://www.wired.com/story/waymo-school-bus-problem-the-us-government-says-it-didnt-work/"
-        },
-        {
-          "name": "Reuters",
-          "url": "https://www.reuters.com/legal/litigation/us-opens-probe-into-2895-waymo-vehicles-over-school-bus-safety-violations-2026-11-09"
-        }
-      ],
-      "publishedAt": "2026-11-10T06:28:00Z",
-      "imageURL": "/images/2026-11-10-tech-004.jpg"
-    },
-    {
-      "id": "2026-11-10-tech-005",
-      "category": "tech",
-      "headline": "Europe's data-centre backlash reaches Spain as operators fight a new decree",
-      "subtitle": "Protests in 15 countries demanding a moratorium coincide with Spanish operators asking the government to rewrite rules that would tighten control over new facilities.",
-      "body": "Spain was one of 15 European countries where protests were called this weekend demanding a moratorium on new data centres, in what El País described as the first coordinated European mobilisation against the industry. Organisers argued that the regions hosting the facilities are being treated as somebody else's backyard.\n\nIn Spain the fight is also regulatory. Data-centre operators have asked the minister for ecological transition, Sara Aagesen, to revise the decree that will govern the sector, after the Council of State gave the draft its final procedural clearance before approval, 20minutos reported.\n\nThe objections echo those raised elsewhere in Europe: strain on electricity grids, water consumption, land take, and the share of new renewable capacity consumed by computing rather than by households and industry.\n\nIn the United States the same dynamic is producing unusual coalitions. Wired reported that bikers and insect enthusiasts have joined forces to oppose a new Google data centre, one of a growing number of local campaigns that cut across conventional politics.",
-      "sources": [
-        {
-          "name": "El País",
-          "url": "https://elpais.com/tecnologia/2026-11-07/llega-la-primera-movilizacion-europea-contra-los-centros-de-datos-no-queremos-ser-el-patio-trasero-de-nadie.html"
-        },
-        {
-          "name": "20minutos",
-          "url": "https://www.20minutos.es/nacional/los-centros-datos-piden-aagesen-revisar-decreto-que-los-regulara-tras-dar-consejo-estado-ultimo-paso-antes-aprobarse_7058907_0.html"
-        },
-        {
-          "name": "Wired",
-          "url": "https://www.wired.com/story/bug-activists-and-biker-gang-members-are-teaming-up-to-protest-data-centers/"
-        }
-      ],
-      "publishedAt": "2026-11-10T06:32:00Z",
-      "imageURL": "/images/2026-11-10-tech-005.jpg"
-    },
-    {
-      "id": "2026-11-10-ai-001",
-      "category": "ai",
-      "headline": "Anthropic ships Claude Fable 5.2 and Mythos 5.2, and cuts Fable's price",
-      "subtitle": "The lab says the new models handle 'daunting' engineering work, run 30% faster and now undercut GPT-6 Astra on input tokens. Mythos is limited to vetted organisations.",
-      "body": "Anthropic released Claude Fable 5.2 and Mythos 5.2 on Monday, the first models since Fable and Mythos 5.1 in September. The company says both improve on coding, reasoning and vision, respond more clearly, and generate output faster than their predecessors.\n\nFable 5.2 is available from today; Mythos 5.2 is restricted to vetted organisations. In pre-release testing Anthropic says the models designed three working electronic devices from scratch, made progress on robotics evaluations, solved two open problems in the physics of black holes and formalised the proof of Fermat's Last Theorem in 30 hours, and helped its engineers complete software migrations the company calls otherwise infeasible.\n\nCommercially, the sharper news is price. Anthropic is cutting Fable's cost from $10 to $8 per million input tokens, which puts it below its main competitor, GPT-6 Astra, and it says responses come back 30% faster across effort levels. Faster serving is available at double the price. Fable 5.2 also supports zero data retention through the company's Enterprise Frontier Safeguards, a long-standing sticking point for corporate buyers.\n\nThe launch is also Anthropic's first since METR, an outside evaluator, reported that internal models appeared to be speeding up the lab's own research by roughly 2x — the kind of finding that raises the question of recursive self-improvement. METR stressed that many uncertainties remain. Fable 5.2 scores 65 on Artificial Analysis' composite index, the highest recorded so far.",
+      "headline": "Starlink Mini 2 adds a hot-swappable battery for four hours off-grid",
+      "subtitle": "SpaceX's new all-in-one terminal is thinner than the original but slightly heavier, with pre-orders open by invitation for select US customers",
+      "body": "SpaceX has announced a second version of its all-in-one satellite internet terminal, this time with a battery built in. The Starlink Mini 2 combines dish, Wi-Fi router and power in a device about the size of a laptop, and SpaceX claims it runs for up to 4.5 hours on a full charge.\n\nThat endurance can be extended by hot-swapping additional batteries, sold separately, or by connecting the dish to a 60W power source over USB-C. Users on X shared screenshots of order invitations before the announcement, and the Starlink website lists pre-orders as open by invitation for select US customers, with wider availability described as coming soon.\n\nThe battery has not added bulk. The Mini 2 is 23.1mm thick against 38.5mm for the original Mini, though it is slightly heavier. The original Mini was pitched at people who needed connectivity away from mains power, and the integrated battery removes the need to carry a separate power bank for a few hours of use.\n\nPre-orders open as Starlink's consumer business faces growing competition from terrestrial mobile networks and from rival satellite constellations. The company has not announced pricing for the new model or for the spare batteries.",
       "sources": [
         {
           "name": "The Verge",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1030005/anthropic-claude-fable-mythos-5-2"
+          "url": "https://www.theverge.com/tech/1031028/spacex-starlink-mini-2-satellite-internet-terminal-hot-swap-battery"
         },
         {
-          "name": "TechCrunch",
-          "url": "https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns/"
-        },
-        {
-          "name": "Anthropic",
-          "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2"
-        },
-        {
-          "name": "Artificial Analysis",
-          "url": "https://artificialanalysis.ai/models/claude-fable-5-2"
-        }
-      ],
-      "publishedAt": "2026-11-10T06:36:00Z",
-      "imageURL": "/images/2026-11-10-ai-001.jpg"
-    },
-    {
-      "id": "2026-11-10-ai-002",
-      "category": "ai",
-      "headline": "Meta's Muse Ember aims at the unglamorous half of agentic AI: volume",
-      "subtitle": "At 10 cents per million input tokens, the Superintelligence Lab's lightest model is built to sit under a bigger planner and do the tool calls, routing and extraction.",
-      "body": "Meta's Superintelligence Lab released Muse Ember on Monday, describing it as its lightest and most cost-efficient model yet. Ember is built for the repetitive work agents do all day: tool calls, coding subtasks, routing, extraction and parsing long documents.\n\nThe pitch is cost per task rather than benchmark bragging. At 10 cents per million input tokens, Meta positions Ember as significantly cheaper than Anthropic's Haiku and OpenAI's Luna while remaining competitive with open-weight rivals such as DeepSeek V4.1 Flash and GLM 5.3 Flash.\n\nEmber is designed to be paired with a larger model rather than used on its own. In a customer-support agent, for instance, a heavier model sets the rules for handling an issue and the lighter one applies them across tens of thousands of cases. Meta's summary is blunt: \"Muse Wonder plans, Muse Ember handles the volume.\"\n\nThe strategy mirrors what has happened across the market this year, as the cost of inference became the deciding variable for anyone running agents at scale. Cheaper per-task models make long chains of tool calls affordable, and they make it harder for frontier labs to justify premium pricing on routine work.",
-      "sources": [
-        {
-          "name": "TechCrunch",
-          "url": "https://techcrunch.com/2026/11/09/meta-releases-muse-ember-a-new-lightweight-model-for-agent-execution/"
-        },
-        {
-          "name": "Meta AI",
-          "url": "https://research.meta.ai/blog/muse-ember"
+          "name": "Starlink",
+          "url": "https://starlink.com/mini-2"
         },
         {
           "name": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=50429024"
+          "url": "https://news.ycombinator.com/item?id=50444129"
         }
       ],
-      "publishedAt": "2026-11-10T06:40:00Z",
-      "imageURL": "/images/2026-11-10-ai-002.jpg"
+      "publishedAt": "2026-11-11T06:07:00Z",
+      "imageURL": "/images/2026-11-11-tech-002.jpg"
     },
     {
-      "id": "2026-11-10-ai-003",
-      "category": "ai",
-      "headline": "Apple starts selling AI by the pack: $49.99 for extra Logic Pro assistant use",
-      "subtitle": "Logic Pro 13 is the first app with a 'Buy More Usage' button. Packs need a Creator Studio subscription, cannot be shared with family and don't say how much usage they contain.",
-      "body": "Apple has begun charging for extra Apple Intelligence usage. Logic Pro 13 is the first app with a \"Buy More Usage\" option, selling a one-time \"intelligence usage pack\" for $49.99 in the United States. 9to5Mac spotted the listing on Monday and MacRumors confirmed the US price.\n\nThe packs are available only to subscribers of Apple Creator Studio, the $12.99-a-month bundle of creative apps, and only once the monthly limit on the Logic assistant is reached. Apple sells them in eight countries: Brazil, Canada, France, Germany, India, Mexico, the United Kingdom and the United States.\n\nThe terms are restrictive. A pack can be used only by the Apple Account that bought it, Family Sharing does not apply, unused usage rolls over month to month but expires 12 months after purchase, and sales are final. Apple does not disclose how much extra usage a pack buys, which makes it hard to compare with simply paying for a subscription.\n\nApple has said since September that some features would carry usage limits because they call cloud models from OpenAI and Google. The Logic assistant needs an Apple silicon Mac, macOS 27 or later and US English, and the packs are expected to reach Final Cut Pro, Pixelmator Pro and the iWork apps this month.",
+      "id": "2026-11-11-tech-003",
+      "category": "tech",
+      "headline": "Oura to buy AI primary-care startup Counsel Health for $625m",
+      "subtitle": "The deal lands weeks after the ring maker shelved a $2.2bn IPO and expands a partnership that put AI medical chat and doctors inside the Oura app",
+      "body": "Oura announced on Tuesday that it is buying Counsel Health, an AI-native primary care company, for $625 million. The deal comes weeks after the smart ring maker postponed an IPO of up to $2.2 billion indefinitely, citing uncertainty in the public markets.\n\nCounsel Health combines a chat-based medical service with access to licensed physicians, and its product was integrated into the Oura app in June. Members can put questions to the medical AI and speak to a doctor when needed without leaving the app. The companies now plan to build out preventative care, acute care, and specialty and chronic care.\n\n\"Oura helps members understand their physiology and, with Counsel, they can take action on their health across a range of needs, from quick questions and prescriptions to lab results, chronic care, and referrals,\" chief executive Tom Hale said in a statement.\n\n## Pressure from cheaper rings\n\nOura has led the smart ring category for years, but RingConn, Ultrahuman and others have chipped away at its position, pushing the company to widen what the subscription offers. Counsel Health raised a $25 million Series A a year ago led by Andreessen Horowitz and GV, and PitchBook estimates it had raised about $36 million in total. The acquisition turns a partner into a subsidiary at a moment when Oura's own path to public markets has stalled.",
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/10/oura-to-acquire-ai-native-primary-care-startup-counsel-health-for-625m/"
+        },
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/gadgets/1031284/oura-counsel-health-acquisition"
+        },
+        {
+          "name": "Oura",
+          "url": "https://ouraring.com/blog/counsel-integration-oura-app/"
+        }
+      ],
+      "publishedAt": "2026-11-11T06:09:00Z",
+      "imageURL": "/images/2026-11-11-tech-003.jpg"
+    },
+    {
+      "id": "2026-11-11-tech-004",
+      "category": "tech",
+      "headline": "Regulators clear X-energy to build four small modular reactors in Texas",
+      "subtitle": "The permit covers Xe-100 units at a Dow chemical site and is the first approval of a high-temperature gas-cooled reactor in nearly 60 years",
+      "body": "The US Nuclear Regulatory Commission has approved a construction permit for four X-energy Xe-100 reactors at Dow's Seadrift chemical site in Calhoun County, Texas. Each unit is designed to produce 80 megawatts of electricity and 200 megawatts of heat, with the steam and power going to the industrial plant and surplus electricity to the grid.\n\nX-energy called it the first NRC construction permit for a high-temperature gas-cooled reactor in nearly 60 years, the first ever for a pebble-bed design, and the first for a nuclear deployment at an industrial site. The permit allows construction to begin; it is not an operating licence, and fuel loading and start-up require a separate approval the company is still preparing. Construction is expected to be completed in the early 2030s, with a 60-year design life.\n\n## Safety questions deferred\n\nNot everyone welcomed the speed. Edwin Lyman of the Union of Concerned Scientists said the regulator had reached the decision by pushing consideration of critical safety questions to a later date. X-energy argues its design, which passes helium gas over uranium fuel pellets encased in layers of ceramic and carbon, is intrinsically safer than conventional reactors.\n\nDemand is being driven by data centres as much as industry. Amazon's Climate Pledge Fund led a $500 million round in X-energy and has committed to buying power from its projects. The new Long Mott Generating Station, as the plant will be known, is the first advanced nuclear facility approved for an industrial site in the US under the Department of Energy's Advanced Reactor Demonstration Program.",
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/10/x-energy-gets-green-light-to-build-its-first-small-modular-nuclear-reactors/"
+        },
+        {
+          "name": "X-energy",
+          "url": "https://x-energy.com/news/dow-x-energy-proposed-smr-project-receives-historic-construction-permit-for-nuclear-powered-industrial-site"
+        },
+        {
+          "name": "Port Lavaca Wave",
+          "url": "https://portlavacawave.com/articles/2311/view/nrc-approves-construction-permit-for-x-energy-and-dow-project"
+        }
+      ],
+      "publishedAt": "2026-11-11T06:11:00Z",
+      "imageURL": "/images/2026-11-11-tech-004.jpg"
+    },
+    {
+      "id": "2026-11-11-tech-005",
+      "category": "tech",
+      "headline": "Sony cancels Fairgames, the heist shooter meant to anchor its live-service push",
+      "subtitle": "No jobs are lost at Haven Studios, which will support other PlayStation teams after a playtest fell short on feedback and retention targets",
+      "body": "Sony has cancelled Fairgames, the live-service heist shooter announced in 2023, according to Bloomberg. The game was in development at Haven Studios in Montreal, the team founded in 2021 by former Assassin's Creed producer Jade Raymond, which Sony bought in 2022.\n\nThere will be no layoffs as a result. A PlayStation spokesperson said Haven would shift to collaborating with other development teams across PlayStation Studios while exploring new creative opportunities. Reporting on the decision points to a recent playtest whose feedback and retention results did not meet the company's expectations, in a crowded player-versus-player market.\n\n## A retreat years in the making\n\nFairgames had been reworked several times since its reveal, and it was one of more than ten live-service titles Sony said in 2022 it intended to release by 2026. Most of that slate has now been cancelled or shut down, leaving Helldivers 2 as the clearest success, while Bungie's Marathon has had a difficult launch despite new features shown this week.\n\nThe cancellation lands as Sony prepares for the next console generation and says it is prioritising fewer, more reliable investments. For Haven, the outcome is unusual in an industry where project cancellations have usually been followed by redundancies: the studio survives, but without the game it was built to make.",
       "sources": [
         {
           "name": "The Verge",
-          "url": "https://www.theverge.com/tech/1030084/apple-intelligence-usage-packs-ai-features-creator-studio-logic-pro"
+          "url": "https://www.theverge.com/games/1031242/sony-playstation-fairgames-canceled"
         },
         {
-          "name": "MacRumors",
-          "url": "https://www.macrumors.com/2026/11/05/logic-pro-new-feature-requires-subscription"
+          "name": "Polygon",
+          "url": "https://www.polygon.com/sony-cancels-fairgames-live-service-shooter-ps5"
+        },
+        {
+          "name": "Game Informer",
+          "url": "https://gameinformer.com/2026/11/10/playstation-cancels-in-development-live-service-shooter-fairgames-at-jade-raymonds"
+        }
+      ],
+      "publishedAt": "2026-11-11T06:13:00Z",
+      "imageURL": "/images/2026-11-11-tech-005.jpg"
+    },
+    {
+      "id": "2026-11-11-ai-001",
+      "category": "ai",
+      "headline": "All seven Anthropic founders will each sell about $250m of stock in the IPO",
+      "subtitle": "Each will offload 3,378,378 shares at a mooted $70–78 range, leaving the group in control of a company seeking a valuation of up to $1.4 trillion",
+      "body": "Anthropic's amended S-1 filing shows all seven of its co-founders selling an identical block of shares in the company's initial public offering, with each cashing out roughly a quarter of a billion dollars at the midpoint of the price range.\n\nEach founder plans to sell 3,378,378 shares. At the $74 midpoint of the $70 to $78 range the company has floated, that is just short of $250 million apiece; at the bottom of the range each would take about $236 million, and at the top just under $264 million. The seven are chief executive Dario Amodei, president Daniela Amodei, Tom Brown, Jack Clark, Jared Kaplan, Sam McCandlish and Christopher Olah.\n\n## A very large listing\n\nThe filing covers 825 million Class A shares, of which about 801 million come from the company and 23.6 million from existing holders. Anthropic has applied to list on Nasdaq as ANT. On the 13.09 billion shares outstanding after the offering, the range implies a market value of roughly $916 billion to $1.02 trillion, and about $1.4 trillion fully diluted. The base deal would raise between $57.75 billion and $64.35 billion before fees, with Goldman Sachs and Morgan Stanley leading a syndicate of 22 banks.\n\nDemand signals are already unusual. Board member Reed Hastings has indicated he wants to buy $300 million of stock through a donor-advised fund, and Christopher Liddell a further $3 million. The founders' sales do not appear to loosen their grip on the company, which remains closely held after listing.",
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/10/all-7-anthropic-founders-will-each-cash-out-about-250m-in-ipo/"
+        },
+        {
+          "name": "France 24",
+          "url": "https://www.france24.com/en/tv-shows/business/20261110-anthropic-eyes-1-4-trillion-valuation-in-blockbuster-ipo"
+        },
+        {
+          "name": "MLQ.ai",
+          "url": "https://mlq.ai/news/anthropics-ipo-filing-values-it-at-up-to-1-trillion-on-outstanding-shares-and-1-4-trillion-fully-diluted"
+        }
+      ],
+      "publishedAt": "2026-11-11T06:15:00Z",
+      "imageURL": "/images/2026-11-11-ai-001.jpg"
+    },
+    {
+      "id": "2026-11-11-ai-002",
+      "category": "ai",
+      "headline": "New York opens registration under its RAISE Act AI safety law",
+      "subtitle": "Frontier developers with more than $500m in revenue must sign up by 1 January, publish safety frameworks and report critical incidents within 72 hours",
+      "body": "New York opened a registration portal on Tuesday for the large AI developers covered by its RAISE Act, the most sweeping state-level safety regime for frontier models in the United States. Companies including OpenAI and Anthropic must register by 1 January 2027, when the law takes effect.\n\nCovered developers are those training models above 10^26 computational operations with more than $500 million in annual revenue. They will have to publish safety and transparency frameworks on their websites, report critical safety incidents within 72 hours, file quarterly assessments of catastrophic risk and submit public model transparency reports. A new state office, Digital Innovation, Governance, Integrity and Trust, will run the regime.\n\n## Fines and a political fight\n\nPenalties run to $1 million for a first violation and $3 million for later ones, and the state can pursue companies that fail to register, although officials declined to detail how. Governor Kathy Hochul used the announcement to attack the industry's framing of the argument: \"Tech moguls tell us that their vision for AI is inevitable,\" she said. \"They tell us get on board or get left behind.\"\n\nBoth OpenAI and Anthropic have publicly supported the act, arguing that matching rules in New York and California is better than a patchwork. The final text Hochul signed was softened compared with the bill the legislature passed, and tracks California's transparency law for frontier AI.",
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/"
+        },
+        {
+          "name": "MLQ.ai",
+          "url": "https://mlq.ai/news/new-york-opens-raise-act-registration-giving-openai-anthropic-and-other-frontier-labs-until-jan-1-to-sign-up"
+        },
+        {
+          "name": "IAPP",
+          "url": "https://iapp.org/news/a/hochul-enacts-new-yorks-ai-safety-and-transparency-bill"
+        }
+      ],
+      "publishedAt": "2026-11-11T06:17:00Z",
+      "imageURL": "/images/2026-11-11-ai-002.jpg"
+    },
+    {
+      "id": "2026-11-11-ai-003",
+      "category": "ai",
+      "headline": "OpenAI buys Odessia, the AI travel agent built by Sonder's co-founder",
+      "subtitle": "The startup was five months old and had raised about $6m; the deal hands ChatGPT a booking engine with airline accreditation rather than a referral link",
+      "body": "OpenAI has acquired Odessia, an AI travel agent founded by Sonder co-founder Francis Davidson, less than a year after it launched. Davidson announced the deal on Tuesday and said he would join OpenAI \"to focus on the future of travel\". Terms were not disclosed.\n\nOdessia launched in June with a team of eight in San Francisco and about $6 million in seed funding led by Sequoia. Davidson said tens of thousands of users planned more than $60 million a year of travel through the service this summer. Reports say the consumer product has been shut down as the team moves inside OpenAI, though the company has not detailed what happens to existing users.\n\n## Why OpenAI wanted it\n\nOpenAI has spent the past year pushing travel into ChatGPT, adding advertising and booking so users can buy without leaving the assistant. What Odessia adds is the machinery underneath: IATA accreditation, hotel content and a team that has built a booking agent end to end.\n\nThe strategic logic is less about Odessia's revenue, which was negligible, than about the founder. Davidson ran Sonder, a hotels-and-short-term-rentals business, for a decade, and knows lodging economics from both sides of the transaction. Shares in Expedia, Booking and Tripadvisor slipped on the news, a reminder that the assistant is now a distribution threat as well as a customer.",
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/10/openai-acquires-odessia-travel-startup-created-by-sonder-founder/"
+        },
+        {
+          "name": "Skift",
+          "url": "https://skift.com/2026/11/10/a-year-after-sonders-collapse-francis-davidson-sells-his-ai-travel-startup-to-openai"
         },
         {
           "name": "FourWeekMBA",
-          "url": "https://fourweekmba.com/ai-apple-starts-charging-49-99-for-extra-ai-use-in-logic-pro"
+          "url": "https://fourweekmba.com/ai-openai-buys-travel-agent-odessia-27-days-after-public-launch"
         }
       ],
-      "publishedAt": "2026-11-10T06:44:00Z",
-      "imageURL": "/images/2026-11-10-ai-003.jpg"
+      "publishedAt": "2026-11-11T06:19:00Z",
+      "imageURL": "/images/2026-11-11-ai-003.jpg"
+    },
+    {
+      "id": "2026-11-11-ai-004",
+      "category": "ai",
+      "headline": "DeepMind used AI agents to formally verify the Signal protocol's code",
+      "subtitle": "A four-week proof of concept mathematically proved key security properties of the encryption behind billions of messages, a first for a widely deployed protocol",
+      "body": "Google DeepMind researchers have used AI agents to formally verify key security properties of the actual code underlying the Signal protocol, the encryption that protects messages on Signal, Google Messages and WhatsApp. The company says it is the first time AI has been used to verify a widely deployed cryptographic protocol at this depth, and the first time such an implementation has been verified by any method at all.\n\nThe work was done in about four weeks as a proof of concept, using a framework called AlphaProof Code. It splits formal verification the way a research team would: human experts and AI decide together what needs to be proved, and a group of agents then constructs the mathematical proof.\n\n## The point, and the limit\n\nFormal verification has long been treated as a holy grail in software security because it proves code does what it is supposed to do rather than merely failing to break under testing. Doing it by hand is slow and expensive, which is why it has stayed rare outside a few heavily regulated niches.\n\n\"We are very excited by this result, but there is a long distance to go before we are able to scale this to all the software of the world, and we want to do that,\" DeepMind research scientist Swarat Chaudhuri told Wired. Independent validation of Signal's design is valuable in itself, given how much of the world's private communication depends on it.",
+      "sources": [
+        {
+          "name": "Wired",
+          "url": "https://www.wired.com/story/a-new-ai-tool-from-google-deepmind-formally-verified-the-signal-protocol/"
+        },
+        {
+          "name": "Google DeepMind",
+          "url": "https://deepmind.google/blog/introducing-alphaproof-code/"
+        },
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50439193"
+        }
+      ],
+      "publishedAt": "2026-11-11T06:21:00Z",
+      "imageURL": "/images/2026-11-11-ai-004.jpg"
     }
   ]
 }

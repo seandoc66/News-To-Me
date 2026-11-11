@@ -1,0 +1,566 @@
+{
+  "generatedAt": "2026-11-11T05:06:21Z",
+  "config": {
+    "sections": {
+      "local": {
+        "min": 1,
+        "max": 3,
+        "sources": [
+          {
+            "name": "El Progreso",
+            "url": "https://www.elprogreso.es/lugo/"
+          },
+          {
+            "name": "20minutos",
+            "url": "https://www.20minutos.es/"
+          },
+          {
+            "name": "Europa Press",
+            "url": "https://www.europapress.es/"
+          }
+        ]
+      },
+      "national": {
+        "min": 3,
+        "max": 5,
+        "sources": [
+          {
+            "name": "20minutos",
+            "url": "https://www.20minutos.es/"
+          },
+          {
+            "name": "El Mundo",
+            "url": "https://www.elmundo.es/"
+          },
+          {
+            "name": "Europa Press",
+            "url": "https://www.europapress.es/"
+          },
+          {
+            "name": "El Correo Gallego",
+            "url": "https://www.elcorreogallego.es/"
+          }
+        ]
+      },
+      "northernIreland": {
+        "min": 1,
+        "max": 1,
+        "sources": [
+          {
+            "name": "BBC News NI",
+            "url": "https://www.bbc.co.uk/news/northern_ireland"
+          },
+          {
+            "name": "News Letter",
+            "url": "https://www.newsletter.co.uk/"
+          }
+        ]
+      },
+      "global": {
+        "min": 4,
+        "max": 8,
+        "sources": [
+          {
+            "name": "BBC",
+            "url": "https://www.bbc.com/news/world"
+          },
+          {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/"
+          },
+          {
+            "name": "France 24",
+            "url": "https://www.france24.com/en/"
+          },
+          {
+            "name": "El Mundo",
+            "url": "https://www.elmundo.es/"
+          }
+        ]
+      },
+      "tech": {
+        "min": 5,
+        "max": 5,
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/"
+          },
+          {
+            "name": "The Verge",
+            "url": "https://www.theverge.com/"
+          },
+          {
+            "name": "Hacker News",
+            "url": "https://news.ycombinator.com/"
+          },
+          {
+            "name": "Polygon",
+            "url": "https://www.polygon.com/"
+          }
+        ]
+      },
+      "ai": {
+        "min": 4,
+        "max": 7,
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/"
+          },
+          {
+            "name": "Wired",
+            "url": "https://www.wired.com/"
+          },
+          {
+            "name": "Google DeepMind",
+            "url": "https://deepmind.google/"
+          },
+          {
+            "name": "Skift",
+            "url": "https://skift.com/"
+          }
+        ]
+      }
+    }
+  },
+  "articles": [
+    {
+      "id": "2026-11-11-local-001",
+      "category": "local",
+      "headline": "Ni un solo tren pasa por Lugo por el paro de maquinistas de Renfe",
+      "subtitle": "La estación lucense se queda sin servicio este martes y este miércoles: las dos frecuencias con Madrid se cubren en autobús hasta Monforte y Ourense",
+      "body": "La estación Intermodal de Lugo se quedó este martes sin ningún tren. La huelga de maquinistas de Renfe, sumada a la oferta ya mínima de frecuencias de la ciudad, anuló los media distancia que unen Lugo con A Coruña y Ourense y dejó las conexiones con Madrid reducidas a dos salidas cubiertas por autobús.\n\nLos servicios suprimidos fueron el que salía de Monforte a las 7.30 y pasaba por Lugo a las 8.23 camino de A Coruña, y el que llegaba a las 14.12 desde Ourense. Por la tarde tampoco circularon ni el enlace con el Ave a Madrid ni el Lugo-Ourense de las 21.28.\n\nLas dos frecuencias que se mantuvieron con la capital, hacia las 5.00 y las 18.30, obligaron a los viajeros a subir a autocares: en el primer caso hasta Monforte y en el segundo hasta Ourense, un trasbordo que ya es habitual y no responde al paro. En Monforte también se vieron afectados otros trenes, como el Ponferrada-Vigo.\n\nLa situación se repetirá este miércoles, con la huelga general convocada en todo el país, y el jueves, cuando los sindicatos de maquinistas han llamado a un nuevo paro. Fuentes internas de la compañía señalan además que algunos maquinistas asignados a los servicios mínimos han alegado enfermedad al incorporarse, lo que agrava las cancelaciones en varios puntos de la red.\n\nEl paro de maquinistas llega en un momento delicado para el ferrocarril gallego, pendiente todavía de la reapertura del corredor afectado por el accidente de Urda y con las conexiones lucenses entre las más frágiles del noroeste.",
+      "sources": [
+        {
+          "name": "El Progreso",
+          "url": "https://www.elprogreso.es/articulo/lugo/huelga-maquinistas-provoca-que-ni-solo-tren-pase-lugo/202611101345132013113.html"
+        },
+        {
+          "name": "20minutos",
+          "url": "https://www.20minutos.es/nacional/los-maquinistas-paralizan-cercanias-rodalies-su-primer-paro-por-seguridad-ferroviaria-un-dia-antes-huelga-general_7059413_0.html"
+        },
+        {
+          "name": "Europa Press",
+          "url": "https://www.europapress.es/economia/transportes-00343/noticia-huelga-general-11-noviembre-servicios-minimos-trenes-vuelos-transporte-20261110135358.html"
+        }
+      ],
+      "publishedAt": "2026-11-11T05:10:00Z",
+      "imageURL": "/images/2026-11-11-local-001.jpg"
+    },
+    {
+      "id": "2026-11-11-local-002",
+      "category": "local",
+      "headline": "A Mariña secunda el 11N con Alcoa, Ence, puerto y transporte entre los convocados",
+      "subtitle": "Burela y Viveiro acogen manifestaciones a mediodía; los convocantes describen el paro como una respuesta a la «avidez inmobiliaria» y reclaman bajar la jornada",
+      "body": "La comarca de A Mariña secundará este miércoles la huelga general convocada en toda España por CC.OO., UGT y la CIG para exigir medidas sobre vivienda, regulación de precios y salarios. El seguimiento incluye sectores industriales y portuarios, además del educativo y el del transporte.\n\nEl comité de empresa de Alcoa y el de Ence Navia han anunciado su apoyo a la convocatoria, junto a transportistas y trabajadores portuarios. También respaldan la jornada el BNG y la Plataforma en Defensa da Sanidade Pública da Mariña, que sostiene que «non pode haber xustiza social nin calidade de vida sen uns servizos públicos fortes e dignos».\n\nHabrá dos manifestaciones a las doce de la mañana: una en Burela convocada por la CIG y otra en Viveiro por Comisiones Obreras y UGT. Los sindicatos llamaron a participar en un comunicado en el que definen el paro como una respuesta a la «insaciable avaricia inmobiliaria» y una muestra de la indignación mayoritaria del país.\n\nEntre las reivindicaciones figuran la reducción de la jornada laboral y la erradicación de la precariedad. Montse Porteiro, coordinadora del colectivo sanitario, situó la sanidad pública como «a principal garantía de igualdade e benestar» y advirtió de que sin ella no hay calidad de vida posible en la comarca.",
+      "sources": [
+        {
+          "name": "El Progreso",
+          "url": "https://www.elprogreso.es/articulo/a-marina/marina-afronta-jornada-huelga-muchas-convocatorias/202611110500002013276.html"
+        },
+        {
+          "name": "El Progreso",
+          "url": "https://www.elprogreso.es/articulo/espana/preguntas-respuestas-huelga-11-n-quien-puede-secundarla-cuanto-descuenta-que-derechos-tienes/202611091115532012795.html"
+        },
+        {
+          "name": "20minutos",
+          "url": "https://www.20minutos.es/lainformacion/economia-y-finanzas/arranca-primera-gran-huelga-general-14-anos-con-vivienda-como-eje-las-protestas_7059446_0.html"
+        }
+      ],
+      "publishedAt": "2026-11-11T05:20:00Z",
+      "imageURL": "/images/2026-11-11-local-002.jpg"
+    },
+    {
+      "id": "2026-11-11-national-001",
+      "category": "national",
+      "headline": "La primera huelga general en 14 años arranca con piquetes y primeras incidencias",
+      "subtitle": "Vivienda y salarios centran el 11N: Interior pide impedir piquetes violentos, BBVA Research limita el impacto al 0,1% del PIB y Funcas lo eleva a 5.000 millones",
+      "body": "La huelga general convocada por CC.OO., UGT y la CIG arrancó este miércoles con piquetes informativos a las puertas de mercados centrales e industrias y con las primeras incidencias en el transporte, en la que es la primera convocatoria de este tipo en España en catorce años. La vivienda, la regulación de precios y los salarios son los ejes de la protesta.\n\nEn Mercavalencia los piquetes actuaron de madrugada, y los sindicatos han convocado manifestaciones en las principales ciudades. El Ministerio del Interior dictó una instrucción para que la Policía Nacional y la Guardia Civil garanticen el derecho a huelga pero impidan barricadas y «piquetes que utilicen la violencia», con protección reforzada de infraestructuras críticas, polígonos industriales y mercados de abastecimiento.\n\n## El pulso por el impacto económico\n\nLas cifras de seguimiento y de coste son objeto de disputa. BBVA Research calcula un impacto del 0,1% del PIB en un escenario de escasa participación, mientras Funcas sitúa la factura máxima en 5.000 millones si el seguimiento fuera total. El Mundo apunta a un «pinchazo» de participación en plena era del teletrabajo y en precampaña electoral, con la cita del 29N en el horizonte.\n\nLa patronal CEOE ha sostenido que la convocatoria es ilegal, acusación que los sindicatos rechazan de plano. A la jornada se suma el paro de maquinistas de Renfe, que este martes ya dejó sin trenes a varias ciudades y que los sindicatos ferroviarios han vuelto a convocar para el jueves.",
+      "sources": [
+        {
+          "name": "20minutos",
+          "url": "https://www.20minutos.es/nacional/huelga-general-11n-directo-ultima-hora-los-paros-manifestaciones-servicios-minimos-toda-espana_7059492_6.html"
+        },
+        {
+          "name": "El Mundo",
+          "url": "https://www.elmundo.es/economia/2026/11/10/6af3092efc6c8308488b4597.html"
+        },
+        {
+          "name": "Europa Press",
+          "url": "https://www.europapress.es/nacional/noticia-interior-ordena-actuar-contra-piquetes-violentos-huelga-11n-garantizar-seguridad-poligonos-mercados-20261110174507.html"
+        }
+      ],
+      "publishedAt": "2026-11-11T05:30:00Z",
+      "imageURL": "/images/2026-11-11-national-001.jpg"
+    },
+    {
+      "id": "2026-11-11-national-002",
+      "category": "national",
+      "headline": "Cien policías buscan en Oviedo a 'El Ruso', que mató a un agente con una bomba",
+      "subtitle": "El sospechoso, exlegionario con amplio historial, huyó tras disparar a una menor de 17 años; su pareja está detenida y el técnico del TEDAX sigue grave pero estable",
+      "body": "Más de cien agentes participan en la búsqueda de Manuel F. A., conocido como 'El Ruso', el hombre al que la Policía Nacional considera autor del tiroteo contra una menor de 17 años y de la colocación del artefacto que este martes mató a un subinspector de Guías Caninos en Oviedo. El sospechoso permanece huido y armado desde primera hora del martes.\n\nLa secuencia comenzó con una llamada a la sala CIMACC entre las 7.30 y las 7.45, que alertaba de disparos por un conflicto vecinal. Al llegar, los agentes encontraron restos de sangre y los vecinos les indicaron que una joven había sido tiroteada y trasladada a un hospital. Al inspeccionar el inmueble localizaron un paquete sospechoso en el rellano.\n\nLos especialistas de Guías Caninos y del TEDAX sacaron el artefacto al exterior del edificio para proteger al vecindario. Fue entonces cuando se produjo la explosión: murieron el subinspector y el perro detector de explosivos, y un técnico del TEDAX resultó herido de extrema gravedad. El portavoz policial, Pedro Aguado, precisó que el especialista está ingresado en el HUCA con pronóstico grave pero «estable», y pidió no dar crédito a los bulos sobre su fallecimiento.\n\n## Un conflicto vecinal de larga duración\n\nEl edificio fue desalojado y los agentes registran piso por piso garajes y trasteros. La Policía facilitó a los taxistas de la ciudad una descripción del fugitivo: complexión delgada, 1,80 metros, pelo rapado, gafas y ojos oscuros. Vecinos describen al matrimonio como conflictivo y aseguran que los enfrentamientos venían de lejos. Su pareja, Tatiana B. P., de nacionalidad rusa, fue detenida al mediodía y habría aportado pistas sobre el posible paradero del sospechoso sin que permitieran localizarlo.",
+      "sources": [
+        {
+          "name": "El Mundo",
+          "url": "https://www.elmundo.es/espana/2026/11/10/6af36b8de85ece64448b45bf.html"
+        },
+        {
+          "name": "Europa Press",
+          "url": "https://www.europapress.es/asturias/noticia-policia-tiene-identificado-autor-muerte-policia-oviedo-prosigue-busqueda-20261110132614.html"
+        },
+        {
+          "name": "El Correo Gallego",
+          "url": "https://www.elcorreogallego.es/sucesos/2026/11/10/infierno-desatado-ruso-propio-portal-136309242.html"
+        }
+      ],
+      "publishedAt": "2026-11-11T05:40:00Z",
+      "imageURL": "/images/2026-11-11-national-002.jpg"
+    },
+    {
+      "id": "2026-11-11-national-003",
+      "category": "national",
+      "headline": "Funeral de Estado en Toledo por las 69 víctimas de Urda, con Sánchez ausente",
+      "subtitle": "Los Reyes presiden la misa en la Catedral ante 1.500 personas y 150 familiares; don Felipe pide «dignidad y rigor» y Feijóo acusa al presidente de «no tener respeto por nada»",
+      "body": "La Catedral de Toledo acogió este martes el funeral de Estado por las 69 víctimas del accidente ferroviario de Urda, presidido por los Reyes y oficiado por el arzobispo toledano, Francisco Cerro Chaves. Unas 1.500 personas llenaron el templo, entre ellas 150 familiares de fallecidos y heridos. Sesenta y nueve velas ardían a los pies del Cristo de Vera Cruz, una por cada víctima.\n\nDon Felipe y Doña Letizia, de luto riguroso, fueron recibidos a las siete de la tarde en la puerta de los Reyes y correspondieron con un saludo serio a los aplausos de decenas de personas. El monarca había pedido días antes afrontar la tragedia con «dignidad y rigor» y advirtió de que «tendrán que adoptarse medidas para que esto no vuelva a suceder».\n\nEl presidente del Gobierno, Pedro Sánchez, no acudió. El Ejecutivo justificó su ausencia en que España es un Estado aconfesional y no asiste a homenajes religiosos; en su lugar estuvieron el vicepresidente primero, Carlos Cuerpo, y los ministros Milagros Tolón, Margarita Robles y Mónica García, junto a los presidentes del Congreso y del Senado y la del Tribunal Supremo.\n\n## La ausencia que marcó la jornada\n\nEl líder del PP, Alberto Núñez Feijóo, cargó contra esa ausencia: «Era un funeral de Estado por una tragedia sin precedentes en la alta velocidad y, estando el jefe del Estado, lo lógico y lo obligatorio es que esté el primer ministro del país, pero no estaba». «No tiene respeto por nada», añadió en una entrevista en 'Horizonte'.\n\nEl momento más emotivo llegó con la primera lectura, a cargo de Ana Benítez Domínguez, hermana de David, uno de los fallecidos, de 38 años y costalero en Chiclana. Concelebraron con el arzobispo el presidente de la Conferencia Episcopal, Luis Argüello, el cardenal de Madrid, José Cobo, y nueve prelados más.",
+      "sources": [
+        {
+          "name": "Europa Press",
+          "url": "https://www.europapress.es/castilla-lamancha/noticia-mas-mil-personas-arropan-familias-victimas-urda-funeral-toledo-sentimos-dolor-20261110212652.html"
+        },
+        {
+          "name": "El Mundo",
+          "url": "https://www.elmundo.es/espana/2026/11/10/6af34bbde9cf4aed4e8b4597.html"
+        },
+        {
+          "name": "El Correo Gallego",
+          "url": "https://www.elcorreogallego.es/espana/2026/11/11/feijoo-carga-sanchez-acudir-funeral-136310071.html"
+        }
+      ],
+      "publishedAt": "2026-11-11T05:50:00Z",
+      "imageURL": "/images/2026-11-11-national-003.jpg"
+    },
+    {
+      "id": "2026-11-11-northernIreland-001",
+      "category": "northernIreland",
+      "headline": "Fivemiletown cattle cull was lawful but badly handled, review finds",
+      "subtitle": "An independent review by former chief vet Dr Martin Blake says the killing of 51 cattle was justified but criticises carcasses left overnight exposed in open fields",
+      "body": "A cull of 51 cattle near Fivemiletown in June was lawful and appropriate, but the operation had significant shortcomings, an independent review has concluded. The report was carried out by Dr Martin Blake, Ireland's former chief veterinary officer, and was ordered by Agriculture Minister Andrew Muir after complaints from farmers and politicians about how the slaughter was carried out.\n\nThe review found insufficient thought had been given during planning to the visual and emotional upset felt by people who saw carcasses lying overnight exposed in open fields. It also identified operational shortcomings in how the operation was conducted.\n\n## Minister accepts findings in full\n\nMuir said the findings were accepted in full, with regular reporting and independent oversight put in place to ensure improvements are driven and sustained at pace. He has insisted he neither authorised nor directed the operation, but maintained that the cull itself was necessary.\n\nThe DUP said the report confirmed what people already knew and that the Department of Agriculture, Environment and Rural Affairs had got it badly wrong. The cull followed a court finding that a farmer was guilty of animal welfare offences and an order to dispose of his livestock. It prompted an emergency committee meeting at Stormont, a protest at the site and a vote of no confidence in the minister from farming leaders.",
+      "sources": [
+        {
+          "name": "BBC News NI",
+          "url": "https://www.bbc.co.uk/news/articles/cmd7q1jj8e45o"
+        },
+        {
+          "name": "News Letter",
+          "url": "https://www.newsletter.co.uk/news/politics/fivemiletown-cull-report-minister-andrew-muir-says-i-neither-authorised-nor-directed-operation-but-it-was-necessary-9343171"
+        },
+        {
+          "name": "News Letter",
+          "url": "https://www.newsletter.co.uk/news/politics/dup-says-fivemiletown-cattle-cull-report-confirms-what-people-knew-and-daera-got-it-badly-wrong-9342859"
+        }
+      ],
+      "publishedAt": "2026-11-11T05:55:00Z",
+      "imageURL": "/images/2026-11-11-northernIreland-001.jpg"
+    },
+    {
+      "id": "2026-11-11-global-001",
+      "category": "global",
+      "headline": "US House blocks bid to impeach defence chief Pete Hegseth",
+      "subtitle": "Republicans sent the articles to committee instead of allowing a full vote; Hegseth called the effort a farce in his first Pentagon briefing in six months",
+      "body": "An attempt to impeach US Defence Secretary Pete Hegseth over his conduct of the war with Iran has failed in the House of Representatives, after a majority voted to send the articles of impeachment to a committee rather than put them to a full vote.\n\nThe resolution was introduced by Thomas Massie, a dissident Republican from Kentucky, and accused Hegseth of waging war without congressional authorisation. Massie was the only Republican to vote against referring it to the Republican-led House Judiciary Committee, a manoeuvre that effectively kills the effort for now.\n\nSpeaking at his first Pentagon news briefing in six months, Hegseth dismissed the move as a \"farce\" and \"sabotage\".\n\n## Why it was a long shot\n\nRemoving a cabinet secretary would have required a number of other Republicans to defy President Donald Trump, and the numbers were never there. Coverage of the vote noted that eleven Democrats were absent from the chamber. The practical effect is that the war powers dispute moves into a committee process controlled by the defence secretary's own party, where it can be slowed indefinitely. El Mundo reported that Republicans stopped the attempt in Congress without any immediate political cost to the White House.",
+      "sources": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cxly4y5jzl0qo"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/11/republicans-block-hegseth-impeachment-motion"
+        },
+        {
+          "name": "El Mundo",
+          "url": "https://www.elmundo.es/internacional/2026/11/11/6af3ab53e4d4d851418b45b0.html"
+        }
+      ],
+      "publishedAt": "2026-11-11T05:58:00Z",
+      "imageURL": "/images/2026-11-11-global-001.jpg"
+    },
+    {
+      "id": "2026-11-11-global-002",
+      "category": "global",
+      "headline": "US charges three men over alleged Iran-backed plot at RAF Fairford",
+      "subtitle": "The justice department links them to the Revolutionary Guard and Kataib Hezbollah and to nearly 20 attacks or attempted attacks in the US and Europe",
+      "body": "The US Department of Justice has charged three men it describes as Iranian-backed operatives over a string of alleged plots in the United States and Europe, including an incident at the RAF Fairford air base in England, where American forces are stationed.\n\nThe indictment names Mohsen Mohajeri, an Iranian; Mohammad Ali al-Hassani, an Iraqi national; and Mohammad Baqer Saad Dawood al-Saadi, who holds dual Iranian and Iraqi nationality. Prosecutors say they acted in support of Iran's Islamic Revolutionary Guard Corps and Iraq's Kataib Hezbollah, and allege involvement in close to 20 attacks and attempted attacks.\n\nAl-Saadi is already held in a New York prison awaiting trial on earlier charges and is accused of communicating with contacts in Britain from custody. The other two are accused of operating from Iran. Prosecutors did not disclose their whereabouts.\n\nThe UK incident came to light when suspicious vans were reported near the Gloucestershire base in September. Police described it as a major and suspicious event, seven men were arrested in Britain, and the US subsequently withdrew its bombers from Fairford. Iran has strongly denied any involvement. A BBC News NI report on the case was published as the charges were unsealed.",
+      "sources": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c3rryrryk59zo"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/11/us-charges-3-iranian-backed-men-over-alleged-plot-at-uk-fairford-air-base"
+        },
+        {
+          "name": "France 24",
+          "url": "https://www.france24.com/en/americas/20261110-us-iranian-operatives-raf-fairford-terror-plot"
+        }
+      ],
+      "publishedAt": "2026-11-11T06:00:00Z",
+      "imageURL": "/images/2026-11-11-global-002.jpg"
+    },
+    {
+      "id": "2026-11-11-global-003",
+      "category": "global",
+      "headline": "El Salvador's military destroys Haitian gang headquarters, Bukele says",
+      "subtitle": "The ground and air attack on a 400 Mawozo complex outside Port-au-Prince is El Salvador's first strike on a Haitian target since deploying 2,000 troops",
+      "body": "El Salvador's military has destroyed the headquarters of one of Haiti's largest criminal gangs in a ground and air attack, according to President Nayib Bukele, who announced the operation on X with video of strikes on the complex.\n\nThe target was the 400 Mawozo gang, known for mass kidnappings and intimidation, at a site on the outskirts of Port-au-Prince. Bukele said most of the gang's members fled without attempting to fight.\n\nIt is El Salvador's first military action against a Haitian target since it deployed more than 2,000 soldiers to the country last month, as part of a mission to recover four Salvadoran technicians who went missing there. Haiti's prime minister has praised Bukele and the Salvadoran troops over the operation.\n\nHaiti has been ravaged by gang violence for years, with heavily armed groups controlling large parts of the capital and territory beyond it, despite the presence of a Kenyan-led multinational security mission. El Salvador's intervention is unusual in that it is not part of that UN-authorised force, and Bukele has presented it in his own security branding, built on the mass incarceration campaign that transformed his country's homicide figures.",
+      "sources": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cmvg2xdwnwezo"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/11/el-salvador-fires-missiles-on-haitian-gang-hideout"
+        },
+        {
+          "name": "France 24",
+          "url": "https://www.france24.com/en/americas/20261111-haiti-pm-bukele-salvadoran-troops-gang-headquarters"
+        }
+      ],
+      "publishedAt": "2026-11-11T06:02:00Z",
+      "imageURL": "/images/2026-11-11-global-003.jpg"
+    },
+    {
+      "id": "2026-11-11-global-004",
+      "category": "global",
+      "headline": "Thomas Markle back in federal custody after removing his ankle monitor",
+      "subtitle": "A Florida judge revoked house arrest and denied bond, ruling no conditions could assure public safety given his untenable housing situation",
+      "body": "Thomas Markle, the father of the Duchess of Sussex, is back in federal custody in Florida after allegedly removing his electronic ankle monitor, according to court documents.\n\nMarkle, who is 82, appeared before magistrate judge Lindsay S Griffin in Tampa on Tuesday and was denied bond. Prosecutors say he removed the device at about 01.45 local time, and federal agents arrested him later the same day. The judge found he had violated the conditions of his pretrial release.\n\nHe was arrested last Friday in Lakeland, Florida, where he had been living at a clinic specialising in dementia care, on suspicion of possessing material showing the sexual abuse of children, including images involving underage girls. He has denied the allegations.\n\n## No suitable housing\n\nIn her order revoking release, Griffin described Markle's housing situation as \"untenable\" and wrote that no condition or combination of conditions would reasonably assure the safety of the community or his appearance in court. The Justice Department said the conditions of release were court orders rather than suggestions, and that it would pursue the case to the full extent of the law. Markle has been estranged from his daughter for years and has given a series of interviews about the royal family.",
+      "sources": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c9j3433zy4vro"
+        },
+        {
+          "name": "El Correo Gallego",
+          "url": "https://www.elcorreogallego.es/mundo/2026/11/10/padre-meghan-markle-encarcelado-eeuu-136309640.html"
+        },
+        {
+          "name": "20minutos",
+          "url": "https://www.20minutos.es/gente/fiscalia-ee-uu-pide-encarcelar-padre-meghan-markle-por-quitarse-pulsera-telematica-durante-su-arresto-domiciliario_7059537_0.html"
+        }
+      ],
+      "publishedAt": "2026-11-11T06:04:00Z",
+      "imageURL": "/images/2026-11-11-global-004.jpg"
+    },
+    {
+      "id": "2026-11-11-tech-001",
+      "category": "tech",
+      "headline": "Google's Pixel Tag goes on sale at $29.99 as Android's answer to the AirTag",
+      "subtitle": "The stainless-steel tracker uses Bluetooth, ultra-wideband and the Find Hub network, promises a year of battery life and works with Pixel Watch",
+      "body": "Google's first finder tag goes on sale on Tuesday, giving Android users a direct rival to Apple's AirTag. The Pixel Tag costs $29.99, was first announced in August, and works through Google's Find Hub network to locate keys, wallets, bags and luggage.\n\nLike the AirTag it pairs Bluetooth with ultra-wideband for precision finding, and it can be located from a phone or from a Pixel Watch. A built-in speaker plays a chime when the item is nearby, with three volume levels in settings, and pressing the tag's button twice rings a misplaced phone.\n\n## A different shape\n\nGoogle has gone for an oval rather than a disc. The tag is 1.1 inches wide, 1.8 inches tall and 0.2 inches thick, against 1.26 inches wide and 0.31 inches thick for the AirTag, and it weighs 0.4 ounces with the battery fitted.\n\nThe shell is stainless steel, rated IP67 for water and dust resistance, and Google says the battery lasts a year. In its own announcement Google positioned the device as secure as well as useful, leaning on the Find Hub network's crowd-sourced tracking. The launch puts pressure on a category Apple has owned since 2021, and it arrives as Google builds out Find Hub as a platform rather than a single accessory.",
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/10/pixel-tag-googles-30-android-ready-answer-to-apples-airtag-is-now-available/"
+        },
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/tech/1030766/google-pixel-tag-tracker-find-hub-uwb-bluetooth-sounding"
+        },
+        {
+          "name": "Google",
+          "url": "https://blog.google/products-and-platforms/devices/pixel/google-pixel-tag/"
+        }
+      ],
+      "publishedAt": "2026-11-11T06:05:00Z",
+      "imageURL": "/images/2026-11-11-tech-001.jpg"
+    },
+    {
+      "id": "2026-11-11-tech-002",
+      "category": "tech",
+      "headline": "Starlink Mini 2 adds a hot-swappable battery for four hours off-grid",
+      "subtitle": "SpaceX's new all-in-one terminal is thinner than the original but slightly heavier, with pre-orders open by invitation for select US customers",
+      "body": "SpaceX has announced a second version of its all-in-one satellite internet terminal, this time with a battery built in. The Starlink Mini 2 combines dish, Wi-Fi router and power in a device about the size of a laptop, and SpaceX claims it runs for up to 4.5 hours on a full charge.\n\nThat endurance can be extended by hot-swapping additional batteries, sold separately, or by connecting the dish to a 60W power source over USB-C. Users on X shared screenshots of order invitations before the announcement, and the Starlink website lists pre-orders as open by invitation for select US customers, with wider availability described as coming soon.\n\nThe battery has not added bulk. The Mini 2 is 23.1mm thick against 38.5mm for the original Mini, though it is slightly heavier. The original Mini was pitched at people who needed connectivity away from mains power, and the integrated battery removes the need to carry a separate power bank for a few hours of use.\n\nPre-orders open as Starlink's consumer business faces growing competition from terrestrial mobile networks and from rival satellite constellations. The company has not announced pricing for the new model or for the spare batteries.",
+      "sources": [
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/tech/1031028/spacex-starlink-mini-2-satellite-internet-terminal-hot-swap-battery"
+        },
+        {
+          "name": "Starlink",
+          "url": "https://starlink.com/mini-2"
+        },
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50444129"
+        }
+      ],
+      "publishedAt": "2026-11-11T06:07:00Z",
+      "imageURL": "/images/2026-11-11-tech-002.jpg"
+    },
+    {
+      "id": "2026-11-11-tech-003",
+      "category": "tech",
+      "headline": "Oura to buy AI primary-care startup Counsel Health for $625m",
+      "subtitle": "The deal lands weeks after the ring maker shelved a $2.2bn IPO and expands a partnership that put AI medical chat and doctors inside the Oura app",
+      "body": "Oura announced on Tuesday that it is buying Counsel Health, an AI-native primary care company, for $625 million. The deal comes weeks after the smart ring maker postponed an IPO of up to $2.2 billion indefinitely, citing uncertainty in the public markets.\n\nCounsel Health combines a chat-based medical service with access to licensed physicians, and its product was integrated into the Oura app in June. Members can put questions to the medical AI and speak to a doctor when needed without leaving the app. The companies now plan to build out preventative care, acute care, and specialty and chronic care.\n\n\"Oura helps members understand their physiology and, with Counsel, they can take action on their health across a range of needs, from quick questions and prescriptions to lab results, chronic care, and referrals,\" chief executive Tom Hale said in a statement.\n\n## Pressure from cheaper rings\n\nOura has led the smart ring category for years, but RingConn, Ultrahuman and others have chipped away at its position, pushing the company to widen what the subscription offers. Counsel Health raised a $25 million Series A a year ago led by Andreessen Horowitz and GV, and PitchBook estimates it had raised about $36 million in total. The acquisition turns a partner into a subsidiary at a moment when Oura's own path to public markets has stalled.",
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/10/oura-to-acquire-ai-native-primary-care-startup-counsel-health-for-625m/"
+        },
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/gadgets/1031284/oura-counsel-health-acquisition"
+        },
+        {
+          "name": "Oura",
+          "url": "https://ouraring.com/blog/counsel-integration-oura-app/"
+        }
+      ],
+      "publishedAt": "2026-11-11T06:09:00Z",
+      "imageURL": "/images/2026-11-11-tech-003.jpg"
+    },
+    {
+      "id": "2026-11-11-tech-004",
+      "category": "tech",
+      "headline": "Regulators clear X-energy to build four small modular reactors in Texas",
+      "subtitle": "The permit covers Xe-100 units at a Dow chemical site and is the first approval of a high-temperature gas-cooled reactor in nearly 60 years",
+      "body": "The US Nuclear Regulatory Commission has approved a construction permit for four X-energy Xe-100 reactors at Dow's Seadrift chemical site in Calhoun County, Texas. Each unit is designed to produce 80 megawatts of electricity and 200 megawatts of heat, with the steam and power going to the industrial plant and surplus electricity to the grid.\n\nX-energy called it the first NRC construction permit for a high-temperature gas-cooled reactor in nearly 60 years, the first ever for a pebble-bed design, and the first for a nuclear deployment at an industrial site. The permit allows construction to begin; it is not an operating licence, and fuel loading and start-up require a separate approval the company is still preparing. Construction is expected to be completed in the early 2030s, with a 60-year design life.\n\n## Safety questions deferred\n\nNot everyone welcomed the speed. Edwin Lyman of the Union of Concerned Scientists said the regulator had reached the decision by pushing consideration of critical safety questions to a later date. X-energy argues its design, which passes helium gas over uranium fuel pellets encased in layers of ceramic and carbon, is intrinsically safer than conventional reactors.\n\nDemand is being driven by data centres as much as industry. Amazon's Climate Pledge Fund led a $500 million round in X-energy and has committed to buying power from its projects. The new Long Mott Generating Station, as the plant will be known, is the first advanced nuclear facility approved for an industrial site in the US under the Department of Energy's Advanced Reactor Demonstration Program.",
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/10/x-energy-gets-green-light-to-build-its-first-small-modular-nuclear-reactors/"
+        },
+        {
+          "name": "X-energy",
+          "url": "https://x-energy.com/news/dow-x-energy-proposed-smr-project-receives-historic-construction-permit-for-nuclear-powered-industrial-site"
+        },
+        {
+          "name": "Port Lavaca Wave",
+          "url": "https://portlavacawave.com/articles/2311/view/nrc-approves-construction-permit-for-x-energy-and-dow-project"
+        }
+      ],
+      "publishedAt": "2026-11-11T06:11:00Z",
+      "imageURL": "/images/2026-11-11-tech-004.jpg"
+    },
+    {
+      "id": "2026-11-11-tech-005",
+      "category": "tech",
+      "headline": "Sony cancels Fairgames, the heist shooter meant to anchor its live-service push",
+      "subtitle": "No jobs are lost at Haven Studios, which will support other PlayStation teams after a playtest fell short on feedback and retention targets",
+      "body": "Sony has cancelled Fairgames, the live-service heist shooter announced in 2023, according to Bloomberg. The game was in development at Haven Studios in Montreal, the team founded in 2021 by former Assassin's Creed producer Jade Raymond, which Sony bought in 2022.\n\nThere will be no layoffs as a result. A PlayStation spokesperson said Haven would shift to collaborating with other development teams across PlayStation Studios while exploring new creative opportunities. Reporting on the decision points to a recent playtest whose feedback and retention results did not meet the company's expectations, in a crowded player-versus-player market.\n\n## A retreat years in the making\n\nFairgames had been reworked several times since its reveal, and it was one of more than ten live-service titles Sony said in 2022 it intended to release by 2026. Most of that slate has now been cancelled or shut down, leaving Helldivers 2 as the clearest success, while Bungie's Marathon has had a difficult launch despite new features shown this week.\n\nThe cancellation lands as Sony prepares for the next console generation and says it is prioritising fewer, more reliable investments. For Haven, the outcome is unusual in an industry where project cancellations have usually been followed by redundancies: the studio survives, but without the game it was built to make.",
+      "sources": [
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/games/1031242/sony-playstation-fairgames-canceled"
+        },
+        {
+          "name": "Polygon",
+          "url": "https://www.polygon.com/sony-cancels-fairgames-live-service-shooter-ps5"
+        },
+        {
+          "name": "Game Informer",
+          "url": "https://gameinformer.com/2026/11/10/playstation-cancels-in-development-live-service-shooter-fairgames-at-jade-raymonds"
+        }
+      ],
+      "publishedAt": "2026-11-11T06:13:00Z",
+      "imageURL": "/images/2026-11-11-tech-005.jpg"
+    },
+    {
+      "id": "2026-11-11-ai-001",
+      "category": "ai",
+      "headline": "All seven Anthropic founders will each sell about $250m of stock in the IPO",
+      "subtitle": "Each will offload 3,378,378 shares at a mooted $70–78 range, leaving the group in control of a company seeking a valuation of up to $1.4 trillion",
+      "body": "Anthropic's amended S-1 filing shows all seven of its co-founders selling an identical block of shares in the company's initial public offering, with each cashing out roughly a quarter of a billion dollars at the midpoint of the price range.\n\nEach founder plans to sell 3,378,378 shares. At the $74 midpoint of the $70 to $78 range the company has floated, that is just short of $250 million apiece; at the bottom of the range each would take about $236 million, and at the top just under $264 million. The seven are chief executive Dario Amodei, president Daniela Amodei, Tom Brown, Jack Clark, Jared Kaplan, Sam McCandlish and Christopher Olah.\n\n## A very large listing\n\nThe filing covers 825 million Class A shares, of which about 801 million come from the company and 23.6 million from existing holders. Anthropic has applied to list on Nasdaq as ANT. On the 13.09 billion shares outstanding after the offering, the range implies a market value of roughly $916 billion to $1.02 trillion, and about $1.4 trillion fully diluted. The base deal would raise between $57.75 billion and $64.35 billion before fees, with Goldman Sachs and Morgan Stanley leading a syndicate of 22 banks.\n\nDemand signals are already unusual. Board member Reed Hastings has indicated he wants to buy $300 million of stock through a donor-advised fund, and Christopher Liddell a further $3 million. The founders' sales do not appear to loosen their grip on the company, which remains closely held after listing.",
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/10/all-7-anthropic-founders-will-each-cash-out-about-250m-in-ipo/"
+        },
+        {
+          "name": "France 24",
+          "url": "https://www.france24.com/en/tv-shows/business/20261110-anthropic-eyes-1-4-trillion-valuation-in-blockbuster-ipo"
+        },
+        {
+          "name": "MLQ.ai",
+          "url": "https://mlq.ai/news/anthropics-ipo-filing-values-it-at-up-to-1-trillion-on-outstanding-shares-and-1-4-trillion-fully-diluted"
+        }
+      ],
+      "publishedAt": "2026-11-11T06:15:00Z",
+      "imageURL": "/images/2026-11-11-ai-001.jpg"
+    },
+    {
+      "id": "2026-11-11-ai-002",
+      "category": "ai",
+      "headline": "New York opens registration under its RAISE Act AI safety law",
+      "subtitle": "Frontier developers with more than $500m in revenue must sign up by 1 January, publish safety frameworks and report critical incidents within 72 hours",
+      "body": "New York opened a registration portal on Tuesday for the large AI developers covered by its RAISE Act, the most sweeping state-level safety regime for frontier models in the United States. Companies including OpenAI and Anthropic must register by 1 January 2027, when the law takes effect.\n\nCovered developers are those training models above 10^26 computational operations with more than $500 million in annual revenue. They will have to publish safety and transparency frameworks on their websites, report critical safety incidents within 72 hours, file quarterly assessments of catastrophic risk and submit public model transparency reports. A new state office, Digital Innovation, Governance, Integrity and Trust, will run the regime.\n\n## Fines and a political fight\n\nPenalties run to $1 million for a first violation and $3 million for later ones, and the state can pursue companies that fail to register, although officials declined to detail how. Governor Kathy Hochul used the announcement to attack the industry's framing of the argument: \"Tech moguls tell us that their vision for AI is inevitable,\" she said. \"They tell us get on board or get left behind.\"\n\nBoth OpenAI and Anthropic have publicly supported the act, arguing that matching rules in New York and California is better than a patchwork. The final text Hochul signed was softened compared with the bill the legislature passed, and tracks California's transparency law for frontier AI.",
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/"
+        },
+        {
+          "name": "MLQ.ai",
+          "url": "https://mlq.ai/news/new-york-opens-raise-act-registration-giving-openai-anthropic-and-other-frontier-labs-until-jan-1-to-sign-up"
+        },
+        {
+          "name": "IAPP",
+          "url": "https://iapp.org/news/a/hochul-enacts-new-yorks-ai-safety-and-transparency-bill"
+        }
+      ],
+      "publishedAt": "2026-11-11T06:17:00Z",
+      "imageURL": "/images/2026-11-11-ai-002.jpg"
+    },
+    {
+      "id": "2026-11-11-ai-003",
+      "category": "ai",
+      "headline": "OpenAI buys Odessia, the AI travel agent built by Sonder's co-founder",
+      "subtitle": "The startup was five months old and had raised about $6m; the deal hands ChatGPT a booking engine with airline accreditation rather than a referral link",
+      "body": "OpenAI has acquired Odessia, an AI travel agent founded by Sonder co-founder Francis Davidson, less than a year after it launched. Davidson announced the deal on Tuesday and said he would join OpenAI \"to focus on the future of travel\". Terms were not disclosed.\n\nOdessia launched in June with a team of eight in San Francisco and about $6 million in seed funding led by Sequoia. Davidson said tens of thousands of users planned more than $60 million a year of travel through the service this summer. Reports say the consumer product has been shut down as the team moves inside OpenAI, though the company has not detailed what happens to existing users.\n\n## Why OpenAI wanted it\n\nOpenAI has spent the past year pushing travel into ChatGPT, adding advertising and booking so users can buy without leaving the assistant. What Odessia adds is the machinery underneath: IATA accreditation, hotel content and a team that has built a booking agent end to end.\n\nThe strategic logic is less about Odessia's revenue, which was negligible, than about the founder. Davidson ran Sonder, a hotels-and-short-term-rentals business, for a decade, and knows lodging economics from both sides of the transaction. Shares in Expedia, Booking and Tripadvisor slipped on the news, a reminder that the assistant is now a distribution threat as well as a customer.",
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/10/openai-acquires-odessia-travel-startup-created-by-sonder-founder/"
+        },
+        {
+          "name": "Skift",
+          "url": "https://skift.com/2026/11/10/a-year-after-sonders-collapse-francis-davidson-sells-his-ai-travel-startup-to-openai"
+        },
+        {
+          "name": "FourWeekMBA",
+          "url": "https://fourweekmba.com/ai-openai-buys-travel-agent-odessia-27-days-after-public-launch"
+        }
+      ],
+      "publishedAt": "2026-11-11T06:19:00Z",
+      "imageURL": "/images/2026-11-11-ai-003.jpg"
+    },
+    {
+      "id": "2026-11-11-ai-004",
+      "category": "ai",
+      "headline": "DeepMind used AI agents to formally verify the Signal protocol's code",
+      "subtitle": "A four-week proof of concept mathematically proved key security properties of the encryption behind billions of messages, a first for a widely deployed protocol",
+      "body": "Google DeepMind researchers have used AI agents to formally verify key security properties of the actual code underlying the Signal protocol, the encryption that protects messages on Signal, Google Messages and WhatsApp. The company says it is the first time AI has been used to verify a widely deployed cryptographic protocol at this depth, and the first time such an implementation has been verified by any method at all.\n\nThe work was done in about four weeks as a proof of concept, using a framework called AlphaProof Code. It splits formal verification the way a research team would: human experts and AI decide together what needs to be proved, and a group of agents then constructs the mathematical proof.\n\n## The point, and the limit\n\nFormal verification has long been treated as a holy grail in software security because it proves code does what it is supposed to do rather than merely failing to break under testing. Doing it by hand is slow and expensive, which is why it has stayed rare outside a few heavily regulated niches.\n\n\"We are very excited by this result, but there is a long distance to go before we are able to scale this to all the software of the world, and we want to do that,\" DeepMind research scientist Swarat Chaudhuri told Wired. Independent validation of Signal's design is valuable in itself, given how much of the world's private communication depends on it.",
+      "sources": [
+        {
+          "name": "Wired",
+          "url": "https://www.wired.com/story/a-new-ai-tool-from-google-deepmind-formally-verified-the-signal-protocol/"
+        },
+        {
+          "name": "Google DeepMind",
+          "url": "https://deepmind.google/blog/introducing-alphaproof-code/"
+        },
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50439193"
+        }
+      ],
+      "publishedAt": "2026-11-11T06:21:00Z",
+      "imageURL": "/images/2026-11-11-ai-004.jpg"
+    }
+  ]
+}
