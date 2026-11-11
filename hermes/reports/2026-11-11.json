@@ -1,0 +1,28 @@
+{
+  "date": "2026-11-11",
+  "published": true,
+  "publishedAt": "2026-11-11T05:06:21Z",
+  "sections": {
+    "present": ["local", "national", "northernIreland", "global", "tech", "ai"],
+    "missing": []
+  },
+  "storiesWithoutPhoto": [],
+  "validatorWarnings": [
+    "2026-11-11-global-001 paragraph 4 is 82 words — over 80",
+    "2026-11-11-global-001 has 1 subhead in a 192-word story — below 200 words",
+    "2026-11-11-global-004 paragraph 4 is 82 words — over 80",
+    "2026-11-11-ai-001 paragraph 3 is 85 words — over 80"
+  ],
+  "validatorErrors": [],
+  "workarounds": [
+    "El Progreso returns HTTP 403 to scripted fetches on article pages; its main RSS feed works, and the three Lugo article bodies were pulled with the web_extract tool instead.",
+    "La Voz de Galicia's section feeds 404 and its main feed did not parse into items, so La Voz was dropped as a local corroborator and 20minutos/Europa Press used instead.",
+    "Derry Journal article pages block automated fetches, so the Northern Ireland slot went to the Fivemiletown cattle cull review, which BBC NI and the News Letter both cover.",
+    "TechCrunch's N-able zero-day story URL returned 404 and the Huntress write-up returned 403, so that story was dropped rather than shipped on two sources.",
+    "thebreakthrough.org press release 404'd; replaced with the Port Lavaca Wave's local report and dropped the claim sourced to Breakthrough.",
+    "Third sources for several tech/AI stories were found through Hacker News' Algolia story search rather than extra web searches, to stay inside the search cap."
+  ],
+  "needsHumanAttention": false,
+  "humanAttentionReason": null,
+  "notes": "Heavy news day: first general strike in Spain in 14 years (11-N), a police officer killed in Oviedo, and the Urda funeral for the rail-crash victims. No trains ran through Lugo at all. All 19 photos resolved, including six BBC ichef images that had 403'd during the URL check and fetched fine at publish time."
+}
