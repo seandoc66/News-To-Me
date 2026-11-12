@@ -1,0 +1,28 @@
+{
+  "date": "2026-11-12",
+  "published": true,
+  "publishedAt": "2026-11-12T05:06:40Z",
+  "sections": {
+    "present": ["local", "national", "northernIreland", "global", "tech", "ai"],
+    "missing": []
+  },
+  "storiesWithoutPhoto": [
+    { "id": "2026-11-12-global-002", "section": "global" }
+  ],
+  "validatorWarnings": [
+    "2026-11-12-ai-003 paragraph 3 is 85 words — over 80, which reads as a wall of text on a phone. Aim for 30–80",
+    "1 article(s) publishing without a photo — these render with the category gradient: 2026-11-12-global-002"
+  ],
+  "validatorErrors": [],
+  "workarounds": [
+    "El Progreso's RSS feed (/rss and every section variant tried) returned no parseable items, so local discovery moved to noticiaslugo.es/rss plus direct page extracts of El Progreso and La Voz de Galicia.",
+    "elcorreogallego.es RSS also parsed empty; dropped as a source rather than retried.",
+    "Three-section sourcing needed outlets beyond the usual feed list, so Al Jazeera, CBC, France 24, DW, Sky News, NPR, Ars Technica, The Register, BleepingComputer, Engadget, Euractiv, Tom's Hardware, The Decoder and SiliconANGLE feeds were added to the fetch set (RSS is free, outside the search cap).",
+    "United Airlines' AI-agent story and the Grok Build exposure only had two outlets each in the feed set; one search apiece (plus The Decoder and Cybernews) closed both to three sources.",
+    "The Verge's United article is image-heavy and returned mostly navigation chrome to web_extract; the body was read from the cached copy to avoid re-fetching.",
+    "Brooklyn building collapse shipped with no photo: no outlet in the feed set exposed a usable candidate at fetch time."
+  ],
+  "needsHumanAttention": false,
+  "humanAttentionReason": null,
+  "notes": "Heavy news day across the board: the 11-N general strike aftermath in Spain, a mass emailed bomb-threat hoax hitting 300-plus schools in the North, the Nvidia board reportedly moving against Jensen Huang, and OpenAI's first $10bn quarter. Six sections, 19 articles, 18 photos. Nvidia is the third consecutive edition on the Huang story but on genuinely new facts (board action, second allegation, 52-week low); prior days covered the FBI investigation and the company's own inquiry."
+}
