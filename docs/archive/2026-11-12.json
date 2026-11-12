@@ -1,0 +1,595 @@
+{
+  "generatedAt": "2026-11-12T05:06:40Z",
+  "config": {
+    "sections": {
+      "local": {
+        "min": 1,
+        "max": 3,
+        "sources": [
+          {
+            "name": "La Voz de Galicia",
+            "url": "https://www.lavozdegalicia.es/noticia/lugo/lugo/2026/11/12/tres-edificios-lugo-siguen-cerrados-costaron-35-millones-fondos-europeos/0003_202611L12C2994.htm"
+          },
+          {
+            "name": "Xornal de Lugo",
+            "url": "https://www.xornaldelugo.com/o-psoe-acusa-ao-goberno-municipal-de-non-impulsar-a-actividade-do-coliving-e-da-fabrica-da-luz"
+          },
+          {
+            "name": "La Voz de Galicia (edición en galego)",
+            "url": "https://galego.lavozdegalicia.es/noticia/lugo/lugo/2026/11/12/tres-edificios-lugo-siguen-cerrados-costaron-35-millones-fondos-europeos/0003_202611L12C2994.htm"
+          }
+        ]
+      },
+      "national": {
+        "min": 3,
+        "max": 5,
+        "sources": [
+          {
+            "name": "El Mundo",
+            "url": "https://www.elmundo.es/espana/2026/11/11/6af4d97dfc6c83e1258b459e.html"
+          },
+          {
+            "name": "Europa Press",
+            "url": "https://www.europapress.es/nacional/noticia-act3-huelga-deja-ya-mas-50-detenidos-919-incidencias-toda-espana-20261111190915.html"
+          },
+          {
+            "name": "20minutos",
+            "url": "https://www.20minutos.es/lainformacion/economia-y-finanzas/huelga-general-que-lleno-las-calles-pero-no-paralizo-las-ciudades-por-que-11-n-ha-tenido-menos-impacto-que-ultima-2012_7059992_0.html"
+          }
+        ]
+      },
+      "northernIreland": {
+        "min": 1,
+        "max": 1,
+        "sources": [
+          {
+            "name": "BBC News NI",
+            "url": "https://www.bbc.co.uk/news/articles/cq0mdnrxe9k3o"
+          },
+          {
+            "name": "News Letter",
+            "url": "https://www.newsletter.co.uk/education/police-probe-links-between-last-months-school-bomb-hoax-and-new-threats-psni-joins-with-scotlands-force-for-investigation-9345622"
+          },
+          {
+            "name": "Derry Journal",
+            "url": "https://www.derryjournal.com/news/crime/psni-confirm-email-threat-to-derry-schools-was-a-hoax-9343962"
+          },
+          {
+            "name": "Belfast Telegraph",
+            "url": "https://www.belfasttelegraph.co.uk/business/analysis/schools-balancing-difficult-decisions-as-bomb-threats-causing-headaches-for-police-and-principals-in-northern-ireland/a/164415182.html"
+          }
+        ]
+      },
+      "global": {
+        "min": 4,
+        "max": 8,
+        "sources": [
+          {
+            "name": "BBC",
+            "url": "https://www.bbc.co.uk/news/articles/ck792we7zrz4o"
+          },
+          {
+            "name": "France 24",
+            "url": "https://www.france24.com/en/europe/20261111-russia-and-ukraine-agree-to-major-prisoner-swap-as-peace-talks-end"
+          },
+          {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/11/12/fighting-intensifies-in-yemen-as-houthis-deny-targeting-mecca"
+          },
+          {
+            "name": "CBC",
+            "url": "https://www.cbc.ca/news/world/new-york-fire-brooklyn-building-collapse-9.7418579?cmp=rss"
+          }
+        ]
+      },
+      "tech": {
+        "min": 5,
+        "max": 5,
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/11/11/nvidias-stock-drops-as-board-reportedly-preps-to-oust-ceo-jensen-huang/"
+          },
+          {
+            "name": "Ars Technica",
+            "url": "https://arstechnica.com/gadgets/2026/11/ceo-jensen-huangs-job-is-suddenly-on-the-line-at-nvidia/"
+          },
+          {
+            "name": "The Verge",
+            "url": "https://www.theverge.com/policy/1031575/digital-fairness-act-eu-dfa-consumer-protection"
+          },
+          {
+            "name": "Wired",
+            "url": "https://www.wired.com/story/duolingo-strava-and-ticketmaster-are-all-caught-up-in-eus-new-digital-fairness-rules/"
+          },
+          {
+            "name": "BleepingComputer",
+            "url": "https://www.bleepingcomputer.com/news/security/maersk-confirms-data-breach-as-whitearmor-ransomware-demands-5-million/"
+          }
+        ]
+      },
+      "ai": {
+        "min": 4,
+        "max": 7,
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/11/11/openais-quarterly-revenue-reportedly-crosses-10b-for-the-first-time/"
+          },
+          {
+            "name": "The Decoder",
+            "url": "https://the-decoder.com/enterprise-sales-push-openais-quarterly-revenue-to-10-billion-though-it-still-trails-anthropic-in-some-areas/"
+          },
+          {
+            "name": "Ars Technica",
+            "url": "https://arstechnica.com/security/2026/11/grok-build-coding-agent-leaks-oodles-of-confidential-info-some-belonging-to-spacexsi"
+          },
+          {
+            "name": "SiliconANGLE",
+            "url": "https://siliconangle.com/2026/11/11/google-enters-the-decision-model-market-with-gemini-decisions-api/"
+          },
+          {
+            "name": "The Verge",
+            "url": "https://www.theverge.com/ai-artificial-intelligence/1031623/united-unauthorized-ai-agents"
+          }
+        ]
+      }
+    }
+  },
+  "articles": [
+    {
+      "id": "2026-11-12-local-001",
+      "category": "local",
+      "headline": "Tres edificios rehabilitados con 3,5 millones de fondos europeos siguen cerrados en Lugo",
+      "subtitle": "Las Caldas do Miño, el Coliving Artístico do Carme y la Fábrica da Luz no tienen actividad continuada mientras el Concello busca fórmulas para reabrirlos sin incumplir las condiciones de las ayudas.",
+      "body": "Las Caldas do Miño abrieron en marzo de 2023 tras una inversión de 919.587 euros y hoy vuelven a estar cerradas. Junto al Coliving Artístico do Carme y la Fábrica da Luz, con su Centro Enogastronómico, forman un grupo de tres equipamientos municipales sin uso pleno que se costearon con fondos europeos por un total de 3,5 millones de euros.\n\nEl gobierno local que preside Elena Candia admite que busca la manera de poner los tres inmuebles en servicio sin comprometer los objetivos con los que se pidieron las subvenciones, según publicó La Voz de Galicia. Los edificios se rehabilitaron para desestacionalizar el turismo y promocionar la gastronomía de la comarca.\n\n## El PSOE pide un plan estable\n\nLa concejala socialista Ana González Abelleira denuncia la falta de programación continuada en la Fábrica da Luz desde su apertura y la ausencia de actividad en el Coliving después del cambio de gobierno municipal y de la dirección de Cultura. Su grupo pedirá al ejecutivo local un calendario anual con objetivos definidos.\n\nLos socialistas reclaman además que la dinamización se haga con el tejido cultural, hostelero y turístico de la ciudad, con evaluación de resultados y dentro de una estrategia para todo el entorno del Miño. Candia no ha fijado todavía plazos para la reapertura de ninguno de los tres espacios.",
+      "imageURL": "/images/2026-11-12-local-001.jpg",
+      "publishedAt": "2026-11-12T05:20:00Z",
+      "sources": [
+        {
+          "name": "La Voz de Galicia",
+          "url": "https://www.lavozdegalicia.es/noticia/lugo/lugo/2026/11/12/tres-edificios-lugo-siguen-cerrados-costaron-35-millones-fondos-europeos/0003_202611L12C2994.htm"
+        },
+        {
+          "name": "Xornal de Lugo",
+          "url": "https://www.xornaldelugo.com/o-psoe-acusa-ao-goberno-municipal-de-non-impulsar-a-actividade-do-coliving-e-da-fabrica-da-luz"
+        },
+        {
+          "name": "La Voz de Galicia (edición en galego)",
+          "url": "https://galego.lavozdegalicia.es/noticia/lugo/lugo/2026/11/12/tres-edificios-lugo-siguen-cerrados-costaron-35-millones-fondos-europeos/0003_202611L12C2994.htm"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-12-national-001",
+      "category": "national",
+      "headline": "El 11-N acaba con un centenar de detenidos y disturbios graves en Barcelona y Madrid",
+      "subtitle": "La capital catalana concentró medio centenar de arrestos tras los saqueos del paseo de Gracia, frente a quince en Madrid y dieciséis en el País Vasco. Los sindicatos reivindican la jornada y la CEOE rebaja el seguimiento por debajo del 5%.",
+      "body": "La huelga general terminó con al menos un centenar de detenidos en toda España y con disturbios en el centro de Barcelona, donde hacia las ocho de la tarde empezaron a arder contenedores y se reventaron escaparates entre el paseo de Gracia, la plaza de Catalunya y la de Universitat.\n\nEl alcalde de Barcelona, Jaume Collboni, cifró en medio centenar los arrestos en la ciudad. Interior sumó quince en Madrid, dieciséis en el País Vasco, cinco en Valencia, cuatro en Málaga y Almería, tres en Granada, dos en Zamora y uno en Navarra, Valladolid, La Rioja, Alicante, Castellón y A Coruña. A primera hora de la tarde, Europa Press hablaba de 75 detenidos y un millar de incidencias.\n\n## Saqueos y cargas\n\nEn Barcelona, los Mossos d'Esquadra cargaron contra grupos que lanzaban adoquines y pirotecnia, con la unidad Brimo desplegada entre Universitat y Urquinaona. Una tienda de Lego y un comercio de Apple sufrieron daños, y vecinos de la calle Muntaner bajaron a apagar fuegos. En el País Vasco, los incidentes más violentos se registraron en Portugalete, con ocho detenidos, y siete ertzainas precisaron atención médica.\n\nLa patronal y los convocantes discrepan sobre el alcance del paro. La CEOE lo sitúa por debajo del 5% y lo da por fracasado, mientras UGT y CCOO hablan de una jornada exitosa y anuncian una manifestación «masiva» en las próximas semanas. Las cifras de consumo eléctrico, que siguieron la actividad casi en tiempo real, apuntan a un seguimiento menor que el de 2012.",
+      "imageURL": "/images/2026-11-12-national-001.jpg",
+      "publishedAt": "2026-11-12T05:35:00Z",
+      "sources": [
+        {
+          "name": "El Mundo",
+          "url": "https://www.elmundo.es/espana/2026/11/11/6af4d97dfc6c83e1258b459e.html"
+        },
+        {
+          "name": "Europa Press",
+          "url": "https://www.europapress.es/nacional/noticia-act3-huelga-deja-ya-mas-50-detenidos-919-incidencias-toda-espana-20261111190915.html"
+        },
+        {
+          "name": "20minutos",
+          "url": "https://www.20minutos.es/lainformacion/economia-y-finanzas/huelga-general-que-lleno-las-calles-pero-no-paralizo-las-ciudades-por-que-11-n-ha-tenido-menos-impacto-que-ultima-2012_7059992_0.html"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-12-national-002",
+      "category": "national",
+      "headline": "El Congreso convalida hoy el decreto de vivienda que el PP promete derogar si gobierna",
+      "subtitle": "La Diputación Permanente vota el decreto aprobado el 6 de octubre tras el desahucio de una mujer de 87 años, un día antes de que arranque la campaña del 29-N con la vivienda como eje.",
+      "body": "La Diputación Permanente del Congreso convalidará este jueves, salvo sorpresa, uno de los dos decretos ley de vivienda que el Gobierno aprobó el 6 de octubre tras el desahucio de Maricarmen Abascal, de 87 años. La votación llega el día después de la huelga general que tuvo la crisis de la vivienda como detonante y 24 horas antes del arranque de la campaña electoral.\n\nEl PP ya ha anunciado que derogará la norma si llega al Gobierno tras las elecciones del 29 de noviembre, y Feijóo ha convertido la política de vivienda en uno de los ejes de su campaña. El decreto sale adelante con el apoyo de los socios habituales del ejecutivo y la abstención o el rechazo de la derecha, según los recuentos que manejan los grupos.\n\n## Los inquilinos, en contra de los «parches»\n\nEl Sindicato de Inquilinas, una de las organizaciones que impulsó la convocatoria del 11-N junto a UGT y CCOO, advirtió antes de la votación de que no aceptará medidas parciales y de que la protesta se dirige «contra todos los gobiernos». La plataforma considera insuficiente el texto convalidado y reclama límites efectivos a los precios del alquiler.\n\nLa sesión se celebra con el PSOE y el Gobierno en un segundo plano. Dirigentes socialistas que durante días habían respaldado la movilización evitaron ayer pronunciarse sobre el desarrollo de la jornada, mientras el ejecutivo se limitaba a expresar respeto por quienes secundaron el paro y a criticar la actitud del PP.",
+      "imageURL": "/images/2026-11-12-national-002.jpg",
+      "publishedAt": "2026-11-12T05:40:00Z",
+      "sources": [
+        {
+          "name": "20minutos",
+          "url": "https://www.20minutos.es/nacional/decretos-vivienda-directo-congreso-aprueba-este-jueves-decreto-vivienda-que-pp-promete-derogar-si-gobierna_7059901_6.html"
+        },
+        {
+          "name": "Europa Press",
+          "url": "https://www.europapress.es/economia/laboral-00346/noticia-sindicato-inquilinas-reivindica-huelga-contra-todos-gobiernos-avisa-no-aceptara-parches-20261111183506.html"
+        },
+        {
+          "name": "20minutos",
+          "url": "https://www.20minutos.es/nacional/moncloa-psoe-desaparecidos-celebracion-una-huelga-que-durante-dias-han-abanderado-contra-oposicion_7059875_0.html"
+        },
+        {
+          "name": "Europa Press",
+          "url": "https://www.europapress.es/nacional/noticia-gobierno-expresa-maximo-respeto-quienes-secundado-paro-condena-actitud-pp-jornada-20261111211130.html"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-12-national-003",
+      "category": "national",
+      "headline": "Feijóo promete una auditoría y estudia pedir responsabilidad penal por las cuentas públicas",
+      "subtitle": "El candidato del PP acusa a Sánchez de gastar «un billón de euros» sin Presupuestos Generales, califica la huelga del 11-N de «error histórico» de los sindicatos y anuncia que revisará la contabilidad del Estado.",
+      "body": "Alberto Núñez Feijóo anunció que una auditoría completa de las cuentas públicas será una de sus primeras medidas si preside el Gobierno, y que pedirá a la Abogacía del Estado que estudie qué responsabilidad penal cabe exigir a quien cometa falsedades en la contabilidad pública. Lo hizo en una entrevista en El Hormiguero emitida el mismo día de la huelga general.\n\nEl líder del PP acusó a Pedro Sánchez de haber gastado «un billón de euros» sin aprobar unos Presupuestos Generales del Estado y advirtió del «pufo» que, a su juicio, dejará como herencia. «Cuando el Gobierno gasta lo que no tiene, deja una deuda enorme, y parece que esto no es de nadie», dijo, antes de recordar que ese dinero no pertenece al presidente de turno.\n\n## Pulso con los sindicatos\n\nSobre el 11-N, Feijóo sostuvo que la convocatoria fue un «fracaso» y un «error histórico» de UGT y CCOO, y la describió como un acto de campaña electoral encubierto dirigido contra la oposición y no contra el Gobierno. La dirección popular ya había cargado contra los sindicatos por convocar un paro «preventivo» y «electoral» contra el próximo ejecutivo.\n\nEl PP reclamó además que se condene la agresión que sufrieron dos de sus militantes en Barakaldo durante la jornada, y exigió al Gobierno que se pronuncie sobre esos incidentes con la misma contundencia con la que critica a la derecha.",
+      "imageURL": "/images/2026-11-12-national-003.jpg",
+      "publishedAt": "2026-11-12T05:45:00Z",
+      "sources": [
+        {
+          "name": "20minutos",
+          "url": "https://www.20minutos.es/nacional/feijoo-acusa-sanchez-gastar-un-billon-euros-sin-pge-estudiara-responsabilidad-penal-si-hay-falsedad-las-cuentas_7059993_0.html"
+        },
+        {
+          "name": "Europa Press",
+          "url": "https://www.europapress.es/nacional/noticia-feijoo-ve-fracaso-huelga-general-acto-camuflado-campana-electoral-parte-sindicatos-20261111223111.html"
+        },
+        {
+          "name": "20minutos",
+          "url": "https://www.20minutos.es/nacional/pp-carga-contra-los-sindicatos-por-huelga-preventiva-electoral-que-se-celebra-contra-proximo-gobierno_7059724_0.html"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-12-northernIreland-001",
+      "category": "northernIreland",
+      "headline": "PSNI treats bomb threats emailed to more than 300 schools as a hoax from outside the UK",
+      "subtitle": "Schools in Derry and across the North took precautionary measures after the message arrived on Wednesday morning. Police are working with forces in Scotland and the National Crime Agency on whether it is linked to last month's hoax.",
+      "body": "More than 300 schools across Northern Ireland received the same threatening email on Wednesday morning. Checks found nothing untoward, and the PSNI said it was treating the message, which it believes originated outside the UK, as a hoax.\n\nAssistant Chief Constable Anthony McNally said the risk to the public was considered low at this stage, and that officers had been working with the Department of Education and the Education Authority through the morning. The department advised schools to stay open unless the police said otherwise, and parents in Derry were contacted directly by the schools affected.\n\n## Wider than the North\n\nAbout 470 schools in Scotland received similar warnings, and police in the Republic confirmed a \"generic communication\" had gone to a number of educational establishments. Some schools in Edinburgh, Fife, the Highlands, Cork, Dublin and Wicklow evacuated briefly. In Italy, roughly 6,300 schools received bomb warnings, according to Reuters, though the prime minister said they posed no danger to the public.\n\nThe PSNI is examining possible connections to a bogus threat sent last month, when several schools closed. It is working with Police Scotland and the National Crime Agency, with detectives treating the emails as mass-distributed from abroad.\n\nPoliticians from across the parties condemned the senders. Alliance's Paula Bradshaw called the messages reckless and said they caused fear among pupils, parents and staff, while the SDLP's Mark H. Durkan, speaking about Derry schools, said staff and families had enough to deal with already.",
+      "imageURL": "/images/2026-11-12-northernIreland-001.jpg",
+      "publishedAt": "2026-11-12T05:50:00Z",
+      "sources": [
+        {
+          "name": "BBC News NI",
+          "url": "https://www.bbc.co.uk/news/articles/cq0mdnrxe9k3o"
+        },
+        {
+          "name": "News Letter",
+          "url": "https://www.newsletter.co.uk/education/police-probe-links-between-last-months-school-bomb-hoax-and-new-threats-psni-joins-with-scotlands-force-for-investigation-9345622"
+        },
+        {
+          "name": "Derry Journal",
+          "url": "https://www.derryjournal.com/news/crime/psni-confirm-email-threat-to-derry-schools-was-a-hoax-9343962"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-12-global-001",
+      "category": "global",
+      "headline": "Russia and Ukraine agree a large prisoner exchange but talks end without a breakthrough",
+      "subtitle": "Neither delegation gave a figure after three days in Abu Dhabi. US envoys Steve Witkoff and Jared Kushner will meet Putin and Zelensky separately on Thursday, with territory and NATO still dividing the sides.",
+      "body": "Russia and Ukraine agreed on Wednesday to a large-scale exchange of prisoners as the final day of US-brokered talks in Abu Dhabi ended, though neither delegation put a number on it. Steve Witkoff and Jared Kushner, the American envoys, will meet Vladimir Putin and Volodymyr Zelensky separately on Thursday.\n\nThe talks turned to post-war security arrangements and closed without a breakthrough. Moscow wants Kyiv to withdraw from parts of eastern Ukraine it still holds and is pressing for a sweeping deal on what it calls Europe's security architecture — read in Western capitals as its long-standing demand to roll back NATO in eastern Europe and end military support for Ukraine.\n\nKyiv insists a ceasefire must come before any discussion of territory and has asked for a direct meeting between Zelensky and Putin. The Kremlin has ruled that out.\n\n## A war of small agreements\n\nThe prisoner exchange is the second tangible result of the process, after earlier talks produced limited humanitarian understandings. It is also the only item both sides described as settled this week.\n\nEuropean governments have watched the Abu Dhabi format with unease, since it puts Washington in the room bilaterally with each capital rather than at a wider table. French and German officials have said any settlement affecting European security must involve Europeans, a point neither delegation addressed.\n\nFighting has continued through the talks, and Ukrainian officials say Russian recruitment of foreign nationals has expanded. Ukraine reported capturing its first Indonesian prisoner of war this week.",
+      "imageURL": "/images/2026-11-12-global-001.jpg",
+      "publishedAt": "2026-11-12T05:55:00Z",
+      "sources": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/ck792we7zrz4o"
+        },
+        {
+          "name": "France 24",
+          "url": "https://www.france24.com/en/europe/20261111-russia-and-ukraine-agree-to-major-prisoner-swap-as-peace-talks-end"
+        },
+        {
+          "name": "NPR",
+          "url": "https://www.npr.org/2026/11/11/g-s1-152954/russia-ukraine-war-talks"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-12-global-002",
+      "category": "global",
+      "headline": "Brooklyn building collapses beside an excavation site, killing at least two",
+      "subtitle": "A three-storey block of flats above shops came down in Flatbush on Wednesday afternoon. Seventeen people were taken to hospital, four of them critically, and firefighters pulled one survivor out alive after dark.",
+      "body": "A three-storey building in the Flatbush neighbourhood of Brooklyn collapsed on Wednesday afternoon at the edge of a construction site, killing at least two people and trapping others under the rubble. Emergency crews were called at about 4pm.\n\nAt least 17 people were hospitalised, four of them in critical condition. Around 250 firefighters worked the scene into the night, at one point cutting through the wreckage with a saw. Shortly after 6.30pm they lifted a dust-covered survivor out of a hole dug into the pile and carried them to an ambulance.\n\nThe building was mixed-use, with apartments above ground-floor businesses, and had stood beside a lot where a one-storey structure was demolished for a project. Excavation was under way, and the collapse filled the pit with bricks and timber. The fire department's chief of department, John Esposito, said crews did not know how many people were still missing.\n\n\"This has been an incredibly challenging and fast-moving situation, with precarious wreckage to navigate and dangerous voids beneath the surface,\" Mayor Zohran Mamdani said at a briefing. One relative told local media that a family member had phoned from inside as the building came down, shouting for help before the line went dead; the family was later pulled out alive.",
+      "imageURL": "",
+      "publishedAt": "2026-11-12T05:58:00Z",
+      "sources": [
+        {
+          "name": "CBC",
+          "url": "https://www.cbc.ca/news/world/new-york-fire-brooklyn-building-collapse-9.7418579?cmp=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/12/building-collapse-in-brooklyn-kills-two-injures-more-than-a-dozen"
+        },
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/videos/c60rkwjj7x7go"
+        }
+      ],
+      "photoCandidate": {
+        "url": "https://i.cbc.ca/ais/2e2d94e5-a59b-44bf-a35d-149f1baf1c52,1794439880244/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C512%2C7008%2C3942%29%3BResize%3D620",
+        "description": "og:image from CBC",
+        "license": "fair-use"
+      }
+    },
+    {
+      "id": "2026-11-12-global-003",
+      "category": "global",
+      "headline": "Scott Colom wins Mississippi Senate seat, the state's first Black senator since Reconstruction",
+      "subtitle": "The Democrat defeated Republican incumbent Cindy Hyde-Smith after a count that ran for days, handing his party another midterm gain in a state where no Black candidate had won a Senate race in more than a century.",
+      "body": "The Democrat Scott Colom has defeated the Republican senator Cindy Hyde-Smith in Mississippi after a count that stretched over several days, becoming the state's first Black US senator since the Reconstruction era that followed the Civil War.\n\nHis narrow win adds to a run of Democratic gains in this month's midterms, in which President Donald Trump's party lost a series of contests. Colom had trailed on election night before late-counted ballots in the state's urban counties moved the result.\n\nColom, a district attorney, campaigned on rural hospitals, criminal justice reform and widening Medicaid coverage in one of the poorest states in the country. Hyde-Smith, who was first appointed to the seat in 2018, had tied herself closely to the president.\n\nSpeaking after the count, Colom said his aim was to do well enough that the next young Black candidate would not be told there was no chance. \"My job is to do well enough as the next United States senator,\" he said, so that nobody says because of anything he has done that a Black child should not get the opportunity.",
+      "imageURL": "/images/2026-11-12-global-003.jpg",
+      "publishedAt": "2026-11-12T06:00:00Z",
+      "sources": [
+        {
+          "name": "France 24",
+          "url": "https://www.france24.com/en/americas/20261111-democrat-scott-colom-wins-historic-senate-race-in-mississippi"
+        },
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cw7vppyr80eeo"
+        },
+        {
+          "name": "CBC",
+          "url": "https://www.cbc.ca/news/world/scott-colom-mississippi-senate-democrats-9.7418482?cmp=rss"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-12-global-004",
+      "category": "global",
+      "headline": "Italian ex-Red Brigades member escapes house arrest in Buenos Aires by rope",
+      "subtitle": "Leonardo Bertulazzi, 74, climbed down from a fifth-floor flat using a harness on Tuesday and is still at large. He faces extradition to Italy to serve 27 years for crimes committed with the far-left group.",
+      "body": "Leonardo Bertulazzi, a 74-year-old former member of Italy's Red Brigades, escaped house arrest in Buenos Aires by climbing down from a fifth-floor apartment using a harness and rope, Argentine police said. He fled on Tuesday and was still at large on Wednesday, triggering a nationwide search.\n\nPolice said he reached the second-floor terrace of a neighbouring house, climbed to the first floor, crossed a vacant lot and got out onto the street over a gate. Italy has been seeking his extradition to serve a 27-year sentence handed down in the 1980s for offences the courts classed as terrorism-related.\n\nBertulazzi was convicted in absentia over his role in the kidnapping and killing of a former Italian prime minister by the group. He was first arrested in Buenos Aires in 2002, but an Argentine judge refused extradition a year later because Italian law did not guarantee a retrial, and he was granted refugee status in 2004.\n\nArgentina revoked that status in 2024 under President Javier Milei and arrested him again that August. The country's Supreme Court approved his extradition last year. Wanda Ferro, an undersecretary at Italy's interior ministry, said Argentine police were responsible for handing him over and that she expected the process to move quickly if he is recaptured.",
+      "imageURL": "/images/2026-11-12-global-004.jpg",
+      "publishedAt": "2026-11-12T06:02:00Z",
+      "sources": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/12/former-italian-red-brigades-member-escapes-house-arrest-in-argentina"
+        },
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c933gn6710lyo"
+        },
+        {
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/nov/11/red-brigades-leonardo-bertulazzi-escapes-house-arrest-argentina"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-12-global-005",
+      "category": "global",
+      "headline": "Indonesia's vice-president resigns after court voids his school certificate",
+      "subtitle": "Gibran Rakabuming Raka submitted his resignation to President Prabowo Subianto on Wednesday. The Supreme Court had ruled that the document used in his 2024 campaign was invalid, and more than 100 lawmakers backed a move towards impeachment.",
+      "body": "Indonesia's vice-president, Gibran Rakabuming Raka, has submitted his resignation to President Prabowo Subianto, an aide told the BBC, a step that could further strain the alliance which carried the pair to power in 2024. It is not yet clear whether the resignation has been accepted.\n\nThe move follows a Supreme Court ruling that a high-school document used during Gibran's campaign was invalid. The court found no evidence that he had graduated, and held that his Indonesian equivalence certificate could not rest on a foreign diploma he had not proved he held. Candidates for the vice-presidency must have completed senior secondary education.\n\nMore than 100 lawmakers had backed a parliamentary initiative that could have opened the way to impeachment proceedings. Gibran had asked on Tuesday for a chance to challenge the ruling and prove his credentials.\n\nGibran, the son of former president Joko Widodo, was 36 when he joined the ticket, becoming eligible only after a contested Constitutional Court ruling exempted him from the age floor of 40. His rise was part of the alliance between Jokowi and Prabowo, once bitter rivals, and his departure comes as relations between the two appear to have deteriorated.",
+      "imageURL": "/images/2026-11-12-global-005.jpg",
+      "publishedAt": "2026-11-12T06:05:00Z",
+      "sources": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cmvgxgz87qqro"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/12/indonesian-vp-resigns-over-education-qualification-row"
+        },
+        {
+          "name": "NPR",
+          "url": "https://www.npr.org/2026/11/10/g-s1-152788/indonesias-vp-offers-resignation-as-questions-mount-over-his-eligibility"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-12-tech-001",
+      "category": "tech",
+      "headline": "Nvidia's board reportedly moves to oust Jensen Huang after 33 years as chief executive",
+      "subtitle": "The Wall Street Journal says directors were meeting as soon as Wednesday to decide his future. Shares fell about 8% after hours following a second affair allegation, and Nvidia has no announced succession plan.",
+      "body": "Nvidia's board is preparing to remove co-founder and chief executive Jensen Huang, who has run the company for 33 years, according to a Wall Street Journal report. Directors were said to be meeting as soon as Wednesday to settle his future.\n\nThe pressure follows Huang's admission on Sunday that he had an extramarital affair with a woman US intelligence officials have described as a Chinese spy. On Wednesday evening the New York Times reported a second affair, with an executive who reports to him. Nvidia's shares fell roughly 8% in after-hours trading and are down about 11% over five days.\n\nThe governance problem is structural. Huang delegates unusually little and has around 60 direct reports, and the company has never named a successor or published a succession plan — a weakness analysts have noted for years without consequence, because the chip business kept delivering.\n\nCongress has also asked Huang to answer questions about the alleged intelligence link, and shareholders have filed a class action. Nvidia has not commented publicly on the board report. The company's chips remain the core of the AI build-out, so any leadership vacuum lands on customers and suppliers as much as on investors.",
+      "imageURL": "/images/2026-11-12-tech-001.jpg",
+      "publishedAt": "2026-11-12T06:10:00Z",
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/11/nvidias-stock-drops-as-board-reportedly-preps-to-oust-ceo-jensen-huang/"
+        },
+        {
+          "name": "Ars Technica",
+          "url": "https://arstechnica.com/gadgets/2026/11/ceo-jensen-huangs-job-is-suddenly-on-the-line-at-nvidia/"
+        },
+        {
+          "name": "Tom's Hardware",
+          "url": "https://www.tomshardware.com/pc-components/gpus/nvidias-board-reportedly-preparing-to-oust-ceo-jensen-huang-as-second-extra-marital-affair-allegation-emerges"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-12-tech-002",
+      "category": "tech",
+      "headline": "Brussels proposes a Digital Fairness Act to outlaw dark patterns and switch off addictive design",
+      "subtitle": "The draft published on Wednesday would let every user disable endless scrolling, autoplay and streaks, require influencers to disclose paid promotion, and fine companies up to 6% of worldwide turnover.",
+      "body": "The European Commission published its proposed Digital Fairness Act on Wednesday, the broadest revision of EU consumer rules in more than two decades. It targets the design tricks that keep people online and spending: fake scarcity claims, manipulative prompts, and interfaces built to make quitting hard.\n\nUnder the draft, consumers would get the right to switch off addictive features — endless scrolling, autoplay, streaks, persistent nudges — and that right would extend to AI companions and general-purpose chatbots. Gambling-like mechanics such as pay-to-win and pay-to-progress would be barred for minors, and personalised advertising or pricing aimed at children, or built on sensitive data, would be restricted.\n\nInfluencers would have to label paid content clearly, and platforms would face limits on marketing that leans on children's trust. Subscriptions and digital contracts would have to be as easy to cancel as to buy, with reminders before free trials end and before automatic renewals. Wired notes the package also covers dynamic pricing by ticket sellers such as Ticketmaster, and gives consumers a right to reach a human in customer service.\n\nEnforcement is the sharper end. Regulators would be able to investigate practices with bloc-wide impact and fine firms up to 6% of global annual turnover, and companies based outside the EU would have to appoint a legal representative. The Commission estimates the rules would save consumers up to €13.7bn a year. The text now goes to the European Parliament and member states.",
+      "imageURL": "/images/2026-11-12-tech-002.jpg",
+      "publishedAt": "2026-11-12T06:12:00Z",
+      "sources": [
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/policy/1031575/digital-fairness-act-eu-dfa-consumer-protection"
+        },
+        {
+          "name": "Wired",
+          "url": "https://www.wired.com/story/duolingo-strava-and-ticketmaster-are-all-caught-up-in-eus-new-digital-fairness-rules/"
+        },
+        {
+          "name": "The Rapporteur",
+          "url": "https://www.rapporteur.com/news/eu-cracks-down-on-dark-patterns-in-digital-fairness-push/"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-12-tech-003",
+      "category": "tech",
+      "headline": "British chip startup Fractile raises $720m at a reported $7bn valuation",
+      "subtitle": "The Series C was led by Thrive Capital, Founders Fund, Lightspeed and Redpoint, with Britain's Sovereign AI Fund taking part. The London company is betting that memory placed beside compute can undercut Nvidia on inference.",
+      "body": "Fractile, a London-based startup designing chips for running AI models rather than training them, has raised $720m in a Series C round. Thrive Capital, Founders Fund, Lightspeed Venture Partners and Redpoint led the round, and Britain's Sovereign AI Fund participated. The British government put the valuation at \"over £5bn\", which Reuters and the Financial Times reported as roughly $7bn.\n\nThe company's pitch is architectural. Inference is limited by how fast data can move between memory and processors, and Fractile is building chips where memory and compute are physically interleaved, aiming to serve thousands of tokens per second to many users at once within a workable power budget. It also ships a compiler, arguing that hardware alone does not deliver the speed.\n\nThe round makes Fractile one of the best-funded challengers in a crowded field that includes Etched, Axelera and OLIX, all chasing the cost of inference as model use grows. It follows a $220m raise in May.\n\nFor the UK government the deal is political as much as financial: ministers have argued the country should hold a stake in the hardware underpinning its own AI economy, rather than importing it. Whether a seven-year-old company can take volume business from Nvidia's software ecosystem is the open question, and the one the valuation is really pricing.",
+      "imageURL": "/images/2026-11-12-tech-003.jpg",
+      "publishedAt": "2026-11-12T06:14:00Z",
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/11/with-720m-round-britains-fractile-gets-a-leg-up-in-the-race-for-ai-chips/"
+        },
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/legal/transactional/uk-backed-ai-chip-startup-fractile-hits-7-billion-valuation-funding-round-2026-11-11"
+        },
+        {
+          "name": "SiliconANGLE",
+          "url": "https://siliconangle.com/2026/11/11/inference-chip-developer-fractile-raises-720m-in-funding/"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-12-tech-004",
+      "category": "tech",
+      "headline": "New York forces T-Mobile to drop the 50GB cap on its $15 low-income internet plan",
+      "subtitle": "An investigation by the attorney general found customers on the state's Affordable Broadband Act plan were throttled by 97% after about four days of normal use, and that the plan's sign-up page was hidden from search engines.",
+      "body": "T-Mobile has agreed to remove the monthly data cap on its cheapest home internet plan in New York and to stop throttling customers who hit it, under a settlement announced by Governor Kathy Hochul and Attorney General Letitia James.\n\nThe state's Affordable Broadband Act requires providers to offer eligible households service at $15 a month with downloads of at least 25 Mbps. T-Mobile advertised exactly that, then applied a 50GB monthly cap; once a customer reached it, speeds dropped by more than 97%, from 25 Mbps to around 650 Kbps. The attorney general's office said a typical household would hit the limit in about four days.\n\nInvestigators found two further problems. The plan was offered only where T-Mobile sells 5G home internet, even though it sells slower fixed-wireless service in 4G areas, and the page explaining eligibility was coded so that it did not appear in search results — making a subsidised plan hard to find by design.\n\nT-Mobile must now lift the caps, deliver 25 Mbps to all qualifying subscribers except during temporary congestion, offer the plan wherever it sells home internet in the state, and let the page be indexed. The company said it had cooperated and that the price would not change. The agreement covers New York only; the same plan design exists in other states.",
+      "imageURL": "/images/2026-11-12-tech-004.jpg",
+      "publishedAt": "2026-11-12T06:16:00Z",
+      "sources": [
+        {
+          "name": "Ars Technica",
+          "url": "https://arstechnica.com/tech-policy/2026/11/t-mobile-illegally-imposed-50-gb-cap-on-low-income-home-internet-plan-ny-says/"
+        },
+        {
+          "name": "Engadget",
+          "url": "https://www.engadget.com/2314341/new-york-is-forcing-t-mobile-to-stop-putting-data-caps-on-low-income-home-internet-plans/"
+        },
+        {
+          "name": "Office of the Governor of New York",
+          "url": "https://www.governor.ny.gov/news/governor-hochul-and-attorney-general-james-improve-access-affordable-home-internet-vulnerable"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-12-tech-005",
+      "category": "tech",
+      "headline": "Maersk confirms a breach of a legacy system as WhiteArmor demands $5m",
+      "subtitle": "The shipping group says the incident is isolated to one local system and that bookings and shipments are unaffected. The ransomware gang claims 100GB taken from the former LF Logistics platform, including driver passwords stored in plain text.",
+      "body": "Maersk has confirmed that a threat actor breached systems belonging to a company it previously acquired and stole data, after the WhiteArmor ransomware group listed the shipping giant on its leak site over the weekend and demanded $5m in bitcoin within 30 days.\n\nThe gang claims to hold about 100GB taken from the OCF platform tied to the former LF Logistics, Maersk's contract-logistics arm, and says the haul includes driver records with plain-text passwords and staff accounts with super-admin access. Those specifics are the attackers' own account and have not been independently verified.\n\nMaersk said the incident was isolated to a local system, that current evidence indicates no sensitive data has been disclosed, and that it expects no disruption to operations. \"We have found no indication that there has been any impact on other Maersk systems or customer and partner systems,\" it said, adding that customers can keep booking and managing shipments as normal.\n\nThe company has been here before: NotPetya in 2017 forced it to rebuild 4,000 servers and 45,000 workstations and cost it up to $300m. Security researchers note that a leak-site listing is an extortion claim, not proof of encryption, and that no shipping disruption has been observed.",
+      "imageURL": "/images/2026-11-12-tech-005.jpg",
+      "publishedAt": "2026-11-12T06:18:00Z",
+      "sources": [
+        {
+          "name": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/maersk-confirms-data-breach-as-whitearmor-ransomware-demands-5-million/"
+        },
+        {
+          "name": "The Register",
+          "url": "https://www.theregister.com/security/2026/11/11/shipping-giant-maersk-probes-it-security-incident-data-theft/"
+        },
+        {
+          "name": "Security Affairs",
+          "url": "https://securityaffairs.com/202869/data-breach/whitearmor-demands-5-million-from-maersk-claims-theft-of-100gb-of-data.html"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-12-ai-001",
+      "category": "ai",
+      "headline": "OpenAI's quarterly revenue passes $10bn for the first time as enterprise demand returns",
+      "subtitle": "Revenue for the three months to September rose nearly 50% on the previous quarter and almost threefold year on year, people briefed on an investor call said. Annualised revenue is running near $50bn.",
+      "body": "OpenAI took in about $10bn in revenue in the three months to the end of September, its first quarter at that level, according to people familiar with figures shared at an investor briefing on Tuesday. That is up nearly 50% on the previous quarter and almost threefold on the same period a year earlier.\n\nThe rebound matters because Anthropic had spent much of this year ahead of OpenAI on several enterprise benchmarks. OpenAI's recovery came from demand for its APIs, aggressive price cuts and a push into agents that automate workplace tasks. President Greg Brockman told investors annualised revenue grew about 70% quarter on quarter, a different measure on which OpenAI was running at roughly $50bn by the end of September, against about $20bn at the start of the year.\n\nThe company is also raising at a $1.25 trillion valuation, having closed an initial $11bn tranche, and has pushed its expected listing into next year. Microsoft disclosed $10bn of commercial revenue tied to OpenAI in its own quarter, almost 11% of its $92.3bn total, and $24.1bn across its fiscal year.\n\nAnthropic's growth has slowed slightly over the same stretch, but it remains ahead of OpenAI on some measures. Both are still spending far more on compute than they earn.",
+      "imageURL": "/images/2026-11-12-ai-001.jpg",
+      "publishedAt": "2026-11-12T06:20:00Z",
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/11/openais-quarterly-revenue-reportedly-crosses-10b-for-the-first-time/"
+        },
+        {
+          "name": "The Decoder",
+          "url": "https://the-decoder.com/enterprise-sales-push-openais-quarterly-revenue-to-10-billion-though-it-still-trails-anthropic-in-some-areas/"
+        },
+        {
+          "name": "Bloomberg",
+          "url": "https://www.spokesman.com/stories/2026/nov/10/openai-third-quarter-revenue-soars-nearly-50-to-10"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-12-ai-002",
+      "category": "ai",
+      "headline": "Grok's app builder left 35,000 user projects open to anyone with the link",
+      "subtitle": "Claroc found 94.7% of live apps built with Grok Build could be opened without signing in, exposing patient results, plaintext passwords and two dozen internal SpaceXSI documents.",
+      "body": "Security firm Claroc examined 43,551 addresses under the grok.me domain and found 37,571 live apps built with Grok Build, the vibe-coding tool from SpaceXSI, the merged SpaceX and xAI. Of those, 35,578 — 94.7% — opened for anyone with the URL and no sign-in at all.\n\nMost were games, calculators and landing pages. About one in ten held something private: internal business plans, advertising proposals, shift schedules, employee names and ID numbers, patient lab values and passwords stored in plain text. Twenty-four of the exposed apps had been built by SpaceXSI and X staff themselves, including a confidential onboarding plan for a new enterprise sales hire and a sales territory map covering 594 accounts.\n\nThe cause was a combination of defaults and design. On the paid tier Claroc tested, the publish dialog had \"Anyone with the link\" preselected, and because every app gets its own subdomain, names surfaced in passive DNS databases that can be searched by pattern. Randomised URLs offered little protection when the addresses could be enumerated.\n\nClaroc reported the problem on Sunday. When nobody replied, a researcher posted publicly tagging Elon Musk and Grok's manager, Matt Palmer. SpaceXSI began removing the links within hours of Ars Technica sending questions; most other published apps remained reachable at the time of publication.",
+      "imageURL": "/images/2026-11-12-ai-002.jpg",
+      "publishedAt": "2026-11-12T06:22:00Z",
+      "sources": [
+        {
+          "name": "Ars Technica",
+          "url": "https://arstechnica.com/security/2026/11/grok-build-coding-agent-leaks-oodles-of-confidential-info-some-belonging-to-spacexsi"
+        },
+        {
+          "name": "The Decoder",
+          "url": "https://the-decoder.com/grok-built-apps-exposed-patient-data-plaintext-passwords-and-spacexsis-own-sales-pipeline/"
+        },
+        {
+          "name": "Cybernews",
+          "url": "https://cybernews.com/security/groks-data-leak-spacexsi/"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-12-ai-003",
+      "category": "ai",
+      "headline": "Google joins the decision-model race with a Gemini model that answers yes, no or a score",
+      "subtitle": "Gemini Decision 1 handles only three kinds of question and returns a bare answer with a confidence figure. Google says it is nearly five times cheaper than its lightest general model, and it works on video and audio as well as text.",
+      "body": "Google has launched Gemini Decision 1 through a new Decisions API, entering a category that did not exist two months ago. The model answers exactly three things: yes or no, a choice among options, and a score on a scale the caller defines — rating the severity of a security alert from one to ten, for example.\n\nEach prompt pairs a question with a dataset of up to 256,000 tokens, which can mix text, images, audio, video and PDFs. Instead of paragraphs, the model returns a terse answer plus a probability. Asked whether a video contained a robot, it replied 0.92 — never quite 1.0 or 0.0, unlike its rivals, as Simon Willison noted after testing it.\n\nThe appeal is cost and plumbing. Google says the model is almost five times cheaper than Gemini 3.5 Flash-Lite; Willison puts it at 10 cents per million input tokens with free output, matching OpenAI's decision model and above Jev, the TypeSafe AI model that started the category in mid-September at 4.2 cents. Jev, which hit a million users in days and raised $870m at a $7.5bn valuation three weeks later, handles text only. OpenAI accepts text and images. Gemini is the first to take video.\n\nDecision models are easier to wire into software than chat models, because a short structured answer needs no parsing or filtering. That is why the category is filling up fast.",
+      "imageURL": "/images/2026-11-12-ai-003.jpg",
+      "publishedAt": "2026-11-12T06:24:00Z",
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/"
+        },
+        {
+          "name": "SiliconANGLE",
+          "url": "https://siliconangle.com/2026/11/11/google-enters-the-decision-model-market-with-gemini-decisions-api/"
+        },
+        {
+          "name": "Simon Willison",
+          "url": "https://simonwillison.net/2026/Nov/11/gemini-decisions-api/"
+        },
+        {
+          "name": "The Decoder",
+          "url": "https://the-decoder.com/google-joins-the-decision-model-wave-with-gemini-decision-1-scoring-1000-questions-in-11-seconds/"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-12-ai-004",
+      "category": "ai",
+      "headline": "United blocks AI agents from completing flight bookings",
+      "subtitle": "The airline says third-party agents may show fares but cannot finish a transaction, citing customer data, unintended purchases and federal rules that require the airline to collect attestations from the traveller.",
+      "body": "United Airlines will not let personal AI assistants book tickets on its website or app. The company has published a third-party AI agents policy saying such tools may surface fares but cannot complete a transaction on a customer's behalf.\n\nUnited told the Wall Street Journal it has not yet seen many people try. Its objections are practical: an agent interacting with an account could expose personal data or make a purchase the traveller did not intend. There is also a regulatory problem — airlines must collect certain attestations from passengers, including that their bags contain no explosives, and a bot cannot truthfully make that declaration for someone else.\n\n\"To be honest, I don't want to create another middleman,\" chief executive Scott Kirby said at an event on Tuesday. United said it may revisit the position as agents improve, but wants protections in place first.\n\nThe airline is not alone. eBay has moved to block agents from browsing its listings, and several major banks have put limits on them, with DoorDash reporting only a few hundred agent-placed orders. For the makers of consumer agents — Meta's Muse, OpenAI's Dots and their rivals — the direction of travel is unwelcome: the assistants can plan a trip, but the last click stays with the human.",
+      "imageURL": "/images/2026-11-12-ai-004.jpg",
+      "publishedAt": "2026-11-12T06:26:00Z",
+      "sources": [
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1031623/united-unauthorized-ai-agents"
+        },
+        {
+          "name": "Engadget",
+          "url": "https://www.engadget.com/2314121/united-is-restricting-ai-agents-from-booking-flights/"
+        },
+        {
+          "name": "CBS News",
+          "url": "https://www.cbsnews.com/news/united-ai-agents-booking-flights/"
+        },
+        {
+          "name": "The Wall Street Journal",
+          "url": "https://www.wsj.com/tech/ai/united-airlines-is-banning-ai-bots-from-booking-flights-5b514b38"
+        }
+      ]
+    }
+  ]
+}
