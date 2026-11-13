@@ -1,0 +1,583 @@
+{
+  "generatedAt": "2026-11-13T08:53:14Z",
+  "config": {
+    "sections": {
+      "local": {
+        "min": 1,
+        "max": 3,
+        "sources": [
+          {
+            "name": "El Progreso",
+            "url": "https://www.elprogreso.es"
+          },
+          {
+            "name": "La Voz de Galicia",
+            "url": "https://www.lavozdegalicia.es"
+          }
+        ]
+      },
+      "national": {
+        "min": 3,
+        "max": 5,
+        "sources": [
+          {
+            "name": "Europa Press",
+            "url": "https://www.europapress.es"
+          },
+          {
+            "name": "El Mundo",
+            "url": "https://www.elmundo.es"
+          },
+          {
+            "name": "20minutos",
+            "url": "https://www.20minutos.es"
+          },
+          {
+            "name": "El Progreso",
+            "url": "https://www.elprogreso.es"
+          },
+          {
+            "name": "ABC",
+            "url": "https://www.abc.es"
+          }
+        ]
+      },
+      "northernIreland": {
+        "min": 1,
+        "max": 1,
+        "sources": [
+          {
+            "name": "BBC News NI",
+            "url": "https://www.bbc.co.uk/news/northern_ireland"
+          },
+          {
+            "name": "Belfast Telegraph",
+            "url": "https://www.belfasttelegraph.co.uk"
+          },
+          {
+            "name": "Omagh Bombing Inquiry",
+            "url": "https://omagh.independent-inquiry.uk"
+          }
+        ]
+      },
+      "global": {
+        "min": 4,
+        "max": 8,
+        "sources": [
+          {
+            "name": "BBC",
+            "url": "https://www.bbc.co.uk/news/world"
+          },
+          {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com"
+          },
+          {
+            "name": "DW",
+            "url": "https://www.dw.com"
+          },
+          {
+            "name": "France 24",
+            "url": "https://www.france24.com"
+          },
+          {
+            "name": "The Register",
+            "url": "https://www.theregister.com"
+          },
+          {
+            "name": "NPR",
+            "url": "https://www.npr.org"
+          },
+          {
+            "name": "Sky News",
+            "url": "https://news.sky.com"
+          }
+        ]
+      },
+      "tech": {
+        "min": 5,
+        "max": 5,
+        "sources": [
+          {
+            "name": "The Guardian",
+            "url": "https://www.theguardian.com/technology"
+          },
+          {
+            "name": "The Register",
+            "url": "https://www.theregister.com"
+          },
+          {
+            "name": "BBC",
+            "url": "https://www.bbc.co.uk/news/technology"
+          },
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com"
+          },
+          {
+            "name": "Ars Technica",
+            "url": "https://arstechnica.com"
+          },
+          {
+            "name": "The Verge",
+            "url": "https://www.theverge.com"
+          }
+        ]
+      },
+      "ai": {
+        "min": 4,
+        "max": 7,
+        "sources": [
+          {
+            "name": "Ars Technica",
+            "url": "https://arstechnica.com/ai"
+          },
+          {
+            "name": "The Verge",
+            "url": "https://www.theverge.com/ai-artificial-intelligence"
+          },
+          {
+            "name": "404 Media",
+            "url": "https://www.404media.co"
+          },
+          {
+            "name": "Chalkbeat",
+            "url": "https://www.chalkbeat.org"
+          },
+          {
+            "name": "CNBC",
+            "url": "https://www.cnbc.com/technology"
+          },
+          {
+            "name": "Engadget",
+            "url": "https://www.engadget.com"
+          }
+        ]
+      }
+    }
+  },
+  "articles": [
+    {
+      "id": "2026-11-13-local-001",
+      "category": "local",
+      "headline": "Benigno Gómez deja la alcaldía de Cervantes tras 19 años y casi cuatro décadas en el Concello",
+      "subtitle": "El regidor socialista llegó al Concello en 1987 y suma diez legislaturas; Miguel González asume el cargo en funciones hasta la investidura del próximo 19 de noviembre",
+      "body": "Cervantes ya no tiene alcalde. El pleno extraordinario celebrado este jueves aceptó la renuncia de Benigno Gómez Tadín, que deja el bastón de mando después de 19 años y cierra casi cuatro décadas en la corporación municipal, a la que llegó en 1987 y en la que encadenó diez legislaturas entre tenencias de alcaldía y alcaldía.\n\nLa sesión, convocada a las 13.00 horas, se siguió desde un salón de plenos lleno de vecinos y estuvo cargada de emotividad. La oposición se sumó a los aplausos con los que el regidor socialista fue despedido. «Foi unha honra para min representar e traballar polos veciños de Cervantes», dijo Gómez Tadín, visiblemente emocionado, antes de advertir con humor que no es hombre de grandes discursos.\n\nEl decreto de reorganización firmado antes de presentar la dimisión —formalizada el 9 de noviembre— deja a Miguel González como primer teniente de alcalde y ya al frente de las funciones de alcalde, con Luis de Alonso Álvarez como segundo. González convocará el pleno extraordinario para elegir al nuevo regidor, fijado para el jueves 19. El ya exregidor aseguró que se retira de la primera línea pero seguirá colaborando desde la segunda «cando sexa necesario».",
+      "sources": [
+        {
+          "name": "La Voz de Galicia",
+          "url": "https://www.lavozdegalicia.es/noticia/lugo/cervantes/2026/11/12/pleno-cervantes-efectiva-renuncia-benigno-gomez-tadin-alcaldia/00031794483317800983302.htm"
+        },
+        {
+          "name": "El Progreso",
+          "url": "https://www.elprogreso.es/articulo/a-montana/emocionado-benigno-gomez/202611121922052013657.html"
+        },
+        {
+          "name": "La Voz de Galicia",
+          "url": "https://www.lavozdegalicia.es/noticia/lugo/2026/11/10/benigno-gomez-alcalde-cervantes-quero-me-recorden-sempre-coma-vecino-mais/00031794333288352904850.htm"
+        }
+      ],
+      "publishedAt": "2026-11-13T08:40:00Z",
+      "imageURL": "/images/2026-11-13-local-001.jpg"
+    },
+    {
+      "id": "2026-11-13-national-001",
+      "category": "national",
+      "headline": "El IPC se mantiene en el 4,9% en octubre, con el gasóleo un 36% más caro que hace un año",
+      "subtitle": "El INE confirma el dato adelantado y suma tres meses por encima del 4%, en niveles de febrero de 2023; el Gobierno prorroga en diciembre la rebaja de 20 céntimos a la gasolina",
+      "body": "El Índice de Precios de Consumo mantuvo en octubre su crecimiento interanual en el 4,9%, el nivel de febrero de 2023, y encadenó así tres meses consecutivos por encima del 4%. El INE confirmó este viernes los datos definitivos, que coinciden con los avanzados a finales del mes pasado.\n\nLa estadística deja dos caras. Los combustibles y lubricantes tiraron a la baja de los precios en octubre, frente al repunte del mismo mes de 2025, y los alimentos y la ropa también contribuyeron a moderar el índice al subir menos que un año antes. Esa evolución se vio compensada por los paquetes turísticos y por el gas.\n\nEn términos anuales el gasóleo se ha encarecido un 36% y la gasolina más de un 20%. Para contener el efecto en el surtidor, el Ejecutivo mantiene en diciembre la rebaja fiscal de 20 céntimos por litro de carburante.\n\nEl dato llega en plena campaña del 29N y con la vivienda como uno de los asuntos que más pesan. El índice de referencia del INE para actualizar los alquileres escaló en octubre hasta máximos del 2,57%, lo que anticipa subidas en las renovaciones de contrato.",
+      "sources": [
+        {
+          "name": "Europa Press",
+          "url": "https://www.europapress.es/economia/macroeconomia-00338/noticia-ine-confirma-ipc-siguio-octubre-49-subir-gas-bajar-gasolinas-20261113090023.html"
+        },
+        {
+          "name": "El Mundo",
+          "url": "https://www.elmundo.es/economia/2026/11/13/6af6c4cf21efa00c2b8b45b3.html"
+        },
+        {
+          "name": "20minutos",
+          "url": "https://www.20minutos.es/lainformacion/economia-y-finanzas/inflacion-se-mantuvo-4-9-octubre-por-subida-gas-los-paquetes-turisticos_7060583_0.html"
+        },
+        {
+          "name": "El Correo Gallego",
+          "url": "https://www.elcorreogallego.es/economia/2026/11/13/indice-referencia-ine-actualizacion-alquiler-136397695.html"
+        }
+      ],
+      "publishedAt": "2026-11-13T09:05:00Z",
+      "imageURL": "/images/2026-11-13-national-001.jpg"
+    },
+    {
+      "id": "2026-11-13-national-002",
+      "category": "national",
+      "headline": "Marlaska abre una investigación interna por las cargas del 11N y ordena retirar el gas lacrimógeno",
+      "subtitle": "El ministro descarta dimitir mientras sus socios y los sindicatos policiales piden su cese; Sánchez le da su respaldo pero se abre a revisar los protocolos",
+      "body": "El ministro del Interior, Fernando Grande-Marlaska, abrirá una investigación interna para analizar las cargas policiales durante la huelga general del 11 de noviembre y ha ordenado que se deje de usar gas lacrimógeno en las manifestaciones, según anunció este jueves.\n\nLa jornada terminó con más de un centenar de detenidos por la Policía Nacional, la Guardia Civil, los Mossos d'Esquadra y la Ertzaintza, y con más de un millar de incidencias, según el balance provisional de Interior. En Madrid, los agentes impidieron que la marcha concluyese en la Plaza de España, donde preveía terminar, para evitar altercados tras detectar en la cabecera a «radicales de extrema izquierda», según fuentes policiales citadas por EFE.\n\nMarlaska descartó dimitir y cuestionó la proporcionalidad de las cargas, mientras los socios del Gobierno y los sindicatos policiales reclaman su cese. El presidente del Gobierno, Pedro Sánchez, le expresó su «pleno respaldo», pero se mostró dispuesto a revisar los protocolos de actuación.\n\nSobre la primera intervención de su mujer, Begoña Gómez, en un mitin, Sánchez dijo que quería agradecer el cariño recibido ante «una persecución que no tiene calificativo».",
+      "sources": [
+        {
+          "name": "El Progreso",
+          "url": "https://www.elprogreso.es/articulo/espana/marlaska-anuncia-investigacion-actuacion-policia-nacional-huelga-general-11n/202611121029352013514.html"
+        },
+        {
+          "name": "20minutos",
+          "url": "https://www.20minutos.es/nacional/sanchez-respalda-marlaska-pero-se-abre-revisar-los-protocolos-las-cargas-policiales-tras-las-actuaciones-durante-huelga-general_7060528_0.html"
+        },
+        {
+          "name": "El Mundo",
+          "url": "https://www.elmundo.es/espana/2026/11/13/6af617bee4d4d8845c8b457f.html"
+        }
+      ],
+      "publishedAt": "2026-11-13T09:10:00Z",
+      "imageURL": "/images/2026-11-13-national-002.jpg"
+    },
+    {
+      "id": "2026-11-13-national-003",
+      "category": "national",
+      "headline": "PP y Vox arrancan la campaña del 29N con mayoría absoluta en los sondeos y pelea por el voto joven",
+      "subtitle": "Feijóo moviliza a Nuevas Generaciones para disputar a Abascal los votantes más jóvenes, mientras el CIS de Tezanos sitúa al PSOE ocho puntos por delante del PP",
+      "body": "La campaña hacia las generales del 29 de noviembre arranca con una pelea que no es la del PP contra el PSOE, sino la del PP contra Vox. El tracking de El Mundo da a ambos partidos una mayoría absoluta sólida y los sitúa sacando votantes de la abstención, una mayoría que las encuestas independientes dan por consolidada aunque nunca por segura.\n\nEl terreno decisivo son los electorados más jóvenes: entre los mayores de 45 años el PP arrasa en los sondeos. Alberto Núñez Feijóo centró su primer acto en esa franja, con un llamamiento a la «batalla cultural» de la vivienda y el mensaje de que «los problemas no se solucionan con fiereza, sino con gestión». Lo hizo después de que Santiago Abascal cancelase su entrevista con Jordi Wild.\n\nLa macroencuesta del CIS difundida este jueves describe un trasvase intenso: el 20,1% de quienes votaron al PP en 2023 ya tiene decidido votar a Vox, y un porcentaje casi idéntico pasa de Sumar al PSOE. El 21,5% de los jóvenes que se estrenan en unas generales apostará por Vox y cerca del 20% por los socialistas.\n\nCon todo, el CIS que dirige José Félix Tezanos coloca al PSOE primero, con ocho puntos sobre el PP, en una encuesta que apenas recoge el efecto de la tragedia de Urda.",
+      "sources": [
+        {
+          "name": "El Mundo",
+          "url": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/13/6af620eb21efa059588b45bb.html"
+        },
+        {
+          "name": "Europa Press",
+          "url": "https://www.europapress.es/nacional/noticia-20-votantes-pp-2023-da-salto-vox-casi-mismo-porcentaje-pasa-sumar-psoe-cis-20261112183539.html"
+        },
+        {
+          "name": "20minutos",
+          "url": "https://www.20minutos.es/nacional/cis-tezanos-coloca-psoe-primer-lugar-con-ocho-puntos-sobre-pp-una-encuesta-que-apenas-recoge-efecto-urda_7060413_0.html"
+        }
+      ],
+      "publishedAt": "2026-11-13T09:15:00Z",
+      "imageURL": "/images/2026-11-13-national-003.jpg"
+    },
+    {
+      "id": "2026-11-13-national-004",
+      "category": "national",
+      "headline": "Rosalía arrasa en los Latin Grammy con cinco premios y hace historia con 'Lux'",
+      "subtitle": "Se lleva canción del año por 'La Perla' y su tercer álbum del año, y es la primera artista cuyos discos de estudio han ganado todos el premio principal",
+      "body": "Rosalía se convirtió el jueves en la artista más premiada de los Latin Grammy con cinco galardones, entre ellos canción del año por «La Perla» y álbum del año por «Lux», el tercero de su carrera. Ninguna artista había logrado hasta ahora que todos sus álbumes de estudio se llevasen el premio principal.\n\nLa española sumó además mejor álbum de música alternativa, mejor canción pop y mejor vídeo musical. Milo J fue el segundo más premiado, con cuatro gramófonos, incluidos grabación del año por «Niño» y mejor álbum folk por «La vida era más corta». Alejandro Sanz ganó el de mejor álbum de pop contemporáneo por «¿Y ahora qué+?».\n\nLa gala dejó también su crónica de vestuario: tres cambios de Rosalía entre el blanco nupcial, el dorado renacentista y el negro lencero, según recogió ABC, que siguió con detalle la alfombra de una noche en la que la cantante de Sant Esteve Sesrovires volvió a ser el centro.",
+      "sources": [
+        {
+          "name": "20minutos",
+          "url": "https://www.20minutos.es/musica/latin-grammy-aria-vega-recibe-latin-grammy-mejor-artista-nuevo_7060535_0.html"
+        },
+        {
+          "name": "El Mundo",
+          "url": "https://www.elmundo.es/cultura/musica/2026/11/13/6af6a959fc6c830f298b456f.html"
+        },
+        {
+          "name": "ABC",
+          "url": "https://www.abc.es/estilo/moda/vestidos-rosalia-latin-grammy-2026-blanco-nupcial-20261113083949-nt.html"
+        }
+      ],
+      "publishedAt": "2026-11-13T09:20:00Z",
+      "imageURL": "/images/2026-11-13-national-004.jpg"
+    },
+    {
+      "id": "2026-11-13-northernIreland-001",
+      "category": "northernIreland",
+      "headline": "Omagh inquiry: former lead investigator says a covert agent helped bring the bomb",
+      "subtitle": "Norman Baxter, who ran the Omagh investigation from 2002 to 2008, told the inquiry that intelligence about the bombing was deliberately kept from detectives",
+      "body": "The police officer who led the investigation into the Omagh bombing has told the public inquiry that he believes a covert agent was among those who brought the bomb into the town.\n\nRetired PSNI Chief Superintendent Norman Baxter, senior investigating officer from May 2002 until his retirement in November 2008, gave evidence in Belfast on Thursday. \"I believe, just for total clarity, that one of the people who brought the bomb to Omagh on the day was an agent,\" he said. The hearing was told that one of those he suspects of involvement was a covert human intelligence source.\n\nTwenty-nine people, including a woman pregnant with twins, died when the Real IRA detonated a car bomb in the County Tyrone town on 15 August 1998, the deadliest single attack of the Troubles. Baxter also said he believed information about the bombing was deliberately withheld from his investigation, which prevented those involved from being detected.\n\nNo one has been convicted in a criminal court of the murders. In 2009, Michael McKevitt, Liam Campbell, Colm Murphy and Seamus Daly were ordered to pay £1.6m in damages to the families, though appeals delayed the compensation process.\n\nRelatives in court said the evidence had answered questions they had held for more than twenty years. Margaret Kennedy, whose mother Maura died in the bombing, has separately sued the Ministry of Defence over the alleged failure to hold an effective investigation.",
+      "sources": [
+        {
+          "name": "BBC News NI",
+          "url": "https://www.bbc.com/news/articles/cq782l8mv0mno"
+        },
+        {
+          "name": "Belfast Telegraph",
+          "url": "https://www.belfasttelegraph.co.uk/news/courts/informer-drove-real-ira-bomb-to-omagh-former-top-officer-tells-inquiry/a/164453177.html"
+        },
+        {
+          "name": "Omagh Bombing Inquiry",
+          "url": "https://omagh.independent-inquiry.uk/document/omagh-bombing-inquiry-provision-list-of-issues-updated-31-october-2025"
+        }
+      ],
+      "publishedAt": "2026-11-13T08:50:00Z",
+      "imageURL": "/images/2026-11-13-northernIreland-001.jpg"
+    },
+    {
+      "id": "2026-11-13-global-001",
+      "category": "global",
+      "headline": "Zelensky welcomes US move to bring the EU into the next round of Russia talks",
+      "subtitle": "Kushner and Witkoff met the Ukrainian president in Dublin after seeing Putin in Moscow, where Russia said its territorial demands are unchanged",
+      "body": "Ukraine's president has welcomed a pledge from the US envoys Jared Kushner and Steve Witkoff to include European Union delegates in the next round of peace talks with Russia, after a day of shuttle diplomacy that took them from Moscow to Dublin.\n\nEuropean leaders have spent the week voicing deepening security concerns about being sidelined, and Volodymyr Zelensky said their inclusion would guarantee the EU a \"voice\" in the negotiations. Kushner and Witkoff met him in Dublin on Thursday evening, having earlier seen Vladimir Putin, who said Russia's position on the war and its demand for Ukrainian territory were unchanged.\n\nThe meetings followed talks in Abu Dhabi last week that ended without a breakthrough. EU leaders are still arguing among themselves over whom to send to the table.\n\nThursday did produce one concrete result: Russia and Ukraine agreed another prisoner exchange, the largest swap since the full-scale invasion began in 2022. Kushner said it would return \"thousands of people to their families\", without giving numbers.",
+      "sources": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/ckn80j9jv3jxo"
+        },
+        {
+          "name": "France 24",
+          "url": "https://www.france24.com/en/europe/20261113-live-zelensky-and-kushner-confirm-that-europe-will-join-next-round-of-russia-ukraine-talks"
+        },
+        {
+          "name": "DW",
+          "url": "https://www.dw.com/en/eu-leaders-tussle-over-whom-to-send-to-ukraine-russia-peace-talks/a-79935468"
+        }
+      ],
+      "publishedAt": "2026-11-13T09:30:00Z",
+      "imageURL": "/images/2026-11-13-global-001.jpg"
+    },
+    {
+      "id": "2026-11-13-global-002",
+      "category": "global",
+      "headline": "FBI says North Korean hackers stole $400m in crypto using fake video calls",
+      "subtitle": "More than 900 victims fell for the FaceStealer scheme in 18 months, and US prosecutors have moved to seize $1.2bn from last month's Binance heist",
+      "body": "State-sponsored hackers from North Korea have taken more than $400 million in cryptocurrency by using fake video calls to steal people's identities, US authorities say. The FBI calls the operation FaceStealer and says more than 900 victims have fallen for it in the last 18 months.\n\n\"The North Korean regime relies on proceeds from large-scale cryptocurrency theft to fund its illicit weapons program, stealing billions of dollars in recent years,\" said Brett Leatherman, the bureau's cyber director. The scheme targets people who work in crypto, using video calls to capture faces and voices that can be replayed to pass identity checks.\n\nThe warning came a week after Binance disclosed that hackers had used fake job interviews to steal a record $6.3bn from the exchange, an attack US law enforcement attributed to North Korea-linked actors. Pyongyang denies involvement.\n\nOn Thursday the US government said it had won court authorisation to seize or restrain more than $1.2 billion taken in that heist, and to take down cloud infrastructure used in FaceStealer.",
+      "sources": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cqdj1ellpd70o"
+        },
+        {
+          "name": "The Register",
+          "url": "https://www.theregister.com/cyber-crime/2026/11/12/doj-takes-aim-at-12b-in-binance-loot-as-fbi-disrupts-north-korean-scam/5309523"
+        },
+        {
+          "name": "DW",
+          "url": "https://www.dw.com/en/us-disrupts-north-korea-s-400-million-crypto-scam-fbi-says/a-79935957"
+        }
+      ],
+      "publishedAt": "2026-11-13T09:35:00Z",
+      "imageURL": "/images/2026-11-13-global-002.jpg"
+    },
+    {
+      "id": "2026-11-13-global-003",
+      "category": "global",
+      "headline": "Gunman kills one and wounds four at a Washington DC gym before shooting himself",
+      "subtitle": "He opened fire at a VIDA Fitness branch in Logan Circle, a short walk from the White House, then barricaded himself in a nearby apartment building",
+      "body": "A gunman opened fire at a gym in Washington DC's Logan Circle on Thursday morning, killing one person and wounding four others before barricading himself in a nearby apartment building and taking his own life.\n\nMorning crowds ran for cover when the shooting began at a branch of VIDA Fitness, a short walk from the White House. The man left the gym and entered an apartment block, where he was found dead.\n\nJeffery W. Carroll, interim chief of the Metropolitan Police Department, told a briefing that the shooter had shot himself, and a police spokeswoman later confirmed the death to NPR. Police have not named the gunman, described a motive, or said whether he knew anyone in the gym.\n\nThe four injured people were taken for treatment, and the area around Logan Circle was closed for much of the morning as local and federal officers responded.",
+      "sources": [
+        {
+          "name": "NPR",
+          "url": "https://www.npr.org/2026/11/12/nx-s1-6038860/dc-logan-circle-shooting"
+        },
+        {
+          "name": "Sky News",
+          "url": "https://news.sky.com/story/four-shot-in-washington-dc-within-walking-distance-of-white-house-13611509"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/13/13-11-sv-washington-dc-shooting-vigil"
+        }
+      ],
+      "publishedAt": "2026-11-13T09:40:00Z",
+      "imageURL": "/images/2026-11-13-global-003.jpg"
+    },
+    {
+      "id": "2026-11-13-global-004",
+      "category": "global",
+      "headline": "The SS United States, once the world's fastest liner, is sunk off Florida as a reef",
+      "subtitle": "The 302-metre ship was longer than the Titanic and crossed the Atlantic for 17 years; it now sits on the Gulf floor as the largest artificial reef yet built",
+      "body": "The SS United States, for years the fastest ocean liner afloat and longer than the Titanic, has been deliberately sunk in the Gulf of Mexico off Destin, Florida, to become the world's largest artificial reef.\n\nThe 302-metre ship was scuttled on Wednesday after its hull was hollowed out so that it would settle upright on the seabed. Over about five hours it filled with water, tilted onto its side and went down.\n\nIt entered service in 1952 and carried royalty, celebrities and ordinary transatlantic passengers until 1969. It then spent nearly 30 years docked in Philadelphia while successive owners tried and failed to fund a restoration; preservationists wanted it kept as a museum ship, and lost that campaign.\n\nA Florida county bought the vessel and added it to the dozens of artificial reefs off the coast, where it is expected to draw fish and divers. A land-based museum documenting its history is also planned, so the ship's archive and fittings will not go down with the hull.",
+      "sources": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c3x298n87rn2o"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/13/from-ocean-legend-to-undersea-reef-why-has-the-ss-united-states-been-sunk"
+        },
+        {
+          "name": "NPR",
+          "url": "https://www.npr.org/2026/11/12/g-s1-153219/the-deliberate-sinking-of-the-ss-united-states"
+        }
+      ],
+      "publishedAt": "2026-11-13T09:45:00Z",
+      "imageURL": "/images/2026-11-13-global-004.jpg"
+    },
+    {
+      "id": "2026-11-13-tech-001",
+      "category": "tech",
+      "headline": "Microsoft says it is 'seeing positive results' after a 12-hour global outage",
+      "subtitle": "Exchange Online went down on Thursday evening and took Teams, Outlook and Intune with it; Microsoft has not ruled out a cyber-attack as the cause",
+      "body": "Microsoft says it is seeing \"positive results\" from efforts to restore services after a global outage of Microsoft 365 knocked out email, chat and device management for millions of users for more than 12 hours.\n\nThe disruption began at about 18:00 UTC on Thursday and centred on Exchange Online, dragging down Teams, Outlook, Intune and other products that depend on it. Fixes kept failing: each restart or capacity change appeared to help before systems degraded again, and the company said it was trying to add capacity so more users could get back in.\n\nIn an update shortly after 07:00 GMT on Friday, Microsoft said it was \"seeing positive results for server stability\" after applying changes. It has said there is no indication the incident was caused by a cyber-attack, though it has not completely ruled one out.\n\nThe timing was rough for Europe and worse for Australia and Asia, where the failure landed at the start of the working day and turned Friday into what local IT teams are calling the \"Microsoft long weekend\". Microsoft has not published a root-cause explanation or a firm timeline for full recovery.",
+      "sources": [
+        {
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/technology/2026/nov/13/microsoft-outage-outlook-teams-word-excel-reports"
+        },
+        {
+          "name": "The Register",
+          "url": "https://www.theregister.com/saas/2026/11/13/microsofts-massive-m365-outage-stretches-past-12-hours-as-its-fixes-keep-failing/5309609"
+        },
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/12/microsofts-outlook-email-hit-by-new-outage/"
+        }
+      ],
+      "publishedAt": "2026-11-13T09:50:00Z",
+      "imageURL": "/images/2026-11-13-tech-001.jpg"
+    },
+    {
+      "id": "2026-11-13-tech-002",
+      "category": "tech",
+      "headline": "Jensen Huang summoned to testify to the Senate about his affair with an alleged spy",
+      "subtitle": "The former Nvidia chief quit on Thursday; Commerce Secretary Howard Lutnick has also been called over AI chip exports to China as $550bn of value evaporates",
+      "body": "Jensen Huang, who abruptly resigned as Nvidia's chief executive on Thursday, has been summoned to testify before the US Senate Banking Committee next month about his affair with a woman suspected of being a Chinese spy.\n\nCommerce Secretary Howard Lutnick, already under scrutiny over exports of sensitive Nvidia AI chips to China, has been called to appear before the same committee in December. The panel is examining whether the relationship created a national security exposure at the centre of the AI supply chain.\n\nHuang's departure capped a week in which the scandal dominated Silicon Valley coverage and wiped $550bn (£415bn) off Nvidia's market value in five days. Employees have petitioned for his return, and investors are still working out who is now running the company and what happens to its China business.\n\nThe hearing will be the first time Huang answers questions about the affair in public and under oath.",
+      "sources": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cmq5vd1wdgz6o"
+        },
+        {
+          "name": "DW",
+          "url": "https://www.dw.com/en/us-senators-ask-former-nvidia-ceo-jensen-huang-and-commerce-secretary-howard-lutnick-to-testify/a-79935468"
+        },
+        {
+          "name": "20minutos",
+          "url": "https://www.20minutos.es/internacional/jensen-huang-declarara-ante-congreso-eeuu-por-supuesto-caso-espionaje-chino-tras-dimitir-nvidia_7060513_0.html"
+        }
+      ],
+      "publishedAt": "2026-11-13T09:55:00Z",
+      "imageURL": "/images/2026-11-13-tech-002.jpg"
+    },
+    {
+      "id": "2026-11-13-tech-003",
+      "category": "tech",
+      "headline": "Google's Gemini smartglasses go on pre-order at $395, with privacy as the pitch",
+      "subtitle": "Nine styles from Warby Parker and Gentle Monster, built with Samsung hardware and no head-up display; a recording light is meant to reassure the people around you",
+      "body": "Google's first Gemini smartglasses went up for pre-order on Thursday starting at $395, the company's second attempt at eyewear after Google Glass was retired nearly a decade ago.\n\nThe glasses are a collaboration: Samsung supplies the computing hardware, Google the software, and the frames come from Warby Parker, which designed three styles, and Gentle Monster. Nine styles are on offer with clear or tinted lenses. None has a head-up display; the camera and microphones feed Gemini, which answers questions about whatever the wearer is looking at.\n\nPrivacy is the pitch this time. Google points to a recording light that warns people nearby when the camera is in use, plus terms designed to discourage misuse — a response to the backlash that helped kill Glass.\n\nThe price puts the glasses in competition with Meta's Ray-Ban line rather than with a phone upgrade. Google has not said how many units it expects to sell, or whether a model with a display is on the way.",
+      "sources": [
+        {
+          "name": "Ars Technica",
+          "url": "https://arstechnica.com/google/2026/11/google-pushes-privacy-angle-as-gemini-powered-smartglasses-debut-starting-at-395/"
+        },
+        {
+          "name": "The Register",
+          "url": "https://www.theregister.com/personal-tech/2026/11/12/google-promises-its-new-smart-specs-wont-give-creeps-their-ideal-view/5309497"
+        },
+        {
+          "name": "Engadget",
+          "url": "https://www.engadget.com/2314414/google-really-wants-you-to-know-it-cares-about-smart-glasses-privacy/"
+        }
+      ],
+      "publishedAt": "2026-11-13T10:00:00Z",
+      "imageURL": "/images/2026-11-13-tech-003.jpg"
+    },
+    {
+      "id": "2026-11-13-tech-004",
+      "category": "tech",
+      "headline": "Whoop launches a social network where every member has a 'verified heartbeat'",
+      "subtitle": "Whoop Humans ships with every membership at no extra cost and lets members choose what health data to share, from sleep and recovery to workouts",
+      "body": "Whoop, which makes screenless fitness bands, launched a social network on Thursday that lets members follow friends and family and share health data inside the app.\n\nWhoop Humans is available at every membership tier at no extra cost. Members can follow anyone on Whoop and choose what to share — sleep, recovery, workouts, achievements — and followers can react and comment. Members can also attach photos and commentary to their own data. Everything is opt-in, chief executive Will Ahmed said.\n\nThe company already runs Teams, a group feature used by slightly more than half its customers, but everyone in a group sees everyone else's numbers. Humans is built to be narrower: a trainer can watch a set of clients without those clients seeing each other's data.\n\nWhether people want a spouse reading their sleep score is another matter. The defaults and privacy controls are where this will be judged, and Whoop is betting that a network of verified heartbeats is more appealing than another feed of photographs.",
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/12/whoop-just-launched-a-social-network/"
+        },
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/gadgets/1032630/whoop-humans-social-network"
+        },
+        {
+          "name": "Slashdot",
+          "url": "https://tech.slashdot.org/story/26/11/13/0135237/whoop-launches-a-social-network-where-every-user-has-a-verified-heartbeat"
+        }
+      ],
+      "publishedAt": "2026-11-13T10:05:00Z",
+      "imageURL": "/images/2026-11-13-tech-004.jpg"
+    },
+    {
+      "id": "2026-11-13-ai-001",
+      "category": "ai",
+      "headline": "Google replaces Gemini 3.8 Flash with Gemini 4 Hydrogen and switches it on for everyone",
+      "subtitle": "The new model ships with four thinking levels, including a new 'xhigh' setting, and no staged rollout — it is already answering questions in Search's AI Mode",
+      "body": "Google has released Gemini 4 Hydrogen, the model that replaces 3.8 Flash as the default across its products, and this time there was no staged rollout or paid-tier gate in the way.\n\nPrevious releases in Google's elemental naming scheme, Argon and Carbon, went first to cybersecurity researchers and then to subscribers on the most expensive plan. Hydrogen is available immediately to the users of the free and cheaper tiers that Flash served, and it now sits under AI Mode in Google Search.\n\nThe model runs at four thinking levels — low, medium, high and a new \"xhigh\" — which shifts how much compute it spends before answering. Google claims a substantial improvement over 3.8 Flash, and The Verge reports the gains show most clearly on complicated, multi-part questions, the kind that previously tripped the lighter model.\n\nThe practical effect for developers is that the cheap path through Google's stack has changed underneath them: existing Flash integrations now route to Hydrogen, and xhigh is a separate, more expensive call. Google's Antigravity blog pairs the release with a companion system called Orchestrator.",
+      "sources": [
+        {
+          "name": "Ars Technica",
+          "url": "https://arstechnica.com/google/2026/11/google-rolls-out-gemini-4-hydrogen-finally-replacing-3-8-flash/"
+        },
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1032505/google-search-ai-mode-gemini-4-hydrogen"
+        },
+        {
+          "name": "Google",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/"
+        }
+      ],
+      "publishedAt": "2026-11-13T10:10:00Z",
+      "imageURL": "/images/2026-11-13-ai-001.jpg"
+    },
+    {
+      "id": "2026-11-13-ai-002",
+      "category": "ai",
+      "headline": "Meta's Muse phone calls are being placed by humans in a call centre, 404 Media finds",
+      "subtitle": "Internal messages say Meta 'added a human agent layer' so outbound calls get completed; one employee warned it would look like the AI isn't good enough",
+      "body": "Meta has been telling users that its AI agent Muse can call businesses on their behalf to book a table or a haircut. According to 404 Media, many of those calls are being placed by people in a call centre.\n\nInternal messages seen by the outlet say Meta \"added a human agent layer for calls to get completed\", and that human-agent calls were ready for company testing. The description given to staff is explicit: Muse \"no longer works alone\" and can hand a request to a trained human agent, who places the call and works it through before reporting back with a transcript.\n\nEmployees questioned both the privacy of passing people's call requests to other humans and the optics. \"This has potential for so much negative PR,\" one wrote. \"It could portray us as 'their AI is not good enough so they still need humans'.\"\n\nThe outbound-calling feature was announced to a limited set of users in the US, and Engadget notes it is tied to a paid subscription. Meta has not said how often a human picks up a request instead of the model.",
+      "sources": [
+        {
+          "name": "404 Media",
+          "url": "https://www.404media.co/meta-tests-muse-ai-agent-calls-that-are-actually-made-by-humans-in-a-call-center"
+        },
+        {
+          "name": "Engadget",
+          "url": "https://www.engadget.com/2315525/metas-muse-can-now-make-calls-on-your-behalf-if-you-have-a-paid-subscription/"
+        },
+        {
+          "name": "Fox News",
+          "url": "https://www.foxnews.com/tech/ai-agents-make-phone-calls"
+        }
+      ],
+      "publishedAt": "2026-11-13T10:15:00Z",
+      "imageURL": "/images/2026-11-13-ai-002.jpg"
+    },
+    {
+      "id": "2026-11-13-ai-003",
+      "category": "ai",
+      "headline": "Parents protest Google's AI in schools as districts weigh a three-year moratorium",
+      "subtitle": "Chicago and Cambridge saw demonstrations this week after Google said schools that block its AI could lose search; a parents' group wants generative AI out entirely",
+      "body": "Protests outside Google's Chicago office and in Cambridge, Massachusetts this week marked a new stage in the fight over AI in classrooms, after Google warned that schools which block its AI could lose access to search altogether.\n\nChicago Public Schools has already stopped students reaching generative AI, including ChatGPT, Claude and Gemini, and shelved a planned high-school Gemini rollout. Illinois Families for Public Schools, which pushed for that reversal, now wants a three-year moratorium, a district privacy officer, screen-time limits and a ban on collecting student biometrics.\n\nThe immediate trigger was Google's statement earlier this month that from January it will block K-12 students from its search engine unless districts opt in to its AI-generated version. A parent advocate quoted by EdSource called the move \"bullying\", and said educational value rather than shareholder value should decide what students use.\n\nLegal pressure is building too. Ars Technica reports a lawsuit filed by a 13-year-old pupil in Durham, North Carolina, who alleges that her use of Gemini on a school-issued Chromebook left her in what the filing describes as \"AI psychosis\", with her parents unaware she had access.",
+      "photoCandidate": {
+        "url": "https://www.chalkbeat.org/resizer/v2/6DQUZN3QLRHTPHA3XIF43L5QGY.jpg?smart=true&amp;auth=ee5afe0cec611b3c4497524b349bc8f0f065dc1495d140aa6df661aafcce55ce&amp;width=1200&amp;height=630",
+        "description": "og:image from Chalkbeat",
+        "license": "fair-use"
+      },
+      "sources": [
+        {
+          "name": "Chalkbeat",
+          "url": "https://www.chalkbeat.org/chicago/2026/11/12/chicago-ai-protest-against-google-removal-in-school-classrooms"
+        },
+        {
+          "name": "EdSource",
+          "url": "https://edsource.org/2026/google-ai-school-search-restriction/769862"
+        },
+        {
+          "name": "Ars Technica",
+          "url": "https://arstechnica.com/tech-policy/2026/11/families-fight-to-keep-googles-disturbing-ai-off-school-issued-chromebooks/"
+        }
+      ],
+      "publishedAt": "2026-11-13T10:20:00Z"
+    },
+    {
+      "id": "2026-11-13-ai-004",
+      "category": "ai",
+      "headline": "Anthropic prices its IPO on 18 November at a valuation of up to $1.4 trillion",
+      "subtitle": "The Claude maker plans to sell 825 million shares at $70–78 to raise as much as $64bn, and investors are weighing price cuts, growth and its safety focus",
+      "body": "Anthropic will price its shares on 18 November and begin trading the next day, in an offering that values the Claude developer at up to $1.405 trillion.\n\nUpdated paperwork filed on Tuesday sets out 825 million shares at $70 to $78 each. At the top of that range the listing raises $64.35bn, which would make it one of the largest ever. The company is opening its books at the end of a bruising week for large technology stocks, with AI valuations under scrutiny.\n\nCNBC's Jim Cramer framed three questions for buyers: what repeated price cuts do to revenue, where growth comes from next, and whether Anthropic's emphasis on AI safety is a competitive edge or a brake on shipping products. He was cautious about buying straight after the debut.\n\nThe filing also details the computing commitments behind that growth — fixed costs that look very different in a downturn than in a boom.",
+      "sources": [
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/12/anthropic-ipo-cramer-pricing-growth-ai-safety.html"
+        },
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/11/anthropic-ipo-profit-computing-commitments.html"
+        },
+        {
+          "name": "Humanity Redefined",
+          "url": "https://www.humanityredefined.com/p/sync-595"
+        }
+      ],
+      "publishedAt": "2026-11-13T10:25:00Z",
+      "imageURL": "/images/2026-11-13-ai-004.jpg"
+    }
+  ]
+}
