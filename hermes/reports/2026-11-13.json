@@ -1,0 +1,28 @@
+{
+  "date": "2026-11-13",
+  "published": true,
+  "publishedAt": "2026-11-13T08:53:14Z",
+  "sections": {
+    "present": ["local", "national", "northernIreland", "global", "tech", "ai"],
+    "missing": []
+  },
+  "storiesWithoutPhoto": [
+    { "id": "2026-11-13-ai-003", "section": "ai" }
+  ],
+  "validatorWarnings": [
+    "1 article(s) publishing without a photo — these render with the category gradient: 2026-11-13-ai-003"
+  ],
+  "validatorErrors": [],
+  "workarounds": [
+    "This is a manual re-run: the 06:00 job stalled for 606s waiting on a model response and wrote no drafts. No section files existed, so the 07:30 fallback publisher had nothing to ship either.",
+    "Lugo local news has no working RSS: lavozdegalicia.es/rss/lugo.xml returns no items and elprogreso.es RSS is Cloudflare-blocked to curl. Discovery done by extracting https://www.lavozdegalicia.es/lugo/ and https://www.elprogreso.es/lugo/ pages instead.",
+    "local ships one story, not three. The other Lugo candidates (northern-zone traffic reopening, A Fonsagrada pool, the Ley d'Hondt provincial analysis) were each single-outlet and could not be corroborated from three distinct sources, so they were dropped rather than padded.",
+    "tech ships four stories, below the pinned five. The fifth candidates (C++26 Contracts, Brick Link outage, Nintendo's GitHub DMCA sweep, Starshield limits) each had only one or two distinct outlets behind them.",
+    "Four invented source URLs in the first tech draft returned 404 in batch verification and were replaced with the real feed links (TechCrunch, Engadget, Slashdot, 20minutos). All 73 URLs in the final drafts verified: 0 hard failures, 2x 403 (France 24, Sky News — bot-blocks, pages load in a browser).",
+    "Anthropic's own S-1 page (https://ipo.anthropic.com/us/) was rejected by the validator as a homepage, so the third source for ai-004 is CNBC's second IPO piece.",
+    "Chalkbeat's og:image is a signed resizer URL that returned HTTP 400 to fetch-photos.mjs (it 200s to curl with a browser UA). Ars's version of the same story had no og:image, so ai-003 ships with the gradient rather than a substituted stock photo."
+  ],
+  "needsHumanAttention": true,
+  "humanAttentionReason": "The scheduled 06:00 run produced nothing — it waited 606s on a model response and never wrote a section file, so the 07:30 no-agent fallback had no drafts to publish. This edition only exists because of the manual re-run. If the same stall recurs the daily feed will silently miss days again; worth checking whether the ollama-cloud provider stream is stalling on long runs.",
+  "notes": "Six sections, 18 articles, all in the correct per-section language (local/national Spanish, the rest English). Fed by 25+ RSS feeds plus page extraction for the two Galicia papers. Rosalía's Latin Grammy sweep (national-004) is included for the household interest as much as the news value. Story count per section is at or below the config target across the board because today's corroboration bar was three distinct outlets per article."
+}
