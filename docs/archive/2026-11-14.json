@@ -1,0 +1,578 @@
+{
+  "generatedAt": "2026-11-14T05:21:53Z",
+  "config": {
+    "sections": {
+      "local": {
+        "min": 1,
+        "max": 3,
+        "sources": [
+          {
+            "name": "El Progreso",
+            "url": "https://www.elprogreso.es"
+          },
+          {
+            "name": "La Voz de Galicia",
+            "url": "https://www.lavozdegalicia.es"
+          },
+          {
+            "name": "LugoXa",
+            "url": "https://lugoxa.com"
+          }
+        ]
+      },
+      "national": {
+        "min": 3,
+        "max": 5,
+        "sources": [
+          {
+            "name": "Europa Press",
+            "url": "https://www.europapress.es"
+          },
+          {
+            "name": "La Vanguardia",
+            "url": "https://www.lavanguardia.com"
+          },
+          {
+            "name": "elDiario.es",
+            "url": "https://www.eldiario.es"
+          },
+          {
+            "name": "20minutos",
+            "url": "https://www.20minutos.es"
+          }
+        ]
+      },
+      "northernIreland": {
+        "min": 1,
+        "max": 1,
+        "sources": [
+          {
+            "name": "BBC News NI",
+            "url": "https://www.bbc.co.uk/news/northern_ireland"
+          },
+          {
+            "name": "Belfast Telegraph",
+            "url": "https://www.belfasttelegraph.co.uk"
+          },
+          {
+            "name": "News Letter",
+            "url": "https://www.newsletter.co.uk"
+          }
+        ]
+      },
+      "global": {
+        "min": 4,
+        "max": 8,
+        "sources": [
+          {
+            "name": "The Guardian",
+            "url": "https://www.theguardian.com/world"
+          },
+          {
+            "name": "BBC News",
+            "url": "https://www.bbc.co.uk/news/world"
+          },
+          {
+            "name": "NBC News",
+            "url": "https://www.nbcnews.com"
+          },
+          {
+            "name": "20minutos",
+            "url": "https://www.20minutos.es"
+          }
+        ]
+      },
+      "tech": {
+        "min": 5,
+        "max": 5,
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com"
+          },
+          {
+            "name": "BBC News",
+            "url": "https://www.bbc.co.uk/news"
+          },
+          {
+            "name": "The Guardian",
+            "url": "https://www.theguardian.com"
+          },
+          {
+            "name": "Wired",
+            "url": "https://www.wired.com"
+          }
+        ]
+      },
+      "ai": {
+        "min": 4,
+        "max": 7,
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com"
+          },
+          {
+            "name": "The Verge",
+            "url": "https://www.theverge.com"
+          },
+          {
+            "name": "OpenAI",
+            "url": "https://openai.com"
+          },
+          {
+            "name": "BBC News",
+            "url": "https://www.bbc.co.uk/news"
+          }
+        ]
+      }
+    }
+  },
+  "articles": [
+    {
+      "id": "2026-11-14-local-001",
+      "category": "local",
+      "headline": "Lugo licitará el lunes un complejo deportivo en San Fiz con campos de fútbol y rugby por 1,8 millones",
+      "subtitle": "La Xunta de Goberno Local aprobará el expediente de un proyecto de más de mil páginas, con césped de calidad FIFA sin caucho y cuatro meses de plazo para ejecutar las obras",
+      "body": "La Xunta de Goberno Local del Concello de Lugo aprobará este lunes el expediente de contratación de las obras del complejo deportivo municipal del barrio de San Fiz. El presupuesto base de licitación asciende a 1.816.007,37 euros y el plazo máximo de ejecución es de cuatro meses, según los datos que el gobierno local dio a conocer este viernes en rueda de prensa.\n\nEl proyecto, un documento de más de mil páginas, contempla un campo de fútbol de césped artificial apto para fútbol 11 y fútbol 8, además de la mejora y regeneración del campo de rugby de hierba natural, que tendrá unas dimensiones de 110 por 72 metros. El césped será de calidad FIFA Quality y sin relleno de caucho, un requisito que pasará a ser obligatorio a partir de 2031.\n\nCon esta actuación, la ciudad pasará a contar con seis campos municipales de fútbol. La obra se enmarca en el plan avanzado en enero para convertir la zona en una ciudad del deporte, sobre una parcela municipal de 32.000 metros cuadrados en la que se proyectan 24.470 metros construidos, con un pabellón de tres canchas y otros servicios anexos.\n\nLa presentación del proyecto contó con los concejales del ejecutivo local y con la edil no adscrita María Reigosa, cuyo respaldo fue necesario para sacar adelante la propuesta en el pleno.",
+      "sources": [
+        {
+          "name": "La Voz de Galicia",
+          "url": "https://www.lavozdegalicia.es/noticia/lugo/lugo/2026/11/13/concello-lugo-promete-construir-campo-futbol-rugby-san-fiz/00031794562976493267632.htm"
+        },
+        {
+          "name": "El Progreso",
+          "url": "https://www.elprogreso.es/articulo/lugo/lugo-tendra-6-campos-municipales-futbol-licitarse-nuevo-sanfiz/202611131242262013794.html"
+        },
+        {
+          "name": "La Voz de Galicia",
+          "url": "https://www.lavozdegalicia.es/noticia/lugo/lugo/2026/01/14/lugoanuncia-ciudad-deporte-pujante-barrio-san-fiz-pabellon-tres-canchas-campos-futbol-rugbi-servicios/00031768402926229537834.htm"
+        }
+      ],
+      "publishedAt": "2026-11-14T05:20:00Z",
+      "imageURL": "/images/2026-11-14-local-001.jpg"
+    },
+    {
+      "id": "2026-11-14-local-002",
+      "category": "local",
+      "headline": "Begasa inaugura en As Gándaras un centro de formación y logística de más de tres millones",
+      "subtitle": "Las instalaciones, de 1.500 metros cuadrados, permitirán simular averías eléctricas y practicar rescates en altura para atender los 10.542 kilómetros de red que la compañía gestiona en la provincia",
+      "body": "Begasa, la distribuidora lucense integrada en el grupo EDP, inauguró este viernes su nuevo Centro Logístico y de Formación en el parque empresarial de As Gándaras. La compañía ha invertido más de tres millones de euros en unas instalaciones que reúnen el almacenamiento de materiales y equipos con espacios para la formación práctica de los profesionales del sector eléctrico.\n\nEl acto contó con la conselleira de Economía, María Jesús Lorenzana, la alcaldesa de Lugo, Elena Candia, y el delegado territorial de la Xunta, Alfonso Villares. Durante la presentación, los asistentes vieron demostraciones en vivo, entre ellas la simulación de una incidencia en un centro de transformación y ejercicios de rescate en altura.\n\nLas nuevas dependencias superan los 1.500 metros cuadrados y permiten entrenar al personal en condiciones similares a las reales, con el objetivo de responder a los retos de una red en plena transformación. Begasa gestiona 10.542 kilómetros de red en la mitad norte de la provincia de Lugo y da servicio a unos 165.000 abonados.\n\nLa compañía ya había anunciado en 2024 la construcción de esta nave en As Gándaras, adonde trasladó su sede desde la Rúa Cidade de Viveiro. El centro refuerza la presencia del grupo EDP en la comunidad y convierte el polígono lucense en un punto de referencia para la formación del sector.",
+      "sources": [
+        {
+          "name": "La Voz de Galicia",
+          "url": "https://www.lavozdegalicia.es/noticia/lugo/lugo/2026/11/13/begasa-invierte-3-millones-centro-formacion-logistica-lugo/00031794598008590741486.htm"
+        },
+        {
+          "name": "LugoXa",
+          "url": "https://lugoxa.com/es/news/begasa-inaugura-en-lugo-su-centro-de-entrenamiento-para-dar-respuesta-a-los-retos-de-la-red/140806"
+        },
+        {
+          "name": "El Progreso",
+          "url": "https://www.elprogreso.es/articulo/lugo/begasa-inaugura-centro-formacion-logistica-gandaras-instalaciones-simulaciones-practicas/202611131701522013844.html"
+        },
+        {
+          "name": "GC Diario",
+          "url": "https://gcdiario.com/economia/615479-begasa-inaugura-en-lugo-un-centro-logistico-y-de-formacion-para-la-seguridad-y-la-preparacion-de-la-red-electrica"
+        }
+      ],
+      "publishedAt": "2026-11-14T05:25:00Z",
+      "imageURL": "/images/2026-11-14-local-002.jpg"
+    },
+    {
+      "id": "2026-11-14-local-003",
+      "category": "local",
+      "headline": "Lugo nombra hijo adoptivo al entrenador Mariano Castiñeira, seis años después de su muerte",
+      "subtitle": "Su viuda, Luisa Cabezas, recogió el diploma en el auditorio Fuxan os Ventos ante unas 400 personas que recordaron su trabajo con deportistas de élite y con quienes empezaban",
+      "body": "El Concello de Lugo celebró este viernes el acto institucional de nombramiento, a título póstumo, del entrenador Mariano Castiñeira Villaseca como Hijo Adoptivo de la ciudad. La distinción reconoce a un referente por su contribución a la sociedad lucense en ámbitos como el deporte y la sanidad, y coincide con el sexto aniversario de su fallecimiento.\n\nLa viuda del homenajeado, Luisa Cabezas, recogió el diploma acreditativo en el auditorio Fuxan os Ventos, en una ceremonia que reunió a unas 400 personas, entre familiares, amigos y discípulos. La alcaldesa, Elena Candia, presidió el acto junto a otros miembros de la corporación municipal.\n\nLos intervinientes subrayaron su dimensión humana por encima de los resultados. «Trataba igual al atleta de élite que al que solo entrenaba», recordó uno de los asistentes, en la línea de quienes destacaron que ayudó a muchos lucenses a iniciarse en el deporte y que mantuvo esa dedicación también en el terreno sanitario.\n\nCastiñeira dejó una huella amplia en el atletismo de base de la ciudad, donde formó a varias generaciones. El reconocimiento municipal se suma a los homenajes que sus discípulos han mantenido desde su muerte y cierra un expediente que el Concello había impulsado en los últimos meses.",
+      "sources": [
+        {
+          "name": "La Voz de Galicia",
+          "url": "https://www.lavozdegalicia.es/noticia/lugo/lugo/2026/11/13/adestrador-mariano-castineira-villaseca-xa-e-fillo-adoptivo-lugo/00031794586003028395702.htm"
+        },
+        {
+          "name": "El Progreso",
+          "url": "https://www.elprogreso.es/articulo/lugo/mariano-castineira-nombrado-hijo-adoptivo-lugo-trataba-igual-atleta-elite-que-que-solamente-entrenaba/202611132143152013931.html"
+        },
+        {
+          "name": "El Progreso",
+          "url": "https://www.elprogreso.es/articulo/lugo/mariano-castineira-sera-nombrado-hijo-adoptivo-lugo-hoy-era-adestrador-diferente/202611130831402013753.html"
+        }
+      ],
+      "publishedAt": "2026-11-14T05:30:00Z",
+      "imageURL": "/images/2026-11-14-local-003.jpg"
+    },
+    {
+      "id": "2026-11-14-national-001",
+      "category": "national",
+      "headline": "El Gobierno tramita por urgencia la subida de las pensiones de 2027, que se sabrá el 27 de noviembre",
+      "subtitle": "Un Consejo de Ministros extraordinario dio el primer paso para revalorizar las pensiones entre un 3% y un 4% desde enero, en el primer día de la campaña del 29N",
+      "body": "El Consejo de Ministros aprobó este viernes tramitar de forma urgente el real decreto de mantenimiento del poder adquisitivo de las pensiones, el primer paso para que la subida pueda aplicarse desde el 1 de enero de 2027. La ministra de Seguridad Social y portavoz del Gobierno, Elma Saiz, fue la encargada de anunciar el acuerdo.\n\nLa cifra definitiva todavía no se conoce. El Instituto Nacional de Estadística publicará el 27 de noviembre el dato adelantado de la inflación de noviembre, que permitirá calcular la media con los once meses anteriores tal y como establece la ley; el dato definitivo llegará el 15 de diciembre. Las estimaciones que maneja el Ejecutivo sitúan el alza entre el 3% y el 4%.\n\nLa decisión se adoptó en un Consejo de Ministros extraordinario, el primer día de la campaña electoral, y estuvo acompañada de un informe sobre la evolución de las pensiones en los últimos ocho años. El Gobierno subrayó que la reforma de 2021 garantizó la revalorización conforme a los precios y que la edad media real de jubilación se ha retrasado hasta los 65,4 años.\n\nEl momento elegido no es casual: las pensiones son uno de los asuntos que más peso tendrán en la formación del próximo gobierno, y el Ejecutivo quiso presentar la medida como aval de su gestión antes de que arranque el debate electoral.",
+      "sources": [
+        {
+          "name": "Europa Press",
+          "url": "https://www.europapress.es/economia/laboral-00346/noticia-gobierno-da-primer-paso-subida-pensiones-2027-aprobando-tramitacion-urgente-20261113130544.html"
+        },
+        {
+          "name": "La Vanguardia",
+          "url": "https://www.lavanguardia.com/economia/20261113/11683500/consejo-ministros-da-primer-paso-revalorizar-pensiones-proximo-ano.html"
+        },
+        {
+          "name": "elDiario.es",
+          "url": "https://www.eldiario.es/economia/gobierno-da-primer-paso-revalorizar-pensiones-1-enero-2027_1_13661647.html"
+        }
+      ],
+      "publishedAt": "2026-11-14T05:40:00Z",
+      "imageURL": "/images/2026-11-14-national-001.jpg"
+    },
+    {
+      "id": "2026-11-14-national-002",
+      "category": "national",
+      "headline": "Feijóo promete eximir del IRPF a los jóvenes y Sánchez responde con Cuerpo como vicepresidente",
+      "subtitle": "El PP plantea una rebaja del 100% el primer año para trabajadores de 18 a 35 años; el PSOE reclama una participación del 75% y sitúa al ministro de Economía como número dos",
+      "body": "Alberto Núñez Feijóo se lanzó este viernes a por el voto joven con un paquete de medidas fiscales. El líder del PP se comprometió a aprobar una rebaja del IRPF para trabajadores y autónomos de 18 a 35 años durante los cuatro primeros años en que paguen el impuesto: del 100% el primero, del 75% el segundo, del 50% el tercero y del 25% el cuarto.\n\nEl plan incluye también una reducción del ITP y del IVA en la compraventa de vivienda, la exención de cuota para autónomos jóvenes durante su primer año y bonificaciones en las cotizaciones si contratan a un trabajador. Feijóo justificó las medidas con el dato de que la edad de emancipación en España es de 30,2 años frente a los 26,3 de media europea, y advirtió: «No quiero ser vuestro influencer. Colaboraré para que crezcáis».\n\nSánchez respondió desde Arnedo, en La Rioja, con un mitin centrado en su equipo. Anunció que Carlos Cuerpo seguirá como vicepresidente si revalida el cargo y reclamó una participación del 75% para lograr una mayoría progresista de 176 escaños. También cargó contra sus rivales por sus entrevistas de campaña: reprochó a Feijóo haber admitido que no habla inglés y a Abascal haber respondido que no es economista al ser preguntado por las pensiones.\n\nEl PP y Vox coinciden en prometer bajadas de impuestos, mientras el PSOE y Frente Amplio cuestionan cómo podrían financiarlas sin recortar servicios públicos. El debate económico queda así instalado en la primera semana de campaña.",
+      "sources": [
+        {
+          "name": "La Vanguardia",
+          "url": "https://www.lavanguardia.com/politica/20261113/11683561/feijoo-promete-bajada-impuestos-jovenes-quiero-vuestro-influencer-colaborare-crezcais.html"
+        },
+        {
+          "name": "La Vanguardia",
+          "url": "https://www.lavanguardia.com/politica/20261113/11683755/sanchez-anuncia-cuerpo-volvera-vicepresidente-logra-reeleccion-29-n.html"
+        },
+        {
+          "name": "Europa Press",
+          "url": "https://www.europapress.es/economia/fiscal-00347/noticia-pp-vox-prometen-bajar-impuestos-psoe-frente-amplio-cuestionan-haran-recortar-servicios-20261113234025.html"
+        }
+      ],
+      "publishedAt": "2026-11-14T05:45:00Z",
+      "imageURL": "/images/2026-11-14-national-002.jpg"
+    },
+    {
+      "id": "2026-11-14-national-003",
+      "category": "national",
+      "headline": "Frente Amplio propone penalizar fiscalmente a quien acumule más de tres viviendas",
+      "subtitle": "Bustinduy defiende un impuesto sobre las casas que no se dediquen a alquiler asequible para movilizar 1,3 millones de pisos, frente al PP que apuesta por construir y Vox por la «reinmigración»",
+      "body": "El ministro de Derechos Sociales y portavoz de campaña de Frente Amplio, Pablo Bustinduy, ha situado la vivienda en el centro de su programa para el 29N. En una entrevista con 20minutos defiende crear un impuesto que penalice la acumulación de viviendas a partir de la cuarta cuando no se dediquen a alquiler asequible, una medida con la que calcula que se movilizarían hacia el mercado del alquiler unos 1,3 millones de pisos.\n\n«Si todo el mundo tiene que tener derecho a una casa, nadie va a poder tener derecho a tener más de tres para especular con ellas», plantea Bustinduy, que sostiene que el efecto de la medida sería «inmediato». La coalición reclama además prorrogar los contratos de alquiler, una iniciativa que el Congreso convalidó este jueves en la Diputación Permanente.\n\nEl resto de partidos afronta el debate con recetas distintas. El PSOE defiende las prórrogas de alquiler y las medidas fiscales ya aprobadas; el PP apuesta por construir más vivienda y por rebajar el ITP y el IVA en la compraventa; Vox coloca la «reinmigración» en el eje de su política de vivienda y empleo.\n\nLa vivienda se ha convertido en el asunto económico dominante de la campaña, por delante incluso de las pensiones en el discurso de los partidos con representación parlamentaria. Los sondeos coinciden en señalarla como una de las principales preocupaciones de los votantes menores de 45 años.",
+      "sources": [
+        {
+          "name": "20minutos",
+          "url": "https://www.20minutos.es/nacional/pablo-bustinduy-frente-amplio-nadie-va-poder-tener-derecho-tener-mas-tres-casas-para-especular-con-ellas_7059268_0.html"
+        },
+        {
+          "name": "Europa Press",
+          "url": "https://www.europapress.es/economia/construccion-y-vivienda-00342/noticia-psoe-frente-amplio-defienden-prorrogas-alquiler-pp-apuesta-construir-vox-reinmigracion-20261113225830.html"
+        },
+        {
+          "name": "elDiario.es",
+          "url": "https://www.eldiario.es/economia/viene-despues-11n-reforzar-barrios-vivienda-protestas-crecientes-salarios_1_13661690.html"
+        }
+      ],
+      "publishedAt": "2026-11-14T05:50:00Z",
+      "imageURL": "/images/2026-11-14-national-003.jpg"
+    },
+    {
+      "id": "2026-11-14-northernIreland-001",
+      "category": "northernIreland",
+      "headline": "Eleanor Donaldson placed on sex offenders' register for five years after trial of the facts",
+      "subtitle": "Jeffrey Donaldson's wife, found medically unfit to stand trial, was given a three-year supervision order at Newry Crown Court and appeared by video link for less than three minutes",
+      "body": "Eleanor Donaldson, the wife of former DUP leader Jeffrey Donaldson, has been placed on the sex offenders' register for five years and made subject to a three-year supervision order. She appeared before Newry Crown Court by video link on Friday, her first appearance since 2025, and nodded when Judge Paul Ramsey asked whether she understood the supervision treatment order.\n\nShe could not be given a prison sentence because her case was decided through a \"trial of the facts\", after it was determined that she was medically unfit to stand a criminal trial. The court found she had done the acts behind five charges, four of them aiding and abetting her husband's offending.\n\nThe 60-year-old was on screen for less than three minutes, dressed in black, with two large cuts on her forehead. She kept her eyes closed and her head tilted down throughout the hearing.\n\nJeffrey Donaldson was sentenced last month to 15 years in prison for a series of child sex offences against two victims, including one count of rape, committed between 1985 and 2008. He is seeking to appeal against his convictions, and his wife has also applied to appeal the verdict from her own case.\n\nThe outcome closes a hearing that had been repeatedly delayed by assessments of her fitness to participate. Because a trial of the facts establishes only whether the acts happened, it carries no criminal conviction, which is why the court's options were limited to supervision and registration rather than custody.",
+      "sources": [
+        {
+          "name": "BBC News NI",
+          "url": "https://www.bbc.co.uk/news/articles/cme87dnngnwjo"
+        },
+        {
+          "name": "Belfast Telegraph",
+          "url": "https://www.belfasttelegraph.co.uk/news/courts/eleanor-donaldson-sobs-as-she-is-put-on-sex-offenders-register-after-trial-of-facts/a/164494745.html"
+        },
+        {
+          "name": "News Letter",
+          "url": "https://www.newsletter.co.uk/news/courts/eleanor-donaldson-placed-on-sex-offenders-register-and-given-supervision-order-9349594"
+        }
+      ],
+      "publishedAt": "2026-11-14T05:55:00Z",
+      "imageURL": "/images/2026-11-14-northernIreland-001.jpg"
+    },
+    {
+      "id": "2026-11-14-global-001",
+      "category": "global",
+      "headline": "FAA lifts nationwide ground stop after routers overloaded US air traffic control",
+      "subtitle": "Departing flights were halted for more than five hours on Friday afternoon, cancelling thousands of services; the transportation secretary blamed an ageing system and asked Congress for money",
+      "body": "US air traffic came to a standstill on Friday afternoon after the Federal Aviation Administration ordered a nationwide ground stop for departing flights, lifting it more than five hours later at 8.15pm Eastern time. The alert went out at 3.54pm \"due to extraordinary circumstances and for reasons of safety\", with no further explanation until a White House briefing that evening.\n\nTransportation Secretary Sean Duffy said the cause was an outdated air traffic control system whose routers \"got overloaded with data\", producing instability in radar and communications across the centres and approach facilities. He said the problem had been identified and the system was operational again, but warned it would take time to unwind the day's disruption.\n\nMore than 7,000 flights were cancelled by Friday evening, according to NBC News, while the Guardian put the number of flights delayed or cancelled above 11,000, citing the tracking service FlightAware. Delta, United and American said they were resuming operations overnight.\n\nThe briefing, held with Homeland Security Secretary Markwayne Mullin, turned into an appeal to Congress for further FAA funding. Airports across the country filled with stranded passengers, and knock-on delays were still expected into the weekend.",
+      "sources": [
+        {
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/nov/13/faa-nationwide-ground-stop-flights"
+        },
+        {
+          "name": "NBC News",
+          "url": "https://www.nbcnews.com/news/us-news/faa-orders-nationwide-ground-stop-departing-flights-reasons-safety-rcna609247"
+        },
+        {
+          "name": "20minutos",
+          "url": "https://www.20minutos.es/internacional/estados-unidos-ordena-suspender-todos-los-vuelos-pais-por-circunstancias-extraordinarias-motivos-seguridad_7061023_0.html"
+        }
+      ],
+      "publishedAt": "2026-11-14T06:00:00Z",
+      "imageURL": "/images/2026-11-14-global-001.jpg"
+    },
+    {
+      "id": "2026-11-14-global-002",
+      "category": "global",
+      "headline": "Kremlin revives Cold War-era security demands as Europe picks five countries for Ukraine talks",
+      "subtitle": "EU leaders at a Dublin summit chose France, Germany, Britain, Italy and Poland to speak for Europe, after Moscow contradicted US claims that the next round in Abu Dhabi would include Europeans",
+      "body": "Russia has put its 2021 draft treaties back on the table in talks with US envoys Steve Witkoff and Jared Kushner, according to the BBC's Russia editor Steve Rosenberg. After the meeting, the Kremlin said a prerequisite for peace was \"a new, long-term architecture of indivisible security and peace\" — in practice, a reshaping of European security in Russia's favour, including guarantees that Ukraine and Georgia would never join Nato and a rollback of alliance infrastructure from eastern Europe.\n\nThe demand was rejected as an ultimatum when first made in December 2021, two months before the full-scale invasion. Moscow now treats the fact that European security is even being discussed as a victory.\n\nEurope spent Friday trying to work out who would answer for it. At an informal summit in Dublin, EU leaders settled on a collective voice: the five countries of the E-5 — France, Germany, Britain, Italy and Poland — plus the European Commission and Council, to appear at the next round in Abu Dhabi. Kremlin spokesman Dmitry Peskov said Moscow would talk to the Europeans only if they had a properly empowered representative.\n\nKaja Kallas, the EU's foreign policy chief, warned against \"walking into the traps that Russia is setting\" and urged leaders to keep the focus on the aggression itself.",
+      "sources": [
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cq39glwprknjo"
+        },
+        {
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/nov/13/russia-ukraine-talks-kaja-kallas-eu-foreign-policy-dublin-summit"
+        },
+        {
+          "name": "La Vanguardia",
+          "url": "https://www.lavanguardia.com/internacional/20261113/11683788/cinco-paises-ue-representaran-europa-negociaciones-ucrania.html"
+        }
+      ],
+      "publishedAt": "2026-11-14T06:02:00Z",
+      "imageURL": "/images/2026-11-14-global-002.jpg"
+    },
+    {
+      "id": "2026-11-14-global-003",
+      "category": "global",
+      "headline": "All accounted for after tanker hits New Orleans river cruise ship in 'miracle on the Mississippi'",
+      "subtitle": "Thirty-two people were taken to hospital but none critically hurt after the Atlantic Asphalt struck a docked American Cruise Lines vessel, putting passengers into cold, fast-moving water",
+      "body": "A tanker collided with a river cruise ship docked on the Mississippi in New Orleans on Friday afternoon, sending people into the water and injuring dozens — but leaving no one dead or unaccounted for. The Atlantic Asphalt struck American Cruise Lines' American Heritage at about 12.30pm, and 32 people were taken to local hospitals, none of them with critical injuries.\n\nMayor Helena Moreno said at a news conference that every passenger and crew member had been accounted for, and called the outcome \"truly a miracle on the Mississippi\". She credited a hectic but effective multi-agency rescue operation, with the river running cold and its currents notoriously dangerous.\n\nEmergency crews worked from the bank and from boats as the scale of the collision became clear. The American Heritage was alongside when it was hit, which officials said helped keep the casualty count low.\n\nThe cause of the collision has not been established. The US Coast Guard is expected to lead the investigation into how the tanker came to strike a moored vessel in daylight, and whether river traffic controls played any part.",
+      "sources": [
+        {
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/nov/13/mississippi-river-crash-new-orleans"
+        },
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cw20xmy0m5yyo"
+        },
+        {
+          "name": "20minutos",
+          "url": "https://www.20minutos.es/internacional/un-petrolero-choca-contra-un-crucero-con-129-personas-bordo-rio-mississippi_7061016_0.html"
+        }
+      ],
+      "publishedAt": "2026-11-14T06:04:00Z",
+      "imageURL": "/images/2026-11-14-global-003.jpg"
+    },
+    {
+      "id": "2026-11-14-global-004",
+      "category": "global",
+      "headline": "Storm Charles leaves floods from Madeira to the Riviera, with Spain still under rain warnings",
+      "subtitle": "Funchal recorded a gust of 136km/h and 355mm of rain in twelve hours; Lisbon cancelled 183 flights and Madrid 155, before the system moved through France into northern Italy",
+      "body": "Storm Charles has brought destructive weather across the Iberian peninsula this week, with heavy rain and strong south-westerly winds arriving first in Madeira before reaching the Portuguese mainland on 11 November. Funchal airport recorded a gust of 84.5mph (136km/h) alongside 355mm of rain in twelve hours.\n\nIn Lisbon, 183 flights were cancelled on Wednesday — about a third of the airport's normal daily traffic — while Madrid Barajas had 155 cancellations. Widespread flooding followed in Spain and Portugal before the system tracked north-east through southern France, where parts of Cannes flooded, rock falls forced road closures along the Riviera, and the Italian weather service issued its highest red rainfall warning for the area from Tuscany to Venezia.\n\nThe unsettled pattern is not finished. Spain's Aemet has yellow warnings for rain in Ávila, Salamanca and Cáceres for Saturday, with showers expected across most of the peninsula and the heaviest totals in the west of the Sistema Central. Further heavy rain is forecast for Italy and the Balkans.\n\nThe sequence fits a run of late-autumn storms that have repeatedly pushed Atlantic systems across Iberia into the Mediterranean, with each one leaving saturated ground behind for the next.",
+      "sources": [
+        {
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/environment/2026/nov/13/storm-charles-floods-flight-cancellations-southern-europe-weather"
+        },
+        {
+          "name": "20minutos",
+          "url": "https://www.20minutos.es/nacional/llegan-lluvias-tormentas-casi-toda-espana-las-proximas-horas-estas-son-las-zonas-que-esperan-mas-agua_7060913_0.html"
+        },
+        {
+          "name": "elDiario.es",
+          "url": "https://www.eldiario.es/sociedad/el-tiempo/tiempo-espana-semana-alejan-borrascas-continuan-lluvias-inestabilidad-pm_1_13662393.html"
+        }
+      ],
+      "publishedAt": "2026-11-14T06:06:00Z",
+      "imageURL": "/images/2026-11-14-global-004.jpg"
+    },
+    {
+      "id": "2026-11-14-tech-001",
+      "category": "tech",
+      "headline": "Nvidia fallout reaches Trump's cabinet as Bessent blames Commerce for chip exports",
+      "subtitle": "The treasury secretary told CNBC that agencies wanted Megaspeed on the entity list for months; Howard Lutnick will testify to the Senate next month as VCs warn startup funding is drying up",
+      "body": "The fallout from Jensen Huang's departure at Nvidia has reached the US cabinet. Treasury Secretary Scott Bessent told CNBC that several government agencies \"were in favour of putting Megaspeed on the entity list for months\", adding that \"Commerce has the pen\" and that questions about the internal process should go to Howard Lutnick's department.\n\nMegaspeed, the firm at the centre of the affair, had been investigated over suspicions it was smuggling high-spec Nvidia chips into China but is not on the list of companies US firms are barred from working with. Huang was ousted as chief executive after revelations that he had an affair with a businesswoman who was also allegedly a Chinese spy. Lutnick is due before the Senate Banking Committee next month, and other committees have told his department to retain all records relating to Nvidia.\n\nThe business consequences are already being felt. Nvidia had become one of the largest investors in AI startups, pouring tens of billions into the sector annually and taking part in 105 funding rounds this year alone, often as the biggest cheque, according to PitchBook. Founders and investors told TechCrunch they now expect smaller rounds and lower valuations.\n\n\"Nvidia is carrying almost every AI-native startup from application to neocloud,\" Dawn Capital's Shamillah Bankiya said. Most of the significant investment decisions, one investor noted, came from Huang himself.",
+      "sources": [
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cqvg2d1eg7zro"
+        },
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/"
+        },
+        {
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/technology/2026/nov/13/nvidia-scandal-sparks-us-national-security-concerns-china"
+        }
+      ],
+      "publishedAt": "2026-11-14T06:08:00Z",
+      "imageURL": "/images/2026-11-14-tech-001.jpg"
+    },
+    {
+      "id": "2026-11-14-tech-002",
+      "category": "tech",
+      "headline": "Microsoft outage drags into a second day and exposes Europe's reliance on US cloud",
+      "subtitle": "The disruption hit Outlook, Teams and Copilot users in 74 countries; experts point out that the US holds around 70% of EU data and supplies some 80% of its digital services",
+      "body": "Microsoft's outage of Outlook, Teams and Copilot ran into a second day on Friday before services began a slow recovery, with the company saying it was \"observing sustained improvements in service availability\" after overnight fixes that it admitted had not worked as expected.\n\nThe disruption affected millions of users, businesses and public institutions across 74 countries, including Spain and the rest of the EU. Microsoft has not published a root cause, but indicated that cascading server failures inside multiple data centres shifted too much load onto the machines still running — a failure of capacity, not of traffic.\n\nThe episode has revived a European argument about concentration risk. Around 70% of EU data sits with US providers, which also supply roughly 80% of the bloc's digital services. Darío García de Viedma, a digital geopolitics specialist at the Real Instituto Elcano, said he had long warned about the risk of critical services sitting with very few suppliers: a single bad update can now take down schools, courts, hospitals and governments at once.\n\nThe European Commission has made digital sovereignty a priority, but the remedies under discussion — more competition, serious supply-chain oversight and not handing every workflow to AI assistants — are slow-moving next to the speed at which dependency has built up.",
+      "sources": [
+        {
+          "name": "20minutos",
+          "url": "https://www.20minutos.es/internacional/caida-microsoft-revela-dependencia-ue-respecto-eeuu-tiene-70-los-datos-torno-80-servicios-digitales_7060860_0.html"
+        },
+        {
+          "name": "Wired",
+          "url": "https://www.wired.com/story/the-microsoft-outage-is-a-warning-for-the-world/"
+        },
+        {
+          "name": "La Vanguardia",
+          "url": "https://www.lavanguardia.com/vida/20261113/11683225/microsoft-dificultades-reparar-caida-mundial-outlook.html"
+        }
+      ],
+      "publishedAt": "2026-11-14T06:10:00Z",
+      "imageURL": "/images/2026-11-14-tech-002.jpg"
+    },
+    {
+      "id": "2026-11-14-tech-003",
+      "category": "tech",
+      "headline": "Uber says hackers stole drivers' licence data through an AI vendor",
+      "subtitle": "State breach notices name 2,567 drivers in Massachusetts, 3,430 in South Carolina and 1,873 in Rhode Island, and Uber says the entry point was the LLM platform Fireworks AI",
+      "body": "Uber has confirmed that hackers stole personal data, including driver's licence information, from its systems after compromising credentials at a third-party vendor. The notices, dated 10 November, name Fireworks AI — a platform used to run large language models — as the vendor whose account was breached.\n\nAccording to the filings, Fireworks detected unauthorised activity on 9 October and alerted Uber, which established four days later that the intruder had used the stolen credentials to reach its data. The company says it cut off data connections with the provider immediately and has found no evidence of misuse so far. Affected drivers are being offered credit monitoring and identity-theft assistance.\n\nThe known totals are partial: 3,430 people in South Carolina, 2,567 in Massachusetts and 1,873 in Rhode Island, with an Illinois filing still pending and California drivers notified without a number. Uber has not said how many people were affected in total, and the figure is expected to rise as more states publish notices.\n\nFireworks attributed the intrusion to a financially motivated criminal group interested in selling stolen tokens for accessing LLMs. It is Uber's second known breach this year, after an incident at its freight unit in August.",
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/13/uber-confirms-hackers-stole-thousands-of-drivers-license-information-in-data-breach/"
+        },
+        {
+          "name": "The Hill",
+          "url": "https://thehill.com/policy/technology/6219607-uber-drivers-license-data-stolen"
+        },
+        {
+          "name": "Gizmodo",
+          "url": "https://gizmodo.com/hackers-stole-thousands-of-uber-drivers-data-through-an-ai-startup-2000839947"
+        }
+      ],
+      "publishedAt": "2026-11-14T06:12:00Z",
+      "imageURL": "/images/2026-11-14-tech-003.jpg"
+    },
+    {
+      "id": "2026-11-14-tech-004",
+      "category": "tech",
+      "headline": "Starship reaches orbit but the booster catch fails, leaving the double catch to Saturday",
+      "subtitle": "Booster 22 was diverted offshore and exploded after an automatic abort on the 15th test flight; Ship 42 is still aiming to be plucked out of the air by the launch tower's arms",
+      "body": "SpaceX's 15th Starship test flight lifted off from Starbase, Texas, on Friday with an unprecedented goal: catching both the first stage and the upper stage with the launch tower's mechanical arms. Half of that plan failed within minutes, when an automatic abort sent Booster 22 downrange instead of back to the pad.\n\nThe booster was diverted over the Gulf of Mexico, where it exploded. SpaceX hosts attributed the abort to a \"booster downrange abort\" consistent with safety checks designed to protect the tower, and said more detail on the trigger would follow. The company had already lowered expectations after the first stage's catch was lost.\n\nShip 42 continued toward orbit regardless. The vehicle is designed to survive a 22-hour flight and then attempt the first-ever catch of a Starship upper stage, steering back to the pad on Saturday unless something else goes wrong. Elon Musk had put the odds of success at roughly 50-50.\n\nNasa is watching closely: Starship is the lander chosen for the Artemis programme, with astronauts due to practise docking with a Blue Moon and a Starship in Earth orbit next summer, ahead of a crewed lunar touchdown that could come as early as 2028.",
+      "sources": [
+        {
+          "name": "PBS NewsHour",
+          "url": "https://www.pbs.org/newshour/science/spacexs-starship-soars-into-orbit-after-booster-malfunction-thwarts-double-catch-attempt"
+        },
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/ckregdgnl0xpo"
+        },
+        {
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/science/2026/nov/13/spacex-starship-megarocket-blasts-off-earth-orbit"
+        }
+      ],
+      "publishedAt": "2026-11-14T06:14:00Z",
+      "imageURL": "/images/2026-11-14-tech-004.jpg"
+    },
+    {
+      "id": "2026-11-14-ai-001",
+      "category": "ai",
+      "headline": "ChatGPT's new wallet lets its agents do the shopping and the checkout",
+      "subtitle": "OpenAI is rolling out the feature to a limited number of US Pro subscribers, who must review the items, total and card and approve with Face ID before anything is bought",
+      "body": "OpenAI launched a wallet feature on Friday that lets ChatGPT's agents, which it calls dots, help users decide what to buy and then complete the purchase on their behalf. The option starts with a limited number of US ChatGPT Pro subscribers, aged 18 and over, holding a US-issued Visa, Mastercard or American Express.\n\nControl is the pitch. Users can review the items, the total and the card that will be charged before checkout, and must approve each transaction with a security check such as Face ID or a fingerprint, which leaves a record of what was bought and when. OpenAI says this keeps the human in charge of every step that matters.\n\nThe launch lands at an awkward moment for agentic commerce. DoorDash and Uber have both reported low numbers of orders placed by AI agents so far, suggesting shoppers are still reluctant to hand over a payment method. Meta's Muse assistant, which now has more than 10 million users, has had more success with AI-assisted tasks.\n\nThe wallet also sharpens a question merchants have been asking all year: whether checkout inside an AI assistant becomes a new distribution channel with its own fees, or simply a faster route to the same storefront.",
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/"
+        },
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/introducing-chatgpt-wallet/"
+        },
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet"
+        }
+      ],
+      "publishedAt": "2026-11-14T06:16:00Z",
+      "imageURL": "/images/2026-11-14-ai-001.jpg"
+    },
+    {
+      "id": "2026-11-14-ai-002",
+      "category": "ai",
+      "headline": "Researcher says China's best open models were trained on banned Nvidia Blackwell chips",
+      "subtitle": "Will DePue claims six models from DeepSeek, Moonshot, MiniMax and Ant Group carry a weight-level fingerprint of GPUs the US bars from export — a finding Nvidia cannot afford to ignore",
+      "body": "A researcher claims to have found forensic evidence that the leading open-weight models from Chinese labs were initialised on Nvidia's Blackwell chips, which the US government restricts from export to China. Will DePue published the report under the name Unemployment Labs on 12 November.\n\nThe six models named are DeepSeek-V4-Flash and V4-Pro, Moonshot's Kimi K3 and K3.1-Pro, MiniMax-M3 and Ant Group's Ling-3.1-flash. DePue's method reads a pattern left in a model's starting weights, and he says it matched 24 other models whose makers had disclosed the hardware they used, giving him a baseline for comparison.\n\nThe report says nothing about where the chips were located or how they were obtained. That gap matters, because the paper lands in the middle of a scandal about how restricted Nvidia hardware reaches China at all — the affair that ended Jensen Huang's time as chief executive, and which has pulled in Megaspeed and questions about export licences.\n\nNvidia has long argued that its chips find their way into Chinese hands through third countries regardless of controls. Evidence that frontier Chinese models were built on Blackwell would undercut that position politically, and would give US regulators a concrete case to investigate.",
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/"
+        },
+        {
+          "name": "Startup Fortune",
+          "url": "https://startupfortune.com/breaking-news-as-researcher-says-six-chinese-ai-models-carry-the-fingerprint-of-banned-nvidia-chips"
+        },
+        {
+          "name": "CBC News",
+          "url": "https://www.cbc.ca/news/world/nvidia-chips-china-ban-9.7416670"
+        }
+      ],
+      "publishedAt": "2026-11-14T06:18:00Z",
+      "imageURL": "/images/2026-11-14-ai-002.jpg"
+    },
+    {
+      "id": "2026-11-14-ai-003",
+      "category": "ai",
+      "headline": "LangChain more than doubles its valuation to $3bn on the promise of owned intelligence",
+      "subtitle": "The agent-management startup raised $300m in a round led by Alphabet's CapitalG, and plans to grow to about 850 staff by the end of 2027 as it sells model-agnostic tooling",
+      "body": "LangChain has raised $300 million at a $3 billion valuation, more than doubling the $1.25 billion it reached a year ago. The Series C was led by CapitalG, Alphabet's growth fund, with new investors GIC and DFJ Growth joining existing backers IVP and Sapphire Ventures.\n\nThe company began in 2022 as an open-source project solving the tasks early language models handled badly: searching the web, calling APIs, querying databases. As the frontier labs built those abilities into their own products, LangChain shifted to managing agents, and its commercial pitch now runs through LangSmith, which helps companies build, deploy and monitor agents.\n\nThat pitch is deliberately anti-lock-in. LangSmith is sold as model-, cloud- and ecosystem-agnostic, in contrast to the bundled agent tooling from the big clouds and model developers. Its tagline — every company should own its intelligence — is aimed at enterprises wary of tying their workflows to one vendor.\n\nThe company has not disclosed revenue. Reports say it plans to reach roughly 850 employees by the end of 2027, hiring infrastructure specialists, AI engineers and sales staff, which suggests a bet that agent management becomes a durable software category rather than a feature absorbed by the labs.",
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/"
+        },
+        {
+          "name": "LangChain",
+          "url": "https://www.langchain.com/blog/series-c"
+        },
+        {
+          "name": "The Wall Street Journal",
+          "url": "https://www.wsj.com/cio-journal/ai-startup-langchain-more-than-doubles-its-valuation-to-3-billion-f83377ad"
+        }
+      ],
+      "publishedAt": "2026-11-14T06:20:00Z",
+      "imageURL": "/images/2026-11-14-ai-003.jpg"
+    },
+    {
+      "id": "2026-11-14-ai-004",
+      "category": "ai",
+      "headline": "Caine Prize clears Zimbabwean author of AI use and tightens its rules",
+      "subtitle": "An internal review found no evidence that Simbarashe Kundizeza's winning story was machine-written, but the prize is adding measures against generative AI in future submissions",
+      "body": "The Caine Prize for African Writing has cleared Zimbabwean author Simbarashe Kundizeza of using artificial intelligence to write this year's winning story, and confirmed that his award stands. The prize said on Wednesday that it considered the matter closed after a review including interviews with the author and metadata analysis of his drafts.\n\n\"We feel the evidence is clear and have made the decision that Simbarashe's award stands,\" said Ellah Wakatama, chair of the prize. Kundizeza said he felt relieved, adding that the allegation had not been necessary and that he wanted to put it behind him.\n\nThe row began when The Atlantic published a piece reporting that the detection tool Pangram had flagged the entire story, \"The Blue Fighter\", as AI-generated apart from an excerpt from another author's poem. The story had won the £10,000 prize in October. On the BBC's Front Row, the journalist behind the article said every other previous winner she tested came out as fully human.\n\nThe case fed a wider argument about detection tools, which produce confident-sounding scores without explaining them, and about who gets accused. African writers on social media asked whether such allegations fall disproportionately on non-white authors. The prize is now writing generative-AI rules for future entries.",
+      "sources": [
+        {
+          "name": "AP News",
+          "url": "https://apnews.com/article/caine-prize-africa-writers-kundizeza-ai-77b354cc6ddd135021c3ac5914fc7d77"
+        },
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.com/news/articles/cmglr260z7eko"
+        },
+        {
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/books/2026/nov/12/zimbabwean-author-simbarashe-kundizeza-cleared-ai-caine-prize-winning-story"
+        },
+        {
+          "name": "Newsday",
+          "url": "https://www.newsday.com/news/nation/caine-prize-africa-writers-kundizeza-ai-i84599"
+        }
+      ],
+      "publishedAt": "2026-11-14T06:22:00Z",
+      "imageURL": "/images/2026-11-14-ai-004.jpg"
+    }
+  ]
+}
