@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-14",
+  "published": true,
+  "publishedAt": "2026-11-14T05:20:00Z",
+  "sections": {
+    "present": ["local", "national", "northernIreland", "global", "tech", "ai"],
+    "missing": []
+  },
+  "storiesWithoutPhoto": [],
+  "validatorWarnings": [
+    "articles[11].body (2026-11-14-tech-001) paragraph 2 is 84 words — over 80, which reads as a wall of text on a phone. Aim for 30–80"
+  ],
+  "validatorErrors": [],
+  "workarounds": [
+    "El Progreso article pages return HTTP 403 to scripted fetches even with full browser headers, so Lugo stories were confirmed through La Voz de Galicia and El Correo Gallego article pages plus web_search; El Progreso feed XML remained usable for discovery.",
+    "Guardian CDN images (i.guim.co.uk) returned 401 to the verification fetch, so the FAA, New Orleans and Storm Charles photos were swapped for the og:image published by NBC News, BBC and 20minutos for the same stories."
+  ],
+  "needsHumanAttention": false,
+  "humanAttentionReason": null,
+  "notes": "Six searches used out of the 15 cap; the rest of discovery came from RSS plus HN Algolia. The Nvidia story runs a third day but on a genuinely new development (Bessent blaming Commerce, and TechCrunch's reporting on startup funding), not a rewrite. Northern Ireland is a single story as configured: Eleanor Donaldson placed on the sex offenders' register for five years."
+}
