@@ -1,0 +1,663 @@
+{
+  "generatedAt": "2026-11-15T05:05:37Z",
+  "config": {
+    "sections": {
+      "local": {
+        "min": 1,
+        "max": 3,
+        "sources": [
+          {
+            "name": "El Progreso",
+            "url": "https://www.elprogreso.es"
+          },
+          {
+            "name": "La Voz de Galicia",
+            "url": "https://www.lavozdegalicia.es"
+          },
+          {
+            "name": "20minutos",
+            "url": "https://www.20minutos.es"
+          },
+          {
+            "name": "RTVE",
+            "url": "https://www.rtve.es"
+          },
+          {
+            "name": "Diario de Pontevedra",
+            "url": "https://www.diariodepontevedra.es"
+          }
+        ]
+      },
+      "national": {
+        "min": 3,
+        "max": 5,
+        "sources": [
+          {
+            "name": "20minutos",
+            "url": "https://www.20minutos.es"
+          },
+          {
+            "name": "RTVE",
+            "url": "https://www.rtve.es"
+          },
+          {
+            "name": "El Correo Gallego",
+            "url": "https://www.elcorreogallego.es"
+          },
+          {
+            "name": "Europa Press",
+            "url": "https://www.europapress.es"
+          },
+          {
+            "name": "elDiario.es",
+            "url": "https://www.eldiario.es"
+          },
+          {
+            "name": "Libertad Digital",
+            "url": "https://www.libertaddigital.com"
+          }
+        ]
+      },
+      "northernIreland": {
+        "min": 1,
+        "max": 1,
+        "sources": [
+          {
+            "name": "BBC News NI",
+            "url": "https://www.bbc.co.uk/news/northern_ireland"
+          },
+          {
+            "name": "RTÉ",
+            "url": "https://www.rte.ie/news/"
+          },
+          {
+            "name": "Belfast Telegraph",
+            "url": "https://www.belfasttelegraph.co.uk"
+          }
+        ]
+      },
+      "global": {
+        "min": 4,
+        "max": 8,
+        "sources": [
+          {
+            "name": "BBC News",
+            "url": "https://www.bbc.co.uk/news/world"
+          },
+          {
+            "name": "RTÉ",
+            "url": "https://www.rte.ie/news/world/"
+          },
+          {
+            "name": "Euronews",
+            "url": "https://www.euronews.com"
+          },
+          {
+            "name": "The Guardian",
+            "url": "https://www.theguardian.com/world"
+          },
+          {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com"
+          }
+        ]
+      },
+      "tech": {
+        "min": 5,
+        "max": 5,
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com"
+          },
+          {
+            "name": "BBC News",
+            "url": "https://www.bbc.co.uk/news/technology"
+          },
+          {
+            "name": "NPR",
+            "url": "https://www.npr.org"
+          },
+          {
+            "name": "The Verge",
+            "url": "https://www.theverge.com"
+          },
+          {
+            "name": "Ars Technica",
+            "url": "https://arstechnica.com"
+          },
+          {
+            "name": "Electrek",
+            "url": "https://electrek.co"
+          },
+          {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com"
+          },
+          {
+            "name": "The Guardian",
+            "url": "https://www.theguardian.com/technology"
+          },
+          {
+            "name": "Crissy Field",
+            "url": "https://www.crissyfield.de"
+          },
+          {
+            "name": "Cybernews",
+            "url": "https://cybernews.com"
+          },
+          {
+            "name": "India Today",
+            "url": "https://www.indiatoday.in"
+          }
+        ]
+      },
+      "ai": {
+        "min": 4,
+        "max": 7,
+        "sources": [
+          {
+            "name": "The Verge",
+            "url": "https://www.theverge.com"
+          },
+          {
+            "name": "wersm",
+            "url": "https://wersm.com"
+          },
+          {
+            "name": "explainX",
+            "url": "https://explainx.ai"
+          },
+          {
+            "name": "University of Michigan",
+            "url": "https://news.umich.edu"
+          },
+          {
+            "name": "emergent.sh",
+            "url": "https://emergent.sh"
+          },
+          {
+            "name": "RTÉ",
+            "url": "https://www.rte.ie/news/"
+          },
+          {
+            "name": "Government of Ireland",
+            "url": "https://www.gov.ie"
+          },
+          {
+            "name": "The Guardian",
+            "url": "https://www.theguardian.com/technology"
+          },
+          {
+            "name": "Superpower Daily",
+            "url": "https://superpowerdaily.com"
+          },
+          {
+            "name": "NewsCord",
+            "url": "https://newscord.org"
+          }
+        ]
+      }
+    }
+  },
+  "articles": [
+    {
+      "id": "2026-11-15-local-001",
+      "category": "local",
+      "headline": "Muere a los 53 años Alfonso Pérez, director creativo de Ángel Schlesser y lucense desde los ocho años",
+      "subtitle": "El diseñador, nacido en Oviedo en 1973, se crió en A Milagrosa y dirigía la firma madrileña desde 2022. Falleció de un infarto fulminante dos semanas después de su última visita a Lugo.",
+      "body": "La firma Ángel Schlesser anunció este viernes la muerte de Alfonso Pérez, su director creativo desde septiembre de 2022, a los 53 años. El diseñador falleció en Madrid a causa de un infarto fulminante, apenas dos semanas después de su última visita a Lugo, la ciudad donde se crió y donde sigue viviendo su familia.\n\nAunque su DNI lo situaba en Oviedo, donde nació en 1973, Alfonso Pérez llegó a Lugo con ocho años y estudió cerámica en la escuela Ramón Falcón. De allí salió sin más carta de presentación que su talento, primero hacia Asturias y después a Madrid, donde hizo prácticas en Devota y Lomba y trabajó a las órdenes de Elena Benarroch.\n\nEn 2022 alcanzó la dirección creativa de Ángel Schlesser en sustitución de Juan Carlos Mesa, el punto más alto de una carrera que quienes lo conocieron describen como la de un luchador. «Era un luchador, muy trabajador, y fíjate justo ahora que estaba triunfando... es una desgracia muy grande», señaló Jose Blázquez, presidente de Ágora y compañero de estudios en la escuela de artes aplicadas.",
+      "imageURL": "/images/2026-11-15-local-001.jpg",
+      "sources": [
+        {
+          "name": "El Progreso",
+          "url": "https://www.elprogreso.es/articulo/lugo/adios-disenador-lucense-alfonso-perez-era-muy-riquino-gran-trabajador/202611142301572014116.html"
+        },
+        {
+          "name": "La Voz de Galicia",
+          "url": "https://www.lavozdegalicia.es/noticia/obituarios/2026/11/13/fallece-53-anos-alfonso-perez-director-creativo-firma-angelschlesser/00031794560730755190193.htm"
+        },
+        {
+          "name": "20minutos",
+          "url": "https://www.20minutos.es/mujer/moda/fallece-alfonso-perez-director-creativo-angel-schlesser-los-53-anos_7060642_0.html"
+        }
+      ],
+      "publishedAt": "2026-11-15T06:12:00Z"
+    },
+    {
+      "id": "2026-11-15-local-002",
+      "category": "local",
+      "headline": "Melania Cruz, mejor actriz en el Festival de Sevilla por la película 'Tralovento'",
+      "subtitle": "La intérprete lucense se impuso en la sección oficial del certamen con el primer largometraje de ficción de Eloy Domínguez Serén, un drama sobre una aldea gallega dividida por un parque eólico.",
+      "body": "Melania Cruz recibió este sábado en el Festival de Cine Europeo de Sevilla el premio a la mejor actriz por su papel en Tralovento, la primera película de ficción del cineasta y profesor de la Universidade de Santiago Eloy Domínguez Serén. La actriz supo del galardón al aterrizar en Madrid y reconoció que se quedó «case en estado de shock».\n\nEs el primer premio que recibe fuera de Galicia, después de varios Mestre Mateo y María Casares. «A pretensión é que calquera persoa, independentemente do lugar do que proceda e das súas circunstancias, se poida chegar a sentir interpelada polas historias que contamos», dijo sobre el filme, que pasó antes por los festivales de Morelia y Tesalónica.\n\nEn la película, Cruz interpreta a Ana, una mujer que vuelve a su aldea natal tras la muerte de su padre en el incendio de la casa familiar. La estancia breve se complica cuando un proyecto eólico amenaza las tierras de la familia y divide a la comunidad, y la protagonista acaba replanteándose su identidad y su sentido de pertenencia.\n\nEl estreno gallego será el miércoles 18 de noviembre a las 19.30 horas en Santiago de Compostela, dentro del festival Cineuropa.",
+      "imageURL": "/images/2026-11-15-local-002.jpg",
+      "sources": [
+        {
+          "name": "El Progreso",
+          "url": "https://www.elprogreso.es/articulo/lugo/lugo-melania-cruz-faise-co-premio-mellor-actriz-festival-sevilla-polo-seu-traballo-tralovento/202611141922492014033.html"
+        },
+        {
+          "name": "RTVE",
+          "url": "https://www.rtve.es/rtve/20261114/seis-producciones-participadas-por-rtve-premiadas-festival-cine-europeo-sevilla/17314193.shtml"
+        },
+        {
+          "name": "Diario de Pontevedra",
+          "url": "https://www.diariodepontevedra.es/articulo/cultura/melania-cruz-faise-co-premio-mellor-actriz-festival-sevilla-polo-seu-traballo-tralovento/202611141845511477023.html"
+        }
+      ],
+      "publishedAt": "2026-11-15T06:14:00Z"
+    },
+    {
+      "id": "2026-11-15-national-001",
+      "category": "national",
+      "headline": "El Hierro registra su peor jornada de la crisis migratoria con más de un millar de personas en 12 cayucos",
+      "subtitle": "La isla, de unos 11.400 habitantes, recibió el sábado una docena de embarcaciones y el viernes otras ocho. Canarias habla de extrema tensión asistencial y de más de 8.000 llegadas en lo que va de noviembre.",
+      "body": "El Hierro vivió este sábado la jornada más dura de la crisis migratoria que atraviesa desde hace semanas. Una docena de cayucos llegó a la isla con más de un millar de personas a bordo, por encima de los diez del pasado 6 de noviembre y de los ocho del viernes: veinte embarcaciones en un solo fin de semana.\n\nEl balance de RTVE, con datos de Salvamento Marítimo, elevó la cifra del sábado a 14 cayucos y 1.488 personas rescatadas en aguas de Canarias. En las horas previas habían llegado unas 800 personas, entre ellas medio centenar de menores y varios lactantes, y cuatro embarcaciones de Salvamento trabajaban en la zona.\n\nLas autoridades canarias describen una «situación de extrema tensión asistencial y logística» en una isla con 11.423 habitantes censados. El presidente del Gobierno de Canarias, Fernando Clavijo, sostiene que la llegada ininterrumpida de embarcaciones durante el mes ha desbordado por completo los recursos de acogida.\n\nEn lo que va de noviembre han llegado a El Hierro más de 8.000 migrantes, según el recuento de la radiotelevisión pública. El Correo Gallego recogía este sábado la llegada de dos nuevos cayucos con 270 personas, entre ellas 21 posibles menores, mientras el dispositivo de emergencia se mantenía activo.",
+      "imageURL": "/images/2026-11-15-national-001.jpg",
+      "sources": [
+        {
+          "name": "20minutos",
+          "url": "https://www.20minutos.es/canarias/hierro-vive-peor-jornada-crisis-migratoria-llegada-millar-personas-embarcaciones_7061211_0.html"
+        },
+        {
+          "name": "RTVE",
+          "url": "https://www.rtve.es/noticias/20261114/tres-nuevos-cayucos-alcanzan-hierro-a-donde-han-llegado-noviembre-mas-8000-migrantes/17314002.shtml"
+        },
+        {
+          "name": "El Correo Gallego",
+          "url": "https://www.elcorreogallego.es/videos/sociedad/2026/11/14/llegan-hierro-nuevos-cayucos-270-136446467.html"
+        }
+      ],
+      "publishedAt": "2026-11-15T06:16:00Z"
+    },
+    {
+      "id": "2026-11-15-national-002",
+      "category": "national",
+      "headline": "RTVE emitirá el cara a cara Sánchez-Feijóo el 19 de noviembre y un debate a ocho el día 23",
+      "subtitle": "La corporación pública programó el duelo entre los candidatos del PSOE y el PP a las 22.00 horas, organizado por la Academia de Televisión, y un debate de portavoces parlamentarios cuatro días después.",
+      "body": "RTVE emitirá en directo el jueves 19 de noviembre, a las 22.00 horas, el debate cara a cara entre Pedro Sánchez y Alberto Núñez Feijóo que organiza la Academia de Televisión. La cita podrá seguirse en La 1, el Canal 24 horas, TVE Internacional, RNE, RTVE.es y RTVE Play, con especiales informativos antes y después del encuentro conducidos por Pepa Bueno.\n\nEl formato reserva los asuntos que más han marcado la campaña: la vivienda y la situación económica, la gestión de los servicios públicos, la corrupción política y la política migratoria. También habrá espacio para la política exterior, uno de los ámbitos en los que los partidos mantienen diferencias más visibles.\n\nCuatro días después, el lunes 23 de noviembre a las 22.00 horas, la corporación organizará un debate parlamentario entre los portavoces de las ocho formaciones con grupo propio en el Congreso. RTVE ofrecerá la señal de forma gratuita a los medios que quieran emitirlo.\n\nEl cara a cara llega a diez días de las elecciones generales del 29N, con la campaña dominada por la confrontación entre bloques y por las encuestas que dan ventaja al PP y a Vox.",
+      "imageURL": "/images/2026-11-15-national-002.jpg",
+      "sources": [
+        {
+          "name": "Europa Press",
+          "url": "https://www.europapress.es/sociedad/noticia-rtve-emitira-cara-cara-sanchez-feijoo-19-noviembre-debate-ocho-formaciones-dia-23-20261114123307.html"
+        },
+        {
+          "name": "RTVE",
+          "url": "https://www.rtve.es/rtve/20261114/rtve-emite-directo-pedro-sanchez-alberto-nunez-television-elecciones-29-noviembre-2026/17313913.shtml"
+        },
+        {
+          "name": "Libertad Digital",
+          "url": "https://www.libertaddigital.com/espana/politica/2026-11-14/rtve-emitira-el-cara-a-cara-decisivo-entre-sanchez-y-feijoo-a-diez-dias-del-29-n-7491579"
+        }
+      ],
+      "publishedAt": "2026-11-15T06:18:00Z"
+    },
+    {
+      "id": "2026-11-15-national-003",
+      "category": "national",
+      "headline": "Sánchez da por hecho que el PSOE ganará el 29N y pide a Feijóo que acepte el resultado",
+      "subtitle": "El candidato socialista cerró la semana de campaña reclamando al líder del PP «educación para la ciudadanía» ante las encuestas, y reivindicó la buena política frente a la motosierra de la derecha.",
+      "body": "Pedro Sánchez pidió este sábado a Alberto Núñez Feijóo que acepte el resultado de las elecciones del 29N y dio por hecha la victoria socialista. «El PSOE va a ganar», afirmó el candidato, que reclamó al líder del PP aprender inglés y educación para la ciudadanía para asumir un resultado adverso.\n\nEn el mitin, Sánchez reivindicó «la buena política» frente a lo que describió como la mala educación, la involución y la motosierra del PP y de Vox. El mensaje insistió en la confrontación entre un proyecto de derechos y otro de recortes a diez días de los comicios.\n\nEl PSOE afronta la recta final de la campaña con los sondeos en contra y con el objetivo de movilizar a su electorado. Los socialistas han situado la vivienda y la gestión de los servicios públicos en el centro de su discurso de cierre, y han convertido cada acto en una defensa de las políticas sociales del Gobierno.\n\nFeijóo, por su parte, ha prometido que si gobierna la gestión de la vivienda se llevará desde una vicepresidencia, y ha hecho de la crítica a la gestión económica del Ejecutivo su argumento principal para pedir el voto útil.",
+      "imageURL": "/images/2026-11-15-national-003.jpg",
+      "sources": [
+        {
+          "name": "20minutos",
+          "url": "https://www.20minutos.es/nacional/sanchez-pide-feijoo-aceptar-resultado-elecciones-29n-psoe-va-ganar_7061115_0.html"
+        },
+        {
+          "name": "elDiario.es",
+          "url": "https://www.eldiario.es/politica/sanchez-pide-feijoo-aprender-ingles-educacion-ciudadania-aceptar-resultados-electorales-29n_1_13664025.html"
+        },
+        {
+          "name": "Europa Press",
+          "url": "https://www.europapress.es/nacional/noticia-sanchez-reivindica-buena-politica-frente-mala-educacion-involucion-motosierra-pp-vox-20261114134239.html"
+        }
+      ],
+      "publishedAt": "2026-11-15T06:20:00Z"
+    },
+    {
+      "id": "2026-11-15-northernIreland-001",
+      "category": "northernIreland",
+      "headline": "Tánaiste writes to party leaders across the island seeking views on Irish unity blueprint",
+      "subtitle": "Simon Harris has asked unionist and nationalist leaders for feedback on Fine Gael's plan, which projects a first-year cost of reunification as high as €25bn, days after the Taoiseach circulated his own ideas.",
+      "body": "Tánaiste Simon Harris has written to political leaders across the island, including unionist parties in Northern Ireland, asking for their views on Fine Gael's blueprint for Irish unity and on where the plan may need further consideration.\n\nFine Gael published the proposals at its ardfheis last weekend. They include a junior minister for North-South relations in a dedicated unit inside the Department of the Taoiseach, and a sovereign wealth fund to meet the potential costs of transition. An economist advising Harris put the first-year cost to the exchequer at between about €3bn and €25bn.\n\nThe move comes days after Taoiseach Micheál Martin, the Fianna Fáil leader, circulated a document to his parliamentary party setting out his own thoughts on preparing for a united Ireland. Sinn Féin and Fianna Fáil have both published renewed proposals this year, and the issue drew fresh attention after comments by Donald Trump during his visit to Ireland in September.\n\nThe letters went to Martin, Sinn Féin's Mary Lou McDonald, the Social Democrats' Cian O'Callaghan, Labour's Ivana Bacik, independents and the unionist leaders. In the note accompanying the document, Harris wrote that no single party owns the discussion about the future of this island, nor should any one party seek to determine it.",
+      "imageURL": "/images/2026-11-15-northernIreland-001.jpg",
+      "sources": [
+        {
+          "name": "BBC News NI",
+          "url": "https://www.bbc.co.uk/news/articles/cqdr1j4z66lgo"
+        },
+        {
+          "name": "RTÉ",
+          "url": "https://www.rte.ie/news/politics/2026/1114/1599192-tanaiste-irish-unity/"
+        },
+        {
+          "name": "Belfast Telegraph",
+          "url": "https://www.belfasttelegraph.co.uk/news/republic-of-ireland/tanaiste-writes-to-political-leaders-seeking-views-on-irish-unity/a/164552827.html"
+        }
+      ],
+      "publishedAt": "2026-11-15T06:22:00Z"
+    },
+    {
+      "id": "2026-11-15-global-001",
+      "category": "global",
+      "headline": "Trump, Putin and Xi to hold first three-way summit at Apec meeting in Shenzhen",
+      "subtitle": "The White House said the leaders of the three biggest nuclear powers will meet on the sidelines of the Apec summit next week, with arms reduction on the agenda and no agreement expected.",
+      "body": "Donald Trump, Vladimir Putin and Xi Jinping will meet together for the first time next week on the sidelines of the Asia-Pacific Economic Co-operation summit in Shenzhen, the White House said on Saturday. Spokeswoman Olivia Wales said Trump would raise the reduction of nuclear weapons, which he believes are dangerously proliferating.\n\nTrump arrives in the southern Chinese city late on Wednesday for the two-day meeting of Apec's 21 member states, and holds a bilateral session with Xi on Thursday, their fourth meeting since he returned to office. The three-way talks are scheduled to close the visit. Russia has confirmed its participation; Beijing had not reacted publicly.\n\nIran may also be discussed, but not Ukraine, according to the briefing given to reporters. A senior US official told news agencies that no agreement was expected to follow the talks, which cap a stretch of back-to-back diplomacy across Asia, with the Asean and East Asia summits also drawing world leaders this month.\n\nFor European capitals the encounter raises the prospect of a settlement shaped by Washington, Moscow and Beijing with the continent at the table only second-hand, a comparison to Yalta that the Guardian explored at length this weekend.",
+      "imageURL": "/images/2026-11-15-global-001.jpg",
+      "sources": [
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/ckz74jzpy18do"
+        },
+        {
+          "name": "RTÉ",
+          "url": "https://www.rte.ie/news/world/2026/1114/1599193-trump-xi-putin/"
+        },
+        {
+          "name": "Euronews",
+          "url": "https://www.euronews.com/2026/11/14/trump-xi-and-putin-to-meet-in-china-white-house-says"
+        },
+        {
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/nov/15/asia-diplomatic-summits-trump-xi-putin-apec-asean"
+        }
+      ],
+      "publishedAt": "2026-11-15T06:24:00Z"
+    },
+    {
+      "id": "2026-11-15-global-002",
+      "category": "global",
+      "headline": "Zelensky says US floated Ukraine giving up the Donbas in return for Nato membership",
+      "subtitle": "The Ukrainian president said American negotiators raised the idea for the first time, and that he would consider a proposal only if it carried security guarantees and no limits on the armed forces.",
+      "body": "US negotiators have raised the idea of Ukraine withdrawing its remaining forces from the eastern Donbas in exchange for Nato membership, President Volodymyr Zelensky said on Saturday. It was, he said, the first time the question had been put to Kyiv.\n\nWashington has not confirmed the account. A US official told the BBC that many ideas continue to be discussed but that any final deal would have to be agreed by both parties. The remarks followed meetings between US envoys, Vladimir Putin and Zelensky as Washington pushes for an end to the war.\n\nKyiv has long sought Nato membership, which the US and several allies previously opposed, while Moscow says another member of the alliance on its border is unacceptable. Russia holds most of the Donbas and Zelensky has repeatedly said Ukraine will not surrender sovereign territory.\n\nZelensky said he would examine a concrete proposal that included security guarantees and placed no constraints on the size of Ukraine's military. In the same remarks he accused SpaceX of not being honest about delays to Starshield, the satellite service used by Ukrainian forces.",
+      "imageURL": "/images/2026-11-15-global-002.jpg",
+      "sources": [
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cwvg2l312ylqo"
+        },
+        {
+          "name": "RTÉ",
+          "url": "https://www.rte.ie/news/europe/2026/1114/1599202-us-ukraine-russia/"
+        },
+        {
+          "name": "Euronews",
+          "url": "https://www.euronews.com/2026/11/14/us-floats-ukraine-ceding-land-to-russia-in-exchange-for-nato-membership-zelenskyy"
+        },
+        {
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/nov/14/spacex-not-honest-slowing-starshield-elon-musk-volodymyr-zelenskyy"
+        }
+      ],
+      "publishedAt": "2026-11-15T06:26:00Z"
+    },
+    {
+      "id": "2026-11-15-global-003",
+      "category": "global",
+      "headline": "Netanyahu renews call for a national unity government with his rival Eisenkot",
+      "subtitle": "Israel's caretaker prime minister said a meeting with his opponent this week had strengthened his conviction, and invited him to a room without preconditions to confront Iran.",
+      "body": "Benjamin Netanyahu renewed his call on Saturday for a national unity government with his rival Gadi Eisenkot, saying only such an administration could guarantee Israel's security. In a video statement, the caretaker prime minister said their meeting on Thursday had only strengthened the conviction that it was essential.\n\nNetanyahu argued that a joint government could eliminate the Iranian threat once and for all, claiming Tehran would not hesitate to use nuclear weapons against Israel. He invited Eisenkot to meet without preconditions. The two men were photographed together at the Knesset swearing-in on 10 November.\n\nEisenkot, a former army chief turned opposition figure, has accused Netanyahu of running a racist campaign against Israel's Arab citizens. That dispute has sharpened as both sides manoeuvre ahead of elections, with the prime minister fighting to stay relevant as the opposition closes in on him.",
+      "imageURL": "/images/2026-11-15-global-003.jpg",
+      "sources": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/14/netanyahu-says-only-a-unity-government-can-guarantee-israels-security"
+        },
+        {
+          "name": "RTÉ",
+          "url": "https://www.rte.ie/news/world/2026/1114/1599234-netanyahu-renews-call-unity-government/"
+        },
+        {
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/nov/13/eisenkot-accuses-netanyahu-of-racist-campaign-against-israels-arab-minority"
+        }
+      ],
+      "publishedAt": "2026-11-15T06:28:00Z"
+    },
+    {
+      "id": "2026-11-15-global-004",
+      "category": "global",
+      "headline": "Pope Leo tells an Andean village of migration, empty villages and poverty",
+      "subtitle": "In Santa Cruz de Succhabamba, a town of 6,000 where he served as bishop, the pope spoke of those forced to leave home and of birth rates emptying whole communities.",
+      "body": "Pope Leo XIV returned on Saturday to Santa Cruz de Succhabamba, a village of about 6,000 people in the northern Peruvian Andes that sits in the diocese where he served as bishop from 2015 to 2023. The Vatican said the visit drew a crowd of around 20,000.\n\nAt an outdoor Mass the pope spoke of the suffering of those forced to leave their homeland in search of a better future, which he said had left communities under threat. He also cited declining birth rates that are emptying villages and the unequal distribution of land and resources.\n\nMore than 40 per cent of people in the Cajamarca region live in poverty, the highest rate in Peru, and the area has lost more people to internal migration than any other, with 729,000 people born there now living elsewhere in the country.\n\nThe stop is part of a wider tour of South America that included a Mass in Chiclayo attended by more than a million people. Health authorities have been watching the pope's condition throughout the trip, which has taken him back to the country where he spent most of his working life.",
+      "imageURL": "/images/2026-11-15-global-004.jpg",
+      "sources": [
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cr4gnz0lv2vlo"
+        },
+        {
+          "name": "Euronews",
+          "url": "https://www.euronews.com/2026/11/14/pope-leo-xiv-continues-trip-through-south-america-as-health-authorities-keep-watch"
+        },
+        {
+          "name": "RTÉ",
+          "url": "https://www.rte.ie/news/world/2026/1113/1599059-pope-south-america/"
+        }
+      ],
+      "publishedAt": "2026-11-15T06:30:00Z"
+    },
+    {
+      "id": "2026-11-15-tech-001",
+      "category": "tech",
+      "headline": "Nvidia employees and Musk sign petition urging the company to reinstate Jensen Huang",
+      "subtitle": "More than 115,000 people had signed by Saturday, among them almost 6,000 current staff, after the chief executive left over relationships that drew in a Singapore data centre firm under US investigation.",
+      "body": "A petition calling on Nvidia to reinstate Jensen Huang had gathered more than 115,000 signatures by Saturday afternoon, according to the site hosting it. Signatories include 5,965 current Nvidia employees, 1,108 former staff and 63,063 shareholders, with Elon Musk among the prominent supporters.\n\nHuang left the chipmaker after questions grew over his extramarital relationships, beginning with an executive at Megaspeed, a Singapore data centre company that US investigators suspect of channelling Nvidia processors to China, and widening to reports of two further affairs.\n\nAttention has also turned to the company's security apparatus: Nvidia's long-serving chief security officer and head of product security stepped down in August, two and a half months before Huang's departure.\n\nColette Kress, the interim chief executive, inherits a legal mess and a set of risky bets on artificial intelligence, NPR reported. The BBC examined how the scandal has become a headache for Singapore, the business-friendly hub at the centre of the chip-trafficking suspicions, while the petition continues to collect signatures from shareholders who want the ousted founder back.",
+      "imageURL": "/images/2026-11-15-tech-001.jpg",
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/14/where-was-nvidias-security-team/"
+        },
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/"
+        },
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/ck1exevgql4qo"
+        },
+        {
+          "name": "NPR",
+          "url": "https://www.npr.org/2026/11/13/nx-s1-6038868/nvidia-interim-ceo-colette-kress-ai-bets-investigation-lutnick"
+        }
+      ],
+      "publishedAt": "2026-11-15T06:32:00Z"
+    },
+    {
+      "id": "2026-11-15-tech-002",
+      "category": "tech",
+      "headline": "SpaceX catches Starship's upper stage with the arms of its launch tower",
+      "subtitle": "Flight 15 ended with the ship snagged by the tower's chopsticks, a first for the vehicle after a series of practice runs that dropped it into the Indian Ocean.",
+      "body": "SpaceX caught the upper stage of its Starship rocket with the arms of its launch tower on Saturday, the first time the company has recovered the ship instead of dropping it into the sea. The booster had been caught on earlier flights; this time the vehicle that reaches orbit came back to the pad.\n\nThe rocket emerged from cloud close to the ground, flying horizontally before three Raptor engines ignited and swung it upright. It then eased towards the tower, where two arms closed on nubs protruding about a foot from either side of the vehicle.\n\nThe catch is central to SpaceX's plan for a rapidly reusable rocket, the economics that underpin its satellite launches and the lander version Nasa has commissioned for its return to the Moon.\n\nNasa and the company have not said when the next flight will take place. Ars Technica described the recovery as dazzling, and noted the margins involved: the rocket hung on two small contact points, with almost no room for error.",
+      "imageURL": "/images/2026-11-15-tech-002.jpg",
+      "sources": [
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/science/1033930/spacex-chopstick-starship-catch"
+        },
+        {
+          "name": "Ars Technica",
+          "url": "https://arstechnica.com/space/2026/11/with-starship-catch-spacex-still-shows-it-can-dazzle-the-world/"
+        },
+        {
+          "name": "RTÉ",
+          "url": "https://www.rte.ie/news/world/2026/1115/1599250-spacex-us-world/"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/15/spacexs-starship-captured-by-launchpad-arms-in-dramatic-first"
+        }
+      ],
+      "publishedAt": "2026-11-15T06:34:00Z"
+    },
+    {
+      "id": "2026-11-15-tech-003",
+      "category": "tech",
+      "headline": "Tesla opens Cybercab orders at $29,990 with a mandatory $299-a-month subscription",
+      "subtitle": "Invited customers can order the two-seat robotaxi for December delivery in Austin, but it only drives inside Tesla's service areas in Texas and Florida, and the autonomy fee is pre-checked.",
+      "body": "Tesla began inviting selected customers on Friday to order its Cybercab for personal use at $29,990 before taxes, with deliveries estimated for December in Austin. Ordering requires a $1,000 non-refundable deposit.\n\nThe car will not move without an Autonomy Subscription of $299 a month, pre-checked on the order page with one month included. The fine print states that a subscription and regular maintenance are required to operate, and the email to customers says the vehicle is only available in supported service areas.\n\nThose areas are the Robotaxi zones in Texas and Florida, which cover eight cities and are considerably smaller than Tesla's marketing suggests. Owners cannot use the car for commercial ride-hailing, and three strikes for improper use trigger a week-long suspension of autonomous driving.\n\nEven Elon Musk has said the monthly fee is too high. The Cybercab has two seats, a 21-inch screen and no steering wheel or pedals, and US regulators have yet to settle how such a vehicle meets federal safety standards.",
+      "imageURL": "/images/2026-11-15-tech-003.jpg",
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/14/tesla-opens-cybercab-pre-orders-for-personal-use-with-geo-restrictions-and-a-299-monthly-fee/"
+        },
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/transportation/1033844/tesla-personal-cybercab-orders-299-subscription-fine-print"
+        },
+        {
+          "name": "Electrek",
+          "url": "https://electrek.co/2026/11/13/tesla-cybercab-personal-use-orders-299-subscription-geofence"
+        }
+      ],
+      "publishedAt": "2026-11-15T06:36:00Z"
+    },
+    {
+      "id": "2026-11-15-tech-004",
+      "category": "tech",
+      "headline": "Italy fines Meta €805m for accessing Android users' photos without specific consent",
+      "subtitle": "The Garante said a Facebook feature read photos, videos and their metadata on up to 20 million Italian phones, and gave the company 60 days to switch it off by default.",
+      "body": "Italy's data protection authority fined Meta €805m on Saturday for accessing photos, videos and associated metadata stored on Italian users' Android phones without specific consent. The Garante said the Facebook feature, which suggests images from a phone's gallery while browsing, had been available since 2023.\n\nThe regulator estimated that roughly 20 million people in Italy could have been affected by the default setting, and put the fine at about 0.47 per cent of Meta's global revenue. It is among the largest penalties an Italian authority has imposed on a technology company.\n\nMeta must clearly explain what the feature does, keep it off by default and ask for separate consent within 60 days, including from users who previously granted access. The Garante said it took into account a 2019 decision against the company and what it described as poor cooperation during the investigation.",
+      "imageURL": "/images/2026-11-15-tech-004.jpg",
+      "sources": [
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cwn83gxemk35o"
+        },
+        {
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/technology/2026/nov/15/italy-fines-meta-887m-for-accessing-android-users-photos-and-videos"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/14/italy-fines-meta-880m-over-photo-privacy"
+        }
+      ],
+      "publishedAt": "2026-11-15T06:38:00Z"
+    },
+    {
+      "id": "2026-11-15-tech-005",
+      "category": "tech",
+      "headline": "Apps built with Lovable left passport data and 200,000 messages open to anyone",
+      "subtitle": "German researchers scanned 159,041 projects made with the AI app builder and found databases returning personal records to anyone who opened the page, with no login required.",
+      "body": "Security researchers at the German firm Crissy Field examined 159,041 projects built on Lovable, the Swedish tool that turns plain-language descriptions into working web applications, and found many where personal and confidential information could be read without logging in.\n\nOf the 34,545 projects storing data on Supabase, 24,664 returned database records to anyone who opened the page. The exposed material included more than 1,000 passport records with nationalities and expiry dates, payment and contact details from event and restaurant orders, and a forum holding more than 200,000 private messages.\n\nLovable itself was not breached. The databases behind the apps lacked rules governing who could read what, and the company's terms place responsibility for an application's data with the customer. Lovable told the German business daily Handelsblatt that the problem affects the wider ecosystem rather than its platform alone.",
+      "imageURL": "/images/2026-11-15-tech-005.jpg",
+      "sources": [
+        {
+          "name": "Crissy Field",
+          "url": "https://www.crissyfield.de/research/lovable-en/"
+        },
+        {
+          "name": "Cybernews",
+          "url": "https://cybernews.com/security/lovable-ai-apps-expose-personal-information"
+        },
+        {
+          "name": "India Today",
+          "url": "https://www.indiatoday.in/technology/news/story/ai-app-maker-lovable-apps-expose-personal-details-researchers-find-thousands-of-cases-3031369-2026-11-03"
+        }
+      ],
+      "publishedAt": "2026-11-15T06:40:00Z"
+    },
+    {
+      "id": "2026-11-15-ai-001",
+      "category": "ai",
+      "headline": "Helen Toner: AI safety cannot rest on trusting any single chief executive",
+      "subtitle": "The OpenAI board member who voted to remove Sam Altman says a safety plan that depends on one person's integrity is not a plan, and that institutions have to enforce the limits instead.",
+      "body": "Helen Toner, who sat on OpenAI's board when it voted to remove Sam Altman in 2023, said this week that AI safety cannot be delegated to the personal virtue of the executives running frontier laboratories. If the plan depends on any one person being trustworthy, she told The Verge's Decoder podcast, we are in serious trouble.\n\nHer argument rests on what happened when the board tried that lever. The non-profit structure existed to block decisions that put profit ahead of safety, and the attempt to use it failed when Altman returned within days, backed by staff and investors.\n\nToner now runs the Center for Security and Emerging Technology at Georgetown and briefs US policymakers. She argues that oversight has to be a property of institutions — audits, licensing conditions, liability — rather than a personality test applied to whoever holds the chief executive's chair.\n\nShe also warned that the labs' goals go beyond consumer products, describing recursive self-improvement towards superintelligence as the sincere mission inside OpenAI, Anthropic, Google DeepMind, Meta and xAI.",
+      "imageURL": "/images/2026-11-15-ai-001.jpg",
+      "sources": [
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/podcast/1032907/helen-toner-openai-cset-ai-safety-policy-interview"
+        },
+        {
+          "name": "wersm",
+          "url": "https://wersm.com/ai-safety-cannot-depend-on-trusting-one-ceo"
+        },
+        {
+          "name": "explainX",
+          "url": "https://explainx.ai/blog/helen-toner-decoder-openai-board-ai-ceos-rsi-governance-2026"
+        }
+      ],
+      "publishedAt": "2026-11-15T06:42:00Z"
+    },
+    {
+      "id": "2026-11-15-ai-002",
+      "category": "ai",
+      "headline": "AI models use up to 180 times more energy answering in some languages than in English",
+      "subtitle": "Michigan researchers measured a gap of 1.4 to 180 times depending on the language, with Urdu and several Indic languages paying the heaviest penalty in both energy and accuracy.",
+      "body": "Generative AI burns more energy producing text in most languages than it does in English, and sometimes answers less accurately as well, according to a study from the University of Michigan. The researchers measured a gap ranging from 1.4 to 180 times depending on the language tested.\n\nUrdu and several Indic languages, first languages for more than 800 million people between them, needed more than four times the energy of English. Spanish and Chinese, which have more native speakers than English, took about twice as much.\n\nThe cause is tokenisation: the process that turns text into the units a model processes is tuned for English, so other languages need more tokens to carry the same meaning, and the cost compounds with the length of a prompt. Languages that consumed more energy also tended to produce lower accuracy.\n\nNaihao Deng, the study's first author, said the double penalty makes it more likely that some people will be priced out of AI and that companies will be reluctant to serve certain languages. The team, whose work was presented at the EMNLP conference, suggests training models optimised for specific languages and adding translation pipelines to services.",
+      "imageURL": "/images/2026-11-15-ai-002.jpg",
+      "sources": [
+        {
+          "name": "University of Michigan",
+          "url": "https://news.umich.edu/generative-ai-uses-more-energy-on-non-english-text"
+        },
+        {
+          "name": "University of Michigan Engineering",
+          "url": "https://news.engin.umich.edu/2026/11/generative-ai-uses-more-energy-on-non-english-text"
+        },
+        {
+          "name": "emergent.sh",
+          "url": "https://emergent.sh/news/generative-ai-uses-more-energy-non-english"
+        }
+      ],
+      "publishedAt": "2026-11-15T06:44:00Z"
+    },
+    {
+      "id": "2026-11-15-ai-003",
+      "category": "ai",
+      "headline": "EU leaders hold first joint talks on AI as Hinton warns of existential risk",
+      "subtitle": "Geoffrey Hinton and Mistral's Arthur Mensch joined heads of state in Dublin, where the Taoiseach said AI must serve the benefit of mankind rather than its ruination.",
+      "body": "European Union leaders discussed artificial intelligence together for the first time at an informal meeting in Dublin on Friday, with Geoffrey Hinton, the Nobel laureate known as a godfather of the field, giving them what the Taoiseach called a stark message about the technology's potential to destroy the world.\n\nMicheál Martin said AI should be designed for the benefit rather than the ruination of mankind, and that Hinton had argued strongly for global governance and regulation of the technology. Arthur Mensch, chief executive of the French model developer Mistral, also attended.\n\nHinton, a scientist rather than a policy expert, told the leaders that Europe was the bastion of regulation in AI, according to Martin, who said the union's AI Act and forthcoming rules on children's use of the technology provided a strong platform.\n\nThe meeting was intended to shape the bloc's approach as it tries to close the gap with the United States and China while legislating the risks. It opened European AI Innovation Month, a programme the Irish government is using to promote adoption across the union.",
+      "imageURL": "/images/2026-11-15-ai-003.jpg",
+      "sources": [
+        {
+          "name": "RTÉ",
+          "url": "https://www.rte.ie/news/ireland/2026/1113/1599186-ai-taoiseach-eu"
+        },
+        {
+          "name": "RTÉ",
+          "url": "https://www.rte.ie/news/2026/1113/1599063-eu-summit-dublin/"
+        },
+        {
+          "name": "Government of Ireland",
+          "url": "https://www.gov.ie/en/department-of-the-taoiseach/speeches/opening-address-by-taoiseach-miche%C3%A1l-martin-international-ai-summit"
+        }
+      ],
+      "publishedAt": "2026-11-15T06:46:00Z"
+    },
+    {
+      "id": "2026-11-15-ai-004",
+      "category": "ai",
+      "headline": "NHS England withdraws claim that 137 trusts benefit from Palantir's data platform",
+      "subtitle": "The page was removed after an investigation found 29 of the listed trusts said the system was not live at their organisation or that they used none of its applications.",
+      "body": "NHS England has removed a webpage claiming that 137 hospital trusts were live with Palantir's Federated Data Platform and already benefiting from it, after reporting found that 29 of those listed disputed using all or most of the system.\n\nSome trusts said the platform was not live at their organisation; others said they used none of its applications. The page has been replaced with a less detailed one stating that early users are already seeing real results, citing reduced administration, faster patient pathways and more time for care.\n\nThe change leaves the broader assertion intact while stripping out the detail that could be checked. It comes as ministers weigh whether to extend Palantir's £330m contract to 2029, and as the Office for Statistics Regulation reviews how NHS England presents the platform and its metrics.\n\nThe regulator had previously warned NHS England that it had no evidence for a claim of more than 100,000 extra operations, and the dispute has centred on whether an increase of 117,000 operations can be attributed to the system at all.",
+      "imageURL": "",
+      "photoCandidate": {
+        "url": "https://i.guim.co.uk/img/media/95c422c3f4ddb97d445e586e9da99aba18c88ab1/373_0_4131_3305/master/4131.jpg?width=1200&height=630&quality=85&auto=format&fit=crop",
+        "description": "NHS England imagery published by the Guardian with its investigation",
+        "license": "The Guardian"
+      },
+      "sources": [
+        {
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/technology/2026/nov/12/nhs-england-deletes-misleading-claim-137-trusts-benefiting-from-palantir-ai-tools"
+        },
+        {
+          "name": "Superpower Daily",
+          "url": "https://superpowerdaily.com/posts/nhs-england-removes-claim-that-137-trusts-benefit-from-palantir-s-data-platform"
+        },
+        {
+          "name": "NewsCord",
+          "url": "https://newscord.org/article/nhs-england-removes-palantir-claim-that-137-trusts-are-using-ai-system--Story_20261113_NHSEnglanddeletesmisde576e41"
+        }
+      ],
+      "publishedAt": "2026-11-15T06:48:00Z"
+    }
+  ]
+}
