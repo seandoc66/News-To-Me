@@ -1,0 +1,27 @@
+{
+  "date": "2026-11-15",
+  "published": true,
+  "publishedAt": "2026-11-15T05:05:37Z",
+  "sections": {
+    "present": ["local", "national", "northernIreland", "global", "tech", "ai"],
+    "missing": []
+  },
+  "storiesWithoutPhoto": [
+    { "id": "2026-11-15-ai-004", "section": "ai" }
+  ],
+  "validatorWarnings": [
+    "1 article(s) publishing without a photo — these render with the category gradient: 2026-11-15-ai-004"
+  ],
+  "validatorErrors": [],
+  "workarounds": [
+    "El Progreso's base RSS URL is malformed and returns nothing parseable; used https://www.elprogreso.es/rss/lugo/ for local discovery instead.",
+    "El Progreso article pages return 403 to curl (Cloudflare), so their body text was read through web_extract rather than a direct fetch.",
+    "Two national stories were initially matched to guessed article URLs that returned 404; both were replaced with the exact links taken from the cached Europa Press and elDiario.es feeds.",
+    "The Guardian's image host returned 401 for the Palantir/NHS lead image because its URLs are signed; per photo policy the story ships with an empty imageURL and the category gradient rather than being dropped.",
+    "Ars Technica's piece about an OpenAI Foundation board member warning that AI is 'the most likely reason you'll die' is about Paul Cristiano, not Helen Toner; it was removed from the Toner story's sources to avoid a mis-citation, and wersm and explainX were used as the second and third sources.",
+    "The Northern Ireland unity story's third source (Belfast Telegraph) returns 403 to curl, treated as a bot-block and therefore inconclusive rather than a dead link."
+  ],
+  "needsHumanAttention": false,
+  "humanAttentionReason": null,
+  "notes": "Heavy geopolitical day: a first trilateral Trump-Putin-Xi meeting at Apec and a US proposal on the Donbas framed the global section. 18 of 19 stories carry the outlet's own photograph. Six sections, 19 stories, published in a single run with no retries needed after the first merge."
+}
