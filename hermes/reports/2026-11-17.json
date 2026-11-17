@@ -1,0 +1,26 @@
+{
+  "date": "2026-11-17",
+  "published": true,
+  "publishedAt": "2026-11-17T06:05:07Z",
+  "sections": {
+    "present": ["local", "national", "northernIreland", "global", "tech", "ai"],
+    "missing": []
+  },
+  "storiesWithoutPhoto": [
+    { "id": "2026-11-17-northernIreland-001", "section": "northernIreland" }
+  ],
+  "validatorWarnings": [
+    "1 article(s) publishing without a photo — these render with the category gradient: 2026-11-17-northernIreland-001"
+  ],
+  "validatorErrors": [],
+  "workarounds": [
+    "Became a six-section edition only because discovery moved to RSS: 27 feeds fetched over urllib (Spanish, NI, English world and tech/AI) and filtered by keyword, so the 15-search research cap covered just the handful of stories RSS could not source in three outlets.",
+    "Dropped a Guardian story on Rio Tinto's $250m Panguna mine commitment: the page would not fetch and no second outlet was available within the search budget.",
+    "Dropped a story on the South Africa mass shootings (BBC plus Sky only) — two sources would have failed the three-source rule.",
+    "Filled missing photoCandidate values from each story's own og:image in one batched pass rather than per-URL turns.",
+    "BBC's og:image for the Co Tyrone bird-flu story is served at 293x192; rewriting the ichef size path produced the same small asset, so the story ships with the category gradient."
+  ],
+  "needsHumanAttention": false,
+  "humanAttentionReason": null,
+  "notes": "Edition is live at docs/latest.json and confirmed against raw.githubusercontent.com (19 articles, 18 with photos). Several source URLs return 403 to a scripted fetch (Sky, France 24, El Progreso, El País, DAERA, News Letter, The Hacker News) — bot-blocking, treated as inconclusive, not dead. There is no edition for 2026-11-16 in the archive; the last published date before today was 2026-11-15."
+}
