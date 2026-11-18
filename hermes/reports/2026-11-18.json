@@ -1,0 +1,38 @@
+{
+  "date": "2026-11-18",
+  "published": true,
+  "publishedAt": "2026-11-18T05:06:15Z",
+  "sections": {
+    "present": ["local", "national", "northernIreland", "global", "tech", "ai"],
+    "missing": []
+  },
+  "storiesWithoutPhoto": [
+    { "id": "2026-11-18-global-001", "section": "global" },
+    { "id": "2026-11-18-tech-003", "section": "tech" }
+  ],
+  "validatorWarnings": [
+    "2026-11-18-national-002 paragraph 2 is 97 words — over 80",
+    "2026-11-18-northernIreland-001 paragraph 4 is 87 words — over 80",
+    "2026-11-18-global-001 paragraph 3 is 92 words — over 80",
+    "2026-11-18-tech-001 paragraph 2 is 86 words — over 80",
+    "2026-11-18-tech-002 paragraphs 2 (87) and 3 (89) are over 80 words",
+    "2026-11-18-tech-004 paragraphs 2 (83) and 3 (84) are over 80 words",
+    "2026-11-18-tech-005 paragraph 3 is 85 words — over 80",
+    "2026-11-18-ai-001 paragraph 2 is 84 words — over 80",
+    "2026-11-18-ai-003 paragraph 2 is 93 words — over 80",
+    "2026-11-18-ai-004 paragraph 2 is 81 words — over 80",
+    "2 articles publishing without a photo — 2026-11-18-global-001, 2026-11-18-tech-003"
+  ],
+  "validatorErrors": [],
+  "workarounds": [
+    "El País and RTVE RSS feeds again served stale caches, so national discovery used ABC, elDiario.es, La Vanguardia, 20minutos, Público, Europa Press and El Español instead.",
+    "El Progreso and Belfast Telegraph block scraping by urllib and by curl; page content and og:image data for those stories came from web_extract instead.",
+    "A first pass of article URLs was assembled from headline patterns rather than feed entries; 23 of them returned 404 under batch verification (403 was treated as inconclusive, not dead). Every failing URL was replaced with the exact feed-issued URL recovered from the harvested RSS files, and all sources re-verified clean before merge.",
+    "The Ceuta returnee story was researched and drafted but dropped from national: only 20minutos carried it in the harvested feeds, and the other two candidates 404'd, so it could not meet the 3-source floor.",
+    "Northern Ireland used two Belfast Telegraph articles plus BBC News NI. BelTel returns 403 to curl (bot-block, inconclusive) rather than a dead-link verdict.",
+    "The Gemini 4 Carbon latency analysis is covered by only one outlet (kernel.dev); it ships in ai with Artificial Analysis and TechRadar as supporting pages rather than as independent reporting of the same story."
+  ],
+  "needsHumanAttention": false,
+  "humanAttentionReason": null,
+  "notes": "19 articles: local 2, national 3, northernIreland 1, global 4, tech 5, ai 4. National is at the floor of its 3–5 range because two candidate stories could not be triangulated to three sources within the search budget. Photo step fetched 17 of 19; tech-003 (Ars Ignite diagram, 1216x684) and global-001 had no usable image. All five tech section stories and all four ai stories were written in English from English sources; local and national in Spanish."
+}
