@@ -565,11 +565,6 @@
       "headline": "Microsoft puts Word, Excel and PowerPoint inside Copilot and calls it 'the new OS for work'",
       "subtitle": "At Ignite, Satya Nadella inverted three decades of Office design: agents drive the work and the applications ride shotgun, backed by a knowledge layer built from email, meetings and files.",
       "body": "Microsoft used its Ignite keynote to make Copilot, not Office, the centre of the working day. Word, Excel and PowerPoint are now generally available inside Copilot itself, and chief executive Satya Nadella described the result as \"the new OS for work\".\n\nIt is a deliberate inversion of how the software has been used since the 1990s. Rather than opening Word and calling an assistant for help, users will work inside Copilot while documents, spreadsheets and presentations become components the agent assembles. Files created there remain editable in their original applications and inherit Microsoft 365 permissions and sensitivity labels.\n\nUnderneath sits what Microsoft calls Work IQ, a context layer that ingests a company's emails, meetings, chats, calendars and documents so agents understand who is working on what. Nadella called it potentially an organisation's most valuable database.\n\n## Agents on the clock\n\nThe headline addition is Copilot Autopilot, a persistent agent that can be given a role rather than a single task and authorised to work across email and calendars without prompting. It is billed through usage-based Copilot Credits, with pricing not yet announced. Copilot Workspaces, a shared environment where people and agents work toward a common goal, is in early access, and Copilot Code is due to follow within weeks.\n\nThe strategic bet is visible in the numbers Microsoft cites: nearly 80% of Fortune 500 companies already use Cowork, its shared agent workspace. The open question is governance — handing autonomous agents access to internal mail and messaging is a decision each customer's IT department must make, at a time when Microsoft's own infrastructure reliability is under scrutiny after a string of outages.",
-      "photoCandidate": {
-        "url": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/MS_Ignite_Perception.png",
-        "description": "og:image from Ars Technica",
-        "license": "fair-use"
-      },
       "sources": [
         {
           "name": "Ars Technica",
@@ -584,7 +579,8 @@
           "url": "https://www.microsoft.com/en-us/copilot/blog/2026/11/17/copilot-at-microsoft-ignite-expanding-whats-possible-with-intelligence-built-for-work"
         }
       ],
-      "publishedAt": "2026-11-19T07:55:00Z"
+      "publishedAt": "2026-11-19T07:55:00Z",
+      "imageURL": "/images/2026-11-19-ai-003.jpg"
     },
     {
       "id": "2026-11-19-ai-004",
