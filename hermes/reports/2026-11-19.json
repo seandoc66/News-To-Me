@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-19",
+  "published": true,
+  "publishedAt": "2026-11-19T05:08:34Z",
+  "sections": {
+    "present": ["local", "national", "northernIreland", "global", "tech", "ai"],
+    "missing": []
+  },
+  "storiesWithoutPhoto": [],
+  "validatorWarnings": [],
+  "validatorErrors": [],
+  "workarounds": [
+    "El País, RTVE and 20minutos RSS feeds carried no fresh items for today, so the national section was built from El Mundo, Europa Press and La Razón article pages located through search rather than from feed discovery.",
+    "La Voz de Galicia's homepage RSS contains no Lugo-local items at all; local sourcing used El Progreso article URLs, La Voz article URLs and one search for the school bomb-threat wave.",
+    "Belfast News Letter and Belfast Telegraph return 403 to curl (bot-block), so their article URLs could not be machine-verified; both pages were read successfully through the article extractor earlier in the run.",
+    "Microsoft's Ignite keynote image 301-redirects and Ars Technica's og:image for the Copilot story is 584x454, below the 640x360 card minimum; ai-003 uses a 1041x535 in-body diagram from the same Ars article instead."
+  ],
+  "needsHumanAttention": false,
+  "humanAttentionReason": null,
+  "notes": "All six sections shipped, 20 articles, 20 photos. The ICJ judgment on Myanmar was scheduled to be read at 10:00 CET, after this run, so global-002 is written as a same-morning preview rather than a report of the outcome."
+}
