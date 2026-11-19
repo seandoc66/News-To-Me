@@ -1,0 +1,613 @@
+{
+  "generatedAt": "2026-11-19T05:06:49Z",
+  "config": {
+    "sections": {
+      "local": {
+        "min": 1,
+        "max": 3,
+        "sources": [
+          {
+            "name": "El Progreso",
+            "url": "https://www.elprogreso.es"
+          },
+          {
+            "name": "La Voz de Galicia",
+            "url": "https://www.lavozdegalicia.es"
+          },
+          {
+            "name": "elDiario.es",
+            "url": "https://www.eldiario.es"
+          },
+          {
+            "name": "El Correo Gallego",
+            "url": "https://www.elcorreogallego.es"
+          }
+        ]
+      },
+      "national": {
+        "min": 3,
+        "max": 5,
+        "sources": [
+          {
+            "name": "El Mundo",
+            "url": "https://www.elmundo.es"
+          },
+          {
+            "name": "Europa Press",
+            "url": "https://www.europapress.es"
+          },
+          {
+            "name": "20minutos",
+            "url": "https://www.20minutos.es"
+          },
+          {
+            "name": "La Razón",
+            "url": "https://www.larazon.es"
+          }
+        ]
+      },
+      "northernIreland": {
+        "min": 1,
+        "max": 1,
+        "sources": [
+          {
+            "name": "Belfast News Letter",
+            "url": "https://www.newsletter.co.uk"
+          },
+          {
+            "name": "Belfast Telegraph",
+            "url": "https://www.belfasttelegraph.co.uk"
+          }
+        ]
+      },
+      "global": {
+        "min": 4,
+        "max": 8,
+        "sources": [
+          {
+            "name": "BBC News",
+            "url": "https://www.bbc.co.uk/news/world"
+          },
+          {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com"
+          },
+          {
+            "name": "CBS News",
+            "url": "https://www.cbsnews.com"
+          },
+          {
+            "name": "The Guardian",
+            "url": "https://www.theguardian.com/world"
+          },
+          {
+            "name": "Belfast Telegraph",
+            "url": "https://www.belfasttelegraph.co.uk"
+          }
+        ]
+      },
+      "tech": {
+        "min": 5,
+        "max": 5,
+        "sources": [
+          {
+            "name": "BBC News",
+            "url": "https://www.bbc.co.uk/news/technology"
+          },
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com"
+          },
+          {
+            "name": "Wired",
+            "url": "https://www.wired.com"
+          },
+          {
+            "name": "Ars Technica",
+            "url": "https://arstechnica.com"
+          },
+          {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com"
+          }
+        ]
+      },
+      "ai": {
+        "min": 4,
+        "max": 7,
+        "sources": [
+          {
+            "name": "BBC News",
+            "url": "https://www.bbc.co.uk/news/technology"
+          },
+          {
+            "name": "Wired",
+            "url": "https://www.wired.com"
+          },
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com"
+          },
+          {
+            "name": "Ars Technica",
+            "url": "https://arstechnica.com"
+          },
+          {
+            "name": "Courthouse News Service",
+            "url": "https://courthousenews.com"
+          }
+        ]
+      }
+    }
+  },
+  "articles": [
+    {
+      "id": "2026-11-19-local-001",
+      "category": "local",
+      "headline": "Ochenta colegios gallegos desalojados por una oleada de falsas amenazas de bomba",
+      "subtitle": "Un correo enviado casi a la vez a las direcciones de los centros, con un texto parecido al que ya circuló en Italia, Irlanda y el Reino Unido, obligó a evacuar aulas en las cuatro provincias. En Lugo se desalojó el IES Sanxillao.",
+      "body": "Ochenta centros educativos de las cuatro provincias gallegas recibieron este miércoles un correo que anunciaba una bomba en el edificio y obligó a desalojar aulas, patios y gimnasios. La Policía Nacional revisó los inmuebles con especialistas Tédax y guías caninos, no encontró ningún artefacto y dio por falsas todas las alarmas. La Consellería de Educación cifró al final de la jornada en unos 80 los centros afectados.\n\nEn Lugo el aviso llegó en torno a las 13.00 horas al IES Sanxillao, en la Ronda das Fontiñas. Alumnado, profesorado y personal abandonaron el centro y la actividad lectiva no se retomó ese día; la dirección pidió a las familias que recogieran a sus hijos en la calle Rof Carballo. La Policía Local acordonó la zona y colaboró con la Policía Nacional mientras esperaba a los especialistas en explosivos.\n\n## Una treintena de centros en A Coruña\n\nA Coruña concentró la mayoría de los incidentes, con una treintena de centros entre los que figuran Zalaeta, Compañía de María, Otero Pedrayo, La Torre y Curros Enríquez. Los 1.200 alumnos del Compañía de María no recuperaron la normalidad hasta las 14.30, cuando los Tédax abandonaron el recinto. En Pontevedra, la Subdelegación del Gobierno citó el IES Luis Seoane, mientras La Voz señalaba el Sánchez Cantón como único centro afectado.\n\nLos mensajes llegaron de forma casi simultánea a las direcciones de los propios colegios, con un texto similar al que días antes alcanzó a centros de Italia, Irlanda y el Reino Unido. En varios casos el correo cayó en la carpeta de spam y el equipo directivo no lo vio hasta media tarde, como en el Eusebio da Guarda coruñés, donde avisó la asociación de familias. La Delegación del Gobierno investiga el origen de los envíos.",
+      "sources": [
+        {
+          "name": "La Voz de Galicia",
+          "url": "https://www.lavozdegalicia.es/noticia/educacion/2026/11/18/amenazas-bomba-80colegios-gallegoshabia-gente-asustada-y-llorando/00031795016357695515868.htm"
+        },
+        {
+          "name": "elDiario.es",
+          "url": "https://www.eldiario.es/galicia/desalojos-colegios-galicia-falsos-avisos-bomba_1_13674564.html"
+        },
+        {
+          "name": "El Correo Gallego",
+          "url": "https://www.elcorreogallego.es/santiago/2026/11/18/aviso-bomba-obliga-desalojar-centros-educativos-santiago-136577905.html"
+        },
+        {
+          "name": "Diario de Santiago",
+          "url": "https://www.diariodesantiago.es/galicia/una-oleada-de-amenazas-de-bomba-obliga-a-desalojar-varios-colegios-de-a-coruna"
+        }
+      ],
+      "publishedAt": "2026-11-19T06:20:00Z",
+      "imageURL": "/images/2026-11-19-local-001.jpg"
+    },
+    {
+      "id": "2026-11-19-local-002",
+      "category": "local",
+      "headline": "Transportes acusa al Concello de «vandalizar» las farolas de Nadela y rechaza el convenio para iluminar la rotonda",
+      "subtitle": "La Dirección General de Carreteras contesta al escrito municipal con una acusación de uso ilícito de instalaciones estatales, mientras Lugo alega dos informes que alertan del riesgo de la glorieta a oscuras.",
+      "body": "La Dirección General de Carreteras ha rechazado el convenio de colaboración que el Concello de Lugo le propuso para iluminar la rotonda de Nadela y ha acusado al ayuntamiento de hacer «un uso ilícito de las instalaciones, sin previo aviso y con total carencia de competencias», lo que a su juicio supone «una vandalización de las instalaciones eléctricas del Ministerio de Transportes».\n\nEl ministerio respondió así al escrito que el gobierno local remitió el pasado 16 de diciembre, después de encender por su cuenta las farolas de titularidad estatal. El Estado sostiene que el entorno de la glorieta no cumple los criterios para estar iluminado, por motivos de «eficiencia energética y de reducción de contaminación lumínica».\n\nEl Concello no acepta ese argumento. Cuenta con un informe de Ingeniería que cifra en 9 las luminarias operativas de las 30 que forman el anillo y los accesos, un 30% del total, y con otro de la Policía Local que advierte de problemas de visibilidad nocturna y de la presencia frecuente de jabalíes en las inmediaciones.\n\nEl gobierno municipal anunció un nuevo escrito al ministerio para pedir los informes técnicos que justifican la falta de luz y ofrecer ayuda para el mantenimiento y el coste del suministro.\n\n## Un pulso de años\n\nLa rotonda regula el cruce de la N-6, la LU-546, la CG-2.2 y la N-540, además de los ramales hacia la A-6 y la A-54, y es una de las principales entradas a la ciudad. El pleno ya había aprobado por unanimidad dos mociones sobre esta infraestructura, en noviembre de 2024 y junio de 2026, sin obtener respuesta del ministerio. El Concello recordará que en otros municipios, como Miranda de Ebro, Transportes sí firmó convenios para actuaciones similares.",
+      "sources": [
+        {
+          "name": "El Progreso",
+          "url": "https://www.elprogreso.es/lugo/estado-rechaza-pacto-iluminar-rotonda-nadela-concello-insiste/202611190505002014997.html"
+        },
+        {
+          "name": "La Voz de Galicia",
+          "url": "https://www.lavozdegalicia.es/noticia/lugo/lugo/2026/11/18/concello-lugo-reitera-gobierno-peticion-alumbrar-rotonda-nadela-propone-estudiar-convenio-colaboracion/00031795010499621908927.htm"
+        },
+        {
+          "name": "Noticias Lugo",
+          "url": "https://www.noticiaslugo.com/2026/09/16/el-ayuntamiento-de-lugo-exige-al-ministerio-de-transportes-una-pronta-solucion-para-la-rotonda-de-nadela-por-cuestiones-de-seguridad"
+        }
+      ],
+      "publishedAt": "2026-11-19T06:25:00Z",
+      "imageURL": "/images/2026-11-19-local-002.jpg"
+    },
+    {
+      "id": "2026-11-19-local-003",
+      "category": "local",
+      "headline": "La falsa médica que trabajó en un geriátrico de Outeiro de Rei sigue libre en Suiza y mantiene pendiente su juicio en Lugo",
+      "subtitle": "Andrea Sánchez Antelo, incluida por Europol entre sus fugitivos más buscados, no se presentó a la vista de marzo de 2025, en la que se le piden tres años y medio de cárcel por intrusismo y falsedad.",
+      "body": "Andrea Sánchez Antelo tenía 25 años cuando se postuló para un puesto en un geriátrico de Outeiro de Rei con un documento de colegiada en A Coruña, y la contrataron con la condición de que se colegiara en Lugo. Hizo los trámites, adjuntó el certificado de estudios y el resguardo de las tasas, y pidió un talonario de recetas y otro para prescribir estupefacientes.\n\nA las pocas semanas, el Colegio Médico recibió una denuncia anónima: una persona que seguía sus publicaciones en redes avisó de que en realidad era técnico auxiliar de Farmacia. La USC confirmó que nunca se había matriculado en Medicina. Fue suspendida de colegiación y, cuando la dirección del geriátrico le dio 24 horas para demostrar que era médico, desapareció.\n\nAntes había ejercido sin título en varios centros de A Coruña y Madrid, donde fue detenida en 2020 mientras trabajaba en otra residencia. También fue arrestada otras dos veces en la provincia coruñesa, una de ellas haciéndose pasar por médica de un hospital público.\n\n## De médica a farmacéutica en Suiza\n\nEn marzo de 2025 debía comparecer en los juzgados de Lugo y no se presentó. Se enfrenta a tres años y medio de prisión por intrusismo y falsedad documental. España pidió su extradición desde Suiza en marzo de 2026 y Europol la incluyó en su lista de fugitivos más buscados en agosto.\n\nUna investigación del diario suizo ArcInfo, difundida por la RTS, la sitúa en el cantón de Neuchâtel desde 2022, donde se presenta como farmacéutica. Trabajó como auxiliar en Lausana, unos días en una farmacia de Berna —donde preparó dosis de metadona «totalmente mal», según su responsable—, en el hospital público de Neuchâtel y un mes en una farmacia de Basilea. Fue condenada por falsedad documental con penas económicas y sigue viviendo libre allí.",
+      "sources": [
+        {
+          "name": "El Progreso",
+          "url": "https://www.elprogreso.es/lugo/odisea-impostora-andrea-sanchez-antelo-falsa-medica-entre-fugitivos-mas-buscados-europol-tiene-pendiente-juicio-lugo-ano-pasado/202611190500002015048.html"
+        },
+        {
+          "name": "ArcInfo",
+          "url": "https://www.arcinfo.ch/neuchatel-canton/recherchee-en-europe-cette-fausse-pharmacienne-vit-dans-le-canton-de-neuchatel-et-a-pu-se-faire-engager-dans-plusieurs-cantons-1521399"
+        },
+        {
+          "name": "RTS",
+          "url": "https://www.rts.ch/info/regions/neuchatel/2026/article/une-fausse-pharmacienne-espagnole-dupe-des-pharmacies-en-suisse-29415541.html"
+        }
+      ],
+      "publishedAt": "2026-11-19T06:30:00Z",
+      "imageURL": "/images/2026-11-19-local-003.jpg"
+    },
+    {
+      "id": "2026-11-19-national-001",
+      "category": "national",
+      "headline": "Sánchez y Feijóo se juegan esta noche el reparto del voto útil con cuatro millones de indecisos",
+      "subtitle": "El cara a cara de las 22.00 llega con los bloques estancados, un 14,3% de electores sin decidir y el bloqueo previo del PSOE a un apartado sobre corrupción que el PP exigió mantener.",
+      "body": "Pedro Sánchez y Alberto Núñez Feijóo se enfrentan esta noche a las 22.00 en el cara a cara de la Academia de la Televisión, el último gran hito de la campaña. El debate, moderado por María Casado, tendrá cinco bloques: vivienda; economía y fiscalidad; política social y servicios públicos; lucha contra la corrupción y regeneración democrática; y migración y política exterior. Por sorteo, Feijóo abre y Sánchez cierra con el minuto de oro.\n\nEl formato casi se rompe antes de empezar. Fuentes de Génova aseguran que el PSOE no quería un bloque dedicado a la corrupción y que el PP se plantó: «Sin eso, no hay debate». Ferraz cedió. Los dos candidatos llegan sin apenas comunicación: apenas dos reuniones oficiales entre ellos en toda la legislatura, en diciembre de 2023 y marzo de 2025.\n\n## Cuatro millones de indecisos\n\nEl último tracking de Sigma Dos para EL MUNDO, con 4.511 entrevistas entre el 11 y el 17 de noviembre, deja al PP en el 30,7% y 123-129 escaños, y a Vox en el 19,7% y 62-67. El bloque de la derecha sumaría entre 185 y 196 diputados. El PSOE sube tres décimas hasta el 26,7% (108-114) y el Frente Amplio se quedaría en 10-14, mientras Podemos cae al 0,8%.\n\nLa cifra que ambos equipos miran es otra: el 14,3% de electores que aún no ha decidido su voto, unos cuatro millones de personas con una participación estimada del 77,3%. El trasvase ya no ocurre entre bloques sino dentro de cada uno: Feijóo compite con Santiago Abascal y Sánchez, con Ada Colau.\n\nCésar Calderón, de Redlines, calcula que el efecto de un cara a cara ronda los 1-2 puntos, suficientes para decidir el último escaño en una docena de provincias.",
+      "sources": [
+        {
+          "name": "Europa Press",
+          "url": "https://www.europapress.es/nacional/noticia-sanchez-feijoo-llegan-manana-cara-cara-clima-crispacion-enfrentamientos-falta-dialogo-20261118192926.html"
+        },
+        {
+          "name": "El Mundo",
+          "url": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/19/6afde649fc6c83f1398b45a9.html"
+        },
+        {
+          "name": "El Mundo",
+          "url": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/18/6afdd75c21efa083408b45b2.html"
+        }
+      ],
+      "publishedAt": "2026-11-19T06:40:00Z",
+      "imageURL": "/images/2026-11-19-national-001.jpg"
+    },
+    {
+      "id": "2026-11-19-national-002",
+      "category": "national",
+      "headline": "Los controladores de Adif desconvocan la huelga de este jueves, pero los maquinistas mantienen la del lunes 23",
+      "subtitle": "El Sindicato de Circulación Ferroviaria da por aceptadas todas sus reivindicaciones de carga de trabajo y seguridad, mientras Semaf considera insuficiente el documento de Transportes y anuncia más paros.",
+      "body": "Los controladores de la circulación ferroviaria han desconvocado la huelga que tenían prevista para este jueves después de que Adif aceptase «todos los puntos» que reclamaban, según el Sindicato de Circulación Ferroviaria. La protesta giraba en torno a las cargas de trabajo y la seguridad en la red tras el accidente de Urda. Los trenes circulan hoy con normalidad, pero el conflicto no está cerrado.\n\nEl acuerdo incluye la regulación de los tiempos de trabajo y las pausas que aprobó el Consejo de Ministros este martes, una oferta pública de empleo extraordinaria para ampliar la plantilla y más formación con simulacros. También fija un tope al número de líneas de alta velocidad que puede controlar una misma persona y prioriza los centros de regulación más saturados.\n\nAdif se compromete además a reducir en 2027 la carga de los responsables de circulación y a que el documento de limitaciones de velocidad pase de semanal a diario desde el lunes. UGT y CCOO celebraron los compromisos.\n\nEl Sindicato de Maquinistas (Semaf) mantiene en solitario la huelga de Renfe del lunes 23 de noviembre y avisa de que habrá «nuevas fechas hasta cumplir todas las reivindicaciones». Considera insuficiente el documento entregado por Transportes y reclama un sistema propio de alertas meteorológicas, un protocolo de suspensión preventiva ante fenómenos graves, supervisión continua de los trenes y relevo inmediato para los maquinistas que sufran arrollamientos.\n\nEl paro del 10 de noviembre, el primero de la serie, paralizó buena parte de Cercanías y Rodalies. Semaf trasladó después otro paro previsto para el 12 a la jornada del 23 para dar margen a la negociación con el vicepresidente primero, Carlos Cuerpo.",
+      "sources": [
+        {
+          "name": "20minutos",
+          "url": "https://www.20minutos.es/nacional/los-controladores-adif-desconvocan-huelga-este-jueves-mientras-los-maquinistas-renfe-mantienen-lunes_7062448_0.html"
+        },
+        {
+          "name": "Europa Press",
+          "url": "https://www.europapress.es/economia/transportes-00343/noticia-sindicatos-desconvocan-huelga-adif-jueves-maquinistas-mantienen-dia-23-20261118114120.html"
+        },
+        {
+          "name": "La Razón",
+          "url": "https://www.larazon.es/economia/maquinistas-mantienen-convocatoria-23-noviembre-amenazan-nuevas-huelgas_202611186afd5fe118c34d33accd7189.html"
+        }
+      ],
+      "publishedAt": "2026-11-19T06:45:00Z",
+      "imageURL": "/images/2026-11-19-national-002.jpg"
+    },
+    {
+      "id": "2026-11-19-national-003",
+      "category": "national",
+      "headline": "Los hombres más ricos de España viven ocho años más que los de menor renta y las mujeres cinco",
+      "subtitle": "Un visor del Instituto de Actuarios cruza 520 millones de eventos demográficos con la renta de 36.000 secciones censales y muestra una brecha que se ensancha con cada escalón de ingresos.",
+      "body": "Los hombres con mayor renta de España viven de media 83,5 años y los de menor renta 75,5: ocho años de diferencia. Entre las mujeres la brecha es de cinco años, de 87,5 a 82,3. Lo muestra el visor sobre heterogeneidad espacial de la esperanza de vida que el Instituto de Actuarios de España (IAE) ha presentado entre sus colegiados y al que ha tenido acceso EL MUNDO.\n\nLa diferencia no aparece solo entre los extremos: crece con cada escalón de renta. Entre 2010 y 2019 las ganancias de años de vida se concentraron en el 20% más acomodado, con más de 0,7 años en los hombres y 0,4 en las mujeres de los deciles altos, mientras en las rentas bajas la esperanza de vida se estancó o retrocedió ligeramente.\n\n## Calle a calle\n\nEl estudio parte de más de 520 millones de eventos demográficos del INE y de la renta media de más de 36.000 secciones censales, unidades de menos de 1.300 habitantes que en las ciudades equivalen a una manzana. La esperanza de vida más alta está en Navarra y Álava, con 81,6 años en hombres y 86,9 en mujeres; la más baja, en Almería, con 79,4 y 85,3.\n\nEl presidente del IAE, Fernando Ariza, señala que la herramienta «enseña de manera visual cómo la esperanza de vida depende de dónde naces o de dónde vives», y sitúa el acceso a la educación entre los factores que explican el gradiente. Galicia y Baleares son las únicas comunidades sin ninguna sección censal en el percentil de renta más bajo.",
+      "sources": [
+        {
+          "name": "El Mundo",
+          "url": "https://www.elmundo.es/economia/2026/11/18/6afdb7e221efa0f1038b45be.html"
+        },
+        {
+          "name": "Infosalus",
+          "url": "https://www.infosalus.com/comunicados/noticia-comunicado-actuarios-cuantifican-retos-estado-bienestar-pensiones-longevidad-sanidad-20260928085536.html"
+        },
+        {
+          "name": "Instituto de Actuarios de España",
+          "url": "https://formacion.actuarios.org/lessons/heterogeneidad-espacial-de-la-esperanza-de-vida-en-espana-actuarial-day-2026"
+        }
+      ],
+      "publishedAt": "2026-11-19T06:48:00Z",
+      "imageURL": "/images/2026-11-19-national-003.jpg"
+    },
+    {
+      "id": "2026-11-19-northernIreland-001",
+      "category": "northernIreland",
+      "headline": "London pushes Dublin on Troubles legacy at British-Irish talks as Omagh families demand their own inquiry",
+      "subtitle": "Sir Chris Bryant says both governments must be involved in legacy processes to give victims the fullest possible answers, while the Taoiseach insists he is not contemplating a separate Irish inquiry into the 1998 bombing.",
+      "body": "British and Irish ministers meet at the British-Irish Intergovernmental Conference today, with the UK side pressing for joint work on Troubles legacy legislation and the Republic facing renewed calls to hold its own inquiry into the Omagh bombing.\n\nNorthern Ireland Secretary Sir Chris Bryant will attend alongside Northern Ireland minister Sarah Owen and Baroness Ruth Anderson. The Irish delegation includes foreign affairs minister Helen McEntee and justice minister Jim O'Callaghan. Bryant said the participation of both governments in legacy processes was \"crucial if we are to deliver the fullest answers possible for victims and families\".\n\nThe agenda also covers the standoff over a Stormont budget and how to make the Executive deliver more effectively, with the 30th anniversary of the Good Friday Agreement approaching. Bryant described the conference as a forum created under that agreement for non-devolved issues of mutual interest.\n\n## Omagh families\n\nThe talks follow an intervention by Lisa Dillon, whose eight-year-old brother Oran Doherty was killed in the 1998 Omagh bomb. She said her family was \"deeply hurt, angry and disappointed\" that Dublin had not opened a public inquiry, and appealed directly to Taoiseach Micheál Martin to reconsider. Oran and his friend Sean McLaughlin, both killed that day, were Irish citizens from Donegal.\n\nAt the Omagh Bombing Inquiry, former lead detective Norman Baxter raised questions about intelligence, possible prior knowledge and information-sharing by state agencies on both sides of the border. Dublin has committed to being fully forthcoming with documents and evidence, but Martin said on Tuesday he was \"not contemplating\" a separate Irish inquiry. Thirty-one people, including two unborn twins, died in the attack.",
+      "sources": [
+        {
+          "name": "Belfast News Letter",
+          "url": "https://www.newsletter.co.uk/news/defence/uk-ministers-to-push-for-answers-for-troubles-victims-at-british-irish-talks-9360157"
+        },
+        {
+          "name": "Belfast Telegraph",
+          "url": "https://www.belfasttelegraph.co.uk/news/republic-of-ireland/uk-ministers-to-push-for-answers-for-troubles-victims-at-british-irish-talks/a/164771964.html"
+        },
+        {
+          "name": "Belfast Telegraph",
+          "url": "https://www.belfasttelegraph.co.uk/news/northern-ireland/sister-of-omagh-bomb-victim-8-urges-irish-government-to-hold-its-own-public-inquiry/a/164750027.html"
+        }
+      ],
+      "publishedAt": "2026-11-19T06:55:00Z",
+      "imageURL": "/images/2026-11-19-northernIreland-001.jpg"
+    },
+    {
+      "id": "2026-11-19-global-001",
+      "category": "global",
+      "headline": "Iran and the US trade strikes as tankers burn in the Strait of Hormuz and Kuwait comes under drone attack",
+      "subtitle": "Kuwait and Bahrain report intercepted Iranian attacks after US jets hit a missile site on Qeshm Island, while three tankers burn near Hormuz and a Saudi-led coalition strikes Yemen.",
+      "body": "Kuwait and Bahrain said they repelled Iranian air attacks overnight as hostilities between Tehran and Washington escalated again. Kuwait's military engaged \"drone threats\" aimed at Ali Al Salem airbase, which hosts US forces, reporting no damage or casualties.\n\nBahrain, home to the US Navy's Fifth Fleet, said its air defences destroyed several Iranian attacks, the fourth in six days. Iran's army said it had targeted Patriot batteries and launch platforms at the Kuwaiti base, and its commander-in-chief, Major General Amir Hatami, warned of a response \"without geographic limitations\" to any further strikes.\n\nThe exchanges followed US jets hitting a missile launch site on Qeshm Island \"with precision munitions\", in retaliation for Iranian attacks on American personnel and assets.\n\n## Tankers hit\n\nIn the waterway itself, the Abu Dhabi National Oil Company said one crew member was missing after its tanker was attacked on Tuesday; the rest of the crew was evacuated and 11 were treated for injuries. The UK Maritime Trade Operations centre reported a tanker struck by an unknown projectile 13 nautical miles north of Khasab, in Oman, causing a fire that was put out.\n\nIran said three tankers caught fire after hitting naval mines on an \"authorised route\". A maritime monitor said ships remained exposed to \"indiscriminate attacks\" even when they switched off tracking systems, and at least 25 seafarers have been killed since the war began in late February.\n\nThe Saudi-led coalition said it destroyed a ballistic missile platform in Saada, Yemen, and intercepted a cruise missile over Medina, after striking oil facilities in Sanaa, Dhamar and Saada. The Houthis said they hit the presidential palace in government-held Yemen. Talks on a peace deal remain deadlocked, and CBS News reported that Washington has prepared plans to use its largest conventional bomb on Iranian military sites if ordered.",
+      "sources": [
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cw4gn9jeqjq7o"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/11/19/iran-war-live-saudi-led-coalition-strikes-yemen-ships-on-fire-in-hormuz"
+        },
+        {
+          "name": "CBS News",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-us-houthi-saudi-arabia-trump"
+        }
+      ],
+      "publishedAt": "2026-11-19T07:00:00Z",
+      "imageURL": "/images/2026-11-19-global-001.jpg"
+    },
+    {
+      "id": "2026-11-19-global-002",
+      "category": "global",
+      "headline": "The world court delivers its verdict on Myanmar's Rohingya, and a state could be found guilty of genocide for the first time",
+      "subtitle": "The ICJ rules this morning in The Gambia's seven-year case over the 2017 military campaign that drove 730,000 Rohingya into Bangladesh. The judgment is final and cannot be appealed.",
+      "body": "Judges at the International Court of Justice read out their verdict this morning in the case The Gambia brought against Myanmar in 2019, accusing the state of genocide against the Rohingya. The session at the Peace Palace was due to start at 10.00 CET and run for up to 90 minutes.\n\nNo state has ever been found guilty of genocide by an international court. In 2007 the ICJ ruled that Serbia had failed to prevent the Srebrenica massacre but had not itself committed genocide, and Bosnia's case took 14 years. If The Gambia wins, it would be the first such judgment since the Genocide Convention was signed in 1948.\n\nAung San Suu Kyi led Myanmar's defence in person at the hearings in 2019, accepting that war crimes may have been committed while denying genocidal intent. The military, which seized power in 2021, says its forces responded legitimately to attacks by armed groups. A UN fact-finding mission concluded the 2017 campaign included \"genocidal acts\".\n\n## No means of enforcement\n\nThe ruling is binding and cannot be appealed, but the court has almost no power to enforce it. The Gambia has asked the ICJ to order Myanmar to prosecute those responsible, pay reparations and guarantee the safe return of the Rohingya. If Yangon ignores the judgment, The Gambia can take the matter to the UN Security Council, where Myanmar's allies hold vetoes.\n\nAbout 1.2 million Rohingya live in camps around Cox's Bazar in Bangladesh, where funding is drying up and employment is barred. Roughly 550,000 remain in Rakhine State under restrictions on movement, healthcare and work, while fighting between the military and the Arakan Army has destroyed many of their villages. The judgment is also being watched as a precedent for South Africa's genocide case against Israel over Gaza.",
+      "sources": [
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/c5m2l90ez144o"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/19/icj-to-rule-on-rohingya-genocide-case-against-myanmar"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/features/2026/11/18/we-want-to-go-back-rohingya-refugees-pin-hopes-on-icj-genocide-verdict"
+        }
+      ],
+      "publishedAt": "2026-11-19T07:05:00Z",
+      "imageURL": "/images/2026-11-19-global-002.jpg"
+    },
+    {
+      "id": "2026-11-19-global-003",
+      "category": "global",
+      "headline": "A Van Gogh landscape sells for $190.4m, an auction record, after a dispute over its Nazi-era sale",
+      "subtitle": "Châtaigniers en fleurs, painted in 1890 and unseen in public for five decades, went under the hammer at Sotheby's despite objections from the heirs of a German publisher who sold it in 1936.",
+      "body": "Vincent van Gogh's \"Châtaigniers en fleurs\" (Chestnut Trees in Blossom) sold for $190.4m (£144.9m) at Sotheby's in New York on Wednesday, a record for the artist and the most expensive work auctioned so far this season. The 1890 canvas, painted in Auvers-sur-Oise months before his death, had not been seen publicly for five decades.\n\nThe previous record for a Van Gogh was $117.2m for the 1888 \"Orchard with Cypresses\", sold at Christie's in 2022.\n\nThe sale went ahead after a last-minute dispute over the painting's history. The German publisher Samuel Fischer bought it in Paris in 1909, and his family sold it in 1936. His heirs argued that the family parted with the work only because of financial losses suffered under the Nazis, and their Berlin lawyer, Gunnar Schnabel, wrote to Sotheby's demanding proof that it had been sold at market value and would have been sold regardless of Nazi rule.\n\nSotheby's said it was \"aware of the concerns\" raised by the descendants but confirmed the auction would proceed. The lot had been guaranteed, meaning the seller was promised a minimum price whatever happened in the room; the auction house did not disclose the floor.\n\nThe result caps a strong autumn for the top of the art market, with Sotheby's and Christie's both leaning on guaranteed lots and single-owner collections to persuade sellers to part with trophy works in a thinner market.",
+      "sources": [
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/c5dj1dkwzvzwo"
+        },
+        {
+          "name": "Belfast Telegraph",
+          "url": "https://www.belfasttelegraph.co.uk/entertainment/van-gogh-painting-sells-for-record-145-million-at-auction/a/164753921.html"
+        },
+        {
+          "name": "The Daily Star",
+          "url": "https://www.thedailystar.net/news/world/news/van-gogh-painting-sells-record-1904-mn-after-dispute-4327831"
+        }
+      ],
+      "publishedAt": "2026-11-19T07:10:00Z",
+      "imageURL": "/images/2026-11-19-global-003.jpg"
+    },
+    {
+      "id": "2026-11-19-global-004",
+      "category": "global",
+      "headline": "EU governments approve the Indonesia trade deal, aiming to blunt the effect of Trump's tariffs",
+      "subtitle": "The Council authorised signature and provisional application of the CEPA struck in September 2025, scrapping duties on more than 90% of goods and saving EU exporters an estimated €600m a year.",
+      "body": "European Union governments authorised the signature and provisional application of the bloc's trade deal with Indonesia on Wednesday, clearing the way for the agreement to take effect before Jakarta loses its preferential access to the EU market.\n\nBoth sides will remove import duties on more than 90% of products, and Indonesia's 50% tariff on European cars will be eliminated over five years. The Council of the EU said the agreements should be applied as swiftly as possible because Indonesia graduates from the EU's generalised scheme of preferences on 1 January 2027, after which its exports lose preferential tariffs.\n\nThe deal, formally the Comprehensive Economic Partnership Agreement, was concluded in September 2025 after 19 rounds of talks that began in 2016. Negotiations accelerated after US President Donald Trump imposed sweeping tariffs on both the EU and Indonesia.\n\n\"These agreements will make it easier for European businesses to trade and invest, remove tariffs on almost all goods traded between the EU and Indonesia, and save businesses an estimated €600 million annually in customs duties,\" said Ireland's foreign affairs and trade minister, Helen McEntee.\n\nThe agreements must now be signed and sent to the European Parliament for approval, with both sides pressing for rapid ratification. Brussels has been racing to lock in alternative supply chains and markets, including critical raw materials for clean technology, as tariff barriers with Washington persist.",
+      "sources": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/economy/2026/11/19/eu-governments-approve-trade-deal-with-indonesia-to-offset-trump-tariffs"
+        },
+        {
+          "name": "Global Banking & Finance Review (Reuters)",
+          "url": "https://www.globalbankingandfinance.com/eu-governments-authorise-signature-trade-deal-agreement"
+        },
+        {
+          "name": "Deutsche Welle",
+          "url": "https://www.dw.com/en/eu-indonesia-agree-on-free-trade-deal/a-74103321"
+        }
+      ],
+      "publishedAt": "2026-11-19T07:15:00Z",
+      "imageURL": "/images/2026-11-19-global-004.jpg"
+    },
+    {
+      "id": "2026-11-19-tech-001",
+      "category": "tech",
+      "headline": "Nvidia passes $100bn in quarterly sales as its board rules out bringing Jensen Huang back",
+      "subtitle": "Interim chief executive Collette Kress says the roadmap is on track after revenue doubled to $115.8bn, but chair Harvey Jones told investors the board has no intention of reinstating the founder.",
+      "body": "Nvidia has reported its first set of results since founder Jensen Huang walked out, and the numbers were the answer to the question hanging over the company: quarterly sales doubled from a year earlier to $115.8bn, topping $100bn for the first time, and profit doubled to $65bn.\n\nRevenue from data centres, the core of the business, also doubled to $107bn in the three months to 25 October. Interim chief executive Collette Kress, who was chief financial officer before being tapped to run the company, said Nvidia's \"roadmap is on track and our ambition has never been greater\", and guided to another 13% rise in sales this quarter. Shares recovered some recent losses in after-hours trading.\n\nHuang resigned after two alleged extramarital affairs, one of them with a woman suspected of spying for China. He said this week he would be \"honoured\" to return if asked. On the earnings call, Nvidia chair Harvey Jones closed the door: \"The board does not intend to reinstate him.\"\n\n## Still indispensable\n\nFew in the industry expect the business to wobble immediately. Elon Musk compared removing Huang to \"kicking Michael Jordan off your team\", and Microsoft chief executive Satya Nadella said he remained confident in Nvidia after the exit. The harder question is what happens at the next fork in the road.\n\nDaniela Hathorn, senior analyst at Capital.com, said the results \"offer a strong answer to concerns that demand for AI infrastructure is cooling\" and temper the fear that Huang was irreplaceable. \"His exit is unlikely to change orders already committed, but could matter more when Nvidia makes its next round of decisions on products, partnerships and investment,\" she said.",
+      "sources": [
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cm2kl50vkwkdo"
+        },
+        {
+          "name": "Wired",
+          "url": "https://www.wired.com/story/nvidias-board-has-no-plans-to-reinstate-jensen-huang/"
+        },
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-remains-confident-in-nvidia-after-huangs-exit/"
+        }
+      ],
+      "publishedAt": "2026-11-19T07:20:00Z",
+      "imageURL": "/images/2026-11-19-tech-001.jpg"
+    },
+    {
+      "id": "2026-11-19-tech-002",
+      "category": "tech",
+      "headline": "Waymo pulls its robotaxis off every US freeway after California finds an 'imminent hazard'",
+      "subtitle": "The state DMV banned driverless freeway operations on 11 November after Waymos repeatedly drove into an active construction zone on Route 101, and the company extended the pause to all its markets.",
+      "body": "Waymo has suspended driverless operations on freeways across the United States after California's Department of Motor Vehicles banned its robotaxis from state highways, citing an \"imminent hazard to public safety\".\n\nThe ban took effect on 11 November and followed an incident this month in which several driverless Waymo vehicles entered an active construction zone on US Route 101 south of San Francisco. The DMV said the risk came \"due to recurring incursions by its vehicles into active construction zones where construction workers, vehicles and equipment are present\". No injuries or collisions were reported.\n\nA second incident, filmed and widely shared on social media, appeared to show a Waymo car trying to overtake patrol vehicles that were deliberately slowing traffic on a San Francisco highway.\n\nWaymo said it had restricted freeway operations in its other markets too, \"in alignment with our safety-first principles... to evaluate our performance\". It operates driverless taxis in 15 US cities but only offered freeway rides in a handful, including San Francisco, Los Angeles and Miami. City-street service continues.\n\n## Safety record under scrutiny\n\nCalifornia's restrictions stay in place until Waymo \"demonstrates to the department that it has taken effective corrective actions to address the deficiencies that precipitated the restrictions\". In May the company recalled thousands of vehicles over software that could let cars drive into flooded roads, and a car was filmed circling an Atlanta cul-de-sac in the early hours.\n\nWaymo's own data claims its cars are involved in 95% fewer crashes resulting in serious injury than human drivers — a figure that has carried its expansion until now, and which regulators are increasingly testing against individual incidents rather than aggregate statistics.",
+      "sources": [
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cmy86pp336qlo"
+        },
+        {
+          "name": "Wired",
+          "url": "https://www.wired.com/story/waymo-pulls-its-robotaxis-from-highways-after-california-incidents/"
+        },
+        {
+          "name": "Ars Technica",
+          "url": "https://arstechnica.com/cars/2026/11/waymo-suspends-freeway-driving-after-california-construction-zone-complaint/"
+        }
+      ],
+      "publishedAt": "2026-11-19T07:25:00Z",
+      "imageURL": "/images/2026-11-19-tech-002.jpg"
+    },
+    {
+      "id": "2026-11-19-tech-003",
+      "category": "tech",
+      "headline": "GTA 6 lands to the best reviews of any game in 28 years, level with Ocarina of Time",
+      "subtitle": "Thirteen years after GTA V, Rockstar's Leonida-set epic averages 99 on Metacritic, with critics calling the relationship between leads Jason and Lucia the strongest in the medium.",
+      "body": "Grand Theft Auto 6 has arrived to reviews that put it alongside the most acclaimed game ever made. Metacritic's aggregate sits at 99 out of 100, tying The Legend of Zelda: Ocarina of Time, which has held the record since 1998.\n\nIGN called it \"unprecedented\", \"unbelievable\" and \"unmissable\". Eurogamer gave it five stars, saying Rockstar had \"pushed back the horizon of video games once again\" with its graphics, storytelling and world-building, though reviewer Chris Tapsell still found \"nits to pick\". The Guardian described Leonida, the setting inspired by Miami, as \"so lifelike that at times it beggars belief\".\n\nMuch of the praise has gone to the relationship between the leads, Jason and Lucia. \"They feel like real people rather than puppets dancing to your whim,\" wrote the Guardian's Keza MacDonald, adding: \"I found it impossible not to care for them\". Forbes' Paul Tassi said he had never seen a better relationship in a video game.\n\n## Maturity and chaos\n\nSome reviewers wondered whether the added realism dulls the chaos of earlier entries. In The New York Times, Yussef Cole wrote that GTA 6 had \"matured beyond its memorable car crashes and stickups\", with consequences to every action, while admitting his favourite moments still involved careening through streets with squad cars in pursuit.\n\nRockstar has not disclosed the budget, but some estimates put it above $1bn. The Game Awards nominated it for eight prizes, including game of the year, despite it not having been released when the shortlist was drawn up — a quirk that also confirmed Manni L Perez as the voice and performance behind Lucia.",
+      "sources": [
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cw8r75xm8v4po"
+        },
+        {
+          "name": "Ars Technica",
+          "url": "https://arstechnica.com/gaming/2026/11/grand-theft-auto-vi-the-ars-technica-review/"
+        },
+        {
+          "name": "Wired",
+          "url": "https://www.wired.com/story/i-will-never-stop-playing-grand-theft-auto/"
+        }
+      ],
+      "publishedAt": "2026-11-19T07:30:00Z",
+      "imageURL": "/images/2026-11-19-tech-003.jpg"
+    },
+    {
+      "id": "2026-11-19-tech-004",
+      "category": "tech",
+      "headline": "Anthropic prices its IPO at $83 a share and lists on Thursday valued at up to $1.5tn",
+      "subtitle": "The Claude maker will be the first US company built entirely around AI to go public, raising more than $68bn on top of $26bn in private placements from Nvidia, Microsoft, Amazon and TSMC.",
+      "body": "Anthropic has priced its initial public offering at $83 a share, above the $70 to $78 range it set earlier this month, and will begin trading on Nasdaq on Thursday under the ticker ANT. At that price the company is valued at about $1.5tn on a fully diluted basis, or at least $1.4tn by the BBC's calculation.\n\nThe listing raises more than $68bn from public investors, with another $26bn expected from a private placement by AMD, Broadcom, Google, Micron, Microsoft, Nvidia and TSMC. That takes the total to roughly $94bn and makes Anthropic the first US company founded and built around AI — rather than search, retail or social media — to list.\n\nDemand has been extraordinary. One early investor told the BBC the offer was more than 10 times oversubscribed, and a strong first day could push the valuation past the $2.2tn at which SpaceX debuted in June, though SpaceX shares fell sharply in the weeks afterwards. Amazon owns nearly 15% of Anthropic and Google almost 14%.\n\n## The bubble question\n\nThe company's seven co-founders, led by siblings Dario and Daniela Amodei, each sold nearly 3.4 million shares in the offering, netting about $282m apiece. Sequoia, Iconiq, Lightspeed, Accel and Altimeter were all reported to be buying more in the float.\n\nThe concern is whether revenue can keep pace with hundreds of billions of dollars of financial obligations falling due over the next two years. \"It is not an everyday occurrence for public investors to gain direct exposure to a frontier-model developer with the potential to shape the next stage of productivity,\" said Counterpoint Research analyst Yang Wang. OpenAI, Anthropic's main rival, is expected to list next year.",
+      "sources": [
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/c6742m39xgzxo"
+        },
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/18/anthropic-reportedly-prices-ipo-at-83-a-share-above-projected-range/"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/economy/2026/11/19/anthropic-raises-81-3bn-in-biggest-ipo-of-all-time"
+        }
+      ],
+      "publishedAt": "2026-11-19T07:35:00Z",
+      "imageURL": "/images/2026-11-19-tech-004.jpg"
+    },
+    {
+      "id": "2026-11-19-tech-005",
+      "category": "tech",
+      "headline": "A week of outages, a grounded airline system and an AI-found Java flaw: what is actually going on",
+      "subtitle": "Microsoft, US air traffic control, the NSA, JPMorgan and Apple have all stumbled within days, and security researchers say AI is accelerating the discovery of the flaws behind some of it.",
+      "body": "In the space of a week there has been a major Microsoft outage, a glitch that grounded all US flights for hours, problems with the National Security Agency's internal communications, payment disruptions at the biggest US banks and a serious security flaw in Java, the world's third-most popular programming language.\n\nMost of it was self-inflicted rather than hostile. A network upgrade at Microsoft overloaded servers and shut them down; upgrades to a creaky old network grounded thousands of planes over the weekend; the US air traffic control failure came as engineers replaced outdated copper wiring with fibre. The NSA and, separately, Apple's iCloud and Apple Pay were hit by problems during system updates, and JPMorgan Chase blamed a \"software bug\" for payment disruption, saying it was not a cyber-security incident.\n\nSome incidents were genuine security problems. AI models were used to find the Java vulnerability and a similar one in PHP, giving defenders a window to patch before criminals exploited them. Researcher Scott Helme found malicious code in Optimizely, a platform used by some of the world's largest companies; hackers stole about $7,000 in cryptocurrency before being ejected.\n\n\"I would be very surprised if all of these cyber-attacks and the attackers behind them were not using AI to accelerate themselves,\" Helme told BBC Radio 4's Today programme.\n\nUS Secretary of State Marco Rubio has insisted the incidents are unconnected and not the work of a single attacker. Analysts point instead to technical debt — years of quick fixes layered over underlying problems — and to companies issuing far more patches now that AI is helping them audit their own code.",
+      "sources": [
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/c6z0kly2lll7o"
+        },
+        {
+          "name": "Wired",
+          "url": "https://www.wired.com/story/how-to-tell-if-its-a-cyberattack-or-just-an-outage/"
+        },
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/crkgvxxwpwz2o"
+        }
+      ],
+      "publishedAt": "2026-11-19T07:40:00Z",
+      "imageURL": "/images/2026-11-19-tech-005.jpg"
+    },
+    {
+      "id": "2026-11-19-ai-001",
+      "category": "ai",
+      "headline": "Washington tightens the chip tap as Trump, Xi and Putin meet in Shenzhen",
+      "subtitle": "New interim rules put data centre operators in Singapore, Malaysia, Thailand, Indonesia and Brazil under scrutiny, closing the rented-compute route Chinese AI firms use to train models.",
+      "body": "The Trump administration has moved to close one of the last routes by which Chinese companies reach advanced American chips: renting computing power in third countries. Interim rules announced on Monday increase scrutiny of data centre operators in Singapore, Malaysia, Thailand, Indonesia and Brazil, and require a US government licence to buy advanced chips from Nvidia or other American suppliers.\n\nThe Commerce Department's Bureau of Industry and Security said the five countries \"present a higher-than-normal risk of diversion\" and that the measures ensure sensitive technology \"cannot be circumvented through remote computing arrangements involving data centers in third countries\". Licences will be granted case by case.\n\nThe timing is pointed. Trump, Xi Jinping and Vladimir Putin met in Shenzhen on Thursday for a three-way summit, with AI and semiconductors near the top of the agenda. Beijing's foreign ministry called the rules \"economic coercion\" and said it would \"take necessary measures to firmly safeguard its own legitimate rights and interests\".\n\n## The rented-compute loophole\n\nChina has become dependent on compute from abroad since earlier export controls tightened. Research by the Institute for Progress projects that at least 30% of China's advanced AI computing power will come from renting overseas capacity or smuggling in 2027.\n\nThe rules landed in the middle of the Nvidia scandal. Megaspeed, Singapore's biggest buyer of Nvidia chips in South East Asia, is accused of illegally diverting them to Chinese firms after purchasing them for data centres in Malaysia, Indonesia and Thailand. Its former director, Alice Huang, is suspected of being a Chinese spy; Jensen Huang admitted an affair with her and resigned as Nvidia's chief executive. Megaspeed denies wrongdoing and says it has retained external counsel for an internal investigation.",
+      "sources": [
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cwq6e2qgvmlgo"
+        },
+        {
+          "name": "Wired",
+          "url": "https://www.wired.com/story/the-nvidia-scandal-is-about-chip-sales-to-china-trump-wants-to-keep-them-going/"
+        },
+        {
+          "name": "Wired",
+          "url": "https://www.wired.com/story/the-ai-chip-war-meets-the-jensen-huang-affair/"
+        }
+      ],
+      "publishedAt": "2026-11-19T07:45:00Z",
+      "imageURL": "/images/2026-11-19-ai-001.jpg"
+    },
+    {
+      "id": "2026-11-19-ai-002",
+      "category": "ai",
+      "headline": "Ashley St Clair sues xAI over Grok deepfakes, and a British MP follows",
+      "subtitle": "The suits allege Grok stripped and sexualised real women on request, including a photograph of St Clair taken when she was 14. xAI has counter-sued her for filing in the wrong state.",
+      "body": "Ashley St Clair, the mother of one of Elon Musk's children, has sued his AI company xAI over sexualised deepfakes of her created on X. The suit, filed in New York, alleges that users dug up photographs of her at 14 and asked Grok to undress her and put her in a bikini: \"Grok obliged\".\n\nThe filing also claims Grok produced an image of St Clair, who is Jewish, \"in a string bikini covered with swastikas\", and that after she complained the company \"retaliated against her, demonetising her X account and generating multitudes more images of her\". Her lawyer, Carrie Goldberg, said the aim was \"to hold Grok accountable and to help establish clear legal boundaries for the entire public's benefit\".\n\nxAI has counter-sued St Clair, arguing that her claim violates its terms of service, which require disputes to be brought in Texas. Goldberg called that \"jolting\": \"I have never heard of any defendant suing somebody for notifying them of their intention to use the legal system.\"\n\n## A widening set of claims\n\nA Muslim author is also suing xAI after people used Grok to remove her hijab, and a British MP has filed a privacy claim in London over fabricated bikini images, with Keir Starmer saying he supports her action \"100%\". The MP said it felt \"like somebody has digitally stripped me without my consent\".\n\nAfter a backlash, X restricted the image-editing function to paying users and then said it would block editing of real people into revealing clothing in jurisdictions where that is illegal, later extending the geoblocking to the Grok app. Reports that the feature produced sexualised images of children have added to pressure from regulators in several countries.",
+      "sources": [
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.com/news/articles/cp37erw0zwwo"
+        },
+        {
+          "name": "Wired",
+          "url": "https://www.wired.com/story/a-muslim-author-is-suing-xai-after-people-used-grok-to-strip-her-hijab"
+        },
+        {
+          "name": "Courthouse News Service",
+          "url": "https://courthousenews.com/uk-lawmaker-says-she-is-suing-elon-musks-company-over-fake-grok-bikini-images"
+        }
+      ],
+      "publishedAt": "2026-11-19T07:50:00Z",
+      "imageURL": "/images/2026-11-19-ai-002.jpg"
+    },
+    {
+      "id": "2026-11-19-ai-003",
+      "category": "ai",
+      "headline": "Microsoft puts Word, Excel and PowerPoint inside Copilot and calls it 'the new OS for work'",
+      "subtitle": "At Ignite, Satya Nadella inverted three decades of Office design: agents drive the work and the applications ride shotgun, backed by a knowledge layer built from email, meetings and files.",
+      "body": "Microsoft used its Ignite keynote to make Copilot, not Office, the centre of the working day. Word, Excel and PowerPoint are now generally available inside Copilot itself, and chief executive Satya Nadella described the result as \"the new OS for work\".\n\nIt is a deliberate inversion of how the software has been used since the 1990s. Rather than opening Word and calling an assistant for help, users will work inside Copilot while documents, spreadsheets and presentations become components the agent assembles. Files created there remain editable in their original applications and inherit Microsoft 365 permissions and sensitivity labels.\n\nUnderneath sits what Microsoft calls Work IQ, a context layer that ingests a company's emails, meetings, chats, calendars and documents so agents understand who is working on what. Nadella called it potentially an organisation's most valuable database.\n\n## Agents on the clock\n\nThe headline addition is Copilot Autopilot, a persistent agent that can be given a role rather than a single task and authorised to work across email and calendars without prompting. It is billed through usage-based Copilot Credits, with pricing not yet announced. Copilot Workspaces, a shared environment where people and agents work toward a common goal, is in early access, and Copilot Code is due to follow within weeks.\n\nThe strategic bet is visible in the numbers Microsoft cites: nearly 80% of Fortune 500 companies already use Cowork, its shared agent workspace. The open question is governance — handing autonomous agents access to internal mail and messaging is a decision each customer's IT department must make, at a time when Microsoft's own infrastructure reliability is under scrutiny after a string of outages.",
+      "photoCandidate": {
+        "url": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/MS_Ignite_Perception.png",
+        "description": "og:image from Ars Technica",
+        "license": "fair-use"
+      },
+      "sources": [
+        {
+          "name": "Ars Technica",
+          "url": "https://arstechnica.com/gadgets/2026/11/microsoft-calls-copilot-the-new-os-for-work-at-ignite-keynote"
+        },
+        {
+          "name": "Microsoft",
+          "url": "https://blogs.microsoft.com/blog/2026/11/17/ignite-2026-building-the-frontier-ecosystem"
+        },
+        {
+          "name": "Microsoft Copilot Blog",
+          "url": "https://www.microsoft.com/en-us/copilot/blog/2026/11/17/copilot-at-microsoft-ignite-expanding-whats-possible-with-intelligence-built-for-work"
+        }
+      ],
+      "publishedAt": "2026-11-19T07:55:00Z"
+    },
+    {
+      "id": "2026-11-19-ai-004",
+      "category": "ai",
+      "headline": "Artex: the open-source 'point-and-shoot' tool letting unskilled criminals run AI-powered attacks",
+      "subtitle": "The FBI has warned about the framework, which links commercial AI models to existing penetration-testing tools so that a plain-English prompt is enough to start a break-in.",
+      "body": "Security researchers are tracking a new class of criminal tooling that pairs large language models with off-the-shelf hacking utilities. The most prominent is Artex, an open-source framework written in Go and published on GitHub in July by a pseudonymous developer calling themselves Autumn-27.\n\nArtex is not an AI model itself. It is a guide that points frontier and open-source models, connected through APIs, at a series of existing penetration-testing tools — scanning, exploitation, credential theft — so that a user needs only natural-language prompts. \"It's really an all-in-one product,\" said Jacob Larsen of security firm Cypen. \"This is really a point-and-shoot weapon.\"\n\nThat simplicity is the point. \"I would say my grandmother can do it, except that she doesn't have a laptop, but the bar is that low,\" said Guillaume Valadon of GitGuardian, which has documented 45 separate AI attack frameworks.\n\n## From GitHub to the FBI's alert\n\nThe results have been tangible. The FBI warned last week that \"a variety of malicious cyber actors\" had used Artex against financial services, government, technology, defence, semiconductor, energy, healthcare and legal targets. CrowdStrike said China-linked hackers it calls Vapor Panda used it against more than 200 organisations, including US think tanks and defence firms, while Microsoft tracked Storm-0940 using it against Microsoft 365 accounts.\n\nAutumn-27 removed Artex from GitHub on 8 October, saying the tools were built for \"educational and research purposes\" and that they were \"in no way associated with these malicious attacks\".\n\nAt the New York Times DealBook Summit, Anduril co-founder Palmer Luckey said AI had handed attackers a speed advantage over systems too old to keep up, singling out North Korea. \"In the long run, the advantages are going to accrue to the side that is most effectively using AI for defence,\" he said. \"It's time to start running.\"",
+      "sources": [
+        {
+          "name": "Wired",
+          "url": "https://www.wired.com/story/artex-ai-hacking-tools/"
+        },
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/18/palmer-luckey-warns-ai-powered-cyberattacks-are-outpacing-defenses-its-time-to-start-running/"
+        },
+        {
+          "name": "Wired",
+          "url": "https://www.wired.com/story/wired-yearbook-2026-clement-delangue/"
+        }
+      ],
+      "publishedAt": "2026-11-19T08:00:00Z",
+      "imageURL": "/images/2026-11-19-ai-004.jpg"
+    }
+  ]
+}
