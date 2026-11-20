@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-20",
+  "published": true,
+  "publishedAt": "2026-11-20T05:06:35Z",
+  "sections": {
+    "present": ["local", "national", "northernIreland", "global", "tech", "ai"],
+    "missing": []
+  },
+  "storiesWithoutPhoto": [],
+  "validatorWarnings": [],
+  "validatorErrors": [],
+  "workarounds": [
+    "France 24, Al Jazeera and Wired article pages return 403 to curl (bot-block); those URLs were treated as inconclusive rather than dead, and their content was read through the page extractor before citing.",
+    "The Models Engineering Index URL (git-aarvin.github.io/mei/) was rejected by validate.mjs as a home page; ai-004 cites that item's Hacker News discussion thread (news.ycombinator.com/item?id=50568130) as its third source instead.",
+    "postgresql.org's 19.0 release page carries no og:image, so tech-003's photo came from the Databricks Lakebase announcement, which documents the same release.",
+    "A Senegal pirogue capsize off Yenne was researched for global but appeared in only two independent outlets (BBC, Al Jazeera); it was dropped rather than shipped with two sources."
+  ],
+  "needsHumanAttention": false,
+  "humanAttentionReason": null,
+  "notes": "All six sections shipped, 19 articles, 19 photos. northernIreland is pinned to 1 story (resident doctors' strike) and local ran 2. No web_search budget was spent on local, national or northernIreland; discovery came from RSS feeds."
+}
