@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20T05:06:35Z",
+  "generatedAt": "2026-11-23T06:30:03Z",
   "config": {
     "sections": {
       "local": {
@@ -11,600 +11,61 @@
             "url": "https://www.elprogreso.es"
           },
           {
-            "name": "Diario de Pontevedra",
-            "url": "https://www.diariodepontevedra.es"
-          },
-          {
-            "name": "U.S. Department of the Treasury",
-            "url": "https://home.treasury.gov"
-          },
-          {
-            "name": "Xunta de Galicia",
-            "url": "https://info-sitegal.xunta.gal"
+            "name": "GCDiario",
+            "url": "https://gcdiario.com"
           }
         ]
       },
       "national": {
         "min": 3,
         "max": 5,
-        "sources": [
-          {
-            "name": "El Mundo",
-            "url": "https://www.elmundo.es"
-          },
-          {
-            "name": "Europa Press",
-            "url": "https://www.europapress.es"
-          },
-          {
-            "name": "20minutos",
-            "url": "https://www.20minutos.es"
-          },
-          {
-            "name": "SEMAF",
-            "url": "https://www.semaf.org"
-          },
-          {
-            "name": "Castilla-La Mancha Media",
-            "url": "https://www.cmmedia.es"
-          }
-        ]
+        "sources": []
       },
       "northernIreland": {
         "min": 1,
         "max": 1,
-        "sources": [
-          {
-            "name": "BBC News NI",
-            "url": "https://www.bbc.co.uk/news/northern_ireland"
-          },
-          {
-            "name": "The Irish News",
-            "url": "https://www.irishnews.com"
-          },
-          {
-            "name": "Belfast Telegraph",
-            "url": "https://www.belfasttelegraph.co.uk"
-          }
-        ]
+        "sources": []
       },
       "global": {
         "min": 4,
         "max": 8,
-        "sources": [
-          {
-            "name": "BBC",
-            "url": "https://www.bbc.co.uk/news/world"
-          },
-          {
-            "name": "The Guardian",
-            "url": "https://www.theguardian.com/world"
-          },
-          {
-            "name": "France 24",
-            "url": "https://www.france24.com"
-          },
-          {
-            "name": "Al Jazeera",
-            "url": "https://www.aljazeera.com"
-          },
-          {
-            "name": "El Mundo",
-            "url": "https://www.elmundo.es"
-          }
-        ]
+        "sources": []
       },
       "tech": {
         "min": 5,
         "max": 5,
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com"
-          },
-          {
-            "name": "Wired",
-            "url": "https://www.wired.com"
-          },
-          {
-            "name": "The Verge",
-            "url": "https://www.theverge.com"
-          },
-          {
-            "name": "France 24",
-            "url": "https://www.france24.com"
-          },
-          {
-            "name": "Simon Willison",
-            "url": "https://simonwillison.net"
-          },
-          {
-            "name": "PostgreSQL",
-            "url": "https://www.postgresql.org"
-          }
-        ]
+        "sources": []
       },
       "ai": {
         "min": 4,
         "max": 7,
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com"
-          },
-          {
-            "name": "BBC",
-            "url": "https://www.bbc.co.uk/news"
-          },
-          {
-            "name": "Al Jazeera",
-            "url": "https://www.aljazeera.com"
-          },
-          {
-            "name": "The Guardian",
-            "url": "https://www.theguardian.com"
-          },
-          {
-            "name": "Google",
-            "url": "https://blog.google"
-          },
-          {
-            "name": "Artificial Analysis",
-            "url": "https://artificialanalysis.ai"
-          }
-        ]
+        "sources": []
       }
     }
   },
   "articles": [
     {
-      "id": "2026-11-20-local-001",
+      "id": "2026-11-23-local-001",
       "category": "local",
-      "headline": "Estados Unidos sanciona a un pontevedrés como jefe mundial de los Comancheros",
-      "subtitle": "El Tesoro sitúa a Alexandre Varela Villar, Álex Vare, al frente de la red motera australiana y le atribuye vínculos con los cárteles de Jalisco y Sinaloa, el Clan del Golfo y Los Choneros",
-      "body": "El Departamento del Tesoro de Estados Unidos sancionó este jueves al pontevedrés Alexandre Varela Villar, conocido como Álex Vare, como comandante mundial de los Comanchero Outlaw Motorcycle Gang, la red motera con base en Australia que la OFAC incluye entre las mayores organizaciones de narcotráfico del planeta.\n\nLa designación bloquea los bienes de la organización en territorio estadounidense y prohíbe a cualquier persona o empresa vinculada a EEUU operar con ella. El Tesoro sostiene que los Comancheros aportan logística y apoyo operativo a cárteles que Washington considera terroristas, y describe una estructura con presencia en Asia, Europa, Norteamérica y Oceanía.\n\nNatural de O Morrazo, Varela Villar cumplió 35 años el mismo día en que se anunció la sanción. Los informes que maneja Washington le atribuyen relación directa con los cárteles de Jalisco y Sinaloa, con el Clan del Golfo colombiano y con Los Choneros de Ecuador, según recogen El Progreso y Diario de Pontevedra.\n\nLa operación no se limita a Galicia ni a la red australiana: el Tesoro sancionó en el mismo paquete a la 'Ndrangheta italiana y a una decena de personas y entidades en Canadá, Nueva Zelanda, Australia y Birmania. Washington presentó la medida como una acción coordinada con Australia y otros socios internacionales.",
-      "imageURL": "/images/2026-11-20-local-001.jpg",
+      "headline": "Ribeira de Piquín lleva a pleno 2,3 millones para 2027, unos 4.500 euros por vecino",
+      "subtitle": "El Concello y la fundación Terreo elevan este martes unas cuentas que dedican el 68% del presupuesto municipal a personal y reservan 106.000 euros para una cocina comunitaria en el centro de día.",
+      "body": "Ribeira de Piquín, con 546 habitantes reconocidos por el Instituto Galego de Estatística —y menos de medio millar reales, porque aún no se han dado de baja los refugiados—, llevará este martes a pleno un presupuesto de 2.289.870,39 euros para 2027. Sumando el Concello y la fundación municipal Terreo, las cuentas rondan los 4.500 euros por vecino, una cifra que se explica por el peso del empleo público en un municipio de esta tamaño.\n\nEl Concello maneja 1.184.332,76 euros. De esa cantidad, 766.000 —casi el 68%— van a personal: 25 trabajadores de oficinas, servicios sociales, centro de día y obras, a los que se suman 24 del taller de empleo que coordina el Ayuntamiento. Servicios Sociales se lleva unos 370.000 euros y el capítulo de gasto corriente se queda en 203.657,85. Las inversiones apenas pasan de 195.000 euros.\n\n## Terreo, la piscifactoría como motor\n\nLa fundación Terreo, que gestiona la piscifactoría de Santalla, la cría de porco celta, la gasolinera y varios cultivos, contará con 1.105.537,63 euros. Destina el 30% a una plantilla de una docena de personas, alrededor de medio millón a bienes corrientes y servicios y 200.000 a un obrador comunitario.\n\nDel lado municipal, la inversión más visible es una cocina comunitaria de 106.000 euros en un local que estaba sin uso en el edificio del centro de día. A pavimentaciones se reservan 45.000 euros y a la red de aguas, 40.000.\n\nEl pleno extraordinario está fijado para las 14.30 horas de este martes. La corporación municipal la forman seis ediles del PSOE y uno del PP, y el orden del día incluye además una solicitud de bonificaciones del impuesto de bienes inmuebles.",
       "sources": [
         {
           "name": "El Progreso",
-          "url": "https://www.elprogreso.es/galicia/estados-unidos-situa-pontevedres-como-comandante-mundial-red-narcos-comancheros/202611192143332015304.html"
-        },
-        {
-          "name": "Diario de Pontevedra",
-          "url": "https://www.diariodepontevedra.es/narcotrafico/estados-unidos-situa-pontevedres-como-comandante-mundial-red-narcos-comancheros/202611192037381477779.html"
-        },
-        {
-          "name": "U.S. Department of the Treasury",
-          "url": "https://home.treasury.gov/news/press-releases/sb0696"
-        },
-        {
-          "name": "OFAC recent actions, 19 November 2026",
-          "url": "https://ofac.treasury.gov/recent-actions/20261119"
-        }
-      ],
-      "publishedAt": "2026-11-20T06:05:00Z"
-    },
-    {
-      "id": "2026-11-20-local-002",
-      "category": "local",
-      "headline": "La Xunta ordena 3.600 parcelas en tres parroquias de Outeiro de Rei",
-      "subtitle": "El comité asesor avala las bases de la concentración en Arcos, Sobrada de Aguiar y San Lourenzo de Aguiar y abre también los procesos de Folgueira, Matela, Vilela, Taboi y Román",
-      "body": "La concentración parcelaria de Arcos, Sobrada de Aguiar y San Lourenzo de Aguiar, en Outeiro de Rei, avanza con la elaboración de las bases, el documento que fija cómo se repartirán las fincas tras la reorganización. El comité asesor respaldó ese paso y dio luz verde también al inicio de los procesos en Folgueira, Matela, Vilela y Taboi, en el mismo municipio, y en Román, en Vilalba.\n\nLas cifras no coinciden del todo según la fuente. El Progreso habla de 1.258 hectáreas y unas 3.600 parcelas rurales en las tres parroquias. La Xunta cifró esa misma zona en 1.305 hectáreas y 3.039 parcelas, con 520 propietarios, dentro de un paquete de dos concentraciones que suman 2.451 hectáreas, 833 titulares y un presupuesto previsto de 7,3 millones de euros.\n\nEl objetivo declarado es ampliar la base territorial de las explotaciones, reducir costes de producción y frenar el abandono de tierras en un municipio con fuerte peso ganadero. La Xunta prevé además una zona de permutas de interés agrario, al estilo de las impulsadas en Friol, para agrupar fincas dispersas sin esperar al cierre de todo el procedimiento.",
-      "imageURL": "/images/2026-11-20-local-002.jpg",
-      "sources": [
-        {
-          "name": "El Progreso",
-          "url": "https://www.elprogreso.es/comarcas/xunta-reestructura-outeiro-rei-1258-hectareas-3600-parcelas-arcos-sobrada-aguiar-san-lourenzo-aguiar/202611192021482015271.html"
-        },
-        {
-          "name": "Xunta de Galicia (SITEGAL)",
-          "url": "https://info-sitegal.xunta.gal/es/noticias/la-xunta-reorganizara-una-superficie-de-unas-2450-hectareas-en-el-ayuntamiento-de-outeiro"
+          "url": "https://www.elprogreso.es/a-chaira/4500-euros-presupuesto-vecino-ribeira-piquin/202611230502042015802.html"
         },
         {
           "name": "El Progreso",
-          "url": "https://elprogreso.es/articulo/comarca-lugo/avanza-bo-ritmo-concentracion-parcelaria-san-fiz-arcos-sobrada-san-lourenzo/202503241903471860939.html"
+          "url": "https://www.elprogreso.es/articulo/a-chaira/aprobado-presupuesto-2-millones-concello-fundacion-terreo/202511261651351927043.html"
+        },
+        {
+          "name": "GCDiario",
+          "url": "https://gcdiario.com/politica/379742-la-diputacion-de-lugo-aportara-100-000-euros-hasta-2027-a-la-fundacion-terreo-del-ayuntamiento-de-ribeira-de-piquin"
         }
       ],
-      "publishedAt": "2026-11-20T06:06:00Z"
-    },
-    {
-      "id": "2026-11-20-national-001",
-      "category": "national",
-      "headline": "Feijóo domina el único cara a cara y Sánchez pide perdón tres veces",
-      "subtitle": "El líder del PP ataca con la corrupción y con Puigdemont, mientras el presidente reconoce el desgaste, promete rebajas fiscales a las familias y subidas a las grandes fortunas",
-      "body": "Alberto Núñez Feijóo llegó al único cara a cara de la campaña dispuesto a no soltar el argumento que le ha funcionado durante todo el mandato: que Pedro Sánchez gobierna con los votos de Carles Puigdemont. Abrió el debate del jueves con la entrevista que el expresidente catalán había concedido horas antes a El Mundo y siguió por la corrupción, la vivienda, la DANA, Ceuta y los accidentes de tren.\n\nSánchez, desdibujado según las crónicas del debate, pidió perdón hasta tres veces: por los casos de corrupción que haya podido «sufrir» el PSOE y su Gobierno, y ante las víctimas de Urda y Adamuz, a petición de Feijóo. Después se rehízo con el argumento inverso: «uno de los Gobiernos más limpios de la historia» frente al «partido más corrupto», con la sede del PP financiada en negro y quince ministros de Rajoy y Aznar imputados o condenados.\n\nEl intercambio sobre las cuentas fue el otro eje. Feijóo prometió bajar impuestos porque «la gente no llega a fin de mes»; Sánchez planteó rebajas para familias y clases medias y subidas para las grandes fortunas. Feijóo preguntó quién financió las primarias socialistas y no obtuvo respuesta. La sanidad apenas apareció en el octavo cara a cara de la democracia.\n\nLas reacciones dibujaron dos victorias. La dirección del PP habló de «meneo» y de que el presidente «no tiene ganas de gobernar»; el PSOE defendió a un Sánchez «con rigor» frente a un Feijóo que «embarró» con bulos. En Comú Podem calificó el debate de «fallido» y ERC cargó contra el candidato socialista por no haberse preparado. El PP llega al tramo final de la campaña por delante, cuatro puntos según el tracking de El Mundo.",
-      "imageURL": "/images/2026-11-20-national-001.jpg",
-      "sources": [
-        {
-          "name": "El Mundo",
-          "url": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/19/6aff232ce4d4d86b058b4593.html"
-        },
-        {
-          "name": "Europa Press",
-          "url": "https://www.europapress.es/nacional/noticia-feijoo-ataca-sanchez-corrupcion-guarradas-gobierno-presidente-rechaza-lecciones-pp-20261119233103.html"
-        },
-        {
-          "name": "Europa Press",
-          "url": "https://www.europapress.es/nacional/noticia-sanchez-pide-perdon-victimas-adamuz-urda-instancias-feijoo-dolor-me-llevare-conmigo-20261119230618.html"
-        },
-        {
-          "name": "El Mundo",
-          "url": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/19/6aff2a9afc6c83886c8b459b.html"
-        }
-      ],
-      "publishedAt": "2026-11-20T06:12:00Z"
-    },
-    {
-      "id": "2026-11-20-national-002",
-      "category": "national",
-      "headline": "Los maquinistas mantienen la huelga del lunes 23 pese al acuerdo del resto de sindicatos",
-      "subtitle": "Semaf rechaza el documento de Transportes por insuficiente, Adif desconvoca el paro del jueves y CCOO, UGT y el SCF dan por cerrada la fase de movilizaciones",
-      "body": "La huelga de maquinistas convocada para el lunes 23 de noviembre sigue adelante. Semaf, el sindicato con más representación en el comité de empresa de Renfe, mantuvo su paro después de que el Ministerio de Transportes entregara a los comités de Renfe y Adif un documento para cerrar el conflicto abierto tras el accidente ferroviario de Urda, en Toledo.\n\nEl resto de la mesa se ha descolgado del calendario. CCOO, UGT y el Sindicato de Circulación Ferroviario firmaron el acuerdo, y este último retiró además la huelga que tenía prevista para este jueves, después de que Adif aceptara reforzar la plantilla de Circulación con una oferta de empleo público extraordinaria y regular los tiempos de actividad y la carga de trabajo.\n\nSemaf sostiene que el documento recoge medidas ya aprobadas y otras que siguen pendientes de tramitación, y que su redactado delata «una ausencia de conocimiento» del sector. El sindicato dice haber perdido la confianza en compromisos «que luego se quedan en el tintero» y estudia convocar paros en nuevas fechas. Adif se ha comprometido a actualizar a diario, desde el 23, el documento que recoge las limitaciones de velocidad de la red.\n\nEl conflicto viene de lejos: la jornada del 17 de noviembre dejó más de 653.000 viajeros afectados por supresiones e incumplimientos de los servicios mínimos, según datos de Renfe recogidos por la prensa. UGT valora los avances pero exige plazos, recursos y seguimiento; CGT considera que el acuerdo deja sin respuesta buena parte de las reivindicaciones que motivaron las protestas.",
-      "imageURL": "/images/2026-11-20-national-002.jpg",
-      "sources": [
-        {
-          "name": "Castilla-La Mancha Media",
-          "url": "https://www.cmmedia.es/noticias/espana/semaf-mantiene-la-huelga-en-renfe-del-23-de-noviembre-pese-a.html"
-        },
-        {
-          "name": "SEMAF",
-          "url": "https://www.semaf.org/informaciones/semaf-continua-conflictividad-23-noviembre"
-        },
-        {
-          "name": "La Razón",
-          "url": "https://www.larazon.es/economia/maquinistas-mantienen-convocatoria-23-noviembre-amenazan-nuevas-huelgas_202611186afd5fe118c34d33accd7189.html"
-        }
-      ],
-      "publishedAt": "2026-11-20T06:14:00Z"
-    },
-    {
-      "id": "2026-11-20-national-003",
-      "category": "national",
-      "headline": "Puigdemont dice que el PSOE le ofreció una foto con Sánchez y que la rechazó",
-      "subtitle": "El líder de Junts afirma en una entrevista que buscaba «una conversación política tranquila, discreta, larga» y que el encuentro nunca llegó a producirse",
-      "body": "Carles Puigdemont asegura que el PSOE le propuso fotografiarse con Pedro Sánchez en los pasillos y en el plenario del Parlamento Europeo, el día en que el presidente compareció ante la Eurocámara, y que rechazó la oferta. La revelación está en la segunda entrega de una entrevista con El Mundo, publicada horas antes del cara a cara entre Sánchez y Feijóo.\n\n«Yo no quiero una foto. Si tiene que ser un encuentro sin foto me va perfectamente. No me interesa la foto, joder», dice el expresidente de la Generalitat, que explica que buscaba «una conversación política tranquila, discreta, larga». Según su versión, ese encuentro nunca llegó a producirse y la propuesta le dejó la impresión de que en el PSOE «no habían entendido nada» de cómo es ni de lo que piensa.\n\nPuigdemont añade que desde que vive en Bélgica no ha mantenido contacto directo con Sánchez, ni por teléfono ni en persona, pese a las negociaciones de los últimos años. Sobre un posible apoyo a un Gobierno de PP y Vox, califica el escenario de política ficción y advierte de que si Vox llamara a la puerta de Junts se llevaría un portazo que «recordarán toda su vida».",
-      "imageURL": "/images/2026-11-20-national-003.jpg",
-      "sources": [
-        {
-          "name": "El Mundo",
-          "url": "https://www.elmundo.es/espana/2026/11/19/6aff26e3e85ece240e8b4592.html"
-        },
-        {
-          "name": "Europa Press",
-          "url": "https://www.europapress.es/catalunya/noticia-av-puigdemont-asegura-psoe-le-propuso-foto-sanchez-pe-rechazo-20261119192419.html"
-        },
-        {
-          "name": "20minutos",
-          "url": "https://www.20minutos.es/nacional/puigdemont-asegura-que-psoe-le-propuso-una-foto-con-sanchez-parlamento-europeo-que-rechazo_7063346_0.html"
-        }
-      ],
-      "publishedAt": "2026-11-20T06:16:00Z"
-    },
-    {
-      "id": "2026-11-20-northernIreland-001",
-      "category": "northernIreland",
-      "headline": "Resident doctors begin 24-hour strike as Stormont budget row blocks pay award",
-      "subtitle": "BMA members walk out until 07:00 on Saturday after rejecting a 3.5% uplift, with consultants and specialists to follow on Monday and routine care cancelled",
-      "body": "Resident doctors in Northern Ireland began a 24-hour strike at 07:00 on Friday, their second walkout this year, after the British Medical Association rejected a recommended 3.5% pay rise. Emergency cover is being maintained, but routine and elective work is being disrupted across the health service.\n\nThe dispute is less about the size of the award than about the absence of a Stormont budget to fund it. Health Minister Robbie Butler said he remains committed to delivering the 3.5% recommended by the Doctors' and Dentists' Pay Review Body, and that he would do everything in his power to implement it this year, but that he cannot do so without an agreed budget.\n\nDr Steven Montgomery, chair of the BMA's Northern Ireland resident doctors committee, said doctors should not be striking a second time and that the issues behind June's action remain unresolved. Pay is eroding, he said, and that threatens efforts to keep young doctors in Northern Ireland. The BMA says it is willing to discuss how that erosion could be addressed.\n\nConsultants and specialist, associate specialist and specialty grade doctors will hold their own 24-hour action from 07:00 on Monday, providing Christmas Day cover. The minister has said more than 2,200 appointments were cancelled during June's strike, and that repeating it in winter carries real consequences for patients and waiting lists.",
-      "imageURL": "/images/2026-11-20-northernIreland-001.jpg",
-      "sources": [
-        {
-          "name": "BBC News NI",
-          "url": "https://www.bbc.co.uk/news/articles/cm3vgwxyxgk5o"
-        },
-        {
-          "name": "The Irish News",
-          "url": "https://www.irishnews.com/news/northern-ireland/hospital-doctors-in-northern-ireland-prepare-for-second-strike-this-year-2R6H33ZR6BAXHBS6EAROB3TQOM"
-        },
-        {
-          "name": "Belfast Telegraph",
-          "url": "https://www.belfasttelegraph.co.uk/news/northern-ireland/resident-doctors-to-stage-24-hour-strike-over-pay/a/164832275.html"
-        }
-      ],
-      "publishedAt": "2026-11-20T06:22:00Z"
-    },
-    {
-      "id": "2026-11-20-global-001",
-      "category": "global",
-      "headline": "Europe says it is ready to negotiate on Ukraine, but Putin sets his own terms",
-      "subtitle": "At a Berlin summit of Ukraine's allies, Merz rejects a 'Yalta-style' deal while Putin invites European envoys to Moscow, and Russian strikes damage two embassies in Kyiv",
-      "body": "European allies of Ukraine said at a summit in Berlin on Thursday that they are ready to negotiate an end to the war, and that they will not accept a settlement agreed over their heads. Germany's Friedrich Merz said Moscow's maximalist demands are not realistic and that a 'Yalta-style' format will not bring about peace, speaking hours after Trump, Putin and Xi met in Shenzhen.\n\nBritain's Andy Burnham said Europe had a clear, consistent and united negotiating position. The US envoys in Berlin included Jared Kushner, who said Trump wanted a deal with Moscow with Europe at his side. Trump dialled into the meeting from Air Force One on his way home from China, with Volodymyr Zelenskiy also in the room.\n\nVladimir Putin, speaking after the trilateral talks, said the Americans had insistently asked Russia to let the Europeans take part. He claimed Moscow was not opposed, but wanted to know what Europe would bring, and said European diplomats had been invited to Moscow to set out their positions before he decides on a format for talks with Kyiv.\n\nThe diplomacy ran alongside the fighting. Russian strikes on Kyiv killed one person and damaged the Dutch and Austrian embassies, according to French coverage of the attacks. Emmanuel Macron used the Berlin meeting to urge Ukraine's allies to reopen the question of NATO membership, an idea Washington has long resisted.",
-      "imageURL": "/images/2026-11-20-global-001.jpg",
-      "sources": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/ckzd9nln5e6go"
-        },
-        {
-          "name": "The Guardian",
-          "url": "https://www.theguardian.com/world/live/2026/nov/19/russia-ukraine-war-coalition-of-the-willing-europe-latest-news-updates"
-        },
-        {
-          "name": "France 24",
-          "url": "https://www.france24.com/en/europe/20261119-macron-urges-ukraine-allies-reopen-question-nato-membership"
-        },
-        {
-          "name": "France 24",
-          "url": "https://www.france24.com/en/russian-strikes-on-kyiv-kill-one-damage-dutch-and-austrian-embassies"
-        }
-      ],
-      "publishedAt": "2026-11-20T06:30:00Z"
-    },
-    {
-      "id": "2026-11-20-global-002",
-      "category": "global",
-      "headline": "UK and EU close in on post-Brexit reset with 100,000-a-year youth mobility deal",
-      "subtitle": "The scheme expected to be signed at Friday's Brussels summit would let young people work and study on both sides, alongside deals on food trade and carbon pricing",
-      "body": "British and EU negotiators provisionally agreed to let up to 100,000 EU citizens a year come to the UK under a new youth mobility scheme, with the same number of young Britons allowed into Europe, according to briefings ahead of Friday's summit in Brussels.\n\nThe deal is expected to be approved at the second EU-UK summit since Brexit, attended by Prime Minister Andy Burnham, European Commission president Ursula von der Leyen and European Council president António Costa. Negotiators were still working on food and farming rules late on Thursday, with both sides describing the talks as going down to the wire.\n\nThe EU dropped a last-minute demand that EU students pay home tuition fees at British universities; a supplementary agreement is meant to settle the detail within six months. A food and drink deal would cut Brexit red tape on meat, cheese, wine and flowers, but is not expected to take effect until 2028, and requires the UK to align with EU standards, including abandoning a planned foie gras ban.\n\nAlso on the table are a link between the British and EU emissions trading systems and a 'Channel action plan' on immigration. Conservative leader Kemi Badenoch accused Burnham of reopening the divisions of the 2016 referendum. The UK already has youth mobility arrangements with 13 non-EU countries, among them Australia, Canada and India.",
-      "imageURL": "/images/2026-11-20-global-002.jpg",
-      "sources": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c623j4kpg94go"
-        },
-        {
-          "name": "The Guardian",
-          "url": "https://www.theguardian.com/world/2026/nov/19/uk-eu-reset-talks-andy-burnham-food-farming-tuition-fees"
-        },
-        {
-          "name": "The Guardian",
-          "url": "https://www.theguardian.com/politics/2026/nov/19/eu-uk-summit-explainer-burnham-brexit-brussels"
-        }
-      ],
-      "publishedAt": "2026-11-20T06:32:00Z"
-    },
-    {
-      "id": "2026-11-20-global-003",
-      "category": "global",
-      "headline": "Trump, Putin and Xi sign a 'peace declaration' that says nothing about Ukraine",
-      "subtitle": "The first trilateral summit ends with pledges on nuclear war, oil supplies and UN reform, plus a warning to the ICC, but no reference to the wars in Ukraine or Iran",
-      "body": "Donald Trump, Vladimir Putin and Xi Jinping issued a joint declaration of peace after 90 minutes of talks in Shenzhen on the sidelines of the APEC summit. It was the first trilateral meeting between the three presidents, following one-to-one encounters earlier in Trump's trip.\n\nThe declaration says that nuclear war cannot be won and must never be fought, commits the three countries to increasing the production and supply of petroleum and to reforming the UN, and takes up the immunity of state officials, stating that the International Criminal Court and similar institutions must not abuse their jurisdiction.\n\nIt makes no mention of the wars in Ukraine or Iran, both of which involve signatories. Read as an outcome rather than a process, the meeting appeared to consolidate China's central position without producing binding agreements: El Mundo's correspondent wrote that Shenzhen was not Yalta, with no progress on nuclear arms control and Europe left outside the room.\n\nTrump called the trip 'great and highly consequential' in a post from Air Force One, and said he would hold a news conference at the White House on Friday. He had greeted Putin as his 'friend' in their first meeting since August 2025, before the three sat down together with Xi.",
-      "imageURL": "/images/2026-11-20-global-003.jpg",
-      "sources": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c623j4ln97x7o"
-        },
-        {
-          "name": "The Guardian",
-          "url": "https://www.theguardian.com/world/2026/nov/19/china-russia-us-agree-peace-statement-no-mention-ukraine-iran-wars"
-        },
-        {
-          "name": "El Mundo",
-          "url": "https://www.elmundo.es/internacional/2026/11/19/6afee137e9cf4a424e8b456d.html"
-        }
-      ],
-      "publishedAt": "2026-11-20T06:34:00Z"
-    },
-    {
-      "id": "2026-11-20-global-004",
-      "category": "global",
-      "headline": "Haiti police say 34 gang suspects killed in raid on Martissant stronghold",
-      "subtitle": "The operation on a key road out of Port-au-Prince used a task force that includes Erik Prince's private security firm, while Salvadoran troops stayed out of it",
-      "body": "Haiti's national police said at least 34 suspected gang members were killed on Thursday in an operation in Martissant, a district of Port-au-Prince that has been under gang control for more than five years.\n\nPolice published footage of armoured vehicles moving through the area and said the raid was carried out with an anti-gang task force that includes personnel from Vectus Global, the private security firm founded by Blackwater's Erik Prince. No other casualties were reported, and police said none of the roughly 2,500 Salvadoran troops in the country took part.\n\nMartissant sits on the main road linking the capital to Haiti's western and southern cities. Gangs have charged for passage or fired on cars since 2021, and the violence forced at least 19,000 people from their homes, according to a UN report in 2022. The UN-backed Gang Suppression Force said it was stepping up operations in Tabarre.\n\nEl Salvador's deployment began after four Salvadoran aviation technicians went missing in October. It has grown from a rescue mission into a broad military operation that has drawn large crowds in the capital, along with questions about whether civilians are any safer for it.",
-      "imageURL": "/images/2026-11-20-global-004.jpg",
-      "sources": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/11/19/haiti-police-say-at-least-34-suspected-gang-members-killed-in-raid"
-        },
-        {
-          "name": "France 24",
-          "url": "https://www.france24.com/en/americas/20261119-major-anti-gang-offensive-in-haiti-kills-34-suspected-gang-members"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/11/19/why-are-bukeles-salvadoran-troops-in-haiti-and-what-have-they-achieved"
-        }
-      ],
-      "publishedAt": "2026-11-20T06:36:00Z"
-    },
-    {
-      "id": "2026-11-20-tech-001",
-      "category": "tech",
-      "headline": "A week of US outages ends with the national cyber director out of a job",
-      "subtitle": "Apple Pay, the FAA, NASA, Chase and Microsoft all failed within days. Officials deny any attack, but the White House has removed its top cyber official",
-      "body": "In the space of a week, some of the systems that run ordinary American life stopped working. Apple Pay went down, NASA's internal communications network failed, Microsoft lost Outlook, Teams and Copilot for nearly two days, and the Federal Aviation Administration grounded flights for hours, only the third time it has done so since 2001.\n\nChase and United were hit too, according to Wired, and the clustering pushed officials into an unusual round of public reassurance. The director of national intelligence said the failures did not appear to be state-sponsored, and President Trump described them as individual events. The companies involved have mostly blamed technical faults rather than attacks.\n\nBy Friday the political cost had landed: the White House fired its national cyber director, France 24 reported, over the handling of the outages.\n\nNot everyone accepts the official account. Security researchers point out that the incidents followed 'Black October', a run of unrelated vulnerabilities disclosed on 21 October affecting PHP, Node.js and LiteLLM, and argue that a handful of unconnected failures arriving together is itself worth investigating. Several outlets have noted that the public's first instinct, an AI-driven attack, has not been ruled out in detail.",
-      "imageURL": "/images/2026-11-20-tech-001.jpg",
-      "sources": [
-        {
-          "name": "TechCrunch",
-          "url": "https://techcrunch.com/2026/11/19/these-tech-outages-are-giving-y2k-ai-agent-style/"
-        },
-        {
-          "name": "Wired",
-          "url": "https://www.wired.com/story/uncanny-valley-podcast-whats-with-all-these-outages/"
-        },
-        {
-          "name": "France 24",
-          "url": "https://www.france24.com/en/americas/20261120-white-house-fires-national-cyber-director-over-widespread-outages"
-        }
-      ],
-      "publishedAt": "2026-11-20T06:42:00Z"
-    },
-    {
-      "id": "2026-11-20-tech-002",
-      "category": "tech",
-      "headline": "Nvidia's interim chief promises pay rises weeks after Jensen Huang's exit",
-      "subtitle": "Colette Kress addressed staff for the first time since the founder resigned, with compensation and board transparency dominating the questions employees submitted",
-      "body": "Nvidia's interim chief executive, Colette Kress, used her first companywide address on Wednesday to tell staff they can expect pay rises and more equity in December, months ahead of schedule. She was speaking to employees a week after Jensen Huang resigned as CEO of the company he co-founded 33 years ago.\n\nAccording to remarks reviewed by Wired, Kress said the priority was making staff feel secure about their compensation. Of the 700 questions submitted before the meeting, pay was the most common subject, and the second most common was a demand for transparency from the board.\n\nHuang's departure followed allegations that have not been detailed publicly by the company, and Nvidia declined to comment. The company now faces a leadership crisis while running the most valuable chip business in the world and reporting its first results without him.\n\nKress also published a public note insisting the company has the situation in hand, in a week when Nvidia's share price swung sharply. Analysts have spent the week arguing over whether the resignation changes the company's position in AI accelerators, or whether the machine he built keeps running without him.",
-      "imageURL": "/images/2026-11-20-tech-002.jpg",
-      "sources": [
-        {
-          "name": "Wired",
-          "url": "https://www.wired.com/story/inside-nvidias-first-all-hands-without-jensen-huang-as-ceo/"
-        },
-        {
-          "name": "Wired",
-          "url": "https://www.wired.com/story/guys-really-we-got-this/"
-        },
-        {
-          "name": "The Verge",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1038063/nvidia-stock-market-price-earnings"
-        }
-      ],
-      "publishedAt": "2026-11-20T06:44:00Z"
-    },
-    {
-      "id": "2026-11-20-tech-003",
-      "category": "tech",
-      "headline": "PostgreSQL 19 ships two months late, with a fix for stale reads on replicas",
-      "subtitle": "The release adds WAIT FOR LSN so a standby can wait for the write it has just missed, plus built-in table-bloat cleanup, after a delay blamed on a flood of AI-found bugs",
-      "body": "PostgreSQL 19 is out, two months later than the usual September release. The project's own explanation, relayed by Simon Willison, is the flurry of issues the team had to work through during what he calls the ongoing AI-reported vulnerability apocalypse.\n\nThe feature he singles out is a fix for a long-standing annoyance in read-scaling setups. Applications that send reads to standbys can now ask for read-your-writes consistency with a new WAIT FOR LSN command: a session checks the write-ahead log position it needs, then waits until the replica has replayed up to that point before running its query, with an optional timeout that errors out if the standby falls behind.\n\nThe release also brings repack, a built-in way to clean up table bloat without the locking that made the old approaches painful, and managed providers have moved quickly: both Neon and Databricks' Lakebase are already offering version 19.\n\nFor teams running Postgres behind a read replica, the LSN wait is the change most likely to remove application-level workarounds that have been copied from project to project for years.",
-      "imageURL": "/images/2026-11-20-tech-003.jpg",
-      "sources": [
-        {
-          "name": "PostgreSQL",
-          "url": "https://www.postgresql.org/docs/release/19.0/"
-        },
-        {
-          "name": "Simon Willison",
-          "url": "https://simonwillison.net/2026/Nov/19/postgresql-19/"
-        },
-        {
-          "name": "Databricks",
-          "url": "https://www.databricks.com/blog/postgresql-19-available-lakebase"
-        }
-      ],
-      "publishedAt": "2026-11-20T06:46:00Z"
-    },
-    {
-      "id": "2026-11-20-tech-004",
-      "category": "tech",
-      "headline": "Google ships a Mac agent, and Apple advertises for one of its own",
-      "subtitle": "Gemini can now drive native Mac apps in the background, while a job listing suggests Apple wants an agent that browses, codes and calls services on its own",
-      "body": "Google said on Thursday that its Gemini desktop app for macOS can now use the computer on the user's behalf, navigating native Mac applications and browsing websites in the background while the work shows in a live preview in the chat window. It is the same 'computer use' pattern that OpenAI, Anthropic and Meta have already shipped in their desktop clients.\n\nThe launch lands alongside a wider Gemini push: Google this week began rolling out Tasks, which lets the assistant sign into websites, make purchases or book appointments, and it has been admitting early testers to CC, an agent announced in September for organising family email, calendars and chats.\n\nApple appears to be heading the same way. Bloomberg spotted a job listing for a senior engineering manager to oversee an 'AI agent that can use a computer', with a description promising an agent that browses the web, works across apps, runs commands, writes and debugs code, and picks the right tool at each step, privately.\n\nApple did not respond to a request for comment. The listing is the clearest signal yet that the company intends to compete with Meta's Muse, Anthropic's Claude and OpenAI's agents on the desktop rather than only inside its own apps.",
-      "imageURL": "/images/2026-11-20-tech-004.jpg",
-      "sources": [
-        {
-          "name": "TechCrunch",
-          "url": "https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/"
-        },
-        {
-          "name": "TechCrunch",
-          "url": "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/"
-        },
-        {
-          "name": "The Verge",
-          "url": "https://www.theverge.com/tech/1038227/apple-ai-agent-engineer-job-listing"
-        }
-      ],
-      "publishedAt": "2026-11-20T06:48:00Z"
-    },
-    {
-      "id": "2026-11-20-tech-005",
-      "category": "tech",
-      "headline": "Meta's $300 Muse Charm nears launch as its agent is accused of mixing up chats",
-      "subtitle": "The Information reports a screen-equipped wearable for talking to Meta's assistant, and a second report says the agent has crossed conversations and exposed private data",
-      "body": "Meta is preparing to sell the Muse Charm, a small screen-equipped device for talking to its Muse AI agent, at about $300, according to reporting by The Information picked up by TechCrunch and The Verge. Meta has not denied the price, saying only that it will have more to share soon about the wearable.\n\nThe same week brought a less flattering report about the software the gadget depends on. According to TechCrunch, the Muse agent has been mixing up conversations between users and could be exposing private data, a problem that matters more for a device designed to sit in a pocket or on a desk and listen.\n\nMeta has spent the past year pushing Muse from a chatbot into a personal assistant that spans its apps, and hardware would give it a reason for people to keep it open. A $300 price puts the Charm in the same territory as earbuds and smart speakers rather than phones.\n\nNeither claim is confirmed by the company, and the privacy report is based on a single account. Both point at the same risk for the product line: an assistant that knows your messages is only as good as its ability to keep them apart.",
-      "imageURL": "/images/2026-11-20-tech-005.jpg",
-      "sources": [
-        {
-          "name": "TechCrunch",
-          "url": "https://techcrunch.com/2026/11/19/metas-new-muse-charm-device-may-cost-300/"
-        },
-        {
-          "name": "The Verge",
-          "url": "https://www.theverge.com/tech/1038087/meta-muse-charm-ai-price"
-        },
-        {
-          "name": "TechCrunch",
-          "url": "https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says/"
-        }
-      ],
-      "publishedAt": "2026-11-20T06:50:00Z"
-    },
-    {
-      "id": "2026-11-20-ai-001",
-      "category": "ai",
-      "headline": "Anthropic opens at $111 in the first listing of a pure AI company",
-      "subtitle": "Shares opened a third above the $83 IPO price, valuing the company near $2tn, but Asian markets fell as the debut failed to settle fears of an AI bubble",
-      "body": "Anthropic began trading on the Nasdaq on Thursday at $111, 33% above the $83 price set for its initial public offering, in the first listing of a company whose entire business is AI. The IPO raised more than $80bn in new capital, and the opening put the company's valuation near $2tn.\n\nIt is a test the industry has not run before. BBC News described Anthropic as the first purely AI company to be publicly listed, which makes its share price the closest thing investors have to a daily verdict on the sector's promises. Its seven founders cashed out close to $2bn in the process, according to TechCrunch.\n\nThe wider market did not take the debut as reassurance. Asian stock markets fell on Friday as the float failed to revive appetite for AI shares, Al Jazeera reported, with investors treating a strong first day as a statement about Anthropic rather than about the industry.\n\nAnthropic has spent the past year arguing publicly for a slower, more measured pace of development than its rivals. Its chief executive repeated that commitment at the opening bell, a position that now has to survive quarterly reporting.",
-      "imageURL": "/images/2026-11-20-ai-001.jpg",
-      "sources": [
-        {
-          "name": "TechCrunch",
-          "url": "https://techcrunch.com/2026/11/19/anthropic-hits-nasdaq-exchanges-at-110-27-above-ipo-price/"
-        },
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c3x29ggenz12o"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/economy/2026/11/20/asias-stock-markets-dive-as-anthropic-debut-fails-to-allay-ai-bubble-fears"
-        }
-      ],
-      "publishedAt": "2026-11-20T06:54:00Z"
-    },
-    {
-      "id": "2026-11-20-ai-002",
-      "category": "ai",
-      "headline": "California investigates Nvidia over China chip sales as Washington clears 900,000 exports",
-      "subtitle": "The probe by the state where the chipmaker is based follows Jensen Huang's departure, and lands alongside figures showing how much AI hardware still reaches China",
-      "body": "California has opened an investigation into Nvidia's sales of AI chips to China, according to BBC News, targeting the company in the state where it has its global headquarters. The timing matters: it follows the resignation of Jensen Huang, who built Nvidia into the central supplier of the AI boom.\n\nThe probe lands next to an awkward set of numbers. Al Jazeera reported that the US government signed off on sales of nearly 900,000 AI chips to China in six months, a figure that complicates the political story of tightening export controls. Both stories describe a policy that is being enforced through licences and state-level scrutiny rather than a simple ban.\n\nWired's framing is blunter: the American chip war, it argues, is heating up in the dumbest possible ways, with the fight moving between Washington, Sacramento and the company itself while the hardware keeps shipping.\n\nFor Nvidia's interim leadership, the practical question is whether a state inquiry becomes a drag on the business at the exact moment investors are deciding how much of the company's value depended on the man who ran it.",
-      "imageURL": "/images/2026-11-20-ai-002.jpg",
-      "sources": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cqn70vxp5p4no"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/economy/2026/11/19/us-signed-off-on-sales-of-nearly-900000-ai-chips-to-china-in-six-months"
-        },
-        {
-          "name": "Wired",
-          "url": "https://www.wired.com/story/the-ai-chip-war-meets-the-jensen-huang-affair/"
-        }
-      ],
-      "publishedAt": "2026-11-20T06:56:00Z"
-    },
-    {
-      "id": "2026-11-20-ai-003",
-      "category": "ai",
-      "headline": "IEA warns data centre emissions will rise 70% by 2030 as Meta reviews its climate goals",
-      "subtitle": "The agency's report lands as Meta reconsiders a 2030 target and an Australian operator promises to keep future data centres away from homes after a local backlash",
-      "body": "Data centres will produce 70% more carbon emissions by 2030, according to a report from the International Energy Agency reported by The Guardian, as the build-out demanded by AI training and inference outpaces the greening of electricity supply.\n\nThe corporate response is already visible. Al Jazeera reported that Meta is rethinking its 2030 climate goals as AI data centres drive its emissions up, a shift for a company that once set some of the most aggressive targets in the sector.\n\nOpposition is forming at the local level too. NextDC, an Australian operator, vowed to keep future data centres away from homes after community backlash in Melbourne, according to The Guardian, a promise that concedes the political cost of siting large facilities near the people who have to live beside them.\n\nThe three stories describe the same squeeze from different ends: demand for compute is rising faster than the industry's ability to power it cleanly, and the costs are landing on electricity grids and neighbourhoods rather than on the model providers booking the revenue.",
-      "imageURL": "/images/2026-11-20-ai-003.jpg",
-      "sources": [
-        {
-          "name": "The Guardian",
-          "url": "https://www.theguardian.com/world/2026/nov/19/datacentres-to-create-70-more-carbon-emissions-by-2030-iea-report-warns"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/11/20/meta-rethinks-2030-climate-goals-as-ai-data-centres-drive-emissions-up"
-        },
-        {
-          "name": "The Guardian",
-          "url": "https://www.theguardian.com/australia-news/2026/nov/20/nextdc-vows-to-keep-future-datacentres-away-from-homes-after-community-backlash-in-melbourne"
-        }
-      ],
-      "publishedAt": "2026-11-20T06:58:00Z"
-    },
-    {
-      "id": "2026-11-20-ai-004",
-      "category": "ai",
-      "headline": "Google releases Gemini 4 Neon, its fourth model in seven weeks",
-      "subtitle": "Neon tops one independent coding agent index and lands third on the intelligence ranking, at $3 per million input tokens and about 17% cheaper per task than Carbon",
-      "body": "Google released Gemini 4 Neon on Thursday, the fourth model from its DeepMind unit in seven weeks and the middle tier between Carbon and Hydrogen. It arrives with a 1 million token context window and prices of $3 per million input tokens and $15 per million output.\n\nIndependent evaluation puts it near the front rather than at it. Artificial Analysis scores Neon at 61 on its intelligence index, one point above Carbon and third overall behind GPT-6.2 Astra and Claude Fable 5.2, while Google claims first place on the firm's coding agent index at 58.6. Artificial Analysis measures the same index at 59 with Google's Antigravity command line, three points above Carbon and level with Claude Opus 5.5 and Fable 5.2.\n\nThe interesting number is cost per task. Artificial Analysis puts Neon at about $6.44 per task, roughly 17% below Carbon and far below the $12.61 it records for Opus 5.5 and $15.47 for Fable 5.2, with a third less time per task. Google's own benchmarks claim 65.2% on Terminal-Bench 4.1 and first place on Andon Labs' Vending-Bench 2.\n\nThe practical read is a price war at the top of the market rather than a new ceiling: comparable capability, delivered faster and cheaper, weeks after the previous model shipped.",
-      "imageURL": "/images/2026-11-20-ai-004.jpg",
-      "sources": [
-        {
-          "name": "Google",
-          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon"
-        },
-        {
-          "name": "Artificial Analysis",
-          "url": "https://artificialanalysis.ai/articles/gemini-4-neon-intelligence-gain"
-        },
-        {
-          "name": "Hacker News discussion",
-          "url": "https://news.ycombinator.com/item?id=50568130"
-        }
-      ],
-      "publishedAt": "2026-11-20T07:00:00Z"
+      "publishedAt": "2026-11-23T06:25:00Z",
+      "imageURL": "/images/2026-11-23-local-001.jpg"
     }
   ]
 }

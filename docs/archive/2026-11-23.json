@@ -1,0 +1,71 @@
+{
+  "generatedAt": "2026-11-23T06:30:03Z",
+  "config": {
+    "sections": {
+      "local": {
+        "min": 1,
+        "max": 3,
+        "sources": [
+          {
+            "name": "El Progreso",
+            "url": "https://www.elprogreso.es"
+          },
+          {
+            "name": "GCDiario",
+            "url": "https://gcdiario.com"
+          }
+        ]
+      },
+      "national": {
+        "min": 3,
+        "max": 5,
+        "sources": []
+      },
+      "northernIreland": {
+        "min": 1,
+        "max": 1,
+        "sources": []
+      },
+      "global": {
+        "min": 4,
+        "max": 8,
+        "sources": []
+      },
+      "tech": {
+        "min": 5,
+        "max": 5,
+        "sources": []
+      },
+      "ai": {
+        "min": 4,
+        "max": 7,
+        "sources": []
+      }
+    }
+  },
+  "articles": [
+    {
+      "id": "2026-11-23-local-001",
+      "category": "local",
+      "headline": "Ribeira de Piquín lleva a pleno 2,3 millones para 2027, unos 4.500 euros por vecino",
+      "subtitle": "El Concello y la fundación Terreo elevan este martes unas cuentas que dedican el 68% del presupuesto municipal a personal y reservan 106.000 euros para una cocina comunitaria en el centro de día.",
+      "body": "Ribeira de Piquín, con 546 habitantes reconocidos por el Instituto Galego de Estatística —y menos de medio millar reales, porque aún no se han dado de baja los refugiados—, llevará este martes a pleno un presupuesto de 2.289.870,39 euros para 2027. Sumando el Concello y la fundación municipal Terreo, las cuentas rondan los 4.500 euros por vecino, una cifra que se explica por el peso del empleo público en un municipio de esta tamaño.\n\nEl Concello maneja 1.184.332,76 euros. De esa cantidad, 766.000 —casi el 68%— van a personal: 25 trabajadores de oficinas, servicios sociales, centro de día y obras, a los que se suman 24 del taller de empleo que coordina el Ayuntamiento. Servicios Sociales se lleva unos 370.000 euros y el capítulo de gasto corriente se queda en 203.657,85. Las inversiones apenas pasan de 195.000 euros.\n\n## Terreo, la piscifactoría como motor\n\nLa fundación Terreo, que gestiona la piscifactoría de Santalla, la cría de porco celta, la gasolinera y varios cultivos, contará con 1.105.537,63 euros. Destina el 30% a una plantilla de una docena de personas, alrededor de medio millón a bienes corrientes y servicios y 200.000 a un obrador comunitario.\n\nDel lado municipal, la inversión más visible es una cocina comunitaria de 106.000 euros en un local que estaba sin uso en el edificio del centro de día. A pavimentaciones se reservan 45.000 euros y a la red de aguas, 40.000.\n\nEl pleno extraordinario está fijado para las 14.30 horas de este martes. La corporación municipal la forman seis ediles del PSOE y uno del PP, y el orden del día incluye además una solicitud de bonificaciones del impuesto de bienes inmuebles.",
+      "sources": [
+        {
+          "name": "El Progreso",
+          "url": "https://www.elprogreso.es/a-chaira/4500-euros-presupuesto-vecino-ribeira-piquin/202611230502042015802.html"
+        },
+        {
+          "name": "El Progreso",
+          "url": "https://www.elprogreso.es/articulo/a-chaira/aprobado-presupuesto-2-millones-concello-fundacion-terreo/202511261651351927043.html"
+        },
+        {
+          "name": "GCDiario",
+          "url": "https://gcdiario.com/politica/379742-la-diputacion-de-lugo-aportara-100-000-euros-hasta-2027-a-la-fundacion-terreo-del-ayuntamiento-de-ribeira-de-piquin"
+        }
+      ],
+      "publishedAt": "2026-11-23T06:25:00Z",
+      "imageURL": "/images/2026-11-23-local-001.jpg"
+    }
+  ]
+}
