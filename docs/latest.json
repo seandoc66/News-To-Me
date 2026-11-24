@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-23T06:30:03Z",
+  "generatedAt": "2026-11-24T05:05:37Z",
   "config": {
     "sections": {
       "local": {
@@ -8,64 +8,556 @@
         "sources": [
           {
             "name": "El Progreso",
-            "url": "https://www.elprogreso.es"
+            "url": "https://www.elprogreso.es/lugo/son-segundos-que-da-tiempo-reaccionar-cuenta-victima-robo-lugo-mataleon/202611240500002016131.html"
           },
           {
-            "name": "GCDiario",
-            "url": "https://gcdiario.com"
+            "name": "COPE Lugo",
+            "url": "https://www.cope.es/emisoras/galicia/lugo-provincia/lugo/noticias/detienen-dos-personas-lugo-robar-hombre-tecnica-mataleon-20261123_3480386.html"
+          },
+          {
+            "name": "El Debate",
+            "url": "https://www.eldebate.com/espana/galicia/20261123/dos-detenidos-lugo-violento-asalto-hombre-robaron-dos-carteras-tecnica-mataleon_484063.html"
           }
         ]
       },
       "national": {
         "min": 3,
         "max": 5,
-        "sources": []
+        "sources": [
+          {
+            "name": "Europa Press",
+            "url": "https://www.europapress.es/nacional/noticia-pp-carga-contra-complices-gobierno-psoe-erc-frente-amplio-arremeten-contra-populares-20261123234645.html"
+          },
+          {
+            "name": "El Mundo",
+            "url": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/23/6b0499d9fc6c836d468b459f.html"
+          },
+          {
+            "name": "20minutos",
+            "url": "https://www.20minutos.es/nacional/bipartidismo-apela-voto-util-recta-final-campana-entre-criticas-vox-frente-amplio-podemos_7064736_0.html"
+          },
+          {
+            "name": "RTVE",
+            "url": "https://www.rtve.es/noticias/20261124/gobierno-aprueba-ampliacion-permiso-fallecimiento-diez-dias/17327682.shtml"
+          }
+        ]
       },
       "northernIreland": {
         "min": 1,
         "max": 1,
-        "sources": []
+        "sources": [
+          {
+            "name": "BBC News NI",
+            "url": "https://www.bbc.co.uk/news/articles/crgj38nlj45wo"
+          },
+          {
+            "name": "BBC News NI",
+            "url": "https://www.bbc.co.uk/news/articles/cx30e0m9gy31o"
+          },
+          {
+            "name": "BBC News NI",
+            "url": "https://www.bbc.co.uk/news/articles/cq3djd78j37no"
+          }
+        ]
       },
       "global": {
         "min": 4,
         "max": 8,
-        "sources": []
+        "sources": [
+          {
+            "name": "BBC News",
+            "url": "https://www.bbc.co.uk/news/articles/c9x2er1ry2mzo"
+          },
+          {
+            "name": "France 24",
+            "url": "https://www.france24.com/en/nato-vows-space-defence-after-russia-nuclear-satellite-report"
+          },
+          {
+            "name": "NPR",
+            "url": "https://www.npr.org/2026/11/23/nx-s1-6051013/russian-incursions-into-nato-territory-are-increasing"
+          },
+          {
+            "name": "GOV.UK",
+            "url": "https://www.gov.uk/government/news/uk-leads-global-action-with-major-new-measures-against-myanmar-military-following-landmark-genocide-judgment"
+          }
+        ]
       },
       "tech": {
         "min": 5,
         "max": 5,
-        "sources": []
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/11/23/crowdstrike-to-acquire-zscaler-for-44-billion/"
+          },
+          {
+            "name": "AP",
+            "url": "https://apnews.com/article/crowdstrike-zscaler-cybersecurity-ai-artificial-intelligence-cf5a66aaa14f98763eabfb767ff8727c"
+          },
+          {
+            "name": "Infosecurity Magazine",
+            "url": "https://www.infosecurity-magazine.com/news/crowdstrike-to-acquire-zscaler"
+          },
+          {
+            "name": "The Verge",
+            "url": "https://www.theverge.com/tech/1040872/ladybird-indie-browser-engine-alpha-testing"
+          }
+        ]
       },
       "ai": {
         "min": 4,
         "max": 7,
-        "sources": []
+        "sources": [
+          {
+            "name": "France 24",
+            "url": "https://www.france24.com/en/americas/20261123-nvidia-board-reinstates-disgraced-jensen-huang-as-ceo-president-says"
+          },
+          {
+            "name": "BBC News",
+            "url": "https://www.bbc.co.uk/news/articles/cq5y1k8ez407o"
+          },
+          {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/economy/2026/11/24/us-adds-megaspeed-firm-at-centre-of-nvidia-scandal-to-export-control-list"
+          },
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/"
+          }
+        ]
       }
     }
   },
   "articles": [
     {
-      "id": "2026-11-23-local-001",
+      "id": "2026-11-24-local-001",
       "category": "local",
-      "headline": "Ribeira de Piquín lleva a pleno 2,3 millones para 2027, unos 4.500 euros por vecino",
-      "subtitle": "El Concello y la fundación Terreo elevan este martes unas cuentas que dedican el 68% del presupuesto municipal a personal y reservan 106.000 euros para una cocina comunitaria en el centro de día.",
-      "body": "Ribeira de Piquín, con 546 habitantes reconocidos por el Instituto Galego de Estatística —y menos de medio millar reales, porque aún no se han dado de baja los refugiados—, llevará este martes a pleno un presupuesto de 2.289.870,39 euros para 2027. Sumando el Concello y la fundación municipal Terreo, las cuentas rondan los 4.500 euros por vecino, una cifra que se explica por el peso del empleo público en un municipio de esta tamaño.\n\nEl Concello maneja 1.184.332,76 euros. De esa cantidad, 766.000 —casi el 68%— van a personal: 25 trabajadores de oficinas, servicios sociales, centro de día y obras, a los que se suman 24 del taller de empleo que coordina el Ayuntamiento. Servicios Sociales se lleva unos 370.000 euros y el capítulo de gasto corriente se queda en 203.657,85. Las inversiones apenas pasan de 195.000 euros.\n\n## Terreo, la piscifactoría como motor\n\nLa fundación Terreo, que gestiona la piscifactoría de Santalla, la cría de porco celta, la gasolinera y varios cultivos, contará con 1.105.537,63 euros. Destina el 30% a una plantilla de una docena de personas, alrededor de medio millón a bienes corrientes y servicios y 200.000 a un obrador comunitario.\n\nDel lado municipal, la inversión más visible es una cocina comunitaria de 106.000 euros en un local que estaba sin uso en el edificio del centro de día. A pavimentaciones se reservan 45.000 euros y a la red de aguas, 40.000.\n\nEl pleno extraordinario está fijado para las 14.30 horas de este martes. La corporación municipal la forman seis ediles del PSOE y uno del PP, y el orden del día incluye además una solicitud de bonificaciones del impuesto de bienes inmuebles.",
+      "headline": "Cuatro robos con mataleón en dos semanas en Lugo, con las cadenas de oro como botín",
+      "subtitle": "Un sindicalista de UGT perdió el sábado en el barrio Feijoo una cadena de 700 euros; la Policía detuvo a dos jóvenes por un asalto idéntico en Camiño Real",
+      "body": "Un joven abordó por la espalda al secretario de la federación de industria de UGT en Lugo, Carlos García, el sábado por la noche en el barrio Feijoo, le apretó el cuello y, cuando ambos cayeron al suelo forcejeando, le arrancó la cadena de oro. No le quitó la cartera ni el teléfono. La joya, un regalo de su madre con su nombre y los dos antibióticos a los que es alérgico, está valorada en 700 u 800 euros.\n\n«No te lo esperas. Te pilla de improviso. Son segundos, en los que no te da tiempo a reaccionar», explicó la víctima, que denunció en comisaría. El asaltante, que le dijo «dame la cadena, cabrón», era un joven de entre 20 y 25 años, delgado, con acento extranjero, gorra y capucha. Una hora y media antes, otro vecino sufrió un intento de asalto con la misma técnica en la cercana calle Ramiro Rueda, frustrado por varios transeúntes.\n\nEl mataleón consiste en inmovilizar a la víctima por el cuello desde atrás hasta dejarla sin sentido y despojarla de sus objetos de valor. La Policía Nacional detuvo hace dos semanas a dos jóvenes por un asalto así de madrugada en Camiño Real, donde robaron dos carteras con dinero y documentación; quedaron en libertad con medidas cautelares. Los agentes los identificaron gracias a las cámaras que el Concello instaló en A Milagrosa, por ahora limitadas al control de tráfico.",
       "sources": [
         {
           "name": "El Progreso",
-          "url": "https://www.elprogreso.es/a-chaira/4500-euros-presupuesto-vecino-ribeira-piquin/202611230502042015802.html"
+          "url": "https://www.elprogreso.es/lugo/son-segundos-que-da-tiempo-reaccionar-cuenta-victima-robo-lugo-mataleon/202611240500002016131.html"
         },
         {
-          "name": "El Progreso",
-          "url": "https://www.elprogreso.es/articulo/a-chaira/aprobado-presupuesto-2-millones-concello-fundacion-terreo/202511261651351927043.html"
+          "name": "COPE Lugo",
+          "url": "https://www.cope.es/emisoras/galicia/lugo-provincia/lugo/noticias/detienen-dos-personas-lugo-robar-hombre-tecnica-mataleon-20261123_3480386.html"
         },
         {
-          "name": "GCDiario",
-          "url": "https://gcdiario.com/politica/379742-la-diputacion-de-lugo-aportara-100-000-euros-hasta-2027-a-la-fundacion-terreo-del-ayuntamiento-de-ribeira-de-piquin"
+          "name": "El Debate",
+          "url": "https://www.eldebate.com/espana/galicia/20261123/dos-detenidos-lugo-violento-asalto-hombre-robaron-dos-carteras-tecnica-mataleon_484063.html"
         }
       ],
-      "publishedAt": "2026-11-23T06:25:00Z",
-      "imageURL": "/images/2026-11-23-local-001.jpg"
+      "publishedAt": "2026-11-24T06:05:00Z",
+      "imageURL": "/images/2026-11-24-local-001.jpg"
+    },
+    {
+      "id": "2026-11-24-national-001",
+      "category": "national",
+      "headline": "El PP acusa al Gobierno de tener «cómplices» y las izquierdas cierran filas en el debate a ocho",
+      "subtitle": "Los ocho portavoces con grupo parlamentario se midieron en RTVE a seis días del 29N, entre reproches sobre pensiones, vivienda y el uso del voto útil",
+      "body": "La portavoz del PP en el Congreso, Ester Muñoz, abrió el debate electoral de RTVE acusando al Gobierno y a sus «cómplices» parlamentarios de ser responsables de los problemas económicos de los españoles. «Los españoles que nos están viendo no dan crédito al Gobierno y a sus cómplices al oírles hablar como si viviéramos en Suiza», dijo, antes de reprochar a Gabriel Rufián haber apoyado «todas y cada una de las leyes del Partido Socialista».\n\nPatxi López (PSOE), Rufián (ERC) y Emilio Delgado (Frente Amplio) unieron fuerzas contra los populares. López ironizó con que Muñoz hacía campaña por el PSOE, le recordó que el PP votó cuatro veces contra la revalorización de las pensiones y sostuvo que «ser de izquierda siempre ha sido mucho más difícil que ser de derechas». Rufián reprochó al PP su respaldo a Carlos Mazón tras la dana y reclamó inversión masiva en Cercanías, «el tren del pueblo».\n\n## «Tengo para todos»\n\nEl intercambio más tenso llegó cuando Muñoz replicó «tranquilos, vengan de uno en uno que tengo para todos» y Rufián la llamó «Braveheart de Temu». El formato reunió a las ocho formaciones con grupo propio en el Congreso, con una traductora, en un plató de Pozuelo de Alarcón.\n\nEl debate dejó también el marco de la recta final: PP y Vox presentaron a los socios del PSOE como «cómplices», mientras PSOE, ERC y Frente Amplio se conjuraron para que la derecha no vuelva a La Moncloa. Las encuestas publicadas el lunes dibujan un empate entre bloques a seis días del voto.",
+      "sources": [
+        {
+          "name": "Europa Press",
+          "url": "https://www.europapress.es/nacional/noticia-pp-carga-contra-complices-gobierno-psoe-erc-frente-amplio-arremeten-contra-populares-20261123234645.html"
+        },
+        {
+          "name": "20minutos",
+          "url": "https://www.20minutos.es/nacional/bipartidismo-apela-voto-util-recta-final-campana-entre-criticas-vox-frente-amplio-podemos_7064736_0.html"
+        },
+        {
+          "name": "El Mundo",
+          "url": "https://www.elmundo.es/espana/2026/11/24/6b04cd7ae4d4d845488b4597.html"
+        }
+      ],
+      "publishedAt": "2026-11-24T06:06:00Z",
+      "imageURL": "/images/2026-11-24-national-001.jpg"
+    },
+    {
+      "id": "2026-11-24-national-002",
+      "category": "national",
+      "headline": "El CIS da al PSOE casi diez puntos de ventaja sobre el PP en la recta final del 29N",
+      "subtitle": "El barómetro, difundido el último día legal antes del voto, otorga un 34,4% al PSOE y un 24,7% al PP; los populares lo califican de «golpe» y las encuestas privadas ven empate",
+      "body": "El Centro de Investigaciones Sociológicas publicó este lunes su barómetro de noviembre, el último sondeo difundido antes de las elecciones del 29N, con una estimación de voto del 34,4% para el PSOE y del 24,7% para el PP. La ventaja socialista queda en 9,7 puntos, mayor que la de la macroencuesta de precampaña (7,8) y menor que la del barómetro de octubre (11,8).\n\nVox cae por primera vez en meses, hasta el 15,6%, frente al 18,4% de la macroencuesta. Frente Amplio baja del 6,1% al 5,7% y Se Acabó la Fiesta retiene un 1,8%. El reparto deja un empate técnico entre bloques: 40,3% para PP y Vox y 40,1% para PSOE y Frente Amplio. El trabajo de campo, con 8.000 entrevistas telefónicas, se realizó entre el 10 y el 17 de noviembre, tras la tragedia de Urda y la dimisión de Óscar Puente.\n\n## La reacción\n\nEl PP anunció que será «uno de los primeros» en destituir a José Félix Tezanos si llega al poder. El Mundo sostiene que el CIS augura al PSOE más apoyo que la encuesta privada más favorable y al PP menos que la más desfavorable, y atribuye el resultado al sesgo de una muestra en la que casi el 40% de los encuestados dice haber votado al PSOE en 2023.\n\nPese al dato, un 55,4% de los entrevistados cree que las elecciones las ganará el PP. Las encuestas privadas que manejan los partidos sitúan la lucha por La Moncloa en un margen mucho más estrecho, y ambos bloques centraron la jornada en apelar al «voto útil» para captar indecisos.",
+      "sources": [
+        {
+          "name": "Europa Press",
+          "url": "https://www.europapress.es/nacional/noticia-cis-situa-psoe-diez-puntos-encima-pp-mientras-bajan-vox-frente-amplio-20261123121531.html"
+        },
+        {
+          "name": "El Mundo",
+          "url": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/23/6b0499d9fc6c836d468b459f.html"
+        },
+        {
+          "name": "20minutos",
+          "url": "https://www.20minutos.es/nacional/bipartidismo-apela-voto-util-recta-final-campana-entre-criticas-vox-frente-amplio-podemos_7064736_0.html"
+        }
+      ],
+      "publishedAt": "2026-11-24T06:07:00Z",
+      "imageURL": "/images/2026-11-24-national-002.jpg"
+    },
+    {
+      "id": "2026-11-24-national-003",
+      "category": "national",
+      "headline": "El Gobierno aprueba este martes el permiso de diez días por el fallecimiento de un familiar",
+      "subtitle": "El real decreto-ley llega al último Consejo de Ministros antes del 29N: el permiso pasa de dos días a diez laborables y se añade uno para acompañar en la eutanasia",
+      "body": "El Consejo de Ministros aprobará este martes un real decreto-ley que eleva a diez días laborables el permiso por fallecimiento del cónyuge, pareja de hecho, padres o hijos, frente a los dos días actuales, ampliables a cuatro con desplazamiento. La nueva licencia se llamará «permiso por duelo en caso de fallecimiento» y podrá disfrutarse en las cuatro semanas posteriores a la pérdida.\n\nLa norma también sube a tres días laborables el permiso por muerte de familiares hasta el segundo grado —hermanos, abuelos, nietos, suegros o cuñados—, ampliable en dos más si hay desplazamiento. Además, permitirá reducir o adaptar la jornada a quienes acompañen a un familiar en cuidados paliativos y creará un día de permiso para quienes acompañen a otra persona en un proceso de eutanasia.\n\n«Todos deberíamos poder parar cuando la vida se nos para», escribió Pedro Sánchez al anunciar la medida junto a Yolanda Díaz. El Ejecutivo la presenta como un paso para consolidar el derecho al duelo, aunque llega al último Consejo de Ministros de la legislatura, cuatro días antes del 29N, y con la campaña electoral en su tramo final.\n\nEl texto que Trabajo pactó con CC OO y UGT modificaba el artículo 37 del Estatuto de los Trabajadores, el que regula descansos, fiestas y permisos. Según el ministerio, las medidas buscan que acompañar a un ser querido en sus últimos días no suponga un perjuicio económico ni profesional.",
+      "sources": [
+        {
+          "name": "Europa Press",
+          "url": "https://www.europapress.es/economia/transportes-00343/noticia-gobierno-aprobara-manana-permiso-diez-dias-fallecimiento-familiar-20261123191837.html"
+        },
+        {
+          "name": "RTVE",
+          "url": "https://www.rtve.es/noticias/20261124/gobierno-aprueba-ampliacion-permiso-fallecimiento-diez-dias/17327682.shtml"
+        },
+        {
+          "name": "El País",
+          "url": "https://elpais.com/economia/2026-11-23/el-gobierno-ampliara-este-martes-el-permiso-de-fallecimiento-a-10-dias.html"
+        },
+        {
+          "name": "Antena 3 Noticias",
+          "url": "https://www.antena3.com/noticias/espana/gobierno-aprobara-este-martes-permiso-diez-dias-fallecimiento-familiar_202611236b049567f6da642efef90b64.html"
+        }
+      ],
+      "publishedAt": "2026-11-24T06:08:00Z",
+      "imageURL": "/images/2026-11-24-national-003.jpg"
+    },
+    {
+      "id": "2026-11-24-northernIreland-001",
+      "category": "northernIreland",
+      "headline": "Irish-medium schools bill set to fall as DUP veto forces a cross-community vote",
+      "subtitle": "Sinn Féin's Pat Sheehan wants the Department of Education to plan for Irish-language schools; unionists call the bill unnecessary and tie the row to Drumcree",
+      "body": "A proposed law requiring Stormont's Department of Education to prepare a workforce plan for Irish-medium schools is expected to fall on Tuesday, when the Assembly votes on its final stage after unionists deployed a petition of concern.\n\nThe bill was brought by Sinn Féin MLA Pat Sheehan. The DUP tabled the petition of concern a fortnight ago with the support of other unionists, which means the legislation now needs the backing of a majority of both unionists and nationalists in the chamber rather than a simple majority. The mechanism triggers a 14-day consideration period, which explains why the vote was pulled from the schedule earlier this month.\n\n## Two versions of the same vote\n\nMichelle O'Neill accused the DUP of \"blatant disrespect\" and \"sectarianism\", and said the party was \"punishing children\" by blocking the bill. DUP leader Gavin Robinson described the move as a response to what he called Sinn Féin's \"arrogance\" over the Drumcree parading dispute, after senior Sinn Féin figures were interviewed by police over unnotified protests on the Garvaghy Road in Portadown.\n\nEducation Minister Paul Givan called the petition \"a proportionate response\" and the bill \"unnecessary\", arguing that some £6m has already been earmarked for Irish-medium education and that he is \"already doing all of the work that is contained within this bill\". A DUP statement said schools in every sector should be supported according to their needs, but that no sector should be given priority over others.\n\nSheehan has argued that his bill would only require the department to plan properly, and that the sector's growth has outpaced the supply of Irish-speaking teachers. The fall-out is the latest flashpoint in a wider stand-off over power-sharing, in which the DUP has also blocked official engagements involving the First Minister.",
+      "sources": [
+        {
+          "name": "BBC News NI",
+          "url": "https://www.bbc.co.uk/news/articles/crgj38nlj45wo"
+        },
+        {
+          "name": "BBC News NI",
+          "url": "https://www.bbc.co.uk/news/articles/cx30e0m9gy31o"
+        },
+        {
+          "name": "BBC News NI",
+          "url": "https://www.bbc.co.uk/news/articles/cq3djd78j37no"
+        }
+      ],
+      "publishedAt": "2026-11-24T06:09:00Z",
+      "imageURL": "/images/2026-11-24-northernIreland-001.jpg"
+    },
+    {
+      "id": "2026-11-24-global-001",
+      "category": "global",
+      "headline": "Nato says it will defend its territory in space after reports Russia plans a nuclear-armed satellite",
+      "subtitle": "Mark Rutte said the alliance has a range of response options, while the Kremlin dismissed the German media reports as propaganda and Friedrich Merz spoke of a new level of escalation",
+      "body": "Nato secretary general Mark Rutte said the alliance will defend \"every inch\" of its territory, \"and that includes making sure we are safe when it comes to the space element\", after reports that Russia was preparing to launch a nuclear-armed satellite.\n\nThe reports, published by German broadcasters NDR and WDR and the newspaper Süddeutsche Zeitung, cited anonymous German military and intelligence sources. They said intelligence about a possible launch within 60 days had been shared among Nato countries this month, and that the satellite, dubbed Sputnik-S, carried a nuclear warhead that could be used to disrupt or destroy other satellites, including communications and observation craft. It was not clear which country had written the assessments.\n\n## Denials and doubt\n\nKremlin spokesman Dmitry Peskov said he had not seen the latest reports but dismissed claims citing \"unknown sources\" as hardly worth taking seriously. The Russian embassy in Berlin rejected what it called unfounded allegations and part of a propaganda campaign.\n\nStanding beside Rutte, German Chancellor Friedrich Merz did not confirm or deny the reports, but said they \"reveal the level of escalation Russia is evidently prepared to pursue\". The European Space Agency's director general, Josef Aschbacher, called nuclear weapons in space \"the ultimate nightmare scenario\".\n\nRussia is a signatory to the 1967 Outer Space Treaty, which bans weapons of mass destruction in orbit. In 2024 Washington accused Moscow of developing a space-based anti-satellite weapon with a nuclear warhead; Vladimir Putin denied it at the time and said Russia remained categorically opposed to nuclear weapons in space.",
+      "sources": [
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/c9x2er1ry2mzo"
+        },
+        {
+          "name": "France 24",
+          "url": "https://www.france24.com/en/nato-vows-space-defence-after-russia-nuclear-satellite-report"
+        },
+        {
+          "name": "NPR",
+          "url": "https://www.npr.org/2026/11/23/nx-s1-6051013/russian-incursions-into-nato-territory-are-increasing"
+        }
+      ],
+      "publishedAt": "2026-11-24T06:10:00Z",
+      "imageURL": "/images/2026-11-24-global-001.jpg"
+    },
+    {
+      "id": "2026-11-24-global-002",
+      "category": "global",
+      "headline": "Ukraine's drone strike on a Russian corvette in Benghazi pushes the war into new waters",
+      "subtitle": "The SBU and Ukrainian forces hit the Merkury in a harbour held by Khalifa Haftar's forces, drawing deep concern from the UN mission in Libya and a warning of escalation from Moscow",
+      "body": "Ukrainian drones struck and capsized the Russian corvette Merkury as it lay at anchor in Benghazi, nearly 2,000 miles from Moscow, in a night-time operation co-ordinated by Ukraine's SBU intelligence agency and its armed forces. President Volodymyr Zelensky called it \"an exemplary operation\".\n\nRussia, which has spent months battering Ukrainian cities with missile and drone strikes, called the attack a dangerous escalation. The UN mission in Libya expressed deep concern, and Libyan officials stressed that their country is not a party to the Russia-Ukraine war, even though the Merkury and a cargo ship hit alongside it were berthed in the east, controlled by the pro-Moscow warlord Khalifa Haftar.\n\nThe strike follows a suspected Ukrainian drone attack on a Russian dry-cargo ship in the Gulf of Finland at the weekend, which the Kremlin described as terrorism, and earlier long-range attacks on Russia's Baltic oil terminal at Ust-Luga.\n\n## A widening map\n\nUkraine's \"long-range sanctions\", as Zelensky calls them, have already reached deep into Siberia, including an operation in which drones launched from a lorry damaged or destroyed strategic bombers at an airbase. Ukrainian forces have also targeted Russian mercenaries in Africa.\n\nThe bigger question is precedent. The International Maritime Organisation has spent the year condemning attacks on commercial shipping in the Strait of Hormuz, and the shipping industry is now asking whether a strike in a nominally neutral harbour raises the risk for vessels far from any battlefield. Nato countries are meanwhile tracking a rise in hybrid attacks on their own territory, from explosive packages to drones over military logistics hubs.",
+      "sources": [
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cm894p88jzxpo"
+        },
+        {
+          "name": "France 24",
+          "url": "https://www.france24.com/en/ukraine-claims-it-sank-russian-warship-off-libya"
+        },
+        {
+          "name": "NPR",
+          "url": "https://www.npr.org/2026/11/23/g-s1-155017/ukraine-attack-russian-warship-libya"
+        }
+      ],
+      "publishedAt": "2026-11-24T06:11:00Z",
+      "imageURL": "/images/2026-11-24-global-002.jpg"
+    },
+    {
+      "id": "2026-11-24-global-003",
+      "category": "global",
+      "headline": "COP31 collapses in Antalya after talks break down over a mention of fossil fuels",
+      "subtitle": "The proposed Antalya Pact omitted any reference to the fuels driving warming, and oil-producing states refused to accept language they said would weaken the Dubai commitment",
+      "body": "The world's biggest climate summit ended without an agreement on Sunday in Antalya, Turkey, after negotiators failed to bridge the gap over whether the final text should name fossil fuels at all.\n\nChris Bowen, the Australian minister who led the negotiations, blamed \"the most complicated and fraught geopolitical environment in living memory\", saying competing demands had become \"unbridgeable red lines\". Murat Kurum, Turkey's environment minister and the summit's president, argued that governments should not disappoint people by getting \"hung up on one word or phrase\". Three years ago at COP28 in Dubai, countries agreed to transition away from fossil fuels; the proposed Antalya Pact did not mention them.\n\n## Who blocked what\n\nCountries that rejected the text said the distinction is fundamental: promising to cut emissions is not the same as committing to move away from the fuels responsible for most of them, and they feared the new agreement would weaken Dubai. Mohammad Ayoub, a Saudi negotiator speaking for the 22 Arab League countries, argued that Arab nations had contributed less than 2% of historical greenhouse gas emissions and that wealthy industrialised countries bore the overwhelming responsibility.\n\nAfrican delegations left disappointed, saying the outcome leaves the countries most exposed to drought and flooding with no new finance. The failure also leaves the UN process itself in question: the problem, as Bowen's counterparts put it, is no longer finding the right words but persuading governments with irreconcilable interests to act when no authority can compel them.",
+      "sources": [
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cky970n83rvjo"
+        },
+        {
+          "name": "NPR",
+          "url": "https://www.npr.org/2026/11/22/nx-s1-6046195/cop31-climate-talks-close-disappointment"
+        },
+        {
+          "name": "France 24",
+          "url": "https://www.france24.com/en/africa-disappointed-with-cop31-outcome"
+        }
+      ],
+      "publishedAt": "2026-11-24T06:12:00Z",
+      "imageURL": "/images/2026-11-24-global-003.jpg"
+    },
+    {
+      "id": "2026-11-24-global-004",
+      "category": "global",
+      "headline": "UK sanctions five Myanmar generals after the ICJ finds genocide against the Rohingya",
+      "subtitle": "It is the first time an international court has found a state guilty of genocide; London is joined by Australia, Belgium, Portugal, Spain and Canada in acknowledging the ruling",
+      "body": "Britain has sanctioned five senior Myanmar military leaders after the International Court of Justice ruled that the country carried out genocide against the Rohingya minority, the first time a state has been found guilty of the crime.\n\nThe men targeted are Myo Htut Hlaing, Myo Min Tun, Myat Thet Oo, Kyaw Soe and Kyaw Swar Oo. Foreign Secretary Ed Miliband said the response to a crime \"as profoundly shocking as genocide\" had to be matched by clear action, and confirmed that new legislation will stop the supply of aviation fuel to Myanmar.\n\n## The ruling\n\nThe court found by nine votes to six that \"genocidal intent is the only reasonable inference that can be drawn from the evidence\". It determined that about 10,000 Rohingya were murdered during the 2017 clearance operation in Rakhine state, and that Myanmar had violated several other parts of the 1948 Genocide Convention. More than 700,000 people fled across the border to Bangladesh.\n\nAustralia, Belgium, Portugal, Spain and Canada were among the countries that joined London in acknowledging the judgment. Miliband said the UK would raise the issue at the UN Security Council this week, with a dedicated meeting in a fortnight, and called for a pause in hostilities, an end to air strikes on civilians and the release of political prisoners.\n\nMin Aung Hlaing, who led the military during the campaign and was sanctioned by Britain in 2021, remains in power. Myanmar denied the allegations throughout the case, and its representatives have rejected the court's jurisdiction.",
+      "sources": [
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/c6wy4ng1rznxo"
+        },
+        {
+          "name": "France 24",
+          "url": "https://www.france24.com/en/asia-pacific/20261123-14-countries-acknowledge-icj-ruling-of-genocide-against-rohingya"
+        },
+        {
+          "name": "GOV.UK",
+          "url": "https://www.gov.uk/government/news/uk-leads-global-action-with-major-new-measures-against-myanmar-military-following-landmark-genocide-judgment"
+        }
+      ],
+      "publishedAt": "2026-11-24T06:13:00Z",
+      "imageURL": "/images/2026-11-24-global-004.jpg"
+    },
+    {
+      "id": "2026-11-24-tech-001",
+      "category": "tech",
+      "headline": "CrowdStrike to buy Zscaler for $43.9bn in the largest cybersecurity deal ever",
+      "subtitle": "The all-stock takeover pairs endpoint protection with cloud network security, values Zscaler at a 34% premium and beats Google's $32bn purchase of Wiz",
+      "body": "CrowdStrike has agreed to buy Zscaler in an all-stock deal worth about $43.9bn, the largest acquisition the cybersecurity industry has seen. Zscaler shareholders will receive 1.135 CrowdStrike shares for each share they hold, a premium of roughly 34% to Friday's close of $194.82 and an equity value of about $42.5bn.\n\nExisting CrowdStrike investors will own about 84% of the combined company and Zscaler holders the remaining 16%. The deal beats Google's $32bn purchase of Wiz, completed in March, and the companies say it expands their addressable market by more than $185bn by 2029. The combined business is expected to start with over $10bn in annual recurring revenue, including about $3.9bn from Zscaler, and CrowdStrike forecasts around $1bn in annual revenue synergies within 30 months.\n\n## What each side gets\n\nCrowdStrike sells endpoint protection for laptops, servers and phones. Zscaler, based in Santa Clara, sells cloud-delivered network security built around a zero-trust model. The two already shared a partnership covering some 2,000 mutual customers, and executives argue that combining them lets customers adopt AI tools without widening their exposure.\n\nGeorge Kurtz will run the combined company; Zscaler chief executive Jay Chaudhry stays on to lead the Zscaler business and joins CrowdStrike's board. The firms will operate separately until the deal closes, which is expected in the second half of CrowdStrike's 2028 fiscal year, subject to regulatory approval. Zscaler would owe a $1.4bn breakup fee if it walks away for a rival offer.\n\nInvestors were less convinced than the boardrooms: CrowdStrike shares fell more than 7% before the opening bell while Zscaler rose about 20%.",
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/23/crowdstrike-to-acquire-zscaler-for-44-billion/"
+        },
+        {
+          "name": "AP",
+          "url": "https://apnews.com/article/crowdstrike-zscaler-cybersecurity-ai-artificial-intelligence-cf5a66aaa14f98763eabfb767ff8727c"
+        },
+        {
+          "name": "Infosecurity Magazine",
+          "url": "https://www.infosecurity-magazine.com/news/crowdstrike-to-acquire-zscaler"
+        },
+        {
+          "name": "Livemint",
+          "url": "https://www.livemint.com/companies/crowdstrike-snaps-up-zscaler-in-44-billion-deal-as-cyber-threats-mount-11795458732828.html"
+        }
+      ],
+      "publishedAt": "2026-11-24T06:14:00Z",
+      "imageURL": "/images/2026-11-24-tech-001.jpg"
+    },
+    {
+      "id": "2026-11-24-tech-002",
+      "category": "tech",
+      "headline": "Ladybird, the first new browser engine in years, opens its alpha for testing",
+      "subtitle": "Andreas Kling's independent project ships on macOS and Linux after four years of work, with an engine built from scratch rather than forked from Chromium or WebKit",
+      "body": "Ladybird, an independent browser with a rendering engine written from the ground up, is now available as an alpha for macOS and Linux after more than four years of development. Its engine is the first new one to reach this stage in years, at a time when almost every browser runs on just three: Gecko, Blink and WebKit.\n\n\"The engine is our own, built from the ground up, and not a fork,\" developer Andreas Kling wrote in the announcement. \"The browser around it is modest, but functional.\" He warned that some websites will not work and that it will crash sometimes, and asked users to report broken sites from inside the browser and to send crash reports after a failure.\n\n## Built to be attacked\n\nKling made no promises about security, inviting researchers to break it. \"A new browser gets hacked, over and over, and that's part of the process,\" he wrote, asking anyone who succeeds to disclose how. The alpha is a rolling channel with automatic updates, so testers will see fixes arrive without building from source — the first time that has been possible for outsiders.\n\nFor developers, the build supports WebDriver for automated testing and the Firefox DevTools protocol. A Windows version is planned for a later stage of the project. Ladybird is backed by a nonprofit organisation with the stated goal of an independent, fast and secure browser that respects privacy, and its code has been gradually ported from C++ to Rust, partly with AI assistance.",
+      "sources": [
+        {
+          "name": "Ladybird",
+          "url": "https://ladybird.org/posts/alpha/"
+        },
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/tech/1040872/ladybird-indie-browser-engine-alpha-testing"
+        },
+        {
+          "name": "Simon Willison",
+          "url": "https://simonwillison.net/2026/Nov/23/ladybird/"
+        }
+      ],
+      "publishedAt": "2026-11-24T06:15:00Z",
+      "imageURL": "/images/2026-11-24-tech-002.jpg"
+    },
+    {
+      "id": "2026-11-24-tech-003",
+      "category": "tech",
+      "headline": "Kagi launches a paid email service to take on Gmail",
+      "subtitle": "Kagi Mail opens in public beta with unlimited aliases, 50GB of storage and a built-in calendar, priced at $99 a year or bundled into Kagi's $25 monthly Ultimate plan",
+      "body": "Kagi, the subscription search engine and maker of the Orion browser, has launched a public beta of Kagi Mail — an email service it pitches on \"no surveillance, no ads, open standards, and no lock-in\".\n\nThe service gives users an @kagimail.com address with unlimited aliases and custom domains, 50GB of storage and a built-in calendar. Contacts and an address book are on the roadmap for the first quarter of 2027, but native mobile apps are not expected until the third quarter of 2027. Kagi is offering a 60-day free trial before charging $99 a year, and the product is included in the $25-a-month Kagi Ultimate subscription.\n\n## Open plumbing\n\nKagi says the service is built on open standards and open-source infrastructure. Its own documentation credits the open-source Stalwart mail server for the backend and lists IMAP, SMTP, JMAP and Sieve among supported protocols, so mail can be read in clients such as Apple Mail and Thunderbird rather than being locked into a single web app. The web client is built in-house on JMAP.\n\n\"Does the world need another email service? We asked ourselves that question more than once,\" the company wrote, naming Fastmail and Tuta as products it admires. Kagi's argument is the same one it makes for search and browsing: that a service paid for by its users has no reason to monetise their attention or their data.\n\nIt is also a bet that a small subscription business can win users from a free product with billions of accounts — the hardest fight in consumer software, and the one Kagi has been picking since it launched its search engine.",
+      "sources": [
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/tech/1041000/kagi-mail-email-gmail-alternative"
+        },
+        {
+          "name": "Kagi Blog",
+          "url": "https://blog.kagi.com/kagi-mail-public-beta"
+        },
+        {
+          "name": "Kagi Docs",
+          "url": "https://help.kagi.com/kagi/mail"
+        },
+        {
+          "name": "TLDR",
+          "url": "https://tldr.tech/story/d136f7ce-d3bb-48bd-8899-f9f64ad5b9e8"
+        }
+      ],
+      "publishedAt": "2026-11-24T06:16:00Z",
+      "imageURL": "/images/2026-11-24-tech-003.jpg"
+    },
+    {
+      "id": "2026-11-24-tech-004",
+      "category": "tech",
+      "headline": "Dutch watchdog tells consumers not to buy AI smart glasses",
+      "subtitle": "After testing six models, the privacy authority said the glasses misread medicine labels, invented emergency calls and let nearby strangers reach recordings and the camera",
+      "body": "The Netherlands' data protection authority has advised consumers not to buy AI-powered smart glasses, saying its tests of six models sold in the country found dangers to both wearers and the people around them.\n\nThe Autoriteit Persoonsgegevens said the failures went beyond the obvious privacy problem of filming people without consent. In its tests, the glasses told a user how to date a child, misread medicine instructions, and claimed to have called an ambulance when it had not. \"A pair of glasses that also gives you the wrong advice when someone's life is at stake goes one step too far,\" vice-chair Monique Verdier said.\n\n## Cameras that strangers can reach\n\nInvestigators also found security flaws in some models that would let someone nearby connect to the device without permission, view recordings or operate the camera remotely. Data captured by the glasses was often exported outside the EU, the regulator said.\n\nBrands selling camera-equipped AI glasses in the Netherlands include market leader Meta, China's TCL/RayNeo and Rokid, and Taiwan's HTC. The AP did not say which model produced which result. It can fine companies for unlawful processing of personal data but cannot impose a ban; that power sits with product safety authorities, and the regulator is preparing to take on broader enforcement powers under the EU's AI Act.\n\nThe advice lands days before a court hearing in a case brought by Dutch consumer and rights groups against Meta in October. Retail chain Hans Anders suspended sales of Meta's Ray-Ban glasses in the Netherlands and Belgium earlier in the autumn. Meta says every camera pair has a light that blinks during recording and cannot be switched off.",
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/23/dutch-privacy-authority-urges-consumers-not-to-buy-pervert-glasses/"
+        },
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.com/news/articles/ckq6eyrzrzy5o"
+        },
+        {
+          "name": "Reuters via Euronext",
+          "url": "https://live.euronext.com/en/financial-news/dutch-privacy-watchdog-ap-advises-consumers-not-purchase-smart-glasses"
+        }
+      ],
+      "publishedAt": "2026-11-24T06:17:00Z",
+      "imageURL": "/images/2026-11-24-tech-004.jpg"
+    },
+    {
+      "id": "2026-11-24-ai-001",
+      "category": "ai",
+      "headline": "Nvidia's board brings Jensen Huang back as CEO, eleven days after he resigned",
+      "subtitle": "Directors voted unanimously and said they saw no national security risk after consulting senior US officials; the chipmaker's shares jumped more than 25% before the bell",
+      "body": "Nvidia reinstated Jensen Huang as president, chief executive and board member on Monday, less than two weeks after its co-founder resigned over an affair with a businesswoman US intelligence agencies suspect of spying for China, and other reported relationships with employees.\n\nThe board voted unanimously after a series of meetings left directors satisfied with his \"candor and ability to lead\", the company said. It added that after receiving input from senior US government officials it saw no national security risk in his return. Shares rose more than 25% in premarket trading. Beijing denies the espionage allegation.\n\n## A reversal, and a political row\n\nThe decision reverses the board's own position from days earlier, when it ruled out bringing him back. President Donald Trump claimed credit, telling reporters he had \"convinced\" Nvidia to reinstate him, and the remarks drew a backlash from critics who see political interference in a private company's governance at a moment when the White House is deeply entangled with the AI industry.\n\nHuang built Nvidia from a video-game chip designer into the dominant supplier of AI processors, steering its chip roadmap, customer deals and its relationships in Washington along the way. Those ties are now his problem as much as his asset: he is due to testify before a Senate committee next week about what he told the board and when.\n\nThe same scandal has already reached beyond the company. The US commerce department has moved to blacklist Megaspeed, the Singapore-based AI cloud firm at the centre of the affair, and Singapore authorities are investigating whether restricted Nvidia hardware was diverted to China.",
+      "sources": [
+        {
+          "name": "France 24 / Reuters",
+          "url": "https://www.france24.com/en/americas/20261123-nvidia-board-reinstates-disgraced-jensen-huang-as-ceo-president-says"
+        },
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cq5y1k8ez407o"
+        },
+        {
+          "name": "Wired",
+          "url": "https://www.wired.com/story/jensen-huang-is-back-as-nvidia-ceo/"
+        },
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/23/nvidia-reverses-course-and-brings-jensen-huang-back-as-ceo/"
+        }
+      ],
+      "publishedAt": "2026-11-24T06:18:00Z",
+      "imageURL": "/images/2026-11-24-ai-001.jpg"
+    },
+    {
+      "id": "2026-11-24-ai-002",
+      "category": "ai",
+      "headline": "US moves to blacklist Megaspeed, the AI cloud firm at the heart of the Nvidia affair",
+      "subtitle": "The commerce department is adding the Singapore-based company to its export control list over allegations it funneled restricted Nvidia accelerators towards China",
+      "body": "The US commerce department is adding Megaspeed to its Entity List, the roster of companies American firms need a licence to sell to, in the first enforcement action to grow directly out of the Nvidia scandal.\n\nMegaspeed is a Singapore-based AI cloud provider that rented out capacity on Nvidia accelerators. Reporting over the past fortnight alleged that its business served as a channel for restricted chips to reach China, which has been cut off from the most advanced Nvidia hardware since 2022. The company has denied wrongdoing.\n\n## How the net widened\n\nThe inquiry began with the businesswoman at the centre of Jensen Huang's resignation, whose ties to Megaspeed prompted Nvidia to audit its own customer relationships. Nvidia says it has since ended its dealings with the firm. Singapore's authorities are running a parallel investigation into whether export rules were broken on their soil, a sensitive question for a city-state that has built much of its economy on transhipment.\n\nThe timing is awkward for Nvidia. Its board reinstated Huang on Monday, saying it had consulted senior US officials and saw no national security risk, and the company is trying to protect access to the Chinese market it has largely lost. Huang is due before a Senate committee next week.\n\nBlacklisting does not by itself prove diversion, and companies have successfully challenged listings before. But it does mean every American supplier now needs permission before shipping to a firm that was, until this month, an ordinary customer of the world's most valuable chipmaker.",
+      "sources": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/economy/2026/11/24/us-adds-megaspeed-firm-at-centre-of-nvidia-scandal-to-export-control-list"
+        },
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cv98xpg5dg5zo"
+        },
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/23/megaspeed-the-company-at-the-center-of-the-jensen-huang-scandal-appears-headed-for-a-u-s-blacklist/"
+        }
+      ],
+      "publishedAt": "2026-11-24T06:19:00Z",
+      "imageURL": "/images/2026-11-24-ai-002.jpg"
+    },
+    {
+      "id": "2026-11-24-ai-003",
+      "category": "ai",
+      "headline": "Anthropic launches Claude Ship, an agent that will approve code changes on its own",
+      "subtitle": "The beta hands routine pull requests to three agents, including one that approves merges against a policy written in natural language and stored in the repository",
+      "body": "Anthropic is moving from having Claude write code to helping teams decide when that code is ready to ship. On Monday the company launched Claude Ship, a set of agents that review, fix and approve routine code changes.\n\nThe part worth watching is the approval step. AI coding tools have offered automated review for a while; Claude Ship adds an agent called Claude Approvals that can merge changes on its own, based on a policy a team writes as a file in its repository and expresses in plain language. That policy can take in Code Review findings or the company's own classifiers.\n\n## Guardrails, for now\n\nThe launch responds to a bottleneck teams created for themselves. Agents can now produce far more code than humans can review: \"Most teams want a person to approve every change, and that's easy to keep up with when people write every line. But a lot of developers build with agents now,\" Anthropic's blog post says, adding that on its own Claude Code team, Claude writes most of the code.\n\nAlongside Approvals, PR Steward handles failing CI checks, merge conflicts and review feedback, and comments after every push on what it changed and how to roll it back. Code Review is already generally available.\n\nAnthropic suggests running approvals in observe-only mode first, starting with a single repository and setting monthly spending limits, and teams keep control of where the agents run, which of three review depths they use and which changes must escalate to a human. The suite is in beta for GitHub repositories on Claude Team and Enterprise plans.",
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/"
+        },
+        {
+          "name": "Reuters via AOL",
+          "url": "https://www.aol.com/articles/anthropic-launches-claude-ship-help-200009000.html"
+        },
+        {
+          "name": "The New Stack",
+          "url": "https://thenewstack.io/anthropic-claude-ship-approvals"
+        }
+      ],
+      "publishedAt": "2026-11-24T06:20:00Z",
+      "imageURL": "/images/2026-11-24-ai-003.jpg"
+    },
+    {
+      "id": "2026-11-24-ai-004",
+      "category": "ai",
+      "headline": "Virginia and Oregon sue SpaceX over Grok's non-consensual sexual images",
+      "subtitle": "The attorneys general accuse the parent company of xAI of creating and promoting child exploitation material and intimate imagery of real people without consent",
+      "body": "The attorneys general of Virginia and Oregon have sued SpaceX, the parent company of X, xAI and Grok, over the chatbot's creation of child sexual abuse material and non-consensual intimate images.\n\nThe suits, filed by Virginia's Jay Jones and Oregon's Dan Rayfield, allege that Grok was used to generate sexual images of real people — including children — from ordinary photographs, and that the companies built features that made it easy while failing to put adequate safeguards in place. Both states are proceeding under consumer protection and public nuisance laws rather than the federal statutes that have struggled to keep pace with generative tools.\n\n## The bigger test\n\nThe cases are among the first to target the model maker rather than the user, and they land as state attorneys general compete to set the terms of AI enforcement in the absence of federal legislation. Grok has already drawn scrutiny in Europe, where regulators have been examining X's compliance with the Digital Services Act.\n\nFor SpaceX and xAI, the legal exposure compounds a difficult autumn: the companies are balancing the costs of Grok's aggressive image generation, the fallout from the Nvidia affair that has pulled xAI's partners into a Washington scandal, and a White House that has been both a customer and a critic.\n\nThe filings do not yet specify damages. What they establish is that the question of who answers for what a chatbot produces has moved from congressional hearings to state courthouses.",
+      "sources": [
+        {
+          "name": "Wired",
+          "url": "https://www.wired.com/story/states-sue-spacex-over-grok-deepfakes/"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/economy/2026/11/23/us-states-sue-spacex-over-grok-ais-creation-of-child-sexual-abuse-material"
+        },
+        {
+          "name": "Virginia Attorney General",
+          "url": "https://www.oag.state.va.us/media-center/news-releases/jay-jones/3162-attorneys-general-jones-and-rayfield-file-suit-against-spacex-parent-company-of-x-xai-and-grok-over-creation-and-promotion-of-child-exploitation-and-non-consensual-images-on-platform"
+        }
+      ],
+      "publishedAt": "2026-11-24T06:21:00Z",
+      "imageURL": "/images/2026-11-24-ai-004.jpg"
+    },
+    {
+      "id": "2026-11-24-ai-005",
+      "category": "ai",
+      "headline": "Zhipu's GLM-5.4 uses a loop architecture to match models three times its size",
+      "subtitle": "The Chinese lab's first Loop Transformer runs the same block of layers repeatedly instead of adding parameters, and it is aimed at long software engineering tasks",
+      "body": "Zhipu AI has released GLM-5.4, its first model built on what the company calls a Loop Transformer. Instead of adding parameters to get smarter, the architecture runs a shared block of layers through several iterations, refining its own hidden state before producing an answer.\n\nZhipu's claim is that this buys reasoning depth without the cost of a bigger model: GLM-5.4 reaches levels of intelligence the company compares with 2 to 3 trillion parameter systems, while its architectural modifications were made at 750 billion scale. Rather than training a looped model from scratch — which prior research found lags an ordinary model on the same compute budget — Zhipu adapted an already pre-trained base through continued training.\n\n## Where it breaks\n\nThe company is candid about the failure mode. GLM-5.4 \"tends to get caught in overly long marathon thinking loops\", and that prolonged reflection, while it does improve accuracy, is exactly the behaviour that makes long agent runs expensive to serve.\n\nThe pitch is \"generalized coding\": software engineering, cybersecurity, 3D modelling and physical control, all of which need long chains of causal steps held consistent at once. GLM-5.4 ships through Zhipu's coding plan, ZCode and chat interface, with an API promised soon and open weights planned after safety hardening.\n\nThe next, larger model is already in the works and will carry the loop architecture forward, the company says.",
+      "sources": [
+        {
+          "name": "Z.ai",
+          "url": "https://z.ai/blog/glm-5.4"
+        },
+        {
+          "name": "Simon Willison",
+          "url": "https://simonwillison.net/2026/Nov/23/glm-54/"
+        },
+        {
+          "name": "Pandaily",
+          "url": "https://pandaily.com/zhipu-glm-5-4-coding-plan-vision-support"
+        }
+      ],
+      "publishedAt": "2026-11-24T06:22:00Z",
+      "imageURL": "/images/2026-11-24-ai-005.jpg"
     }
   ]
 }
