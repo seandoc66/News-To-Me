@@ -1,0 +1,23 @@
+{
+  "date": "2026-11-24",
+  "published": true,
+  "publishedAt": "2026-11-24T05:05:37Z",
+  "sections": {
+    "present": ["local", "national", "northernIreland", "global", "tech", "ai"],
+    "missing": []
+  },
+  "storiesWithoutPhoto": [],
+  "validatorWarnings": [
+    "2026-11-24-national-002 and 2026-11-24-national-001 cite the same source (20minutos, bipartidismo/voto útil) — intentional: the polling story and the debate story both draw on the same campaign piece"
+  ],
+  "validatorErrors": [],
+  "workarounds": [
+    "Tech shipped 4 stories against a pinned 5. A fifth candidate (Uber's recorded-rides pilot) had only two verifiable sources — TechCrunch plus an outlet that 403s to curl — so it was dropped rather than padded with a link that could not be confirmed.",
+    "Northern Ireland's three sources are all BBC News NI articles on the same bill. No second outlet carried the story in any NI feed (Belfast Telegraph, News Letter, Derry Journal all had nothing), so the section relies on one outlet's reporting across three pieces.",
+    "Local ships one story: the mataleón lead had three outlets, but the Sarria subsidence and Premio IdeaLugo items were El Progreso only and could not meet the 3-source rule.",
+    "photoCandidate must be an object ({url, description, license}). Passing a bare string silently falls through to og:image auto-discovery — which is what happened for 17 of 18 articles before the format was corrected. Ladybird was the only failure, because ladybird.org's og:image is a relative /assets path."
+  ],
+  "needsHumanAttention": false,
+  "humanAttentionReason": null,
+  "notes": "French 24, El País, AP, The New Stack and Wired all return 403 to curl (bot-block, inconclusive) — they are cited on the strength of their og:image and search index. El Mundo returns a non-UTF8 body that breaks naive decoding; both El Mundo URLs cited were extracted successfully elsewhere. Nvidia lead is a developing story: the board reinstated Huang 11 days after his resignation, Trump claims he 'convinced' the company, and Huang testifies to a Senate committee next week — expect follow-ups."
+}
