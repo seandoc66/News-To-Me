@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-25",
+  "published": true,
+  "publishedAt": "2026-11-25T05:07:00Z",
+  "sections": {
+    "present": ["local", "national", "northernIreland", "global", "tech", "ai"],
+    "missing": []
+  },
+  "storiesWithoutPhoto": [
+    { "id": "2026-11-25-ai-003", "section": "ai" }
+  ],
+  "validatorWarnings": [
+    "1 article(s) publishing without a photo — these render with the category gradient: 2026-11-25-ai-003"
+  ],
+  "validatorErrors": [],
+  "workarounds": [
+    "The Guardian world RSS feed returned an empty 9-byte body; the global section was built from BBC, NYT, France 24 and Al Jazeera instead.",
+    "A drafted tech story on the US blacklisting Megaspeed was dropped after noticing it repeated the 2026-11-24 AI section; replaced with the Uber/Nuro/Lucid driverless testing story so the two editions do not overlap.",
+    "fetch-photos could not find a usable image for ai-003 (Anthropic share price) — every candidate og:image was 594x396, below the 640x360 minimum — so the story ships with imageURL empty.",
+    "Euronews returned HTTP 406 to the verification sweep and the WSJ 401; both are bot/paywall responses rather than dead links, and both URLs came from live search results."
+  ],
+  "needsHumanAttention": false,
+  "humanAttentionReason": null,
+  "notes": "Sources disagree on the cost of Lugo's new intermodal station (rail works €22.3m per El Progreso, €23m per La Voz, more than €49m for the whole Adif scheme per La Región) and on the service level (six convoys a day per La Voz versus 14 train movements counted on the first day by El Progreso). Both stories report the disagreement rather than choosing a figure. Russian war deaths are likewise split: 490,334 recorded deaths in the Rosstat leak per BBC Russian and Mediazona, above 700,000 losses including the missing per Meduza/Mediazona and France 24."
+}
