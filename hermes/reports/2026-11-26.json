@@ -1,0 +1,23 @@
+{
+  "date": "2026-11-26",
+  "published": true,
+  "publishedAt": "2026-11-26T05:06:23Z",
+  "sections": {
+    "present": ["local", "national", "northernIreland", "global", "tech", "ai"],
+    "missing": []
+  },
+  "storiesWithoutPhoto": [],
+  "validatorWarnings": [],
+  "validatorErrors": [],
+  "workarounds": [
+    "Discovery was RSS-only this run (no search-led discovery): 29 feeds fetched in parallel with curl --max-time, parsed with a local sanitising parser because several feeds carry bare ampersands.",
+    "The Guardian world feed returned 9 bytes on two attempts and was abandoned; global corroboration came from BBC, Sky News, France 24, Al Jazeera and NPR instead.",
+    "La Voz de Galicia's Lugo feed failed, so local coverage came from El Progreso plus COPE Lugo and a Concello de Lugo notice for the Avenida da Coruña works.",
+    "Belfast Telegraph and Derry Now return 403 to curl (Cloudflare bot-block, inconclusive rather than dead). Both are cited for the Strabane vote, corroborated against BBC NI and The Irish News.",
+    "WhatsApp's own blog 400s to a browser-UA curl. Kept as the primary source for scheduled messages because The Verge and TechCrunch both link to it and quote it.",
+    "Four AI candidates were dropped for having a single source each — OpenAI merging Chat and Work, OpenAI agents posting 53 user images, the Todoist breach, and Riot's/DOJ's ransomware-fraud case (Krebs covered it, but no third outlet did). AI ran with four well-sourced stories instead of padding to seven."
+  ],
+  "needsHumanAttention": false,
+  "humanAttentionReason": null,
+  "notes": "Heavy Spanish news day: the Aitat draft report on the Adamuz derailment (46 dead) went to the judge, Canarias declared a level-2 emergency on El Hierro after about 2,000 arrivals in one day, and the last four-way debate is tonight, three days before the 29N general election. Northern Ireland's pinned slot went to Strabane withdrawing from the UK Town of Culture race. Tech and AI both ran on the Nvidia governance story from different angles (S&P credit review vs congressional/national-security scrutiny) — flagged in case that reads as duplication."
+}
