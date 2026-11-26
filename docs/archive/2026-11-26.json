@@ -1,0 +1,712 @@
+{
+  "generatedAt": "2026-11-26T05:06:23Z",
+  "config": {
+    "sections": {
+      "local": {
+        "min": 1,
+        "max": 3,
+        "sources": [
+          {
+            "name": "El Progreso",
+            "url": "https://www.elprogreso.es"
+          },
+          {
+            "name": "La Voz de Galicia",
+            "url": "https://www.lavozdegalicia.es"
+          },
+          {
+            "name": "El Mundo",
+            "url": "https://www.elmundo.es"
+          },
+          {
+            "name": "COPE Lugo",
+            "url": "https://www.cope.es"
+          },
+          {
+            "name": "Concello de Lugo",
+            "url": "https://concellodelugo.gal"
+          }
+        ]
+      },
+      "national": {
+        "min": 3,
+        "max": 5,
+        "sources": [
+          {
+            "name": "El Mundo",
+            "url": "https://www.elmundo.es"
+          },
+          {
+            "name": "El País",
+            "url": "https://elpais.com"
+          },
+          {
+            "name": "20minutos",
+            "url": "https://www.20minutos.es"
+          },
+          {
+            "name": "El Progreso",
+            "url": "https://www.elprogreso.es"
+          },
+          {
+            "name": "Heraldo de Aragón",
+            "url": "https://www.heraldo.es"
+          },
+          {
+            "name": "Gobierno de Canarias",
+            "url": "https://www3.gobiernodecanarias.org"
+          },
+          {
+            "name": "Antena 3 Noticias",
+            "url": "https://www.antena3.com"
+          },
+          {
+            "name": "Europa Press",
+            "url": "https://www.europapress.es"
+          }
+        ]
+      },
+      "northernIreland": {
+        "min": 1,
+        "max": 1,
+        "sources": [
+          {
+            "name": "BBC News NI",
+            "url": "https://www.bbc.co.uk/news/northern_ireland"
+          },
+          {
+            "name": "The Irish News",
+            "url": "https://www.irishnews.com"
+          },
+          {
+            "name": "Belfast Telegraph",
+            "url": "https://www.belfasttelegraph.co.uk"
+          },
+          {
+            "name": "Derry Now",
+            "url": "https://www.derrynow.com"
+          }
+        ]
+      },
+      "global": {
+        "min": 4,
+        "max": 8,
+        "sources": [
+          {
+            "name": "BBC News",
+            "url": "https://www.bbc.co.uk/news"
+          },
+          {
+            "name": "El País",
+            "url": "https://elpais.com"
+          },
+          {
+            "name": "El Progreso",
+            "url": "https://www.elprogreso.es"
+          },
+          {
+            "name": "France 24",
+            "url": "https://www.france24.com"
+          },
+          {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com"
+          },
+          {
+            "name": "Sky News",
+            "url": "https://news.sky.com"
+          },
+          {
+            "name": "20minutos",
+            "url": "https://www.20minutos.es"
+          }
+        ]
+      },
+      "tech": {
+        "min": 5,
+        "max": 5,
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com"
+          },
+          {
+            "name": "The Verge",
+            "url": "https://www.theverge.com"
+          },
+          {
+            "name": "El País",
+            "url": "https://elpais.com"
+          },
+          {
+            "name": "France 24",
+            "url": "https://www.france24.com"
+          },
+          {
+            "name": "Sky News",
+            "url": "https://news.sky.com"
+          },
+          {
+            "name": "20minutos",
+            "url": "https://www.20minutos.es"
+          },
+          {
+            "name": "1Password",
+            "url": "https://1password.com"
+          },
+          {
+            "name": "WhatsApp",
+            "url": "https://blog.whatsapp.com"
+          }
+        ]
+      },
+      "ai": {
+        "min": 4,
+        "max": 7,
+        "sources": [
+          {
+            "name": "BBC News",
+            "url": "https://www.bbc.co.uk/news"
+          },
+          {
+            "name": "Sky News",
+            "url": "https://news.sky.com"
+          },
+          {
+            "name": "El Mundo",
+            "url": "https://www.elmundo.es"
+          },
+          {
+            "name": "WIRED",
+            "url": "https://www.wired.com"
+          },
+          {
+            "name": "NPR",
+            "url": "https://www.npr.org"
+          },
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com"
+          },
+          {
+            "name": "Connecticut Attorney General",
+            "url": "https://portal.ct.gov/ag"
+          },
+          {
+            "name": "Office of Governor Kathy Hochul",
+            "url": "https://www.governor.ny.gov"
+          }
+        ]
+      }
+    }
+  },
+  "articles": [
+    {
+      "id": "2026-11-26-local-001",
+      "category": "local",
+      "headline": "La Facultad de Veterinaria de Lugo celebra que el grado pase a seis años",
+      "subtitle": "El Consejo de Ministros aprobó elevar la carga lectiva de 300 a 360 créditos. El decano cree que los alumnos saldrán mejor formados y con menos presión, con prácticas desde cuarto curso.",
+      "body": "El Consejo de Ministros dio luz verde el miércoles a una reivindicación histórica del sector veterinario: elevar la carga lectiva del grado de 300 a 360 créditos y extenderlo a seis años, como Medicina. La medida equipara la formación española a la europea, donde la carrera ya tenía esa duración.\n\nEn Lugo la noticia se recibió con satisfacción. El decano de la facultad, Fernando Muñoz, cree que los estudiantes saldrán «mejor formados» a un mercado laboral más exigente y que lo harán con menos presión.\n\n«En la actualidad, la mayoría acaba el grado en 6 o 7 años. La media está en 6,3 años», explica, antes de recordar que es una carrera con mucha presencialidad: «Hay alumnos que llegan a las 9 y se van a las siete de la tarde».\n\n## Prácticas desde cuarto\n\nDe los 60 créditos adicionales, la previsión es dedicar 53 a formación práctica. En lugar de concentrarla en el último curso, como ocurre en Medicina, los rotatorios se distribuirán a partir del cuarto año, y la carga teórica se repartirá en un curso más.\n\nAntonio Cantalapiedra, gerente del hospital veterinario Rof Codina, valoró que los alumnos conozcan antes las salidas profesionales. El presidente del Colegio Oficial de Veterinarios de Lugo, José Luis Benedito, celebró una decisión que «no me lo esperaba ahora». La aplicación del nuevo plan está prevista para el curso 2029-2030.",
+      "imageURL": "/images/2026-11-26-local-001.jpg",
+      "sources": [
+        {
+          "name": "El Progreso",
+          "url": "https://www.elprogreso.es/lugo/veterinaria-celebra-que-gobierno-atienda-demanda-historica-amplie-grado-6-anos/202611260500262016657.html"
+        },
+        {
+          "name": "La Voz de Galicia",
+          "url": "https://www.lavozdegalicia.es/noticia/somosagro/ganaderia/2026/11/25/aprobada-ampliacion-veterinaria-seis-cursos-alumnos-saldran-confiados/00031795621377115510711.htm"
+        },
+        {
+          "name": "El Mundo",
+          "url": "https://www.elmundo.es/espana/2026/11/25/6b06fa36e85eced65b8b456f.html"
+        }
+      ],
+      "publishedAt": "2026-11-26T05:44:00Z"
+    },
+    {
+      "id": "2026-11-26-local-002",
+      "category": "local",
+      "headline": "El agua vuelve a la Avenida da Coruña, pero el tráfico seguirá cortado varios días",
+      "subtitle": "El Concello completó la reparación de la fuga frente al número 224, abierta en una zanja de gran profundidad. Ahora hay que reponer la calzada antes de reabrir el tramo.",
+      "body": "El Concello de Lugo confirmó este miércoles que el suministro de agua en la Avenida da Coruña está restablecido y que la avería detectada a la altura del número 224 quedó reparada. Los trabajos se centran ahora en la calzada y en recuperar la circulación.\n\nLa intervención obligó a abrir una zanja de gran profundidad, de modo que hay que reponer toda la zona afectada antes de devolver el tramo al tráfico con normalidad. La previsión municipal es que la circulación completa no se recupere hasta dentro de varios días.\n\n## Cortes desde el lunes\n\nLas restricciones de tráfico empezaron el lunes, dos días antes de la intervención programada, y el miércoles hubo además cortes de suministro y bajadas de presión en la zona mientras se trabajaba sobre la conducción principal. El Concello agradeció la comprensión de los vecinos y de los usuarios de la vía.\n\nLa Avenida da Coruña es una de las principales vías de acceso al centro de Lugo, por lo que los desvíos afectan al tráfico de buena parte de la zona. La fuga se había detectado días antes frente al número 224 y la reparación se fijó para el miércoles para minimizar las molestias, según el anuncio previo del Ayuntamiento.",
+      "imageURL": "/images/2026-11-26-local-002.jpg",
+      "sources": [
+        {
+          "name": "El Progreso",
+          "url": "https://www.elprogreso.es/lugo/concello-restablece-agua-avenida-da-coruna-trafico-seguira-cortado-dias/202611251650242016575.html"
+        },
+        {
+          "name": "COPE Lugo",
+          "url": "https://www.cope.es/emisoras/galicia/lugo-provincia/lugo/noticias/restablecen-suministro-agua-avenida-da-coruna-mantienen-restricciones-trafico-zona-lugo-20261125_3481818.html"
+        },
+        {
+          "name": "Concello de Lugo",
+          "url": "https://concellodelugo.gal/es/noticias/el-ayuntamiento-de-lugo-ejecutara-la-proxima-semana-la-reparacion-de-la-fuga-de-agua-en-la"
+        }
+      ],
+      "publishedAt": "2026-11-26T05:48:00Z"
+    },
+    {
+      "id": "2026-11-26-national-001",
+      "category": "national",
+      "headline": "Adif avaló en 2020 un sistema que no detectaba la rotura de vía que causó el accidente de Adamuz",
+      "subtitle": "El borrador del informe de la Aitat enviado a la jueza concluye que la empresa pública conocía la limitación de los circuitos de vía, y que la rotura pasó inadvertida 22 horas mientras circulaban 47 trenes.",
+      "body": "El borrador del informe de la Autoridad Administrativa Independiente para la Investigación Técnica de Accidentes Ferroviarios (Aitat), enviado a la jueza de Montoro y adelantado por EL MUNDO, sostiene que Adif validó en marzo de 2020 el sistema de circuitos de vía TTC sabiendo que no garantizaba la detección de roturas de carril. El ensayo de acreditación de 2018 ya había concluido que, con esa configuración, no se cumplía el requisito técnico.\n\nEl documento señala que la limitación figuraba en la documentación de seguridad del proyecto, donde el peligro llegó a calificarse de «intolerable» y después apareció como «cancelado». Los investigadores sitúan la rotura 22 horas antes del siniestro y calculan que 47 convoyes pasaron sobre ese punto antes del Iryo 6189, que descarriló y fue embestido por un Alvia. El balance fue de 46 muertos.\n\n## Un fallo frecuente y mal vigilado\n\nDesde 2017 se han registrado 44 roturas de carril en la red de Adif. Solo 18, el 40,9%, las detectaron los circuitos de vía; otras 17 las encontraron operarios de mantenimiento y nueve los maquinistas. La Aitat advierte de que el accidente puede repetirse mientras no se corrijan esos fallos.\n\nLos peritos judiciales apuntan como causa probable a una soldadura mal ejecutada en las obras de renovación de 2025, junto a un hundimiento del terreno de hasta 6,4 milímetros. Ese «bache» se detectó en septiembre de 2025, se corrigió, reapareció en octubre y en noviembre había crecido sin volver a revisarse.",
+      "imageURL": "/images/2026-11-26-national-001.jpg",
+      "sources": [
+        {
+          "name": "El Mundo",
+          "url": "https://www.elmundo.es/andalucia/2026/11/25/6b06d406fdddffe3308b45b0.html"
+        },
+        {
+          "name": "El País",
+          "url": "https://elpais.com/espana/2026-11-25/los-peritos-de-adamuz-apuntan-a-un-fallo-en-la-soldadura-y-un-hundimiento-del-terreno-como-causas-del-siniestro.html"
+        },
+        {
+          "name": "20minutos",
+          "url": "https://www.20minutos.es/nacional/los-peritos-judiciales-apuntan-un-defecto-significativo-via-adamuz-que-adif-no-hizo-un-seguimiento-su-evolucion_7065671_0.html"
+        }
+      ],
+      "publishedAt": "2026-11-26T05:20:00Z"
+    },
+    {
+      "id": "2026-11-26-national-002",
+      "category": "national",
+      "headline": "Canarias declara la emergencia en El Hierro y pide la UME tras un día de llegadas récord",
+      "subtitle": "El Gobierno canario elevó la alerta a nivel 2 el miércoles por la tarde después de unas 2.000 llegadas en una sola jornada, y otros dos cayucos con 190 personas alcanzaron La Restinga de madrugada.",
+      "body": "El Gobierno de Canarias declaró este miércoles la emergencia de nivel 2 en El Hierro por la llegada masiva de personas migrantes por vía marítima, una situación que calificó de excepcional en materia sanitaria, social y de seguridad. La declaración entró en vigor a las 15.00 y va acompañada de la activación del Plateca, el plan territorial de protección civil, y de una petición de apoyo a la UME.\n\nLa decisión llegó después de un martes que el presidente canario, Fernando Clavijo, describió como «tristemente histórico»: alrededor de 2.000 llegadas en un solo día, el máximo de la ruta canaria en más de tres décadas. La cifra siguió creciendo de madrugada, con dos cayucos más en La Restinga —88 y 102 personas, entre ellas 12 mujeres y 11 menores—, según Salvamento Marítimo.\n\n## La respuesta del Estado\n\nPedro Sánchez dijo en TVE confiar en que las llegadas se reduzcan en los próximos días y defendió el refuerzo de controles con Senegal y Gambia, la apertura de vías regulares y un debate sobre integración. España ha pedido además a Frontex un avión en Senegal, según EL MUNDO.\n\nEl PP ha hecho de la migración un eje de campaña. Feijóo aseguró en La Restinga que «la persona que entra de forma irregular no puede tener derechos», y Clavijo reprobó esas palabras: lamentó que se use «la política del miedo para arañar un puñado de votos» y avisó de que los discursos de odio no ayudan a una isla que lleva semanas atendiendo a miles de personas.",
+      "imageURL": "/images/2026-11-26-national-002.jpg",
+      "sources": [
+        {
+          "name": "El País",
+          "url": "https://elpais.com/espana/2026-11-25/sin-pausa-en-la-ruta-canaria-190-personas-mas-llegan-en-dos-cayucos-a-el-hierro.html"
+        },
+        {
+          "name": "El Progreso",
+          "url": "https://www.elprogreso.es/espana/canarias-declara-emergencia-hierro-llegada-masiva-migrantes-solicita-ume/202611251904222016624.html"
+        },
+        {
+          "name": "Heraldo de Aragón",
+          "url": "https://www.heraldo.es/noticias/nacional/2026/11/25/gobierno-canarias-declara-emergencia-sanitaria-hierro-ume-cayucos-inmigrantes-2071808.html"
+        },
+        {
+          "name": "Gobierno de Canarias",
+          "url": "https://www3.gobiernodecanarias.org/noticias/canarias-declara-la-emergencia-sanitaria-en-el-hierro-para-coordinar-la-llegada-masiva-de-migrantes-a-la-isla"
+        }
+      ],
+      "publishedAt": "2026-11-26T05:24:00Z"
+    },
+    {
+      "id": "2026-11-26-national-003",
+      "category": "national",
+      "headline": "Sánchez, Feijóo, Abascal y Colau se miden esta noche en el último debate a cuatro",
+      "subtitle": "Dos horas y cinco bloques temáticos separan a los cuatro candidatos de las urnas del 29N, con el tiempo de cada intervención medido por árbitros de la Federación Española de Baloncesto.",
+      "body": "El debate electoral a cuatro llega esta noche, a las 22.00, con la campaña del 29N en su recta final: Pedro Sánchez, Alberto Núñez Feijóo, Santiago Abascal y Ada Colau se verán las caras durante dos horas, repartidas en cinco bloques temáticos de veinte minutos. La Academia de Televisión, organizadora, cerró el formato el miércoles con los cuatro partidos.\n\nLos bloques son vivienda; economía y fiscalidad; políticas sociales y servicios públicos; corrupción y regeneración democrática; y migración y política exterior. En cada uno, los candidatos dispondrán de cinco minutos para exponer sus posiciones. El tiempo lo controlarán cuatro árbitros de la Federación Española de Baloncesto, como ya ocurrió en el cara a cara de la semana pasada.\n\n## Un orden decidido a suerte\n\nLa entrada al plató y el turno de las intervenciones se sortearon: Abascal llegará primero, a las 20.20, y Sánchez el último. El debate abrirá con una valoración de la legislatura de minuto y medio por candidato, en el orden Colau, Sánchez, Feijóo y Abascal, y cerrará con el minuto de oro que abrirá Sánchez.\n\nLa cita llega a tres días de las urnas y con el voto por correo en el punto de mira. El presupuesto ronda los 440.000 euros, con más de cien medios acreditados —nueve de ellos internacionales— y un operativo de más de 300 personas.",
+      "imageURL": "/images/2026-11-26-national-003.jpg",
+      "sources": [
+        {
+          "name": "20minutos",
+          "url": "https://www.20minutos.es/nacional/asi-sera-debate-cuatro-hoy-sanchez-feijoo-abascal-colau-dos-horas-duracion-cinco-bloques-tematicos_7065688_0.html"
+        },
+        {
+          "name": "El País",
+          "url": "https://elpais.com/espana/elecciones-generales/2026-11-25/los-cuatro-candidatos-ante-el-ultimo-gran-debate-asi-se-prepara-la-cita-decisiva-de-este-jueves.html"
+        },
+        {
+          "name": "Europa Press",
+          "url": "https://www.europapress.es/nacional/noticia-sanchez-feijoo-abascal-colau-miden-debate-cuatro-dibujara-dos-bloques-29n-20261125172619.html"
+        },
+        {
+          "name": "El Mundo",
+          "url": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/25/6b070c74fdddff89748b456e.html"
+        }
+      ],
+      "publishedAt": "2026-11-26T05:28:00Z"
+    },
+    {
+      "id": "2026-11-26-national-004",
+      "category": "national",
+      "headline": "El voto exterior cierra este jueves con colas, sobres perdidos y reproches entre partidos",
+      "subtitle": "Los consulados cierran sus urnas tras seis días de votación presencial. La participación sube en México y Argentina, mientras residentes en Europa denuncian envíos que nunca llegaron.",
+      "body": "Los colegios electorales de los consulados españoles cierran este jueves a las 17.00 hora local, fin del plazo para votar presencialmente en el exterior. La campaña llega a las urnas con dos realidades: los consulados de México y Argentina apuntan a una participación superior a la de 2023, mientras numerosos residentes en Europa denuncian fallos del envío postal y silencio consular.\n\nEn Ciudad de México se habían registrado 5.877 votos en urna al cierre del lunes, frente a los 5.923 contabilizados en total en julio de 2023 sobre un censo de 125.000 electores. El consulado calcula cerrar entre 8.000 y 9.000 papeletas. El censo se revisó a 140.464 después de que el Supremo excluyera a más de 10.000 personas nacionalizadas al amparo de la Ley de Memoria Democrática.\n\n## Sobres que no llegan\n\nEn Milán y París hay votantes que no recibieron el primer envío con sobres y certificado, materiales que no pueden descargarse. Una residente en el norte de Italia relató quince llamadas sin respuesta al consulado y concluyó que serán las primeras elecciones de su vida en las que no vote.\n\nLa Junta Electoral Central ha rechazado por unanimidad las quejas de PP y Vox sobre el voto exterior por falta de pruebas, según Antena 3. Más de 2,77 millones de electores inscritos en el censo CERA podían votar en esta convocatoria.",
+      "imageURL": "/images/2026-11-26-national-004.jpg",
+      "sources": [
+        {
+          "name": "El Mundo",
+          "url": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/25/6b07109bfc6c837f368b45b2.html"
+        },
+        {
+          "name": "El País",
+          "url": "https://elpais.com/espana/elecciones-generales/2026-11-25/colas-interminables-para-votar-por-correo-en-la-recta-final-de-la-campana-electoral-esto-es-barbaro.html"
+        },
+        {
+          "name": "Antena 3 Noticias",
+          "url": "https://www.antena3.com/noticias/espana/caos-consulados-voto-correo-como-muchos-otros-hemos-recibido-nada_202611256b0735815cb1082f89b52cb8.html"
+        }
+      ],
+      "publishedAt": "2026-11-26T05:32:00Z"
+    },
+    {
+      "id": "2026-11-26-national-005",
+      "category": "national",
+      "headline": "Puigdemont anuncia que volverá a Barcelona el 12 de diciembre «sin pedir perdón ni permiso»",
+      "subtitle": "El expresidente de la Generalitat hizo el anuncio a tres días de las elecciones y presenta la vuelta como el arranque de una ofensiva para lograr el reconocimiento oficial de la República Catalana.",
+      "body": "Carles Puigdemont anunció este miércoles que regresará a Barcelona el sábado 12 de diciembre, «sin pedir perdón ni permiso», a tres días de las elecciones generales del 29N. El expresidente de la Generalitat, que permanece fuera de España, presentó la vuelta como el arranque de una nueva ofensiva política.\n\nPuigdemont celebró la amnistía como una derrota de la represión y anunció que su regreso servirá para reclamar el «reconocimiento oficial de la República Catalana», según EL MUNDO, que sitúa el acto dentro de dieciséis días. El anuncio llega dos días antes del debate a cuatro en el que PSOE y PP se juegan el bloque decisivo.\n\n## Qué significa el 12 de diciembre\n\nLa fecha cae diez días después de los comicios y antes de que se constituya el nuevo Congreso, en un momento en el que Junts vuelve a presentarse como socio necesario para cualquier investidura. La ley de amnistía cubrió los delitos vinculados al procés, pero quedan causas abiertas que los tribunales siguen interpretando de forma distinta.\n\nEl gesto tiene también lectura electoral: la dirección de Junts busca movilizar a su electorado con la imagen del regreso. Puigdemont tiene además un plazo que caduca este jueves, el de votar desde el extranjero, como recuerda 20minutos.",
+      "imageURL": "/images/2026-11-26-national-005.jpg",
+      "sources": [
+        {
+          "name": "El País",
+          "url": "https://elpais.com/espana/elecciones-generales/2026-11-25/puigdemont-anuncia-que-regresara-a-barcelona-el-sabado-12-de-diciembre.html"
+        },
+        {
+          "name": "El Mundo",
+          "url": "https://www.elmundo.es/cataluna/2026/11/25/6b0714f5e4d4d869358b4570.html"
+        },
+        {
+          "name": "20minutos",
+          "url": "https://www.20minutos.es/nacional/puigdemont-volvera-espana-12-diciembre-celebra-aministia-esta-derrota-represion_7065451_0.html"
+        }
+      ],
+      "publishedAt": "2026-11-26T05:36:00Z"
+    },
+    {
+      "id": "2026-11-26-northernIreland-001",
+      "category": "northernIreland",
+      "headline": "Strabane pulls out of UK Town of Culture race after row over the British label",
+      "subtitle": "Councillors voted to withdraw from the final shortlist of fifteen, days before a submission deadline. Nationalists said the UK branding excluded half the town; unionists called the decision narrow-minded.",
+      "body": "Strabane will not compete to be the UK's Town of Culture in 2028. At a full meeting on Wednesday, Derry City and Strabane District Council voted to withdraw from the final shortlist, a fortnight after the Co Tyrone town was named among 15 contenders from a long list of about 400.\n\nThe money matters. The council has spent around £40,000 on the bid so far, drawn from a £60,000 grant from the Department for Culture, Media and Sport, with the final submission due on Monday. The winner takes £3m, and the two losing finalists £250,000 each. An official told the chamber the grant would have to be repaid if the council did not reach the final submission stage.\n\n## How the vote went\n\nThe motion came from Strabane independent councillor Paul Gallagher, who said the process had caused \"great division in Strabane town\" and pointed to a \"major distrust in this council\" and the risk of protests. He was backed by Sinn Féin and the SDLP. The DUP and the UUP voted to press on.\n\nSinn Féin's Brian Harte said the UK branding \"prevented a large section of the local community and key groups from identifying with or participating\", and that the debate had \"became toxic\", with council officials abused online. The SDLP's Catherine McDaid said the concerns \"need to be taken seriously\" because \"a cultural initiative should bring people together\".\n\nUnionists were blunt in response: the DUP called withdrawing over a \"UK\" tag \"utterly narrow-minded\". Fellow Strabane councillor Raymond Barr told The Irish News the result was \"a victory for the majority of townspeople who rejected the bid\". \"It's a republican town and it's a matter of principle,\" he said. Councillors then voted unanimously to pursue funding for arts and cultural programmes in 2028 anyway.",
+      "imageURL": "/images/2026-11-26-northernIreland-001.jpg",
+      "sources": [
+        {
+          "name": "BBC News NI",
+          "url": "https://www.bbc.co.uk/news/articles/ckg5rz4p7g68o"
+        },
+        {
+          "name": "The Irish News",
+          "url": "https://www.irishnews.com/news/northern-ireland/councillors-scrap-bid-for-strabane-to-be-named-uk-town-of-culture-5TX4WTCXLBGCBC5CHECAJUUKC4"
+        },
+        {
+          "name": "Belfast Telegraph",
+          "url": "https://www.belfasttelegraph.co.uk/news/northern-ireland/strabane-uk-town-of-culture-bid-axed-after-bitter-row-over-british-branding/a/164976866.html"
+        },
+        {
+          "name": "Derry Now",
+          "url": "https://www.derrynow.com/national/withdrawing-strabane-culture-town-bid-over-uk-tag-is-narrow-minded-says-dup-9374862"
+        }
+      ],
+      "publishedAt": "2026-11-26T06:12:00Z"
+    },
+    {
+      "id": "2026-11-26-global-001",
+      "category": "global",
+      "headline": "US proposes new tariffs on 16 trading partners, including China, the EU and Mexico",
+      "subtitle": "The move follows a Section 301 investigation opened after the Supreme Court struck down Trump's Liberation Day tariffs. Rates will differ by country, and Brussels says it rejects the premise outright.",
+      "body": "The United States has moved to impose fresh import taxes on many of its largest trading partners, with China, the European Union, Mexico and Japan among those affected. The BBC understands 16 jurisdictions are covered; El País reported a list of 14. Rates will vary according to the deals each country has previously struck with Washington, with Spanish outlets reporting figures of up to 20%.\n\nThe step follows a Section 301 investigation opened in March, after the US Supreme Court ruled that President Donald Trump's \"Liberation Day\" tariffs were illegal. Trump has made tariffs a signature policy, arguing they revive American manufacturing and protect jobs; critics say they raise prices for US consumers and damage the global economy.\n\n## Europe pushes back\n\nThe European Commission said it \"strongly\" rejected the premise of the new measures, according to France 24. The announcement lands days before an interim US-China trade agreement expires on 10 January.\n\nBeijing, for its part, extended the suspension of export bans on critical minerals including gallium, germanium and antimony until 27 January — a ban that would otherwise have taken effect on Friday. Washington has accused China of falling short on commitments made at last October's summit in South Korea, particularly on agricultural purchases and rare earths.",
+      "imageURL": "/images/2026-11-26-global-001.jpg",
+      "sources": [
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o"
+        },
+        {
+          "name": "El País",
+          "url": "https://elpais.com/internacional/2026-11-25/ee-uu-anuncia-nuevos-aranceles-contra-14-socios-comerciales.html"
+        },
+        {
+          "name": "El Progreso",
+          "url": "https://www.elprogreso.es/economia/eeuu-anuncia-nuevos-aranceles-20-china-ue-japon-otras-once-economias/202611251641112016567.html"
+        },
+        {
+          "name": "France 24",
+          "url": "https://www.france24.com/en/us-unveils-proposed-tariffs-on-major-partners-including-eu-and-china"
+        }
+      ],
+      "publishedAt": "2026-11-26T05:55:00Z"
+    },
+    {
+      "id": "2026-11-26-global-002",
+      "category": "global",
+      "headline": "Fuel tanker fire on Cairo ring road kills 31 and injures 21",
+      "subtitle": "The tanker overturned and burst into flames on a highway in the Warraq district on Wednesday evening. Egypt's public prosecutor has opened an investigation and ordered DNA samples from the dead.",
+      "body": "At least 31 people were killed and 21 injured when a tanker caught fire on a busy section of Cairo's ring road on Wednesday evening, according to Egypt's health ministry. The blaze broke out in the Warraq neighbourhood, north of the old city centre, and torched several nearby vehicles.\n\nOfficials have not given a definitive account of the cause. State-owned Al-Ahram, citing sources close to the investigation, reported that a high-voltage cable fell in front of the truck, causing the driver to lose control. The vehicle crossed the central reservation, overturned and caught fire. Spanish outlets, including 20minutos, described the truck as carrying gas cylinders rather than fuel.\n\nThe health ministry sent 39 ambulances to the scene, and the health minister oversaw treatment of the injured at a Cairo hospital. Footage from the aftermath showed a large crowd gathered on the closed highway as firefighters and a bulldozer cleared burnt-out wrecks.\n\n## A recurring toll\n\nThe regional public prosecutor has opened an investigation and asked for DNA samples to be taken from the bodies of the dead. Egypt has suffered several deadly fires in recent years, with informal housing and run-down infrastructure making incidents more common and slower emergency responses more damaging.\n\nRoad deaths are also routine: nearly 6,000 people died on Egyptian roads last year, official figures show, several hundred more than the year before. The highway has since reopened, state broadcaster NMA reported.",
+      "imageURL": "/images/2026-11-26-global-002.jpg",
+      "sources": [
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cqy7rn30v314o"
+        },
+        {
+          "name": "El País",
+          "url": "https://elpais.com/internacional/2026-11-25/decenas-de-muertos-por-la-explosion-de-un-camion-cisterna-cerca-de-el-cairo.html"
+        },
+        {
+          "name": "France 24",
+          "url": "https://www.france24.com/en/africa/20261126-at-least-31-killed-in-cairo-fire-after-fuel-truck-overturns-on-busy-highway"
+        },
+        {
+          "name": "20minutos",
+          "url": "https://www.20minutos.es/internacional/menos-30-muertos-15-heridos-tras-explotar-un-camion-cargado-bombonas-gas-causar-un-incendio-cairo_7065884_0.html"
+        }
+      ],
+      "publishedAt": "2026-11-26T05:58:00Z"
+    },
+    {
+      "id": "2026-11-26-global-003",
+      "category": "global",
+      "headline": "Israeli judges suggest dropping the most serious charges against Netanyahu",
+      "subtitle": "A Jerusalem court told the attorney general that conviction looked unlikely in the bribery case known as 4,000, and questioned whether a second case met the threshold for criminality at all.",
+      "body": "Judges at Jerusalem District Court have recommended that prosecutors drop bribery charges against Benjamin Netanyahu, in an unusual intervention that hands the caretaker prime minister a lift as he fights for his political survival.\n\nThe panel summoned Attorney General Gali Baharav-Miara on Wednesday to express its concerns about Case 4,000, which concerns an alleged reciprocal arrangement between Netanyahu and the controlling shareholder of Israel's largest telecoms company. \"The chances of conviction are low — to an extent that warrants reconsidering the matter,\" Judge Rivka Friedman-Feldman told her, according to Israeli media.\n\nThe judges also questioned whether Netanyahu's conduct in Case 2,000 met the threshold for criminality, and left open the possibility of conviction in Case 1,000, which alleges he acted for the benefit of an Australian billionaire who gave him cigars and champagne. They suggested prosecutors consider a plea deal.\n\n## A trial, and a coalition\n\nNetanyahu, first charged in 2019, called for the trial to end \"immediately\" in a televised statement. \"Ten years of terrible suffering for me, my family, my son,\" he said, describing the cases as fabricated. Baharav-Miara said she would consider the recommendations.\n\nThe timing is loaded. After inconclusive elections on 27 October, Netanyahu's rival Gadi Eisenkot has been tasked with forming a government and has until 6 December, with a possible 14-day extension. If he fails, Netanyahu could get the chance. The prime minister also remains subject to an ICC arrest warrant over alleged war crimes in Gaza, which he denies.",
+      "imageURL": "/images/2026-11-26-global-003.jpg",
+      "sources": [
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cxj05mv723r2o"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/25/netanyahu-says-corruption-trial-must-end-as-court-suggests-dropping-case"
+        },
+        {
+          "name": "France 24",
+          "url": "https://www.france24.com/en/in-boost-for-netanyahu-judges-question-corruption-trial-charges"
+        }
+      ],
+      "publishedAt": "2026-11-26T06:02:00Z"
+    },
+    {
+      "id": "2026-11-26-global-004",
+      "category": "global",
+      "headline": "Colombian police storm Cartagena supermarket to end 17-hour hostage stand-off",
+      "subtitle": "Special forces freed shoppers and staff held by gunmen who burst in after a failed armoured-car robbery. One attacker was killed and four arrested; reports of how many were held varied during the day.",
+      "body": "Colombian security forces stormed a supermarket in the Caribbean city of Cartagena to free shoppers and employees held hostage for about 17 hours, ending a stand-off that began on Tuesday morning.\n\nGunmen entered the Éxito store in the La Castellana neighbourhood at around 08:00 local time, after what President Abelardo de la Espriella described as a failed attempt to rob an armoured vehicle carrying money. They held those inside at gunpoint while trying to negotiate a getaway. Ten hostages, including elderly women, were released during the day.\n\nAccounts of the numbers held diverged. The BBC's earlier reporting put the figure at 76; its account of the operation says around 20 people remained inside when special forces moved in, while Sky News reported at least 25. Police confirmed officers used stun grenades. One gunman was killed and four were arrested.\n\n## A president on site\n\nResidents nearby reported hearing explosions as the operation unfolded. De la Espriella, who flew to the city to oversee it, called it \"an extraordinary joint operation\" carried out \"flawlessly\", and said the gunmen had been given the chance to surrender and refused. Footage released afterwards showed him flanked by commanders with a handgun on his belt.\n\nCartagena is one of Colombia's main tourist destinations, and the episode dominated national coverage for a day. The attorney general's office has not yet said what charges the four detainees will face.",
+      "imageURL": "/images/2026-11-26-global-004.jpg",
+      "sources": [
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/ckp80mjr9emyo"
+        },
+        {
+          "name": "Sky News",
+          "url": "https://news.sky.com/story/armed-men-take-at-least-25-hostages-in-supermarket-in-colombia-tourist-hotspot-13616139"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/26/colombian-president-taunts-arrested-supermarket-hostage-takers"
+        }
+      ],
+      "publishedAt": "2026-11-26T06:05:00Z"
+    },
+    {
+      "id": "2026-11-26-global-005",
+      "category": "global",
+      "headline": "Europe's Hera probe finds a stadium-sized crater on the asteroid Nasa hit",
+      "subtitle": "First observations from the mission show the DART impact flattened one whole face of Dimorphos, left it tumbling chaotically and scattered hundreds of boulders around the binary system.",
+      "body": "The European Space Agency's Hera probe has reached the asteroid Dimorphos and sent back the first close look at what happened when Nasa deliberately crashed a spacecraft into it, the agency said.\n\nThe impact in September 2022 was the first test of whether humanity could nudge an asteroid off course, and it worked: Dimorphos began orbiting its larger companion Didymos about 33 minutes faster. What could not be seen from Earth was the shape the 151-metre rock was left in. Hera's images show a crater spanning the full width of one face, flattening it, while the rest of the surface looks much as it did in 2022.\n\n## Tumbling, and surrounded\n\n\"The face that received the impact has been flattened by an enormous crater, while the other regions show no signs of major change,\" said Patrick Michel, Hera's principal investigator. The collision also left Dimorphos spinning chaotically, according to ESA mission scientist Michael Kueppers.\n\nHera has also detected hundreds of previously unknown boulders, a few metres across, orbiting the pair — an obstacle the team must allow for as the probe closes in over the coming weeks. It is currently holding station 25 to 30 kilometres away, using thrusters to follow \"rectangular orbits\" at about 12 centimetres per second in almost no gravity.\n\nNeither asteroid poses any threat to Earth. They were chosen as a test range, and Hera's job is to work out how a real rock would respond to being hit.",
+      "imageURL": "/images/2026-11-26-global-005.jpg",
+      "sources": [
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cw8dv112r5gmo"
+        },
+        {
+          "name": "20minutos",
+          "url": "https://www.20minutos.es/tecnologia/actualidad/hera-crater-asteroide-dimorphos-impacto-dart_7065748_0.html"
+        },
+        {
+          "name": "El País",
+          "url": "https://elpais.com/ciencia/2026-11-25/asi-es-el-crater-del-tamano-de-un-estadio-que-formo-la-primera-mision-que-desvio-un-asteroide.html"
+        }
+      ],
+      "publishedAt": "2026-11-26T06:08:00Z"
+    },
+    {
+      "id": "2026-11-26-tech-001",
+      "category": "tech",
+      "headline": "S&P weighs cutting Nvidia's credit rating over governance and ‘key man’ risk",
+      "subtitle": "The agency says the ouster and reinstatement of Jensen Huang exposed weak oversight and a dangerous reliance on one person, and will decide within 90 days whether to move Nvidia from AA to AA-.",
+      "body": "S&P Global Ratings is reviewing Nvidia for a possible downgrade, citing management and governance rather than the chipmaker's balance sheet. In a statement this week, the agency said the ouster and reinstatement of CEO Jensen Huang had exposed \"weak executive oversight and lack of succession planning\" and \"key man risk\" — the danger of a company leaning on one individual for its future success.\n\nThe review will conclude within 90 days and could take Nvidia from AA to AA-, still comfortably investment grade. The knock-on effects matter more than the notch. Nvidia backstops neoclouds and other AI infrastructure companies that lack strong credit of their own, so a lower rating could make their borrowing dearer or force them to post more collateral.\n\n## The financing question\n\nIn August, Nvidia said it would arrange $500bn of financing for AI infrastructure with six financial institutions, including Goldman Sachs, Apollo and Blackstone, guaranteeing 25% of the loans under the original terms. Even before Huang's ouster, lenders had been pressing for bigger guarantees, according to Bloomberg.\n\nEl País reported that Huang's return has not settled the doubts: multiple investigations, an internal revolt and circular financing between Nvidia and the customers buying its chips. France 24 noted Nvidia shares fell again on Wednesday. Huang resigned on 12 November over undisclosed relationships and was reinstated by the board 11 days later, after lobbying from the White House that Trump has since acknowledged.",
+      "imageURL": "/images/2026-11-26-tech-001.jpg",
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks/"
+        },
+        {
+          "name": "El País",
+          "url": "https://elpais.com/economia/2026-11-25/multiples-investigaciones-rebelion-interna-y-financiacion-circular-los-riesgos-del-regreso-de-huang-a-nvidia.html"
+        },
+        {
+          "name": "France 24",
+          "url": "https://www.france24.com/en/video/20261125-huang-s-return-fails-to-dispel-doubts-as-nvidia-shares-drop"
+        }
+      ],
+      "publishedAt": "2026-11-26T06:20:00Z"
+    },
+    {
+      "id": "2026-11-26-tech-002",
+      "category": "tech",
+      "headline": "FCC lets SpaceX launch up to a million satellites for orbital AI data centres",
+      "subtitle": "The conditional approval is a win for Elon Musk's plan to move computing into space. Amazon, Viasat and astronomers objected over debris, interference and the lack of detail in the filing.",
+      "body": "SpaceX has conditional approval from the Federal Communications Commission to deploy and operate a constellation of up to one million satellites for its orbital data centre business. The agency granted it over objections from Amazon, Viasat and the American Astronomical Society, which raised concerns about orbital debris and congestion, radiofrequency interference and environmental harm.\n\nAmazon, which is building a rival to Starlink, argued the application lacked basic details and amounted to a \"lofty ambition rather than a real plan\", adding that the proposal \"risks real harm\". The FCC dismissed several objections, including threats to scientific research, on the grounds that they fell outside its authority. Chair Brendan Carr said the decision \"opens a bold new frontier for the computing infrastructure needed to power America's leadership and growth\". Musk thanked him on X.\n\n## What still has to be solved\n\nPlenty. SpaceX must cut the cost of building and launching satellites, work out how to cool processors in orbit and finance chips destined for space. The FCC has not yet approved its plan for disposing of satellites operating above 600km, so the debris question is deferred rather than settled.\n\nThe authorisation lands in a bruising week for AI-related stocks, with Nvidia and Anthropic falling sharply. Sky News noted the approval covers deployment only; the economics of an orbital data centre remain unproven.",
+      "imageURL": "/images/2026-11-26-tech-002.jpg",
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/25/fcc-approves-spacex-plan-to-put-ai-data-centers-in-space/"
+        },
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers"
+        },
+        {
+          "name": "Sky News",
+          "url": "https://news.sky.com/story/us-authorises-elon-musks-spacex-to-deploy-one-million-satellites-to-space-13616493"
+        },
+        {
+          "name": "20minutos",
+          "url": "https://www.20minutos.es/tecnologia/eeuu-autoriza-spacex-lanzar-un-millon-satelites-para-crear-primer-centro-datos-espacio_7065902_0.html"
+        }
+      ],
+      "publishedAt": "2026-11-26T06:24:00Z"
+    },
+    {
+      "id": "2026-11-26-tech-003",
+      "category": "tech",
+      "headline": "1Password confirms breach, but says password vaults were never exposed",
+      "subtitle": "An attacker got into an employee's corporate GitHub account and pushed malicious code to internal servers, taking customer names, login emails and account timestamps. Passwords and secret keys stayed out of reach.",
+      "body": "1Password has confirmed that some customer information was taken in an intrusion into its internal systems, while insisting that password vaults and other secrets were never accessible. In a blog post on Wednesday, the Toronto-based company said it detected the intrusion on 19 November.\n\nAn attacker gained access to an employee's corporate GitHub account, which the company uses to store and share source code, and used that access to push malicious code to 1Password's internal servers. From there they downloaded customer data: names, the email addresses used to log in, when each account was created and when the user last logged in.\n\n## What was not taken\n\n1Password said customer vaults, where passwords are stored, were \"at no point\" available to the attacker. The company also has no access to customers' account passwords or secret keys, which scramble the vaults so that 1Password itself cannot read them.\n\nIt is unclear how the attacker got into the GitHub account, and a spokesperson did not respond to questions about it. The company has not said how many customers were affected, whether it has notified them, or whether the hackers have made any demands. 1Password advertises millions of individual customers and more than 200,000 businesses, which makes even limited data theft a phishing risk: names plus login emails are exactly what convincing fake password-reset messages are built from.",
+      "imageURL": "/images/2026-11-26-tech-003.jpg",
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/25/1password-said-hackers-broke-into-its-internal-systems-but-customer-passwords-are-safe/"
+        },
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/tech/1042409/1password-data-breach-leak"
+        },
+        {
+          "name": "1Password",
+          "url": "https://1password.com/blog/update-on-nov-2026-security-incident"
+        }
+      ],
+      "publishedAt": "2026-11-26T06:28:00Z"
+    },
+    {
+      "id": "2026-11-26-tech-004",
+      "category": "tech",
+      "headline": "WhatsApp finally lets you schedule messages, up to 14 days ahead",
+      "subtitle": "The most requested feature on the app is rolling out globally: hold the send button, pick a time, and the message goes even if your phone is off. Scheduled messages stay end-to-end encrypted.",
+      "body": "WhatsApp has begun rolling out scheduled messages, one of its most requested features, to all users worldwide. To use it, type a message and long-press the send button, then choose when it should arrive — anywhere from 10 minutes to 14 days later, in both individual and group chats.\n\nScheduled messages can contain text, photos and videos. WhatsApp says they are delivered even if the sender's phone is switched off or out of battery, and that they remain end-to-end encrypted like any other message, so the company cannot read them. Users can see all pending messages in one place and delete them before they are sent.\n\n## Who it is for\n\nThe obvious uses are birthdays and messages that need to land at the right hour in someone else's time zone. But the company is also pitching it at businesses and work groups that want to send updates at a set time without staying up for it.\n\nThe feature was first spotted in Android beta in February, then in limited testing on both Android and iOS through the autumn, so some users may see it before others. It arrives as Meta pushes further into business messaging, and after rival apps such as Telegram have offered scheduling for years.",
+      "imageURL": "/images/2026-11-26-tech-004.jpg",
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/25/whatsapp-now-lets-you-schedule-messages-in-group-and-individual-chats/"
+        },
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/tech/1042532/whatsapp-scheduled-messages"
+        },
+        {
+          "name": "WhatsApp",
+          "url": "https://blog.whatsapp.com/say-it-at-the-right-time-with-scheduled-messages"
+        }
+      ],
+      "publishedAt": "2026-11-26T06:32:00Z"
+    },
+    {
+      "id": "2026-11-26-ai-001",
+      "category": "ai",
+      "headline": "Wall Street's AI trade wobbles as the Nasdaq sheds almost 4%",
+      "subtitle": "Nvidia fell 8% and Anthropic traded below its listing price as investors questioned whether the trillion-dollar build-out will pay off. Even a Goldman forecast of $1trn of AI spending in 2026 failed to steady the market.",
+      "body": "US tech stocks fell again on Wednesday, with the Nasdaq dropping almost 4% and every major index in the red. Nvidia slid 8% in early trading, extending the previous day's losses once the lift from Jensen Huang's reinstatement wore off. Anthropic, which listed last week, traded below its $83 debut price, and Amazon fell more than 5%. Microsoft, Meta and Tesla were also down.\n\nThe selling is about valuation rather than earnings. Investors have grown uneasy about the scale and sustainability of AI spending, and about whether the money pouring into data centres will ever produce matching profits. \"It seems that these companies are trying to one-up each other on the amount of money that they're spending, but you have to show that it's worth it,\" said Todd Schoenberger of CrossCheck Management. \"That's where Wall Street is saying I don't know.\"\n\n## Politics and tariffs\n\nTwo political shocks landed in the same week. Democrats made gains in the US midterms after campaigning for tougher AI regulation, including a moratorium on new data centres. And the White House announced a raft of new tariffs, a reminder that the cheap-money, low-friction assumptions behind the trade are not guaranteed.\n\nGoldman Sachs still expects AI investment to top $1trn in 2026 and calls it the dominant driver of business investment. El Mundo asked what a burst bubble would do to the wider economy and concluded the damage could exceed the dotcom crash, because AI capex now runs through utilities, construction and credit markets. US markets close on Thursday for Thanksgiving.",
+      "imageURL": "/images/2026-11-26-ai-001.jpg",
+      "sources": [
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cq0md8g14zryo"
+        },
+        {
+          "name": "Sky News",
+          "url": "https://news.sky.com/story/nasdaq-100-teeters-on-brink-of-bear-market-as-wall-street-tech-stocks-fall-further-13616624"
+        },
+        {
+          "name": "El Mundo",
+          "url": "https://www.elmundo.es/economia/2026/11/25/6b0717dd21efa07c118b4599.html"
+        }
+      ],
+      "publishedAt": "2026-11-26T06:36:00Z"
+    },
+    {
+      "id": "2026-11-26-ai-002",
+      "category": "ai",
+      "headline": "Nvidia's board acted before its own inquiry ended, and Congress wants answers",
+      "subtitle": "The company says US intelligence cleared Jensen Huang's return, but lawmakers want the FBI and CIA to explain what they knew about his relationship with a woman suspected of Chinese intelligence ties.",
+      "body": "Nvidia's board brought Jensen Huang back as chief executive on Monday, 11 days after he resigned over undisclosed extramarital affairs, one of them with Alice Huang, a woman US intelligence suspects has ties to China's Ministry of State Security. The board said input from \"senior levels of the United States government\" left it confident his return poses no national security risk, and acted before its own investigation had concluded.\n\nPresident Donald Trump told the Wall Street Journal he lobbied the board directly and through intermediaries, and that Nvidia's falling share price helped his case. The Justice Department is meanwhile pursuing a criminal probe of Megaspeed, a Singapore company Alice Huang once ran, over the alleged diversion of Nvidia chips to China. The director of national intelligence, Jay Clayton, has said Alice Huang is also under investigation.\n\n## What intelligence actually found\n\nUS intelligence officials told congressional staff there is no evidence Alice Huang was a Chinese spy or that she began the affair to collect intelligence, according to NPR. She is, however, believed to have passed on information after it began.\n\nRep. Brian Fitzpatrick, a Pennsylvania Republican and former FBI agent on the House Intelligence Committee, wants the FBI and CIA to answer questions about what they briefed Huang and when, before he appears before House lawmakers next week. WIRED reported that security experts worry less about Huang than about the precedent: a company deemed too important to the market to hold accountable. Congress, one former official said, has \"gotten fed up\".",
+      "imageURL": "/images/2026-11-26-ai-002.jpg",
+      "sources": [
+        {
+          "name": "WIRED",
+          "url": "https://www.wired.com/story/jensen-huang-nvidia-us-national-security-risks/"
+        },
+        {
+          "name": "NPR",
+          "url": "https://www.npr.org/2026/11/25/nx-s1-6052417/nvidia-jensen-huang-reaction-republicans-congress-investigation"
+        },
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/23/jensen-huang-isnt-out-of-the-woods-yet/"
+        }
+      ],
+      "publishedAt": "2026-11-26T06:40:00Z"
+    },
+    {
+      "id": "2026-11-26-ai-003",
+      "category": "ai",
+      "headline": "Forty-two states move to block the auction of 21 million Character.AI chat histories",
+      "subtitle": "Attorneys general filed a challenge on Tuesday to stop a 1 December sale that would hand over private conversations, including those of 2.1 million minors, with no obligation on the buyer to protect them.",
+      "body": "Attorneys general from 42 states, led by Illinois's Kwame Raoul and Connecticut's William Tong, have asked a bankruptcy court to block Character.AI's plan to auction its platform together with the private chat histories of more than 21 million US accounts. More than 2.1 million of those accounts belong to minors.\n\nThe sale is scheduled for 1 December. Every chat would go with users' personal data, including IP addresses and other metadata, and the buyer would have no obligation to honour deletion requests or protect privacy.\n\nThe only bidder disclosed so far, Smirks and Pangs Acquisition LLC, was incorporated in Delaware on 13 November — one day before Character.AI selected it as the base bid. The contract names no parent company or investors, allows foreign backers whose identities would be shared only with Character.AI, and carries a $350,000 break-up fee.\n\n## Promises versus bankruptcy\n\nCharacter.AI told users it would never sell their personal information. Tong accused the company of using the bankruptcy process \"to do exactly what they said they wouldn't do — auction off those private chat records and personal details to a shady buyer\".\n\nThe states want the deal rejected, or at minimum rewritten so that children's chats and other sensitive data are excluded and conditions protect users. The company's chatbots have already drawn lawsuits over harm to young users, and regulators argue the sale would strip away the last legal protections attached to that data.",
+      "imageURL": "/images/2026-11-26-ai-003.jpg",
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats/"
+        },
+        {
+          "name": "Connecticut Attorney General",
+          "url": "https://portal.ct.gov/ag/press-releases/2026-press-releases/attorney-general-tong-challenges-plan-to-auction-off-character-ai-private-chats"
+        },
+        {
+          "name": "CT News Junkie",
+          "url": "https://ctnewsjunkie.com/2026/11/24/character-ai-auction-ct-challenge"
+        }
+      ],
+      "publishedAt": "2026-11-26T06:44:00Z"
+    },
+    {
+      "id": "2026-11-26-ai-004",
+      "category": "ai",
+      "headline": "New York bans AI chatbot toys for five years, but they stay on shelves this Christmas",
+      "subtitle": "Governor Kathy Hochul signed a moratorium on talking dolls, robots and stuffed animals for under-13s after testers found toys holding sexually explicit conversations and telling children where to find matches.",
+      "body": "New York has imposed a five-year moratorium on the manufacturing, distribution and sale of toys with built-in AI chatbots. Governor Kathy Hochul signed the bill, S.9408A/A.11144B, on Tuesday in Harlem, covering dolls, robots and stuffed animals that use an internet connection to hold open-ended conversations with children aged 12 and under.\n\nThe law takes effect 90 days after signing, which means the toys can still be sold through this holiday season. Enforcement falls to the state attorney general, with civil penalties of up to $15,000 a day for each violation.\n\n## What the testers found\n\nHochul's office cited testing by a national consumer watchdog on a sample of AI toys marketed to children aged three to 12. Some held sexually explicit conversations, told children where they might find matches in their homes, and acted upset when a child had to leave. Several had limited or no parental controls, and safety restrictions weakened as conversations went on.\n\n\"This is a warning that there are toys out there that could be harmful to your children,\" Hochul said. State Senator Andrew Gounardes, who sponsored the bill, also raised what the toys collect from children and how companies use it. The ban follows other New York laws tightening security requirements for children's chatbots and connected baby monitors, and it passed with near-unanimous support in both chambers.",
+      "imageURL": "/images/2026-11-26-ai-004.jpg",
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york/"
+        },
+        {
+          "name": "Office of Governor Kathy Hochul",
+          "url": "https://www.governor.ny.gov/news/consumers-begin-their-holiday-shopping-season-governor-hochul-signs-five-year-ban-ai-chatbot"
+        },
+        {
+          "name": "News 12 Bronx",
+          "url": "https://bronx.news12.com/gov-hochul-signs-five-year-ban-on-sales-of-childrens-toys-with-ai-chatbots-in-new-york"
+        }
+      ],
+      "publishedAt": "2026-11-26T06:48:00Z"
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-25T05:06:33Z",
+  "generatedAt": "2026-11-26T05:06:23Z",
   "config": {
     "sections": {
       "local": {
@@ -15,12 +15,16 @@
             "url": "https://www.lavozdegalicia.es"
           },
           {
-            "name": "La Región",
-            "url": "https://www.laregion.es"
+            "name": "El Mundo",
+            "url": "https://www.elmundo.es"
           },
           {
-            "name": "20minutos",
-            "url": "https://www.20minutos.es"
+            "name": "COPE Lugo",
+            "url": "https://www.cope.es"
+          },
+          {
+            "name": "Concello de Lugo",
+            "url": "https://concellodelugo.gal"
           }
         ]
       },
@@ -33,28 +37,32 @@
             "url": "https://www.elmundo.es"
           },
           {
-            "name": "RTVE",
-            "url": "https://www.rtve.es"
+            "name": "El País",
+            "url": "https://elpais.com"
+          },
+          {
+            "name": "20minutos",
+            "url": "https://www.20minutos.es"
+          },
+          {
+            "name": "El Progreso",
+            "url": "https://www.elprogreso.es"
+          },
+          {
+            "name": "Heraldo de Aragón",
+            "url": "https://www.heraldo.es"
+          },
+          {
+            "name": "Gobierno de Canarias",
+            "url": "https://www3.gobiernodecanarias.org"
+          },
+          {
+            "name": "Antena 3 Noticias",
+            "url": "https://www.antena3.com"
           },
           {
             "name": "Europa Press",
             "url": "https://www.europapress.es"
-          },
-          {
-            "name": "La Voz de Galicia",
-            "url": "https://www.lavozdegalicia.es"
-          },
-          {
-            "name": "ABC",
-            "url": "https://www.abc.es"
-          },
-          {
-            "name": "La Región",
-            "url": "https://www.laregion.es"
-          },
-          {
-            "name": "Euronews",
-            "url": "https://es.euronews.com"
           }
         ]
       },
@@ -67,12 +75,16 @@
             "url": "https://www.bbc.co.uk/news/northern_ireland"
           },
           {
+            "name": "The Irish News",
+            "url": "https://www.irishnews.com"
+          },
+          {
             "name": "Belfast Telegraph",
             "url": "https://www.belfasttelegraph.co.uk"
           },
           {
-            "name": "News Letter",
-            "url": "https://www.newsletter.co.uk"
+            "name": "Derry Now",
+            "url": "https://www.derrynow.com"
           }
         ]
       },
@@ -81,12 +93,16 @@
         "max": 8,
         "sources": [
           {
-            "name": "BBC",
-            "url": "https://www.bbc.com/news/world"
+            "name": "BBC News",
+            "url": "https://www.bbc.co.uk/news"
           },
           {
-            "name": "The New York Times",
-            "url": "https://www.nytimes.com"
+            "name": "El País",
+            "url": "https://elpais.com"
+          },
+          {
+            "name": "El Progreso",
+            "url": "https://www.elprogreso.es"
           },
           {
             "name": "France 24",
@@ -97,8 +113,12 @@
             "url": "https://www.aljazeera.com"
           },
           {
-            "name": "El Mundo",
-            "url": "https://www.elmundo.es"
+            "name": "Sky News",
+            "url": "https://news.sky.com"
+          },
+          {
+            "name": "20minutos",
+            "url": "https://www.20minutos.es"
           }
         ]
       },
@@ -107,32 +127,36 @@
         "max": 5,
         "sources": [
           {
-            "name": "BBC",
-            "url": "https://www.bbc.com/news/technology"
-          },
-          {
             "name": "TechCrunch",
             "url": "https://techcrunch.com"
           },
           {
-            "name": "Wired",
-            "url": "https://www.wired.com"
+            "name": "The Verge",
+            "url": "https://www.theverge.com"
           },
           {
-            "name": "The Register",
-            "url": "https://www.theregister.com"
+            "name": "El País",
+            "url": "https://elpais.com"
           },
           {
-            "name": "BleepingComputer",
-            "url": "https://www.bleepingcomputer.com"
+            "name": "France 24",
+            "url": "https://www.france24.com"
           },
           {
-            "name": "Ars Technica",
-            "url": "https://arstechnica.com"
+            "name": "Sky News",
+            "url": "https://news.sky.com"
           },
           {
-            "name": "Engadget",
-            "url": "https://www.engadget.com"
+            "name": "20minutos",
+            "url": "https://www.20minutos.es"
+          },
+          {
+            "name": "1Password",
+            "url": "https://1password.com"
+          },
+          {
+            "name": "WhatsApp",
+            "url": "https://blog.whatsapp.com"
           }
         ]
       },
@@ -141,28 +165,36 @@
         "max": 7,
         "sources": [
           {
-            "name": "Ars Technica",
-            "url": "https://arstechnica.com"
+            "name": "BBC News",
+            "url": "https://www.bbc.co.uk/news"
+          },
+          {
+            "name": "Sky News",
+            "url": "https://news.sky.com"
+          },
+          {
+            "name": "El Mundo",
+            "url": "https://www.elmundo.es"
+          },
+          {
+            "name": "WIRED",
+            "url": "https://www.wired.com"
+          },
+          {
+            "name": "NPR",
+            "url": "https://www.npr.org"
           },
           {
             "name": "TechCrunch",
             "url": "https://techcrunch.com"
           },
           {
-            "name": "The Register",
-            "url": "https://www.theregister.com"
+            "name": "Connecticut Attorney General",
+            "url": "https://portal.ct.gov/ag"
           },
           {
-            "name": "BleepingComputer",
-            "url": "https://www.bleepingcomputer.com"
-          },
-          {
-            "name": "The Hacker News",
-            "url": "https://thehackernews.com"
-          },
-          {
-            "name": "Engadget",
-            "url": "https://www.engadget.com"
+            "name": "Office of Governor Kathy Hochul",
+            "url": "https://www.governor.ny.gov"
           }
         ]
       }
@@ -170,450 +202,511 @@
   },
   "articles": [
     {
-      "id": "2026-11-25-local-001",
+      "id": "2026-11-26-local-001",
       "category": "local",
-      "headline": "Lugo estrena su estación intermodal tras años de espera y con la demanda de más trenes",
-      "subtitle": "La terminal ferroviaria abrió este martes sin acto inaugural y con la estación de autobuses todavía sin fecha, mientras los viajeros reclaman frecuencias y tiempos de viaje más cortos",
-      "body": "La nueva estación de tren de Lugo abrió este martes sus puertas y registró catorce movimientos de convoyes en su primer día de servicio, según el recuento de El Progreso. La terminal, situada en la Rúa Alta-Plaza Conde de Fontao, sustituye a la antigua y forma parte de un área intermodal cuya estación de autobuses aún no tiene fecha de apertura.\n\nLa puesta en servicio se produjo sin acto inaugural, coincidiendo con la campaña electoral del 29N. Adif ejecutó la obra con el Ayuntamiento sobre un proyecto que estuvo paralizado durante años y que incluye un edificio de viajeros de dos plantas, nuevos andenes y marquesinas, un paso inferior de uso mixto y una pasarela peatonal hacia la terminal de autobuses.\n\n## Las cifras no cuadran entre las fuentes\n\nEl coste depende de dónde se ponga el límite. El Progreso cifra las obras de la estación en 22,3 millones y eleva la cuenta a 49 millones al sumar las actuaciones vinculadas a la estación de autobuses. La Voz de Galicia habla de una inversión de 23 millones. La Región atribuye al conjunto ejecutado por Adif un coste superior a los 49 millones.\n\nLa oferta de trenes, en cambio, no cambió. La Voz de Galicia sostiene que solo seis convoyes al día están en servicio; su crónica resume la queja de los primeros viajeros en el titular: «Es muy amplia, pero necesitamos trenes». Fernando Carballal, usuario habitual, fue más lejos: «Hace muchos años había mejores comunicaciones que ahora».\n\nQuedan además obras pendientes: el llamado paso de ciudad, con ascensores y rampas hacia la Ronda da Muralla; la electrificación completa de la vía y la eliminación de pasos a nivel, que mantiene algunos trayectos en autobús; la modernización de las líneas a A Coruña y Ourense; y la conexión directa con Santiago, una reivindicación histórica sin resolver.",
-      "imageURL": "/images/2026-11-25-local-001.jpg",
+      "headline": "La Facultad de Veterinaria de Lugo celebra que el grado pase a seis años",
+      "subtitle": "El Consejo de Ministros aprobó elevar la carga lectiva de 300 a 360 créditos. El decano cree que los alumnos saldrán mejor formados y con menos presión, con prácticas desde cuarto curso.",
+      "body": "El Consejo de Ministros dio luz verde el miércoles a una reivindicación histórica del sector veterinario: elevar la carga lectiva del grado de 300 a 360 créditos y extenderlo a seis años, como Medicina. La medida equipara la formación española a la europea, donde la carrera ya tenía esa duración.\n\nEn Lugo la noticia se recibió con satisfacción. El decano de la facultad, Fernando Muñoz, cree que los estudiantes saldrán «mejor formados» a un mercado laboral más exigente y que lo harán con menos presión.\n\n«En la actualidad, la mayoría acaba el grado en 6 o 7 años. La media está en 6,3 años», explica, antes de recordar que es una carrera con mucha presencialidad: «Hay alumnos que llegan a las 9 y se van a las siete de la tarde».\n\n## Prácticas desde cuarto\n\nDe los 60 créditos adicionales, la previsión es dedicar 53 a formación práctica. En lugar de concentrarla en el último curso, como ocurre en Medicina, los rotatorios se distribuirán a partir del cuarto año, y la carga teórica se repartirá en un curso más.\n\nAntonio Cantalapiedra, gerente del hospital veterinario Rof Codina, valoró que los alumnos conozcan antes las salidas profesionales. El presidente del Colegio Oficial de Veterinarios de Lugo, José Luis Benedito, celebró una decisión que «no me lo esperaba ahora». La aplicación del nuevo plan está prevista para el curso 2029-2030.",
+      "imageURL": "/images/2026-11-26-local-001.jpg",
       "sources": [
         {
           "name": "El Progreso",
-          "url": "https://www.elprogreso.es/lugo/asi-ha-sido-primer-dia-nueva-estacion-trenes-lugo-es-maravilla/202611241741422016330.html"
+          "url": "https://www.elprogreso.es/lugo/veterinaria-celebra-que-gobierno-atienda-demanda-historica-amplie-grado-6-anos/202611260500262016657.html"
         },
         {
           "name": "La Voz de Galicia",
-          "url": "https://www.lavozdegalicia.es/noticia/lugo/lugo/2026/11/24/lugo-estrena-nueva-estacion-ferrocarril-amplia-necesitamos-trenes/00031795511617993147474.htm"
+          "url": "https://www.lavozdegalicia.es/noticia/somosagro/ganaderia/2026/11/25/aprobada-ampliacion-veterinaria-seis-cursos-alumnos-saldran-confiados/00031795621377115510711.htm"
         },
         {
-          "name": "La Región",
-          "url": "https://www.laregion.es/galicia/lugo-estrena-nueva-estacion-tren_1_20261125-4507111.html"
+          "name": "El Mundo",
+          "url": "https://www.elmundo.es/espana/2026/11/25/6b06fa36e85eced65b8b456f.html"
         }
       ],
-      "publishedAt": "2026-11-25T05:05:00Z"
+      "publishedAt": "2026-11-26T05:44:00Z"
     },
     {
-      "id": "2026-11-25-local-002",
+      "id": "2026-11-26-local-002",
       "category": "local",
-      "headline": "Un boleto sellado en Outeiro de Rei reparte un millón de euros de El Millón",
-      "subtitle": "El restaurante González, en San Martiño de Guillar, validó el boleto premiado del sorteo del martes y su dueño dice que no sabe quién es el afortunado entre una clientela de paso y de la zona",
-      "body": "El despacho de loterías del restaurante González, en San Martiño de Guillar, en el municipio de Outeiro de Rei, validó el boleto de El Millón agraciado con un millón de euros en el sorteo de Euromillones celebrado el martes por la noche. El local, que también tiene pensión, está a pie de la N-6, en el límite entre Lugo y Outeiro.\n\nÓscar Vilaboa, responsable del negocio, se enteró pocos minutos después de las 22.15 horas. «Acaban de comunicarnos la noticia desde Loterías», contó a El Progreso. Se mostró sorprendido porque, aunque en alguna ocasión habían repartido premios altos, nunca una cantidad así: «Alguna vez repartimos premios superiores, pero como este, ninguno».\n\nEl hostelero cree que será difícil identificar al ganador, ya que por el restaurante pasan tanto clientes de la zona como viajeros que paran de camino. El código del boleto premiado es HRP50707. Los responsables del local esperan, dijeron, que haya ido a parar «a alguien que lo necesite».\n\nEl sorteo no dejó acertantes de primera categoría, de modo que el bote sube a 59 millones para el sorteo del viernes. La combinación ganadora fue 03, 05, 37, 44 y 49, con las estrellas 05 y 06. Hubo un acertante de segunda categoría, que cobrará 486.463,07 euros, y diez de cuarta, con 14.910,75 euros cada uno. La recaudación total ascendió a 37,27 millones.\n\nLugo repite suerte en El Millón. En febrero de 2025 el Bar Madeira, en Fontiñas, vendió otro boleto premiado con la misma cantidad, y años antes lo había hecho un supermercado de Triacastela.",
-      "imageURL": "/images/2026-11-25-local-002.jpg",
+      "headline": "El agua vuelve a la Avenida da Coruña, pero el tráfico seguirá cortado varios días",
+      "subtitle": "El Concello completó la reparación de la fuga frente al número 224, abierta en una zanja de gran profundidad. Ahora hay que reponer la calzada antes de reabrir el tramo.",
+      "body": "El Concello de Lugo confirmó este miércoles que el suministro de agua en la Avenida da Coruña está restablecido y que la avería detectada a la altura del número 224 quedó reparada. Los trabajos se centran ahora en la calzada y en recuperar la circulación.\n\nLa intervención obligó a abrir una zanja de gran profundidad, de modo que hay que reponer toda la zona afectada antes de devolver el tramo al tráfico con normalidad. La previsión municipal es que la circulación completa no se recupere hasta dentro de varios días.\n\n## Cortes desde el lunes\n\nLas restricciones de tráfico empezaron el lunes, dos días antes de la intervención programada, y el miércoles hubo además cortes de suministro y bajadas de presión en la zona mientras se trabajaba sobre la conducción principal. El Concello agradeció la comprensión de los vecinos y de los usuarios de la vía.\n\nLa Avenida da Coruña es una de las principales vías de acceso al centro de Lugo, por lo que los desvíos afectan al tráfico de buena parte de la zona. La fuga se había detectado días antes frente al número 224 y la reparación se fijó para el miércoles para minimizar las molestias, según el anuncio previo del Ayuntamiento.",
+      "imageURL": "/images/2026-11-26-local-002.jpg",
       "sources": [
         {
           "name": "El Progreso",
-          "url": "https://www.elprogreso.es/comarca-lugo/vendido-boleto-premiado-millon-euros-restaurante-gonzalez-guillar/202611242257132016433.html"
+          "url": "https://www.elprogreso.es/lugo/concello-restablece-agua-avenida-da-coruna-trafico-seguira-cortado-dias/202611251650242016575.html"
         },
         {
-          "name": "La Voz de Galicia",
-          "url": "https://www.lavozdegalicia.es/noticia/lugo/outeiro-de-rei/2026/11/24/euromillones-deja-premio-millon-euros-outeiro-rei/00031795555797479760740.htm"
+          "name": "COPE Lugo",
+          "url": "https://www.cope.es/emisoras/galicia/lugo-provincia/lugo/noticias/restablecen-suministro-agua-avenida-da-coruna-mantienen-restricciones-trafico-zona-lugo-20261125_3481818.html"
+        },
+        {
+          "name": "Concello de Lugo",
+          "url": "https://concellodelugo.gal/es/noticias/el-ayuntamiento-de-lugo-ejecutara-la-proxima-semana-la-reparacion-de-la-fuga-de-agua-en-la"
+        }
+      ],
+      "publishedAt": "2026-11-26T05:48:00Z"
+    },
+    {
+      "id": "2026-11-26-national-001",
+      "category": "national",
+      "headline": "Adif avaló en 2020 un sistema que no detectaba la rotura de vía que causó el accidente de Adamuz",
+      "subtitle": "El borrador del informe de la Aitat enviado a la jueza concluye que la empresa pública conocía la limitación de los circuitos de vía, y que la rotura pasó inadvertida 22 horas mientras circulaban 47 trenes.",
+      "body": "El borrador del informe de la Autoridad Administrativa Independiente para la Investigación Técnica de Accidentes Ferroviarios (Aitat), enviado a la jueza de Montoro y adelantado por EL MUNDO, sostiene que Adif validó en marzo de 2020 el sistema de circuitos de vía TTC sabiendo que no garantizaba la detección de roturas de carril. El ensayo de acreditación de 2018 ya había concluido que, con esa configuración, no se cumplía el requisito técnico.\n\nEl documento señala que la limitación figuraba en la documentación de seguridad del proyecto, donde el peligro llegó a calificarse de «intolerable» y después apareció como «cancelado». Los investigadores sitúan la rotura 22 horas antes del siniestro y calculan que 47 convoyes pasaron sobre ese punto antes del Iryo 6189, que descarriló y fue embestido por un Alvia. El balance fue de 46 muertos.\n\n## Un fallo frecuente y mal vigilado\n\nDesde 2017 se han registrado 44 roturas de carril en la red de Adif. Solo 18, el 40,9%, las detectaron los circuitos de vía; otras 17 las encontraron operarios de mantenimiento y nueve los maquinistas. La Aitat advierte de que el accidente puede repetirse mientras no se corrijan esos fallos.\n\nLos peritos judiciales apuntan como causa probable a una soldadura mal ejecutada en las obras de renovación de 2025, junto a un hundimiento del terreno de hasta 6,4 milímetros. Ese «bache» se detectó en septiembre de 2025, se corrigió, reapareció en octubre y en noviembre había crecido sin volver a revisarse.",
+      "imageURL": "/images/2026-11-26-national-001.jpg",
+      "sources": [
+        {
+          "name": "El Mundo",
+          "url": "https://www.elmundo.es/andalucia/2026/11/25/6b06d406fdddffe3308b45b0.html"
+        },
+        {
+          "name": "El País",
+          "url": "https://elpais.com/espana/2026-11-25/los-peritos-de-adamuz-apuntan-a-un-fallo-en-la-soldadura-y-un-hundimiento-del-terreno-como-causas-del-siniestro.html"
         },
         {
           "name": "20minutos",
-          "url": "https://www.20minutos.es/nacional/un-acertante-outeiro-rei-lugo-gana-un-premio-un-millon-euros-sorteo-euromillones_7065422_0.html"
+          "url": "https://www.20minutos.es/nacional/los-peritos-judiciales-apuntan-un-defecto-significativo-via-adamuz-que-adif-no-hizo-un-seguimiento-su-evolucion_7065671_0.html"
         }
       ],
-      "publishedAt": "2026-11-25T05:10:00Z"
+      "publishedAt": "2026-11-26T05:20:00Z"
     },
     {
-      "id": "2026-11-25-national-001",
+      "id": "2026-11-26-national-002",
       "category": "national",
-      "headline": "El Hierro roza en un mes tantos migrantes como habitantes: 11.782 llegadas en 24 días",
-      "subtitle": "El muelle de La Restinga concentra casi el 60% de las entradas del año y el centro de acogida de Valverde se queda corto, mientras Canarias reclama al Gobierno que blinde la derivación de menores",
-      "body": "El puerto de La Restinga, en El Hierro, ha recibido 11.782 migrantes en los primeros 24 días de noviembre, una cifra equivalente al 97,82% de los 12.000 habitantes censados en la isla, según el recuento de El Mundo. Solo cuatro jornadas del mes han transcurrido sin la llegada de un cayuco.\n\nEl lunes desembarcaron 1.282 personas —71 de ellas menores— en ocho embarcaciones pesqueras, y una novena se aproximaba a la isla al cierre de la edición. En lo que va de año la isla suma 19.795 llegadas, y el muelle de La Restinga, un pueblo de 673 vecinos, ha concentrado el 59,52% de ellas.\n\n2026 se perfila como el segundo año de mayor presión de la serie histórica, solo por detrás de 2024, cuando llegaron 23.994 personas, casi el doble de la población censada. RTVE cifraba en casi 11.000 los migrantes llegados en todo noviembre al cierre del domingo, con Senegal, Gambia y Guinea Conakry como principales países de origen.\n\n## La saturación asistencial\n\nEl Centro de Atención Temporal de Extranjeros (CATE) de Valverde, con 800 plazas pendientes todavía de reforma y una decena escasa de agentes de la Policía Nacional, se ha quedado corto ante el ritmo de los desembarcos: obligó a instalar carpas anexas y dejó imágenes de personas durmiendo de madrugada en los asientos del puerto de La Estaca a la espera de ferri.\n\nEl presidente canario, Fernando Clavijo, exigió el lunes al Ejecutivo que el último Consejo de Ministros blindase la modificación del artículo 35 de la Ley de Extranjería para que la derivación de menores no dependa de que se renueve cada año. La Comisión Interministerial de Migraciones decretó la emergencia migratoria en Canarias con una dotación inicial de unos 15 millones de euros.",
-      "imageURL": "/images/2026-11-25-national-001.jpg",
+      "headline": "Canarias declara la emergencia en El Hierro y pide la UME tras un día de llegadas récord",
+      "subtitle": "El Gobierno canario elevó la alerta a nivel 2 el miércoles por la tarde después de unas 2.000 llegadas en una sola jornada, y otros dos cayucos con 190 personas alcanzaron La Restinga de madrugada.",
+      "body": "El Gobierno de Canarias declaró este miércoles la emergencia de nivel 2 en El Hierro por la llegada masiva de personas migrantes por vía marítima, una situación que calificó de excepcional en materia sanitaria, social y de seguridad. La declaración entró en vigor a las 15.00 y va acompañada de la activación del Plateca, el plan territorial de protección civil, y de una petición de apoyo a la UME.\n\nLa decisión llegó después de un martes que el presidente canario, Fernando Clavijo, describió como «tristemente histórico»: alrededor de 2.000 llegadas en un solo día, el máximo de la ruta canaria en más de tres décadas. La cifra siguió creciendo de madrugada, con dos cayucos más en La Restinga —88 y 102 personas, entre ellas 12 mujeres y 11 menores—, según Salvamento Marítimo.\n\n## La respuesta del Estado\n\nPedro Sánchez dijo en TVE confiar en que las llegadas se reduzcan en los próximos días y defendió el refuerzo de controles con Senegal y Gambia, la apertura de vías regulares y un debate sobre integración. España ha pedido además a Frontex un avión en Senegal, según EL MUNDO.\n\nEl PP ha hecho de la migración un eje de campaña. Feijóo aseguró en La Restinga que «la persona que entra de forma irregular no puede tener derechos», y Clavijo reprobó esas palabras: lamentó que se use «la política del miedo para arañar un puñado de votos» y avisó de que los discursos de odio no ayudan a una isla que lleva semanas atendiendo a miles de personas.",
+      "imageURL": "/images/2026-11-26-national-002.jpg",
       "sources": [
         {
-          "name": "El Mundo",
-          "url": "https://www.elmundo.es/espana/2026/11/24/6b05f20121efa017398b4587.html"
+          "name": "El País",
+          "url": "https://elpais.com/espana/2026-11-25/sin-pausa-en-la-ruta-canaria-190-personas-mas-llegan-en-dos-cayucos-a-el-hierro.html"
         },
         {
-          "name": "RTVE",
-          "url": "https://www.rtve.es/noticias/20261123/migrantes-canarias-hierro-llegada-cayucos/17326381.shtml"
+          "name": "El Progreso",
+          "url": "https://www.elprogreso.es/espana/canarias-declara-emergencia-hierro-llegada-masiva-migrantes-solicita-ume/202611251904222016624.html"
         },
         {
-          "name": "Euronews",
-          "url": "https://es.euronews.com/2026/11/22/cerca-de-300-inmigrantes-llegan-a-las-islas-canarias-en-5-cayucos"
+          "name": "Heraldo de Aragón",
+          "url": "https://www.heraldo.es/noticias/nacional/2026/11/25/gobierno-canarias-declara-emergencia-sanitaria-hierro-ume-cayucos-inmigrantes-2071808.html"
+        },
+        {
+          "name": "Gobierno de Canarias",
+          "url": "https://www3.gobiernodecanarias.org/noticias/canarias-declara-la-emergencia-sanitaria-en-el-hierro-para-coordinar-la-llegada-masiva-de-migrantes-a-la-isla"
         }
       ],
-      "publishedAt": "2026-11-25T05:25:00Z"
+      "publishedAt": "2026-11-26T05:24:00Z"
     },
     {
-      "id": "2026-11-25-national-002",
+      "id": "2026-11-26-national-003",
       "category": "national",
-      "headline": "Los decretos electorales de Sánchez dejan casi 22.000 millones de factura al próximo Gobierno",
-      "subtitle": "El último Consejo de Ministros aprueba un paquete de unos 2.000 millones, con 1.200 para prorrogar las ayudas al transporte, mientras la patronal pide derogar lo aprobado en campaña",
-      "body": "El Gobierno que salga de las urnas el domingo tendrá que afrontar una factura de gasto extraordinario cercana a los 22.000 millones de euros por el conjunto de medidas sociales que Pedro Sánchez ha aprobado durante la campaña, según los cálculos que publica El Mundo. Muchas son mejoras retributivas, ampliaciones de permisos y rebajas fiscales difíciles de revertir.\n\nSolo el paquete aprobado en el último Consejo de Ministros, celebrado el martes, ronda los 2.000 millones. El grueso —más de 1.200 millones— corresponde a la prórroga de las ayudas al transporte público durante 2027, con los descuentos actuales en vigor.\n\nEl Ejecutivo amplió el permiso por nacimiento o cuidado del menor de 19 a 20 semanas, con un coste estimado de unos 300 millones, y elevó a diez días el permiso por fallecimiento de un familiar, que en este caso asumirán las empresas. Añadió una rebaja del IRPF para 2,6 millones de autónomos valorada en 465 millones y un régimen voluntario para declarar el IVA una sola vez al año si se factura menos de 85.000 euros.\n\nA esa traca final se suman la revalorización de las pensiones y la subida salarial de los funcionarios, con un coste conjunto de unos 17.600 millones: 8.400 por el alza previsto del 3,6% en las nóminas de los pensionistas y 9.200 por el 4,5% pactado con los empleados públicos más un 0,5% adicional por el exceso de inflación de este año.\n\nLa portavoz del Gobierno, Elma Saiz, defendió las normas porque se dirigen «al 100% de la ciudadanía» con independencia de su ideología, y alegó que las rebajas fiscales a los autónomos deben estar en vigor antes del 1 de enero, según Europa Press. La CEOE ha pedido públicamente al próximo Ejecutivo que dé de baja todas las medidas aprobadas en las últimas semanas.",
-      "imageURL": "/images/2026-11-25-national-002.jpg",
+      "headline": "Sánchez, Feijóo, Abascal y Colau se miden esta noche en el último debate a cuatro",
+      "subtitle": "Dos horas y cinco bloques temáticos separan a los cuatro candidatos de las urnas del 29N, con el tiempo de cada intervención medido por árbitros de la Federación Española de Baloncesto.",
+      "body": "El debate electoral a cuatro llega esta noche, a las 22.00, con la campaña del 29N en su recta final: Pedro Sánchez, Alberto Núñez Feijóo, Santiago Abascal y Ada Colau se verán las caras durante dos horas, repartidas en cinco bloques temáticos de veinte minutos. La Academia de Televisión, organizadora, cerró el formato el miércoles con los cuatro partidos.\n\nLos bloques son vivienda; economía y fiscalidad; políticas sociales y servicios públicos; corrupción y regeneración democrática; y migración y política exterior. En cada uno, los candidatos dispondrán de cinco minutos para exponer sus posiciones. El tiempo lo controlarán cuatro árbitros de la Federación Española de Baloncesto, como ya ocurrió en el cara a cara de la semana pasada.\n\n## Un orden decidido a suerte\n\nLa entrada al plató y el turno de las intervenciones se sortearon: Abascal llegará primero, a las 20.20, y Sánchez el último. El debate abrirá con una valoración de la legislatura de minuto y medio por candidato, en el orden Colau, Sánchez, Feijóo y Abascal, y cerrará con el minuto de oro que abrirá Sánchez.\n\nLa cita llega a tres días de las urnas y con el voto por correo en el punto de mira. El presupuesto ronda los 440.000 euros, con más de cien medios acreditados —nueve de ellos internacionales— y un operativo de más de 300 personas.",
+      "imageURL": "/images/2026-11-26-national-003.jpg",
       "sources": [
         {
-          "name": "El Mundo",
-          "url": "https://www.elmundo.es/economia/2026/11/24/6b058154fc6c835c2b8b4589.html"
+          "name": "20minutos",
+          "url": "https://www.20minutos.es/nacional/asi-sera-debate-cuatro-hoy-sanchez-feijoo-abascal-colau-dos-horas-duracion-cinco-bloques-tematicos_7065688_0.html"
+        },
+        {
+          "name": "El País",
+          "url": "https://elpais.com/espana/elecciones-generales/2026-11-25/los-cuatro-candidatos-ante-el-ultimo-gran-debate-asi-se-prepara-la-cita-decisiva-de-este-jueves.html"
         },
         {
           "name": "Europa Press",
-          "url": "https://www.europapress.es/nacional/noticia-gobierno-defiende-bateria-decretos-semana-elecciones-porque-dirigen-100-ciudadanos-20261124142001.html"
+          "url": "https://www.europapress.es/nacional/noticia-sanchez-feijoo-abascal-colau-miden-debate-cuatro-dibujara-dos-bloques-29n-20261125172619.html"
         },
         {
-          "name": "La Voz de Galicia",
-          "url": "https://www.lavozdegalicia.es/noticia/espana/2026/11/24/gobierno-rescata-medidas-sociales-29n-eleva-18-decretos-convocatoria/00031795539557148572645.htm"
+          "name": "El Mundo",
+          "url": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/25/6b070c74fdddff89748b456e.html"
         }
       ],
-      "publishedAt": "2026-11-25T05:30:00Z"
+      "publishedAt": "2026-11-26T05:28:00Z"
     },
     {
-      "id": "2026-11-25-national-003",
+      "id": "2026-11-26-national-004",
       "category": "national",
-      "headline": "El Supremo avala el DNI digital para votar el 29N y rechaza el recurso contra las urnas de cartón",
-      "subtitle": "La Sala de lo Contencioso da por cumplidos los controles de seguridad de MiDNI y remite a la Junta Electoral Central la disputa sobre el voto de los nacionalizados por la ley de nietos",
-      "body": "El Tribunal Supremo ha avalado el uso del DNI electrónico con el sistema MiDNI como medio de identificación en las elecciones generales del 29 de noviembre y ha desestimado el recurso de Iustitia Europa, que pedía suspenderlo, según el auto difundido por Europa Press y ABC.\n\nEl alto tribunal había reclamado al Ministerio del Interior las certificaciones de seguridad del sistema y concluye que esos controles «han sido cumplidos». Añade que «no existe un riesgo serio, real y fundado» de que los dispositivos que decodifican los códigos QR se vean afectados por causas ajenas a su funcionamiento normal.\n\nSuspender la medida, razona la Sala, resultaría «desproporcionada» para el fin constitucionalmente legítimo de identificar a cada votante si el argumento es la falta de un protocolo uniforme ante incidencias.\n\nEn la misma resolución el tribunal rechaza un recurso contra el uso de urnas de cartón y mesas específicas en los consulados para los nacionalizados por la ley de nietos, cuyo voto sigue suspendido cautelarmente salvo que acrediten determinados requisitos. La Región precisa que el Supremo no entró a valorar la idoneidad de esos materiales y remitió la cuestión a la Junta Electoral Central, competente para resolverla.\n\nLa controversia afecta a más de 160.000 personas nacionalizadas mediante la ley de nietos y entró en la campaña electoral después de que se difundieran imágenes de esas urnas en los consulados.",
-      "imageURL": "/images/2026-11-25-national-003.jpg",
+      "headline": "El voto exterior cierra este jueves con colas, sobres perdidos y reproches entre partidos",
+      "subtitle": "Los consulados cierran sus urnas tras seis días de votación presencial. La participación sube en México y Argentina, mientras residentes en Europa denuncian envíos que nunca llegaron.",
+      "body": "Los colegios electorales de los consulados españoles cierran este jueves a las 17.00 hora local, fin del plazo para votar presencialmente en el exterior. La campaña llega a las urnas con dos realidades: los consulados de México y Argentina apuntan a una participación superior a la de 2023, mientras numerosos residentes en Europa denuncian fallos del envío postal y silencio consular.\n\nEn Ciudad de México se habían registrado 5.877 votos en urna al cierre del lunes, frente a los 5.923 contabilizados en total en julio de 2023 sobre un censo de 125.000 electores. El consulado calcula cerrar entre 8.000 y 9.000 papeletas. El censo se revisó a 140.464 después de que el Supremo excluyera a más de 10.000 personas nacionalizadas al amparo de la Ley de Memoria Democrática.\n\n## Sobres que no llegan\n\nEn Milán y París hay votantes que no recibieron el primer envío con sobres y certificado, materiales que no pueden descargarse. Una residente en el norte de Italia relató quince llamadas sin respuesta al consulado y concluyó que serán las primeras elecciones de su vida en las que no vote.\n\nLa Junta Electoral Central ha rechazado por unanimidad las quejas de PP y Vox sobre el voto exterior por falta de pruebas, según Antena 3. Más de 2,77 millones de electores inscritos en el censo CERA podían votar en esta convocatoria.",
+      "imageURL": "/images/2026-11-26-national-004.jpg",
       "sources": [
         {
-          "name": "Europa Press",
-          "url": "https://www.europapress.es/nacional/noticia-supremo-avala-dni-digital-elecciones-rechaza-recurso-contra-urnas-carton-nietos-20261124151755.html"
+          "name": "El Mundo",
+          "url": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/25/6b07109bfc6c837f368b45b2.html"
         },
         {
-          "name": "ABC",
-          "url": "https://www.abc.es/espana/supremo-avala-dni-digital-elecciones-rechaza-recurso-20261124160140-nt.html"
+          "name": "El País",
+          "url": "https://elpais.com/espana/elecciones-generales/2026-11-25/colas-interminables-para-votar-por-correo-en-la-recta-final-de-la-campana-electoral-esto-es-barbaro.html"
         },
         {
-          "name": "La Región",
-          "url": "https://www.laregion.es/espana/supremo-rechaza-prohibir-virales-urnas_1_20261124-4506750.html"
+          "name": "Antena 3 Noticias",
+          "url": "https://www.antena3.com/noticias/espana/caos-consulados-voto-correo-como-muchos-otros-hemos-recibido-nada_202611256b0735815cb1082f89b52cb8.html"
         }
       ],
-      "publishedAt": "2026-11-25T05:35:00Z"
+      "publishedAt": "2026-11-26T05:32:00Z"
     },
     {
-      "id": "2026-11-25-northernIreland-001",
+      "id": "2026-11-26-national-005",
+      "category": "national",
+      "headline": "Puigdemont anuncia que volverá a Barcelona el 12 de diciembre «sin pedir perdón ni permiso»",
+      "subtitle": "El expresidente de la Generalitat hizo el anuncio a tres días de las elecciones y presenta la vuelta como el arranque de una ofensiva para lograr el reconocimiento oficial de la República Catalana.",
+      "body": "Carles Puigdemont anunció este miércoles que regresará a Barcelona el sábado 12 de diciembre, «sin pedir perdón ni permiso», a tres días de las elecciones generales del 29N. El expresidente de la Generalitat, que permanece fuera de España, presentó la vuelta como el arranque de una nueva ofensiva política.\n\nPuigdemont celebró la amnistía como una derrota de la represión y anunció que su regreso servirá para reclamar el «reconocimiento oficial de la República Catalana», según EL MUNDO, que sitúa el acto dentro de dieciséis días. El anuncio llega dos días antes del debate a cuatro en el que PSOE y PP se juegan el bloque decisivo.\n\n## Qué significa el 12 de diciembre\n\nLa fecha cae diez días después de los comicios y antes de que se constituya el nuevo Congreso, en un momento en el que Junts vuelve a presentarse como socio necesario para cualquier investidura. La ley de amnistía cubrió los delitos vinculados al procés, pero quedan causas abiertas que los tribunales siguen interpretando de forma distinta.\n\nEl gesto tiene también lectura electoral: la dirección de Junts busca movilizar a su electorado con la imagen del regreso. Puigdemont tiene además un plazo que caduca este jueves, el de votar desde el extranjero, como recuerda 20minutos.",
+      "imageURL": "/images/2026-11-26-national-005.jpg",
+      "sources": [
+        {
+          "name": "El País",
+          "url": "https://elpais.com/espana/elecciones-generales/2026-11-25/puigdemont-anuncia-que-regresara-a-barcelona-el-sabado-12-de-diciembre.html"
+        },
+        {
+          "name": "El Mundo",
+          "url": "https://www.elmundo.es/cataluna/2026/11/25/6b0714f5e4d4d869358b4570.html"
+        },
+        {
+          "name": "20minutos",
+          "url": "https://www.20minutos.es/nacional/puigdemont-volvera-espana-12-diciembre-celebra-aministia-esta-derrota-represion_7065451_0.html"
+        }
+      ],
+      "publishedAt": "2026-11-26T05:36:00Z"
+    },
+    {
+      "id": "2026-11-26-northernIreland-001",
       "category": "northernIreland",
-      "headline": "Burnham turns down Stormont leaders' request for a meeting on the budget",
-      "subtitle": "Northern Ireland's first and deputy first ministers sought direct engagement to break a seven-month impasse; the prime minister is backing the NI secretary to keep leading the talks",
-      "body": "Andy Burnham has declined a request from Northern Ireland's first and deputy first ministers to meet him over Stormont's budget stalemate. Michelle O'Neill and Emma Little-Pengelly had jointly written to the prime minister seeking direct engagement in an attempt to resolve an impasse that is now more than seven months into the financial year.\n\nIt is understood the prime minister has backed Northern Ireland Secretary Sir Chris Bryant to continue leading talks on the government's behalf. Burnham is said to be urging the Stormont executive to accept the offer of an extra £1.5bn over the next three years and finalise a financial plan.\n\nNo budget has been agreed by the four-party coalition. Departments have been operating under contingency arrangements that let them spend up to 95% of last year's funding, and ministers have insisted the additional money does not go far enough to let them set a budget.\n\nThe News Letter reports that the executive met on Tuesday morning and, in O'Neill's words, had a \"good discussion\" and \"remain of one mind\" on the funding shortfall. About £525m of the £1.5bn would arrive this year. Last month's UK Budget allocated a further £131m for the current financial year and £270m across three years. Trade unions have warned of widespread strikes if public sector pay is not delivered.\n\nThe first minister had asked her DUP counterpart to join the approach, saying it would be a \"dereliction of responsibility\" for Little-Pengelly to refuse. Both parties sit in the same executive and, seven months on, are still making the same argument to London rather than to each other.",
-      "imageURL": "/images/2026-11-25-northernIreland-001.jpg",
+      "headline": "Strabane pulls out of UK Town of Culture race after row over the British label",
+      "subtitle": "Councillors voted to withdraw from the final shortlist of fifteen, days before a submission deadline. Nationalists said the UK branding excluded half the town; unionists called the decision narrow-minded.",
+      "body": "Strabane will not compete to be the UK's Town of Culture in 2028. At a full meeting on Wednesday, Derry City and Strabane District Council voted to withdraw from the final shortlist, a fortnight after the Co Tyrone town was named among 15 contenders from a long list of about 400.\n\nThe money matters. The council has spent around £40,000 on the bid so far, drawn from a £60,000 grant from the Department for Culture, Media and Sport, with the final submission due on Monday. The winner takes £3m, and the two losing finalists £250,000 each. An official told the chamber the grant would have to be repaid if the council did not reach the final submission stage.\n\n## How the vote went\n\nThe motion came from Strabane independent councillor Paul Gallagher, who said the process had caused \"great division in Strabane town\" and pointed to a \"major distrust in this council\" and the risk of protests. He was backed by Sinn Féin and the SDLP. The DUP and the UUP voted to press on.\n\nSinn Féin's Brian Harte said the UK branding \"prevented a large section of the local community and key groups from identifying with or participating\", and that the debate had \"became toxic\", with council officials abused online. The SDLP's Catherine McDaid said the concerns \"need to be taken seriously\" because \"a cultural initiative should bring people together\".\n\nUnionists were blunt in response: the DUP called withdrawing over a \"UK\" tag \"utterly narrow-minded\". Fellow Strabane councillor Raymond Barr told The Irish News the result was \"a victory for the majority of townspeople who rejected the bid\". \"It's a republican town and it's a matter of principle,\" he said. Councillors then voted unanimously to pursue funding for arts and cultural programmes in 2028 anyway.",
+      "imageURL": "/images/2026-11-26-northernIreland-001.jpg",
       "sources": [
         {
           "name": "BBC News NI",
-          "url": "https://www.bbc.co.uk/news/articles/c3702xz7147qo"
+          "url": "https://www.bbc.co.uk/news/articles/ckg5rz4p7g68o"
+        },
+        {
+          "name": "The Irish News",
+          "url": "https://www.irishnews.com/news/northern-ireland/councillors-scrap-bid-for-strabane-to-be-named-uk-town-of-culture-5TX4WTCXLBGCBC5CHECAJUUKC4"
         },
         {
           "name": "Belfast Telegraph",
-          "url": "https://www.belfasttelegraph.co.uk/news/northern-ireland/stormont-prime-minister-burnham-declines-meeting-with-michelle-oneill-and-emma-little-pengelly-over-budget-stalemate/a/165012882.html"
+          "url": "https://www.belfasttelegraph.co.uk/news/northern-ireland/strabane-uk-town-of-culture-bid-axed-after-bitter-row-over-british-branding/a/164976866.html"
         },
         {
-          "name": "News Letter",
-          "url": "https://www.newsletter.co.uk/news/politics/first-and-deputy-first-ministers-ask-for-meeting-with-burnham-over-budget-9371106"
+          "name": "Derry Now",
+          "url": "https://www.derrynow.com/national/withdrawing-strabane-culture-town-bid-over-uk-tag-is-narrow-minded-says-dup-9374862"
         }
       ],
-      "publishedAt": "2026-11-25T05:40:00Z"
+      "publishedAt": "2026-11-26T06:12:00Z"
     },
     {
-      "id": "2026-11-25-global-001",
+      "id": "2026-11-26-global-001",
       "category": "global",
-      "headline": "Leaked Russian data points to nearly half a million soldiers dead in Ukraine",
-      "subtitle": "BBC Russian and Mediazona counted at least 490,334 deaths in records hacked from Rosstat, while independent Russian outlets put total losses above 700,000 including the missing",
-      "body": "At least 490,334 Russian soldiers have died since the full-scale invasion of Ukraine began in 2022, according to Russian government statistics analysed by BBC Russian and the independent outlet Mediazona. The figure comes from more than 11 million death records covering 2021 to September 2026, obtained after a hack that Russia's statistics agency, Rosstat, acknowledged while denying that protected information had leaked.\n\nThe Belarusian group Cyber Partisans and Ukraine's Silent Crow are reported to have carried out the breach. BBC Russian matched the Rosstat records against its own list of confirmed military deaths drawn from open sources and found matches for 90% of them.\n\nThe data shows how the war has reshaped mortality in Russia. Of Russians aged 18 to 24 who died in 2025, 65% were killed in the war; among those aged 25 to 34 the share was 59%. Only in the 45 to 54 bracket does cardiovascular disease claim more lives than the conflict. About 20,000 Russian soldiers died fighting for ten Ukrainian villages whose combined pre-war population was 12,000.\n\nThe total is contested. Meduza and Mediazona published a separate estimate on Monday putting Russian military deaths above 700,000, calculated from the same leaked trove and adjusted for the lag with which deaths reach the state system, which does not yet record most of 2026. France 24 reported the same figure as losses including the missing. The Kremlin has never published a death toll for the war.",
-      "imageURL": "/images/2026-11-25-global-001.jpg",
+      "headline": "US proposes new tariffs on 16 trading partners, including China, the EU and Mexico",
+      "subtitle": "The move follows a Section 301 investigation opened after the Supreme Court struck down Trump's Liberation Day tariffs. Rates will differ by country, and Brussels says it rejects the premise outright.",
+      "body": "The United States has moved to impose fresh import taxes on many of its largest trading partners, with China, the European Union, Mexico and Japan among those affected. The BBC understands 16 jurisdictions are covered; El País reported a list of 14. Rates will vary according to the deals each country has previously struck with Washington, with Spanish outlets reporting figures of up to 20%.\n\nThe step follows a Section 301 investigation opened in March, after the US Supreme Court ruled that President Donald Trump's \"Liberation Day\" tariffs were illegal. Trump has made tariffs a signature policy, arguing they revive American manufacturing and protect jobs; critics say they raise prices for US consumers and damage the global economy.\n\n## Europe pushes back\n\nThe European Commission said it \"strongly\" rejected the premise of the new measures, according to France 24. The announcement lands days before an interim US-China trade agreement expires on 10 January.\n\nBeijing, for its part, extended the suspension of export bans on critical minerals including gallium, germanium and antimony until 27 January — a ban that would otherwise have taken effect on Friday. Washington has accused China of falling short on commitments made at last October's summit in South Korea, particularly on agricultural purchases and rare earths.",
+      "imageURL": "/images/2026-11-26-global-001.jpg",
       "sources": [
         {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cmx27g533zwyo"
+          "name": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o"
         },
         {
-          "name": "The New York Times",
-          "url": "https://www.nytimes.com/2026/11/23/world/europe/russia-ukraine-war-deaths.html"
+          "name": "El País",
+          "url": "https://elpais.com/internacional/2026-11-25/ee-uu-anuncia-nuevos-aranceles-contra-14-socios-comerciales.html"
+        },
+        {
+          "name": "El Progreso",
+          "url": "https://www.elprogreso.es/economia/eeuu-anuncia-nuevos-aranceles-20-china-ue-japon-otras-once-economias/202611251641112016567.html"
         },
         {
           "name": "France 24",
-          "url": "https://www.france24.com/en/russian-losses-on-ukrainian-front-top-700-000-including-missing"
+          "url": "https://www.france24.com/en/us-unveils-proposed-tariffs-on-major-partners-including-eu-and-china"
         }
       ],
-      "publishedAt": "2026-11-25T05:45:00Z"
+      "publishedAt": "2026-11-26T05:55:00Z"
     },
     {
-      "id": "2026-11-25-global-002",
+      "id": "2026-11-26-global-002",
       "category": "global",
-      "headline": "Amnesty asks the ICC to examine genocide claims over births in Gaza",
-      "subtitle": "The rights group says Israeli measures prevented births and damaged women's reproductive health, as Israeli strikes killed Hamas's internal security chief and at least four others",
-      "body": "Amnesty International has urged the International Criminal Court to investigate whether Israeli officials committed genocide in Gaza, citing measures it says prevented births and severely damaged women's reproductive health. The report was published on Wednesday, the International Day for the Elimination of Violence against Women.\n\nAmnesty's secretary general, Agnès Callamard, said that from October 2023 until October 2026 \"Israel's actions have prevented access to fertility treatment and contributed to pregnancy complications, including miscarriage and stillbirth\". The organisation said it had serious concerns that the effects were intentional, while acknowledging it could not reach a definitive conclusion.\n\nThe report says Gaza had at least nine clinics offering IVF before the war and that none now provide the treatment, with thousands of stored embryos, sperm and eggs destroyed. Amnesty said it found evidence that Palestinian armed groups used hospitals to hold hostages and to torture Palestinians, but no evidence supporting Israeli claims that they were used as Hamas command centres.\n\n## A security chief killed\n\nIn Gaza, an Israeli air strike killed Naeem Abu Nahel, head of Hamas's internal security service. The Hamas-run interior ministry said the 50-year-old, in the post only since September, was targeted in western Gaza City, and Benjamin Netanyahu and defence minister Israel Katz announced he had been \"eliminated\".\n\nAl Jazeera reported at least four people killed in a strike on an apartment building in the Shati refugee camp. Palestinian medics said six others died in two strikes on Tuesday, including a teenage boy and two police officers. Strikes have continued almost daily despite the US-brokered ceasefire agreed in October last year.",
-      "imageURL": "/images/2026-11-25-global-002.jpg",
+      "headline": "Fuel tanker fire on Cairo ring road kills 31 and injures 21",
+      "subtitle": "The tanker overturned and burst into flames on a highway in the Warraq district on Wednesday evening. Egypt's public prosecutor has opened an investigation and ordered DNA samples from the dead.",
+      "body": "At least 31 people were killed and 21 injured when a tanker caught fire on a busy section of Cairo's ring road on Wednesday evening, according to Egypt's health ministry. The blaze broke out in the Warraq neighbourhood, north of the old city centre, and torched several nearby vehicles.\n\nOfficials have not given a definitive account of the cause. State-owned Al-Ahram, citing sources close to the investigation, reported that a high-voltage cable fell in front of the truck, causing the driver to lose control. The vehicle crossed the central reservation, overturned and caught fire. Spanish outlets, including 20minutos, described the truck as carrying gas cylinders rather than fuel.\n\nThe health ministry sent 39 ambulances to the scene, and the health minister oversaw treatment of the injured at a Cairo hospital. Footage from the aftermath showed a large crowd gathered on the closed highway as firefighters and a bulldozer cleared burnt-out wrecks.\n\n## A recurring toll\n\nThe regional public prosecutor has opened an investigation and asked for DNA samples to be taken from the bodies of the dead. Egypt has suffered several deadly fires in recent years, with informal housing and run-down infrastructure making incidents more common and slower emergency responses more damaging.\n\nRoad deaths are also routine: nearly 6,000 people died on Egyptian roads last year, official figures show, several hundred more than the year before. The highway has since reopened, state broadcaster NMA reported.",
+      "imageURL": "/images/2026-11-26-global-002.jpg",
       "sources": [
         {
-          "name": "France 24",
-          "url": "https://www.france24.com/en/middle-east/20261125-amnesty-calls-for-icc-genocide-probe-over-israel-s-impact-on-births-in-gaza"
+          "name": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cqy7rn30v314o"
         },
         {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c6rrg7ggq190o"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/25/israeli-strike-kills-four-people-in-gaza"
-        }
-      ],
-      "publishedAt": "2026-11-25T05:50:00Z"
-    },
-    {
-      "id": "2026-11-25-global-003",
-      "category": "global",
-      "headline": "Iran flogs singer Parastoo Ahmadi and four colleagues over hijab-less concert",
-      "subtitle": "A defence lawyer told the BBC that Ahmadi, three musicians and a producer each received 74 lashes in Qom, two years after her livestreamed performance was seen around the world",
-      "body": "Iranian authorities have flogged the singer Parastoo Ahmadi and four members of her band and production team, according to their defence lawyers. Ahmadi, three musicians and a producer each received 74 lashes at the criminal sentence enforcement office in the city of Qom, one of the lawyers told the BBC on Monday.\n\nThe case dates from December 2024, when Ahmadi performed in a sleeveless dress in a concert livestreamed on her YouTube channel. Iranian law bans public performances by women and requires them to wear the headscarf and modest clothing. The video circulated widely online.\n\nIn June a criminal court in Qom convicted Ahmadi and eight others of \"offending public decency\" through publishing \"obscene and indecent material\", charges they denied. Alongside the 74 lashes they were banned from audiovisual work and from leaving Iran for two years. At the end of September an appeals court in Qom rejected their appeal and upheld the sentence.\n\nThe sentences drew condemnation from Iranian artists and human rights activists, who argued that flogging is cruel, inhuman and degrading punishment and breaches the international prohibition on torture. France 24 reported that the United Nations also criticised Iran over the case. Ahmadi's lawyers confirmed the flogging four days after the punishment was carried out.",
-      "imageURL": "/images/2026-11-25-global-003.jpg",
-      "sources": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cq1j6585l5g6o"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/25/iran-whips-singer-parastoo-ahmadi-74-times-over-youtube-concert"
+          "name": "El País",
+          "url": "https://elpais.com/internacional/2026-11-25/decenas-de-muertos-por-la-explosion-de-un-camion-cisterna-cerca-de-el-cairo.html"
         },
         {
           "name": "France 24",
-          "url": "https://www.france24.com/en/asia-pacific/20261124-un-condemns-iran-flogging-singer-parastoo-ahmadi"
+          "url": "https://www.france24.com/en/africa/20261126-at-least-31-killed-in-cairo-fire-after-fuel-truck-overturns-on-busy-highway"
+        },
+        {
+          "name": "20minutos",
+          "url": "https://www.20minutos.es/internacional/menos-30-muertos-15-heridos-tras-explotar-un-camion-cargado-bombonas-gas-causar-un-incendio-cairo_7065884_0.html"
         }
       ],
-      "publishedAt": "2026-11-25T05:55:00Z"
+      "publishedAt": "2026-11-26T05:58:00Z"
     },
     {
-      "id": "2026-11-25-global-004",
+      "id": "2026-11-26-global-003",
       "category": "global",
-      "headline": "Ábrego García leaves the US for Spain after a year and a half of legal battle",
-      "subtitle": "The Salvadoran whose mistaken deportation to El Salvador became a symbol of Trump's immigration drive has flown to Spain, which his lawyer describes as a temporary departure",
-      "body": "Kilmar Ábrego García, whose wrongful deportation to El Salvador last year turned him into a symbol of the fight over Donald Trump's immigration policy, left the United States for Spain on Tuesday. He took a commercial flight, according to CBS News, the BBC's US partner.\n\nÁbrego García is Salvadoran and had lived in Maryland for years after arriving illegally as a teenager. In 2019 an immigration judge ruled that he could not be sent back to El Salvador because of danger from a gang that had threatened his family, and allowed him to live and work in the US under supervision, without residency status.\n\nThe administration admitted in 2025 that it had deported him in error, brought him back to face human trafficking charges that were later dropped, and then pressed to send him to countries including Uganda, Ghana and Liberia. A judge told him on Tuesday to self-deport, the Associated Press reported, after a memo noted a US agreement with Costa Rica to take deportees who cannot legally be returned home.\n\nSenator Chris Van Hollen, a Maryland Democrat who visited him in El Salvador's Cecot prison, said he was travelling \"to a country of his choice, a free man - unharmed and with dignity\". His lawyer said the departure was \"temporary\" and that he had \"many options to return\", adding that the family expected a future administration to bring him back to Maryland.",
-      "imageURL": "/images/2026-11-25-global-004.jpg",
+      "headline": "Israeli judges suggest dropping the most serious charges against Netanyahu",
+      "subtitle": "A Jerusalem court told the attorney general that conviction looked unlikely in the bribery case known as 4,000, and questioned whether a second case met the threshold for criminality at all.",
+      "body": "Judges at Jerusalem District Court have recommended that prosecutors drop bribery charges against Benjamin Netanyahu, in an unusual intervention that hands the caretaker prime minister a lift as he fights for his political survival.\n\nThe panel summoned Attorney General Gali Baharav-Miara on Wednesday to express its concerns about Case 4,000, which concerns an alleged reciprocal arrangement between Netanyahu and the controlling shareholder of Israel's largest telecoms company. \"The chances of conviction are low — to an extent that warrants reconsidering the matter,\" Judge Rivka Friedman-Feldman told her, according to Israeli media.\n\nThe judges also questioned whether Netanyahu's conduct in Case 2,000 met the threshold for criminality, and left open the possibility of conviction in Case 1,000, which alleges he acted for the benefit of an Australian billionaire who gave him cigars and champagne. They suggested prosecutors consider a plea deal.\n\n## A trial, and a coalition\n\nNetanyahu, first charged in 2019, called for the trial to end \"immediately\" in a televised statement. \"Ten years of terrible suffering for me, my family, my son,\" he said, describing the cases as fabricated. Baharav-Miara said she would consider the recommendations.\n\nThe timing is loaded. After inconclusive elections on 27 October, Netanyahu's rival Gadi Eisenkot has been tasked with forming a government and has until 6 December, with a possible 14-day extension. If he fails, Netanyahu could get the chance. The prime minister also remains subject to an ICC arrest warrant over alleged war crimes in Gaza, which he denies.",
+      "imageURL": "/images/2026-11-26-global-003.jpg",
       "sources": [
         {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c6808pyy5dl9o"
+          "name": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cxj05mv723r2o"
         },
         {
           "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/11/25/kilmar-abrego-garcia-self-deports-to-spain-after-lengthy-us-legal-battle"
+          "url": "https://www.aljazeera.com/news/2026/11/25/netanyahu-says-corruption-trial-must-end-as-court-suggests-dropping-case"
+        },
+        {
+          "name": "France 24",
+          "url": "https://www.france24.com/en/in-boost-for-netanyahu-judges-question-corruption-trial-charges"
+        }
+      ],
+      "publishedAt": "2026-11-26T06:02:00Z"
+    },
+    {
+      "id": "2026-11-26-global-004",
+      "category": "global",
+      "headline": "Colombian police storm Cartagena supermarket to end 17-hour hostage stand-off",
+      "subtitle": "Special forces freed shoppers and staff held by gunmen who burst in after a failed armoured-car robbery. One attacker was killed and four arrested; reports of how many were held varied during the day.",
+      "body": "Colombian security forces stormed a supermarket in the Caribbean city of Cartagena to free shoppers and employees held hostage for about 17 hours, ending a stand-off that began on Tuesday morning.\n\nGunmen entered the Éxito store in the La Castellana neighbourhood at around 08:00 local time, after what President Abelardo de la Espriella described as a failed attempt to rob an armoured vehicle carrying money. They held those inside at gunpoint while trying to negotiate a getaway. Ten hostages, including elderly women, were released during the day.\n\nAccounts of the numbers held diverged. The BBC's earlier reporting put the figure at 76; its account of the operation says around 20 people remained inside when special forces moved in, while Sky News reported at least 25. Police confirmed officers used stun grenades. One gunman was killed and four were arrested.\n\n## A president on site\n\nResidents nearby reported hearing explosions as the operation unfolded. De la Espriella, who flew to the city to oversee it, called it \"an extraordinary joint operation\" carried out \"flawlessly\", and said the gunmen had been given the chance to surrender and refused. Footage released afterwards showed him flanked by commanders with a handgun on his belt.\n\nCartagena is one of Colombia's main tourist destinations, and the episode dominated national coverage for a day. The attorney general's office has not yet said what charges the four detainees will face.",
+      "imageURL": "/images/2026-11-26-global-004.jpg",
+      "sources": [
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/ckp80mjr9emyo"
+        },
+        {
+          "name": "Sky News",
+          "url": "https://news.sky.com/story/armed-men-take-at-least-25-hostages-in-supermarket-in-colombia-tourist-hotspot-13616139"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/26/colombian-president-taunts-arrested-supermarket-hostage-takers"
+        }
+      ],
+      "publishedAt": "2026-11-26T06:05:00Z"
+    },
+    {
+      "id": "2026-11-26-global-005",
+      "category": "global",
+      "headline": "Europe's Hera probe finds a stadium-sized crater on the asteroid Nasa hit",
+      "subtitle": "First observations from the mission show the DART impact flattened one whole face of Dimorphos, left it tumbling chaotically and scattered hundreds of boulders around the binary system.",
+      "body": "The European Space Agency's Hera probe has reached the asteroid Dimorphos and sent back the first close look at what happened when Nasa deliberately crashed a spacecraft into it, the agency said.\n\nThe impact in September 2022 was the first test of whether humanity could nudge an asteroid off course, and it worked: Dimorphos began orbiting its larger companion Didymos about 33 minutes faster. What could not be seen from Earth was the shape the 151-metre rock was left in. Hera's images show a crater spanning the full width of one face, flattening it, while the rest of the surface looks much as it did in 2022.\n\n## Tumbling, and surrounded\n\n\"The face that received the impact has been flattened by an enormous crater, while the other regions show no signs of major change,\" said Patrick Michel, Hera's principal investigator. The collision also left Dimorphos spinning chaotically, according to ESA mission scientist Michael Kueppers.\n\nHera has also detected hundreds of previously unknown boulders, a few metres across, orbiting the pair — an obstacle the team must allow for as the probe closes in over the coming weeks. It is currently holding station 25 to 30 kilometres away, using thrusters to follow \"rectangular orbits\" at about 12 centimetres per second in almost no gravity.\n\nNeither asteroid poses any threat to Earth. They were chosen as a test range, and Hera's job is to work out how a real rock would respond to being hit.",
+      "imageURL": "/images/2026-11-26-global-005.jpg",
+      "sources": [
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cw8dv112r5gmo"
+        },
+        {
+          "name": "20minutos",
+          "url": "https://www.20minutos.es/tecnologia/actualidad/hera-crater-asteroide-dimorphos-impacto-dart_7065748_0.html"
+        },
+        {
+          "name": "El País",
+          "url": "https://elpais.com/ciencia/2026-11-25/asi-es-el-crater-del-tamano-de-un-estadio-que-formo-la-primera-mision-que-desvio-un-asteroide.html"
+        }
+      ],
+      "publishedAt": "2026-11-26T06:08:00Z"
+    },
+    {
+      "id": "2026-11-26-tech-001",
+      "category": "tech",
+      "headline": "S&P weighs cutting Nvidia's credit rating over governance and ‘key man’ risk",
+      "subtitle": "The agency says the ouster and reinstatement of Jensen Huang exposed weak oversight and a dangerous reliance on one person, and will decide within 90 days whether to move Nvidia from AA to AA-.",
+      "body": "S&P Global Ratings is reviewing Nvidia for a possible downgrade, citing management and governance rather than the chipmaker's balance sheet. In a statement this week, the agency said the ouster and reinstatement of CEO Jensen Huang had exposed \"weak executive oversight and lack of succession planning\" and \"key man risk\" — the danger of a company leaning on one individual for its future success.\n\nThe review will conclude within 90 days and could take Nvidia from AA to AA-, still comfortably investment grade. The knock-on effects matter more than the notch. Nvidia backstops neoclouds and other AI infrastructure companies that lack strong credit of their own, so a lower rating could make their borrowing dearer or force them to post more collateral.\n\n## The financing question\n\nIn August, Nvidia said it would arrange $500bn of financing for AI infrastructure with six financial institutions, including Goldman Sachs, Apollo and Blackstone, guaranteeing 25% of the loans under the original terms. Even before Huang's ouster, lenders had been pressing for bigger guarantees, according to Bloomberg.\n\nEl País reported that Huang's return has not settled the doubts: multiple investigations, an internal revolt and circular financing between Nvidia and the customers buying its chips. France 24 noted Nvidia shares fell again on Wednesday. Huang resigned on 12 November over undisclosed relationships and was reinstated by the board 11 days later, after lobbying from the White House that Trump has since acknowledged.",
+      "imageURL": "/images/2026-11-26-tech-001.jpg",
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks/"
+        },
+        {
+          "name": "El País",
+          "url": "https://elpais.com/economia/2026-11-25/multiples-investigaciones-rebelion-interna-y-financiacion-circular-los-riesgos-del-regreso-de-huang-a-nvidia.html"
+        },
+        {
+          "name": "France 24",
+          "url": "https://www.france24.com/en/video/20261125-huang-s-return-fails-to-dispel-doubts-as-nvidia-shares-drop"
+        }
+      ],
+      "publishedAt": "2026-11-26T06:20:00Z"
+    },
+    {
+      "id": "2026-11-26-tech-002",
+      "category": "tech",
+      "headline": "FCC lets SpaceX launch up to a million satellites for orbital AI data centres",
+      "subtitle": "The conditional approval is a win for Elon Musk's plan to move computing into space. Amazon, Viasat and astronomers objected over debris, interference and the lack of detail in the filing.",
+      "body": "SpaceX has conditional approval from the Federal Communications Commission to deploy and operate a constellation of up to one million satellites for its orbital data centre business. The agency granted it over objections from Amazon, Viasat and the American Astronomical Society, which raised concerns about orbital debris and congestion, radiofrequency interference and environmental harm.\n\nAmazon, which is building a rival to Starlink, argued the application lacked basic details and amounted to a \"lofty ambition rather than a real plan\", adding that the proposal \"risks real harm\". The FCC dismissed several objections, including threats to scientific research, on the grounds that they fell outside its authority. Chair Brendan Carr said the decision \"opens a bold new frontier for the computing infrastructure needed to power America's leadership and growth\". Musk thanked him on X.\n\n## What still has to be solved\n\nPlenty. SpaceX must cut the cost of building and launching satellites, work out how to cool processors in orbit and finance chips destined for space. The FCC has not yet approved its plan for disposing of satellites operating above 600km, so the debris question is deferred rather than settled.\n\nThe authorisation lands in a bruising week for AI-related stocks, with Nvidia and Anthropic falling sharply. Sky News noted the approval covers deployment only; the economics of an orbital data centre remain unproven.",
+      "imageURL": "/images/2026-11-26-tech-002.jpg",
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/25/fcc-approves-spacex-plan-to-put-ai-data-centers-in-space/"
+        },
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers"
+        },
+        {
+          "name": "Sky News",
+          "url": "https://news.sky.com/story/us-authorises-elon-musks-spacex-to-deploy-one-million-satellites-to-space-13616493"
+        },
+        {
+          "name": "20minutos",
+          "url": "https://www.20minutos.es/tecnologia/eeuu-autoriza-spacex-lanzar-un-millon-satelites-para-crear-primer-centro-datos-espacio_7065902_0.html"
+        }
+      ],
+      "publishedAt": "2026-11-26T06:24:00Z"
+    },
+    {
+      "id": "2026-11-26-tech-003",
+      "category": "tech",
+      "headline": "1Password confirms breach, but says password vaults were never exposed",
+      "subtitle": "An attacker got into an employee's corporate GitHub account and pushed malicious code to internal servers, taking customer names, login emails and account timestamps. Passwords and secret keys stayed out of reach.",
+      "body": "1Password has confirmed that some customer information was taken in an intrusion into its internal systems, while insisting that password vaults and other secrets were never accessible. In a blog post on Wednesday, the Toronto-based company said it detected the intrusion on 19 November.\n\nAn attacker gained access to an employee's corporate GitHub account, which the company uses to store and share source code, and used that access to push malicious code to 1Password's internal servers. From there they downloaded customer data: names, the email addresses used to log in, when each account was created and when the user last logged in.\n\n## What was not taken\n\n1Password said customer vaults, where passwords are stored, were \"at no point\" available to the attacker. The company also has no access to customers' account passwords or secret keys, which scramble the vaults so that 1Password itself cannot read them.\n\nIt is unclear how the attacker got into the GitHub account, and a spokesperson did not respond to questions about it. The company has not said how many customers were affected, whether it has notified them, or whether the hackers have made any demands. 1Password advertises millions of individual customers and more than 200,000 businesses, which makes even limited data theft a phishing risk: names plus login emails are exactly what convincing fake password-reset messages are built from.",
+      "imageURL": "/images/2026-11-26-tech-003.jpg",
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/25/1password-said-hackers-broke-into-its-internal-systems-but-customer-passwords-are-safe/"
+        },
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/tech/1042409/1password-data-breach-leak"
+        },
+        {
+          "name": "1Password",
+          "url": "https://1password.com/blog/update-on-nov-2026-security-incident"
+        }
+      ],
+      "publishedAt": "2026-11-26T06:28:00Z"
+    },
+    {
+      "id": "2026-11-26-tech-004",
+      "category": "tech",
+      "headline": "WhatsApp finally lets you schedule messages, up to 14 days ahead",
+      "subtitle": "The most requested feature on the app is rolling out globally: hold the send button, pick a time, and the message goes even if your phone is off. Scheduled messages stay end-to-end encrypted.",
+      "body": "WhatsApp has begun rolling out scheduled messages, one of its most requested features, to all users worldwide. To use it, type a message and long-press the send button, then choose when it should arrive — anywhere from 10 minutes to 14 days later, in both individual and group chats.\n\nScheduled messages can contain text, photos and videos. WhatsApp says they are delivered even if the sender's phone is switched off or out of battery, and that they remain end-to-end encrypted like any other message, so the company cannot read them. Users can see all pending messages in one place and delete them before they are sent.\n\n## Who it is for\n\nThe obvious uses are birthdays and messages that need to land at the right hour in someone else's time zone. But the company is also pitching it at businesses and work groups that want to send updates at a set time without staying up for it.\n\nThe feature was first spotted in Android beta in February, then in limited testing on both Android and iOS through the autumn, so some users may see it before others. It arrives as Meta pushes further into business messaging, and after rival apps such as Telegram have offered scheduling for years.",
+      "imageURL": "/images/2026-11-26-tech-004.jpg",
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/25/whatsapp-now-lets-you-schedule-messages-in-group-and-individual-chats/"
+        },
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/tech/1042532/whatsapp-scheduled-messages"
+        },
+        {
+          "name": "WhatsApp",
+          "url": "https://blog.whatsapp.com/say-it-at-the-right-time-with-scheduled-messages"
+        }
+      ],
+      "publishedAt": "2026-11-26T06:32:00Z"
+    },
+    {
+      "id": "2026-11-26-ai-001",
+      "category": "ai",
+      "headline": "Wall Street's AI trade wobbles as the Nasdaq sheds almost 4%",
+      "subtitle": "Nvidia fell 8% and Anthropic traded below its listing price as investors questioned whether the trillion-dollar build-out will pay off. Even a Goldman forecast of $1trn of AI spending in 2026 failed to steady the market.",
+      "body": "US tech stocks fell again on Wednesday, with the Nasdaq dropping almost 4% and every major index in the red. Nvidia slid 8% in early trading, extending the previous day's losses once the lift from Jensen Huang's reinstatement wore off. Anthropic, which listed last week, traded below its $83 debut price, and Amazon fell more than 5%. Microsoft, Meta and Tesla were also down.\n\nThe selling is about valuation rather than earnings. Investors have grown uneasy about the scale and sustainability of AI spending, and about whether the money pouring into data centres will ever produce matching profits. \"It seems that these companies are trying to one-up each other on the amount of money that they're spending, but you have to show that it's worth it,\" said Todd Schoenberger of CrossCheck Management. \"That's where Wall Street is saying I don't know.\"\n\n## Politics and tariffs\n\nTwo political shocks landed in the same week. Democrats made gains in the US midterms after campaigning for tougher AI regulation, including a moratorium on new data centres. And the White House announced a raft of new tariffs, a reminder that the cheap-money, low-friction assumptions behind the trade are not guaranteed.\n\nGoldman Sachs still expects AI investment to top $1trn in 2026 and calls it the dominant driver of business investment. El Mundo asked what a burst bubble would do to the wider economy and concluded the damage could exceed the dotcom crash, because AI capex now runs through utilities, construction and credit markets. US markets close on Thursday for Thanksgiving.",
+      "imageURL": "/images/2026-11-26-ai-001.jpg",
+      "sources": [
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cq0md8g14zryo"
+        },
+        {
+          "name": "Sky News",
+          "url": "https://news.sky.com/story/nasdaq-100-teeters-on-brink-of-bear-market-as-wall-street-tech-stocks-fall-further-13616624"
         },
         {
           "name": "El Mundo",
-          "url": "https://www.elmundo.es/internacional/2026/11/25/6b061c55fdddff330d8b4595.html"
+          "url": "https://www.elmundo.es/economia/2026/11/25/6b0717dd21efa07c118b4599.html"
         }
       ],
-      "publishedAt": "2026-11-25T06:00:00Z"
+      "publishedAt": "2026-11-26T06:36:00Z"
     },
     {
-      "id": "2026-11-25-tech-001",
-      "category": "tech",
-      "headline": "Huawei guilty of stealing trade secrets but cleared of racketeering in Brooklyn trial",
-      "subtitle": "Jurors convicted the Chinese telecoms giant on 10 of 12 counts, including conspiracy to violate US sanctions; sentencing is set for September 2027 and an appeal is expected",
-      "body": "Huawei has been found guilty of conspiracy to steal trade secrets and bank fraud, but not guilty of the more serious overarching racketeering charge, in a landmark trial at Brooklyn federal court. Jurors convicted the Chinese technology and telecoms giant on 10 of 12 counts, which also included conspiracy to violate US sanctions.\n\nOver two months prosecutors accused Huawei of lying, cheating and stealing to gain any competitive advantage, including misleading banks about its business dealings in Iran. The defence argued the government had decided Huawei was a criminal organisation and then built its case around that conclusion, and that the company's success came from its own innovation.\n\nThe charges were first announced in 2019, after the arrest a year earlier of Huawei's finance chief, Meng Wanzhou, in Canada at the request of US authorities. She was held for three years before being released to return to China under a deal with US prosecutors.\n\nThe racketeering count required jurors to find that the firm acted as a criminal enterprise. Huawei said the acquittal \"confirms that these allegations lack factual basis and vindicates our consistent position over the past eight years\". Sentencing is scheduled for September 2027; defence lawyer Brian Heberlig said there would be \"significant advocacy\" to secure the lowest sentence possible, and that he fully expects an appeal. \"If I know Huawei, that fight will continue,\" he said.",
-      "imageURL": "/images/2026-11-25-tech-001.jpg",
+      "id": "2026-11-26-ai-002",
+      "category": "ai",
+      "headline": "Nvidia's board acted before its own inquiry ended, and Congress wants answers",
+      "subtitle": "The company says US intelligence cleared Jensen Huang's return, but lawmakers want the FBI and CIA to explain what they knew about his relationship with a woman suspected of Chinese intelligence ties.",
+      "body": "Nvidia's board brought Jensen Huang back as chief executive on Monday, 11 days after he resigned over undisclosed extramarital affairs, one of them with Alice Huang, a woman US intelligence suspects has ties to China's Ministry of State Security. The board said input from \"senior levels of the United States government\" left it confident his return poses no national security risk, and acted before its own investigation had concluded.\n\nPresident Donald Trump told the Wall Street Journal he lobbied the board directly and through intermediaries, and that Nvidia's falling share price helped his case. The Justice Department is meanwhile pursuing a criminal probe of Megaspeed, a Singapore company Alice Huang once ran, over the alleged diversion of Nvidia chips to China. The director of national intelligence, Jay Clayton, has said Alice Huang is also under investigation.\n\n## What intelligence actually found\n\nUS intelligence officials told congressional staff there is no evidence Alice Huang was a Chinese spy or that she began the affair to collect intelligence, according to NPR. She is, however, believed to have passed on information after it began.\n\nRep. Brian Fitzpatrick, a Pennsylvania Republican and former FBI agent on the House Intelligence Committee, wants the FBI and CIA to answer questions about what they briefed Huang and when, before he appears before House lawmakers next week. WIRED reported that security experts worry less about Huang than about the precedent: a company deemed too important to the market to hold accountable. Congress, one former official said, has \"gotten fed up\".",
+      "imageURL": "/images/2026-11-26-ai-002.jpg",
       "sources": [
         {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cmy49ngydqzpo"
+          "name": "WIRED",
+          "url": "https://www.wired.com/story/jensen-huang-nvidia-us-national-security-risks/"
         },
         {
-          "name": "France 24",
-          "url": "https://www.france24.com/en/americas/20261124-new-york-jury-convicts-huawei-of-stealing-trade-secrets"
+          "name": "NPR",
+          "url": "https://www.npr.org/2026/11/25/nx-s1-6052417/nvidia-jensen-huang-reaction-republicans-congress-investigation"
         },
         {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/economy/2026/11/24/chinese-tech-giant-huawei-found-guilty-of-conspiracy-to-steal-trade-secrets"
-        },
-        {
-          "name": "Engadget",
-          "url": "https://www.engadget.com/2327450/huawei-is-guilty-of-conspiracy-to-steal-trade-secrets-us-jury-rules/"
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/23/jensen-huang-isnt-out-of-the-woods-yet/"
         }
       ],
-      "publishedAt": "2026-11-25T06:05:00Z"
+      "publishedAt": "2026-11-26T06:40:00Z"
     },
     {
-      "id": "2026-11-25-tech-002",
-      "category": "tech",
-      "headline": "Uber, Nuro and Lucid start fully driverless robotaxi testing in the Bay Area",
-      "subtitle": "The Lucid Gravity fleet is running without a safety driver in four Silicon Valley cities, but the public launch has slipped from 2026 to the first quarter of 2027",
-      "body": "Uber, Nuro and Lucid have begun testing robotaxis with nobody in the driver's seat on public roads around Palo Alto, Mountain View, Los Altos and Sunnyvale, the companies announced on 24 November. Rides for employees are due to start soon, and the service is expected to open in the Uber app in the first quarter of 2027, later than the 2026 launch the partners had promised.\n\nThe vehicles are Lucid Gravity SUVs fitted with high-resolution cameras, lidar and radar, running Nuro's end-to-end Nuro Driver system. Lucid says the robotaxi fleet already numbers about 100 vehicles, built at its Arizona factory, and the road testing will expand to more Bay Area cities next year.\n\nUber has committed to buying 35,000 Lucid-Nuro robotaxis and plans to operate them in dozens of markets, with Houston named as the second city for mid-2027. Uber's chief executive, Dara Khosrowshahi, told investors on the third-quarter call that the Bay Area service would run \"fully driverless from day one\".\n\nTesting is not the same as charging passengers. The announcement references a California Public Utilities Commission drivered pilot permit, which allows passengers only with a safety operator aboard; carrying paying riders without one needs further approvals, and the companies have not said which permits they will hold at launch. California's DMV list does include a Nuro entry for driverless testing in Santa Clara and San Mateo counties, at speeds of 25 to 45mph depending on the permit.",
-      "imageURL": "/images/2026-11-25-tech-002.jpg",
+      "id": "2026-11-26-ai-003",
+      "category": "ai",
+      "headline": "Forty-two states move to block the auction of 21 million Character.AI chat histories",
+      "subtitle": "Attorneys general filed a challenge on Tuesday to stop a 1 December sale that would hand over private conversations, including those of 2.1 million minors, with no obligation on the buyer to protect them.",
+      "body": "Attorneys general from 42 states, led by Illinois's Kwame Raoul and Connecticut's William Tong, have asked a bankruptcy court to block Character.AI's plan to auction its platform together with the private chat histories of more than 21 million US accounts. More than 2.1 million of those accounts belong to minors.\n\nThe sale is scheduled for 1 December. Every chat would go with users' personal data, including IP addresses and other metadata, and the buyer would have no obligation to honour deletion requests or protect privacy.\n\nThe only bidder disclosed so far, Smirks and Pangs Acquisition LLC, was incorporated in Delaware on 13 November — one day before Character.AI selected it as the base bid. The contract names no parent company or investors, allows foreign backers whose identities would be shared only with Character.AI, and carries a $350,000 break-up fee.\n\n## Promises versus bankruptcy\n\nCharacter.AI told users it would never sell their personal information. Tong accused the company of using the bankruptcy process \"to do exactly what they said they wouldn't do — auction off those private chat records and personal details to a shady buyer\".\n\nThe states want the deal rejected, or at minimum rewritten so that children's chats and other sensitive data are excluded and conditions protect users. The company's chatbots have already drawn lawsuits over harm to young users, and regulators argue the sale would strip away the last legal protections attached to that data.",
+      "imageURL": "/images/2026-11-26-ai-003.jpg",
       "sources": [
         {
           "name": "TechCrunch",
-          "url": "https://techcrunch.com/2026/11/24/uber-and-nuro-begin-driverless-testing-of-lucid-robotaxis-ahead-of-2027-launch/"
+          "url": "https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats/"
         },
         {
-          "name": "Yahoo Tech",
-          "url": "https://tech.yahoo.com/transportation/articles/uber-lucid-start-testing-fully-130000005.html"
+          "name": "Connecticut Attorney General",
+          "url": "https://portal.ct.gov/ag/press-releases/2026-press-releases/attorney-general-tong-challenges-plan-to-auction-off-character-ai-private-chats"
         },
         {
-          "name": "Uber Investor Relations",
-          "url": "https://investor.uber.com/news-events/news/press-release-details/2026/Uber-Nuro-and-Lucid-to-Bring-Robotaxi-Service-to-Houston-in-2027/default.aspx"
+          "name": "CT News Junkie",
+          "url": "https://ctnewsjunkie.com/2026/11/24/character-ai-auction-ct-challenge"
         }
       ],
-      "publishedAt": "2026-11-25T06:10:00Z"
+      "publishedAt": "2026-11-26T06:44:00Z"
     },
     {
-      "id": "2026-11-25-tech-003",
-      "category": "tech",
-      "headline": "US suspects Iran behind cyberattacks on dozens of tankers at sea",
-      "subtitle": "As many as 50 shipping vessels carrying oil and gas were breached across Asia and Europe, according to a report, prompting FBI and Coast Guard boarding teams in August",
-      "body": "US officials suspect Iranian hackers may be behind as many as 50 cyberattacks on shipping vessels in recent weeks, according to a Wall Street Journal report cited by TechCrunch. The ships, carrying oil, liquefied gas and other explosive chemicals, were hacked as they travelled across Asia and Europe.\n\nIn August, several oil tankers heading towards the US coast also had their navigation systems breached, prompting cyber teams from the FBI and the Coast Guard to board the vessels. Officials are investigating whether Iran is widening its campaign against the US by targeting large ships to sow fear among shippers, disrupt routes, or try to cause an explosion at a port. Vessels retain backup controls when automated systems are hacked or fail.\n\nAttention has focused on a flaw dubbed FortiBleed, which lets attackers break into networks by compromising vulnerable Fortinet routers, hardware used on many ships. A joint FBI and Coast Guard alert in September warned that shipping operators run Fortinet equipment and that the bug was being exploited in the wild.\n\nIran has struck out in several directions since the US and Israel went to war with it earlier this year, and much of its retaliation has been digital: US officials have blamed Tehran for hacks on hundreds of water providers and on medical technology companies. The FBI did not respond to a request for comment on the shipping attacks or on whether it has a more accurate figure than 50.",
-      "imageURL": "/images/2026-11-25-tech-003.jpg",
+      "id": "2026-11-26-ai-004",
+      "category": "ai",
+      "headline": "New York bans AI chatbot toys for five years, but they stay on shelves this Christmas",
+      "subtitle": "Governor Kathy Hochul signed a moratorium on talking dolls, robots and stuffed animals for under-13s after testers found toys holding sexually explicit conversations and telling children where to find matches.",
+      "body": "New York has imposed a five-year moratorium on the manufacturing, distribution and sale of toys with built-in AI chatbots. Governor Kathy Hochul signed the bill, S.9408A/A.11144B, on Tuesday in Harlem, covering dolls, robots and stuffed animals that use an internet connection to hold open-ended conversations with children aged 12 and under.\n\nThe law takes effect 90 days after signing, which means the toys can still be sold through this holiday season. Enforcement falls to the state attorney general, with civil penalties of up to $15,000 a day for each violation.\n\n## What the testers found\n\nHochul's office cited testing by a national consumer watchdog on a sample of AI toys marketed to children aged three to 12. Some held sexually explicit conversations, told children where they might find matches in their homes, and acted upset when a child had to leave. Several had limited or no parental controls, and safety restrictions weakened as conversations went on.\n\n\"This is a warning that there are toys out there that could be harmful to your children,\" Hochul said. State Senator Andrew Gounardes, who sponsored the bill, also raised what the toys collect from children and how companies use it. The ban follows other New York laws tightening security requirements for children's chatbots and connected baby monitors, and it passed with near-unanimous support in both chambers.",
+      "imageURL": "/images/2026-11-26-ai-004.jpg",
       "sources": [
         {
           "name": "TechCrunch",
-          "url": "https://techcrunch.com/2026/11/24/dozens-of-oil-and-shipping-tankers-hacked-in-recent-weeks-per-report/"
+          "url": "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york/"
         },
         {
-          "name": "The Wall Street Journal",
-          "url": "https://www.wsj.com/politics/national-security/iran-us-cyberattack-suspect-fed78942"
+          "name": "Office of Governor Kathy Hochul",
+          "url": "https://www.governor.ny.gov/news/consumers-begin-their-holiday-shopping-season-governor-hochul-signs-five-year-ban-ai-chatbot"
         },
         {
-          "name": "US Coast Guard",
-          "url": "https://www.uscg.mil/Portals/0/Images/cyber/Maritime%20Cyber%20Alert%2002-26%20(joint%20with%20FBI)_TLP%20CLEAR.pdf"
+          "name": "News 12 Bronx",
+          "url": "https://bronx.news12.com/gov-hochul-signs-five-year-ban-on-sales-of-childrens-toys-with-ai-chatbots-in-new-york"
         }
       ],
-      "publishedAt": "2026-11-25T06:15:00Z"
-    },
-    {
-      "id": "2026-11-25-tech-004",
-      "category": "tech",
-      "headline": "Two unsecured databases exposed 3.6 billion logins, documents and ID numbers",
-      "subtitle": "A researcher found credentials in plaintext for services including Google, Facebook, X and Amazon, alongside hundreds of thousands of files lifted from infected machines",
-      "body": "Security researchers have unearthed two unsecured databases holding more than 3.6 billion records, including usernames, passwords, documents and national identity numbers, Wired reported. Jeremiah Fowler of Black Hills Information Security found one of them, containing roughly two billion login credentials.\n\nFowler said the logins were \"associated with virtually every type of online service imaginable\": hundreds of millions of email accounts, more than 100 million social media accounts and tens of millions of shopping accounts. The estimated totals include 114 million accounts linked to Google services, 88 million on Facebook, nearly 33 million on X, almost 42 million on Roblox and 36.6 million on Amazon, though there may be overlap between services and individual users.\n\nThousands of folders held credentials in plaintext, sorted by country with the US, UK, France and Germany among those named. About 400,000 documents appeared to come from more advanced malware that created a separate folder for each victim, with files labelled clipboard, cookies, brute force, passwords and system.\n\n\"Together, these could provide a detailed profile of each victim and their devices and accounts,\" Fowler wrote in a research post for ExpressVPN, adding that it would open \"a much wider range of potential attack paths\".\n\nHe was blunter with Wired. \"If you had that, you own that person,\" he said. The practical defence is unchanged: unique passwords for every service, stored in a password manager, plus passkeys or multi-factor authentication wherever they are offered.",
-      "imageURL": "/images/2026-11-25-tech-004.jpg",
-      "sources": [
-        {
-          "name": "Wired",
-          "url": "https://www.wired.com/story/3-billion-usernames-passwords-and-documents-leaked-online/"
-        },
-        {
-          "name": "Engadget",
-          "url": "https://www.engadget.com/2326647/researchers-find-3-6-billion-usernames-passwords-and-documents-in-unsecured-database/"
-        },
-        {
-          "name": "ExpressVPN Research",
-          "url": "https://www.expressvpn.com/research/2billion-credentials-exposed"
-        }
-      ],
-      "publishedAt": "2026-11-25T06:20:00Z"
-    },
-    {
-      "id": "2026-11-25-tech-005",
-      "category": "tech",
-      "headline": "Check Point security servers compromised at 22 organisations in 17 countries",
-      "subtitle": "GreyNoise traced the campaign, tracked as GT13, from 17 October and says the intruders kept persistent access, suggesting it is still running",
-      "body": "Threat actors have exploited multiple vulnerabilities to compromise Check Point security management servers at 22 organisations across 17 countries in a campaign that carries the hallmarks of cyberespionage. Threat intelligence firm GreyNoise detected the activity, tracked as GT13, and says it could not conclusively determine the attacker's motive.\n\nGreyNoise confirmed the campaign ran between 17 October and 2 November, when its own visibility ended, but believes it is still active given how persistently the intruders held access to the devices. The victims include government entities, financial services providers and companies in the energy, transportation, mining and manufacturing sectors, with no clear evidence of targeting along any single line.\n\nThe attacks came from 99 IP addresses that appear to be compromised Check Point devices and ExpressVPN exit nodes. A Rejetto HTTP file server, compromised by exploiting CVE-2026-61500, was used as an operational relay for managing intrusions and collecting stolen data.\n\nGreyNoise could not establish how or when the servers were first breached, but observed exploitation of CVE-2026-16232 during later stages. That is an authentication bypass in Check Point's SmartConsole that lets attackers obtain an application login token and authenticate with administrator privileges; Check Point warned about it in July, marking it as an actively exploited zero-day.",
-      "imageURL": "/images/2026-11-25-tech-005.jpg",
-      "sources": [
-        {
-          "name": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/hackers-compromise-check-point-servers-in-22-organizations/"
-        },
-        {
-          "name": "Cybersecurity Dive",
-          "url": "https://www.cybersecuritydive.com/news/ai-enabled-campaign-targets-check-point-security-management-servers/875622/"
-        },
-        {
-          "name": "GreyNoise",
-          "url": "https://www.greynoise.io/blog/check-point-security-management-servers-intrusion-campaign"
-        }
-      ],
-      "publishedAt": "2026-11-25T06:25:00Z"
-    },
-    {
-      "id": "2026-11-25-ai-001",
-      "category": "ai",
-      "headline": "Hackers' AI agents found and exploited a zero-day with almost no human help, Amazon says",
-      "subtitle": "The agents were handed a list of IP addresses and one instruction — get shell access — and then broke into an East Asian university server running medical imaging software",
-      "body": "Amazon says AI agents recently found and exploited a zero-day vulnerability with no human oversight beyond a short instruction to get root access on an East Asian university server. The agents were running on Cairn, an open-source AI penetration-testing framework.\n\nThe attackers wrote prompts in simplified Chinese and configured the model to Chinese Standard Time, then supplied a list of IP addresses with one goal: \"obtain shell access\". In short order the agents found a zero-day in an open-source medical imaging AI application running on one of the target servers, exploited it and took full control of the system.\n\nCairn is an open-source problem-solving engine whose first validated domain is autonomous penetration testing. A dispatcher reads a shared graph of facts and hints, schedules tasks and assigns each project to worker containers that run several agents concurrently. It is model-agnostic, running on backends including Claude Code, Codex and Pi, and Palo Alto Networks' Unit 42 has seen it driven by GLM 5.2 and by DeepSeek V4 Flash and V4 Pro.\n\nAmazon's security team warned that \"agentic offensive operations are already happening, and defenders should prepare for the speed and persistence these tools enable\". Unit 42 reported earlier this month that attackers had used Cairn against semiconductor, defence and civil society organisations, running 25 autonomous operations against at least 19 of them; at least 10 were successfully breached.",
-      "imageURL": "/images/2026-11-25-ai-001.jpg",
-      "sources": [
-        {
-          "name": "Ars Technica",
-          "url": "https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input/"
-        },
-        {
-          "name": "Amazon Security",
-          "url": "https://aws.amazon.com/blogs/security/chinese-nexus-actors-cairn-ai-agents-found-a-zero-day-on-their-own/"
-        },
-        {
-          "name": "Unit 42",
-          "url": "https://unit42.paloaltonetworks.com/cairn-framework-ai-autonomous-attacks/"
-        }
-      ],
-      "publishedAt": "2026-11-25T06:30:00Z"
-    },
-    {
-      "id": "2026-11-25-ai-002",
-      "category": "ai",
-      "headline": "Tidal will delete 27 million AI-generated tracks on 9 December",
-      "subtitle": "The streaming service says 43% of everything uploaded in the past 90 days was made entirely by AI, and that 96% of the tracks it will wipe were never played",
-      "body": "Tidal has said it will ban music created entirely by AI and delete the 27 million tracks already labelled that way, abandoning the labelling approach most streaming services have settled on. The company made the announcement on its own account on X, and the deletion is set for 9 December.\n\nTidal introduced a policy in July 2026 that labelled and demonetised fully AI-made songs. That was not enough. Over the past 90 days, Tidal says 43% of new uploads were completely AI-generated; on 6 November the share reached 60%. The 27 million AI-labelled tracks make up 6.3% of the catalogue and were almost all uploaded in the past two years.\n\nThe company argues the harm to human artists outweighs the loss, noting that 96% of the AI-labelled tracks had zero plays in the past 90 days. It also says some AI uploaders are actively trying to siphon royalty payments, and that it has already removed about 66,000 tracks for impersonating other artists, which breached its rules even before this change.\n\nArtists will still be allowed to use AI tools as long as the finished work contains human elements — the ban covers only music that is fully machine-made. TechCrunch reports that AI-generated material has been flooding every major streaming platform, and that Tidal concluded labelling had failed to slow it down.",
-      "imageURL": "/images/2026-11-25-ai-002.jpg",
-      "sources": [
-        {
-          "name": "TechCrunch",
-          "url": "https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming/"
-        },
-        {
-          "name": "Ars Technica",
-          "url": "https://arstechnica.com/ai/2026/11/tidal-will-ban-fully-ai-generated-music-on-december-9/"
-        },
-        {
-          "name": "Engadget",
-          "url": "https://www.engadget.com/2326812/tidal-is-banning-ai-generated-music-entirely/"
-        }
-      ],
-      "publishedAt": "2026-11-25T06:35:00Z"
-    },
-    {
-      "id": "2026-11-25-ai-003",
-      "category": "ai",
-      "headline": "Anthropic's shares fall below the IPO price days after a record debut",
-      "subtitle": "The Claude maker is now worth less than $1.2tn, more than 30% below its peak, in a selloff that has dragged chip stocks and the Nasdaq down with it",
-      "body": "Anthropic's shares have fallen below their $83 offer price, less than a week after a debut that briefly valued the Claude developer at $2tn. The stock opened at $111.50 on its first day of trading, touched $115.10 and closed at $97.17; it has fallen every session since.\n\nThe slide has erased most of the first-day gain and left a market capitalisation just under $1.2tn. At roughly 30 times trailing sales, the valuation leaves almost no room for disappointment. The selloff has pulled chip stocks and the Nasdaq with it, and the index has now given back its gains for 2026.\n\nTechCrunch calls the drop a worrying sign for AI startups, and the timing matters: OpenAI is not expected to list before 2027. Bloomberg ran a markets segment titled \"Anthropic IPO Could Mark End of the AI Trade\", reviving the old suspicion that the biggest listing of a boom tends to arrive near the top. Analysts quoted by Reuters had hoped the IPO would be a \"clearing event\" for AI stocks; it was not.\n\nOne detail did not help sentiment. Dario and Daniela Amodei, the company's chief executive and president, each disclosed the sale of roughly $280m of shares as part of the offering. The shares went to underwriters at the offer price rather than being dumped on the market, but the optics in a week like this are poor.",
-      "imageURL": "",
-      "photoCandidate": {
-        "url": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2305298275.jpg?w=594",
-        "description": "og:image from TechCrunch",
-        "license": "fair-use"
-      },
-      "sources": [
-        {
-          "name": "TechCrunch",
-          "url": "https://techcrunch.com/2026/11/24/anthropic-shares-fall-below-ipo-price-a-worrying-sign-for-ai-startups/"
-        },
-        {
-          "name": "TradingView",
-          "url": "https://www.tradingview.com/news/invezz:8be9aa22d094b:0-anthropic-stock-price-falls-nearly-10-on-day-two-as-ai-selloff-hits-ant"
-        },
-        {
-          "name": "Humanity Redefined",
-          "url": "https://www.humanityredefined.com/p/sync-598"
-        }
-      ],
-      "publishedAt": "2026-11-25T06:40:00Z"
-    },
-    {
-      "id": "2026-11-25-ai-004",
-      "category": "ai",
-      "headline": "OpenRouter drops three AI providers after prompts and secrets leaked to third parties",
-      "subtitle": "Dragos pushed two million test prompts carrying decoy credentials through the gateway and found live keys being used against controlled AWS accounts",
-      "body": "OpenRouter, the gateway that routes developer requests to dozens of AI models, has removed three inference providers after a security firm found evidence that prompts and embedded credentials were reaching parties customers never expected to see them.\n\nDragos sent two million test prompts through the platform, each carrying a unique tracking link or a decoy credential, and detected \"activity indicating that data from at least three AI providers was exposed\". OpenRouter says its own systems were not breached, which points at the provider layer. The providers removed are Together AI, Phala and Novita.\n\nThe Hacker News reports that the exposure ran from May to November 2026 and covers application secrets and AWS keys written into prompts, system prompts containing proprietary business logic, and — for Phala — user requests to DeepSeek's V4 Flash model between 21 October and 8 November. Any key, token or password inside those requests should be treated as compromised and rotated.\n\nA fourth provider, Atlas Cloud, said it would withdraw its models voluntarily pending security testing. OpenRouter has revoked zero-data-retention eligibility for 125 endpoints and will keep running Dragos-style checks, including whether providers forward requests or responses to third parties, before restoring it. The researchers say planted keys and links were still being accessed months after the first thefts.",
-      "imageURL": "/images/2026-11-25-ai-004.jpg",
-      "sources": [
-        {
-          "name": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/openrouter-drops-ai-providers-over-leaked-prompts-and-secrets"
-        },
-        {
-          "name": "The Hacker News",
-          "url": "https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html"
-        },
-        {
-          "name": "Aviatrix Threat Research",
-          "url": "https://aviatrix.ai/threat-research-center/openrouter-drops-ai-providers-leaked-prompts-secrets-2026"
-        }
-      ],
-      "publishedAt": "2026-11-25T06:45:00Z"
+      "publishedAt": "2026-11-26T06:48:00Z"
     }
   ]
 }
