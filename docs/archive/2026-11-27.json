@@ -1,0 +1,618 @@
+{
+  "generatedAt": "2026-11-27T05:07:57Z",
+  "config": {
+    "sections": {
+      "local": {
+        "min": 1,
+        "max": 3,
+        "sources": [
+          {
+            "name": "El Progreso",
+            "url": "https://www.elprogreso.es"
+          },
+          {
+            "name": "La Voz de Galicia",
+            "url": "https://www.lavozdegalicia.es"
+          },
+          {
+            "name": "El Debate",
+            "url": "https://www.eldebate.com"
+          },
+          {
+            "name": "La Razón",
+            "url": "https://www.larazon.es"
+          }
+        ]
+      },
+      "national": {
+        "min": 3,
+        "max": 5,
+        "sources": [
+          {
+            "name": "El País",
+            "url": "https://elpais.com"
+          },
+          {
+            "name": "20minutos",
+            "url": "https://www.20minutos.es"
+          },
+          {
+            "name": "Europa Press",
+            "url": "https://www.europapress.es"
+          },
+          {
+            "name": "RTVE",
+            "url": "https://www.rtve.es"
+          },
+          {
+            "name": "elDiario.es",
+            "url": "https://www.eldiario.es"
+          },
+          {
+            "name": "Gobierno de Canarias",
+            "url": "https://www3.gobiernodecanarias.org"
+          }
+        ]
+      },
+      "northernIreland": {
+        "min": 1,
+        "max": 1,
+        "sources": [
+          {
+            "name": "BBC News NI",
+            "url": "https://www.bbc.co.uk/news/northern_ireland"
+          },
+          {
+            "name": "Belfast Telegraph",
+            "url": "https://www.belfasttelegraph.co.uk"
+          }
+        ]
+      },
+      "global": {
+        "min": 4,
+        "max": 8,
+        "sources": [
+          {
+            "name": "BBC News",
+            "url": "https://www.bbc.co.uk/news"
+          },
+          {
+            "name": "NPR",
+            "url": "https://www.npr.org"
+          },
+          {
+            "name": "Reuters",
+            "url": "https://www.reuters.com"
+          },
+          {
+            "name": "RNZ",
+            "url": "https://www.rnz.co.nz"
+          },
+          {
+            "name": "The Irish News",
+            "url": "https://www.irishnews.com"
+          }
+        ]
+      },
+      "tech": {
+        "min": 5,
+        "max": 5,
+        "sources": [
+          {
+            "name": "BBC News",
+            "url": "https://www.bbc.co.uk/news/technology"
+          },
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com"
+          },
+          {
+            "name": "The Verge",
+            "url": "https://www.theverge.com"
+          },
+          {
+            "name": "Engadget",
+            "url": "https://www.engadget.com"
+          },
+          {
+            "name": "The Register",
+            "url": "https://www.theregister.com"
+          },
+          {
+            "name": "The Decoder",
+            "url": "https://the-decoder.com"
+          },
+          {
+            "name": "CNBC",
+            "url": "https://www.cnbc.com"
+          }
+        ]
+      },
+      "ai": {
+        "min": 4,
+        "max": 7,
+        "sources": [
+          {
+            "name": "Ars Technica",
+            "url": "https://arstechnica.com/ai"
+          },
+          {
+            "name": "The Decoder",
+            "url": "https://the-decoder.com"
+          },
+          {
+            "name": "WIRED",
+            "url": "https://www.wired.com"
+          },
+          {
+            "name": "BBC News",
+            "url": "https://www.bbc.co.uk/news/technology"
+          },
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/category/artificial-intelligence/"
+          },
+          {
+            "name": "SiliconANGLE",
+            "url": "https://siliconangle.com"
+          }
+        ]
+      }
+    }
+  },
+  "articles": [
+    {
+      "id": "2026-11-27-local-001",
+      "category": "local",
+      "headline": "La A-54 encara su último tramo: Lugo y Santiago podrían quedar unidos por autovía antes de fin de año",
+      "subtitle": "El tramo entre Melide y Arzúa afronta sus semanas decisivas: faltan por asfaltar siete u ocho kilómetros de una calzada y por colocar los quitamiedos. La apertura llegaría con un año de retraso.",
+      "body": "El último tramo de la autovía A-54 entre Melide y Arzúa afronta sus semanas decisivas. Según fuentes oficiosas consultadas por El Progreso, si el tiempo acompaña, el vial podría abrirse al tráfico en la segunda quincena de diciembre y completar así la conexión por autovía entre Lugo y Santiago después de tres décadas de obras.\n\nLos trabajos se han intensificado de forma visible en el entorno de los enlaces de Arzúa Sur y Arzúa Oeste. Resta por extender la capa de rodadura en unos siete u ocho kilómetros de una de las calzadas, una operación que depende de que mejore el tiempo y que podría prolongarse alrededor de una semana. Los operarios ultiman además los quitamiedos, la señalización vertical y las marcas previas al pintado de la vía.\n\n## Treinta años y once ministros\n\nAunque no existe comunicación oficial, la intención sería poner la infraestructura en servicio antes del 23 de diciembre, fecha prevista para la constitución del Congreso y el Senado. De cumplirse ese calendario, la autovía entraría en funcionamiento con un Gobierno en funciones, después de que once ministros de Transportes y cinco presidentes hayan pasado por el expediente.\n\nLa apertura llegaría, en el mejor de los escenarios, un año más tarde de lo anunciado por Óscar Puente en febrero de 2025, cuando aseguró que la autovía estaría completamente operativa antes de terminar ese mismo año. El coste del tramo Melide-Arzúa ronda los 119 millones de euros tras acumular unos 30 de sobrecoste, según La Voz de Galicia.\n\nCon el trazado completo, el trayecto entre Lugo y Santiago quedaría en unos 50 minutos, frente a los 100 que se tardan actualmente por la N-547.",
+      "imageURL": "/images/2026-11-27-local-001.jpg",
+      "sources": [
+        {
+          "name": "El Progreso",
+          "url": "https://www.elprogreso.es/ulloa-melide/54-acelera-final-obra-completar-conexion-santiago-antes-final-ano/202611270500002016857.html"
+        },
+        {
+          "name": "La Voz de Galicia",
+          "url": "https://www.lavozdegalicia.es/noticia/galicia/2026/09/23/autovia-a-54-melide-arzua-roza-119-millones-euros-tras-sumar-30-millones-sobrecoste-cuatro-anos-retraso/00031790173778878540762.htm"
+        },
+        {
+          "name": "El Debate",
+          "url": "https://www.eldebate.com/espana/galicia/20261109/autovia-santiagolugo-obra-infinita-30-anos-esperas-plazos-rebasados_473804.html"
+        }
+      ],
+      "publishedAt": "2026-11-27T05:40:00Z"
+    },
+    {
+      "id": "2026-11-27-local-002",
+      "category": "local",
+      "headline": "Detenido un hombre por agredir a una auxiliar de enfermería en el HULA",
+      "subtitle": "El arrestado, que acompañaba a un familiar ingresado, agarró por el cuello a la trabajadora e intentó golpear a la enfermera que acudió en su ayuda tras activarse el timbre de la habitación.",
+      "body": "La Policía Nacional ha detenido en Lugo a un hombre acusado de agredir a una auxiliar de enfermería del Hospital Universitario Lucus Augusti (HULA) mientras la trabajadora se disponía a atender a un paciente ingresado.\n\nEl arrestado acompañaba a un familiar. Según la versión policial, agarró por el cuello a la auxiliar e intentó impedir que abandonase la habitación. La sanitaria consiguió activar el timbre y una enfermera acudió en su ayuda, momento en que el hombre la soltó y lanzó un puñetazo que rozó a la segunda profesional, que logró esquivarlo. Ambas pudieron salir del cuarto.\n\nEl detenido está acusado de un delito de atentado contra funcionario público. Según fuentes policiales citadas por los medios lucenses, la agresión se produjo en una planta de hospitalización del complejo sanitario.",
+      "imageURL": "/images/2026-11-27-local-002.jpg",
+      "sources": [
+        {
+          "name": "El Progreso",
+          "url": "https://www.elprogreso.es/lugo/detenido-acompanante-paciente-agredir-auxiliar-enfermeria-hula/202611261155352016729.html"
+        },
+        {
+          "name": "La Voz de Galicia",
+          "url": "https://www.lavozdegalicia.es/noticia/lugo/2026/11/26/detenido-agredir-auxiliar-enfermeria-hula/00031795690277276401644.htm"
+        },
+        {
+          "name": "La Razón",
+          "url": "https://www.larazon.es/galicia/detenido-golpear-agarrar-cuello-auxiliar-enfermeria-hospital-lugo_202611266b081e4a5cb1082f89b5aaad.html"
+        }
+      ],
+      "publishedAt": "2026-11-27T05:40:00Z"
+    },
+    {
+      "id": "2026-11-27-national-001",
+      "category": "national",
+      "headline": "Sánchez y Feijóo cruzan acusaciones en el último debate a cuatro antes del 29N",
+      "subtitle": "A dos días de las elecciones, el presidente buscó equiparar a PP y Vox mientras Abascal le llamaba «enemigo público número uno» y Colau marcaba el ritmo. Feijóo prometió dimitir si no gobierna.",
+      "body": "Pedro Sánchez y Alberto Núñez Feijóo volvieron a medirse este jueves en el debate a cuatro de Tres Cantos, el último cara a cara de la campaña y el que debía desequilibrar unas elecciones que se deciden el domingo.\n\nSánchez abandonó la contención del debate anterior y buscó presentar al PP y a Vox como dos caras de la misma alternativa. Feijóo y Santiago Abascal no se enfrentaron entre ellos y dirigieron todos sus ataques contra el balance del Gobierno de coalición.\n\nAda Colau, candidata de Frente Amplio, marcó el ritmo en varios tramos. Abrió recordando a las 49 mujeres asesinadas por violencia machista y pidió al resto de aspirantes que condenaran esa violencia, una exigencia que mantuvo ante Abascal durante todo el debate. Feijóo llegó a decirle «y usted, calladita», una frase que Sánchez calificó de machista.\n\n## Dimisión, aforamientos y trenes\n\nEn el bloque de regeneración, Sánchez preguntó a Feijóo si reconocerá el resultado del 29N. El líder del PP respondió que espera presidir el Gobierno y que dimitirá si no lo consigue, y le retó a renunciar al aforamiento si pierde. Abascal llamó a Sánchez «enemigo público número uno» y «buitre», y el presidente replicó que los ataques personales pertenecen a un reality.\n\nLa vivienda abrió el debate, con el compromiso de Feijóo de construir un millón de pisos frente a la defensa socialista de la ley de vivienda y el «boicot» autonómico que atribuye a PP y Vox. El ferrocarril centró el tramo final: Feijóo reprochó a Sánchez no haber evitado el accidente de Urda después de la tragedia de Adamuz, y Colau reclamó una auditoría y un pacto de Estado. La campaña termina este viernes.",
+      "imageURL": "/images/2026-11-27-national-001.jpg",
+      "sources": [
+        {
+          "name": "20minutos",
+          "url": "https://www.20minutos.es/nacional/sanchez-feijoo-mantienen-su-pulso-con-un-abascal-duro-una-colau-incisiva_7066464_0.html"
+        },
+        {
+          "name": "Europa Press",
+          "url": "https://www.europapress.es/nacional/noticia-sanchez-insta-feijoo-reconocer-resultado-29n-lider-pp-le-reta-renunciar-aforamiento-si-pierde-20261126234957.html"
+        },
+        {
+          "name": "Europa Press",
+          "url": "https://www.europapress.es/nacional/noticia-feijoo-carga-contra-gestion-sanchez-dana-dirige-colau-usted-calladita-20261126232740.html"
+        }
+      ],
+      "publishedAt": "2026-11-27T05:45:00Z"
+    },
+    {
+      "id": "2026-11-27-national-002",
+      "category": "national",
+      "headline": "El hundimiento del petrolero Med Emre frente a Ibiza deja un muerto y activa la alerta por vertido",
+      "subtitle": "El buque, con bandera de Malta y 7.000 toneladas de gasóleo, volcó a 25 millas de la isla. Los tanques están intactos y una mancha de 2,6 millas no procede de la carga, según Capitanía.",
+      "body": "El buque quimiquero Med Emre, de bandera maltesa y 120 metros de eslora, volcó en la noche del miércoles a unas 25 millas náuticas al noroeste de Ibiza cuando navegaba de Algeciras a Barcelona con 17 tripulantes y cerca de 7.000 toneladas de gasóleo. Uno de los marineros ha fallecido y otros siete fueron trasladados a hospitales de Valencia y de la isla; cuatro siguen ingresados en una clínica privada con hipotermia, deshidratación e intoxicación por hidrocarburos.\n\nEl barco no se hundió del todo: permanece semisumergido, lo que según el director general de Emergencias del Govern balear, Pablo Gárriz, facilita las tareas de recuperación al permitir trabajar en superficie en lugar de a un kilómetro de profundidad. Salvamento Marítimo movilizó el buque anticontaminación Clara Campoamor y un avión para evaluar la posible fuga.\n\n## Una mancha de 2,6 millas\n\nLa Capitanía Marítima de València ha detectado una mancha oleosa e irisada de 2,6 millas, con características propias del gasóleo. Su titular, Elena Delgado, ha precisado que no procede de los tanques ni de la carga, que están intactos, sino de residuos que permanecían a bordo. El Gobierno ha activado el Plan Marítimo Nacional en situación 2 y, de forma preventiva, el Plan Ribera.\n\nLos expertos consultados descartan una catástrofe comparable a la del Prestige: el Med Emre tiene doble casco y transporta gasóleo, mucho menos viscoso que el fuelóleo y más fácil de dispersar. El buque se encuentra, sin embargo, junto a una zona protegida de la Red Natura 2000 y a las praderas de posidonia declaradas Patrimonio de la Humanidad.",
+      "imageURL": "/images/2026-11-27-national-002.jpg",
+      "sources": [
+        {
+          "name": "RTVE",
+          "url": "https://www.rtve.es/noticias/20261126/buque-petrolero-ibiza-med-emre-accidente-riesgo-vertido/17331721.shtml"
+        },
+        {
+          "name": "elDiario.es",
+          "url": "https://www.eldiario.es/illes-balears/sociedad/muerto-7-000-toneladas-gasoil-naufragio-inesperado-claves-vuelco-barco-med-emre-frente-ibiza_1_13696344.html"
+        },
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/c9gklryvj24do"
+        }
+      ],
+      "publishedAt": "2026-11-27T05:45:00Z"
+    },
+    {
+      "id": "2026-11-27-national-003",
+      "category": "national",
+      "headline": "El Hierro supera los 2.600 migrantes en tres días y recibe a la UME y a la ministra Sira Rego",
+      "subtitle": "La isla, de unos 11.400 habitantes, encadena una semana de llegadas récord: 120 militares se despliegan para tareas de triaje mientras Canarias alerta de la presión sobre los menores tutelados.",
+      "body": "Dos cayucos más entraron en La Restinga en la madrugada del jueves, el último con 109 ocupantes a bordo, y elevaron por encima de 2.600 las personas llegadas a El Hierro en apenas tres días. El miércoles habían atracado seis embarcaciones con 523 personas; el martes, 14 cayucos llevaron a la isla a unos 2.000 migrantes, la cifra más alta registrada en un solo día en España.\n\nLa respuesta del Estado empezó a llegar ese mismo jueves. Unos 120 militares de la UME, procedentes de unidades de Canarias y de las bases de Torrejón y Morón, se despliegan para tareas de triaje y estabilización de patologías agudas. La ministra de Defensa, Margarita Robles, aseguró que se instalarán «los medios que sean necesarios» desde el punto de vista sanitario.\n\n## Menores y tutela\n\nLa ministra de Juventud e Infancia, Sira Rego, visitó la isla para reunirse con el presidente del cabildo, Alpidio Armas, conocer el hospital de campaña y hablar con el personal de Salvamento Marítimo Humanitario. Canarias calcula que tiene a su cuidado unos 3.500 menores no acompañados y que hasta el martes habían llegado 1.100 más, por encima de los 920 derivados a otras comunidades en todo 2026.\n\nEl Alto Comisionado de la ONU para los Refugiados advierte de que cada vez llegan más niños y niñas, muchos huyendo de conflictos, y recuerda que la ruta canaria sigue siendo una de las más letales: cerca de 600 personas han muerto o desaparecido en lo que va de año.",
+      "imageURL": "/images/2026-11-27-national-003.jpg",
+      "sources": [
+        {
+          "name": "El País",
+          "url": "https://elpais.com/espana/2026-11-26/otro-cayuco-con-109-personas-eleva-a-mas-de-2600-las-llegadas-de-migrantes-a-el-hierro-en-tres-dias.html"
+        },
+        {
+          "name": "Gobierno de Canarias",
+          "url": "https://www3.gobiernodecanarias.org/noticias/canarias-declara-la-emergencia-sanitaria-en-el-hierro-para-coordinar-la-llegada-masiva-de-migrantes-a-la-isla"
+        },
+        {
+          "name": "BBC Mundo",
+          "url": "https://www.bbc.com/mundo/articles/c5vgjg9dvjgzo"
+        }
+      ],
+      "publishedAt": "2026-11-27T05:45:00Z"
+    },
+    {
+      "id": "2026-11-27-northernIreland-001",
+      "category": "northernIreland",
+      "headline": "PFI schools will cost Northern Ireland more than £1bn above their build price",
+      "subtitle": "Nineteen schools built in the early 2000s were valued at £366m but will cost over £1.5bn by the 2030s. Education Minister Paul Givan calls the scheme flawed and says he would not repeat it.",
+      "body": "The Northern Ireland Executive will pay more than £1bn above what it cost to build 19 schools, all of them constructed in the early 2000s under the Private Finance Initiative.\n\nThe buildings were valued at £366m when they went up. Department of Education figures given to the assembly suggest the executive will hand over more than £1.5bn by the time the contracts expire in the 2030s, with almost £60m paid in 2025/26 alone. Under PFI, the state did not buy the schools outright but contracted private firms to build and maintain them for 25 to 30 years.\n\nThe schools are spread across Belfast, Bangor, Derry, Downpatrick, Carryduff, Comber, Portglenone, Strabane and Dundonald, and include Holy Cross College in Strabane and St Mary's and St Cecilia's colleges in Derry.\n\n## 'It isn't something I would do'\n\nEducation Minister Paul Givan said he had examined whether PFI could be a more effective way to deliver new schools given the pressure on his budget, and that every assessment had come back negative. \"You end up paying far more over the lifetime of that school build,\" he said, describing the scheme as flawed and the maintenance contracts as hugely costly to the taxpayer.\n\nThe figures emerged in answer to a question from DUP assembly member Michelle McIlveen. The Belfast Telegraph reported calls for urgent answers over how the executive \"wasted\" more than £1bn, and a 2014 Northern Ireland Audit Office review had already warned that the repayments would weigh on Stormont's budget into the 2030s. Ministers have still not agreed a budget for 2026/27.",
+      "imageURL": "/images/2026-11-27-northernIreland-001.jpg",
+      "sources": [
+        {
+          "name": "BBC News NI",
+          "url": "https://www.bbc.co.uk/news/articles/cmqlq04l9r6eo"
+        },
+        {
+          "name": "Belfast Telegraph",
+          "url": "https://www.belfasttelegraph.co.uk/news/politics/urgent-answers-needed-over-how-executive-wasted-more-than-1-billion-on-pfi-contract-for-new-schools/a/165133662.html"
+        },
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.co.uk/news/business-42724939"
+        }
+      ],
+      "publishedAt": "2026-11-27T05:50:00Z"
+    },
+    {
+      "id": "2026-11-27-global-001",
+      "category": "global",
+      "headline": "Two Italian technicians killed in drone strike in Kuwait as Iran denies involvement",
+      "subtitle": "Kuwait's army blamed 'heinous Iranian aggression' for the attack on an air-defence site where the Rheinmetall employees were working. Tehran offered a joint investigation and hinted at a false flag.",
+      "body": "Two Italian technicians have been killed in a drone attack on a military site in Kuwait, an attack Kuwait's army attributed to Iran and Tehran denied within hours.\n\nThe two were employees of Rheinmetall Italia, the Italian unit of the German defence group, and were working at an air-defence surveillance station used by the Kuwaiti armed forces when it was hit. Italy's foreign minister, Antonio Tajani, told the Senate that both died after a powerful explosion. A Kuwaiti army captain and a Pakistani national were also injured, mostly by falling shrapnel after drones were detected and intercepted.\n\n## Denials and a rival account\n\nIran's chief armed forces spokesman, Abolfazl Shekarchi, said no Iranian military or offensive operations had been conducted in the area, and suggested the strike could be a false-flag operation by Israel or the United States without offering evidence. Foreign minister Abbas Araghchi repeated the denial in calls with his Kuwaiti and Italian counterparts, and said Tehran was ready to join an investigation into the incident's origin. Iran's embassy in Rome also rejected the claim.\n\nGiorgia Meloni offered condolences to the victims' families. The attack came just over a week after Kuwait said it had repelled overnight drone raids on an airbase hosting US forces — the first strikes on the country in more than two months.\n\nThe wider conflict began when the US and Israel attacked Iran in late February. Iran has since struck Israel and Gulf states hosting American bases and personnel, while fighting for control of the Strait of Hormuz.",
+      "imageURL": "/images/2026-11-27-global-001.jpg",
+      "sources": [
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/c39w9y5dx4k5o"
+        },
+        {
+          "name": "NDTV",
+          "url": "https://www.ndtv.com/world-news/2-italians-killed-in-drone-strike-in-kuwait-iran-denies-responsibility-12382629/amp/1"
+        },
+        {
+          "name": "The Canberra Times",
+          "url": "https://www.canberratimes.com.au/story/9399160/iran-denies-attack-on-kuwait-as-two-italians-killed"
+        }
+      ],
+      "publishedAt": "2026-11-27T05:55:00Z"
+    },
+    {
+      "id": "2026-11-27-global-002",
+      "category": "global",
+      "headline": "Zelensky tells BBC the US is too focused on the Middle East to push Russia hard enough",
+      "subtitle": "In an interview in Kyiv, Ukraine's president said delayed Patriot deliveries are costing lives, questioned Trump's friendship with Putin and confirmed Starlink is still restricted in occupied areas.",
+      "body": "Volodymyr Zelensky has accused Washington of concentrating on the Middle East at Ukraine's expense and of failing to press Moscow hard enough in peace talks, saying the resulting shortage of interceptors is measured in lives.\n\nSpeaking to the BBC at his office in Kyiv, Zelensky said his forces can now destroy about 70 per cent of Russia's fastest drones but face a very large deficit of missiles capable of stopping ballistic attacks, and that deliveries of Patriot systems had slipped. \"It's a pity they made a focus on Middle East and they help them more,\" he said, warning that the shortfall would be felt through the winter.\n\nHe also called it \"strange\" that Donald Trump had posted a picture of himself embracing Vladimir Putin as a friend. \"He's an aggressor, and a killer. He can't be a friend,\" Zelensky said, comparing it to claiming friendship with Hitler during the Second World War.\n\n## Talks, ships and satellites\n\nNegotiations mediated in Abu Dhabi earlier this month produced no visible progress, and Zelensky said the next round is expected in December, with European participation still unresolved. He defended Ukraine's long-range strikes, including one that sank the Russian warship Merkury docked in eastern Libya, calling it an absolutely fair target while conceding such operations are dangerous.\n\nHe confirmed that Starlink and its military variant Starshield remain restricted over occupied Ukrainian territory, leaving interceptor drones unable to catch Russian attack drones. Asked who ordered that, Zelensky said he did not know whether the decision was SpaceX's or political. He also warned of a major Russian attempt to knock out Ukraine's power grid in the coming days.",
+      "imageURL": "/images/2026-11-27-global-002.jpg",
+      "sources": [
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/c820q9wgrpyyo"
+        },
+        {
+          "name": "The Irish News",
+          "url": "https://www.irishnews.com/news/world/zelensky-warns-of-imminent-major-russian-attack-on-ukraines-power-grid-4ESHQUFFFBOQNHLTP7EEFCDBMI/"
+        },
+        {
+          "name": "UA.NEWS",
+          "url": "https://ua.news/en/dovkolo-svitu/zelenskii-zaiaviv-pro-zatrimki-ssha-z-postachanniam-patriot-bbc-news"
+        }
+      ],
+      "publishedAt": "2026-11-27T05:55:00Z"
+    },
+    {
+      "id": "2026-11-27-global-003",
+      "category": "global",
+      "headline": "Storm forces first postponement of Macy's Thanksgiving parade in its 100-year history",
+      "subtitle": "The parade moves to Saturday as a coastal storm brings flooding, power outages and gusts above 50mph from Georgia to New England. New Jersey and parts of New York declared emergencies.",
+      "body": "Macy's has postponed its Thanksgiving Day parade for the first time in a century, moving the event to Saturday morning after a strengthening coastal storm made it unsafe to fly the giant balloons through Manhattan.\n\nThe company said it had consulted city officials before delaying the 100th edition, which will now start at 08:30 on 28 November. New York's mayor, Zohran Mamdani, said safety had to come first. Across the region, governors moved faster: Mikie Sherrill placed the whole of New Jersey under a state of emergency on Wednesday night, and Kathy Hochul did the same for parts of New York.\n\nThe National Weather Service said the system would disrupt flights at eastern airports from Thursday into Friday morning, with reduced visibility, turbulence, strong crosswinds and aircraft icing. Gusts of 50mph or more were forecast along the Interstate 95 corridor, with wind advisories stretching from northern Georgia through the mid-Atlantic to southern New England.\n\n## Both coasts hit\n\nCoastal communities from North Carolina to New Jersey flooded as the morning high tide came in. Avalon, on the New Jersey shore, saw some of the worst flooding in its history, according to the borough's business administrator, with roads closed and emergency crews pulling people from stranded cars.\n\nThe West Coast was not spared. Heavy rain and high surf hit California, while snow fell across parts of the interior, complicating road travel during what is traditionally one of the busiest weeks of the American year.",
+      "imageURL": "/images/2026-11-27-global-003.jpg",
+      "sources": [
+        {
+          "name": "NPR",
+          "url": "https://www.npr.org/2026/11/26/nx-s1-6054079/storms-expected-on-both-coasts-as-millions-travel-for-thanksgiving"
+        },
+        {
+          "name": "CBS New York",
+          "url": "https://www.cbsnews.com/newyork/news/macys-thanksgiving-day-parade-postponed"
+        },
+        {
+          "name": "The Irish News",
+          "url": "https://www.irishnews.com/news/world/heavy-rain-wind-and-flooding-plague-much-of-us-on-thanksgiving-holiday-VEZHGRAO35IUFF2FZNIWW5HWMA/"
+        }
+      ],
+      "publishedAt": "2026-11-27T05:55:00Z"
+    },
+    {
+      "id": "2026-11-27-global-004",
+      "category": "global",
+      "headline": "New Zealand's ruling coalition loses its majority by one seat and must court a newcomer",
+      "subtitle": "Final results leave National, ACT and New Zealand First on 65 seats, level with the combined opposition. The centrist Opportunity Party, with seven seats, now decides whether the country returns to the polls.",
+      "body": "New Zealand's governing coalition has lost its parliamentary majority by a single seat, leaving the country's next government dependent on a centrist party that did not exist in parliament before this election.\n\nThe official count from the 7 November election gives National 40 of 130 seats, with its partners ACT on 13 and New Zealand First on 12. That bloc holds 65 seats — exactly the number mustered by Labour on 36, the Greens on 17, Te Pāti Māori on five and the Opportunity Party on seven. Special votes, cast by voters overseas or outside their electorate, cost National two seats; the Greens gained one.\n\nWith 65 seats each, neither side can govern alone, and a Labour-led administration is arithmetically impossible even with Opportunity's support. That makes Opportunity, led by Qiulae Wong, the pivot. She has said she will negotiate first with the party holding the most seats, which points back to National and Prime Minister Christopher Luxon, but a deal is not guaranteed. If talks fail, New Zealand could be back at the polls.\n\n## A diminished mandate\n\nNational's party vote fell to 28.4 per cent from 38.1 per cent in 2023, while Labour rose to 29.9 per cent — the first time in this cycle that Labour has drawn more party votes than National. Turnout reflected a sour mood shaped by a sluggish economy, high living costs, rising unemployment and record numbers of New Zealanders emigrating to Australia.\n\nRecount applications are due within three working days of the declaration, so the numbers are not yet beyond challenge.",
+      "imageURL": "/images/2026-11-27-global-004.jpg",
+      "sources": [
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/c670278qk879o"
+        },
+        {
+          "name": "RNZ",
+          "url": "https://www.rnz.co.nz/news/politics_election-2026/2820329/election-2026-final-results-coalition-loses-majority-another-election-possible"
+        },
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/world/asia-pacific/new-zealands-ruling-coalition-falls-just-short-majority-final-election-count-2026-11-27"
+        }
+      ],
+      "publishedAt": "2026-11-27T05:55:00Z"
+    },
+    {
+      "id": "2026-11-27-tech-001",
+      "category": "tech",
+      "headline": "Nvidia adds $1tn as Jensen Huang is reinstated and tech stocks surge",
+      "subtitle": "Shares in the chipmaker jumped 30% after the board voted unanimously to bring back its co-founder, less than two weeks after he resigned over an affair with a woman alleged to be a Chinese spy.",
+      "body": "Nvidia shares opened 30% higher on Thursday after the company reinstated Jensen Huang as chief executive with immediate effect, adding roughly $1tn to its market value and dragging the rest of the tech sector up with it.\n\nThe board voted unanimously to bring back its co-founder after what the company described as a series of discussions. Huang had resigned less than two weeks earlier after admitting an affair with a woman alleged to be a Chinese spy, a period in which the stock fell nearly 14% in a single day following reports, which the BBC could not confirm, that the SEC was examining its accounting.\n\nThe rebound lifted the Nasdaq 6.5% in early trading. Microsoft and Amazon each rose almost 4%, Apple less than 2%, while chipmakers gained hardest: Micron jumped 19%, Intel 14% and AMD nearly 7%. Kathleen Brooks of the brokerage XTB said Huang had a talismanic influence over the sector, and that directors could not see a future for Nvidia without him.\n\n## Washington is not finished\n\nThe political risk has not gone away. Within a day of the reinstatement, the US moved to blacklist Megaspeed, an Asian firm caught up in the Nvidia scandal, and reports said officials have pressed cloud providers to rule out Chinese renters before selling them GPU capacity.",
+      "imageURL": "/images/2026-11-27-tech-001.jpg",
+      "sources": [
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cq62pn6j42jko"
+        },
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/26/stock-markets-today-.html"
+        },
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/26/nvidia-market-governance-risk.html"
+        },
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cv98xpg5dg5zo"
+        }
+      ],
+      "publishedAt": "2026-11-27T05:55:00Z"
+    },
+    {
+      "id": "2026-11-27-tech-002",
+      "category": "tech",
+      "headline": "Nvidia pauses AI server shipments to four Southeast Asian countries",
+      "subtitle": "Malaysia, Singapore, Thailand and Indonesia have stopped receiving Nvidia systems after Washington tightened export controls, complicating the region's data-centre build-out.",
+      "body": "Nvidia has halted shipments of its AI servers to Malaysia, Singapore, Thailand and Indonesia after the US tightened export controls on advanced computing hardware, according to reports on Thursday.\n\nThe pause hits the four countries hardest because they have become the transit route for chips heading towards China, and because their governments have spent the past two years courting data-centre investment on the assumption that Nvidia supply would keep flowing. The company has not said how long the freeze will last.\n\n## Asia's bet goes sour\n\nThe timing is awkward. Across Southeast Asia, states and conglomerates have staked billions on AI capacity: Johor's data-centre corridor, Singapore's national compute programmes and Thai and Indonesian sovereign cloud projects all depend on Nvidia systems arriving on schedule.\n\nWashington's concern is diversion rather than the region itself. Reports this month said US officials have pressed cloud providers to vet customers and rule out Chinese renters before selling GPU capacity, and that a blacklist is being used against intermediaries accused of rerouting hardware. Beijing, meanwhile, has been pushing domestic alternatives and restricting access to its own markets in response.\n\nThe practical effect is a two-speed industry: buyers with US clearance get allocation, everyone else waits. For the region's AI ambitions, the constraint is no longer electricity or land but the export licence attached to a rack of GPUs.",
+      "imageURL": "/images/2026-11-27-tech-002.jpg",
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/"
+        },
+        {
+          "name": "Engadget",
+          "url": "https://www.engadget.com/2329200/nvidia-reportedly-halts-chip-shipments-to-southeast-asia/"
+        },
+        {
+          "name": "The Decoder",
+          "url": "https://the-decoder.com/nvidia-halts-server-shipments-to-malaysia-singapore-thailand-and-indonesia-after-tighter-us-export-controls/"
+        },
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cqevr4lnd1nxo"
+        }
+      ],
+      "publishedAt": "2026-11-27T05:55:00Z"
+    },
+    {
+      "id": "2026-11-27-tech-003",
+      "category": "tech",
+      "headline": "Huawei convicted of stealing trade secrets but cleared of racketeering",
+      "subtitle": "A Brooklyn jury found the company guilty on 10 of 12 counts, including bank fraud and conspiracy to breach sanctions, after a two-month trial over charges first filed in 2019.",
+      "body": "Huawei has been convicted of conspiracy to steal trade secrets and of bank fraud by a federal jury in Brooklyn, capping a two-month trial that prosecutors framed as a case about how the company grew.\n\nJurors found Huawei guilty on 10 of 12 counts, which also included conspiracy to violate US sanctions. They declined, however, to convict on the racketeering conspiracy charge, which would have required them to conclude the company operated as a criminal enterprise. Huawei said the acquittal confirmed that the wider allegations lacked factual basis.\n\nProsecutors argued that Huawei spent two decades lying to banks about its business in Iran and taking technology from rivals, including T-Mobile and Cisco. Defence lawyer Brian Heberlig told jurors the company had reached operations in 170 countries and more than 200,000 staff through hard work, and described the racketeering count as a significant overreach.\n\n## A case eight years in the making\n\nThe charges were announced in 2019, after the arrest of finance chief Meng Wanzhou in Canada, who was held for three years before returning to China under a deal with US prosecutors.\n\nSentencing is scheduled for September 2027. Heberlig said there would be significant advocacy for the lowest possible penalty, and that he expects Huawei to appeal. Analysts expect fines and compliance obligations rather than a corporate break-up, though the conviction gives Washington a firmer footing for further restrictions on Chinese telecoms equipment.",
+      "imageURL": "/images/2026-11-27-tech-003.jpg",
+      "sources": [
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cmy49ngydqzpo"
+        },
+        {
+          "name": "Ars Technica",
+          "url": "https://arstechnica.com/tech-policy/2026/11/jury-convicts-huawei-of-stealing-us-trade-secrets-evading-iran-sanctions/"
+        },
+        {
+          "name": "The Register",
+          "url": "https://www.theregister.com/legal/2026/11/25/jury-finds-huawei-stole-us-tech-laundered-money-and-broke-sanctions/5312024"
+        }
+      ],
+      "publishedAt": "2026-11-27T05:55:00Z"
+    },
+    {
+      "id": "2026-11-27-tech-004",
+      "category": "tech",
+      "headline": "Rockstar staff reject union recognition by three votes to one",
+      "subtitle": "Some 1,544 UK employees voted in a ballot held during the launch of GTA VI, with 75% against formal recognition of the IWGB. The union says it will keep organising.",
+      "body": "Workers at Rockstar Games have voted against recognising a union by 75% to 25%, in a ballot that ran across the launch week of Grand Theft Auto VI.\n\nSome 1,544 employees at the company's Edinburgh, Leeds, Lincoln, Dundee and London offices took part — a turnout of 93.2% — and 1,163 voted against a formal recognition agreement with the Independent Workers' Union of Great Britain. The vote covered pay, overtime and bonuses, redundancies, leave, pensions and the use of artificial intelligence.\n\nThe result lands awkwardly next to the launch. GTA VI has reportedly generated $3.79bn in pre-orders and first-day sales, making it one of the biggest entertainment releases in history, at a time when studios across the industry are cutting staff.\n\n## Tribunal still pending\n\nA separate case remains live. Rockstar fired 31 workers in 2025, saying they had leaked company secrets; the union called it union busting and brought claims to a UK employment tribunal, which heard closing arguments last week. A judgment is pending.\n\nThe IWGB said the ballot was not a retreat. Hundreds of colleagues voted in favour, it said, and organisers would double down on building support. Rockstar has not commented publicly on the result. For the union, the more useful lever may prove to be the tribunal rather than the ballot box.",
+      "imageURL": "/images/2026-11-27-tech-004.jpg",
+      "sources": [
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cq4gnze58gx6o"
+        },
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/games/1043169/rockstar-games-union-vote-iwgb"
+        },
+        {
+          "name": "Engadget",
+          "url": "https://www.engadget.com/2329177/workers-gta-6-studio-rockstar-games-vote-against-union-recognition/"
+        },
+        {
+          "name": "Polygon",
+          "url": "https://www.polygon.com/rockstar-game-workers-union-vote-gta-6"
+        }
+      ],
+      "publishedAt": "2026-11-27T05:55:00Z"
+    },
+    {
+      "id": "2026-11-27-tech-005",
+      "category": "tech",
+      "headline": "X introduces parental controls, twenty years after it launched",
+      "subtitle": "Accounts belonging to 13- to 17-year-olds will default to a protected mode that limits sensitive media and blocks targeted advertising, the platform's first such tools.",
+      "body": "X has begun rolling out parental controls for the first time, two decades after the service launched, with accounts belonging to users aged 13 to 17 placed into a protected mode by default.\n\nThe setting restricts sensitive media, limits who can interact with a teen account and switches off targeted advertising. Parents can adjust some options and review their child's activity from their own account.\n\nThe feature arrives long after rivals. Meta introduced teen accounts with parental supervision in 2024 and has been tightening them since, while WhatsApp added optional parental controls for teenagers in October. Regulators in the UK and the EU have spent two years pressing platforms to switch on protections for minors by default, and these are X's first tools aimed at that demand.\n\nThe limits are structural. Because the protections follow the birth date an account was registered with, they apply only where that date is accurate, and the platform has no independent age-verification system. Campaigners have argued for years that self-declared ages leave the youngest users outside exactly the settings designed for them.\n\nFor parents, the practical question is whether a protected mode changes much on a platform whose recommendation engine still decides what a teenager sees next.",
+      "imageURL": "/images/2026-11-27-tech-005.jpg",
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/26/x-finally-gets-parental-controls-after-20-years/"
+        },
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/news/1043078/x-parental-controls-features"
+        },
+        {
+          "name": "Engadget",
+          "url": "https://www.engadget.com/2329049/x-is-adding-its-first-ever-parental-controls/"
+        }
+      ],
+      "publishedAt": "2026-11-27T05:55:00Z"
+    },
+    {
+      "id": "2026-11-27-ai-001",
+      "category": "ai",
+      "headline": "A proof of the Riemann hypothesis, written with Claude, leaves mathematicians reeling",
+      "subtitle": "Levent Alpöge, a mathematician working at Anthropic, says Claude helped him crack a problem open since the 1850s. Researchers are still digesting a paper he has hinted is partly in jest.",
+      "body": "Mathematicians are still working through an announcement that a proof of the Riemann hypothesis — the most famous open problem in the field — was produced with help from an AI system.\n\nThe claim came from Levent Alpöge, a mathematician who has been working at Anthropic, who said he used Claude to generate the proof. His announcement is written in a florid style and he has apparently hinted that parts of it were meant in jest, which has complicated the task of taking it seriously. The proof itself has not yet been fully checked.\n\n## Why it landed so hard\n\nEven so, the episode has rattled a discipline that has absorbed several AI-driven breakthroughs in a matter of weeks. Proving the Riemann hypothesis would have consequences for number theory and cryptography, but it is unlikely to change anyone's daily life directly.\n\nThat is the argument Scott Aaronson, a complexity theorist and former OpenAI researcher, makes in a new blog post. What matters, he writes, is that a machine can do this kind of work at all, and that it is now producing not one-off answers but whole families of results, including lower bounds that show where faster algorithms run out of room. He calls it a new continent of mathematical truth, previously glimpsed through fog. Asked what it means for the rest of us, he says the honest answer is that nobody knows, and that opinions differ sharply.",
+      "imageURL": "/images/2026-11-27-ai-001.jpg",
+      "sources": [
+        {
+          "name": "Ars Technica",
+          "url": "https://arstechnica.com/ai/2026/11/whats-going-on-with-the-riemann-hypothesis/"
+        },
+        {
+          "name": "The Decoder",
+          "url": "https://the-decoder.com/former-openai-researcher-says-the-riemann-proof-matters-less-than-the-fact-that-an-ai-system-can-produce-it/"
+        },
+        {
+          "name": "Ars Technica",
+          "url": "https://arstechnica.com/ai/2026/11/ai-can-do-the-calculations-physicists-are-figuring-out-what-comes-next/"
+        }
+      ],
+      "publishedAt": "2026-11-27T05:58:00Z"
+    },
+    {
+      "id": "2026-11-27-ai-002",
+      "category": "ai",
+      "headline": "Meta's shopping agent Muse meets resistance from Amazon and UK regulators",
+      "subtitle": "The financial watchdog says Meta turned down a joint test of Muse in its sandbox, while Amazon has blocked the agent from its store. British retailers are already working with Meta.",
+      "body": "Meta's AI shopping assistant Muse is running into friction on two fronts, days before it launches in the UK.\n\nThe Financial Conduct Authority says Meta declined a suggestion made last week that the two jointly test Muse in the regulator's sandbox. Colin Payne, the FCA's head of innovation, said a stream of agentic products, most of them American, is arriving in the British market and the regulator wants to see how they behave — particularly how payments are made on a customer's behalf.\n\nHe conceded the testing would have taken weeks to arrange, and that Meta only told the regulator of its plans last month. The Competition and Markets Authority has already required Meta to change its UK terms so that it must use reasonable skill and care when providing Muse, while the Information Commissioner stressed that users must be able to control how the tool uses their data.\n\n## Blocked at the checkout\n\nThe commercial obstacle is just as awkward. Amazon has blocked Muse from its store, and the two companies are reportedly in talks to lift the blockade. British grocers and retailers including Sainsbury's, Marks & Spencer, Ocado, Debenhams and Currys have been working with Meta to smooth Muse's access to their sites, suggesting the agent works elsewhere but not at the largest online shop of all. The BBC's own week with Muse found it helpful but awkward.",
+      "imageURL": "/images/2026-11-27-ai-002.jpg",
+      "sources": [
+        {
+          "name": "WIRED",
+          "url": "https://www.wired.com/story/meta-refused-to-share-muse-for-testing-uk-financial-watchdog-complains/"
+        },
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/c9gkld2l38y6o"
+        },
+        {
+          "name": "The Decoder",
+          "url": "https://the-decoder.com/amazon-and-meta-are-in-talks-to-end-the-block-on-metas-ai-shopping-agent-muse-in-amazons-online-store/"
+        },
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse/"
+        }
+      ],
+      "publishedAt": "2026-11-27T05:58:00Z"
+    },
+    {
+      "id": "2026-11-27-ai-003",
+      "category": "ai",
+      "headline": "A billing slip means GPT-6.2 Astra users now hit their limits 40% faster",
+      "subtitle": "A pricing error during the GPT-6.2 rollout handed out the wrong discounts for a week. Fixing it shortened quotas, just as OpenAI starts merging ChatGPT's chat and work modes.",
+      "body": "OpenAI has corrected a billing error from the launch of GPT-6.2 that had been quietly giving subscribers a bigger allowance than they were paying for.\n\nThe mistake affected discounts on GPT-6.2 Astra and Sol. Once patched, users hit their limits about 40% faster on Astra and 25% faster on Sol than they did last week, according to Thibault Sottiaux, an engineer on the Codex team. He said quotas should still last longer than they did on GPT-6 Astra and GPT-6.1 Sol, that no one will be charged retroactively, and that every Go, Plus, Pro and Business subscriber gets an extra saved reset as compensation. Business accounts also get free access to Fast Mode until the end of the year.\n\n## Two modes become one\n\nThe correction lands at an awkward moment. OpenAI is testing a merger of ChatGPT's Chat and Work modes with a group of Pro users, folding conversations into a single environment where the model decides whether to answer directly or spin up an agentic workflow. Work mode is more capable and more expensive to run, which is why the company is testing it on a limited pool before a wider rollout.\n\nAnthropic has already made the same move with Claude, merging chat and its Cowork agent into one product. For heavy users, the pattern is clear: agents that do more also consume more, and the generous early limits of the first GPT-6.2 week were an accounting artefact rather than a pricing decision.",
+      "imageURL": "/images/2026-11-27-ai-003.jpg",
+      "sources": [
+        {
+          "name": "The Decoder",
+          "url": "https://the-decoder.com/gpt-6-2-astra-users-now-hit-limits-40-faster-after-openai-patched-a-pricing-error/"
+        },
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/"
+        },
+        {
+          "name": "Techmeme",
+          "url": "https://www.techmeme.com/261126/p16#a261126p16"
+        }
+      ],
+      "publishedAt": "2026-11-27T05:58:00Z"
+    },
+    {
+      "id": "2026-11-27-ai-004",
+      "category": "ai",
+      "headline": "US chip curbs and anti-distillation are already slowing China's AI labs",
+      "subtitle": "DeepSeek, Moonshot and Alibaba are facing delays as Washington restricts remote access to Nvidia chips abroad. Moonshot has cancelled a $150m Blackwell order in Indonesia.",
+      "body": "Chinese AI developers are running into delays on existing projects as two American pressure points bite at once: restricted access to advanced Nvidia chips in overseas data centres, and better defences against model distillation, according to a report in The Information.\n\nDeepSeek, Moonshot AI and Alibaba have been under pressure since September. Internally, DeepSeek researchers estimated that their gap to the best American models could widen from three to six months to about nine if distillation — the practice of training on another model's outputs — disappeared entirely. Moonshot has already cancelled a $150m order for Nvidia Blackwell chips destined for Indonesia.\n\nThe labs are improvising. Some are trying to rent computing power through non-Chinese intermediaries, and companies including MiniMax, MiHoYo and Alibaba are leaning harder on domestic silicon. Others are putting more money into their own training data so reinforcement learning does not depend on a rival's outputs.\n\n## Data is the new front\n\nAccess to data is closing too. After OpenAI and Anthropic restricted the use of their material, at least one Chinese developer has been turning to Google and Meta instead, a reminder that the constraint is not only hardware but the corpora that make a frontier model useful. US officials have meanwhile been examining the Chinese ties of some American cloud partners, the middlemen through which capacity has been reaching restricted buyers.",
+      "imageURL": "/images/2026-11-27-ai-004.jpg",
+      "sources": [
+        {
+          "name": "The Decoder",
+          "url": "https://the-decoder.com/us-chip-access-curbs-and-anti-distillation-measures-are-reportedly-already-slowing-chinese-ai-labs/"
+        },
+        {
+          "name": "The Decoder",
+          "url": "https://the-decoder.com/after-openai-and-anthropic-shut-the-door-on-their-data-a-chinese-ai-developer-is-turning-to-google-and-meta-instead/"
+        },
+        {
+          "name": "SiliconANGLE",
+          "url": "https://siliconangle.com/2026/11/26/report-sheds-light-on-china-ties-of-some-us-based-nvidia-partners/"
+        }
+      ],
+      "publishedAt": "2026-11-27T05:58:00Z"
+    }
+  ]
+}
