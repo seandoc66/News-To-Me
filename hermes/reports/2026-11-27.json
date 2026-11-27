@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-27",
+  "published": true,
+  "publishedAt": "2026-11-27T05:08:55Z",
+  "sections": {
+    "present": ["local", "national", "northernIreland", "global", "tech", "ai"],
+    "missing": []
+  },
+  "storiesWithoutPhoto": [],
+  "validatorWarnings": [],
+  "validatorErrors": [],
+  "workarounds": [
+    "el Pais and RTVE RSS feeds were still serving a 2020 corpus, so national was built from elpais.com article URLs found via search plus 20minutos, Europa Press, RTVE and elDiario article pages.",
+    "Reuters, NDTV and Belfast Telegraph returned 403 to curl; all three were treated as bot-blocks and kept as sources after confirming the article exists.",
+    "Nvidia, GTA VI and X stories were sourced by cross-matching TechCrunch, Verge, Engadget, The Register, The Decoder and CNBC feeds, because per-story search would have blown the research cap.",
+    "Candidate URL for a Register story on the Megaspeed blacklist 404'd on verification and was replaced with the BBC's Megaspeed article before publish.",
+    "Android developer address story was dropped: only The Verge and Android Authority covered it, one short of the three-source minimum."
+  ],
+  "needsHumanAttention": false,
+  "humanAttentionReason": null,
+  "notes": "Six sections, 19 stories, 19 photos. Three of five tech stories are Nvidia-related (Huang reinstated, Southeast Asia shipment pause, Megaspeed blacklist) because that dominated the day's tech reporting. The local A-54 story rests on El Progreso's 'fuentes oficiosas' for a second-half-of-December opening; no official date has been given."
+}
