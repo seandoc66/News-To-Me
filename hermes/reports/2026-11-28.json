@@ -1,0 +1,23 @@
+{
+  "date": "2026-11-28",
+  "published": true,
+  "publishedAt": "2026-11-28T05:07:50Z",
+  "sections": {
+    "present": ["local", "national", "northernIreland", "global", "tech", "ai"],
+    "missing": []
+  },
+  "storiesWithoutPhoto": [
+    { "id": "2026-11-28-ai-004", "section": "ai" }
+  ],
+  "validatorWarnings": [],
+  "validatorErrors": [],
+  "workarounds": [
+    "UNI Global Union's campaign URL (uniglobalunion.org/news/map26) entered a redirect loop and could not be verified; replaced with Anadolu Agency's report of the same strike action in global-003.",
+    "unkernel.dev was rejected as a section/home page source; replaced with the project's GitHub release page in tech-005.",
+    "The ai-004 photo candidate was Techmeme's 328x328 thumbnail, too small to fill a card, so that story ships without an image (app renders the category gradient).",
+    "AP, NYT, Sky News, Reuters, SCMP, eani.org.uk and newsletter.co.uk returned 403/401 to curl — bot-blocks, treated as inconclusive per the link-verification rule; all resolved in a browser and in the cached feeds."
+  ],
+  "needsHumanAttention": false,
+  "humanAttentionReason": null,
+  "notes": "Full six-section edition, 20 stories, 19 photos. Research came mostly from cached RSS (16 Spanish/NI feeds plus Al Jazeera, NPR, France 24, Sky, CBC, DW, The Register, Ars Technica, BleepingComputer, Engadget, 9to5Mac, Techmeme) with 15 web_search calls total. tech-003 (Nvidia Blackwell in Shanghai) and ai-001 (LAUSD blocking AI Overviews) are follow-ons to themes from the 27 November edition but use different facts and sources."
+}
